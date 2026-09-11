@@ -1,0 +1,43 @@
+<!-- Source: https://www.alvarezandmarsal.com/content/alumni-spotlight-maneesha-khandelwal | Title: Alumni Spotlight: Maneesha Khandelwal | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/content/alumni-spotlight-maneesha-khandelwal#main-content)
+# Alumni Spotlight: Maneesha Khandelwal
+Maneesha Khandelwal, a former Director with Alvarez & Marsal’s (A&M) [Private Equity Performance Improvement (PEPI)](https://www.alvarezandmarsal.com/expertise/private-equity-performance-improvement) practice from 2008 to 2014, is currently the Chief Operating Officer of NexTerra Wine Company, a premier wine producer headquartered just outside of Chicago. 
+In the following Q&A, Ms. Khandelwal shares the biggest challenge she’s overcome as COO, how she utilized her time at A&M to gain knowledge and exposure and her best advice for her daughters. 
+**What ultimately brought you to A &M?**
+I became acquainted with A&M because the company in which I got my first job out of college had filed for Chapter 11 bankruptcy a week after I started. My team worked closely with A&M in restructuring the company. That was my initial exposure to what A&M was initially known for. My second job was at a smaller consulting firm prior to A&M, and I eventually wanted a broader consulting experience and knew A&M could give that to me. When I joined A&M in 2008, PEPI did not exist. I started in [Corporate Performance Improvement (CPI)](https://www.alvarezandmarsal.com/expertise/corporate-performance-improvement) and then transitioned over to PEPI. While I was in CPI, I started working on projects for PEPI. PEPI would pluck people from different groups, and I was one of the team members that landed on PEPI projects. I really enjoyed the projects and wanted to transfer over to PEPI, and my request was granted. 
+**Looking back at your time with A &M, what did you enjoy the most? **
+I love working in teams. The mentality of the team was a “work hard, play hard” environment. People are very collaborative, and I had the opportunity to learn a lot and still have fun at the same time. I appreciated the nonhierarchical structure where Managing Directors would work alongside analysts. There was so much collaboration and willingness to teach and learn from one another and that’s part of the reason I stayed at A&M for as long as I did.
+I also greatly appreciated that I was able to provide feedback on the projects I liked and didn’t like, and leadership listened and helped navigate me towards projects that I desired. It’s very much part of my personality to ask to be staffed on certain projects and it is important in consulting, or any career, to ensure you have a voice for yourself. You must be an advocate for yourself because opportunities are not always going to be handed to you. 
+It was also important to me that, while at A&M, I gain exposure to different types of operational projects from due diligence to performance improvement to working with different company sizes and industries. I was able to get that depth of experiences. And sure enough, my background from A&M has always been something that people have loved when they’ve called me for a role. 
+**Whom do you consider to be your closest mentors during your time at A &M? What is the best piece of advice you have received from a mentor?**
+I worked closely with Riddhish Dubal while I was at A&M. When I left A&M to go to industry, he told me something that has always stuck with me. He said, “You’re going to learn a lot about yourself going from consulting to industry. Dealing with clients in consulting versus running a business is very different.” Your understanding of boundaries and how to deal with people in industry is very different than in consulting. 
+Additionally, I was always able to talk to and learn from [Ajay Raina](https://www.alvarezandmarsal.com/our-people/ajay-raina), [Michael Simoncic](https://www.alvarezandmarsal.com/our-people/michael-simoncic) and Gabe Mesanza. They were all willing to coach me and give advice. I could have that mentorship but also joke around with them. We dealt with a lot and worked a ton, but we also were able to have fun. 
+**What were your top three takeaways after working at A &M? **
+  1. How to deal with ambiguity. In business, you have to be comfortable with uncertainty and coming up with solutions just based on the information you have. 
+  2. How to get things done in a short amount of time. Multi-task, be efficient and effective in your work. The due diligence work I did while at A&M demanded a lot of this.
+  3. Options matter. There was rarely a time that I presented a one-and-done solution for a client. There are usually multiple paths that can be taken but it comes down to the considerations and risk tolerance.
+
+
+**In August 2022, you stepped into a new role as Chief Operating Officer of NexTerra Wine Company. How did you end up at NexTerra?**
+Prior to NexTerra, I had been at my previous company for eight years. I loved the company and had built great relationships but felt that it was time to move on. The opportunity at NexTerra presented itself and I grabbed it. 
+**What are some challenges you have had to overcome as COO?**
+Building trust and credibility. Getting people to buy into my approach and vision for the future while also ensuring that they feel seen, heard and recognized for what they have accomplished and where they are coming from. The people side is the hardest part of it. You need and want them to be on your side, so it is important to understand why they are where they are and that goes from the CEO all the way down. 
+**What are the key qualities and skills a COO should have?**
+A successful COO needs to have integrity, be personable and objective. It’s important to be able to take emotion out of the decision-making process because it’s not personal, it’s business. It’s also important to be a visionary and bring things to life in a way people can understand and execute those plans accordingly. You need to see the forest through the trees and see what people don’t see. 
+**How do you differentiate yourself from other leaders?**
+I try to be compassionate from a leadership perspective. I can be very hands-on, but I want to be able to coach people to grow so they can build confidence, see what they can do for themselves, and reach their full potential. I have had to pivot and learn quite a bit over the years as a manager because not every person and situation is the same. A successful manager is constantly evolving. You need to be a chameleon. It’s all about finding the best ways to get the results you want.
+**What advice would you give your daughters?**
+Live in the moment and really enjoy it because tomorrow is unknown. Be confident in yourself, know that being different is a good thing, and always be kind, caring and loving.
+The truth is that life is not fair. But what really matters is how you choose to handle that unfairness and whether or not you allow it to define or consume you versus growing and becoming stronger and better from it. 
+[Campus Spotlight: Eduardo Tonaco](https://www.alvarezandmarsal.com/content/campus-spotlight-eduardo-tonaco)
+In this Q&A, Eduardo reflects on A&M’s core value of Objectivity, sharing how it shapes his work and professional growth
+[Alumni Spotlight: Daniel Propp](https://www.alvarezandmarsal.com/content/alumni-spotlight-daniel-propp)
+Entrepreneur Daniel Propp reflects on how his time as an A&M Consultant gave him the skills, vision, and values to build two thriving businesses from the ground up. 
+[A Walking Dinner Tour Through Munich](https://www.alvarezandmarsal.com/content/walking-dinner-tour-through-munich)
+In May, the Alvarez & Marsal Alumni Network gathered alumni and colleagues in Munich for the annual event, this year included a walk and dinner, reconnecting through a shared evening in the city. 
+[Historias de Crecimiento: Álvaro Casas Iriarte](https://www.alvarezandmarsal.com/es/content/historias-de-crecimiento-alvaro-casas-iriarte)
+Álvaro Casas Iriarte es Analista en el área de Restructuring & Special Situations de Alvarez & Marsal México. Egresado de Economía por el ITAM, inició su trayectoria en A&M como intern y hoy continúa desarrollando su carrera dentro de la firma como analista.
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/60541--en)
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

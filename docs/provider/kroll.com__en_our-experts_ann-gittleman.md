@@ -1,0 +1,45 @@
+<!-- Source: https://www.kroll.com/en/our-experts/ann-gittleman | Title: Ann Gittleman | Expert Services | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Ann Gittleman
+##### Managing Director and Co-Head Expert Services, North America
+[Ann Gittleman](https://www.linkedin.com/in/ann-gittleman-walier-a054832/)[+1 212 871 2000](tel:+1%20212%20871%202000)ann.gittleman@kroll.com
+AT A GLANCE 
+Ann Gittleman, CPA, CFF, ABV, CIRA, Esq is a Managing Director and co-head of the North America Expert Services for Kroll, based in New York City. Her practice is focused on providing dispute consulting services to a variety of clients, including law firms, corporations, insurance companies, governmental agencies, universities, not-for-profits, law enforcement bodies and self-regulatory organizations.
+Ann has acted as an expert and neutral accountant on technical accounting issues (GAAP and IFRS), including but not limited, to revenue recognition, expense understatement and inventory valuation. She has acted as an expert in cases involving civil and criminal financial fraud, Ponzi Schemes, post-acquisition disputes, tax fraud, SEC enforcement actions, commercial business damages, business valuations, GAAS, fraudulent transfer and preference claims, shareholder disputes, breaches of contract and breaches of fiduciary duty.
+Ann has over two decades worth of forensic experience and has led significant U.S. and international projects in Europe, South America, the Caribbean and China. Ann has been retained as a testifying expert in numerous matters, including breach of representation and warranties, asset tracing, accounting reconstruction, fraud and corruption, valuation and solvency, financial reporting and the application of GAAP/IFRS, GAAS and damages.
+Ann joined Kroll (f/k/a Duff & Phelps) with the acquisition of Kinetic Partners, where she was a director and co-head of the New York Forensic and Dispute Services practice. Ann joined Kinetic Partners from a prestigious New York law firm where she practiced securities litigation and provided in-house forensic accounting consulting services. Previously, Ann worked on auditor negligence matters as an in-house forensic accountant and legal assistant at the Office of the General Counsel at PricewaterhouseCoopers (PwC). Prior to that, she was an auditor at PwC in New York City.
+Ann received her J.D. from Brooklyn Law School and her B.S./B.A. in both accounting and computer information science from Bryant University. She is a Certified Public Accountant, Certified in Financial Forensics, a Certified Insolvency and Restructuring Advisor, and Accredited in Business Valuation. Ann is also a licensed attorney admitted in both New York and Massachusetts, and a member of the American Institute of Certified Public Accountants, the New York City Bar Association and the Association of Certified Fraud Examiners.
+**Representative Engagements**
+  * Acted as the Independent Forensic Accountant for the Financial Oversight and Management Board for Puerto Rico (FOMB) to investigate and quantify the amount of liquidity in the government of Puerto Rico. Performed a multi-year independent forensic accounting analysis of the Commonwealth’s government agencies to determine unrestricted cash available for creditors in the Title III bankruptcy. Reviewed the books and records of almost 200 agencies. Created a report that was produced to U.S. Congress.
+  * Retained by an insurance provider to advise on a RWI claim involving an alleged breach due to the loss of a material customer for the target company (a cable/internet provider). Performed an analysis to determine whether a breach occurred and to quantify the amount of damages incurred by the Insured as a result of the lost customer.
+  * Retained by both parties in an arbitration to act as the neutral accountant in a dispute involving two former partners of a quant hedge fund. Performed a forensic review of the company’s accounting records and bank statements, conducted numerous interviews, and ultimately recomputed the capital account balances of the partners in the fund. Prepared an expert report based on our conclusions. 
+  * Retained as an expert witness for the buyer of a home security company in post-acquisition dispute litigation in Delaware Chancery Court related to allegation of fraudulent financial reporting. Analysis included review of accounting and other business records for indicia of fraud associated with the company’s reporting of annual recurring revenue (ARR). Submitted expert report.
+  * Retained by various law firms representing the Board of Directors of a University and Foundation to review the books and records and perform a forensic investigation to determine if the financial statements were prepared in accordance with US GAAP. Reviewed the budgeting process, purchases of real estate, donations and various related party loans. Produced an expert report.
+  * Retained by the SEC to perform a review of audit workpapers of a small CPA firm in connection with its annual financial statement audits of a publicly registered media production company to determine if the audits were performed in accordance with GAAS. Analyzed six years of audit workpapers and prepared an expert report based on our findings. 
+  * Retained by the FDIC in a matter to opine on whether a series of transactions were sales in accordance with GAAP.
+  * Retained by law firm as consultant to provide forensic accounting and financial advisory services in a $3.5 billion-dollar Ponzi scheme of Thomas Petters.
+  * Retained by a law firm for trustee as litigation management trustee to handle highly contentious litigation and oversee large-scale asset tracing assignment.
+  * Retained by a law firm with a dispute involving a casino. Reviewed casino’s books and records and issued an opinion on damages resulting from breach of contract.
+  * Retained by a law firm for insurance company to review and quantify alleged damages in law firm claim for business interruption damages from Hurricane Sandy.
+
+
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+Ann Gittleman Discusses Credit Due Diligence in 9fin
+Counterparty fraud is reshaping how to approach due diligence in private credit —and Kroll’s experts are at the center of that shift.
+In a new 9fin article examining the recent wave of credit blowups, Ann Gittleman, Co Head of Expert Services at Kroll, highlights the surge in demand for deeper executive vetting and a deeper dive into a company’s financial statements as lenders reassess how they evaluate lenders.
+Ann notes that clients are seeking more comprehensive reviews than ever before: “Especially in light of all these very big headlines, we definitely have seen more outreach and more new engagements from our clients in this space.”
+Explore Insights
+[ February 13, 2025 Enterprise Risk Accounting Arbitration: A Practical Solution for Business Disputes Rachel Volkmann, Ann Gittleman ](https://www.kroll.com/en/publications/accounting-arbitration-practical-solution-business-disputes)
+[ November 5, 2024 Expert Services Earn-Outs in M&A: Key Deal Tool or Source of Post-Closing Disputes? ](https://www.kroll.com/en/publications/expert-services/earn-outs-m-and-a-key-deal-tool-source-post-closing-disputes)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Expert Services](https://www.kroll.com/en/services/expert-services)
+Kroll provides independent expert analysis, testimony and advice for clients. Our consulting experts perform objective and reliable analyses to help businesses, investors and legal advisers establish facts, determine values, assess quantum of damages and settle critical questions.
+[Commercial and Economic Disputes Expert Services](https://www.kroll.com/en/services/expert-services/commercial-economic-disputes)
+Kroll excels in assessing financial loss and damages in complex commercial litigation, and offers robust analysis and testimony in M&A and post-acquisition matters.
+[Solvency Opinions](https://www.kroll.com/en/services/transaction-opinions/solvency-opinions)
+Kroll’s Opinions practice is a globally recognized leader in solvency opinions. Over the last 20 years, we have rendered more than 1,400 solvency opinions with $10+ trillion in deal value. 
+[Accounting Expert Services](https://www.kroll.com/en/services/expert-services/accounting-expert-services)
+Kroll offers forensic accounting, litigations consulting and expert dispute resolution from post-acquisition disputes to tax claims, ensuring clarity and precision.
+[Internal Expense Allocation](https://www.kroll.com/en/services/expert-services/internal-expense-allocation)
+Kroll experts will help you test, evaluate, benchmark and support your fee and expense policies and procedures and will provide you with robust and defensible practices to mitigate risk.

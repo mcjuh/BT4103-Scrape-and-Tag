@@ -1,0 +1,42 @@
+<!-- Source: https://www.westmonroe.com/industries/energy-utilities | Title: Energy & Utilities Consulting Services | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Energy & Utilities
+# Smarter Utilities for a Sustainable Future
+Drive efficiency and innovation in the face of energy disruption
+## By your utility’s side, every step of the way
+Utilities face a growing set of challenges, from customer affordability and rising load growth to aging infrastructure and increasing regulatory pressures to move quickly and keep costs down. Navigating these demands while driving innovation and operational efficiency can feel overwhelming. Rather than acting as outside observers, we partner with you to address these complexities head-on, helping your utility become more nimble and resilient in an ever-changing industry. 
+## From long-range planning to momentum today
+We help large utilities design ambitious, future-state visions and turn them into operational progress—modernizing infrastructure, integrating DERs and EV programs, and optimizing operations at the pace regulators, customers, and the grid demand. Our teams have delivered some of the industry’s most complex, multi-year programs nationwide—trusted to move quickly, solve critical challenges, and bring the technical and operational expertise large utilities demand. 
+### [DER Integration Advance DER and DEMS transformation with trusted expertise. We’ll help you improve network utilization and turn distributed resources into measurable, shared value.  Learn More  ](https://www.westmonroe.com/services/distributed-energy-resources-der-solutions)### [Advanced Utility Operations Effective grid operations start with innovative solutions. We’ll help you integrate technology to get real-time data exchange.  Learn More  ](https://www.westmonroe.com/services/advanced-utility-operations)### [Modernizing Aging Infrastructure Modernizing infrastructure shouldn’t be an uphill battle. We’ll help your operations become compliant, efficient, and resilient.  Learn More  ](https://www.westmonroe.com/services/infrastructure-modernization-for-electric-gas-utilities)### [Telecom Evolution Build a stronger foundation with advanced telecommunications. We’ll help you create a reliable, modern network that supports sustainability, digital transformation, and evolving utility needs.  Learn More  ](https://www.westmonroe.com/services/utility-telecom-modernization)
+### [Regulatory Strategy Secure approval for critical investments with expert guidance rooted in decades of experience. We’ll help you justify innovative technologies and operational improvements through strong financial cases, regulatory strategies, and stakeholder engagement.  Learn More  ](https://www.westmonroe.com/services/utility-regulatory-advisory-filing-support)### [Secure & Resilient Operations We help you secure critical infrastructure, reduce third-party risks, and ensure compliance. With data-driven strategies, we help utilities innovate securely and protect customer trust.  Learn More  ](https://www.westmonroe.com/services/cybersecurity-risk)### [Demand-Side Management Utilities and public agencies need DSM and electrification approaches to keep up with mounting pressures on energy affordability and grid reliability. We'll help you build scalable strategies that are credible in regulatory venues and simple for customers. Learn More  ](https://www.westmonroe.com/services/demand-side-management-for-utilities)### [Clean Energy Investment Shape the future with next-generation codes and standards. We’ll help you design energy efficiency programs that set the foundation for a more sustainable and innovative energy landscape.  Learn More  ](https://www.westmonroe.com/services/clean-energy-investment-advisory)
+[ AI Services & Solutions AI consulting services to build, scale, and operationalize AI solutions that improve performance, drive growth, and create measurable business value. Learn More](https://www.westmonroe.com/services/ai-services-solutions)
+[ Data & Analytics Data and analytics consulting to turn data into insights, improve decision-making, and drive performance with modern data platforms and advanced analytics. Learn More](https://www.westmonroe.com/services/data-analytics)
+[ Global Technology Modernization Lead technology modernization with a trusted partner delivering strategy, governance, and execution to accelerate transformation without added complexity. Learn More](https://www.westmonroe.com/services/global-technology-modernization)
+[ Workforce & Productivity Workforce and productivity consulting to improve efficiency, optimize capacity, and enhance performance through data-driven insights, workforce planning, and process improvements. Learn More](https://www.westmonroe.com/services/workforce-and-productivity)
+[ Cybersecurity Resilience Cybersecurity and resilience consulting to protect systems, reduce risk, and ensure business continuity with proactive, data-driven, and technology-enabled solutions. Learn More](https://www.westmonroe.com/services/cybersecurity-resilience)
+[ Mergers & Acquisitions M&A consulting services to support due diligence, execute transactions, and accelerate value creation with data, technology, and operational expertise. Learn More](https://www.westmonroe.com/services/mergers-acquisitions)
+[ Operations Operations consulting to improve efficiency, modernize processes, and drive performance with data, technology, and streamlined workflows. Learn More](https://www.westmonroe.com/services/operations)
+[ Organization & People Organization and people consulting to align strategy, structure, and talent, enabling transformation, improving performance, and driving sustainable growth. Learn More](https://www.westmonroe.com/services/organization-and-people)
+[ Customer Experience & Platforms Customer experience platform consulting to design, implement, and optimize platforms that improve engagement, enhance journeys, and drive growth. Learn More](https://www.westmonroe.com/services/customer-experience-platforms)
+Client Result
+### Driving decarbonization and affordability for an East Coast utility
+An East Coast utility had to meet aggressive decarbonization goals. Together we developed an energy transition plan that made progress toward sustainability, while still meeting operational demand.
+[Read the full story](https://www.westmonroe.com/client-results/driving-decarbonization-and-affordability-for-an-east-coast-utility)
+Client Result
+### Optimizing IT workforce to save $65M
+A large utility sought to reduce its reliance on expensive external labor, which made up 75% of its IT workforce. We partnered with them to design a comprehensive IT workforce optimization blueprint projected to save $65 million over three years.
+[Read the full story](https://www.westmonroe.com/client-results/it-workforce-optimization-identifies-savings-of-65-million-over-3-years-for-a-large-investor-owned-utility)
+Client Result
+### A decade of building a smarter and more secure grid
+West Monroe has been a hands-on partner in modernizing this national utility’s operations for more than a decade, helping them navigate evolving technology, regulatory challenges, and increasing cyber risks to keep them operating with confidence.
+[Read The Full Story](https://www.westmonroe.com/client-results/a-decade-of-building-a-smarter-and-more-secure-grid)
+## Frequently Asked Questions
+  * What is the energy transition?-
+The energy transition is the shift toward cleaner, more flexible, and digitally enabled energy systems. It includes decarbonization, renewable energy, electrification, grid modernization, and distributed energy resources. For utilities, successfully navigating the energy transition requires balancing sustainability goals with affordability, reliability, regulatory requirements, and growing energy demand.
+  * What are energy consulting services?+
+  * Why is grid modernization important for utilities?+
+  * What is demand-side management?+
+  * What is a DER in energy?+
+  * What are the benefits of distributed energy resources?+
+  * How does West Monroe help energy and utility organizations navigate industry transformation?+
+  * Why choose West Monroe for energy and utilities consulting?+

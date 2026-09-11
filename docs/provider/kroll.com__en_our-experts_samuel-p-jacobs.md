@@ -1,0 +1,17 @@
+<!-- Source: https://www.kroll.com/en/our-experts/samuel-p-jacobs | Title: Samuel P. Jacobs |Cyber Risk | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Samuel P. Jacobs
+##### Managing Director
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)
+[+1 202 649 1264](tel:+1%20202%20649%201264)samuel.jacobs@kroll.com
+AT A GLANCE 
+Samuel P. Jacobs is a Managing Director in the Cyber Risk practice, based in Washington, D.C. Sam leads Kroll’s Committee on Foreign Investment in the United States (CFIUS) and national security advisory functions. 
+Sam draws on over 20 years of professional experience in technology and security, including over 12 years of specialized experience as a CFIUS practitioner. His Kroll practice concentrates on managing the risks associated with foreign investment, including CFIUS risk analysis, CFIUS compliance program execution, and CFIUS and Team Telecom compliance oversight. In addition to his foreign investment risk work, Sam assists clients with cyber security assessments in specialized contexts such as NIST 800-171 and the Cybersecurity Maturity Model Certification (CMMC) framework. Sam’s engagements include CFIUS and Team Telecom compliance audits, proactive foreign investment risk assessments and CFIUS third-party monitorships. 
+Before joining Kroll, Sam was Principal Analyst and Director for Transactional Risk at a cleared federal government contractor. In this role, he led teams supporting the Department of Defense (DoD) and the Department of Homeland Security (DHS) clients, handling matters before CFIUS and Team Telecom. Sam counseled senior government officials at the DoD and the DHS on the risks associated with foreign investment, in general, and risks arising from specific high-profile transactions. In addition to this advisory function, Sam worked closely with government leaders to create and enhance foreign investment review policies and processes. His contributions included building and maintaining intelligence-sharing communities focused on foreign investment risk and redesigning the Team Telecom interagency process for evaluating national security concerns associated with Federal Communications Commission license applications. In addition, Sam has represented customer interests during multiparty negotiation of agreements with U.S. and foreign companies and conducted site visits to assess and monitor compliance with national security agreements. He also led the first metrics-based process improvement study for the national security agencies’ mitigation of ongoing foreign investment risk.
+Sam started his career with Apple, Inc., in a marketing role. His achievements include driving platform adoption among developers from zero to thousands of apps during the worldwide launch of Mac OS X. He was also responsible for synthesizing corporate internet platform messaging into Apple’s first strategic response to the emergence of web services technology.
+Sam holds a Masters of Arts degree in Security Studies from the Walsh School of Foreign Service at Georgetown University.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)
+Kroll merges elite security and data risk expertise with frontline intelligence from thousands of incident responses and regulatory compliance, financial crime and due diligence engagements to make our clients more cyber- resilient.

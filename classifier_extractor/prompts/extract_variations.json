@@ -1,0 +1,28 @@
+{
+  "_about": "Per-file style rolls for extract.py. Each roll picks one option by weight (seeded by file name) and fills {<roll>} and {<roll>_instruction} in that entity type's prompts. Weights within a roll are relative.",
+  "HIRER": {
+    "detail": {
+      "Minimal": {"weight": 0.50, "instruction": "Usually 40-80 words. Use a short paragraph or 2-3 bullets."},
+      "Standard": {"weight": 0.40, "instruction": "Usually 80-150 words. Use a short opening and concise bullets when they improve scannability."},
+      "Detailed": {"weight": 0.10, "instruction": "Usually 140-220 words. Use this only when the source supports several distinct scope items or deliverables."}
+    }
+  },
+  "PROVIDER": {
+    "title_style": {
+      "Descriptive": {"weight": 0.6, "instruction": "State their core role and specialization plainly and factually -- no authority framing, no sales hook (e.g., \"Senior Management Consultant specializing in supply chain transformation for retail clients\")."},
+      "Authority": {"weight": 0.3, "instruction": "Rewrite their core role as an official corporate/industry-leader title (e.g., \"Former Head of [Field] & Industry Leader\")."},
+      "Value Prop": {"weight": 0.1, "instruction": "Rewrite their core role as a client-focused, benefit-driven hook (e.g., \"Smart Financing as you Deserve\")."}
+    },
+    "achievement_style": {
+      "Direct First-Person": {"weight": 0.5, "instruction": "Use explicit \"I\" pronouns with active verbs (e.g., \"I managed...\", \"I led...\"). Cap at 3 items."},
+      "Implied First-Person": {"weight": 0.5, "instruction": "Drop pronouns completely. Start directly with punchy action verbs (e.g., \"Managed...\", \"Led...\"). Cap at 3 items."}
+    },
+    "imperfection": {
+      "none": {"weight": 0.95, "instruction": "none; use flawless grammar and punctuation."},
+      "missing_preposition": {"weight": 0.0125, "instruction": "Missing preposition (e.g., \"managed transition [to] new system\")"},
+      "double_connecting_word": {"weight": 0.0075, "instruction": "Accidental double connecting word (e.g., \"for the the project\")"},
+      "mid_sentence_tense_switch": {"weight": 0.0025, "instruction": "Unintentionally switch grammatical tense mid-sentence (e.g., \"led the team and develops new strategies\")"},
+      "omitted_trailing_period": {"weight": 0.0275, "instruction": "Leave the final sentence without its period"}
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<!-- Source: https://www.bdo.com/insights/advisory/how-a-global-business-saved-more-than-11m-in-insurance-costs | Title: How a Global Business Saved $11 Million in Insurance Costs | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# How a Global Business Saved More Than $11M in Insurance Costs
+## Background & Challenges
+Leaders of a large, global company were pressured to reduce expenses across the organization. BDO was engaged by the Chief Risk Officer (CRO) to evaluate the practicality of the insurance program, develop a current state total cost of risk, and determine if cost savings were available.
+## Approach
+BDO catalogued the global insurance policies to understand total premium, coverage, and deductible levels, and evaluated the claims history to understand loss exposure. Our team performed a utilization review of the captive insurance company to determine efficiency and opportunity to insure new coverage. 
+## Client Impact
+BDO helped the client to implement a new global insurance strategy and purchasing framework, saving the client $5.5.M in premium. The client reduced insurance brokerage usage from ten to three, saving $2M in brokerage fees. Finally, BDO restructured their captive insurance company to achieve a one-time savings of $4M and YoY saving of $2M.
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+## SHARE
+  * 
+
+## Related Resources
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026In this episode, our hosts talk with Tamara Lemmon of Wilson Sonsini to explore why proactive planning is becoming one of the most important competitive advantages in legal and compliance teams. Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=eiuus74pqn)
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026This episode offers practical insights for legal operations leaders, litigation support professionals, law firm leaders, in-house counsel, and anyone seeking a grounded perspective on where generative AI is creating real value in legal services today.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=wlkbngi3x9)
+[ Article2026 U.S. AML/CFT Regulatory Developments Tracker August 27, 2026 Article2026 U.S. AML/CFT Regulatory Developments Tracker August 27, 2026A guide and readiness checklist for BSA-covered institutions, investment advisers, permitted payment stablecoin issuers, and certain real estate closing and settlement professionals. Read Morechevron_right ](https://www.bdo.com/insights/advisory/2026-u-s-aml-cft-regulatory-developments-tracker)
+[ ArticleShared Taxonomy: Resilience Data as a Cross-Functional Unifier August 26, 2026 ArticleShared Taxonomy: Resilience Data as a Cross-Functional Unifier August 26, 2026Explore how resilience exercises help organizations identify dependencies, strengthen coordination, and prepare for disruption. Read Morechevron_right ](https://www.bdo.com/insights/advisory/shared-taxonomy-resilience-data-as-a-cross-functional-unifier)

@@ -1,0 +1,28 @@
+<!-- Source: https://www.bdo.com/insights/case-studies/leveraging-data-and-ai-to-personalize-member-experiences-for-credit-union | Title: Leveraging Data and AI to Personalize Member Experiences for Credit Union | Client Case Study | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Leveraging Data and AI to Personalize Member Experiences for Credit Union
+## Background
+BDO Digital had the privilege of partnering with a mid-sized Credit Union to enhance their member segmentation strategy. With a diverse member base of over 100,000 individuals, the Credit Union recognized the need to leverage data and AI to better understand their members and identify new member segments. Our team was thrilled to collaborate with them on achieving their goals. 
+## Challenge 
+The Credit Union faced a significant challenge in enhancing their member segmentation strategy. With a diverse member base, they needed to leverage data and AI to better understand the unique needs and preferences of their members. The Credit Union was seeking to identify new member segments that were previously unknown and deliver personalized marketing efforts and tailored product offerings to increase member engagement and satisfaction. 
+## Solution 
+To begin the project, we collaborated closely with the Credit Union to develop [a comprehensive Data and AI Blueprint](https://www.bdodigital.com/services/data-analytics-ai/artificial-intelligence/data-and-ai-blueprint). This involved understanding their business objectives, analyzing their existing data infrastructure, and identifying areas where Data and AI could drive actionable insights. 
+By working closely with the Credit Union's team, we were able to create a tailored blueprint that aligned with their specific needs and goals. 
+Next, we focused on implementing the Credit Union's data strategy in Amazon Web Services (AWS). Leveraging the power and scalability of AWS, we helped the Credit Union migrate their data to a secure and efficient cloud environment. This allowed them to centralize their data, making it easily accessible for analysis and segmentation purposes. By utilizing AWS's advanced data management and analytics tools, we ensured that the Credit Union had a robust foundation for their member segmentation efforts. 
+With the data infrastructure in place, our team is working closely with the Credit Union to identify new member segments. Leveraging advanced analytics techniques and machine learning algorithms, we are starting to analyze the vast amount of data available to uncover hidden patterns and insights. By combining demographic, transactional, and behavioral data, we were able to identify distinct member segments that were previously unknown to the Credit Union.
+**How can you unlock the power of marketing automation?**
+We have compiled resources and insights to help you better understand different tactics Credit Unions are using within their comprehensive automation platforms to help you do more with less. 
+[Explore Credit Union Resources](https://insights.bdo.com/automation-consult-credit-unions)
+## Results
+The insights gained from our member segmentation work will allow the Credit Union to personalize their marketing efforts, tailor product offerings and improve member experiences. By understanding the unique needs and preferences of different member segments, the Credit Union will be able to deliver targeted and relevant communications, resulting in increased member engagement and satisfaction. 
+The Credit Union now has a robust foundation for their member segmentation efforts, allowing them to better understand their member base and identify new member segments. 
+**Ready to start effectively using your data to identify opportunities and increase member engagement?**
+[Request a Data & AI Blueprint Today](https://www.bdodigital.com/services/data-analytics-ai/artificial-intelligence/data-and-ai-blueprint)
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)
+[ ArticleBusiness Impact: Measurable Returns on AI August 28, 2026 ArticleBusiness Impact: Measurable Returns on AI August 28, 2026AI can create measurable business value when tied to clear goals. Explore how organizations are evaluating returns and turning AI efforts into meaningful outcomes. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/business-impact-measurable-returns-on-ai)
+[ ArticleDecision-Making: AI-Driven Insights  August 28, 2026 ArticleDecision-Making: AI-Driven Insights  August 28, 2026AI-powered SecOps is entering a new phase. See how agentic capabilities can strengthen security operations and help teams respond with greater speed and precision. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/decision-making-ai-driven-insights)

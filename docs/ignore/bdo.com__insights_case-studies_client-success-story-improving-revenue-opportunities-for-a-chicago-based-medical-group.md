@@ -1,0 +1,12 @@
+<!-- Source: https://www.bdo.com/insights/case-studies/client-success-story-improving-revenue-opportunities-for-a-chicago-based-medical-group | Title: Client Success Story: Improving Revenue Opportunities for a Chicago-based Medical Group | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Client Success Story: Improving Revenue Opportunities for a Chicago-based Medical Group
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+## SHARE
+  * 
+
+## Related Resources
+[ Blog PostWhere Payer Credentialing Slows Down and What Healthcare Leaders Can Do About It September 4, 2026 Blog PostWhere Payer Credentialing Slows Down and What Healthcare Leaders Can Do About It September 4, 2026Provider credentialing can slow onboarding and reimbursement. Explore strategies to improve coordination and visibility. Read Morechevron_right ](https://www.bdo.com/insights/blogs/bdo-knows-healthcare/where-payer-credentialing-slows-down-and-what-healthcare-leaders-can-do-about-it)
+[ ArticleThe Resilient Finance Function: Building an Operating Model That Can Adapt, Scale, and Deliver Better Decisions September 3, 2026 ArticleThe Resilient Finance Function: Building an Operating Model That Can Adapt, Scale, and Deliver Better Decisions September 3, 2026A resilient finance function can help organizations adapt, scale, and perform more effectively. Explore how the right operating model supports long-term business demands. Read Morechevron_right ](https://www.bdo.com/insights/assurance/building-an-operating-model-that-can-adapt-scale-and-deliver-better-decisions)
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)

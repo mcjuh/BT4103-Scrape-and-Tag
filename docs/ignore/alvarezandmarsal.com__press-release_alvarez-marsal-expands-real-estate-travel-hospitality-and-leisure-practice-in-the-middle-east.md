@@ -1,0 +1,52 @@
+<!-- Source: https://www.alvarezandmarsal.com/press-release/alvarez-marsal-expands-real-estate-travel-hospitality-and-leisure-practice-in-the-middle-east | Title: ALVAREZ & MARSAL EXPANDS REAL ESTATE, TRAVEL, HOSPITALITY AND LEISURE PRACTICE IN THE MIDDLE EAST | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-expands-real-estate-travel-hospitality-and-leisure-practice-in-the-middle-east#main-content)
+[Expertise](https://www.alvarezandmarsal.com/expertise) [Business Transformation](https://www.alvarezandmarsal.com/expertise/business-transformation)
+September 1, 2026
+# ALVAREZ & MARSAL EXPANDS REAL ESTATE, TRAVEL, HOSPITALITY AND LEISURE PRACTICE IN THE MIDDLE EAST
+
+
+  * _The senior team brings decades of on-the-ground regional experience advising sovereign wealth funds, governments, investors and leading developers on some of the Middle East’s largest and most complex real estate, tourism and hospitality investments and developments._
+  * _Combining deep industry, strategic, investment and developer-side experience within a fully integrated EMEA-wide practice, A &M’s Real Estate, Travel, Hospitality and Leisure group brings a hands-on track record spanning the full real estate lifecycle - from strategy and investment planning through to transactions, development and execution._
+
+
+**Middle East, 1st September, 2026** – [Alvarez & Marsal (A&M)](https://www.alvarezandmarsal.com/), the global professional services firm known for its senior-led, operator-driven approach, today announced the expansion of its Real Estate, Travel, Hospitality & Leisure (RTHL) practice in the Middle East, strengthening its capabilities as major destination and mixed-use developments across the region advance into delivery and operations.A&M’s established presence in the Middle East spans more than 20 years. With its regional headquarters in Riyadh and offices across Saudi Arabia, the UAE, Qatar and the wider region, A&M combines deep market knowledge, hands-on execution and conflict-free advice. The expanded RTHL team brings a track record spanning landmark developments, investment and transaction mandates, destination strategy and operational transformation serving clients across the Middle East and Africa.The Middle East team forms part of A&M’s integrated RTHL EMEA platform, supporting clients across real estate, tourism and hospitality at the corporate, portfolio and asset levels. Its capabilities span the full lifecycle, from corporate and portfolio strategy, market assessment and business planning through investment, M&A deal advisory, development and transformation to portfolio performance and value realization. The practice draws on A&M’s broader global RTHL capabilities as well as restructuring, technology, tax and debt advisory, and interim management. [**Colie Spink**](https://www.alvarezandmarsal.com/our-people/colie-spink)**, A &M’s Middle East Regional Leader**, said: _“Our Middle East business has been built around senior leaders who understand the realities of operating at scale. They have helped shape and deliver many of the region’s landmark developments and transactions, bringing first-hand experience of the decisions, challenges and execution required to take major programs from ambition to delivery. Expanding our RTHL practice brings that experience together within one integrated platform, combining global capability with local delivery.”_ The expansion reflects the continued scale of capital deployment into real estate, tourism and hospitality across the region, alongside a growing emphasis on attracting private capital, improving the competitiveness of cities and destinations, and maximizing the economic value of major investments. As programs move from planning into delivery and operations, the focus is increasingly on execution, capital efficiency, asset performance and sustainable returns. This next phase is creating greater demand for hands-on advisers who can work across the full lifecycle, supporting ambitious growth plans while also stepping in when assets, projects or businesses require operational improvement, transformation and accelerated delivery.[A&M research with Google](https://www.alvarezandmarsal.com/thought-leadership/the-power-of-travel-2050-study-by-google-am) underscores the scale of the opportunity, forecasting international travel spend of approximately $6 trillion by 2050, with the Middle East and Africa among the markets expected to see strong volume-led growth.
+The Middle East RTHL practice is led by **Yousef Wahbeh, Managing Director and Co-Head of RTHL for EMEA** , who brings more than 25 years of experience advising sovereign wealth funds, governments, developers and investors on major developments, transactions and investment programs across the Middle East and internationally. **Yousef Wahbeh** commented:_“Clients across the region increasingly want seasoned industry practitioners turned advisors, with first-hand experience shaping, developing and delivering major projects. Our team brings deep industry and regional experience across the development lifecycle - from strategy, investment and transactions through to development, activation and operations. This combination of deep regional experience and A &M’s borderless global network gives clients access to the right expertise, lessons learned and leading practices from around the world, helping them unlock value and deliver at pace.”_A&M’s Middle East RTHL practice comprises a senior team of Managing Directors and Senior Directors with extensive experience across regional development, investment and transformation programs. Their complementary backgrounds span strategy and advisory, investment, development and operations:
+  * **Maya Whiteley:** Maya is a seasoned real estate and hospitality industry practitioner, specializing in taking assets from strategic concept into development and destination activation, including work on landmark projects across Saudi Arabia and the UAE. 
+  * **Saqib Saeed:** Saqib joined from Dubai Holding, where he served as Managing Director across Dubai Holding Investments and Head of Commercial and Strategy at Dubai Holding Land Estates. Saqib led the direct real estate and hospitality investment platform for the group covering M&A, JVs, portfolio management, capital formation, and strategic activation of Dubai Holding's land bank - regionally and globally. He also served as a Director/Chairman on multiple boards and was a member of the DH Investment Committee and DH Land Estates Management Committee. 
+  * **Dalia Alderzi:** Dalia is a real estate, tourism and destination development practitioner with extensive advisory, development and investment experience across KSA and the UAE. A former Big Four Partner and Meraas executive, she brings end-to-end expertise across the destination lifecycle, from strategy and planning through investment, joint ventures and implementation, with experience spanning both advisory and developer perspectives. At Meraas, she contributed to the development of major destinations and worked across strategic investments, joint ventures and partnerships. 
+  * **Rohit Dhawan:** Drawing on senior advisory and hospitality industry experience, Rohit advises sovereign wealth funds, governments and leading developers across the Middle East and Africa on corporate and portfolio strategy, investment planning and business planning across real estate, tourism and hospitality. A former Big Four Partner who previously held hospitality operations and revenue management roles, he brings both strategic and industry perspectives to major organizations, destinations and investment programs. 
+  * **Fabian Modena:** Fabian is a hospitality, real estate and investment practitioner with over a decade of experience advising governments, sovereign wealth funds and large-scale projects across the GCC. His experience spans destination development, capital allocation and transformation delivery across hospitality, urban real estate and emerging sectors including health and wellness. Prior to his advisory career at a Big Four firm, he built his operational experience through frontline roles with The Ritz-Carlton and leading Swiss hotels.
+
+
+Together, the team brings complementary experience as investors, developers, operators and advisors, with first-hand involvement in some of the region’s most significant real estate, tourism and hospitality investments and developments. This breadth of experience strengthens A&M’s ability to address complex client priorities across the region.
+ENDS
+#### **About Alvarez & Marsal **
+Founded in 1983, Alvarez & Marsal is a leading global professional services firm. Renowned for its leadership, action and results, A&M provides advisory, business performance improvement and turnaround management services, delivering practical solutions to clients' unique challenges. With a worldwide network of experienced operators, world-class consultants, former regulators and industry authorities - and a long-standing presence across Europe and the Middle East - A&M helps corporates, boards, private equity firms, law firms and government agencies drive transformation, mitigate risk and unlock value at every stage of growth. To learn more, visit: [AlvarezandMarsal.com](https://www.alvarezandmarsal.com/).
+CONTACT: globalmedia@alvarezandmarsal.com
+Featured Experts
+# [Colie Spink ](https://www.alvarezandmarsal.com/our-people/colie-spink)
+Managing Director
+Middle East
+# [Yousef Wahbeh ](https://www.alvarezandmarsal.com/our-people/yousef-wahbeh)
+Managing Director
+Middle East
+# [Maya Whiteley ](https://www.alvarezandmarsal.com/our-people/maya-whiteley)
+Managing Director
+Middle East
+# [Saqib Saeed ](https://www.alvarezandmarsal.com/our-people/saqib-saeed)
+Managing Director
+Middle East
+# [Rohit Dhawan ](https://www.alvarezandmarsal.com/our-people/rohit-dhawan)
+Managing Director
+Middle East
+# [Dalia Alderzi ](https://www.alvarezandmarsal.com/our-people/dalia-alderzi)
+Managing Director
+Middle East
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/98151--en)
+FOLLOW & CONNECT WITH A&M 
+Amazon Music
+Apple Podcast
+Spotify
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

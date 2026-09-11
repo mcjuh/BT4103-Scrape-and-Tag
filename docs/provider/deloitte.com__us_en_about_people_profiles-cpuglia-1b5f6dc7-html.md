@@ -1,0 +1,13 @@
+<!-- Source: https://www.deloitte.com/us/en/about/people/profiles.cpuglia+1b5f6dc7.html | Title: Chris Puglia | East Region Tax Managing Partner and Chief Products Officer | Deloitte Tax LLP | Seed: https://www.deloitte.com/us/en/services/consulting/services/mergers-acquisitions.html (Deloitte) -->
+
+Link opens in a new tab opens in new window
+[Skip to main content](javascript:void\(0\))
+Welcome to Deloitte 
+If we have selected the wrong experience for you, please change it above.
+#  Chris Puglia 
+##  East Region Tax Managing Partner and Chief Products Officer | Deloitte Tax LLP 
+Christopher (“Chris”) Puglia is a Partner at Deloitte, where he serves as the East Region Tax Managing Partner and Chief Products Officer for Deloitte Tax. In these roles, he leads the firm’s AI strategy and oversees more than 6,000 Tax professionals supporting Fortune 500 and multinational clients, and serves as a strategic advisor to executive teams at leading banks, asset managers, insurers, and real estate organizations, navigating a dynamic tax policy environment.
+Drawing on more than 25 years of experience, Chris collaborates with C-suite clients to navigate mergers and acquisitions, cross-border tax strategy, and enterprise-wide tax transformation. He designs and implements modern operating models that enable tax departments to move efficiently from legacy processes to technology-driven, agile structures - aligning tax strategy with long-term growth, resilience, and organizational agility.
+At the core of his leadership approach is a belief in placing people at the heart of innovation and change—building trust, embracing broad perspectives, and investing in talent development to enable lasting results.
+Chris has contributed to the profession through previously held advisory board roles at the University of New Haven, the Society of Insurance Managers, and the Insurance Tax Conference. He holds an MBA with specializations in Finance, Financial Instruments, and Corporate Finance from NYU Stern, and a BS in Accounting from the University of Connecticut.
+Outside the office, he spends his time with his wife and kids—coaching their teams, attending UConn basketball games, or cheering on the Jets, Mets, and Giants with the resigned optimism of a true New York sports fan. He stays active—he has run the New York City Marathon, cycles regularly, and logs miles hiking with his Bernedoodle and golfing.

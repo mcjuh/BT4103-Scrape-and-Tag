@@ -1,0 +1,21 @@
+<!-- Source: https://www.bdo.com/insights/case-studies/establishing-cybersecurity-leadership-for-a-for-a-multidisciplinary-law-firm | Title: Establishing Cybersecurity Leadership for a for a Multidisciplinary Law Firm | BDO Digital | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Establishing Cybersecurity Leadership for a for a Multidisciplinary Law Firm
+## Background
+BDO Digital partnered with a multidisciplinary law firm based on the East Coast that supports financial institutions to address their cybersecurity challenges. The client recently experienced a security breach, with a low level of maturity in cybersecurity. 
+## Challenge
+They lacked information security leadership, and their technical staff was weak in their cyber capabilities. The client’s customers required them to address cybersecurity issues and create a formal reporting mechanism on progress. Additionally, the client lacked coordination with key vendors to meet implementation deadlines of cybersecurity tools. The challenge was to improve the client’s cybersecurity maturity, address customer security requirements, and coordinate with vendors to meet implementation deadlines. 
+## Solution
+BDO Digital reviewed the client’s current cybersecurity state, initiatives, and existing roadmaps. We adopted a standardized information security framework, identified gaps, prioritized risk, and integrated findings into the existing roadmap. We developed strategies to help the client meet their customer’s security requirements and communicated relevant information to leadership to make informed decisions and report the status of cybersecurity initiatives. 
+## Results
+BDO Digital developed appropriate policies and a risk register to drive risk-based communication with executive management, executed on a plan to mitigate high-risk threats, and developed a cybersecurity roadmap with action plans and milestones. We adopted CIS18 - Critical Security Controls Framework, established consistent communications to executive management and key customers, and established BDO as an authority on cybersecurity leadership. 
+### How prepared are you to respond to cyber threats?
+Take our quiz to find out your Cyber Threats Readiness Score, recommendations based on your current level of maturity, and resources for improvement.
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleAdvancing AI Powered SecOps: BDO's New Frontier Agentic Capabilities August 14, 2026 ArticleAdvancing AI Powered SecOps: BDO's New Frontier Agentic Capabilities August 14, 2026AI-powered SecOps is entering a new phase. See how agentic capabilities can strengthen security operations and help teams respond with greater speed and precision. Read Morechevron_right ](https://www.bdo.com/insights/digital/advancing-ai-powered-secops-bdos-new-frontier-agentic-capabilities)
+[ Blog PostBuilding a Safer Nonprofit Data Landscape July 16, 2026 Blog PostBuilding a Safer Nonprofit Data Landscape July 16, 2026Nonprofits face growing data risks in a digital environment. Learn how stronger data practices can help protect sensitive information and support operational resilience. Read Morechevron_right ](https://www.bdo.com/insights/blogs/nonprofit-standard/building-a-safer-nonprofit-data-landscape)
+[ ArticleRoadmap for Data Center Operators: Building Trust Through Strong External Compliance June 9, 2026 ArticleRoadmap for Data Center Operators: Building Trust Through Strong External Compliance June 9, 2026See how data center operators can align key compliance frameworks to support customer expectations, reduce audit strain, and support growth. Explore the roadmap that helps turn complex requirements into a clear strategy. Read Morechevron_right ](https://insights.bdo.com/roadmap-for-data-center-operators.html)
+[ ArticleGlobal Risk Landscape 2026 June 2, 2026 ArticleGlobal Risk Landscape 2026 June 2, 2026BDO’s 2026 Global Risk Landscape Report shares insights from 500+ C-suite leaders worldwide on managing interconnected risks shaped by geopolitical instability, technological disruption, and economic volatility, with key takeaways for navigating constant change. Read Morechevron_right ](https://insights.bdo.com/global-risk-landscape)

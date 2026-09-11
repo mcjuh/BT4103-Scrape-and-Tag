@@ -1,0 +1,49 @@
+<!-- Source: https://www.alvarezandmarsal.com/press-release/alvarez-marsal-appoints-maureen-o-shea-to-strengthen-european-supply-chain-operations-capabilities-in-private-equity-performance-improvement-team | Title: Alvarez & Marsal Appoints Maureen O’shea to Strengthen European Supply Chain & Operations Capabilities in Private Equity Performance Improvement Team | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-appoints-maureen-o-shea-to-strengthen-european-supply-chain-operations-capabilities-in-private-equity-performance-improvement-team#main-content)
+[Expertise](https://www.alvarezandmarsal.com/expertise) [Private Equity Services](https://www.alvarezandmarsal.com/expertise/private-equity-services) [Private Equity Performance Improvement](https://www.alvarezandmarsal.com/expertise/private-equity-performance-improvement)
+August 12, 2026
+# Alvarez & Marsal Appoints Maureen O’shea to Strengthen European Supply Chain & Operations Capabilities in Private Equity Performance Improvement Team
+_Senior hire brings nearly three decades of industry and consulting experience across supply chain, operations and transformation_
+**London, 12th August 2026** – Global professional services firm Alvarez & Marsal (A&M) has appointed Maureen O’Shea as a Managing Director in its [Private Equity Performance Improvement](https://www.alvarezandmarsal.com/expertise/private-equity-performance-improvement) (PEPI) practice. Based in London, she will work across Europe as part of the firm’s European [Operations, Supply Chain & Procurement](https://www.alvarezandmarsal.com/expertise/supply-chain-services) team.
+Her appointment reflects the continued expansion of A&M's European Private Equity Performance Improvement practice, which has welcomed a number of senior hires over the past year as the firm continues to attract leading operational talent. Maureen joins one of Europe's leading private equity operations, supply chain and procurement teams, further strengthening A&M's ability to help investors and management teams accelerate operational performance, build supply chain resilience and deliver sustainable value creation throughout the investment lifecycle.
+Maureen joins A&M with experience spanning the End-to-End supply chain developed through senior roles in both industry and consulting across consumer goods, retail, life sciences, manufacturing, transport and logistics. 
+A chemical engineer by training, Maureen spent 20 years in operational supply chain leadership roles, including 16 years at Procter & Gamble and four years at Merck GmbH, where she led local, regional and global programmes spanning supply chain strategy, logistics, operations management, cost and cash improvement, organisational design, lean transformation and digital enablement. She subsequently moved into consulting, holding senior roles at EY and KPMG before joining Baringa in 2022, where she advised organisations on complex supply chain and operational transformations, combining data, technology and practical implementation to deliver measurable improvements in performance, productivity and profitability.
+At A&M, Maureen will advise private equity firms and portfolio company management teams on supply-chain and operational value creation, including network and logistics optimisation, cost and working-capital improvement, digital transformation, organisational effectiveness, planning optimisation and supply-chain resilience. She will also support clients in leveraging AI and advanced analytics to deliver practical operational and supply chain improvements and thus bottom-line results.
+[**Kevin Garvey**](https://www.alvarezandmarsal.com/our-people/kevin-garvey)**, Managing Director and European Lead of A &M’s Operations, Supply Chain & Procurement team, said:** “Our Operations, Supply Chain & Procurement team has become a key part of A&M's value creation offering for private equity clients across Europe, with supply chains being a central component of the value creation agenda. Investors and management teams are increasingly looking to reduce costs, improve cash generation and build more resilient, responsive and technology-enabled operations that can support growth in an increasingly volatile environment. Maureen's combination of operational leadership and consulting experience significantly enhances our ability to help clients unlock value through supply chain transformation and operational improvement.”
+[**Mike Trenouth**](https://www.alvarezandmarsal.com/our-people/mike-trenouth)**, Managing Director in A &M’s Private Equity Performance Improvement practice, said: **“We continue to invest in building one of the strongest operational value creation teams in the market, bringing together experienced operators and consultants who have delivered transformation from the boardroom to the shop floor. Maureen is an excellent addition to our growing European team, and her appointment reflects both the increasing demand we're seeing from clients and our ambition to continue attracting the highest-calibre talent to A&M.”
+**On her appointment, Maureen O’Shea said:** “A&M has built a market-leading reputation for delivering practical, results-focused transformation that creates lasting value for investors and management teams. I'm excited to join a team that combines deep operational expertise with hands-on execution, and I look forward to helping clients build more resilient, technology-enabled supply chains that improve performance, accelerate value creation and deliver sustainable business outcomes.”
+**ENDS**
+**About Alvarez & Marsal**
+Companies, investors and government entities around the world turn to Alvarez & Marsal (A&M) for leadership, action and results. Privately held since its founding in 1983, A&M is a leading global professional services firm that provides advisory, business performance improvement and turnaround management services. When conventional approaches are not enough to create transformation and drive change, clients seek our deep expertise and ability to deliver practical solutions to their unique problems. With over 10,000 people providing services across six continents, we deliver tangible results for corporates, boards, private equity firms, law firms and government agencies facing complex challenges. Our senior leaders, and their teams, leverage A&M’s restructuring heritage to help companies act decisively, catapult growth and accelerate results. We are experienced operators, world-class consultants, former regulators and industry authorities with a shared commitment to telling clients what’s really needed for turning change into a strategic business asset, managing risk and unlocking value at every stage of growth. 
+To learn more, visit: [AlvarezandMarsal.com](https://www.alvarezandmarsal.com/). 
+[Thought Leadership ](https://www.alvarezandmarsal.com/insights/business-industry-insights)
+[AI Token Economics: A Practical Guide for Managing AI Spend ](https://www.alvarezandmarsal.com/thought-leadership/ai-token-economics-a-practical-guide-for-managing-ai-spend)
+August 12, 2026 
+AI adoption has reached near-universal levels in engineering, yet a clear gap between perception and measured impact. This paper describes what those practices look like, why they matter, and how organizations can realize real value with AI-assisted engineering. 
+[Press Releases ](https://www.alvarezandmarsal.com/taxonomy/term/561)
+[Alvarez & Marsal Appoints Bernd Oehring to Expand Carve-Out And Merger Intergration Capabilities in Private Equity Performance Improvement Team (Pepi) ](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-appoints-bernd-oehring-to-expand-carve-out-and-merger-intergration-capabilities-in-private-equity-performance-improvement-team-pepi)
+July 14, 2026 
+Senior hire from Oliver Wyman to strengthen European carve-out and merger integration capabilities across PEPI 
+[Press Releases ](https://www.alvarezandmarsal.com/taxonomy/term/561)
+[Alvarez & Marsal Expands Sports, Media & Entertainment Industry Group, Appoints Three Managing Directors ](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-expands-sports-media-entertainment-industry-group-appoints-three-managing-directors)
+July 9, 2026 
+A&M launches a new Sports, Media & Entertainment Industry Group with three new Managing Directors who bring deep sector expertise to help clients modernize operations and accelerate growth. 
+[Press Releases ](https://www.alvarezandmarsal.com/taxonomy/term/561)
+[Alvarez & Marsal Launches AI-Enabled Zero-Based Optimization (AI-ZBO) to Accelerate EBITDA Improvement for Private Equity ](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-launches-ai-enabled-zero-based-optimization-ai-zbo-to-accelerate-ebitda-improvement-for-private-equity)
+June 30, 2026 
+A&M has launched AI-Enabled Zero-Based Optimization to help private equity teams simplify workflows, reduce rework, and drive measurable EBITDA improvement. 
+Featured Experts
+# [Maureen O'Shea ](https://www.alvarezandmarsal.com/our-people/maureen-oshea)
+Managing Director
+# [Kevin Garvey ](https://www.alvarezandmarsal.com/our-people/kevin-garvey)
+Managing Director
+# [Mike Trenouth ](https://www.alvarezandmarsal.com/our-people/mike-trenouth)
+Managing Director
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/97726--en)
+FOLLOW & CONNECT WITH A&M 
+Amazon Music
+Apple Podcast
+Spotify
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

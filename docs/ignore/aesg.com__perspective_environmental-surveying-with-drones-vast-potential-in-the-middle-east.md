@@ -1,0 +1,104 @@
+<!-- Source: https://aesg.com/perspective/environmental-surveying-with-drones-vast-potential-in-the-middle-east/ | Title: Environmental Surveying with Drones in the Gulf | AESG | Seed: https://aesg.com/sg/ (AESG) -->
+
+# Environmental surveying with drones: Vast potential in the Middle East
+**By:** Sonya Benjamin
+**Date Published:** February 3, 2019
+**Share this article**
+[**Download this article**](https://aesg.com/wp-content/uploads/2020/07/DRONE-WHITE-PAPER_SB-web.pdf)
+## Latest Articles
+  * [IFRS S1 & S2: What the New Global Sustainability Standards Mean for the GCC](https://aesg.com/perspective/ifrs-s1-s2-what-the-new-global-sustainability-standards-mean-for-the-gcc/) July 21, 2026
+  * [UAE Climate Law: From Net Zero Ambition to Climate Accountability](https://aesg.com/perspective/uae-climate-law-from-net-zero-ambition-to-climate-accountability/) June 30, 2026
+  * [The Silicon Shortcut: Why AI is the Instrument of Choice for the Ignorant, Indolent, and Avaricious](https://aesg.com/perspective/the-silicon-shortcut/) June 17, 2026
+
+
+## **The Rise of the Consumer Drone**
+Drones, also referred to as “unmanned aerial vehicles ”(UAV’s) have been gaining popularity in recent years, due to the proliferation of models aimed at the recreational consumer. Drone technology has advanced, becoming more autonomous and less technical, to allow the casual user to pick up a unit and quickly learn how to operate it. This is in contrast to early models which were primarily military grade, and which required extensive training to learn to pilot.
+With this new target market, comes new price ranges. Consumer drones are more affordable than ever, as well as readily available to purchase from a variety of electronic shops, no longer being limited to specialty stores. This ease of procurement and the availability of budget-friendly options mean that drones are being considered for more than simply recreational purposes; drones can now be used in a wide variety of applications, from cinematic photography to remote surveillance.
+## **Using Drones in Environmental Surveying**
+One such application which is rapidly expanding is the use of drones in environmental surveying. The ability to gather photography and other remotely-sensed data from above provides a unique perspective previously only acquired via the use of chartered aerial surveys or purchased high-resolution satellite imagery. Consumer drones equipped with high-resolution cameras can capture high definition, geo-referenced aerial photos and video that can be used for land cover mapping, vegetation indexing, surveillance and wildlife population monitoring.
+Other types of remote sensors can be deployed via drone as well, such as thermal imaging cameras, and drones have been customized to be used as ‘data mules’, able to download and record data collected from ground-deployed sensors.
+This is especially useful in cases where long-term monitoring is taking place and the terrain is extensive or difficult to travel through via traditional ground-based methods. Drones are also being used for surveillance and deterrence of poaching in national parks in Africa- thereby increasing the patrol coverage and decreasing risk to human life from dangerous conflicts (Lunstum, 2014). Customized drones have even been used to remove the ‘observer influence’ in studying animal behavior; by camouflaging the recording device as a bird, for example, it is thought that the observed animals do not realize there is an anthropogenic device present and behave more naturally (Petovics & Petkovics, 2017).
+## ****Regional Applications Of Drones In Environmental Surveying****
+Although the idea of using drones to gather data and undertake environmental surveys is still a relatively new concept, it has already been applied in several instances with good results in the Middle East and Gulf Region. The following case studies provide examples of how drones have been used in pilot programs for a variety of environmental purposes, followed by a discussion on further potential applications relevant to the region.
+## **Land Cover and Environmental Mapping**
+With drones, it is possible to obtain high-resolution photography of an area of interest from a birds-eye view. The resulting aerial photographs can be used to undertake land cover classifications, habitat mapping, and even topographic maps and digital elevation models. The increase in flight accuracy of drones allows collected photographs to be georeferenced as well, enabling input into Geographical Information Systems (GIS) for further analysis and assessment.
+Understanding the different land uses both within and surrounding a site of interest can be of particular help during the environmental assessment process. Traditional methods require intensive field surveys in sometimes difficult to traverse terrain, incurring high costs and extended timeframes. The deployment of a UAV to cover a pre-set amount of area can be controlled via an autonomous flight software to ensure that the full project area is covered via a series of scanned bands (Figure 1) Software can then be used to ‘stitch’ together images to create high-resolution optical data (Figure 2).
+These aerial images can be input into a GIS software package and converted from raster-based data to provide vector-based maps showcasing the extents of different land covers and habitats. Since it is georeferenced, the exact boundaries of each land cover type can be extracted from the supporting GIS system and used in overlay analysis to understand the amount of habitat loss as a result of a specific project development, and can be used to provide locations for mitigation measures such as buffer zones. The resultant habitat maps (Figure 3) can provide direction for urban planning and guide conservation management.
+Although this approach can also be done utilizing high-resolution imagery sourced from sources such as Google Earth, which is compiled via a combination of manned aerial surveys and satellites, these databases are not always high-resolution and may not be up-to-date. Figure 4 compares the imagery derived from a drone vs. satellites. The increased resolution from drone-derived imagery provides the ability to increase the accuracy assessment based on the collected imagery.
+Higher-resolution satellite or manned aerial data can also be purchased from existing databases or commissioned specifically for projects, such as from GeoEye, QuickBird, and IKONOS. Often such an approach is cost-prohibitive and thus may be outside of a project’s budget, and likely cannot be used for long-term monitoring or repeated seasonal data collection.
+## **Tree Tagging and Vegetation Identification**
+Manual tree tagging involves resource intensive and time-consuming footwork in order to capture the GPS locations of trees of interest throughout a project area. This may also be cost- prohibitive depending on the number of trees and the size of the area. The high-resolution capability provided by drone aerial photography proves to be an effective option of choice for undertaking remote tree tagging. The procurement of georeferenced drone images allows the GPS locations to be derived for individual trees (Figure 5).
+The same approach can be used for vegetation identification within a site of interest. This approach was not used historically from satellite imagery due to the difficulties in identifying tree species. However, the distinct types and relative lower number of tree species found in the region mean that vegetation identification via drone surveys is feasible in arid environments. A study undertaken at the Dubai Desert Conservation Reserve in 2016 (Gallacher et al, 2016) found that vegetation identification from drone-derived imagery was 70% accurate for large vegetation such as trees.
+Drones can obtain other types of remotely sensed data, other than optical imagery. The deployment of infrared sensors via drones can provide information that can be used to perform Normalized Difference Vegetation Indexing, which provides an understanding of the chlorophyll content of sensed vegetation (Figure 6). This can be used to map the locations of vegetation ground cover as well as monitor the health of vegetation using chlorophyll count as a proxy. This would be especially useful for the monitoring of sensitive areas such as mangrove wetlands or seagrass beds, which are difficult to cover via ground-survey in terms of accessibility. 
+## **Wildlife Monitoring and Population Estimates**
+Drones are useful in more than simply providing aerial land cover information. Photos and videos can be taken of wildlife from this unique aerial perspective to provide more accurate understandings of populations, and the repeatability of flyover surveys entails long-term monitoring programs that may not be feasible otherwise.
+## **Seabird Colonies**
+The effective use of drones has been observed in population monitoring of seabird nesting colonies. Traditional methods of estimating populations of nesting seabirds involved applying assumptions of the “depth” of congregated birds, as the perspective afforded to on-ground surveyors did not allow the clear identification of all individuals during counts, as can be seen in Figure 7. 
+Using drones, aerial perspectives can be gained for entire colonies, allowing accurate counts of nesting birds (Figure 8). Computer software has been developed which can ‘count’ the number of birds with high precision, eliminating long hours of manual data entry. This has a direct application in the region due to a high number of seabird species breeding regionally which congregate in similar conditions (unvegetated offshore islands). The Socotra Cormorant, for example, is categorized as Vulnerable in the IUCN Red List and breeds in several locations in the UAE and throughout the Gulf. These colonies can be much more easily monitored via the deployment of drones systematically to understand breeding colony locations and population numbers throughout a season as well as comparing growth/declines in numbers over multiple years. 
+## **Marine Fauna**
+Aerial drones can be used for wildlife monitoring in marine applications as well. Marine fauna that surface frequently, or inhabit clear, shallow waters, can be easily surveyed from the air. This has been applied globally for surveying of turtles, dolphins, whales, and sharks. Figure 9 provides an example of video stills captured via a drone deployed behind a surveyor’s boat, capturing a large amount of turtle sightings that otherwise would be difficult or impossible via boat-sightings or diving sightings.
+Figure 9: Aerial Images Of Sea Turtles. _Photo source:https://vimeo.com/157954468_
+Sea turtles breed and inhabit many areas in the Arabian Gulf, and this type of monitoring in areas of importance would provide valuable information about congregation areas and population trends.
+This type of marine monitoring using drones is also applicable to marine mammals inclusive of cetaceans as well as dugong, which inhabits coastal seagrass patches in Abu Dhabi.
+Categorized as Vulnerable on the IUCN Red List, protecting the local dugong populations is significant towards global conservation efforts. The ability to capture aerial imagery highlighting seagrass distribution as well as monitor dugong populations via drones allows for repeatable data sets for long-term monitoring programs (Figure 10).
+Figure 10: Aerial Image Of Dugongs In A Seagrass Patch.
+_Photo Source: Http://Teamseagrass.Blogspot.Ae/2010/01/Dugongs-Are-Faring-Better-Than-Feared.Html#.Wmsknaiwbyu_
+## **Herd Animals**
+Another direct application involves the use of drones to survey herd animals. This can be applied for undertaking population counts, identifying sites used frequently in large areas by herds, and monitoring reproductive success. This is especially relevant for the Middle East’s large expanses of tree-less habitat, inhabited by various gazelles as well as the infamous Arabian Oryx. The Arabian Oryx went extinct in the wild in 1972, but through conservation efforts via captive breeding and establishment of protected areas, has since been reintroduced throughout its original range. Large protected areas in the United Arab Emirates, Oman, Kingdom of Saudi Arabia and Jordan support wild populations which have stabilized, leading to the down-listing of the oryx to Vulnerable (from Extinct in the Wild) on the IUCN Red List.
+The protected areas where these populations exist are extremely large, often in the excess of thousands of square kilometers. In order to effectively monitor oryx populations, aerial surveys via drones can minimize the amount of time required to both locate herds and count individuals (Figure 11). The ability of drones to capture close-up imagery also allows the monitoring of individuals, which would not be possible from manned aircraft (Figure 12).
+_Figure 11 – _Herd From Above. Photo Source: Http://Assets.Wam.Ae/Uploads/2017/09/37789040357114.Jpg_
+## **Drones as Data Mules**
+Drones can also act as ‘data mules’, by gathering information sent remotely from ground-based instruments. This is particularly useful for long-term monitoring programs in areas which are difficult or dangerous to traverse for manual data collection. 
+One such pilot program was launched in the UAE’s Wadi Wurayah National Park, where a custom-built “Wadi Drone” was designed to collect information via a WiFi signal from permanently deployed camera-traps located throughout the park. The steep wadis of the park and high summer temperatures create dangerous conditions for manual retrieval of data from the camera traps, so a self-sustaining system of solar-powered camera traps with the ability to remotely send collected data was proposed. The Wadi Drone downloads and transfers photos and videos taken by motion-triggered camera traps quickly and efficiently, and allows for frequent data collection over long-term monitoring periods (Figure 13). 
+The collected images are used to track the types of species present in the park, as well as help to establish population estimates and trends over time (Figure 14). 
+The use of drones as data mules could be applied to other forms of sensors as well- meteorological data, quality monitors, and virtually any type of environmental measurement taken by electronic equipment could be engineered to be transferred via a data mule drone. 
+## **Implications and Challenges of Drone Use in the Middle East**
+With any new, ground-breaking technology comes an adjustment phase. The use of drones comes with potential challenges, including the possibilities for invasion of privacy of citizens, disruption of restricted areas, collisions with airplanes during takeoff and landing, and impacts on wildlife. 
+## **Legality Issues**
+In the Middle East and particularly the GCC region, recreational drone use exploded in popularity when affordable models began to become popular for enthusiasts. Because of some of the inherent risks of drone use by inexperienced operators, this was followed by a rush to pass legislation to regulate personal drone use to ensure safety and security were not compromised. 
+In the Emirate of Dubai, drone users must register drones and apply for an “operator certificate”, and those wishing to use drones for any type of imagery collection must register as an organization (commercial or non-commercial). This includes taking an exam, registration of the drone, as well as obtaining pre-approval for any flight operations. In other areas, the process is less clear, but approvals must be gained from the regulating aviation authority prior to flight operations. 
+While potentially complex, these permitting requirements are still less burdensome than the process for launching manned aerial surveys, and represent an upfront cost and effort that can still be considered well worth the time committed. 
+## **Lack of Demand**
+Another factor slowing the process of drone use in environmental applications regionally is a current lack of demand. Without requests from potential clients, there will not be a corresponding rise in supply by contractors to gather and analyze drone-derived data for environmental purposes. This lack may potentially arise from the ‘newness’ of the technology, and can be remedied through pilot programs and higher exposure of the various potential environmental applications available. 
+## **Future Steps**
+UAV and drone technologies are rapidly progressing and developing multiple options for a variety of environmental applications. However, perhaps due to permitting constrictions, the demand for drone-derived data remains low. A tangible opportunity exists here for the recognition of drones as a valuable environmental tool, to allow researchers and others in the field to take full advantage of this burgeoning technology for its efficiency and flexibility. As drone technology continues to advance, it remains to be seen what further environmental applications can be derived from this new and versatile tool. 
+## **References**
+Gallacher, D., T. Khafaga, T. Mahmoud Ahmed, and H.A. Shabana. “Plant species identification via drone images in an arid shrubland”. _Grazing Land Assessment and Management in a High-tech World_. Proceedings of the 10th International Rangeland Congress (2016). 
+Lunstrum, Elizabeth. “Green militarization: anti-poaching efforts and the spatial contours of Kruger National Park.” _Annals of the Association of American Geographers_ 104.4 (2014): 816-832. 
+Petkovics, I., D. Petkovic, And A. Petkovics. “Iot Devices Vs. Drones For Data Collection In Agriculture.” _Daaam International Scientific Book (_ 2017). 
+[ Linkedin-in ](https://www.linkedin.com/company/aesg/) [ X-twitter ](https://twitter.com/AESG_Limited) [ Youtube ](https://www.youtube.com/channel/UCMiM_KnIUpnInxAd8CNm2EQ)
+### Certified
+ISO 27001:2022ISO 9001:2015ISO 14001:2015ISO 45001:2018
+[Whistleblower Policy](https://aesg.com/whistleblower-policy/)
+### Our Offices
+601-608, The offices at Ibn Battuta GateJebel Ali 1-VillagePO Box 2556Dubai, United Arab EmiratesT / [+971 (0) 4 432 6242](tel:+97144326242)
+305 Mermaid House2 Puddle DockLondon, EC4V 3DSUnited KingdomT / [+44 (0) 208 037 8762](tel:+442080378762)
+### [Abu Dhabi](https://aesg.com/uae/)
+Haibu Space, Abu Dhabi Mall1st floor, Office 37Tourist Club AreaAbu Dhabi, United Arab EmiratesT / [+971 (0) 2 201 2527](tel:+97122012527)
+9391 Wadi Al Thummamah2444 Al Olaya DistrictPO Box 12214Riyadh, Kingdom of Saudi ArabiaT / [+966 (0) 112 278 288](tel:+966112278288)
+### [Singapore ](https://aesg.com/sg/)
+111 Somerset Road#08-10A, 111 SomersetSingapore 238164
+### [South Africa ](https://aesg.com/za/)
+11th Floor, Office 11012 Long StreetCape Town 8000Western Cape, South AfricaT / [+27 (0) 21 137 6444](tel:+27211376444)
+8 Parramatta Square49th Floor, Office 117Parramatta, SydneyNew South Wales 2150AustraliaT / [+61 (0) 2 8042 6817](tel:+61280426817)
+### [Melbourne](https://aesg.com/au/)
+32/F, 367 Collins StreetMelbourne, VIC 3000AustraliaT / [+61 (0) 3 8612 7200](tel:+61386127200)
+Floor 3Office No. 8, Signature Square BuildingMoustafa Kamel AxisNew Cairo 1EgyptT / [+20 (0) 2 2344 1268](tel:+20223441268)
+[ Linkedin-in ](https://www.linkedin.com/company/aesg/) [ X-twitter ](https://twitter.com/AESG_Limited) [ Youtube ](https://www.youtube.com/channel/UCMiM_KnIUpnInxAd8CNm2EQ)
+### Certified
+ISO 27001:2022ISO 9001:2015ISO 14001:2015ISO 45001:2018
+### Our Offices
+601-608, The offices at Ibn Battuta GateJebel Ali 1-VillagePO Box 2556Dubai, United Arab EmiratesT / [+971 (0) 4 432 6242](tel:+97144326242)
+305 Mermaid House2 Puddle DockLondon, EC4V 3DSUnited KingdomT / [+44 (0) 208 037 8762](tel:+442080378762)
+### [Abu Dhabi ](https://aesg.com/uae/)
+Haibu Space, Abu Dhabi Mall1st floor, Office 37Tourist Club AreaAbu Dhabi, United Arab EmiratesT / [+971 (0) 2 201 2527](tel:+97122012527)
+9391 Wadi Al Thummamah2444 Al Olaya DistrictPO Box 12214Riyadh, Kingdom of Saudi ArabiaT / [+966 (0) 112 278 288](tel:+966112278288)
+### [Singapore ](https://aesg.com/sg/)
+111 Somerset Road#08-10A, 111 SomersetSingapore 238164
+### [South Africa](https://aesg.com/za/)
+11th Floor, Office 11012 Long StreetCape Town 8000Western Cape, South AfricaT / [+27 (0) 21 137 6444](tel:+27211376444)
+8 Parramatta Square49th Floor, Office 117Parramatta, SydneyNew South Wales 2150AustraliaT / [+61 (0) 2 8042 6817](tel:+61280426817)
+### [Melbourne](https://aesg.com/au/)
+32/F, 367 Collins StreetMelbourne, VIC 3000AustraliaT / [+61 (0) 3 8612 7200](tel:+61386127200)
+Floor 3Office No. 8, Signature Square BuildingMoustafa Kamel AxisNew Cairo 1EgyptT / [+20 (0) 2 2344 1268](tel:+20223441268)
+Copyright 2026 | | All Rights Reserved

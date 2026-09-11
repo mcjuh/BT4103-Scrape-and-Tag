@@ -1,0 +1,14 @@
+<!-- Source: https://www.capgemini.com/insights/expert-perspectives/why-a-digital-core-is-the-key-to-gigafactory-efficiency/ | Title: Why a ‘digital core’ is the key to gigafactory efficiency - Capgemini | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/insights/expert-perspectives/why-a-digital-core-is-the-key-to-gigafactory-efficiency/#main-content)
+### Planning for efficient battery production is crucial to the EV transition
+Across industries, a clean energy revolution is taking shape. Electric vehicles (EVs) are at the center of this movement, showcasing the promise of a greener future. But unlike internal combustion engine (ICE) vehicles, EV manufacturing requires the development of one crucial element – the battery.
+The growing demand for electrification and energy storage has led many dedicated battery makers to launch or expand operations by constructing and operating gigafactories. The first [gigafactory](https://eepower.com/industry-articles/simulation-first-digital-twins-speed-ev-battery-production/) opened in 2016. By 2030, 400 are [planned](https://source.benchmarkminerals.com/article/over-400-gigafactories-in-2030-pipeline-but-overcapacity-fears-loom) to be in operation.
+[Read the full article in DesignNews](https://www.designnews.com/automotive-engineering/why-a-digital-core-is-the-key-to-gigafactory-efficiency)
+## Meet the author
+### Vamshi Rachakonda
+Vice President Manufacturing, Automotive and Life Sciences, Capgemini Americas
+A motivated business leader with 20 years of progressive experience in P&L management, sales, strategy, and solutions. A team player dedicated to helping employees improve their skills and techniques in order to reach larger goals. A detail-oriented multi-tasker who thrives in fast-paced and uncertain global environments. And a solid collaborator experienced in building strong advisor / analyst / partner eco-system for collective growth.
+Slider. Slide 1.
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All

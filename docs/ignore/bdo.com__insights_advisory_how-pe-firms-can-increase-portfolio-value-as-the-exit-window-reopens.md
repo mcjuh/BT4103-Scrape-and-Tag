@@ -1,0 +1,42 @@
+<!-- Source: https://www.bdo.com/insights/advisory/how-pe-firms-can-increase-portfolio-value-as-the-exit-window-reopens | Title: PE Value Creation as Deal Exits Return | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# How PE Firms Can Increase Portfolio Value as the Exit Window Reopens
+Article 4 min read
+  * PRINT 
+  * 
+
+After several years of muted deal activity, signs of life are returning to the private equity exit market. With the current supply of quality assets in the market and increased competition among PE firms, seller expectations are getting higher — as are asset prices.
+According to BDO’s [2025 Private Equity Survey](https://insights.bdo.com/2025-Private-Equity-Survey.html), 63% of funds report average holding periods exceeding five years, and 84% experiencing longer holding periods compared to 2024 — meaning that early signs of sale opportunities are critical inflection points for the industry.
+While the exit backlog will take time to clear, PE firms holding assets longer than initially planned that had waited years for an exit window to open now face the potential of a fast-moving deal market. 
+Fund managers looking to sell their portfolio companies (portcos) in the near future should focus on fast-track value creation initiatives that can improve enterprise value of assets in months rather than years.
+## Obstacles for Firms To Overcome
+Even as general sentiment around dealmaking begins to improve — with PitchBook reporting exit counts rising by 21.9% YoY in Q4 of 2025 — there are several factors that continue to hinder exits. 
+  * **Valuation mismatches:** Buyers remain hesitant to pay 2021-era multiples, while sellers are reluctant to accept markdowns.
+  * **High entry costs:** Many portcos were acquired at peak multiples, so managers are now waiting for pricing to recover before selling again. 
+  * **Lingering uncertainty:** Rate policy, tariff shifts, and geopolitical risks continue to cloud exit forecasts.
+  * **Limited partner liquidity constraints:** Limited partners (LPs) have yet to receive expected distributions in many instances, making new fundraising difficult for general partners (GPs) to accomplish.
+
+
+While some of these pressures are easing, the backlog of mature holdings means not every fund can — or should — exit immediately. In the near term, GPs have a chance to create incremental value before the broader sell-side rush to get them closer to the deal terms they desire.
+## How Fund Managers Can Strengthen Their Portfolio Ahead of Sale
+Fund managers may only have months or quarters to meet this anticipated dealmaking rush, meaning they need to consider the return on investment of their value creation or operational efforts now. 
+There are numerous strategies that can create competitive advantage and deliver measurable impact:
+  * **Add-on acquisitions:** Acquiring smaller, complementary businesses that add new products, geographies, or capabilities can provide immediate boosts to enterprise value. By using these tuck-ins, sponsors can demonstrate growth momentum and strategic expansion to potential buyers.
+  * **Accelerate AI integration:** Fund managers should identify operational areas where artificial intelligence (AI) can reduce cost or improve business decision-making. This offers firms an opportunity to bring in experienced operating partners to deploy digital tools quickly and successfully, particularly if a company is new to AI integration.
+  * **Customer retention and expansion:** Prioritizing initiatives that can enhance customer experience not only helps boost a portco’s current revenue but also generates opportunities for cross-selling and upselling. This could mean mapping out the customer journey, building predictive models to understand customer buying patterns, and identifying those most receptive to additional product offerings. As PE firms anticipate better dealmaking conditions over the next 12 months, 58% of respondents from BDO’s Private Equity Survey are prioritizing revenue to help boost their portcos’ valuations. This focus could help enhance their eventual exit prospects. Highlighting predictable growth and margin resilience in marketing materials and diligence prep is critical for attracting investors.
+  * **Leadership and workforce optimization:** Strengthening portco management teams and investing in talent development or incentive alignment may signal readiness for scale. In tandem with AI integration, firms and their portco managers can reallocate their workforce to focus on more strategic areas of the business while AI supports existing teams with more of the recurring or rote tasks.
+  * **Operational hygiene:** GPs should tighten financial reporting and develop compliance frameworks that meet buyer due diligence standards, reducing friction and supporting peak pricing.
+
+
+## The Year Ahead
+While market conditions are expected to become more favorable for exits, competition among sellers will intensify as the backlog of portfolio companies hits the market. Investment teams that treat the current period as an active value-creation sprint, rather than a passive wait, will be better positioned when liquidity is expected to return in 2026.
+Many market participants see 2026 as the year we finally stop talking about “longer holding periods.” Fund managers holding onto aging assets should use this time to strengthen operations so their portcos command attention from buyers as markets recover. This means refining business strategies and creating competitive advantages that justify premium valuations. 
+Fund managers who accelerate their value creation will ultimately be better positioned to get the returns they’re seeking when the exit window fully reopens, and buyers have choices. The time to start is now.
+With the understanding that every initiative ties back to your strategic objectives, BDO keeps value creation and exit readiness front and center as we work alongside portfolio company management teams and PE sponsors to serve their needs throughout the M&A lifecycle. Reach out to our [M&A Solution](https://www.bdo.com/mergers-and-acquisitions) team to learn more. 
+Investment banking products and services within the United States are offered exclusively through BDO Capital Advisors, LLC, a separate legal entity and affiliated company of BDO USA, P.C., a Virginia professional corporation. For more information, visit . Certain services may not be available to attest clients under the rules and regulations of public accounting. BDO Capital Advisors, LLC Member FINRA/SIPC.
+Select your preferences and stay current with our latest insights  [ SUBSCRIBE ](https://www.bdo.com/create-account)
+## Related Resources
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)
+[ ArticleBusiness Impact: Measurable Returns on AI August 28, 2026 ArticleBusiness Impact: Measurable Returns on AI August 28, 2026AI can create measurable business value when tied to clear goals. Explore how organizations are evaluating returns and turning AI efforts into meaningful outcomes. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/business-impact-measurable-returns-on-ai)
+[ ArticleDecision-Making: AI-Driven Insights  August 28, 2026 ArticleDecision-Making: AI-Driven Insights  August 28, 2026AI-powered SecOps is entering a new phase. See how agentic capabilities can strengthen security operations and help teams respond with greater speed and precision. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/decision-making-ai-driven-insights)

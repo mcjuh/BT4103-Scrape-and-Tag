@@ -1,0 +1,23 @@
+<!-- Source: https://www.arup.com/projects/water-projects/ | Title: Water projects - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/projects/water-projects/#main-content)
+[ Back to all projects  ](https://www.arup.com/projects/all-projects/)
+#  Water projects 
+Filter
+Services
+Advisory servicesClimate and sustainability consultingDesignDigitalEngineering and technical servicesView all
+Locations
+AmericasAsia PacificEuropeUK, India, Middle East and AfricaView all
+#### [Tunnel design for New Zealand’s largest wastewater project Central Interceptor, New Zealand ](https://www.arup.com/projects/central-interceptor/)#### [Creating a more resilient, inclusive and sustainable future for one of Morocco's most climate-vulnerable regions Guelmim-Oued Noun Green City Action Plan, Morocco ](https://www.arup.com/projects/guelmim-oued-noun-green-city-action-plan/)#### [Digitalisation and improvement of municipal water and wastewater networks in Madrid Master plans for water supply, drainage and sanitation in municipalities of the community of Madrid, Spain ](https://www.arup.com/projects/master-plans-for-water-supply-drainage-and-sanitation-in-municipalities-of-the-community-of-madrid/)#### [Preparing Serbia’s water future with climate‑resilient dam planning Pambukovica Dam, Serbia ](https://www.arup.com/projects/pambukovica-dam/)
+#### [Using emotionally intelligent leadership to transform performance South West Water Team Development, United Kingdom ](https://www.arup.com/projects/south-west-water-team-development/)#### [Smart sewers: digitalising the sewerage system in the city of Mataró, Spain  Mataró sewerage system management, Spain ](https://www.arup.com/projects/mataro-sewerage-system-management/)#### [Restoring rivers and saltmarshes across Wales to help people and nature thrive Welsh river and coastal regeneration, United Kingdom ](https://www.arup.com/projects/welsh-river-and-coastal-regeneration/)#### [Restoring one of the world’s most polluted rivers with a digital twin Pasig River Plastic Waste Digital Twin Prototype, Philippines ](https://www.arup.com/projects/pasig-river-plastic-waste-digital-twin-prototype/)
+#### [Enabling 100 years of flood resilience and climate adaptation for the UK’s longest river Severn 2100 Adaptation Pathways Pilot, United Kingdom ](https://www.arup.com/projects/severn-2100-adaptation-pathways-pilot/)#### [Driving efficiencies through digital design and transformation  United Utilities Enterprise Mobilisation for AMP8, United Kingdom ](https://www.arup.com/projects/united-utilities-enterprise-mobilisation-for-amp8/)#### [Geospatial analysis and visualisation to support community-led environmental interventions Tijuana River Index, Mexico, USA ](https://www.arup.com/projects/tijuana-river-index/)#### [Understanding and prioritising Inflow and Infiltration Severn Trent Water, United Kingdom ](https://www.arup.com/projects/severn-trent-water/)
+#### [Delivering one of Wales' leading flood defence schemes Newport Stephenson Street Flood Scheme, United Kingdom ](https://www.arup.com/projects/newport-stephenson-street-flood-scheme/)#### [Developing an investment strategy for resilient water systems Prioritising investments for water security in Ethiopia, Ethiopia ](https://www.arup.com/projects/prioritising-investments-for-water-security-in-ethiopia/)#### [Enhancing flood defences with nature-based solutions to protect people and wildlife Brighouse Flood Alleviation Scheme, United Kingdom ](https://www.arup.com/projects/brighouse-flood-alleviation-scheme/)#### [Improving water security and sanitation for millions in urban India Australia-India Water Security Initiative (AIWASI), India ](https://www.arup.com/projects/australia-india-water-security-initiative-aiwasi/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/projects/water-projects/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/projects/water-projects/)
+Close Close
+Close
+## Filter options

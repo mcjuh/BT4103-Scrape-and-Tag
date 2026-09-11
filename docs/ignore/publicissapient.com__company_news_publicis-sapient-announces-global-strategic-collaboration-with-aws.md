@@ -1,0 +1,56 @@
+<!-- Source: https://www.publicissapient.com/company/news/publicis-sapient-announces-global-strategic-collaboration-with-aws | Title: Publicis Sapient announces global strategic collaboration agreement with Amazon Web Services to accelerate enterprise IT modernization | Publicis Sapient | Seed: https://www.publicissapient.com/ (Publicis Sapient) -->
+
+[Skip to main content](https://www.publicissapient.com/company/news/publicis-sapient-announces-global-strategic-collaboration-with-aws#main)
+  * Sapient Slingshot wins Technology Breakthrough of the Year. 
+[ Explore Slingshot  ](https://www.publicissapient.com/platforms/slingshot)
+  * Sapient Bodhi ranked #1 for deep research. 
+[ Explore Bodhi  ](https://www.publicissapient.com/platforms/bodhi)
+  * Meet Sapient Sustain: context-aware AI for complex IT operations. 
+[ Explore Sustain  ](https://www.publicissapient.com/platforms/sustain)
+  * 3M lines of COBOL → clear specs in 8 weeks. 
+[ Get the details  ](https://www.publicissapient.com/customers/stories/financial-services-slingshot-legacy-modernization)
+
+
+#  Publicis Sapient Announces Global Strategic Collaboration Agreement With Amazon Web Services to Accelerate Enterprise It Modernization 
+Publicis Sapient will leverage AWS’s advanced generative AI services to help enterprises accelerate their digital business transformation journeys and more easily build personalized campaigns and experiences to reduce churn and enhance customer loyalty.
+March 11, 2025 
+Share
+##  NEW YORK, March 11, 2025 
+Publicis Sapient, a digital business transformation company, today announced a five-year global strategic collaboration agreement (SCA) with Amazon Web Services (AWS) where they will use AWS’s artificial intelligence (AI) and machine learning (ML) technologies to accelerate how enterprises modernize and migrate their IT workloads and build personalized customer experiences that deliver business impact at scale.
+Through this collaboration, the two companies will build solutions that combine Publicis Sapient’s deep delivery capability across its [Strategy, Product, Experience, Engineering and Data and AI](https://www.publicissapient.com/company/capabilities) (SPEED) methodology – Publicis Sapient’s approach to digital business transformation success – and AWS’s advanced cloud services to help customers across industries accelerate migration of legacy workloads to the cloud. Publicis Sapient will create new use cases that help enterprises leverage their data with generative AI tools to create and scale personalized digital assets that support end-customer conversion, acquisition, and retention. Additionally, the effort will help enterprises optimize and automate the software development lifecycle (SDLC) to support more efficient software development and faster speed to market.
+Joint customers will also benefit from access to Publicis Sapient’s comprehensive ecosystem of tools, including Bodhi, an enterprise-ready AI/ML platform built on AWS, which helps customers deploy and scale generative AI use cases. Bodhi leverages Amazon SageMaker and Amazon Bedrock to offer customers vast model selection and enterprise-grade capabilities, as well as safeguards, data protections, and responsible AI principles to give customers confidence, flexibility, and control when building and deploying production-ready use cases. Additionally, customers can leverage Publicis Sapient's AI-powered platform, Sapient Slingshot, which is built off Bodhi and helps accelerate legacy modernization and the SDLC.
+"Publicis Sapient has been a proud partner of AWS for many years, and we’re excited to deepen our commitment by combining the world’s most broadly adopted cloud with our extensive experience in driving digital business transformation. Our collaboration puts the power of AWS’s advanced generative AI services at the fingertips of our shared C-suite customers globally, from CEOs, CIOs and CMOs, to deliver transformative value with AWS security, reliability, and scalability. Together, we will create solutions that transform how businesses operate IT and deliver innovative products, services, and experiences,” said **Nigel Vaz, CEO of Publicis Sapient**.
+"In today's business landscape, personalization at scale is key. Our collaboration with Publicis Sapient merges AWS's advanced AI services and industry-leading security with their digital transformation prowess. Together, we're accelerating cloud adoption and deploying production-ready AI solutions. By combining our enterprise-grade capabilities with Publicis Sapient's SPEED methodology, we're helping businesses across industries harness data to forge deeper customer connections and drive significant business outcomes," said **Matt Garman, CEO of AWS.**
+##  Publicis Sapient Creates AWS Business Unit 
+As part of the collaboration, Publicis Sapient launched an AWS business unit, investing in teams and capabilities in business development, sales, marketing, and operations, as well as business analysts, and data and AI scientists. The two companies will also invest in developing scalable, up-to-date capabilities, including:
+  * **Transformational journeys for customers** : Publicis Sapient and AWS will combine resources and expertise to help customers accelerate their cloud adoption and migration, including through new solutions available in AWS Marketplace.
+  * **A roadmap of future technologies:** Publicis Sapient and AWS will build and bring to market new generative AI solutions to meet industry-specific use cases for digital business transformation, AI for marketing, and more.
+  * **Talent growth and development** : Publicis Sapient is also investing in additional training and certifications to upskill its workforce to become experts in AWS technology, including its leading AI and ML services.
+
+
+This collaboration builds on the work that the two companies have already been engaged in to help enterprises across industries realize greater business impact for their end-customers. For example:
+  * Publicis Sapient engaged with one of the world’s largest automakers to build a digital showroom that consolidates its online car shopping data from 190 markets and 105 countries into a single platform that turns data into actionable insights. Built on AWS using Publicis Sapient’s SPEED capabilities and leveraging AWS’s AI and ML services, the digital showroom analyzes online car shopping data to help the automaker prioritize offers and incentives to customers with the highest likely return on investment. The platform helped the automaker increase test drives by over 900% and improved conversion rates.
+  * One of the [leading global pharmaceutical companies](https://www.publicissapient.com/work/empowering-healthcare-marketing-with-genai) utilized Publicis Sapient’s AskBodhi running on AWS to deploy a scalable generative AI solution for personalized marketing content generation. The solution automated the creation of localized marketing collateral, including images for banner ads and translations, and dramatically reduced time to market. The company estimates the solution reduced project content creation costs by 35%-45%.
+  * A leading wealth management firm worked with Publicis Sapient to build a contextual search experience within its existing platform that ingests real-time financial data from a variety of sources and improves the user experience for its advisors to provide guidance to their clients. Initially built on-premises, Publicis Sapient migrated the solution to AWS to allow the firm to scale the platform and enroll more than 20,000 advisors and meet security requirements. The new experience reduced search response time by 80%, and more than 90% of advisors rated the contextual search as their favorite feature.
+
+
+"The AWS and Publicis Sapient collaboration showcases the power of generative AI in driving IT modernization and delivering personalized customer experiences at scale. As Saudi Arabia's national carrier, Saudia is dedicated to harnessing its data to create exceptional guest experiences, while ensuring the highest standards of security. The combination of AWS's cutting-edge generative AI services, featuring robust data safeguards, and Publicis Sapient's expertise empowers us to innovate rapidly and contribute meaningfully to Saudi Arabia's ambitious tourism objectives, a cornerstone of Vision 2030,” stated **Abdulgader Attiah, Chief Data and Technology Officer of Saudia Group**.
+“Publicis Sapient, who was a Leader in the IDC MarketScape: Worldwide Cloud Professional Services 2024 Vendor Assessment, is positioned as a forward-thinking partner of AWS, offering industry-specific expertise and solutions for complex IT challenges, such as mainframe modernization. And its capabilities are further enhanced by offerings available in AWS Marketplace. It’s great to see Publicis Sapient and AWS collaborating to drive greater value to enterprises’ digital business transformation initiatives powered by AI,"**said Gard Little, Research VP with IDC's Global Services Markets and Trends research team.**
+Customers can access [AskBodhi](https://aws.amazon.com/marketplace/pp/prodview-6mj6vzxg5ya5q), [Wealth Management Accelerator (WMX)](https://aws.amazon.com/marketplace/pp/prodview-qj7mpp7lrq5su), and [AI-powered Application and Mainframe Modernization – Sapient Slingshot](https://aws.amazon.com/marketplace/pp/prodview-fqlbo46lu65wi?sr=0-6&ref_=beagle&applicationId=AWSMPContessa) in AWS Marketplace, a digital catalog – with thousands of software listings from independent software vendors – that makes it easy to find, test, buy, and deploy software that runs on AWS.
+To learn more about how Publicis Sapient and AWS work together, visit [publicissapient.com/partnerships/aws](https://www.publicissapient.com/partnerships/aws).
+##  About Publicis Sapient 
+Publicis Sapient, the global technology hub of Publicis Groupe, provides enterprise AI platforms and services. With over 30 years of digital business transformation experience, we enable enterprise clients to transform how they operate and serve their customers, unlocking new value and enabling them to thrive in an AI-driven world. Our platforms [Sapient Slingshot](https://www.publicissapient.com/platforms/slingshot), [Sapient Bodhi](https://www.publicissapient.com/platforms/bodhi) and [Sapient Sustain](https://www.publicissapient.com/platforms/sustain) use AI built off this deep enterprise context to help organizations modernize their legacy tech systems, build agentic solutions, and automate their IT operations. The combination of our AI platforms and the expertise of our people enables us to deliver faster and more effective outcomes through solutions that are specific to the unique needs of our clients’ businesses, their industries and their customers. For more information, visit [publicissapient.com](https://www.publicissapient.com/).
+Like this press release?
+Your browser does not support the video tag.
+## 
+Ready to learn more?
+  * Discuss your unique business challenges
+  * Explore AI solutions built for your industry
+  * Get proven delivery guidance
+  * Identify the next step that fits your goals
+
+
+Trusted by leading organizations in every industry.
+### 
+Get in touch
+Submit the form below and one of our experts will reach out.

@@ -1,0 +1,10 @@
+<!-- Source: https://www.westmonroe.com/our-team/kevin-mccarty | Title: Kevin McCarty, Co-Founder & Executive Chairman | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+As West Monroe’s Co-Founder and Executive Chairman, Kevin champions bold growth and meaningful impact—amplifying our presence in the market, and fueling the next chapter of client success.[ Linkedin](https://www.linkedin.com/in/kemccarty)
+Contact
+As Executive Chairman, Kevin is focused on what’s ahead—championing West Monroe’s presence in the market and deepening connections with clients and partners. 
+After a decade as CEO—the second in our firm’s history—he continues to lead our Board of Directors, guide investment strategy through West Monroe Capital, and play an active role in our own M&A growth strategy. His priority: representing and promoting the firm in the market to fuel opportunity and impact at every level. 
+Since co-founding the firm in 2002, Kevin has focused on building multidisciplinary teams that deliver practical solutions, empowering clients to transform how they do business—and make it stick. He takes great pride in motivating West Monroe’s dynamic teams, ensuring measurable client impact is central to every project. 
+Kevin’s leadership has taken West Monroe from its start-up roots to a top consulting firm with a challenger mindset. Personally reviewing client feedback, he continuously enhances client outcomes across every engagement. With recognition from EY and Consulting Magazine, Kevin is a visionary who inspires his teams to innovate.
+## _Kevin’s All-In Mindset_
+Kevin is dedicated to developing future leaders at West Monroe and beyond. He serves on the HFS Chicago Scholars board, supporting promising students, and stays energized with family adventures on the water or at concerts.

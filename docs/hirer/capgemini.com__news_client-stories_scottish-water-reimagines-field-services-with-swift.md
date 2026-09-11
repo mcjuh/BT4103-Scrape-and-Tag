@@ -1,0 +1,46 @@
+<!-- Source: https://www.capgemini.com/news/client-stories/scottish-water-reimagines-field-services-with-swift/ | Title: Scottish Water reimagines field services with SWIFT - Capgemini | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/news/client-stories/scottish-water-reimagines-field-services-with-swift/#main-content)
+## Capgemini supports Scottish Water in the delivery of its Intelligent Field Force Transformation program, delivering high-quality, data-driven, and sustainable field services
+**Client Challenge:** Scottish Water wanted to transform the capability of its field force operations to deliver great customer service while protecting Scotland’s precious water environment by improving the condition and performance of key infrastructure.**Solution:** The water management company partnered with Capgemini to perform an end-to-end reimagining and redesign of the entire field force lifecycle, systems, and processes in the form of the SWIFT program.**Benefits:**
+  * First-time fix rates improved from 49% to 62%
+  * £430,000-£540,000 annual savings in operating expenses
+  * 7-10% reduction in contractual overtime
+  * 13% drop in carbon emissions
+  * 13% improvement in asset maintenance efficiency
+
+
+[Please allow advertising cookies to see this Youtube embed](https://www.capgemini.com/news/client-stories/scottish-water-reimagines-field-services-with-swift/#)
+Every day, Scottish Water delivers 1.3 billion liters of drinking water to 2.5 million households and 150,000 businesses in Scotland while removing 900 million liters of wastewater for treatment before returning it safely to the environment. Its 1,200-strong field force plays a vital role maintaining critical national infrastructure in the form of a vast network of pipes, pumping stations, and treatment plants, whilst operating as the public face of Scottish Water as a result of in-person responses to issues such as burst water pipes or an interruption to supply.
+But Scottish Water’s legacy field service technology had been highly customized and was approaching end of life. Manual workarounds were being used throughout day-to-day field service operational processes, resulting in a lack of visibility related to jobs in the field and an inability to systematically advise and update customers. Reporting processes also lacked data from the field, limiting the ability to make data-driven decisions and service improvements.
+To revitalize the solutions that supported its field agents, Scottish Water engaged Capgemini to launch the Intelligent Field Force Transformation – otherwise known as SWIFT – its most ambitious and strategically important service improvement program to date.
+## Defining the optimum customer experience, now and for the future
+Scottish Water’s leadership team knew that SWIFT needed to be much more than a technology upgrade. Instead, they commissioned a complete, end-to-end reimagining and redesign of the entire field force lifecycle, systems, and processes. This included extensive engagement with employees in various roles to understand their challenges, pain points, needs, and aspirations. Using this feedback, Scottish Water and Capgemini defined the optimum, end-to-end customer experience, for both the present and the future.
+The partners also explored the role of contractors and the supply chain that delivered services to the water management company. This research informed the specifications of technology architecture, foundations, and personalized customer experiences that flex and evolve.
+Ensuring the field team’s support and giving them tools to deliver services that match their high professional standards was a priority, with technicians closely involved in prototype testing throughout development.
+## One view of the customer improves service and first-time fix
+SWIFT is built around the Salesforce Field Service platform and integrates every aspect of the field force’s needs. Dispatchers now have a complete history of all customer information and relevant infrastructure. In-built automation and AI maximize the speed and efficiency with which every task, whether an emergency or planned maintenance visit, is scheduled and delivered.
+The system only releases jobs to technicians once all information and enabling activities are completed, significantly increasing the probability of a first-time fix. In addition, SWIFT enables preparation such as planning optimum routes from job to job, making live adjustments for traffic or roadworks, minimizing vehicle journeys, and cutting CO2 emissions.
+The technician has a complete history of the job and the customer on their SWIFT mobile app, with prompts to ensure they have the correct equipment, tools, and supplies. Online access to knowledge articles and job-specific instructions enables completion of the task on the first attempt, greatly reducing multiple visits.
+Through the inclusion of both proactive and responsive communication, Scottish Water and Capgemini have transformed and personalized the customer experience while ensuring that clients are informed about actions taken to resolve their issues or deliver the service they have requested. When field force technicians are en route to a location, the system automatically messages customers with an estimated arrival time and guidance about steps required to prepare for the visit.
+These efficiencies and service improvements are replicated daily for every task, with granular data from each client interaction captured to guide future communication. The growing centralized data pool is analyzed in Salesforce for trends, learning points, and insights to guide further service enhancements, all of which are captured in easy-to-absorb dashboards and reports.
+## Transformational results and benefits
+SWIFT was a two-year transformation program that went live in September 2021 with a managed roll out over the following nine months in a series of three waves to properly support a complex assortment of teams and geographies effectively. This staged roll out enabled effective change management, helping to ease the transition to new tools and systems.
+Despite the challenges of COVID-19, it was delivered on time and on budget and was the fastest completion of a program of this scale in Scottish Water’s history.
+The end-to-end transformation that SWIFT has delivered is evidenced in the statistics. In one year:
+  * More than £715,000 of benefits were realized in the first three months, with annualized financial benefits of up to £4.9 million
+  * First-time fix rates improved from 49% to 62%, a monthly saving of £110,000 in one team
+  * A 7-9% reduction in total visits across all teams led to annual savings of £430,000-£540,000 in OPEX costs
+  * 9 – 15 FTE capacity was freed up, saving £500,000-£800,000 per annum, an 11-19% improvement
+  * Contractual overtime was reduced by 7-10%, saving between £115,000-£170,000 per year
+  * Contractor job variance fees fell to a projected 5-6%, or £190,000-£225,000 per annum
+  * Decommissioned legacy systems and licenses will future proof IT solutions and save a projected £520,000 per year
+  * Carbon emissions fell by 13% as a result of optimized routes and fewer journeys
+  * Asset maintenance is 13% more efficient through more productive and less frequent site visits.
+
+
+The approach to the field force transformation program is also being assessed as a potential solution to similar challenges within Scottish Water, while the program is also being showcased to the wider UK water sector as a highly replicable solution.
+> When a customer contacts us with a wastewater issue, SWIFT is transforming the planning and scheduling of work. Remote diagnosis is one of the projects under SWIFT, which has triaged over 3,700 cases and prevented one-third of these from being site visits by resolving customer queries remotely, enabling much faster resolutions for our customers.
+> Douglas Millican, CEO, Scottish Water
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All

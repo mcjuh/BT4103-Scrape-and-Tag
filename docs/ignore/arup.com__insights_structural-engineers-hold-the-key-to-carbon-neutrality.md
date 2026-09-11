@@ -1,0 +1,56 @@
+<!-- Source: https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/ | Title: Structural engineers hold the keys to carbon neutrality - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/#main-content)
+Debate
+#  Structural engineers hold the keys to carbon neutrality 
+Senior structural engineer Lauren Wingo and sustainability associate Frances Yang discuss the pitfalls of and progress made toward embodied-carbon neutrality and how structural engineers can help achieve this industry-wide change.
+Frances Yang
+Associate Principal
+Lauren Wingo
+Senior Structural Engineer
+Last updated: April 2020 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact
+Many cities, industry organizations, and companies have set out strict carbon neutrality standards for their operations in the years ahead.
+But when Architecture 2030 took a hard look at the data, they realized embodied carbon — the energy and emissions from materials and construction — was a significant and largely ignored gap in the industry. 
+Globally, building-sector operational energy produces 30% of greenhouse gas emissions, while materials and material production add another 20%. In total, the building industry produces 50% of the globe’s greenhouse gas emissions. To meet zero carbon emissions goals by 2050, we have to look at embodied carbon more seriously.
+Since a building’s structure accounts for 50% of its embodied carbon, structural engineers are essential players in the struggle toward carbon neutrality. The Carbon Leadership Forum’s [Structural Engineers 2050 Challenge](http://www.carbonleadershipforum.org/projects/se2050/) (SE 2050) is inspiring engineers to work toward embodied carbon benchmarks while contributing essential data along the way. 
+Arup’s senior structural engineer Lauren Wingo and sustainability associate Frances Yang are part of the SE 2050 working group designing and managing a commitment initiative to help structural engineers meet this challenge. We spoke to Lauren and Frances about the pitfalls of and progress made toward embodied-carbon neutrality — and how structural engineers can help achieve this industry-wide change. 
+## How would you characterize the building industry's response to carbon neutrality targets so far?
+**Frances Yang** : We’ve seen reports from the Intergovernmental Panel on Climate Change and other organizations pointing out the urgency and repercussions of reaching specific amounts of carbon dioxide in the atmosphere. Plus, with better projections about the sources of emissions, we’re seeing sector-specific reduction requirements at milestones leading up to 2050. 
+That has created more awareness for the building sector and our clients. The motivation is there for the building industry to look at carbon as a really critical metric and to reduce not only operational carbon emissions, but the embodied carbon in our building and infrastructure materials.
+**Lauren Wingo** : Now that our buildings are becoming more and more operationally efficient due to better mechanical and electrical design, the focus is shifting towards embodied carbon, where structural engineers play a larger role. 
+To reduce embodied carbon, the most essential step for structural engineers is to mindfully choose the right materials and use them as efficiently as possible. For instance, Frances has done a lot of work around how we can use higher-performing concrete, which has a lower environmental impact. The impetus is on structural engineers to be thoughtful about the materials they’re specifying and have an awareness of the environmental effects of those different material types. 
+Finally, we need to collect embodied carbon data from our own projects, actually look at that data, and have metrics against which we can gauge our performance. 
+Bosco Verticale
+## What are the biggest challenges you find in trying to reduce embodied carbon on projects?
+**Frances** : Noting what Lauren just said, there’s currently not much data available. Well-resourced organizations like the Department of Energy have helped with years of operational energy data collection. We don't have anything like that for the carbon embodied in buildings. There's a big difference in methodologies, and it's hard to measure. There's no meter on the building for embodied carbon, so there aren’t those reliable numbers to compare performance. 
+Right now, there are several efforts underway to standardize that measurement and capture data in a way that will be meaningful and comparable. But we’re still at an early stage, and I don’t think we can wait for that standardization. We need to start tracking data and building fluency and awareness now. We already know how energy intensive it is to make steel and cement, we know there are enormous benefits to reusing buildings and salvaging materials. There are things structural engineers could do now. 
+That said, the construction industry is averse to change. There’s risk aversion to using salvage materials, when something has had a previous life or when you don’t know the exact material properties unless you test every single piece. It quickly becomes cost prohibitive, and it’s not the way an owner or contractor is used to doing things. 
+**Lauren** : It also varies widely by region in terms of what technology is being adopted by the local market. In some markets, there may not be low embodied carbon options available. The rate of adoption for these technologies is also dependent on market incentives. At the moment, there isn’t a certification program like ENERGY STAR for the embodied energy of buildings, and when local jurisdictions pass green building codes, they’re still focused on operational efficiency. Without the incentives in place, people aren’t willing to invest in embodied carbon mitigation. 
+The impetus is on structural engineers to be thoughtful about the materials they’re specifying and have an awareness of their environmental effects.
+Lauren Wingo
+Senior Structural Engineer, Arup
+## What do you think needs to happen before we see industry-wide change?
+**Frances** : There's a chicken and egg thing that happens among owners, policymakers, and investors. Policymakers want a project or a win to point to that says, “Hey, if we make this policy, it's feasible, it'll work, there's a benefit.” Owners are very hesitant unless they have a financial incentive, while the financers aren't going to fund something unless the policies or programs are in place to help them see a return on the investment. 
+Each one is almost waiting for the other. That’s why there’s a real need to make even incremental movement. If one group starts making even a little bit of headway, the other entities will respond. But we have to do this on a hundred different fronts.
+One case study is the Marin County [Low Carbon Concrete Code](https://www.marincounty.org/depts/cd/divisions/sustainability/low-carbon-concrete-project), where the Bay Area Air Quality Management District funded a grant for Marin County to test a green building code amendment that limits carbon emissions on concrete. They learned that cement producers in the Bay Area emit as many greenhouse gas emissions as all the area’s bus traffic. Since the air district had reached their limit technology-wise in working with the cement manufacturers to lower emissions, Arup helped Marin and partner jurisdictions develop a green building code provision that puts a cap on how much cement will be used on projects, thereby reducing demand for cement and regional emissions from the plants overall.
+Hopefully ideas like this can spread. We are seeing interest from cities like Los Angeles, Portland, New York, and Boston to replicate something similar. Eventually initiatives like this could grow statewide, then nationwide.
+**Lauren** : Bringing an awareness of and education around embodied carbon to the public realm will help motivate the industry to change on a larger scale. That’s what I hope the SE 2050 program will accomplish. There’s a need for structural engineers to take on this responsibility despite the lack of obvious financial or regulatory incentives. And we’re happy and ready to take that on in alignment with our firm’s values and those of our clients. It’s time for our profession to act and take the lead in a process moving much too slowly. 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/) Copy link  Close Share Menu 
+Explore similar insights
+[ Debate ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=108) [ Structural engineering ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=123) [ Decarbonisation ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=117)
+## Insights
+### Explore more decarbonisation insights
+[ See more ](https://www.arup.com/insights/all-decarbonisation-insights/)
+[ Publication  Whole life carbon assessment – embodied carbon quantification in Hong Kong  ](https://www.arup.com/insights/whole-life-carbon-assessment-embodied-carbon-quantification-in-hong-kong/) [ Article  Data centres, heat reuse and the future of circular energy systems  ](https://www.arup.com/insights/data-centres-heat-reuse-and-the-future-of-circular-energy-systems/) [ Publication  From assessment to action: a spotlight on whole life carbon processes in cities  ](https://www.arup.com/insights/publication-from-assessment-to-action-a-spotlight-on-whole-life-carbon-processes-in-cities/) [ Publication  Arup guide to EU decarbonisation legislation  ](https://www.arup.com/insights/arup-guide-to-eu-decarbonisation-legislation/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/structural-engineers-hold-the-key-to-carbon-neutrality/)
+Close Close

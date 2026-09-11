@@ -1,0 +1,50 @@
+<!-- Source: https://www.bdo.com/insights/assurance/2024-revised-uniform-guidance | Title: Understanding the OMB's 2024 Revised Uniform Guidance
+ | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# 2024 Revised Uniform Guidance
+On April 22, 2024, the Office of Management and Budget (OMB) issued guidance for “Federal Financial Assistance” which included the 2024 revised _Uniform Administrative Requirements_ , _Cost Principles_ , and _Audit Requirements_ _for Federal Awards_ (Uniform Guidance). This revision of the Uniform Guidance is the most significant since its establishment in 2013 and represents a commitment to reduce agency and recipient burden. The effective date for the revised Uniform Guidance is Oct. 1, 2024.
+## Background
+The OMB established the Uniform Guidance in 2013 to improve and replace several earlier OMB circulars and guidance documents related to federal financial assistance management and implementation of the Single Audit Act. The original edition of the Uniform Guidance was effective beginning on Dec. 26, 2014. In subsequent years the OMB has periodically reviewed the Unform Guidance and has made revisions where necessary. 
+On Feb. 9, 2023, OMB issued a Notice of Request for Information in the Federal Register announcing the beginning of the process of seeking public input for proposed revisions to the Uniform Guidance. In October, OMB issued a Notification of Proposed Guidance in the Federal Register explaining proposed revisions. Based on public comments received, as well as ongoing engagement with federal agencies, OMB announced a series of revisions and updates to incorporate recent OMB policy priorities related to federal financial assistance and to reduce agency and recipient burden. 
+## Objectives
+There are four objectives of the revisions to the Uniform Guidance. The first objective, incorporating statutory requirements and administration priorities, was achieved through changes made to ensure consistency with statutory authorities and structural changes to individual parts. The second objective, reducing agency and recipient burden, was achieved through increases to key thresholds, such as the single audit and type A thresholds, as well as a complete revision to the template text for a Notice of Funding Opportunity (NOFO). The third objective, clarifying sections that recipients or agencies have interpreted in different ways, was accomplished not through changes in policy but instead by the elimination of ambiguous terms and clarifying the intent of specific sections. The fourth and final objective, rewriting applicable sections in plain language, improving flow and addressing inconsistent use of terms, resulted in the revised guidance incorporating plain language principles and a focus on the use of simple words and phrases and a reduction in jargon. 
+“The overall goal of OMB’s plain language revisions was to make the Uniform Guidance more accessible to the general public and ensure more equitable access to federal funding opportunities by making the guidance easier to understand.”
+Federal Register Vol. 89, No. 78
+April 22, 2024
+## Key Revisions
+Two of the most notable changes made in the revised Uniform Guidance were the increase of the audit threshold from $750,000 to $1,000,000 in section 200.501, _Audit Requirements_ , and the increase in the type A threshold from $750,000 to $1 million for non-federal entities with total federal awards expended equal to or in excess of $1 million but less than $34 million in section 200.518, _Major Program Determination_. 
+In section 200.512, _Report Submission_ , OMB revised the guidance to more accurately reflect the provisions of the Single Audit Act regarding the report submission deadline to recognize that a cognizant agency for audit (or an oversight agency for audit in the absence of a cognizant agency) may authorize extensions for single audit submissions when the nine-month after fiscal year-end time frame would place an undue burden on the auditee.
+Other changes made include: 
+  * Adjusted the exclusion threshold of subawards from $25,000 to $50,000 for modified total direct costs
+  * Raised the de minimis rate for indirect costs for recipients and subrecipients who do not have a current federal negotiated indirect cost rate (including provisional rate) from 10% to a maximum of 15% of modified total direct costs.
+  * Raised the threshold for determining items considered to be equipment from $5,000 to $10,000
+  * Revised the definition and examples of questioned costs to provide further clarification on how they are identified in an audit report
+  * Added a requirement that when there are known questioned costs but the dollar amount is undetermined or not reported, a description of why the dollar amount was undetermined or otherwise could not be reported should be included in the audit finding
+  * Revised the definition of period of performance to mean the time interval between the start and end date of a federal award, which may include one or more budget periods. Identification of the period of performance in the federal award does not commit the federal agency to fund the award beyond the currently approved budget period
+
+
+## Effective Date
+The effective date of the revised Uniform Guidance is Oct. 1, 2024. Federal agencies have the option, but are not required, to elect to apply the final guidance to federal awards issued prior to Oct. 1, 2024. For those agencies electing to apply financial guidance prior to Oct. 1, 2024, the effective date of the final guidance could not have been prior to June 21, 2024.
+Changes to the audit threshold and type A program threshold cannot be adopted until audits for years ending Sept. 30, 2025, or later as prescribed by the 2024 OMB Compliance Supplement in Appendix VII. 
+## Best Practices for Implementation
+Non-federal entities should invest the time now to review the revised Uniform Guidance and assess the impact the changes will have on their federal awards. Key questions to answer include (but are not limited to):
+  * Will the adoption of the new audit threshold result in our entity no longer requiring a single audit in years ending after Sept. 30, 2025?
+  * Will the increase in the type A program threshold once effective for years ending after Sept. 30, 2025 reduce the number of major programs typically audited for our entity?
+  * What are the benefits and drawbacks to taking advantage of the higher de minimis rate for indirect costs? 
+
+
+Non-federal entities should discuss the changes with their auditors prior to the effective date to help ensure a successful implementation. 
+An important question many entities have is how the new compliance requirements under the revised Uniform Guidance impact federal awards issued under the existing Uniform Guidance (i.e., those awards issued prior to Oct. 1, 2024).
+Non-federal entities will need to determine the relevant Uniform Guidance criteria based on the award date. Most non-federal entities will have awards under the existing Uniform Guidance as well as other awards under the revised Uniform Guidance. Special attention will need to be given to ensure each award is in compliance with the applicable requirements. It is expected that the 2025 OMB Compliance Supplement will address both current and revised Uniform Guidance requirements in Part 3, _Compliance Requirements_.
+### Conclusion
+The 2024 revised Uniform Guidance marks a significant shift in guidance and requirements by the OMB for federal financial assistance. While the revisions are expected to be beneficial, it is important that each entity invest the time and prepare for the revisions to avoid unpleasant surprises.
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+[Return to Nonprofit Standard Newsletter](https://www.bdo.com/insights/industries/nonprofit-education/nonprofit-standard-newsletter)
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleMore Than a Funding Extension: What the Continuing Resolution Means for OMB’s Proposed Uniform Guidance Rewrite  September 4, 2026 ArticleMore Than a Funding Extension: What the Continuing Resolution Means for OMB’s Proposed Uniform Guidance Rewrite  September 4, 2026A new Continuing Resolution pauses OMB’s proposed Uniform Guidance rewrite and delays its planned rollout. Explore what this temporary halt could mean for federal award recipients, agencies, and auditors in the months ahead. Read Morechevron_right ](https://www.bdo.com/insights/industries/nonprofit-education/what-the-continuing-resolution-means-for-ombs-proposed-uniform-guidance-rewrite)
+[ ArticleThe Resilient Finance Function: Building an Operating Model That Can Adapt, Scale, and Deliver Better Decisions September 3, 2026 ArticleThe Resilient Finance Function: Building an Operating Model That Can Adapt, Scale, and Deliver Better Decisions September 3, 2026A resilient finance function can help organizations adapt, scale, and perform more effectively. Explore how the right operating model supports long-term business demands. Read Morechevron_right ](https://www.bdo.com/insights/assurance/building-an-operating-model-that-can-adapt-scale-and-deliver-better-decisions)
+[ ArticleCalifornia CCPA Cybersecurity Audit Requirement September 3, 2026 ArticleCalifornia CCPA Cybersecurity Audit Requirement September 3, 2026Cybersecurity oversight is moving beyond the IT function. Under California's latest CCPA rules, certain businesses may need annual cybersecurity audits and executive certification of completion. Understand the requirements now to help avoid surprises later. Read Morechevron_right ](https://www.bdo.com/insights/assurance/california-ccpa-cybersecurity-audit-requirement)
+[ ArticleOversight Considerations for Self-Certified Distributions August 31, 2026 ArticleOversight Considerations for Self-Certified Distributions August 31, 2026Explore key considerations for self-certified distributions, including oversight, fiduciary duties, and plan controls. Read Morechevron_right ](https://www.bdo.com/insights/assurance/oversight-considerations-for-self-certified-distributions)

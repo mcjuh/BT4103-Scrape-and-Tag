@@ -1,0 +1,48 @@
+<!-- Source: https://www.bdo.com/insights/industries/life-sciences/a-guide-to-cash-conservation-across-the-drug-development-cycle | Title: Cash Conservation Across the Drug Development Cycle  | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# A Guide To Cash Conservation Across The Drug Development Cycle
+## You already know that every dollar matters.
+Even when dry powder is plentiful and investors are keen on biotech and pharma, good financial management never goes out of style. Staying focused on cash conservation and robust cash forecasting can mean the difference between commercial success and failure to reach the clinical trial phase.But how can biotech and pharma start-ups ensure they’re making the right financial choices and manage their cash to get to the next clinical or development milestone?Read on to learn a few cash management strategies for the different stages of the drug development lifecycle.
+### Supporting Drug Substance Readiness
+Early in your drug development, your focus should be on designing a drug manufacturing process that’s capable of supporting a regulatory filing and commercial launch even if it’s not the most efficient. That means your early process development goal should be to spend the least amount of money to supply clinical trials at the fastest possible rate. This strategy may not be the most cost-effective per gram of material, but when executed correctly it can give you the opportunity to lower the overall cost and risk of reaching your next milestone. With the typically high risk of failure at this stage, your focus should be getting necessary clinical data with the lowest financial risk, while still supporting a solid process and clinical strategy.In early stages of drug development, aim to spend the least amount of money necessary to supply clinical trials.
+## Early Stage and Expanded Clinical Trials
+Choosing the right contract manufacturer requires an exquisite balance of price, reliability, and timing. Price may be the least important of the three criteria. In the early stages, your contract development and manufacturing organization (CDMO) should meet the following criteria:
+  * Understand your business & clinical needs, particularly process, timing, and volumes
+  * Have the capabilities to scale up today and further scale in the future to bridge from phase one to phase three/commercial
+  * Understand commercial readiness requirements, including process characterization and volumes
+  * Have commercial experience with your drug modality — previous FDA inspections and approval is ideal
+  * Be able to support your regulatory filing process, including process data capture and analytics capabilities
+  * Have a proven track record of high success rates on first batches — even if a contract supports make-up batches, delays can cost more than the cost of the batch itself
+  * Support clinical trial supply delivery/stability goals, especially for autologous cell therapies
+  * Have systems in place to protect both the physical materials and the digitized data — black outs are increasingly common
+  * Have access to the raw materials needed for the product — a larger buyer should be able to offer more reliable raw material supply and pricing
+
+
+Choosing the right vendor early on minimizes the risk of needing to switch to a more experienced vendor as the pipeline progresses.
+In early stages, reliability and timing may be more important than price when choosing a CDMO.
+### Commercial Readiness
+When it comes to the commercialization stage, flexible, scalable facility design plays an important role in optimizing capital management. This is especially true when demand is at its more uncertain — for example, in the pre-approval phase and before you know your label. Prioritizing flexibility ensures that your facility can meet your needs in the critical first year of launch with the least amount of capital spent at the start of phase three.It's important that you map out your process development options in advance rather than trying to build for peak commercial demand five years before launch. A scalable process begins with keeping the end in mind during your pre-clinical process design. The success of your development plan will depend on timely capital investments to adjust for process and demand changes as your pipeline matures.Everyone wants to scale up post-approval or at least after your phase three readout. Each process (and supplier) will have different time, capital, and risks to expand capacity after phase three. Getting the Commercial, Forecasting and TechOps teams to discuss the variability of the post-approval demand curve can help define the optimum (i.e. smallest scale) investments to cover the broadest range of commercial outcomes in the three years post approval. Ahead of commercialization, also consider whether capacity collaboration could be appropriate, either for individual parts or for the entirety of your portfolio. Strategic partnerships can open up an additional source of capital and create the necessary flexibility to allow more breathing room in the early stages of drug development.
+Commercialization requires scalable facilities and processes that anticipate your company’s needs and adapts.
+### Where Do You Go After Commercialization?
+For biotechs & pharma start-ups alike, each stage of development offers opportunities for the infusion of capital as new clinical data comes in. Even when flush with capital after a successful launch, companies should consider cash management opportunities for capturing tax incentives and optimizing process and network design to ensure robust supply while also improving cost of goods manufactured (COGM).This checklist provides a list of considerations for enhancing your capital management strategies post-commercialization:
+  * Determine whether you have the opportunity to capitalize on [R&D tax credits](https://www.bdo.com/insights/tax/r-d-tax/r-d-tax-credits-for-the-life-sciences-industry#:~:text=If%20your%20company%20has%20worked,incentives%20may%20be%20even%20greater.)
+  * Explore opportunities for [government funding](https://www.bdo.com/insights/industries/life-sciences/best-practices-for-seeking-federal-funding-for-bio)
+  * Research your [state and local tax incentives](https://www.bdo.com/services/tax/state-local-tax/tax-credits-and-incentives) to determine your eligibility
+  * Consider [outsourcing your finance functions](https://www.bdo.com/services/business-financial-advisory/outsourced-financial-services/finance-and-accounting-advisory) so your team can focus on the science
+  * Explore other outsourcing opportunities in areas like cybersecurity and data protection
+  * Consider divesting underperforming facilities or suppliers
+  * Consider possible exit options, such as licensing your IP, engaging in a strategic sale or pursuing an [IPO](https://www.bdo.com/insights/industries/healthcare/biotech-ipo-checklist-the-road-to-going-public)
+
+
+Even after a successful launch, companies should consider cash management opportunities for capturing tax incentives and optimizing processes and network design.
+### The road ahead is always uncertain.
+It’s impossible to predict the myriad factors that could impact project financing in the life sciences industry. While many of these factors — such as a recession or increasing interest rates, for example — are out of your control, there are ways you can protect your business today and for the future. By keeping a close eye on cash conservation, using this guide as a roadmap, you can lay the right foundation for a financially stable and prosperous future. 
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleLife Sciences Resilience Report August 12, 2026 ArticleLife Sciences Resilience Report August 12, 2026Has life sciences reached a turning point? Explore what recent bankruptcy trends, market shifts, and ongoing volatility reveal about the industry’s outlook in BDO’s latest resilience report. Read Morechevron_right ](https://www.bdo.com/insights/industries/life-sciences/life-sciences-resilience-report)
+[ ArticleBDO’s Spring 2026 Biotech Brief June 16, 2026 ArticleBDO’s Spring 2026 Biotech Brief June 16, 2026Explore biotech industry trends, funding challenges, IPO activity, and FDA insights in BDO’s 2026 Biotech Brief. Download the report today. Read Morechevron_right ](https://insights.bdo.com/bdo-spring-2026-biotech-brief.html)
+[ ArticleNew Jersey Opens NOL Program for Unprofitable Tech Companies June 3, 2026 ArticleNew Jersey Opens NOL Program for Unprofitable Tech Companies June 3, 2026New Jersey’s 2026 NOL program is open through June 30. Learn how eligible technology and biotechnology businesses can turn unused tax benefits into cash to support growth. Read Morechevron_right ](https://www.bdo.com/insights/tax/new-jersey-opens-nol-program-for-unprofitable-tech-companies)
+[ ArticleCAPE Opens in ACE: What Importers Need to Know About IEEPA Refund Processing April 20, 2026 ArticleCAPE Opens in ACE: What Importers Need to Know About IEEPA Refund Processing April 20, 2026Learn how CBP’s new CAPE process may affect tariff refund claims, including Phase 1 limits, eligibility considerations, and steps importers may need to take to protect refund rights. Read Morechevron_right ](https://www.bdo.com/insights/tax/cape-opens-in-ace-what-importers-need-to-know-about-ieepa-refund-processing)

@@ -1,0 +1,40 @@
+<!-- Source: https://www.westmonroe.com/insights/the-next-growth-imperative-for-home-based-care | Title: Integration Is the Next Growth Imperative for Home-Based Care Businesses | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Article
+# Integration Is the Next Growth Imperative for Home-Based Care Businesses
+As diversification becomes commonplace, integration is what will separate true platforms from portfolios of disconnected assets
+June 17, 2026
+Social Share
+As diversification becomes a strategic imperative in 2026, the gap between owning multiple service lines and integrating them is where platform value is won or lost. 
+## Integrated Platforms Unlock the Full Value of Diversification
+An aging population is driving sustained demand for home-based care—adults age 65 and older are projected to comprise 25% of the U.S. population by 2065. At the same time, payers are actively pushing care toward lower-cost environments, with the home often representing the most cost-effective option. Plans looking to contain costs—particularly as Medicare Advantage rate scrutiny intensifies—are increasingly interested in providers that can demonstrate reduced total healthcare spend, especially through lower hospital and emergency department utilization.
+A coordinated multi-service line enterprise is better positioned to participate in value-based care arrangements precisely because it can demonstrate outcomes across a patient’s care journey. It can maintain the patient relationship through key transitions, from home health recovery to personal care support to hospice, rather than losing them to competitors at each handoff.
+Investors have taken notice. Platforms command higher multiples than single-service operators because they offer multiple growth levers: organic, cross-sell, and alternative payment model participation.
+Yet many organizations have struggled to realize this potential. The assumption that multi-service line ownership naturally produces referral volume across service lines has rarely materialized at the scale operators and investors envisioned. The reason? Most platforms haven’t built the organizational structure, workflows, or technology infrastructure to drive coordinated care across their own service lines.
+## Why Cross-Referral Value Often Goes Unrealized
+Many multi-service line providers struggle to capture the full value of integration. Without the right operational foundation, cross-referral often depend on individual relationships and informal communication rather than a repeatable process with measurable outcomes. Four common challenges stand in the way:
+These challenges can be addressed with the right operational and technology investments. One large home-based care provider strengthened operational readiness by implementing a new EMR platform and transitioning more than 2,000 employees to digital workflows, [creating a more scalable foundation](https://www.westmonroe.com/client-results/digital-adoption-compliance-and-workforce-readiness) for care coordination and future growth.
+## Building the Foundation for Integrated Care
+Realizing the full value of a multi-line platform requires three interconnected capabilities.
+### Unified Data Platforms for a “Patient 360” View
+Care coordination starts with visibility. Operators need enterprise-wide, centralized data management that spans all service lines, eliminating disconnected systems for home health, hospice, and personal care that require manual reconciliation.
+With a unified patient view, organizations can access service history, clinical indicators, and care needs across the continuum of care, creating the foundation for proactive coordination. This broader visibility also supports more effective population management, enabling smarter care planning, better resource allocation, and stronger payer negotiations.
+### Proactive Care and Referral Coordination Turns Insight into Action
+Data only creates value when it drives action. Operators need defined roles, structured workflows, and measurable performance indicators for internal referrals. That means moving beyond ad hoc communication to a model where transitions between service lines are anticipated, facilitated proactively, and tracked with accountability.
+The most effective organizations embed care coordination directly into day-to-day operations, ensuring referral opportunities are identified consistently, acted on promptly, and measured over time.
+### Scalable Enterprise Architecture
+Beneath care coordination sits the technology stack. No EMR vendor has yet reliably delivered a unified operating system across home health, hospice, and palliative care. That means operators need a clear enterprise architecture strategy that integrates core operational systems across service lines and supports the analytics layer on top. Building this foundation isn’t glamorous, but it is essential for everything else.
+## Operational Maturity Opens the Door to Alternative Payment Models
+Integrated platforms are better positioned to pursue alternative payment arrangements and value-based contracts when they can prove they have the operational discipline to manage risk. Signs of readiness include:
+  * Established cross-service line patient visibility
+  * Functioning and well-invested data management and reporting capabilities
+  * Key clinical events like hospitalizations tracked as KPIs
+  * Emerging actuarial capability to assess population risk from a clinical and financial perspective
+
+
+Most alternative payment arrangements in home-based care take the form of shared savings. The provider takes on shared risk for a defined population with the goal of reducing total cost of care against a baseline. For platforms that can demonstrate outcomes and manage transitions efficiently, this model is increasingly accessible and increasingly attractive as payers look to shift risk.
+## What’s Next: The Future of Home-Based Care
+Investment activity in early 2026 confirms continued momentum in home-based care. Disclosed purchase prices for home health and hospice deals surged to [$4.28 billion](https://www.levinassociates.com/top-home-health-hospice-deals-of-2026-so-far/) during the first four months of 2026, compared to $325 million during the same period in 2025. However, owning multiple service lines is not the same as running an integrated platform.
+For investors and operators, the path to earning a platform multiple runs through operational fundamentals: a unified data layer, proactive referral workflows, aligned incentives, and the enterprise architecture to support it all. Build those capabilities and the platform becomes more than a collection of service lines, it becomes a coordinated care ecosystem capable of improving outcomes, lowering total cost of care, and competing effectively in value-based arrangements. In a market where diversification is becoming commonplace, integration is what will separate true platforms from portfolios of disconnected assets.
+**Authors:** [Kelsey Braak](https://www.linkedin.com/in/kelsey-braak/), [Joe Widmar](https://www.linkedin.com/in/joewidmar/), [Christian Kerr](https://www.linkedin.com/in/christian-kerr-90847487/)
+### [Webinar: Smarter, Faster Healthcare with Databricks Genie Read More  ](https://www.westmonroe.com/insights/smarter-faster-healthcare-with-databricks-genie)### [New Tech, Old Habits: Why Modernization Stalls With Health Insurers Read More  ](https://www.westmonroe.com/insights/modernization-with-health-insurers)### [2026 Healthcare Industry Outlook Read More  ](https://www.westmonroe.com/insights/healthcare-outlook)### [Beyond the Boom: What’s Next for Home Health M&A? Read More  ](https://www.westmonroe.com/insights/beyond-the-boom-whats-next-for-home-health-ma)

@@ -1,0 +1,92 @@
+# Crawl Report
+
+Total seeds processed: 86  |  Total files saved: 10590
+
+| Label | Seed URL | Status | Saved | Notes |
+|---|---|---|---|---|
+| PWC | https://www.pwc.com/sg/en/services/consulting.html | OK (1000 pages crawled, 981 saved) | 981 | 19 blocked (bot-check/consent wall) |
+| EY | https://www.ey.com/en_gl/industries | FAILED (overall timeout) | 251 |  |
+| Deloitte | https://www.deloitte.com/us/en/services/consulting/services/mergers-acquisitions.html | OK (1000 pages crawled, 999 saved) | 999 | 1 blocked (bot-check/consent wall) |
+| McKinsey | https://www.mckinsey.com/capabilities/m-and-a/how-we-help-clients | OK (0 pages crawled, 0 saved) | 0 |  |
+| KPMG | https://kpmg.com/xx/en/what-we-do/services/advisory/deal-advisory/our-capabilities/transaction-services.html | OK (1000 pages crawled, 995 saved) | 995 | 5 blocked (bot-check/consent wall) |
+| BCG | https://www.bcg.com/capabilities/mergers-acquisitions-transactions-pmi/due-diligence | FAILED (overall timeout) | 763 |  |
+| Bain | https://www.bain.com/industry-expertise/private-equity/due-diligence/ | FAILED (overall timeout) | 69 |  |
+| Alvarez & Marsal | https://www.alvarezandmarsal.com/expertise | OK (639 pages crawled, 613 saved) | 613 | 26 blocked (bot-check/consent wall) |
+| FTI Consulting | https://www.fticonsulting.com/services | OK (182 pages crawled, 171 saved) | 171 | 11 blocked (bot-check/consent wall) |
+| Accenture | https://www.accenture.com/us-en/services/technology-transformation | OK (526 pages crawled, 469 saved) | 469 | 57 blocked (bot-check/consent wall) |
+| Grant Thornton | https://www.grantthornton.com/ | FAILED (overall timeout) | 640 |  |
+| BDO | https://www.bdo.com/ | FAILED (overall timeout) | 502 |  |
+| RSM | https://rsmus.com/ | OK (1000 pages crawled, 1000 saved) | 1000 |  |
+| Kroll (Duff & Phelps) | https://www.kroll.com/en | OK (1000 pages crawled, 1000 saved) | 1000 |  |
+| AESG | https://aesg.com/sg/ | OK (454 pages crawled, 454 saved) | 454 |  |
+| WSP | https://www.wsp.com/ | OK (7 pages crawled, 7 saved) | 7 |  |
+| ERM | https://www.erm.com/ | FAILED (overall timeout) | 1 |  |
+| Arup | https://www.arup.com/ | FAILED (overall timeout) | 272 |  |
+| DNV | https://www.dnv.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| IBM Consulting | https://www.ibm.com/consulting | FAILED (overall timeout) | 263 |  |
+| Publicis Sapient | https://www.publicissapient.com/ | OK (379 pages crawled, 376 saved) | 376 | 3 blocked (bot-check/consent wall) |
+| ThoughtWorks | https://www.thoughtworks.com/ | OK (417 pages crawled, 396 saved) | 396 | 21 blocked (bot-check/consent wall) |
+| Slalom | https://www.slalom.com/ | FAILED (overall timeout) | 30 |  |
+| West Monroe | https://www.westmonroe.com/ | OK (312 pages crawled, 309 saved) | 309 | 3 blocked (bot-check/consent wall) |
+| Capgemini Invent | https://www.capgemini.com/service/capgemini-invent/ | FAILED (overall timeout) | 29 |  |
+| Axiom | https://www.axiomlaw.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Elevate Services | https://www.elevateservices.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| UnitedLex | https://unitedlex.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Oliver Wyman | https://www.oliverwyman.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Roland Berger | https://www.rolandberger.com/en/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| L.E.K. Consulting | https://www.lek.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Kearney | https://www.kearney.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Strategy& (PwC) | https://www.strategyand.pwc.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Teneo | https://www.teneo.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Ankura | https://ankura.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Berkeley Research Group | https://www.thinkbrg.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Charles River Associates | https://www.crai.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Houlihan Lokey | https://hl.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Lazard | https://www.lazard.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Evercore | https://www.evercore.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Moelis & Company | https://www.moelis.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Rothschild & Co | https://www.rothschildandco.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Upwork | https://www.upwork.com | OK (0 pages crawled, 0 saved) | 0 |  |
+| Fiverr Pro | https://www.fiverr.com/pro | OK (0 pages crawled, 0 saved) | 0 |  |
+| Braintrust | https://www.usebraintrust.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| A.Team | https://www.a.team/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Consultport | https://consultport.com/case-studies/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Toptal | https://www.toptal.com/clients | OK (0 pages crawled, 0 saved) | 0 |  |
+| Catalant | https://catalant.com/for-independent-consultants/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Business Talent Group | https://businesstalentgroup.com/category/case-studies/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| MBO Partners | https://www.mbopartners.com/case-studies/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| GLG (Gerson Lehrman Group) | https://glginsights.com/case-studies | OK (0 pages crawled, 0 saved) | 0 |  |
+| Expert360 | https://expert360.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Graphite | https://graphite.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Paro | https://paro.ai/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| AlphaSights | https://www.alphasights.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Guidepoint | https://www.guidepoint.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Third Bridge | https://www.thirdbridge.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Coleman Research | https://www.colemanrp.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Heidrick & Struggles | https://www.heidrick.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Spencer Stuart | https://www.spencerstuart.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Korn Ferry | https://www.kornferry.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Russell Reynolds Associates | https://www.russellreynolds.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Egon Zehnder | https://www.egonzehnder.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| DHR Global | https://www.dhrglobal.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Interim Partners | https://www.interimpartners.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Eden McCallum | https://www.edenmccallum.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| RGP (Resources Global Professionals) | https://rgp.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| The CFO Centre | https://www.thecfocentre.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Chief Outsiders | https://www.chiefoutsiders.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Willis Towers Watson | https://www.wtwco.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Mercer | https://www.mercer.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Marsh McLennan | https://www.marsh.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Milliman | https://www.milliman.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| JLL | https://www.jll.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| CBRE | https://www.cbre.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Cushman & Wakefield | https://www.cushmanwakefield.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Savills | https://www.savills.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| AECOM | https://aecom.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Jacobs | https://www.jacobs.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Analysys Mason | https://www.analysysmason.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| STL Partners | https://stlpartners.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| ICF International | https://www.icf.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| EY (People) | https://www.ey.com/en_gl/people | OK (0 pages crawled, 0 saved) | 0 |  |
+| Bain (People) | https://www.bain.com/our-team/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| PwC (Leadership) | https://www.pwc.com/gx/en/about/leadership.html | OK (0 pages crawled, 0 saved) | 0 |  |

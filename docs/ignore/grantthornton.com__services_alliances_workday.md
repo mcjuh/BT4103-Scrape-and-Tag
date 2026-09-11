@@ -1,0 +1,423 @@
+<!-- Source: https://www.grantthornton.com/services/alliances/workday | Title: Empower the future with Workday | Grant Thornton | Seed: https://www.grantthornton.com/ (Grant Thornton) -->
+
+[ Search ](https://www.grantthornton.com/search)
+United States - EN Global Locations
+United States - EN
+Global Locations
+[ Search ](https://www.grantthornton.com/search)
+# Empower the future with Workday
+Grant Thornton has the proven business experience to design, deploy and support Workday solutions that are compliance-ready and AI-empowered for business success.
+You need a Workday partner that understands scale, regulation and real operating constraints. We are built for organizations that require discipline with efficiency. Our approach connects Workday to governance, compliance, financial insight and other business outcomes, rather than just deploying the system. By aligning finance, HR and technology decisions to operating models and risk profiles, we help organizations realize value that fits their size, maturity and growth goals.
+Our teams bring deep experience across finance, risk, compliance and industry operations, allowing us to design Workday solutions that stand up to regulatory scrutiny and evolving business demands. Our support extends across the full lifecycle, from strategy and operating model design through change management, deployment, optimization and managed services. This sustained involvement helps organizations maintain momentum, adapt to change and continue improving long after go-live.
+Workday applies AI within finance and HR workflows, which increases impact while raising the need for confidence in results. We design AI-ready data strategies, embed auditability and validate outputs against accounting and regulatory standards. Workday, with our advisory insight, enables faster decisions, stronger controls and long-term adaptability.
+**Grant Thornton delivers**
+  * Business-first Workday strategies aligned to growth, regulation and operating priorities
+  * Integrated finance, risk and compliance expertise embedded into system design
+  * Governance models and designs that support continuous platform and AI evolution
+  * Industry experience in service-centric and regulated sectors
+  * Long-term accountability through optimization and managed services
+  * Rightsized solutions that balance efficiency, control and scalability
+
+
+Share with your network
+Share
+Share with your network
+Share
+[ Request a meeting ](https://www.grantthornton.com/request-a-meeting)
+[ Submit RFP ](https://www.grantthornton.com/rfp)
+How we can help you
+**SERVICE**
+[Artificial Intelligence -->](https://www.grantthornton.com/services/advisory-services/artificial-intelligence)
+**SERVICE**
+[Business Consulting --> ](https://www.grantthornton.com/services/advisory-services/business-consulting)
+**SERVICE**
+[Technology Modernization --> ](https://www.grantthornton.com/services/advisory-services/technology-modernization)
+**ALLIANCE**
+[Our alliance partners --> ](https://www.grantthornton.com/services/alliances)
+**Ready to talk? We’re ready to listen.**
+[Request a meeting -->](https://www.grantthornton.com/request-a-meeting)
+E**nterprise solutions used to require a large budget and a long timeline, because they were built to last. In today's dynamic business environment, solutions need to be built to change — with faster results. Find out how Grant Thornton and Workday deliver a new paradigm for speed.**
+[Download our white paper -->](https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/alliances/workday/pdf/fy25-q4-emerging-grant-thornton-value-whitepaper-enus-emer.pdf) (PDF - 1.72MB)
+“Your organization achieves the greatest success when Workday is designed around how you truly operate. Our deployments focus on aligning finance, HR and governance decisions from the start, so that Workday supports compliance, reporting and growth without any unnecessary complexity. Workday also brings AI directly into core finance and HR workflows, and leaders need to trust those results. So, we design AI-ready data models, embed auditability and validate outputs against regulatory and accounting standards. 
+The result is faster insight, improved efficiency and confidence that AI is supporting the business in a responsible, scalable way. Ultimately, the business alignment and modernization help organizations move beyond seeing their ERP as a system to manage, to instead see it as a foundation that supports better decisions, stronger controls and long-term adaptability.”
+[ Greg S. Davis  ](https://www.grantthornton.com/people/missouri/kansas-city/davis-greg-s)
+Partner, Technology Modernization Services Grant Thornton Advisors LLC 
+**Related insights**
+**CASE STUDY**
+[Financial services firm empowers its core ledger](https://www.grantthornton.com/insights/case-studies/banking/2026/financial-services-firm-empowers-its-core-ledger)
+**ON-DEMAND WEBCAST**
+[GT’s strategies to unlocking value with Workday -->](https://www.grantthornton.com/events/advisory/2026/03-05-gt-strategies-to-unlocking-value-with-workday)
+**CASE STUDY**
+[How tech transformation drove aggressive growth -->](https://www.grantthornton.com/insights/case-studies/banking/2025/how-tech-transformation-drove-aggressive-growth)
+**CASE STUDY**
+[Tech that uncovers problems and priorities -->](https://www.grantthornton.com/insights/case-studies/manufacturing/2025/tech-that-uncovers-problems-and-priorities)
+Contacts:
+[ Greg S. Davis ](https://www.grantthornton.com/people/missouri/kansas-city/davis-greg-s)
+Partner, Technology Modernization Services Grant Thornton Advisors LLC 
+Greg Davis is a partner within Grant Thornton’s Advisory services and a leader in the Technology Modernization practice.
+Kansas City, Missouri
+[ +1 913 568 3914 ](tel:19135683914)
+Industries
+  * Construction & Real Estate
+  * Healthcare
+  * Manufacturing
+  * Transportation & Distribution
+  * Energy
+
+
+Service Experience
+  * Advisory Services
+
+
+Manish Sethi 
+Director, Workday Practice 
+Grant Thornton Advisors LLC 
+[ +1 678 515 2392 ](tel:+16785152392)
+Drew Houts 
+Partner, Workday Practice 
+Grant Thornton Advisors LLC 
+[ +1 816 412 2426 ](tel:+18164122426)
+Jason De Franco 
+Sales Director, Workday Practice 
+Grant Thornton Advisors LLC 
+[ +1 469 801 4821 ](tel:+14698014821)
+## Trending topics
+Results per page
+
+
+Relevance
+Filters 
+Clear
+SearchLoading
+Your Selection
+Clear All Filters
+Clear
+Select Criteria
+Business topic
+Loading
+Clear
+Or/And Operator
+More
+  * Toggle
+AI57
+Toggle
+  * ExpandCollapse
+Toggle
+Audit committee4
+Toggle
+    * Toggle
+NACD summit2
+Toggle
+  * Toggle
+Board governance8
+Toggle
+  * ExpandCollapse
+Toggle
+Culture16
+Toggle
+    * Toggle
+Talent management7
+Toggle
+    * Toggle
+Inclusion & belonging2
+Toggle
+  * Toggle
+Cybersecurity and data privacy17
+Toggle
+  * ExpandCollapse
+Toggle
+Economy6
+Toggle
+    * Toggle
+Recession1
+Toggle
+  * ExpandCollapse
+Toggle
+Growth54
+Toggle
+    * Toggle
+International growth2
+Toggle
+  * Toggle
+Innovation65
+Toggle
+  * Toggle
+Mergers and acquisitions23
+Toggle
+  * Toggle
+Operations6
+Toggle
+  * ExpandCollapse
+Toggle
+Performance improvement32
+Toggle
+    * Toggle
+Efficiency5
+Toggle
+  * Toggle
+Public policy1
+Toggle
+  * Toggle
+Regulatory compliance47
+Toggle
+  * ExpandCollapse
+Toggle
+Strategic risk67
+Toggle
+    * Toggle
+Third-party risk8
+Toggle
+    * Toggle
+Cyber risk12
+Toggle
+  * Toggle
+Supply chain1
+Toggle
+  * ExpandCollapse
+Toggle
+Tax developments4
+Toggle
+    * Toggle
+Tax reform1
+Toggle
+    * Toggle
+Comp and benefits2
+Toggle
+  * ExpandCollapse
+Toggle
+Technology transformation78
+Toggle
+    * Toggle
+Automation1
+Toggle
+
+
+Content type
+Loading
+Clear
+Or/And Operator
+More
+  * ExpandCollapse
+Toggle
+Alert10
+Toggle
+    * Toggle
+Tax Insights3
+Toggle
+    * Toggle
+Tax Flash3
+Toggle
+    * Toggle
+SALT Alert1
+Toggle
+    * Toggle
+Legislative Update3
+Toggle
+  * Toggle
+Article355
+Toggle
+  * Toggle
+Case study53
+Toggle
+  * Toggle
+Comment letter2
+Toggle
+  * ExpandCollapse
+Toggle
+Newsletter11
+Toggle
+    * Toggle
+Tax Hot Topics2
+Toggle
+    * Toggle
+Snapshot5
+Toggle
+    * Toggle
+New developments2
+Toggle
+  * Toggle
+Podcast3
+Toggle
+  * Toggle
+Survey report47
+Toggle
+  * Toggle
+White paper7
+Toggle
+
+
+Industry
+Loading
+Clear
+Or/And Operator
+More
+  * Toggle
+Asset Management39
+Toggle
+  * Toggle
+Banking50
+Toggle
+  * Toggle
+Construction & Real Estate26
+Toggle
+  * Toggle
+Energy37
+Toggle
+  * Toggle
+Healthcare40
+Toggle
+  * Toggle
+Hospitality & Restaurants31
+Toggle
+  * Toggle
+Insurance23
+Toggle
+  * Toggle
+Life Sciences32
+Toggle
+  * Toggle
+Manufacturing67
+Toggle
+  * Toggle
+Media & Entertainment19
+Toggle
+  * ExpandCollapse
+Toggle
+Not-for-profit & Higher Education36
+Toggle
+    * Toggle
+Governance1
+Toggle
+  * Toggle
+Private Equity31
+Toggle
+  * Toggle
+Retail & Consumer Brands31
+Toggle
+  * Toggle
+Services24
+Toggle
+  * Toggle
+Technology59
+Toggle
+  * Toggle
+Transportation & Distribution29
+Toggle
+
+
+Locations
+Loading
+Clear
+Or/And Operator
+More
+Service line
+Loading
+Clear
+Or/And Operator
+More
+  * Toggle
+Advisory Services487
+Toggle
+  * Toggle
+Alliances24
+Toggle
+  * Toggle
+Alyx3
+Toggle
+  * Toggle
+Audit & Assurance Services54
+Toggle
+  * Toggle
+Tax Services38
+Toggle
+
+
+Your role
+Loading
+Clear
+Or/And Operator
+More
+  * Toggle
+Board member91
+Toggle
+  * Toggle
+CEO or President131
+Toggle
+  * Toggle
+Chief Administrative Officer1
+Toggle
+  * Toggle
+Chief Audit Officer49
+Toggle
+  * Toggle
+Chief Compliance Officer69
+Toggle
+  * Toggle
+Chief development officer59
+Toggle
+  * Toggle
+Chief Financial Officer217
+Toggle
+  * Toggle
+Chief Human Resources Officer12
+Toggle
+  * Toggle
+Chief Information or Technology Officer134
+Toggle
+  * Toggle
+Chief Information Security Officer3
+Toggle
+  * Toggle
+Chief Operating Officer78
+Toggle
+  * Toggle
+Chief Revenue or Growth Officer4
+Toggle
+  * Toggle
+Chief Risk Officer106
+Toggle
+  * Toggle
+Chief Strategy Officer4
+Toggle
+  * Toggle
+Controller5
+Toggle
+  * Toggle
+General Counsel or Attorney18
+Toggle
+  * Toggle
+Government contractor1
+Toggle
+  * Toggle
+VP Tax, Tax director19
+Toggle
+
+
+ARTICLE
+[Deliver value faster with AI-driven forecasting ](https://www.grantthornton.com/insights/articles/advisory/2026/deliver-value-faster-with-ai-driven-forecasting)
+Modernize forecasting with AI, connected data and strong governance to give finance leaders faster, more reliable business insights.
+Sep 08, 2026
+| 6 min read
+CASE STUDY
+[AI automates 80% of invoice processing across a multifamily portfolio](https://www.grantthornton.com/insights/case-studies/real-estate/2026/ai-automates-of-invoice-processing-across-a-multifamily-portfolio)
+Grant Thornton scaled AI-enabled invoice automation across a multifamily portfolio, automating 80% of invoices and improving visibility.
+Sep 04, 2026
+| 4 min read
+ARTICLE
+[How boards can keep agentic AI inside the guardrails](https://www.grantthornton.com/insights/articles/advisory/2026/how-boards-govern-agentic-ai-risk)
+Learn how boards can oversee agentic AI risks without stifling innovation or delegating accountability to autonomous systems.
+Sep 03, 2026
+| 11 min read
+CASE STUDY
+[Distributor adds $5 million in revenue with AI and automation](https://www.grantthornton.com/insights/case-studies/manufacturing/2026/distributor-adds-million-in-revenue-with-ai-and-automation)
+See how a leading beverage distributor used AI and automation to generate revenue, reduce costs and build a scalable operating model.
+Sep 02, 2026
+| 4 min read
+Results 1-4 of 487
+No Results Found. Please search again using different keywords and/or filters.
+Show More 
+Results 1-4 of 487
+## Welcome to GT.com
+We use some essential cookies and similar technologies to make this site work. If you choose to “Accept cookies” we may also use cookies to collect and share your information with third-party advertising and analytics partners. If you do not want us to do so, click the “Reject optional cookies” button. For more information about the cookies on our site, see our[Cookies policy &](https://www.grantthornton.com/privacy-policy#cookie-policy)[Privacy policy.](https://www.grantthornton.com/privacy-policy)
+Customize cookie settings
+Reject optional cookies Accept cookies

@@ -1,0 +1,18 @@
+<!-- Source: https://www.kroll.com/en/our-experts/john-schrader | Title: John Schrader | Managing Director | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# John Schrader
+##### Managing Director and Global Financial Instruments and Technology Leader
+[Financial Instruments and Technology](https://www.kroll.com/en/services/alternative-asset-advisory/financial-instruments-technology)
+[+1 212 450 2873](tel:+1%20212%20450%202873)john.schrader@kroll.com
+AT A GLANCE 
+John Schrader is a Managing Director in the New York office and part of the Complex Asset Solutions service line. He has over 20 years of fixed-income, capital markets and investment banking experience.
+John is responsible for service capabilities in whole loans and structured credit. He brings with him over 20 years of fixed-income, capital markets, and investment banking experience over which time he has focused on helping ABS, CDO, MBS, CMBS and proprietary traders in their trading, structuring, hedging, and risk management activities. In addition to managing market risk functions at major global investment banks, John also generated income through capital structure arbitrage. John is adept at identifying and applying risk and valuation approaches that are appropriate to a spectrum of underlying product areas, developing a particular strength in valuation of esoteric products like mortgage residuals, re-securitizations, and performing and nonperforming whole loan pools. This requires the use of rating agency analyses, collateral cash flow modeling, loan-level prepayment and loss modeling and OAS methodologies. Other engagement highlights include designing position and analytics platforms that bring together analytical modeling capabilities with various trading tools and building and designing scenario applications to measure credit loss sensitivity for residential, commercial, and SME portfolios in various counties across the globe (including UK, Spain, France, Germany, Italy, and Japan). Prior to joining Duff & Phelps (rebranded to Kroll), John was Head of Global Risk Management for the Securitized Products Group of Morgan Stanley, responsible for measuring and monitoring all risk taking activities of trading desks across the spectrum of residential, consumer and commercial debt. Prior to joining Morgan Stanley, John was a senior managing director at Bear Stearns in charge of Market Risk for Global Mortgage Trading. John also spent time at other financial institutions including CSFB, Lehman Brothers and American Express. John received his M.B.A. in finance from New York University’s Stern School of Business and his B.S. in business administration, concentration in finance, from Bryant College. 
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Valuation](https://www.kroll.com/en/services/valuation-services)
+Kroll provides expert, independent valuation services to support financial reporting, tax compliance, and strategic business decisions across industries. 
+[Alternative Asset Advisory](https://www.kroll.com/en/services/alternative-asset-advisory)
+Heightened regulatory concerns and vigilance, together with increased investor scrutiny, have led to increased demand for independent expert advice.
+[Financial Instruments and Technology](https://www.kroll.com/en/services/alternative-asset-advisory/financial-instruments-technology)
+The Kroll Financial Instruments and Technology practice is a leading solutions provider for asset managers, hedge funds, fund administrators, banks, insurers, private equity firms, commodity trading and investment firms, and corporations.

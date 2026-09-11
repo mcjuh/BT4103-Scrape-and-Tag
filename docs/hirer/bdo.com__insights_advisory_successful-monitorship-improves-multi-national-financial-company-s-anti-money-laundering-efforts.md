@@ -1,0 +1,18 @@
+<!-- Source: https://www.bdo.com/insights/advisory/successful-monitorship-improves-multi-national-financial-company’s-anti-money-laundering-efforts | Title: Successful Monitorship Improves Multi-National Financial Company’s Anti-Money Laundering Efforts | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Successful Monitorship Improves Multi-National Financial Company’s Anti-Money Laundering Efforts
+## Background & Challenges
+BDO was selected as the independent, court-appointed monitor to evaluate whether Western Union complied with the terms of a settlement agreement with the Attorney General for the State of Arizona.
+## Approach
+BDO was responsible for evaluating whether Western Union successfully implemented more than 100 recommendations that were designed to enhance the company’s anti-money laundering (AML) efforts. BDO was also responsible for evaluating whether Western Union’s AML Compliance Program was reasonably designed to prevent, detect, and report money laundering activity.
+## Client Impact
+BDO monitored the company’s compliance with the settlement agreement and provided recommendations for improved AML efforts.
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+## SHARE
+  * 
+
+## Related Resources
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026In this episode, our hosts talk with Tamara Lemmon of Wilson Sonsini to explore why proactive planning is becoming one of the most important competitive advantages in legal and compliance teams. Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=eiuus74pqn)
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026This episode offers practical insights for legal operations leaders, litigation support professionals, law firm leaders, in-house counsel, and anyone seeking a grounded perspective on where generative AI is creating real value in legal services today.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=wlkbngi3x9)
+[ Article2026 U.S. AML/CFT Regulatory Developments Tracker August 27, 2026 Article2026 U.S. AML/CFT Regulatory Developments Tracker August 27, 2026A guide and readiness checklist for BSA-covered institutions, investment advisers, permitted payment stablecoin issuers, and certain real estate closing and settlement professionals. Read Morechevron_right ](https://www.bdo.com/insights/advisory/2026-u-s-aml-cft-regulatory-developments-tracker)
+[ ArticleShared Taxonomy: Resilience Data as a Cross-Functional Unifier August 26, 2026 ArticleShared Taxonomy: Resilience Data as a Cross-Functional Unifier August 26, 2026Explore how resilience exercises help organizations identify dependencies, strengthen coordination, and prepare for disruption. Read Morechevron_right ](https://www.bdo.com/insights/advisory/shared-taxonomy-resilience-data-as-a-cross-functional-unifier)

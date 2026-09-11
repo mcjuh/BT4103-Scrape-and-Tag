@@ -1,0 +1,61 @@
+<!-- Source: https://www.bcg.com/capabilities/digital-technology-data/emerging-technologies/expert-insights/jean-francois-bobier | Title: Quantum Computing's Moment is Coming Soon | BCG | Seed: https://www.bcg.com/capabilities/mergers-acquisitions-transactions-pmi/due-diligence (BCG) -->
+
+# Quantum Computing’s “ChatGPT Moment” Could Be Sooner Than You Think
+By [Jean-François Bobier](https://www.bcg.com/about/people/experts/jean-francois-bobier)
+Article January 22, 2024 5 MIN read 
+Save It For Later Saved To [My Saved Content](https://www.bcg.com/userprofile/savedarticles)
+Share
+Link copied
+Subscribe Tech + Us: Harness the power of technology and AI 
+Tech + Us: Harness the power of technology and AI  You are subscribed to BCG's Tech + Us newsletter. [Manage Subscriptions](https://www.bcg.com/subscription)
+The notion of harnessing quantum mechanics to solve problems that are beyond the reach of digital computers has tantalized the tech sector for so long that many companies assume it remains a distant reality. In fact, quantum computing’s inflection point may be just around the corner.
+We at BCG expect that enterprise-grade quantum that achieves a positive return on investment for certain applications could come as early as 2025 or 2026. We don’t yet know where or in which industry, but as soon as quantum demonstrates real value to companies, its future will turn from uncertain to inevitable. That inflection point will energize companies of all kinds in all industries to invest. It will be quantum’s ChatGPT moment, if you will.
+Companies need to prepare for the quantum age now. Those that are ahead of the curve will enjoy significant competitive advantages. Over time, quantum will impact industries as diverse as finance, pharmaceuticals, agriculture, logistics, and any that use chemicals and advanced materials. There are also urgent cybersecurity reasons for acting now, as I’ll explain.
+## Overcoming the Technical Hurdles
+Granted, it’s still early. Today, quantum is mainly relegated to lab experiments, and major technological hurdles must be overcome before quantum is ready for widespread deployment. There are still limitations in both hardware and software. Today’s most advanced machines have around 100 quantum bits, or “qubits”: the basic units of information, comparable to the binary digital bits in classical computers. To solve the most important problems, we’ll need computers with tens of thousands of qubits or more operating at high quality, connectivity, and speed. Without getting into all the complexities of quantum physics, qubits are extremely difficult to control and sustain.
+Quantum machines are also very difficult to make and costly to use. It’s one of the few industries where even hardware assembly requires PhDs. You need equipment to make very precise measurements, sometimes at nanoscale. Today, there are only a few dozen quantum computers in the world. It costs several thousand dollars per hour to run calculations, compared with a few cents on a classical computer. Talent is also limited—the demand for scientists and engineers who can make quantum useful far outstrips supply.
+That said, these problems are solvable. Over the past few years, the computer industry’s progress in improving both the quality and the number of qubits has been nothing short of miraculous. IBM has consistently met its targets for going beyond a few qubits to a few hundred, for example, and has just revised its roadmap upward, setting a goal of millions of qubits in the coming decade. A team from Harvard, MIT, the National Institute for Standards and Technology (NIST), and the University of Maryland recently announced they had overcome another big technical hurdle: deploying controllable “logical qubits” that can significantly reduce errors. Meanwhile, more talent is being trained. And as quantum’s scale grows, costs will drop.
+## The First Business Use Cases
+Some of the first quantum use cases will involve finding the optimal solution to problems that now can only be addressed through approximation. For example, quantum could boost the productivity of approximative algorithms by 5% to 10%. This would help companies better optimize everything from financial portfolios and production flows in auto plants to the mix of products retailers stock on their shelves.
+There will be many use cases in finance. Much of finance deals in probabilities and linear algebra. Today, if a bank wants to assess risk in its loan portfolio or price an option, for example, it explores the interplay of multiple factors. Analyzing every possible combination is impossible with a classical computer. So banks use an approximation technique known as a Monte Carlo simulation. It typically takes all night with a digital computer, however, to analyze just one potential market scenario that will affect all options in a bank’s balance sheet. That’s a problem when events move rapidly. By the time the calculations are finished, the markets could be in panic. An investment banker told us that he wished he’d had a quantum computer during the financial crisis of 2008-2009 to run many different scenarios of the bank’s balance sheet. Instead, he said, “We had no visibility whatsoever.” 
+> An investment banker told us that he wished he’d had a quantum computer during the financial crisis of 2008-2009 to run many different scenarios of the bank’s balance sheet. Instead, he said, “We had no visibility whatsoever.” 
+Quantum computing could enable banks to better price options and manage their risk, which could provide a competitive edge for the early adopters. This is why all big investment banks have quantum teams and are spending tens of millions of dollars on experiments.
+Quantum computers will also likely accelerate and improve drug discovery. Around 2030, for example, we expect pharmaceutical companies to be using quantum to solve problems in binding molecules with 100 or fewer atoms to disease-causing targets in the body. That would enable researchers to better explore all the 1015 small molecules that can be made. One or two years could be shaved off the molecule discovery phase, leading to the discovery of novel small molecules that are more effective and increase the ROI of clinical trials.
+Quantum could also be used to help address climate change. It could enable the creation of fertilizers without CO2 emissions, for example. Today, nitrogen fertilizer production consumes 2% to 3% of the world’s natural gas using a process called Haber-Bosch that has changed little since it was developed, in 1909. A quantum computer could analyze nitrogenase, for example, an enzyme that naturally transforms nitrogen in the air into something plants can use, and then replicate that process at an industrial scale. Google CEO Sundar Pichai has forecast that this might be accomplished by 2030.
+Greater contributions will come when quantum computers and algorithms are powerful enough to solve problems we currently can’t even get our minds around. We could understand how molecules work at the atomic level, for example, and synthesize entire proteins that contain tens or even hundreds of thousands of molecules. That could lead to tremendous breakthroughs in medicine, new materials, and things we can’t even imagine right now.
+> Greater contributions will come when quantum computers and algorithms are powerful enough to solve problems we currently can’t even get our minds around. 
+## The Looming Y2Q Cybersecurity Threat
+There’s also a defensive reason quantum computing must be on CEOs’ agendas now—a looming cybersecurity threat. Currently, most of the keys we use for encryption are impossible to unlock with a classical computer. But that _will_ be possible with quantum computers. By 2035, it’s expected that quantum systems will be powerful enough to break large prime numbers, or integers, into factors. That would enable you to unlock much of the public-key cryptography now used in digital systems around the world. A cybercriminal could decode all a company’s communications and confidential information. The same applies to most cryptocurrencies, where private keys could be deduced from public wallet addresses, allowing attackers to make transactions, instead of the owner.
+That’s why we call 2035 Y2Q, similar to the Y2K bug. That’s also why the US recently required all government agencies to move entirely away from RSA cryptography by that year. This will be a massive undertaking; RSA has been around for four decades and is pervasive. Your company needs to start working on this now because it will take a good decade to migrate your entire IT infrastructure to new quantum-resistant cryptography standards that the NIST will likely mandate in a few years. Some banking executives have told us they don’t even know where to start. The good news, though, is that new protocols and technologies should avert the crisis.
+Quantum computing’s ChatGPT moment is coming. And when it hits, companies that are ready to deploy it will have powerful competitive advantages. Those who waited will be left scrambling for the same limited supply of talent and quantum computers.
+Monthly Newsletter Subscription 
+Tech + Us: Harness the power of technology and AI
+## What’s Next
+Read more insights from BCG’s teams of experts.
+Article 
+January 22, 2024
+[A Fusion Future Is No Longer Wishful Thinking](https://www.bcg.com/capabilities/digital-technology-data/emerging-technologies/expert-insights/benjamin-vannier-ilshat-haris)
+Technological breakthroughs and growing investment are bringing the vision of harnessing the process that powers the sun to meet our energy needs closer to reality.
+[Climate Change and Sustainability](https://www.bcg.com/capabilities/climate-change-sustainability/overview)
+Article 
+January 22, 2024
+[Direct Air Capture Is About to Go from Intriguing to Essential](https://www.bcg.com/capabilities/digital-technology-data/emerging-technologies/expert-insights/thomas-baker)
+The hard realities of climate change are driving rapid technological progress–and growing market demand—for systems that permanently remove CO2 from the atmosphere.
+Article 
+January 22, 2024
+[Synthetic Biology Is Getting Closer to Industrial Scale](https://www.bcg.com/capabilities/digital-technology-data/emerging-technologies/expert-insights/nicolas-goeldel)
+As a coming generation of large biomanufacturing facilities slashes costs, sustainable materials made from organisms based on nature’s design principles are poised to go mainstream.
+[Climate Change and Sustainability](https://www.bcg.com/capabilities/climate-change-sustainability/overview)
+Article 
+January 22, 2024
+[CO2 to X Could Help Solve “Sustainability Scarcity”](https://www.bcg.com/capabilities/digital-technology-data/emerging-technologies/expert-insights/john-paschkewitz-sumit-verma)
+A technology revolution in chemicals will enable companies to transform captured CO2 into green compounds that can replace hydrocarbons in everything from plastics to fuels.
+**ABOUT BOSTON CONSULTING GROUP**
+Boston Consulting Group bridges the gap between ambition and outcomes for the world's leading companies and organizations. We are built for this era of unprecedented change — bringing strategic clarity rooted in over 60 years of deep domain knowledge, combined with applied AI shaped by our practitioners. BCG works shoulder-to-shoulder with CEOs across industries and geographies to deliver transformative impact at scale: stronger returns, transferred capabilities, and change that sticks. For more information, visit [bcg.com](http://bcg.com/).
+Hide 
+Save It For Later Saved To [My Saved Content](https://www.bcg.com/userprofile/savedarticles)
+Subscribe Tech + Us: Harness the power of technology and AI 
+Tech + Us: Harness the power of technology and AI  You are subscribed to BCG's Tech + Us newsletter. [Manage Subscriptions](https://www.bcg.com/subscription)
+Share
+Link copied
+Save It For Later Saved To [My Saved Content](https://www.bcg.com/userprofile/savedarticles) Subscribe Expand

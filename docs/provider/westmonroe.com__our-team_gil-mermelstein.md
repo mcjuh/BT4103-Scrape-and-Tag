@@ -1,0 +1,9 @@
+<!-- Source: https://www.westmonroe.com/our-team/gil-mermelstein | Title: Gil Mermelstein l CEO & Board Member | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+As CEO, Gil sets the vision for West Monroe—guiding the firm’s strategy, growth, and impact to deliver meaningful results for our clients and our people.[ Linkedin](https://www.linkedin.com/in/gil-mermelstein-88a80b)
+Contact
+As CEO, Gil leads West Monroe with a clear vision for growth, innovation, and client impact. Drawing on decades of industry and consulting experience, he guides the firm’s strategic direction, ensuring we deliver results that matter—today and into the future.
+A West Monroe leader since 2010, Gil has been instrumental in shaping the firm’s national presence. From launching and scaling our New York office to serving as COO and President, he’s driven operational excellence, commercial growth, and client success. His leadership reflects a deep commitment to combining industry expertise with the power of multidisciplinary teams.
+Since joining in 2010 as employee No. 1 in New York, he has built the office into one of our largest. His three decades of experience include leadership roles at BearingPoint and AT Kearney. He holds a B.S. from the University of Maryland and an MBA from INSEAD. Gil was named a Top Consultant by Consulting Magazine in recognition of his impact and leadership. Today, Gil is a member of The Partnership for New York City and a Trustee on The Committee for Economic Development (CED) for The Conference Board.
+## _Gil’s All-In Mindset_
+Gil’s entrepreneurial mindset, shaped by his global experience and athletic background, has fueled West Monroe’s expansion. A former professional European handball player, he now calls New York home, where he lives with his wife and three children.

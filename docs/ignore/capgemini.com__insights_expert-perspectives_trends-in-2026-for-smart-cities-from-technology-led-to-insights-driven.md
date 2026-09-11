@@ -1,0 +1,131 @@
+<!-- Source: https://www.capgemini.com/insights/expert-perspectives/trends-in-2026-for-smart-cities-from-technology-led-to-insights-driven/ | Title: Smart City Data Spaces: The Future of Cities | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/insights/expert-perspectives/trends-in-2026-for-smart-cities-from-technology-led-to-insights-driven/#main-content)
+## The global smart city landscape has moved decisively beyond the era of often isolated technology-led pilot projects. Instead, as we progress through 2026, the landscape is increasingly characterized by data-driven insights projects. These are underscored by the five structural shifts discussed in this article as we explore the trends in smart cities for 2026.
+**At a glance**
+  * Orchestrated, federated and integrated data-driven ecosystems improve local economies and citizens’ lives
+  * Smart city performance depends on every part being connected, synchronized, and responsive
+  * Data spaces provide the trusted, secure, and sovereign framework for data exchange in smart city ecosystems
+  * Agentic AI and digital twins are revolutionizing urban planning
+  * Metaverse‑style environments (the Citiverse) are emerging in smart cities
+  * Smart ports are among key regional drivers to smart cities
+
+
+Smart cities are becoming smarter. The defining strategic challenge for municipal leaders, and private sector partners, has entered a new era that is redefining the smart city movement.
+Strategy is no longer about the acquisition of novel hardware or software. Instead, it is focused on the orchestration and federation of integrated, data-driven ecosystems, designed to deliver specific outcomes to improve the local economy and citizens’ lives.
+### How smart cities are evolving in 2026
+Cities are coming to the realization that those ecosystems also include policy, processes and adoption strategies. While the market for smart city solutions continues to surge toward a [projected $3.5 trillion](https://par.nsf.gov/servlets/purl/10126466?ref=sgi4.com), the gap between “smart” and “adaptive or intelligent” cities is being determined by institutional readiness rather than technological capacity.
+Successful urban transformations in 2026 are, therefore, built upon five groundbreaking shifts. These structural changes move away from the “technological solutionism” of the past toward a citizen value-driven model that balances efficiency, sustainability, and human-centric design.
+This article explores the trends driving the five structural shifts of:
+  * Sovereign data spaces
+  * Experience driven hyper-connected spaces
+  * Smart real estate transforming asset management
+  * Agentic urban planning with digital twins
+  * Smart ecosystems – smart ports
+
+
+## Trend 1. Shift to sovereign data spaces; fueling cross-agency innovation for smarter, shared solutions
+Delivering seamless citizen services requires information to flow smoothly across multiple city entities. This needs the engagement of a host of stakeholders.
+Collaborative innovation across public, private, and academic sectors—often spanning cities and national borders—is accelerating. In turn, this is creating the triple-helix partnership model. This approach demands a trusted, secure, and sovereign framework for data exchange. As such, it is no surprise that data spaces are rapidly emerging as the priority enabler to improve cities. Why? Because they offer a structured way in which to do this.
+### How is the EU steering smart city data spaces?
+The European [**Data Space for Sustainable Smart Cities and Communities (DS4SSCC)**](https://www.ds4sscc.eu/) consortium exemplifies the current trend. It provides a framework to help set up federated ecosystems where cities and communities can share and enrich urban data.
+The data spaces enable cities to build smart, shared solutions within an interoperable, sovereignty-driven architecture. The European Commission funds the Data Spaces Support Centre (DSSC), of which Capgemini is a member. Its guidelines empower cities with the relevant knowledge and resources.
+### What type of benefits accrue from sovereign data spaces?
+The outcomes of implementing data spaces include the ability to create cross entity domains and apply information to multiple initiatives. Innovative solutions include the use of shared data to optimize traffic flow and reduce pollution.
+Likewise, data spaces can be re-used for creating positive energy districts or enhancing urban planning processes. They enable cities not only to scale their data-driven insights but also to simplify the process of policy alignment, such as the DS4SSCC alignment with the goals of the European Green Deal. Beyond sustainability and climate change-related priorities, data spaces allow many domains in the smart city, including the coordination and response to disaster management – see FAQs below for examples.
+### How will data spaces foster trust in shared data?
+Data spaces are evolving beyond a technological framework. Fully committed to sovereign data and AI solutions, they are becoming the trusted foundation for cross-sector collaboration, driving smarter, sustainable, and resilient solutions for the future.
+Critically, they are enabling the automation of policy and regulatory implementation, thereby the disparate stakeholders can trust the data within.
+Looking ahead, data spaces will provide the federated AI-ready data for the Citiverse, or all-inclusive digital twin models that cities are now building – see FAQs for more on the Citiverse.
+The EU is not the only body working on data spaces. Similarly, the UN is working on the topic with a working group to help define digital development goals to accelerate their development. As a strategic partner to the DSSC, Capgemini has played a key role in shaping the data spaces blueprint. We continue to support public sector agencies worldwide in designing robust, sovereign data space frameworks.
+## Trend 2. Shift to experience driven hyper-connected spaces
+Urban environments are evolving beyond standalone smart‑infrastructure deployments into experience‑driven, hyper‑connected spaces. This trend facilitates inclusive, immersive and participatory engagement. By setting the correct ecosystem for the adoption of technologies such as 5G, IoT, digital twins, XR (AR/VR), and AI, cities are enriching physical environments with immersive digital layers. This allows citizens to interact with public services and infrastructure not only functionally, but experientially, in real time and within their immediate context.
+### How are AI and other digital technologies being used in smart cities?
+Metaverse‑style environments are emerging as complementary channels for engagement, enabling participatory collaboration and fully virtual, immersive interactions. For instance, sustainable cultural and heritage tourism initiatives now allow people to encounter history and culture digitally, reducing physical pressure on sensitive sites while expanding access. 
+At the global standard level, the UN ITU has a complete program with many cities, companies and researchers investing in the tracks that were identified to develop Citiverse initiatives across the globe.
+Cities such as **Dubai, Rotterdam, Valencia, and Tampere** have already developed city‑wide digital twins and are progressing toward Citiverse pilots. They are using these environments to foster participatory engagement and transform how urban services and experiences are designed and delivered. Tampere is developing a Citiverse project around the Nokia Arena.
+A concrete illustration can be seen at the **Athens Acropolis** , where mobile, geolocation‑enabled AR applications digitally reconstruct missing or damaged structures in situ. This is enabling visitors to visualize historic temples and statues in their original context—without any physical intervention to the site.
+Very recently, Capgemini partnered with the to deliver an engaging, interactive visitor experience showcasing **750 years of Amsterdam’s history and heritage** , powered by Generative AI.
+Collectively, these approaches are making public services and civic participation increasingly place‑agnostic, more equitable and inclusive, while reducing carbon emissions. They are opening new avenues for cultural expression and heritage storytelling.
+## Trend 3. Shift towards smart real estate: Transformation of asset management
+In 2026, the real estate development and operation sector is undergoing a fundamental transformation in certain regions globally. This is being driven by the integration of processes enhanced by AI and integrated automation at the portfolio.
+This shift, often termed **“** hyper-financialization,” allows for the 24/7 trading of tokenized real-world assets, such as commercial buildings. In turn, this is enabling fractional ownership and instant settlement through micro and pico-transactions. This marks a trend of shared investments in smart building, districts and spaces.
+### How are smart city real estate assets being micro-managed?
+This data-driven approach moves real estate management from a cost-center to a strategic profit management platform covering capital value, rental income and asset management expenses. The micro management of these aspects aids in significantly reducing the carbon footprint of the built environment and increasing investor participation, all the while enhancing tenant satisfaction.
+This is particularly evident in the United Arab Emirates. Here real estate companies are utilizing blockchain-based platforms to manage property investments with unprecedented transparency and efficiency. Furthermore, the UAE has pioneered the use of integrated facility management “control towers”. These systems harmonize data from HVAC, security, and IoT devices to determine minute-by-minute occupancy predictions and optimize energy use in real-time. This is leading to innovative business models, such as payment according to energy savings.
+## Trend 4. Shift to agentic urban planning with digital twins and the acceleration towards a Citiverse
+For urban planning professionals, the workflow has been revolutionized by the arrival of agentic AI and sophisticated simulation frameworks. These empower the work on simulating the visual impacts of buildings, citizen experience and many aspects of sustainability and resilience.
+Unlike traditional rule-based automation, AI agents are reasoning engines that can autonomously perceive, adapt and act to achieve complex goals. These include managing large-scale public consultations or optimizing renewable energy integration.
+### Where are agentic AI and digital twins being used in urban planning?
+Professionals now utilize tools like Dassault Systèmes’ [3D Experience Platform](https://www.technia.com/en/plm/software/3dexperience/), Urban Strategy by Scenexus, and [Microsoft Azure Digital Twins to create dynamic](https://learn.microsoft.com/en-us/azure/digital-twins/overview), living replicas of buildings, districts or entire city-states.
+These models serve as an essential orchestration layer. This allows planners to run hundreds of simulations an hour to assess how new developments might impact traffic flow or flood risk.
+When combined with agentic capabilities in platforms like [Google Earth AI or ESRI](https://ai.google/earth-ai/), professionals can move from static drafting to predictive planning solutions. This means that they’re able to simulate “what-if” scenarios for the next decade in a matter of minutes, not weeks.
+The scenarios that are developed in these digital twins can be used to calculate the impact on investments. For example, where new buildings and infrastructure are positioned has to be assessed not only in terms of the land on which they are built, but also in terms of potential costs and challenges related to the water management, sewage, energy supply and, of course, any climate impact. 
+### How might digital twin calculations and AI change urban plans?
+Digital twins and AI agents support cities in optimizing urban planning solutions within their financial constraints.
+The calculations help decision making both from an urban planning perspective (desirability with regards to the urban objectives) and in terms of financial feasibility. By envisioning potential pitfalls or additional challenges, planners can avoid unnecessary investments.
+As an example, let’s consider a new district being planned as more car-oriented versus a district that focuses more on green spaces and other transport modalities. Cars take up a lot of space that cannot be used for green zones.
+This makes it harder to create shade and enable less heat-stress, and it has an impact on the absorption of heavy rainfall. The car-focused scenario will therefore lead to additional heavy investments to compensate for the negative effects that were avoidable by choosing the green space scenario.
+### What next for digital twins and agentic AI?
+The next steps are twofold. Firstly we are seeing the addition of GenAI interfaces to simplify the access to these planning tools and reduce the technical ability required to use them. A typical example is the chat-like interface that Dassault Systèmes’ have added to their [3D Experience Platform](https://www.3ds.com/trust-center/trusted-ai/ai-based-functionality-intended-purpose).
+Secondly, agentic AI is also being added: the AI agent can automate repetitive tasks, read appropriate supporting documents and even suggest scenarios that may be overlooked by the staff working with the tool.
+ESRI has created a proof of concept in this space around the massing [studies phase of urban planning](https://www.esri.com/arcgis-blog/products/city-engine/design-planning/generative-ai-in-urban-planning), which is a labor-intensive process. The AI agent actually creates the planning massing model using training from many years of planning experience, thereby automating the suggestion of building placement.
+Understandably, all these advancements cause significant change to existing operational methods, legal agreements and policies. With a large stakeholder eco-system involved in planning and development, cities are taking these elements into account, acknowledging that each group of stakeholders may have differing processes and levels of digital maturity.
+## Trend 5. Shift to smart ecosystems – smart ports: balancing global trade and national security
+Smart ecosystems are developing in a more granular way. A key trend in this space is smart ports, which are key regional drivers to cities. They are evolving beyond isolated digital initiatives toward fully integrated, data‑driven ecosystems. 
+Leading smart ports are deploying a broad range of technology‑driven innovations at scale. These include autonomous systems and drones, IoT‑powered digital twins, AI and GenAI, AR/VR‑based immersive environments, sovereign data spaces, and blockchain platforms.
+This shift is being driven by the need to:
+  * Scale operational efficiency in line with rapidly growing cargo volumes
+  * Build resilience against rising geopolitical and supply‑chain disruptions
+  * Strengthen data‑driven decision‑making to detect and prevent the movement of harmful or prohibited goods across borders
+  * Enable economic growth while meeting stringent sustainability and decarbonization objectives
+  * Enhance communication across the diverse stakeholders involved in port operations, including warehouses, logistics, security, customs, stevedoring and many others
+
+
+The **Port of Singapore** has set a global benchmark for smart port integration, a strong achievement in such a time sensitive trans-shipment environment. Through Tuas Port, it is developing the world’s largest [fully automated container terminal,](https://www.mpa.gov.sg/maritime-singapore/port-of-the-future) leveraging real‑time vessel tracking, dynamic berth allocation, and AI‑driven predictive analytics to optimize ship movements, anticipate container flows, and reduce congestion.
+Capgemini is supporting ports and customs agencies globally in transforming their core operations. See FAQs, below, for more global examples.
+Capgemini Engineering has also developed an innovative [connected port environmental protection solution](https://www.capgemini.com/fr-fr/solutions/5g-water-clean-bot/), deploying a fleet of 5G‑enabled marine drones to autonomously collect marine debris and improve ocean sustainability.
+An example of enhanced communication includes the Hamburg Port Collaboration Platform7. The Hamburg Vessel Coordination Center (HVCC) uses the platform to enhance communication by acting as a neutral coordination hub that consolidates and synchronizes real-time vessel, berth, and traffic data into a shared platform, dashboards, and APIs, giving all nautical stakeholders a single, consistent planning view and reducing conflicting decisions. This is creating a “single source of truth” for vessel coordination, improving transparency and trust between operational partners.
+Consequently, smart ports are evolving into strategic national assets, integrating trade enablement and border security within coordinated, data‑driven ecosystems.
+### Conclusion: The “digital nervous system”
+So, we can now think of the smarter city of 2026 not as a collection of disconnected systems, but as a single living organism— the operations of the city can equally be likened to a musical concerto in which many stakeholders play different instruments in pursuit of the same outcome.
+  * Sovereign data spaces provide the trusted “neural pathways” that let city departments, utilities, operators, and partners share and act on data without losing control.
+  * The digital twin functions as the brain, continuously sensing today’s conditions and rehearsing tomorrow’s scenarios before decisions are made in the real world.
+  * Agentic AI becomes the reflex system—automating complex, cross-domain tasks and coordinating responses at machine speed.
+
+
+As with a healthy body—or a well-conducted orchestra—performance depends on every part being connected, synchronized, and responsive. In the same way, a competitive city will thrive through end-to-end orchestration of its digital and physical systems.
+We welcome the developments described in this article and look forward to contributing through our Capgemini service portfolio.
+## FAQs
+### What examples of smart city data spaces are there?
+Projects like [HERAKLION](https://www.heraklion-projekt.de/?page_id=528&lang=en) (Heuristic Resilience Analysis for Municipalities Using Data Space Functionalities) funded by the German Federal Ministry of Education and Research, demonstrate how combining geodata, terrain models, and regional statistics within a sovereign data space improves crisis prevention, preparedness, and response.In the Netherlands, the DMI, or Dutch Metropolitan Innovation initiative, is a public private data ecosystem working on different types of societal challenges, which include housing, mobility and energy transition. Additionally, DMI is fully committed to sovereign data and AI solutions.Capgemini was the partner collaborating with the DMI to set up the groundwork, engaging over 140 parties from triple helix stakeholders.
+### What is the Citiverse?
+The European Commission describes it as follows:_The Citiverse is a next-level digital space where citizens, communities, and city officials can interact in a whole new way by applying AR/VR to participatory decision making.__This vision is becoming a reality through a groundbreaking European initiative that links cities across the EU, fostering a dynamic ecosystem of digital solutions and services. By leveraging data, digital twins, artificial intelligence, and augmented/virtual reality (AR/VR), this initiative empowers cities to co-develop, share and reuse cutting-edge technologies, improving urban living and sustainability for communities across Europe._
+### What is Amsterdam’s digital twin and AI urban planning story?
+Scenexus’ Urban Strategy model helps to identify different scenarios in the[ City of Amsterdam](https://www.capgemini.com/news/client-stories/amsterdam-brings-750-years-of-history-to-life-with-ai/). There the city planners have to fit tens of thousands of new houses into the current built environment.The model calculates impact on traffic for the different modalities, air quality, noise and many other aspects in seconds or minutes, rather than the traditional days or weeks of analysis. It also helps the city to identify the additional measures to make sure the city is not flooded by more traffic: so measures on parking norms in the new area, planning additional public transport, bike lines and may more across the smart city dimensions.
+### What other examples are there of smart ports utilizing AI?
+Europe’s leading smart port, Rotterdam, is a long‑standing pioneer in digital port logistics. Platforms such as [PortXchange](https://www.portofrotterdam.com/en/services/online-tools/portxchange) enable AI‑supported, real‑time operational decision‑making, while a comprehensive digital twin of the port infrastructure allows stakeholders to optimize traffic flows, simulate complex logistics scenarios, and prepare for extreme weather events.For French Customs, Capgemini implemented an AI‑powered non‑intrusive inspection solution that analyzes container images in real time, automatically detects suspicious or prohibited goods, and highlights them directly within images—delivering up to 70% faster analysis per container.
+## Authors
+### Hans Teuben
+Director Strategy and Innovation Public Sector – Smart Cities and Mobility
+“We take cities and citizens on a journey to address societal challenges using digitization and data: Tackling environmental, sustainability and mobility issues, improving quality of life, overcoming societal divides, and supporting economic development. Our ethical approach prioritizes privacy and security. We help to develop strategy, design and co-create solutions with ecosystems, develop transparent AI and build, run and maintain interoperable data platforms and services for cities.”
+### Luc Baardman
+Managing Consultant and Lead Enabling Sustainability Capgemini Invent NL
+“Sustainability at its core is the most important transformation question of our time. Left unanswered, it will wreak havoc upon the world and its population, and it is up to all of us to play our part in becoming sustainable in an inclusive manner. Capgemini’s part is to remove the impediments for a better future, to truly enable sustainability.”
+### Ravi Shankar Arunachalam
+Public Administration & Smarter Territories SME – Global Public Sector
+“As a Public Sector strategist and technologist at Capgemini, I assist local, state, and federal governments worldwide in harnessing the full potential of a collaborative, Government-as-a-platform model to revolutionize citizen service delivery. With a deep understanding of industry challenges, citizen expectations, and the evolving technology landscape, I develop systemic transformation strategies and solutions that provide lasting value to both people and the planet”
+### Andrew Rippon
+Municipal Transformation Director Middle East
+Andrew Rippon is a seasoned Smart City and Digital Transformation leader with over 30 years of experience across Europe, the Middle East, and Asia. He has held key roles such as Smart City Director at the Royal Commission for AlUla, where he delivered AI-powered and governance frameworks. He also contributed to the European Blockchain Services Infrastructure and Dubai’s Smart City initiatives. Andrew currently collaborates with Municipalities and AEC Engineering firms in the Middle East to develop advanced solutions.
+### Ambika Chinnappa
+Knowledge Management Lead, Global Public Sector
+“At Capgemini, I lead Knowledge Management initiatives to ensure that critical expertise, insights, and best practices are effectively captured, curated, and shared across our global teams. By enabling efficient knowledge flow and collaboration, I help our Public Sector colleagues stay informed, aligned, and empowered to drive impactful outcomes. Through structured KM strategies, I aim to enhance organizational learning, support smarter decision-making, and contribute to the delivery of innovative, sustainable solutions for governments and the communities they serve.”
+### Mark Roworth
+Transport Transformation Lead (Australia and New Zealand)
+“The world is evolving faster than ever, and our communities are changing with it. We believe cities should be as dynamic as the people who live in them. By reimagining how we move and interact, we are pioneering smarter transport and public services that prioritise the citizen experience as well as efficient government services. We’re bringing this vision to life today across Australia and New Zealand.”
+
+
+Slider. Slide 1.
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All

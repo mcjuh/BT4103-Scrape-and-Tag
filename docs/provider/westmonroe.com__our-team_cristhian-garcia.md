@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/cristhian-garcia | Title: Cristhian García | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Cristhian leads West Monroe’s Costa Rica office, building multi-disciplinary teams that deliver high-impact technology and business solutions for clients across industries.[ Linkedin](https://www.linkedin.com/in/cristhian-g-a70aa2b/)
+Contact
+Cristhian leads West Monroe’s Costa Rica office, where he builds high-performing, multi-disciplinary teams that deliver one of the firm’s highest fulfillment rates and exceptional value for clients worldwide.
+With extensive experience scaling teams in fast-paced, global environments, Cristhian combines big-picture vision with hands-on leadership to solve complex challenges. Under his guidance, Costa Rica has become a trusted extension of client organizations, providing expertise in software and data engineering, business analysis, data and cloud platforms, and key internal functions. His focus on innovation and collaboration ensures that inventive ideas translate into practical solutions that drive real results.
+## _Cristhian’s All-In Mindset_
+Cristhian is passionate about developing talent and supporting community initiatives, ensuring his teams have the tools and opportunities to succeed. Outside of work, he enjoys exploring nature and cherishing time with his son, often hiking through Costa Rica’s lush, green mountains.

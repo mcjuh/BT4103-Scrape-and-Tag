@@ -1,0 +1,21 @@
+<!-- Source: https://www.bdo.com/insights/press-releases/bdo-usa-attains-the-2025-2026-microsoft-ai-business-solutions-inner-circle-award | Title: BDO USA Receives Microsoft AI Business Solutions Award | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# BDO USA Attains the 2025-2026 Microsoft AI Business Solutions Inner Circle Award
+Press Release
+  * PRINT 
+  * 
+
+**CHICAGO — October 3rd, 2025** — BDO USA, one of the nation's leading accounting and advisory firms, has been selected for Microsoft AI Business Solution’s 2025-2026 Inner Circle. Participation within Inner Circle is based on sales achievements that rank BDO in the top echelon of Microsoft’s AI Business Solutions global network of partners. It's widely acknowledged that Inner Circle members perform at a high level by delivering valuable and innovative solutions that help organizations excel.
+BDO collaborates with Microsoft to provide AI-powered, advanced technology solutions that enhance innovation, performance, security, and value to their clients’ business. 
+BDO is once again happy to be recognized by Microsoft as part of Inner Circle. This reflects our deep collaboration with Microsoft and our commitment to fostering innovation and excellence in business transformation by leveraging the full capabilities of Microsoft Dynamics 365, AI, and the Microsoft Platform. We are proud to stand alongside Microsoft in shaping the future of business applications and grateful to our clients and teams whose trust and dedication make achievements like this possible.
+Tom Patterson
+BDO, Microsoft Business Applications Practice Leader
+2025-2026 Inner Circle members are invited to the Inner Circle Summit in Spring 2026 as well as virtual meetings between August 2025 and June 2026. Attendants will have a unique opportunity to discuss strategy with Microsoft senior leaders and fellow Inner Circle partners, while also learning more about the company’s road maps and future plans, establishing strong executive connections, and collaborating on best practices.
+> “Inner Circle partners are at the forefront of delivering transformative business outcomes. They empower organizations to reimagine productivity and unlock value, through Microsoft Copilot, Dynamics 365, and Power Platform,” said Peter Jensen, Microsoft AI Business Solutions Lead in Enterprise Partner Solutions. “These partners combine deep industry knowledge with innovative, agentic solutions to help customers modernize operations, streamline decision-making, and drive sustainable growth. Their achievements reflect the strength of the Microsoft AI Cloud Partner Program and the impact of trusted collaboration in accelerating AI-driven transformation.”
+BDO is dedicated to supplying valuable solutions that help clients achieve competitive advantage by working with them to identify the best solutions and services that accommodate their business needs while excelling in client satisfaction. By collaborating with the teams at Microsoft, BDO maintains a strong knowledge of the Microsoft platform to provide innovative solutions, strong services, and significant value to clients. BDO has been recognized with multiple awards including Azure Expert Managed Service Provider (MSP), 2024 Microsoft Partner of the Year for Secure Productivity and SMC-SI Empowering Customer Innovation, and FastTrack Recognized Solution Architects for Customer Engagement and Unified Operations. 
+### 
+About BDO USA
+add
+Our purpose is helping people thrive every day. Together, we are focused on delivering exceptional and sustainable outcomes and value for our people, our clients, and our communities. BDO is proud to be an ESOP company, reflecting a culture that puts people first. BDO professionals provide assurance, tax, and advisory services for a diverse range of clients across the U.S. and in over 160 countries through our global organization. BDO is the brand name for the BDO network and for each of the BDO Member Firms. BDO USA, P.C., a Virginia professional corporation, is the U.S. member of BDO International Limited, a UK company limited by guarantee, and forms part of the international BDO network of independent member firms. For more information, please visit: [www.bdo.com](https://www.bdo.com/).
+**For Additional Information:**
+Ellen EvansEmail212‑840‑1661

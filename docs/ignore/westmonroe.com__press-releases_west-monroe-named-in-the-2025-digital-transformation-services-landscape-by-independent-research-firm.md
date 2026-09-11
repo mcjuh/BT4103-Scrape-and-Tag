@@ -1,0 +1,29 @@
+<!-- Source: https://www.westmonroe.com/press-releases/west-monroe-named-in-the-2025-digital-transformation-services-landscape-by-independent-research-firm | Title: 2025 Digital Transformation Recognition | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Press Release
+# West Monroe Named in the 2025 Digital Transformation Services Landscape by Independent Research Firm
+Firm recognized among notable vendors in industry report 
+CHICAGO, April 14, 2025 — West Monroe, a global business and technology consulting firm, announced that it has been named a Notable Vendor in Forrester’s recent report titled, “[The Digital Transformation Services Landscape, Q2 2025.](https://www.westmonroe.com/insights/forrester-2025-digital-transformation-services-landscape)” The report, which provides an overview of 35 notable digital transformation services providers, lists West Monroe among the recognized vendors serving the healthcare, manufacturing/production of high-tech products, and utilities industries. West Monroe also self-reported the extended use cases of business model transformation, operations transformation, and post-transaction transformation as the top three use cases for which clients select them.
+This report serves as a valuable resource for executives and transformation leaders to better understand different digital transformation service providers. Executives use the list to explore different service providers and potentially select a provider aligned with their specific needs and market focus. To build the list, Forrester researched digital transformation providers to compile a list of 35 vendors.
+“For us, being included in this report reflects the measurable value we're creating with clients across industries,” said [Gil Mermelstein](https://www.westmonroe.com/our-team/gil-mermelstein), president of West Monroe.
+Digital transformation isn’t one-size-fits-all—especially as AI and emerging technologies reshape what’s possible. We work side by side with our clients to co-create solutions that are practical, scalable, and tailored to their business. We believe this recognition underscores our commitment to driving outcomes that accelerate transformation and unlock lasting value.
+Gil Mermelstein
+President, West Monroe
+West Monroe believes its inclusion in this report highlights the firm's unique consulting model, built to meet the demands of digital transformation. The firm brings together industry, technology, and functional expertise in multidisciplinary teams that collaborate closely with clients to break down silos and accelerate results. Unlike traditional consulting models, West Monroe prioritizes co-creation—working side-by-side with clients to design and implement strategies that solve immediate challenges and build long-term capabilities
+This approach is more than just a differentiator—it delivers measurable results. In 2024, 97% of West Monroe clients considered the firm a strategic advisor. The firm also achieved a Net Promoter Score® of 80, and clients rated West Monroe 12 percentage points higher than the industry average for delivering more value than fees paid.
+As business and technology continue to converge—and as trends like agentic AI, platform ecosystems, data ownership, and intelligent automation reshape industries—West Monroe is uniquely positioned to help companies. The [firm’s recent rebrand](https://www.westmonroe.com/press-releases/west-monroe-unveils-rebrand-reinforces-market-position-as-next-generation-consulting-firm) reflects this evolution: a bold step that signals West Monroe’s commitment to helping clients solve today’s challenges while positioning for long-term success. With a focus on tangible outcomes, speed to value, and hands-on execution, West Monroe is built for transformation in today’s economy—where expectations are high, timelines are short, and results matter.
+To learn more and access a licensed copy of The Digital Transformation Services Landscape, Q2 2025, visit [www.westmonroe.com/insights/forrester-2025-digital-transformation-services-landscape](https://www.westmonroe.com/insights/forrester-2025-digital-transformation-services-landscape)
+_Forrester does not endorse any company, product, brand, or service included in its research publications and does not advise any person to select the products or services of any company or brand based on the ratings included in such publications. Information is based on the best available resources. Opinions reflect judgment at the time and are subject to change. For more information, read about Forrester’s objectivity_[ _here_](https://www.forrester.com/about-us/objectivity/) _._
+### About West Monroe
+West Monroe is a global business and technology consulting firm passionate about creating value for our clients. We co-create solutions that accelerate results now and prepare industries to tackle what’s next. We’re excited by the possibilities that technology creates. We work with our clients to deliver on the possible, building on their goals, generating fresh insights and creating inspiring outcomes.
+We excel at the intersection of industry, strategy, people and technology—always driving rapid impact. Our all-in approach comes from our unique employee ownership structure. Our clients’ success is our success. From the beginning, our growth has come from putting people at the center. Fortune and USA Today consistently celebrate West Monroe as a top workplace, and we’re recognized as a leading consultancy by Forbes. Let’s find more value for your business.
+Share our passion at [westmonroe.com](https://www.westmonroe.com/).
+### Media Inquiries
+Christina Galoozis
+Director, Communications & Public Relations
+cgaloozis@westmonroe.com
+847-302-1762
+Shira Cohen
+Manager, Public Relations
+scohen@westmonroe.com
+443-841-6879

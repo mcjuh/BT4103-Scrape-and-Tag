@@ -1,0 +1,14 @@
+<!-- Source: https://www.bdo.com/insights/industries/life-sciences/the-state-of-outsourced-mammalian-and-microbial-capacity | Title: The State of Outsourced Mammalian and Microbial Capacity | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# The State of Outsourced Mammalian and Microbial Capacity
+BDO’s bioTRAK database, which tracks supply and demand for biopharmaceutical manufacturing capacity, is showing that outsourcing in the industry isn’t going away anytime soon.
+BioProcess International’s Dan Stanton sat down with Dawn Ecker, Managing Director of bioTRAK Database Services at BDO, to understand what this means for the future of the biopharmaceutical industry. Read his article to dive deeper into manufacturing trends and the impact they will have on the life sciences industry.
+Article originally published in BioProcess International.
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleLife Sciences Resilience Report August 12, 2026 ArticleLife Sciences Resilience Report August 12, 2026Has life sciences reached a turning point? Explore what recent bankruptcy trends, market shifts, and ongoing volatility reveal about the industry’s outlook in BDO’s latest resilience report. Read Morechevron_right ](https://www.bdo.com/insights/industries/life-sciences/life-sciences-resilience-report)
+[ ArticleBDO’s Spring 2026 Biotech Brief June 16, 2026 ArticleBDO’s Spring 2026 Biotech Brief June 16, 2026Explore biotech industry trends, funding challenges, IPO activity, and FDA insights in BDO’s 2026 Biotech Brief. Download the report today. Read Morechevron_right ](https://insights.bdo.com/bdo-spring-2026-biotech-brief.html)
+[ ArticleNew Jersey Opens NOL Program for Unprofitable Tech Companies June 3, 2026 ArticleNew Jersey Opens NOL Program for Unprofitable Tech Companies June 3, 2026New Jersey’s 2026 NOL program is open through June 30. Learn how eligible technology and biotechnology businesses can turn unused tax benefits into cash to support growth. Read Morechevron_right ](https://www.bdo.com/insights/tax/new-jersey-opens-nol-program-for-unprofitable-tech-companies)
+[ ArticleCAPE Opens in ACE: What Importers Need to Know About IEEPA Refund Processing April 20, 2026 ArticleCAPE Opens in ACE: What Importers Need to Know About IEEPA Refund Processing April 20, 2026Learn how CBP’s new CAPE process may affect tariff refund claims, including Phase 1 limits, eligibility considerations, and steps importers may need to take to protect refund rights. Read Morechevron_right ](https://www.bdo.com/insights/tax/cape-opens-in-ace-what-importers-need-to-know-about-ieepa-refund-processing)

@@ -1,0 +1,19 @@
+<!-- Source: https://www.thoughtworks.com/en-au/insights/microstories/training-for-inclusion | Title: Training for inclusion | Thoughtworks Australia | Seed: https://www.thoughtworks.com/ (ThoughtWorks) -->
+
+#  Training: a tool for inclusion 
+[ Microstories Back ](https://www.thoughtworks.com/en-au/insights/microstories)
+Close
+  * [ Diversity, equity and inclusion ](https://www.thoughtworks.com/about-us/diversity-and-inclusion)
+
+
+###### We hire passionate and curious people who want to keep learning, and not just about tech. All Thoughtworkers are expected to be open – to actively engage in learning about others perspectives, cultures and experiences. The environment is rich with discussion and is one where people constantly have their worldview expanded and often challenged. It presents the opportunity to engage in a personal development journey. 
+To nurture this personal journey each region organizes a program of talks, training sessions and workshops on an ongoing basis. These sessions also help create a workplace that is open, welcoming to all, and constantly seeking ways to be more inclusive.
+In Thoughtworks Brazil, this program includes lectures from experts, regular training sessions on challenging topics and Thoughtworker-led ‘roadshows’ on key strategic topics, such as responsible tech. 
+Race is a strong focus of our diversity, equity and inclusion efforts in Brazil, because black people are seriously underrepresented in tech despite being the majority of the population. For black women, the contrast is even more stark. To support this cause, Thoughtworks Brazil team holds racial awareness training for employees, every month for 1.5 hours, and has done for the last four years. The training engages employees in discussions about how race, gender, and social class intersect with social dynamics and impact workplace relationships. 
+The program in Brazil also includes training on dealing with oppression, self reflection and social change for leaders throughout 2022. 
+"The training with Jaqueline Conceição has been of enormous value to us as a way of deepening our thinking and being more reflective about how our social relations were marked by racism, especially in the context of a country that has a history shaped by 400 years of slavery. Racism affects the way we work together and how we recognize the work and growth of others. We have received a lot of wonderful feedback from Thoughtworkers that were positively impacted by the sessions. It's been incredible" 
+Renata Gusmão, Head of social change, Brazil.
+## Get in touch about your next project
+[ Contact us ](https://www.thoughtworks.com/en-au/contact-us)
+Thoughtworks acknowledges the Traditional Owners of the land where we work and live, and their continued connection to Country. We pay our respects to Elders past and present. Aboriginal and Torres Strait Islander peoples were the world's first scientists, technologists, engineers and mathematicians. We celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander Elders of all communities who also work and live on this land. 
+As a company, we invite Thoughtworkers to be actively engaged in advancing reconciliation and strengthen their solidarity with the First Peoples of Australia. Since 2019, we have been working with Reconciliation Australia to formalize our commitment and take meaningful action to advance reconciliation. We invite you to review our [Reconciliation Action Plan.](https://www.thoughtworks.com/content/dam/thoughtworks/documents/guide/tw_guide_reconciliation_action_plan.pdf)

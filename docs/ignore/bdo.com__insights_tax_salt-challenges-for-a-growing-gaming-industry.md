@@ -1,0 +1,17 @@
+<!-- Source: https://www.bdo.com/insights/tax/salt-challenges-for-a-growing-gaming-industry | Title: SALT Challenges for a Growing Gaming Industry | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# SALT Challenges for a Growing Gaming Industry
+Article
+  * PRINT 
+  * [ file_download  ](https://www.bdo.com/getmedia/ce5864a9-e93a-47a1-a7ea-df970c230215/JSTA-44-02-Lipin-Salsano-Spadavecchia-Bailey.pdf?ext=.pdf)
+DOWNLOAD 
+  * 
+
+This article was originally published in the Journal of State Taxation.
+The U.S. gaming industry is undergoing a period of sustained growth. The expansion of legalized online sports betting, increased interest in online casino offerings, and emergence of gaming-adjacent digital products have reshaped how gaming companies operate and generate revenue. According to the American Gaming Association, commercial gaming revenue in the U.S. for the first 11 months of 2025 was almost $71.5 billion (an 8.7% increase from the same time in 2024), and Quantumrun Foresight lists 2025 eGaming revenue estimates for North America to be almost $81 billion. At the same time, states are under continued budget pressure and are refining tax regimes to capture revenue from the expanding gaming market. Those trends have combined to create a complex and evolving state and local tax landscape for gaming companies. 
+Select your preferences and stay current with our latest insights  [ SUBSCRIBE ](https://www.bdo.com/create-account)
+## Related Resources
+[ ArticlePennsylvania Adopts Destination-Based Local Sales Tax Sourcing September 1, 2026 ArticlePennsylvania Adopts Destination-Based Local Sales Tax Sourcing September 1, 2026Pennsylvania is shifting to destination-based local sales tax sourcing. Explore what the change means for vendors. Read Morechevron_right ](https://www.bdo.com/insights/tax/pennsylvania-adopts-destination-based-local-sales-tax-sourcing)
+[ ArticleMaryland Overrides Digital Ad Tax, Paving Way for Challenges to Other States’ Regimes September 1, 2026 ArticleMaryland Overrides Digital Ad Tax, Paving Way for Challenges to Other States’ Regimes September 1, 2026Maryland’s digital advertising tax has been struck down. Learn what the ruling could mean for taxpayers and refund claims. Read Morechevron_right ](https://www.bdo.com/insights/tax/maryland-overrides-digital-ad-tax-paving-way-for-challenges-to-other-states-regimes)
+[ ArticlePennsylvania’s Changes to 163(j) Calculations Could Affect 2025 Filings September 1, 2026 ArticlePennsylvania’s Changes to 163(j) Calculations Could Affect 2025 Filings September 1, 2026Explore the implications of Pennsylvania’s revised Section 163(j) guidance for tax years beginning in 2025 and later. Read Morechevron_right ](https://www.bdo.com/insights/tax/pennsylvanias-changes-to-163-j-calculations-could-affect-2025-filings)
+[ mic_none PodcastBDO Talks Total Tax - Episode 2: One Year Later: How Companies Are Responding to OBBBA August 28, 2026 PodcastBDO Talks Total Tax - Episode 2: One Year Later: How Companies Are Responding to OBBBA August 28, 2026One year after OBBBA, companies are taking a more strategic approach to tax planning as they assess how key provisions work together across the business. Read Morechevron_right ](https://www.bdo.com/insights/tax/bdo-talks-total-tax-podcast?wchannelid=823mmphw1r&wmediaid=qwwi46c7at)

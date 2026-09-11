@@ -1,0 +1,276 @@
+<!-- Source: https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html | Title: The Internet of Things in the financial services industry | Deloitte Insights | Seed: https://www.deloitte.com/us/en/services/consulting/services/mergers-acquisitions.html (Deloitte) -->
+
+Article 
+13 October 2015
+# The derivative effect: How financial services can make IoT technology pay off
+## The Internet of Things in the financial services industry
+By Jim Eckenrode
+Article 
+13 October 2015
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+  * [ Print ](javascript:window.print\(\); "Print")
+
+
+  * [ Download (1 MB) ](https://www.deloitte.com/content/dam/insights/articles/2024/iot-in-financial-services-industry/dup-1166-iot-fsi-final-smaller1.pdf "Download PDF \(1 MB\)")
+  * [ Share ](javascript:void\(0\))
+    * ### Share this article
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+    * ### Or copy link
+
+
+## Executive summary
+Financial services have long trafficked in the intangible, from counterparty risk and online bill payment to things that used to be tangible but increasingly are not any longer, such as stock certificates and even money itself. So all the talk about the Internet of Things (IoT)—a suite of technologies and applications that provide information about, well, _things_ —might not seem directly relevant to the way financial services institutions (FSIs) do business.
+But the IoT may be as broadly transformational to the financial services industry as the Internet itself, and leaders should make an effort to recognize the opportunities and challenges it presents for the financial sector as well as for industries with which FSIs work closely.
+Notwithstanding the inevitable hype, many industries see great promise in IoT applications: Analysts and technology providers forecast added economic value of anywhere from $300 billion to $15 trillion by this decade’s end. Few analysts seem to expect anything but a transformative effect on just about every dimension of economic activity by 2020. The IoT—based on the concept of physical objects being able to utilize the Internet backbone to communicate data about their condition, position, or other attributes—is likely going to matter a great deal. (For an overview, see Deloitte University Press’s “Internet of Things” collection of articles.) And FSIs can be active participants in this transformation.
+Indeed, FSI leaders can easily imagine the potential benefits accruing from having more comprehensive, real-time data about their own or their clients’ physical assets. Some use cases have already proven themselves: Applications such as auto insurance telematics and “smart” commercial real estate building-management systems offer clear IoT examples of new products or changed processes. Our aim in this report is to go a step further by exploring the IoT’s potential impacts on the financial services industry when those effects are hazier. We also aim to help FSI professionals such as claims administrators, portfolio managers, loan officers, and leasing agents understand how IoT applications may change their jobs in the coming years.
+## Setting the context
+Many analysts view the IoT narrowly, defining it as little more than an extension of related technology concepts, such as machine-to-machine (M2M) communication or big data. But the IoT, and its applications’ potential value, goes far beyond mere data communication or analysis. For the purposes of this report, we will define the IoT as technology that connects objects (including people) to a network (such as the Internet) in order to provide access to information about that object’s condition, position, or movement. Kevin Ashton, generally credited with coining the term “Internet of Things” in 1999, envisioned computers having “their own means of gathering information, so they can see, hear, and smell the world for themselves.” Many IoT systems take this vision a step further, either by visualizing that information for decision makers or by providing it directly to computers to enable action in the physical world.
+For the financial services industry, how does the flow of IoT-generated information create value for companies and consumers? Many firms are already using sensor data to improve operational performance, customer experience, and product pricing. Perhaps the most mature example involves the development of usage-based insurance, in which sensors in automobiles or, increasingly, smartphone apps automatically provide insurance carriers with information on vehicles’ driving history and therefore their drivers’ performance. Using telematics to increase the accuracy of underwriting automobile collision policies, as well as the use of gamification strategies based on those data to change and incent lower-risk driver behavior, has been shown to be quite successful in the still-early stages of deployment.
+Another example is in commercial real estate, where sensors within commercial buildings of all types can help better manage energy usage, environmental comfort, and security. For example, motion detectors can control lighting and temperature usage, while smoke and heat sensors can detect the presence of fire and not only set off alarms but also communicate with elevator control systems to prevent usage—a much more effective deterrent than traditional take-the-stairs-during-a-fire signs. Mall operators are currently experimenting with IoT-like applications, such as using cellphone Wi-Fi data to track and analyze foot-traffic flow around and within the mall, that suggest ways to increase certain properties’ attractiveness and thus drive increased rental income and investment activity.
+These examples highlight something that Ashton declared as a premise underlying the IoT concept: For the technology to make a direct impact, a business’s value chain must have a  _thing_ that can be measured and enabled to communicate. But for most financial services businesses, the IoT’s impacts could be characterized as having a “derivative effect”: While the IoT is fundamentally about gathering, processing, and creating value from information about tangible physical objects, many financial transactions are based on information from intangible sources that may ultimately have roots in the physical world but that are one level removed from it. No tech startup has yet figured out how to strap a sensor to a company’s profit-to-earnings ratio. But many, even most, pieces of information have roots in the physical world—for instance, a logistics firm’s stock price may depend on the number of packages shipped, while wheat futures may change based on rainfall levels.
+#### table of contents
+  * [ Analyzing the nearer-term potential ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html#heading-3)
+  * [ Making sense of it all and taking action ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html#heading-5)
+
+
+## Analyzing the nearer-term potential
+As discussed above, FSIs are already using IoT technology to measure and analyze those elements of their business that are directly tied to data about tangible thing—driving habits, health, and so on. Therefore, we see the IoT’s near-term potential in financial services as largely defined by how these existing “tangible” applications may spread. To identify possibilities, one approach would be to consider deployments of sensors of all types and analyze which of these might yield information that could be useful—even tangentially—to the various businesses within the financial services industry. In a sense, since sensors are the IoT’s most physical element, we can use them as a stand-in to measure IoT applications as a whole.
+In a recent report, Gartner forecast that, on a worldwide basis, “endpoints of the Internet of Things will grow at a 32.5 percent CAGR from 2013 to 2020, reaching an installed base of 25.0 billion units.” Covering more than 200 different categories of sensors, across consumer, business, and vertical-specific categories, the forecast suggests a broad expansion of deployments between now and the decade’s end. Undoubtedly, deployment of 25 billion new endpoints should create considerable business opportunities for companies of all types.
+###  ANALYZING A SENSOR-DEPLOYMENT FORECAST
+In aiming to assess the scope of the IoT’s nearterm impact on financial services, we used the Gartner forecast as a starting point and took the following steps to generate the numbers used in this section of the report:
+  * Reviewed the more than 200 types of sensors in the forecast and assessed their resulting information’s potential value to financial institutions
+  * Interviewed senior practitioners within Deloitte to gather their views and input on potential use cases
+  * Categorized the detailed list of sensor types into a small number of broad use-case categories with broad appeal to FSIs (See exhibit 1 of the appendix)
+  * Created potential use cases by financial services sector for each use case (See exhibit 2 of the appendix)
+  * Developed sensor deployment numbers and growth rates for these sector-specific use cases
+
+
+Our analysis is meant to be illustrative rather than exhaustive, with the goal of exploring both the IoT’s possibilities and limitations for FSIs between now and 2020.
+Show more 
+Whole categories of sensors will likely have little or no direct impact on the financial services industry—just consider education (for example, lab equipment or smart boards) and entertainment (for example, smart TVs or gaming consoles). But as a starting point, our analysis (see sidebar for details) suggests that perhaps as many as one-quarter of sensors deployed in 2013 could be of use to FSIs, rising to one-third in 2015 and then to about 50 percent by 2020. In other words, one could reasonably assume that by the end of the decade, companies will have deployed several billion sensors that could provide data of interest to financial firms of one kind or another.
+How might companies use these data, and how could the information be further exploited? Our analysis suggests that sensor deployments may find traction within the industry in more than a dozen different applications (see exhibit 2 of the appendix). Several categories are interesting to consider as further enhancements to existing opportunities. For example, analysts expect deployment of automotive sensors to continue to grow, providing insurers with better data to drive usage-based insurance. Building-management sensor deployments will likely similarly increase.
+On the consumer side, a significant number of sensors are forecast to be deployed in the home to control utility consumption, provide home security and flood and fire detection, and monitor the dwelling’s overall condition. Google’s acquisition of Nest suggests the potential for combining home automation and analytics into the “conscious home.” These technologies could benefit FSIs as well: Lenders could better understand a home’s condition and thus its value during the mortgage origination process (for appraisals and underwriting), and insurers could improve risk management and provide more accurate pricing for homeowner insurance, as they do today for auto coverage.
+In commercial applications, we believe that FSIs might benefit from various sensors that monitor the activity and condition of retail industrial and agricultural businesses, such as connected field devices in manufacturing or agricultural sensors that monitor livestock. Both capital market firms and commercial lenders could use the data these sensors generate to support investing or lending activities. Sensors attached to goods in transit—from manufacturing plant to retail outlet—could offer opportunities to banks’ cash management and trade services businesses, better matching flows of payments and goods between seller and buyer.
+Apart from augmenting how FSIs provide services, companies can deploy IoT technology to change how they do work internally—a broad category of sensors that addresses the “quantified self.” In the same way that automotive telematics provide input to insurers as well as feedback to drivers, personal sensors may provide information to firms across multiple sectors. Even sensors that simply provide information on location and movement of individuals have been shown to provide rich insights into how employees work, interact, and share ideas.
+Taken together, the analysis we conducted suggests that growth in sensor deployments for FSI examples such as these is certainly robust, ranging from just over 20 percent to 100 percent annually on a compounded basis, depending on the sector (see figure 1).
+### Share infographic
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+
+
+### Or copy link
+Copy
+### Assessing the potential: The Information Value Loop
+But gross numbers and growth rates for sensor deployments tell only part of the story. To truly begin to discern the industry potential for the application of IoT-generated data, we should also consider those uses that have not yet become common. To do so, it is useful to consider the value that companies might derive from such usage, as well as bottlenecks that hinder growth in that usage, using a framework known as the Information Value Loop.
+###  The Information Value Loop
+The suite of technologies that enables the Internet of Things promises to turn most any object into a source of information about that object. This creates both a new way to differentiate products and services and a new source of value that can be managed in its own right. Realizing the IoT’s full potential motivates a framework that captures the series and sequence of activities by which organizations create value from information: the Information Value Loop.
+### Share infographic
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+
+
+### Or copy link
+Copy
+For information to complete the loop and create value, it passes through the loop’s  _stages_ , each enabled by specific  _technologies_. An  _act_ is monitored by a  _sensor_ that  _creates_ information, that information passes through a  _network_ so that it can be  _communicated_ , and  _standards_ —be they technical, legal, regulatory, or social—allow that information to be  _aggregated_ across time and space.  _Augmented intelligence_ is a generic term meant to capture all manner of analytical support, collectively used to  _analyze_ information. The loop is completed via  _augmented behavior_ technologies that either enable automated autonomous action or shape human decisions in a manner leading to improved action.
+The amount of value created by information passing through the loop is a function of the value drivers identified in the middle. Falling into three generic categories—magnitude, risk, and time—the specific drivers listed are not exhaustive but only illustrative. Different applications will benefit from an emphasis on different drivers.
+Show more 
+### Value drivers
+Using the Value Loop to understand how the IoT uses information to create value, we can see the largest barriers to wider future adoption: the scale and scope of available data. To illustrate the  _scale_ problem, one can see how, for most given applications, sensor deployments can inevitably fall short in covering the entire market. Take, for example, the safety issues inherent in cars having improperly inflated tires. Automakers have begun making tire-pressure monitoring sensors standard equipment on vehicles they sell in the developed world, but most cars aren’t new—the average automobile even in the United States today is 11 years old. The Gartner forecast we have used predicts about 3.5 billion automotive sensors deployed across many different categories by 2020, when the number of passenger cars in use worldwide could be as much as 1 billion. Clearly, then, a significant number of vehicles may still lack the ability to provide the kind of comprehensive safety data of which insurers could make use, even by the end of this decade. The lack of relevant data limits even the “tangible” uses of IoT technology that FSIs already use from achieving their full potential.
+For future uses that seek to use the IoT to shed light on “intangible” measures, the data problem is even more pronounced. Here the  _scope_ of sensor coverage remains a key issue. As discussed above, monitoring retail business performance in real time may allow analysts to truly understand foot-traffic patterns and compare this information to sales figures to determine which retailer is more effective at converting shopper volume to sales per square foot, which would then influence buy/sell recommendations. Such a real-time capability would likely require an array of different sensor types, including beacons (devices that connect to a mobile phone or tablet to determine positioning and deliver proximity-based content, such as coupons), smart cash registers, RFID tag readers, parking lot sensors, and smart mobile signature devices for home delivery. However, forecasts estimate that the lion’s share of sensor deployments will be beacons that measure only one data parameter: location (see figure 2).
+### Share infographic
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+
+
+### Or copy link
+Copy
+In a similar vein, manufacturer activity may be monitored by devices that observe plant activity of various kinds, industrial controllers and smart robots on the assembly line, smart asset tagging to prevent loss of tools and equipment, and RFID tag readers for finished-goods inventory. Here, most sensors are projected to be connected field devices that monitor general plant activity—again, a valuable indicative input to existing data sets, but currently insufficient to yield the kind of in-depth comparative intelligence that might someday transform the way that lenders, traders, or analysts assess risk or make stock picks. In summary, firms may benefit as these data flows start to come online, but the transformative effect resulting from a more comprehensive picture of business activity may remain somewhat elusive over the next five years.
+In the shorter term, sensor data coming online will likely create new information asymmetries that traders and portfolio managers can exploit. Indeed, firms have a vested interest in protecting the status quo of information asymmetry that drives value in the capital markets and, therefore, may resist the kind of radical transparency that might someday emerge from this new source of data.
+FSIs will also confront challenges associated with deriving value based on the data’s  _reliability_ and  _accuracy_. Not all IoT-generated data will be useful, and so companies will likely need to gain experience with some of these new data types (especially those associated with the “quantified self ”) in order to discern which are predictive in nature, and update their analytical models accordingly.
+Especially for the applications imagined for capital markets and investment management firms, then, IoT-generated value will likely accrue much more slowly, since many processes within these sectors are based on the availability of comprehensive and timely market data. Referring back to the value drivers within the Information Value Loop,  _frequency_ ,  _timeliness_ , and  _latency_ are therefore an issue, as firms often depend on continuous, realtime data flows, particularly as relating to the equity markets.
+### Stages and bottlenecks
+Keeping in mind that IoT applications in financial services may increasingly shift from common uses with tangible measures to uses with intangible measures, the question is what path IoT technology will take from here to there.
+The answer can again be found in the Information Value Loop. One of the implications associated with the IoT is that a product’s information content is now as valuable as its performance. The flow of information around the Value Loop creates value for customers that companies can then capture. Analyzing this flow of information can help companies locate specific strategic and technical challenges facing them in an IoT-enabled world. But information does not flow evenly around the loop: A bottleneck will exist at one stage of technology, which limits the flow and thus the value. Alleviating this bottleneck can increase the flow of information, creating value for customers, and the company that controls the bottleneck is in a place to capture the bulk of value created.
+The uneven progression of sensor deployments highlights the fact that for many emerging applications, the bottleneck is at the  _create_ stage of the Value Loop. Until some minimum critical mass of sensors is in the market, more complex uses beyond the few existing tangible examples will be impossible.
+Even then, FSIs must clear other hurdles before they can use IoT technology to model “intangible” financials. One hurdle is the availability of these data to FSIs. For example, manufacturers or agribusinesses should benefit from closer monitoring of operations, but they will likely struggle to see the upside of releasing or selling such strategic information to the marketplace, since such data may reveal specific strategies or competitive advantages that companies would prefer not to expose to competitors. Firms—especially commercial lenders—may someday require the release of such information as a condition for granting credit, but these requirements may adversely impact client experience, as customers may perceive those companies that decide to be on this trend’s leading edge as being more difficult to do business with. So the next bottleneck blocking the way of more complex IoT applications is in the  _communicate_ stage, as companies or individuals may be unwilling to share their data with a financial institution.
+Even if the bottlenecks associated with the creation and communication of data were to someday disappear, many FSIs will find  _aggregating_ and  _analyzing_ the output to be a challenge. IoT-generated data streams will require them to augment their data-management and analytical capabilities. Banks and insurance companies in particular already struggle with the vast pools of data within their legacy systems, and without exercising more discipline toward the specific data they want to capture, the potential flood of fresh information may overwhelm them.
+Regulators, aiming to protect investor interests and market transparency, will have their say, and consumers and corporations uncomfortable with the notion of being “watched” will demand limits on the collection and use of sensor-based data. In this new world, clients may be unable to adequately discern the risks of transparency, and one might anticipate that regulators will look for increasing disclosure to protect the interests of clients and markets, as well as monitoring the handling and use of personally identifiable information as a result.
+## A vision for the future
+So what exactly will the future hold if these current applications are able to reach sufficient scope and scale? By introducing enough data about the world, the IoT can help drive the creation of models that approximate the underlying physical drivers of even intangible financial measures. That said, given the accelerating pace of technological development, predictions about how things might evolve in the next 5–10 years are difficult to make. To help gain some insight into future scenarios, we engaged with a group of academics, analysts, and entrepreneurs with expertise in financial services and technology using a crowdsourced model to imagine how IoT technologies might generate new examples over a longer time horizon (see “[About the project](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html#about)” for more details).
+###  About the project
+The insights in this section on future IoT scenarios are based in part on a crowdsourced simulation exercise conducted by Wikistrat on behalf of the Deloitte Center for Financial Services. The project, fielded during July 2015, involved more than 50 analysts across 20 countries. These analysts had varied backgrounds, including technology entrepreneurs; business and technology leaders within the financial services industry; academics with doctorates in economics, business, and technology; analysts in government and research centers; and cybersecurity consultants.
+The project was designed to explore the IoT’s long-term potential in financial services. Wikistrat tasked analysts with developing a series of use cases within six specific industry sectors, and with forecasting and describing the opportunities and challenges that IoT technology presents (see exhibit 3 of the appendix for a full list of the scenarios).
+They followed a structured process that included the following steps:
+  * Using an online tool, analysts worked collaboratively to develop 44 use-case examples using a wiki-based template designed to identify IoT-related trends and issues, potential opportunities, and risks and challenges.
+  * They then provided a quantitative assessment of the probability that each use case will emerge and its overall impact or importance to the industry.
+  * Wikistrat and the Deloitte Center for Financial Services then reviewed all cases and probability assessments to select 10 use cases for further development.
+  * At a final workshop, participants reviewed and enriched the short list of 10 cases. Enrichment activities included clarification of use cases, provisioning of additional data points, reinforcing potential value for FSIs, and identification of cross-cutting themes and issues.
+
+
+The sheer number of ideas our workshop generated in a short period suggests that opportunities to capitalize on new information flows may be limited only by our collective imagination.
+Show more 
+The sheer number of ideas our workshop generated in a short period suggests that opportunities to capitalize on new information flows may be limited only by our collective imagination.
+### What might be possible?
+A few of the workshop’s more interesting use cases provide a glimpse into a future of new opportunities and threats for incumbents, emerging technology–based financial services companies, and regulators alike. Some overall themes emerged from this exercise. In brief, these include:
+  * The emergence of what the panel called “radical transparency” may undermine advantages that come today from information asymmetry. This is particularly true in investment and lending businesses, in which equity analysts, loan officers, and others make decisions based on their unique perspectives.
+  * Data associated with individual (and corporate) preferences and behaviors will likely be at the center of new opportunities and disruptions to the incumbents’ business models.
+  * Risks of various types can emerge along with the opportunities. Protecting data privacy and security should be of paramount importance, especially for financial institutions. But unintended consequences may emerge from automated processing of huge volumes of near real-time data flows. Fraudsters could seek to intercept this information to manipulate markets, or operational disruptions could occur if automated decisions are made based on faulty data or inaccurate analysis.
+  * The ability to access IoT-generated data will likely be a challenge for many firms, which may result in the emergence of a new class of service providers, offering data “subscription” services in the manner of credit bureaus or market data providers. Again, whether it makes sense for the owners of these data to offer this intelligence for public consumption will be driven by many factors, such as whether or not these data provide a competitive advantage to the owners within their own businesses.
+
+
+The project also yielded some broader implications for the industry at the sector level. These are presented in turn below.
+### Banking
+The analysts imagined that IoT applications might help banks improve underwriting processes and reach new markets. They foresaw that physical, performance, and behavioral data generated from biometric and positional sensors for individuals, and shipping and manufacturing control sensors for businesses, could provide new opportunities for credit underwriting, especially for those underserved customer segments lacking a credit history. The challenges here involved developing an understanding of which kinds of data are best predictive of creditworthiness, as well as the potential risk of new forms of redlining based on so-called “pattern of life” (POL) analyses.
+Given that banks finance the lease or purchase of many physical items, our Wikistrat panel found opportunities for banks to tap into data from sensors monitoring these goods’ condition to offer customized solutions. For example, lenders could partner with electronics and “white goods” manufacturers to proactively make credit offers to individuals if their purchased items begin to show noticeable wear or face imminent failure. Leasing companies, too, could monitor the condition of leased assets in order to determine a more precise residual value of the asset at lease expiration, or determine with greater accuracy any discounts or penalties for preferred or unacceptable use.
+### Capital markets
+Analysts considered IoT-enabled opportunities to further automate trading and investing activities, driven by continued acceleration in algorithmic trading and the enhancement of this approach through the application of IoT sensor data. The group considered the possibility that, with the removal of the human element in combination with more comprehensive real-time data flows, firms could develop analytics that might better evaluate suspected market bubbles. Others were less sure: While efficiencies would certainly be gained, intelligent agents might be unable to account for shifts in consumer demand or geopolitical events, and thus faulty conclusions could in turn actually create a bubble. There was consensus, however, on the need for firms on both the buy and sell sides to help improve their capacity and capability to gather, store, and analyze huge amounts of real-time, IoT-generated data.
+Taking it a step further, crowdfunding and micro-investing opportunities could emerge based on based on analysis of investor behavior. New capital pools could therefore emerge, potentially with new and different systems of rewards. The Wikistrat report suggested that this could significantly shift the way venture capital is sought.
+### Insurance
+The longer-term impact of the adoption of automotive sensors emerged as one of the more interesting scenarios for insurance carriers. Already, the industry is grappling with the strategic implications of self-driving cars, suggesting a shift from automobile casualty insurance, where the driver is at fault, to product liability insurance, where the manufacturer may be held liable. Insurers may gain better information on product-design defects to more accurately price coverage but face the potential evaporation of significant amounts of premium income as accident rates drop and traditional coverages fade away.
+A more interesting implication concerns augmented behavior: Usage-based insurance itself may lead to policyholders demanding more on-demand coverage to reduce their costs. For example, in personal life and injury insurance, all manner of risks are covered under a single policy, but with the development of more fine-grained data about personal behaviors, firms could fine-tune coverages to potentially add or eliminate certain risks. In essence, insurance coverages could be unbundled and “decommoditized” to create differentiation from other products in the marketplace. This would make underwriting and pricing a more complex undertaking, but could yield improved customer satisfaction.
+On the commercial side, deployment of sensors on shipping containers and transport vehicles may provide insurers with the opportunity to enhance shipping insurance coverage. The ability to better detect and model risks due to theft or damage could move the pricing of these products from an actuarial exercise to one that better assesses risks and losses in real time, while at the same time enabling insurers to more accurately determine responsible parties. In essence, IoT technology could go a long way toward eliminating “proxies” in the risk-assessment process much more broadly than the initial forays seen in telematics today.
+### Investment and wealth management
+The Wikistrat analysts identified ways that investment managers could benefit from modeling the “enthusiastic crowd.” Firms could utilize information from a client’s IoT “ecosystem” to tailor investment decisions and asset allocation based on behaviors, preferences, and location. For example, a more intimate understanding of a client’s interests and purchasing patterns could enhance wealth management. Investment offerings could be tailored based on these data, leading to the extension of concepts similar to socially responsible investing. This analytical approach could also potentially provide a more accurate modeling of investor risk tolerance as well, a part of new-account onboarding that firms have traditionally given lip service through execution of a simple survey. In the new, IoT-enabled world, companies could develop algorithms relying on inputs of POL-based behavioral data to provide a more accurate picture of a new client’s true risk tolerance than a response on a questionnaire.
+The analysts also explored the possibilities associated with automating portfolio management. Assuming that firms can address existing constraints around data availability, they could combine real-time data flows from a variety of sensors with cognitive technologies and M2M communication to automate fund management far beyond what is seen today, as with index funds. This could lead to increased differentiation between types of investment management firms, funds, and pricing strategies. Active managers may be forced to specialize in a particular strategy or sector, while automated managers leverage an ability to synthesize huge amounts of data, combined with high-frequency trading technologies, to act faster than any human can today.
+### Commercial real estate
+The emergence of real-time bidding markets in commercial real estate was another scenario the panel of specialists envisioned. Already, tech startups have emerged to create more transparency in the process of finding and leasing commercial space. With IoT technology, firms could combine data from sensors used to manage building energy and security with activity sensors that monitor the level of human interaction within common areas, on elevators, and in the surrounding neighborhood. In this way, analysts could value properties even more accurately. These data flows, if exposed to a public marketplace, could in turn create a kind of trading market, reducing friction in the leasing or buying processes as well as giving investors greater transparency as to property values.
+Design and construction of commercial and residential properties could benefit from behavioral analysis as well as the monitoring of construction equipment and materials, some panelists believed. Developers could take advantage of the increasing interest in combined “live/work/play” developments by analyzing foot traffic and other POL indicators to fine-tune their building plans. And engineering and construction firms might be better able to manage projects’ safety and efficiency based on wider deployment of connected construction vehicles and smart asset tags.
+### Risk management in FSIs
+Finally, the analysts envisioned “quantified self ” concepts as a way to potentially reduce risk and improve performance. For example, companies might better manage conduct risk by monitoring FSI employees’ stress levels, patterns of movement, and other factors as a way of predicting the potential for internal fraud. Multi-factor authentication in both virtual and real environments could better flag identity theft. For example, retailers could authenticate online chip-enabled payment-card transactions by matching the presence of the card to other physical objects (such as a mobile phone, or even wearables) that are known typically to be within close proximity to the payment device.
+Portfolio managers could also improve their performance by understanding how they react during times of stress. Clearly, employees may resist being monitored so closely, but for those in positions of particular importance, such data gathering, kept private and secure, may become a requirement of employment.
+## Making sense of it all and taking action
+Firms should begin planning for this new source of data. As recently as 2012, slightly less than 15 percent of FSIs—and less than 10 percent of insurance carriers—were implementing or planning to implement IoT or M2M-based solutions or applications. Firms should start exploring potential impacts and opportunities related to the deployment of IoT technologies, and begin strategizing on how to capitalize on these developments, using the Information Value Loop as a guide. Developing strategic partnerships with IoT innovators across the spectrum, including related technologies such as cognitive computing, will aid understanding of where the market may be headed.
+Early experimentation, building off of existing deployments, will help firms with a test-and-learn approach. Certainly, insurance carriers and firms in the commercial real estate industry have a leg up here, but banks may be able to capitalize on the connections between mobile payments, wearables, and sensing devices. Beyond that, firms could start with the assumption that every single object in the day-to-day lives of both customers and employees will soon be able to share data. From that starting point, take an art-of-the-possible approach by identifying the potential opportunities these new data streams could create for them. Indeed, they could consider going beyond test-and-learn, and instead take an approach that embraces the notion of “learn fast, fail fast.”
+On a more tactical level, however, firms will need to pay attention to the operational side of the opportunities they may identify. The avalanche of IoT-generated data will dwarf firms’ current data volumes, threatening to overwhelm already-inadequate strategies and technologies in place to manage and capitalize on these data. Accommodating this increased data flow will not come cheap: Both data management and analytical capabilities will require a quantum leap forward. And firms may need to rely on new information brokers to manage and allow centralized access to these data if they are to be of any benefit.
+Even though, for most FSIs, the presence of a physical thing is absent from the products they offer and the operations they maintain, the industry is increasingly informationcentric at its core, and has plenty of hard-won experience in information management.
+Firms that get ahead of this trend will likely be at an information advantage, where faster, better, and cheaper insight can create opportunities for improved customer experience and operational performance. In many ways, the opportunity for FSIs can be to decommoditize products and services that are differentiated based on their command of these data flows. Regardless of which of the scenarios imagined above emerge, the stark reality is that an increasingly large percentage of the physical world will be connected to computing power of one kind or another, and we’re only at the beginning of what could be a vastly different world from what we see today. Reflecting back on Kevin Ashton’s vision that computers may someday be able to see, hear, and smell the world for themselves, it could be argued that financial services has a built-in advantage.
+## Appendices
+Appendix 1: IoT sensor types within FSI-relevant categories
+### Share infographic
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+
+
+### Or copy link
+Copy
+Appendix 2: Potential use cases by FSI sector
+### Share infographic
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+
+
+### Or copy link
+Copy
+Appendix 3: Full list of Wikistrat scenarios by FSI sector
+### Share infographic
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+
+
+### Or copy link
+Copy
+Deloitte’s Internet of Things practice enables organizations to identify where the IoT can potentially create value in their industry and develop strategies to capture that value, utilizing IoT for operational benefit.
+​
+To learn more about Deloitte’s IoT practice, visit <http://www2.deloitte.com/us/en/pages/technology-media-and-telecommunications/topics/the-internet-of-things.html>.
+Read more of our research and thought leadership on the IoT at <http://dupress.com/collection/internet-of-things/>.
+Show more 
+#### Jim Eckenrode
+United States
+### Jim Eckenrode
+Managing director | Deloitte Center for Financial Services
+United States
+Jim Eckenrode is managing director at the Deloitte Center for Financial Services, responsible for developing and executing Deloitte’s research agenda, while providing insights to leading financial institutions on business and technology strategy.
+_jeckenrode@deloitte.com_
+[ _+1 617 585 4877_ ](tel:+1%20617%20585%204877 "phone")
+  * [ Share ](javascript:void\(0\))
+    * [ linkedin ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "linkedin")
+    * [ twitter ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "twitter")
+    * [ facebook ](https://www.deloitte.com/us/en/insights/industry/financial-services/iot-in-financial-services-industry.html# "facebook")
+  * [ Print ](javascript:window.print\(\); "Print")
+
+
+###  Endnotes 
+  1. Gil Press, “Internet of Things by the numbers: Market estimates and forecasts,” _Forbes_ , August 22, 2014, www.forbes.com/sites/ gilpress/2014/08/22/internet-of-thingsby-the-numbers-market-estimates-andforecasts/, accessed September 24, 2015.
+  2. Deloitte University Press, “Collection: Internet of Things,” http://dupress.com/collection/internet-of-things/.
+  3. Kevin Ashton, “That ‘Internet of Things’ thing,”  _RFID Journal_ , June 22, 2009, www.rfidjournal.com/articles/view?4986, accessed September 24, 2015.
+  4. Simon Ninan, et al.,  _Who owns the road? The IoT-connected car of today—and tomorrow_ , Deloitte University Press, August 18, 2015, http://dupress.com/articles/internet-of-things-iot-in-automotive-industry/.
+  5. Sam Friedman and Michelle Canaan,  _Overcoming speed bumps on the road to telematics_ , Deloitte University Press, April 21, 2014, http://dupress.com/articles/telematics-in-auto-insurance/.
+  6. John Moore, “Building automation systems: Internet of Things meets facilities management,”  _TechTarget_ , January 27, 2014, http://searchitchannel.techtarget.com/feature/Building-automation-systems-Internetof-Things-meets-facilities-management,accessed September 24, 2015.
+  7. Elizabeth Dwoskin and Greg Bensinger, “Tracking technology sheds light on shopper habits,”  _Wall Street Journal_ , December 9, 2013, www.wsj.com/articles/SB10001424052702303332904579230401030827722, accessed September 24, 2015.
+  8. Peter Middleton et al.,  _Forecast: Internet of Things, endpoints and associated services_ , Worldwide, 2014, Gartner, Inc., October 20, 2014.
+  9. Scott Corwin, Joe Vitale, Eamonn Kelly, and Elizabeth Cathles,  _The future of mobility:How transportation technology and social trends are creating a new business ecosystem_ , Deloitte University Press, September 24, 2015, http://dupress.com/articles/future-of-mobility-transportation-technology/.
+  10. Ninan et al.,  _Who owns the road?_
+  11. Middleton et al.,  _Forecast: Internet of Things, endpoints and associated services_ , Worldwide, 2014.
+  12. Trefis Team, “Google’s strategy behind the $3.2 billion acquisition of nest labs,”  _Forbes_ , January 17, 2014, http://www.forbes.com/sites/greatspeculations/2014/01/17/googlesstrategy-behind-the-3-2-billion-acquisitionof-nest-labs/, accessed September 24, 2015.
+  13. Alex Pentland,  _Social Physics: How Good Ideas Spread—the Lessons from a New Science_ (New York: Penguin, 2014).
+  14. Greg Gardner, “Average age of cars on US roads—11.5 years—breaks record,”  _Detroit Free Press_ , July 30, 2015, http://www.freep.com/story/money/cars/2015/07/30/autos-averageage/30820613/, accessed September 29, 2015.
+  15. Stacy C. Davis, Susan W. Diegel, and Robert G. Boundy,  _Transportation Energy Data Book: Edition 33_ , US Department of Energy, July 2014, http://cta.ornl.gov/data/tedb33/Edition33_Full_Doc.pdf, accessed September 24, 2015.
+  16. Michael E. Raynor and Mark J. Cotteleer,  _The more things change: Value creation, value capture, and the Internet of Things_ , Deloitte University Press, July 27, 2015, http://dupress.com/articles/value-creation-valuecapture-internet-of-things/?coll=11711
+  17. Jonathan Holdowsky et al.,  _Inside the Internet of Things (IoT): A primer on the technologies building the IoT_ , Deloitte University Press, August 21, 2015, http://dupress.com/articles/iot-primer-iot-technologies-applications/?coll=11711
+  18. Brenna Sniderman and Michael E. Raynor, “Power struggle: Customers, companies, and the Internet of Things,”  _Deloitte Review_ 17, July 27, 2015, http://dupress.com/articles/internetof-things-customers-companies/?coll=11711.
+  19. Data Protection Working Party, “Opinion 8/2014 on the recent developments on the Internet of Things,” European Commission, September 16, 2014, http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp223_en.pdf, accessed September 24, 2015.
+  20. Noah Buhayar and Peter Robison, “Can the insurance industry survive driverless cars?”  _Bloomberg Businessweek_ , July 30, 2015, www.bloomberg.com/news/articles/2015-07-30/can-the-insurance-industry-survive-driverlesscars-, accessed September 24, 2015.
+  21. Jonathan Wasserstrum, “Real estate is accessible and easy to navigate thanks to these startups,”  _TechCrunch_ , September 7, 2015, http://techcrunch.com/2015/09/07/real-estateis-accessible-and-easy-to-navigate-thanks-tothese-startups/, accessed September 24, 2015.
+  22. Michele Pelino with Christopher Voce and Thayer Frechette,  _Prepare I &O for the Internet of Things_, Forrester Research, April 25, 2013.
+
+
+##### ENDNOTE
+###  Acknowledgments 
+The author would like to acknowledge **Mark J. Cotteleer** , director, Deloitte Services LP, affiliated with Deloitte’s Center for Integrated Research; and **Joseph Mariani** , lead market insights analyst, Deloitte Services LP, for their extensive review, feedback, and support throughout the drafting process.
+The Center wishes to thank the following Deloitte professionals for their support and contributions to the report: **Matthew Budman** , editorial manager at Deloitte University Press; **Michelle Chodosh** , marketing manager of the Center for Financial Services; Patricia Danielecki, chief of staff for the Center for Financial Services; **Junko Kaji** , acquisitions editor at Deloitte University Press; **Val Srinivas** , research leader with the Center for Financial Services in Banking & Securities; and **Lauren Wallace** , lead marketing specialist at the Center for Financial Services.
+**About the Center for Financial Services** The Deloitte Center for Financial Services, part of the firm’s US Financial Services practice, is a source of up-to-the-minute insights on the most important issues facing senior-level decision makers within banks, capital markets firms, investment management companies, insurance carriers, and real estate organizations. We offer an integrated view of financial services issues, delivered through a mix of research, industry events, and roundtables, and provocative thought leadership—all tailored to specific organizational roles and functions.
+## Here’s how we use cookies
+Deloitte uses strictly necessary cookies and similar technologies to operate this website and to provide you with a more personalized user experience. In addition to strictly necessary cookies, Deloitte uses optional cookies to enhance and personalize your experience, analyze site usage and traffic sources to understand how visitors engage with our website, deliver relevant content or advertisements, and facilitate data sharing with analytics and advertising providers. When you arrived at this website, Deloitte may have placed strictly necessary cookies and optional analytics cookies on your device. By clicking "Accept all optional cookies", you agree to the placement of optional cookies on your device. You can manage your cookie preferences or withdraw your consent to the use of optional cookies at any time by clicking "Tailor your cookie preferences". If you disable and withdraw your consent to the use of optional analytics cookies, Deloitte will not continue to receive data from the optional analytics cookies placed when you arrived at the website. Depending on your selected cookie preferences, the full functionality or personalized user experience of this website may not be available. Learn more by visiting[Deloitte's Cookie Notice.](https://cookienotice.deloitte.com)
+Accept all optional cookies  Decline all optional cookies
+Tailor your cookie preferences
+Opt-Out Request Honored
+## Privacy preference center
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change your default settings. [Cookie Notice](https://cookienotice.deloitte.com)
+###  Manage consent preferences
+#### Strictly necessary cookies
+Always active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences or filling in forms.
+Cookies Details
+#### Analytics and performance cookies
+Analytics and performance cookies Inactive
+These cookies allow us to track analytics by counting visits and traffic sources so we can measure and improve the performance of our website. They may be set by us or by third party providers to help us to know which pages are the most and least popular and see how visitors move around the website.
+Cookies Details
+#### Functional cookies
+Functional cookies Inactive
+These cookies enable the website to provide enhanced functionality and personalization based on your interaction with the website. They may be set by us or by third party providers whose services we have added to our pages.
+Cookies Details
+#### Advertising and targeting cookies
+Advertising and targeting cookies Inactive
+These cookies may be set through our site by our advertising partners. They may be used by those partners to build a profile of your interests and show you relevant advertisements on other websites.
+Cookies Details
+Back Button
+### Cookie List
+Search Icon
+Filter Icon
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Confirm choices

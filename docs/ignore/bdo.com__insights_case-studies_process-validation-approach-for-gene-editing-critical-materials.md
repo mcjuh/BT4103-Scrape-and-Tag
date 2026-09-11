@@ -1,0 +1,10 @@
+<!-- Source: https://www.bdo.com/insights/case-studies/process-validation-approach-for-gene-editing-critical-materials | Title: Process Validation Approach for Gene Editing Critical Materials | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleLife Sciences Resilience Report August 12, 2026 ArticleLife Sciences Resilience Report August 12, 2026Has life sciences reached a turning point? Explore what recent bankruptcy trends, market shifts, and ongoing volatility reveal about the industry’s outlook in BDO’s latest resilience report. Read Morechevron_right ](https://www.bdo.com/insights/industries/life-sciences/life-sciences-resilience-report)
+[ ArticleBDO’s Spring 2026 Biotech Brief June 16, 2026 ArticleBDO’s Spring 2026 Biotech Brief June 16, 2026Explore biotech industry trends, funding challenges, IPO activity, and FDA insights in BDO’s 2026 Biotech Brief. Download the report today. Read Morechevron_right ](https://insights.bdo.com/bdo-spring-2026-biotech-brief.html)
+[ ArticleNew Jersey Opens NOL Program for Unprofitable Tech Companies June 3, 2026 ArticleNew Jersey Opens NOL Program for Unprofitable Tech Companies June 3, 2026New Jersey’s 2026 NOL program is open through June 30. Learn how eligible technology and biotechnology businesses can turn unused tax benefits into cash to support growth. Read Morechevron_right ](https://www.bdo.com/insights/tax/new-jersey-opens-nol-program-for-unprofitable-tech-companies)
+[ ArticleCAPE Opens in ACE: What Importers Need to Know About IEEPA Refund Processing April 20, 2026 ArticleCAPE Opens in ACE: What Importers Need to Know About IEEPA Refund Processing April 20, 2026Learn how CBP’s new CAPE process may affect tariff refund claims, including Phase 1 limits, eligibility considerations, and steps importers may need to take to protect refund rights. Read Morechevron_right ](https://www.bdo.com/insights/tax/cape-opens-in-ace-what-importers-need-to-know-about-ieepa-refund-processing)

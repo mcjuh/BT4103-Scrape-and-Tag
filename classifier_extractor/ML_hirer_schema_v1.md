@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HireDocument",
+  "type": "object",
+  "required": [
+    "source_file",
+    "extracted_by_model",
+    "hire_title",
+    "hire_description"
+  ],
+  "properties": {
+    "source_file": {
+      "type": "string",
+      "description": "Name of the crawled Markdown file this record was extracted from (e.g. \"deloitte.com__us_en_case-study.md\")."
+    },
+    "extracted_by_model": {
+      "type": "string",
+      "description": "SOCLAAS model that extracted this record: one of the three-model pool in classifier_extractor/llm_pool.py (ornith1.5:35b, llama3.1:8b, qwen3.6:27b)."
+    },
+    "source_company": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Name of the company or organisation based on the crawled Markdown file."
+    },
+    "source_company_team": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Name of the team based on the crawled Markdown file if available, otherwise nil."
+    },
+    "hire_title": {
+      "type": "string",
+      "description": "Short title or summary of the hiring need."
+    },
+    "hire_description": {
+      "type": "string",
+      "description": "Detailed description of the problem or scope of work."
+    },
+    "hire_description_additional_notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Additional context including budget, timeline, and seniority expectations."
+    }
+  },
+  "additionalProperties": false
+}

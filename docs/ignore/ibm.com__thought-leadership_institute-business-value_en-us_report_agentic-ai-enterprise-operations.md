@@ -1,0 +1,62 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-ai-enterprise-operations | Title: Agentic AI workflows and enterprise operations  | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# The blueprint for agentic operations
+How to build an interconnected enterprise designed around agentic workflows. This is AI-first operations.
+[Download the insights (will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/16951ef945d3acf9)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+Enterprises are discovering an uncomfortable truth. Operating models they spent decades optimizing have become the primary barrier to AI value. The problem isn’t talent. It isn’t AI maturity. It’s structure. Standalone functions—once necessary for managing complexity—are now undermining the value of AI investments.
+According to new research from the IBM Institute for Business Value (IBV), 82% of C-suite executives say functional silos block value. Implication: businesses that keep them in place will stifle performance and limit the value autonomy is designed to deliver.
+This report goes far beyond diagnosing status-quo problems, however. It details a new artificial intelligence (AI)-first operating model organized around agentic workflows spanning functional domains. This new operating paradigm is already in flight. 55% of organizations are actively developing or deploying an agentic AI operating model. 60% plan to adopt next-generation delivery structures where AI agents coordinate integrated workflows across finance, supply chain, HR, procurement, physical operations, and customer service.
+Based on an IBV survey of more than 2,000 C‑suite executives across 16 countries and 17 industries, this report identifies both the biggest opportunities and main obstacles to becoming an interconnected enterprise. It culminates with a practical action guide for scaling autonomy, including a playbook for the C-suite. 21 appendices offer how-to blueprints, detailing enterprise-wide and industry-specific workflows.
+> Enterprises moving first are realizing the compounding benefits of cross-domain execution: faster cycle times, fewer handoffs, greater resilience, and better decisions.
+###  What are the main components of an enterprise agentic operating model?
+Our research identifies three pillars that support the safe scaling of an agentic AI operations model: workflow architecture, data interoperability, and enterprise orchestration. Established together, these pillars allow organizations to transition from isolated function-based operations to outcome-driven, autonomous execution.
+In the interconnected enterprise, the workflow—not the department or function—becomes the primary unit of value creation. Horizontal, interdependent workflows power the shift from organization charts to operating intelligence. They carry accountability for measurable outcomes and create cascading, compounding benefits.
+Workflows operate through a deliberate blend of human judgment, real-time orchestration, and AI autonomy. Roles across professionals and agents are clearly delineated.
+Our research finds that 77% of executives are actively identifying high-value processes where autonomous AI judgment can be deployed, and 76% say AI decisioning will be a critical source of competitive advantage.
+Autonomous workflow adoption and automation is far more likely when six underlying capabilities are present: change management, AI governance, data governance, real-time data integration, interoperability, and financial integration. 
+**6 capabilities make workflow adoption 5.4x more likely**
+###  How does enterprise orchestration enable agentic operations?
+Autonomous workflows move too fast, cross too many boundaries, and generate too many interdependencies for legacy reporting and functional governance to keep up. As automation expands, leaders need continuous visibility and real-time control.
+The solution: an orchestration layer powered by an enterprise digital twin. This dynamic, real-time model mirrors end-to-end operations and becomes the enterprise’s cockpit for decision-making. With a digital twin, leaders can observe, simulate, optimize, and govern the business continuously.
+82% of executives say a unified digital twin dashboard is essential for the visibility and control required for autonomous operations. And 72% expect real-time simulation and scenario modeling to become core features of their next-generation delivery model.
+At the heart of the orchestration layer, digital twin virtualization delivers essential adaptive capabilities including cross-workflow impact, predictive scenario modeling, and dynamic governance.
+Through orchestration, autonomous workflows operate in harmony, aligned to enterprise strategy, grounded in trusted data, and optimized moment-by-moment for enterprise performance. 70% of executives agree that orchestration will overtake periodic reporting as the foundation of enterprise management.
+> 75% of executives agree that AI will significantly redefine their global service delivery model by the end of 2026.
+###  What sets emerging agentic enterprises apart?
+Organizations pulling ahead are not buying more AI tools. Winners have made a structural decision: stop optimizing silos and start designing the enterprise as one interconnected system. Few organizations have built the integrated data, workflow, and orchestration foundations required for true cross-domain autonomy. But the ones that have are pulling away fast.
+Leaders at these organizations believe that interconnected, AI-first workflows and agentic systems will become a primary engine of enterprise level value spanning financial performance, strategic agility, operational resilience, and innovation. In other words, agentic AI doesn’t only improve how the enterprise runs. It redefines what the enterprise can become.
+Download the full report today to understand how to build an AI-first operating model that runs on agentic workflows.
+[Download the insights(will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/16951ef945d3acf9)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[IBM Business Operations Services (will open in a new window) IBM Business Operations Services Delivering value through end-to-end process transformation ](https://www.ibm.com/consulting/operations)
+[IBM AI Services (will open in a new window) IBM AI Services Leading the way in generative AI with over 75K trained consultants ](https://www.ibm.com/consulting/artificial-intelligence)
+[IBM Business Transformation Services (will open in a new window) IBM Business Transformation Services Leverage our expertise in digital technologies, AI, cloud, and cybersecurity, and drive sustainability and operational resilience. ](https://www.ibm.com/consulting/business-transformation)
+How can IBM help you?
+[IBM Business Operations Services (will open in a new window) IBM Business Operations Services Delivering value through end-to-end process transformation ](https://www.ibm.com/consulting/operations)
+[IBM AI Services (will open in a new window) IBM AI Services Leading the way in generative AI with over 75K trained consultants ](https://www.ibm.com/consulting/artificial-intelligence)
+[IBM Business Transformation Services (will open in a new window) IBM Business Transformation Services Leverage our expertise in digital technologies, AI, cloud, and cybersecurity, and drive sustainability and operational resilience. ](https://www.ibm.com/consulting/business-transformation)
+You might also like
+[Orchestrating agentic AI for intelligent business operations  Translations available Orchestrating agentic AI for intelligent business operations Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation)
+[The enterprise in 2030  Translations available The enterprise in 2030 Here are five predictions that can help business leaders prepare to win in an AI-first future. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/enterprise-2030)
+[The essential guide to agentic AI  Translations available The essential guide to agentic AI Explore three essential components for scaling agentic AI and making it a performance engine for the business. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/scale-agentic-ai)
+[Upstream oil and gas in the AI era  Upstream oil and gas in the AI era AI isn't failing in upstream oil and gas. What's failing is scaling its value across the enterprise. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/upstream-oil-and-gas-in-ai-era)
+[Orchestrating agentic AI for intelligent business operations - French (will open in a new tab) Orchestrating agentic AI for intelligent business operations - French Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-french)
+[Orchestrating agentic AI for intelligent business operations - German (will open in a new tab) Orchestrating agentic AI for intelligent business operations - German Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-german)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinel
+Open chat history
+AskIBV
+BETA
+AI Explained
+## AskIBV 
+BETA
+AskIBV combines advanced AI with the IBV’s trusted, data‑driven research and executive interviews to deliver exclusive insights and perspectives you won’t find anywhere else.
+Loading AskIBV insights AI
+Focus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-ai-enterprise-operations#truste_domain_list). 
+Accept All More options

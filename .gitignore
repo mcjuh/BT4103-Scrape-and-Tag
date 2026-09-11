@@ -1,0 +1,10 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python / run artefacts
+__pycache__/
+*.pyc
+*.log
+docs/_crawl.pid

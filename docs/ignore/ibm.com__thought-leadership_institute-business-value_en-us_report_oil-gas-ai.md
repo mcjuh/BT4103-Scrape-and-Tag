@@ -1,0 +1,50 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/oil-gas-ai | Title: Energizing the oil and gas value chain with AI | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# Energizing the oil and gas value chain with AI
+AI champions in oil and gas have generated more business value with their AI initiatives.
+[Download the insights (will open in a new tab)](https://www.ibm.com/downloads/cas/Z79PALP0)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+The oil and gas industry is facing incredible challenges amidst the COVID-19 pandemic. The industry’s decrease in demand has occurred at the same time as production disputes, resulting in both the oversupply of resources and the subsequent oil price collapse. While challenging external forces are not new to oil and gas companies, they are finding themselves forced to adapt with greater speed and agility to address the current landscape and prepare for a new market reality.
+The current oversupply scenario has filled almost seven billion barrels of global storage. Cargo vessels are being used as crude storage rather than transport. The subcontractor services ecosystems have been casualties of the crisis, with contracts terminated, projects postponed, operations significantly reduced, and rate-cuts demanded. The magnitude and implications of this challenge have motivated [political alliances, agreements, and decisions](https://www.ibm.com/thought-leadership/institute-business-value/blog/covid-19-oil-gas) previously considered impossible, such as widespread production cuts.
+> Operators are focusing on return rather than growth, which puts a premium on assets and organizations with low breakeven cost capabilities.
+The combined demand implications from both the current pandemic and long-term energy demand mix are setting the scene for long-term oversupply. Consequently, operators are focusing on return rather than growth, which puts a premium on assets and organizations with low breakeven cost capabilities.
+Unprecedented capital and operating spending cuts, as high as 50%, have been announced to secure the economic platform required to advance the transition on a very aggressive timeline. [ExxonMobil cut its capital budget](https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/update-oil-price-war-fallout-capital-spending-cuts-sweep-through-shale-57505881) for 2020 by 30%, or $10 billion and its cash operating expenses by 15%.
+**The importance of AI in the new reality**
+The new (ab)normal environment requires oil and gas organizations to digitally enable themselves to be more equipped to respond with agility and drive business performance with new approaches and ideas. As part of this journey, optimizing the value chain with artificial intelligence (AI) is essential.
+To understand where oil and gas companies are with their AI efforts, the IBM Institute of Business Value (IBV) and Oxford Economics surveyed 400 oil and gas executives in 18 countries who are involved in defining or executing AI strategies and/or implementations for their organization.
+56% of the oil and gas executives surveyed tell us that AI is important to the success of their organization today. And that number will likely increase to 84% in just three years.
+> AI investments have generated an average 32% return on investment in the past year.
+Existing AI investments have generated value for their organizations. Across all respondents, an average 32% return on investment has been generated in the past year. An expense reduction of 3% and a 3% increase in revenues were achieved over the past three years. For an average $10 billion company with a 10% margin, this translates to an additional $570 million in profit. AI investments have also reduced time to market for new products/services by 31 days.
+**Learning from AI champions**
+To help organizations identify specific strategies to improve their AI capabilities, we analyzed survey responses and identified a small group of oil and gas “AI champions,” consisting of 24% of our survey sample. These executives self-reported that their organizations had a well-defined enterprise-wide AI strategy that their organization understood.
+AI champions have generated more value with their AI initiatives than their peers. Nearly three quarters of these leaders say they have overachieved expectations for creating value from AI initiatives over the last three years versus just 37% of all others. They have a achieved a higher ROI on AI investments—43% compared to 29%—while spending roughly the same on AI—$4.5 million per billion in revenue versus $4.2 million per billion in revenue for peers.
+> Nearly 75% of AI champions have created more value than expected from their AI investments over the past three years.
+These leaders deliver better financial performance than industry peers—77% versus 52% for revenue growth and 77% versus 50% for profitability. AI champions are also more effective at developing (85%) and executing (92%) their enterprise strategy versus peers (58% and 71%, respectively). And their leadership is reflected in being more effective against the most important business objectives.
+**AI champions are more effective at addressing business objectives** Download the full report to learn how oil and gas companies can infuse AI across the value chain—and deliver better business results. 
+[Download the insights(will open in a new tab)](https://www.ibm.com/downloads/cas/Z79PALP0)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[Oil and gas solutions (will open in a new window) Oil and gas solutions Digital transformation reshapes the oil and gas industry. Are you taking full advantage of the opportunity? ](https://www.ibm.com/industries/oil-gas)
+[AI and cognitive platforms and services (will open in a new window) AI and cognitive platforms and services IBM delivers AI and cognitive platforms and services, industry-specific offerings, and expert consulting to support industrial products companies. ](https://www.ibm.com/us-en/products/category/technology/cognitive-computing-and-AI)
+How can IBM help you?
+[Oil and gas solutions (will open in a new window) Oil and gas solutions Digital transformation reshapes the oil and gas industry. Are you taking full advantage of the opportunity? ](https://www.ibm.com/industries/oil-gas)
+[AI and cognitive platforms and services (will open in a new window) AI and cognitive platforms and services IBM delivers AI and cognitive platforms and services, industry-specific offerings, and expert consulting to support industrial products companies. ](https://www.ibm.com/us-en/products/category/technology/cognitive-computing-and-AI)
+You might also like
+[Essential tactics to foster innovation in oil and gas  Essential tactics to foster innovation in oil and gas Oil and gas leaders share essential tactics to help drive industry innovation and perpetuate success. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/oil-gas-industry-innovation)
+[Chemicals and petroleum industry game changer (will open in a new tab) Chemicals and petroleum industry game changer Chemicals and petroleum leaders are using an omni-channel approach. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/chemicals-petroleum-customer-engagement)
+[How AI can pump new life into oilfields  How AI can pump new life into oilfields The goal of production optimization for oil and gas is to protect the subsurface potential by reducing constraints in surface facilities. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/oil-gas-production-optimization)
+[Upstream oil and gas in the AI era  Upstream oil and gas in the AI era AI isn't failing in upstream oil and gas. What's failing is scaling its value across the enterprise. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/upstream-oil-and-gas-in-ai-era)
+[Oil and Gas State of the Industry (will open in a new tab) Oil and Gas State of the Industry A client-facing deck about the state of the oil and gas industry and the major technology forces shaping it. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/oil-gas-state-of-industry)
+[Chemicals in the AI era  Chemicals in the AI era AI is reshaping how chemicals companies operate and innovate and is driving measurable improvements in plant efficiency and R&D cycle times. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/chemicals-in-ai-era)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinel
+Open chat history
+AskIBV
+BETA
+AI Explained
+## AskIBV 
+BETA
+AskIBV combines advanced AI with the IBV’s trusted, data‑driven research and executive interviews to deliver exclusive insights and perspectives you won’t find anywhere else.
+Loading AskIBV insights AI
+Focus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility

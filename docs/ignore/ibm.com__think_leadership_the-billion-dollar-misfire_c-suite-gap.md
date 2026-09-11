@@ -1,0 +1,72 @@
+<!-- Source: https://www.ibm.com/think/leadership/the-billion-dollar-misfire/c-suite-gap | Title: The Billion-dollar Misfire | C-Suite Gap | Think Leadership | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+Support
+  * [OverviewResolve product issues with self-service tools](https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl)
+  * [CommunityShare knowledge in a collaborative environment to unlock innovation](https://community.ibm.com/community/user/community?lnk=flathl)
+  * [DeveloperAccess digital resources, code samples and code trials](https://developer.ibm.com/?lnk=flathl)
+  * [DocumentationUnderstand, develop and deploy our products with comprehensive technical resources](https://www.ibm.com/docs/en?lnk=flathl)
+  * [IBM Cloud platformAccess subject matter experts and content to address questions and issues about IBM Cloud](https://www.ibm.com/products/cloud/support?lnk=flathl)
+  * [ImplementationDrive better business outcomes with an experienced team of IBM product experts](https://www.ibm.com/products/expertlabs?lnk=flatitem)
+  * [TrainingDevelop your skills with premiere educational offerings and credentials](https://www.ibm.com/training/?lnk=flathl)
+  * [Technology Lifecycle ServicesElevate your support experience with a holistic approach to data center management across your IT environment](https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl)
+
+
+My IBM  Log in  Subscribe
+#  Why the AI boom keeps breaking in the middle 
+Executives at the largest American companies are pouring billions of dollars into artificial intelligence, yet most still cannot tell their boards what the money is buying.
+### The executive brief
+  * Companies are spending heavily on AI, but not achieving measurable returns because organizational structures, workflows and incentives haven’t kept pace with technology advances.
+  * Executives need to redesign end-to-end workflows, assign clear ownership and accountability, and treat AI as an enterprise-wide strategy, not isolated IT initiatives.
+  * A successful AI strategy depends on coordinated, company-wide execution and moving quickly to establish a leadership position to gain long-term advantage.
+  * Enterprise data should be considered a strategic business asset, not just information.
+
+
+The gap between ambition and accountability has become hard to ignore in enterprise technology. As first-quarter earnings calls end, boards are asking a more pointed question: where are the returns?
+Three independent research efforts from BCG, McKinsey, and MIT have converged on a sobering figure: fewer than 1 in 10 companies capture meaningful AI value at scale. The problem, senior leaders on both the advisory and enterprise sides of the industry say, is not the technology. It is leadership. Siloed ownership across the C-suite, they argue, leaves no single executive accountable for translating investment into returns, and initiatives stall in the space between strategy and execution.
+Research from McKinsey & Company [suggests](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) that while most large companies are investing in AI, only a minority can tie those efforts to measurable gains in earnings, and even then the impact tends to be incremental. A separate survey by Gartner [points](https://www.gartner.com/en/newsroom/press-releases/2025-10-28-gartner-survey-shows-88-percent-of-hr-leaders-say-their-organizations-have-not-realized-significant-business-value-from-ai-tools) to a similar disconnect: organizations are rolling out AI tools across functions, but few have translated that activity into sustained business value, in part because they have not rethought how work itself should change. A smaller group is beginning to separate from the pack. McKinsey finds that companies seeing the strongest returns are far more likely to have redesigned workflows rather than layering AI onto existing processes. Gartner’s research shows that more mature adopters tend to assign clear ownership of AI efforts and track results continuously, rather than treating measurement as a postmortem. “It’s a culture problem driven by incentives misalignment,” Caroline Roche, Senior Partner at IBM who leads IBM Consulting’s hybrid cloud and data practice in the Americas, said in an interview. “Many organizations are delegating AI to IT; AI needs to be done in partnership with IT, but it cannot be delegated.”
+Among the highest-performing adopters Roche works with, she said, companies treat the technology as a companywide effort. The chief executive owns it and the chief financial officer tracks it. The results show up in the numbers as higher productivity, new revenue and lower risk.
+Inside the C-suite, that misalignment takes a more mechanical form. Manish Goyal, Vice President and Senior Partner who leads IBM Consulting’s Enterprise Transformation with AI Practice globally said in an interview that enthusiasm for AI runs near-universal at the top of any large company, but five distinct executive agendas tend to collide beneath it. The chief executive wants growth and reinvention. The chief financial officer wants measurable ROI, or return on investment, and capital discipline. The chief human resources officer wants workforce readiness and cultural stability. The chief information and technology officers want architectural integrity. The chief operating officer wants operational continuity.
+“It’s exposing every pre-existing seam in the C-suite,” Goyal said. “If the CFO and the CHRO aren’t aligned before AI, they are definitely not aligned through the AI transformation.”
+Research from the advisory community points in the same direction. Jeremy Korst, the founder and chief executive of the AI consultancy Mindspan Labs, co-authors the annual [Wharton/GBK Enterprise AI Adoption Study](https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/) with the Wharton professors Stefano Puntoni and Prasanna Tambe. In April, the three of them published an article in the Harvard Business Review that revealed a fissure beneath the cheerful headline: 74 percent of business leaders report perceived positive returns on early AI deployments. In the study, 45 percent of senior executives reported significant positive returns from their AI programs. Among the middle managers actually running those programs, the figure dropped to 27 percent. The researchers labeled the fault line “the messy middle.”
+“The gap isn’t primarily a technology problem. It’s a translation problem,” Korst said in an interview. “Investment is flowing faster than the organizational infrastructure required to absorb it.”
+##  A translation problem, not a technology problem 
+The gap between heavy spending on new tools and modest returns stems from speed, Roche said. Companies roll out generative AI copilots and expect them to fit into existing workflows. But she said that few companies try to rethink the work itself.
+“You cannot just give your employee an AI and expect to get huge productivity—you must fundamentally redesign the workflow,” Roche said. She said companies have to tie their use of AI to clear financial results. If the gains do not show up in the books, the value is not there.
+A similar observation animates Goyal’s work with clients. The era of what he called pilot proliferation is tapering off, he said, as firms recognize that scattered experiments do not add up to enterprise-scale value. What too many still lack, he added, is accountability that actually bites.
+“What we need are clear P&L owners of these initiatives,” Goyal said. “A named business owner with a number that they will be measured on.” Anything less, he said, produces what he calls random acts of proof, a string of short-term wins that never aggregate into durable returns.
+Research from the Wharton School points in the same direction. Leaders, Korst said, need to understand what is actually happening on the ground, roll out AI step by step, and watch readiness as closely as usage. They need to look at skills, confidence, how the tools fit into daily work and whether managers are aligned.
+“Handing managers an AI mandate without first clearing bandwidth is asking them to build the plane while flying it,” Korst said.
+##  The culture problem underneath the technology 
+Fragmentation shows up in a subtler form, too, Roche said, when AI initiatives demand coordination across functions that rarely share budgets.
+“A workflow is really kind of an end-to-end flow that crosses departments, whereas the process kind of lives within one,” Roche said. Source-to-pay, the procurement and payment of suppliers, is one such workflow. Record-to-report, the process of closing the books, is another.
+Those workflows tend to cut across the functions of the C-Suite, from the CFO, COO, CHRO—and other key functions from sales to procurement to legal, Roche said. The incentive structure inside most large companies, she argued, rewards each executive for their own department’s efficiency, not for the cost of the handoffs between them.
+IBM’s own experience offers a template for closing those gaps, Goyal said. The company’s internal reinvention effort, which executives refer to as Client Zero, began with an inventory of four hundred workflows across the business. Teams picked the ones that made operational sense, redesigned them end to end, stripped out accumulated work that no longer served a purpose and only then applied AI.
+Data is where many of those efforts ultimately stand or fall, Roche said, because artificial intelligence requires far more than the tidy reporting dashboards most companies have spent a decade building. It requires integrated, real-time information organized around a business context layer that engineers increasingly call ontology, which explains how the pieces of an enterprise fit together. A bank might hold three separate records for the same person, she said, including a childhood bank account under one name, a credit card from age eighteen under a slight variant, and a wealth-management relationship that the same customer opened decades later under a married name.
+“Do you understand the customer record in the context of multiple data elements, how customers change?” Roche said. “If you look at things like risk profile or fraud detection, are you tying that back to the same customer?”
+Beyond clean data lies a further complication, Roche added: the sheer number of AI systems a large company will end up running. “We are going to live in a multi hybrid cloud world, and companies are going to have multiple cloud partners,” Roche said. “We will also be living in a multi AI model world where you’re going to have AI throughout all of your business applications.”
+Boards have begun to press management teams harder on these questions, a development all three executives described as healthy. The pressure has sharpened this spring, Goyal said. IBM’s Institute for Business Value, in its [Enterprise 2030 study](https://www.ibm.com/thought-leadership/institute-business-value/report/enterprise-2030), found that speed had entered the top three concerns of C-suite executives, a position it did not hold last year.
+“Everybody has the same exact technology,” Goyal said. “There is no proprietary technology that I have that you don’t have access to.” The difference, he added, comes down to execution. “Ability to harness this at speed is what is going to differentiate.”
+That speed, Roche argued, arrives only when a company has agreed on what AI is actually for.
+“The organizations that view data as an IT problem are really the losers in the AI race,” Roche said. “The organizations that view data as a critical business asset are the ones that will see the most value from their AI.” 
+[ Sascha Brodsky ](https://www.ibm.com/think/author/sascha-brodsky)
+Staff Writer
+IBM
+Link copied 
+Meet our experts 
+##  Meet our experts 
+Caroline Roche 
+Senior partner and hybrid cloud and data leader, Americas, at IBM Consulting.
+[ LinkedIn profile  ](https://www.linkedin.com/in/caroline-roche/) Manish Goyal 
+Senior Partner - Enterprise AI Strategy & Governance, Global Offering Leader, IBM Consulting.
+[ LinkedIn profile  ](https://www.linkedin.com/in/goyalm/)
+Take the next step
+Strategy only matters if it survives contact with reality. Don’t miss the next round of hard‑earned insights on accountability, constraints and consequences in the ever-evolving AI era.
+  1. [ Subscribe to our newsletter ](https://www.ibm.com/forms/news-mkt-52954)
+  2. [ Explore Think Leadership ](https://www.ibm.com/think/leadership)
+
+
+Products Consulting services Industries Case studies Financing Research LinkedIn X Instagram YouTube Podcasts Business partners Documentation Events Newsletters Support TechXchange community Overview Careers Investor relations Leadership Newsroom Security, privacy and trust United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/think/leadership/the-billion-dollar-misfire/c-suite-gap#truste_domain_list). 
+Accept All More options

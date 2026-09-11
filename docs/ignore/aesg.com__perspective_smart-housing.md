@@ -1,0 +1,63 @@
+<!-- Source: https://aesg.com/perspective/smart-housing/ | Title: Smart Housing: Meeting Millennial Expectations | AESG | Seed: https://aesg.com/sg/ (AESG) -->
+
+# Smart Housing Millennial Expectations
+**By:** Sophia Kee
+**Date Published:** March 19, 2019
+**Share this article**
+[**Download this article**](https://aesg.com/wp-content/uploads/2020/07/Smart-Housing-Sophia-Kee.pdf)
+## Latest Articles
+  * [IFRS S1 & S2: What the New Global Sustainability Standards Mean for the GCC](https://aesg.com/perspective/ifrs-s1-s2-what-the-new-global-sustainability-standards-mean-for-the-gcc/) July 21, 2026
+  * [UAE Climate Law: From Net Zero Ambition to Climate Accountability](https://aesg.com/perspective/uae-climate-law-from-net-zero-ambition-to-climate-accountability/) June 30, 2026
+  * [The Silicon Shortcut: Why AI is the Instrument of Choice for the Ignorant, Indolent, and Avaricious](https://aesg.com/perspective/the-silicon-shortcut/) June 17, 2026
+
+
+## **What are the Benefits of Smart Homes for Millennial End-users?**
+Smart homes and associated technology available on the market are transforming the way we live and our relationships with our homes. They provide a number of benefits for those who live in ‘Smart Homes’ including added convenience, security, user-controlled flexibility for thermal comfort and lighting levels, and the way we interact with our appliances.Up to 70% of the global workforce will consist of ‘Millennials’ by 2030 (a millennial is defined as a person born between 1980–1996), which means most will be working and leading busy lives driven by convenience. Smart homes allow for this flexibility, as we spend more time out of the home, and demand higher levels of comfort and control over our living spaces and increasing reliability on technologies.
+For example, user-controlled apps are readily available on the market which allow you to remotely access security features such as locks, cameras and home surveillance. Effectively you can monitor your home from intruders, watch family members (including elderly and young) and ensure their safety, and even communicate with the postman when they make a delivery when you’re not home.
+Smart and adaptive home Thermostats are also now an affordable method to control your room temperatures and indoor thermal conditions. Where a traditional system would rely on manual input, and temperature set-points taken from an unoccupied space such as a hallway; a smart thermostat can be controlled remotely and include motion /temperature sensors for individual rooms. Intelligent schedule learning follows your weekly and daily user patterns and ensures your home is cooled or heated dependent on when you’re home, or when certain rooms are occupied. Location tracking on smart phones allows the home to be at optimal temperature by the time you reach there, and switches off when you leave. The energy savings for this type of system means the payback for the initial technology purchase is extremely cost-effective, especially when the tenant is paying the bills.
+Smart lighting is a lighting technology designed for energy efficiency. This may include high efficiency fixtures and automated controls such as voice control, motion and daylight sensors that make adjustments based on the conditions within the home. User-controlled apps allow you to control your bulbs when you’re away from your house and knows if you’re home or away, so it knows if you’ve left the lights on by mistake (or whether to turn them on as you arrive home). Once home, smart controls such as motion detectors, dimmers, timers and voice controls mean you can adjust lighting levels without having to touch a switch.Lighting render levels can be programmed to follow circadian rhythms; promoting healthy sleep and waking patterns and improved health benefits associated.
+## **What are the Benefits of Smart Homes for Facilities Managements and the Utilities Network?**
+‘Smart’ water use in Dubai is an important topic for planner sand the utilities network, as we require a high volume of irrigation water for our landscaping and home use, and only have 10cm of rainfall on average every year. This makes us one of the highest consumers of water per capita in the world. Typically, the main water source in Dubai is desalinated water, which is an extremely high energy intensive process. Smart cities and infrastructure allow for a more resilient water network as we can benefit from sensors for testing water quality, pressure or temperature. This can considerably streamline supply and predict demand, as well as identify leaks / issues within the water network insuring all homes have access to clean and sanitary water whilst minimising wastage.With regards to energy, ‘Smart’ technologies and appliances in the home allow us to schedule operations based on realtime demands of the city or Neighbourhood, for example; washing machines that auto-turn on when energy demand is low.
+This helps to stabilise the demand across a city’s network and also benefits the home owner by offering lower tariffs during off-peak timings, therefore saving money on electricity bills.We are even getting ‘Smart’ with our food! There are fridges on the market which let you know when you’ve ran out of milk. Some even have cameras which you can view when you’re stood in a supermarket to check what you need to buy. In urban environments with limited agricultural space, new technologies such as vertical farming/ community farms and urban gardens are making great traction and encouraging shared economies. The UAE is really driving the use of hydroponic food growing methods, which requires substantially less water in comparison to traditional agricultural methods. Adaptive and smart technologies can help us to adjust to the climate we live in to help manage our own demands and rely less on imported resources.The sharing of our real-time building data for energy/ water use and waste generation monitoring has many benefits within the city/ neighbourhood grid to establish patterns of supply and demand, and identifying failures and maintenance issues as and when required. It also allows homeowners to benchmark their performance against others, which really encourages better energy and water efficiency!
+## **Do Smart Building Technologies Influence the Property Industry and Workplace?**
+In commercial properties, the comfort, wellbeing and productivity of people are largely dependent on the Heating,Ventilation and Air-Conditioning (HVAC) systems which control temperature, humidity and air quality. A comfortable house too should be a basic need, but can be over looked because these systems are invisible. HVAC is also the largest component of building energy consumption, they can makeup to 70% of the energy demand and the majority of carbon emissions in the built environment. If this system is not working the way it should then it makes people unhappy and unproductive; increasing absenteeism in workplaces, plus it damages the environment. Occupants become increasingly more satisfied with their working (and living conditions)if they have a level of control over the spaces they use, therefore smart technologies can have great benefits to the property industry and workplace.A building management system (BMS) is a computer based control system installed in buildings that controls and monitors the mechanical and electrical equipment such as ventilation, lighting, power systems, fire systems, and security systems.
+This can be responsible for temperature, humidity and air quality as well as lighting, which are all key factors in workplace health and wellbeing. In addition to the energy costs, the maintenance of HVAC is a significant cost in the operational budget of a property.This summer’s heat wave has shown that very high temperatures could become more common around the world. In Europe, this heat wave has followed very cold spells over the winter. Not all properties have the capacity to cope with these extremes of temperature. By collecting data from the HVAC system and BMS network it is possible to know whether a property can cope or whether an upgrade to theHVAC equipment and/or building fabric is required to adapt to climate change.
+## **How Does Building Smart Affect the Rental Market? Can Millennials Afford the Smart Technologies they Crave?**
+Tenants and employees are more likely to choose to work or live somewhere with building integrated smart technology, especially the millennial generation who find technology and ‘gadgetry’ very appealing! The costs associated with the capital expenditure by upgrading systems are often bore by the building owner and therefore may drive an increase in rental premiums in smart buildings. However, the set technologies decrease the operational costs for tenants who are ultimately footing the bill for the energy and water bills.
+I believe most tenants in homes would be happy to pay a higher monthly rental premium if their comfort and well being were significantly improved when coupled with saving money on monthly utility bills.Within the workplace a considerable amount of money can be saved by a business with a ‘healthy’ office; where such benefits exist in reduced absenteeism, increased employee productivity and employee retention. However, when applying smart buildings to business applications I don’t see the market adapting as quickly in comparison to the residential sector as a lot of the benefits are quite subjective and prioritised less by business owners.Smart homes and technology hold great potential future growth, and it’s exciting to see how the industry progresses over the coming years.
+[ Linkedin-in ](https://www.linkedin.com/company/aesg/) [ X-twitter ](https://twitter.com/AESG_Limited) [ Youtube ](https://www.youtube.com/channel/UCMiM_KnIUpnInxAd8CNm2EQ)
+### Certified
+ISO 27001:2022ISO 9001:2015ISO 14001:2015ISO 45001:2018
+[Whistleblower Policy](https://aesg.com/whistleblower-policy/)
+### Our Offices
+601-608, The offices at Ibn Battuta GateJebel Ali 1-VillagePO Box 2556Dubai, United Arab EmiratesT / [+971 (0) 4 432 6242](tel:+97144326242)
+305 Mermaid House2 Puddle DockLondon, EC4V 3DSUnited KingdomT / [+44 (0) 208 037 8762](tel:+442080378762)
+### [Abu Dhabi](https://aesg.com/uae/)
+Haibu Space, Abu Dhabi Mall1st floor, Office 37Tourist Club AreaAbu Dhabi, United Arab EmiratesT / [+971 (0) 2 201 2527](tel:+97122012527)
+9391 Wadi Al Thummamah2444 Al Olaya DistrictPO Box 12214Riyadh, Kingdom of Saudi ArabiaT / [+966 (0) 112 278 288](tel:+966112278288)
+### [Singapore ](https://aesg.com/sg/)
+111 Somerset Road#08-10A, 111 SomersetSingapore 238164
+### [South Africa ](https://aesg.com/za/)
+11th Floor, Office 11012 Long StreetCape Town 8000Western Cape, South AfricaT / [+27 (0) 21 137 6444](tel:+27211376444)
+8 Parramatta Square49th Floor, Office 117Parramatta, SydneyNew South Wales 2150AustraliaT / [+61 (0) 2 8042 6817](tel:+61280426817)
+### [Melbourne](https://aesg.com/au/)
+32/F, 367 Collins StreetMelbourne, VIC 3000AustraliaT / [+61 (0) 3 8612 7200](tel:+61386127200)
+Floor 3Office No. 8, Signature Square BuildingMoustafa Kamel AxisNew Cairo 1EgyptT / [+20 (0) 2 2344 1268](tel:+20223441268)
+[ Linkedin-in ](https://www.linkedin.com/company/aesg/) [ X-twitter ](https://twitter.com/AESG_Limited) [ Youtube ](https://www.youtube.com/channel/UCMiM_KnIUpnInxAd8CNm2EQ)
+### Certified
+ISO 27001:2022ISO 9001:2015ISO 14001:2015ISO 45001:2018
+### Our Offices
+601-608, The offices at Ibn Battuta GateJebel Ali 1-VillagePO Box 2556Dubai, United Arab EmiratesT / [+971 (0) 4 432 6242](tel:+97144326242)
+305 Mermaid House2 Puddle DockLondon, EC4V 3DSUnited KingdomT / [+44 (0) 208 037 8762](tel:+442080378762)
+### [Abu Dhabi ](https://aesg.com/uae/)
+Haibu Space, Abu Dhabi Mall1st floor, Office 37Tourist Club AreaAbu Dhabi, United Arab EmiratesT / [+971 (0) 2 201 2527](tel:+97122012527)
+9391 Wadi Al Thummamah2444 Al Olaya DistrictPO Box 12214Riyadh, Kingdom of Saudi ArabiaT / [+966 (0) 112 278 288](tel:+966112278288)
+### [Singapore ](https://aesg.com/sg/)
+111 Somerset Road#08-10A, 111 SomersetSingapore 238164
+### [South Africa](https://aesg.com/za/)
+11th Floor, Office 11012 Long StreetCape Town 8000Western Cape, South AfricaT / [+27 (0) 21 137 6444](tel:+27211376444)
+8 Parramatta Square49th Floor, Office 117Parramatta, SydneyNew South Wales 2150AustraliaT / [+61 (0) 2 8042 6817](tel:+61280426817)
+### [Melbourne](https://aesg.com/au/)
+32/F, 367 Collins StreetMelbourne, VIC 3000AustraliaT / [+61 (0) 3 8612 7200](tel:+61386127200)
+Floor 3Office No. 8, Signature Square BuildingMoustafa Kamel AxisNew Cairo 1EgyptT / [+20 (0) 2 2344 1268](tel:+20223441268)
+Copyright 2026 | | All Rights Reserved

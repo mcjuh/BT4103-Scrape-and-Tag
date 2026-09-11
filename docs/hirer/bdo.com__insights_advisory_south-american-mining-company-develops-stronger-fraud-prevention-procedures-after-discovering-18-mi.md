@@ -1,0 +1,18 @@
+<!-- Source: https://www.bdo.com/insights/advisory/south-american-mining-company-develops-stronger-fraud-prevention-procedures-after-discovering-$18-mi | Title: South American Mining Company Develops Stronger Fraud Prevention Procedures After Discovering $18 Million Vendor Fraud | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# South American Mining Company Develops Stronger Fraud Prevention Procedures After Discovering $18 Million Vendor Fraud
+## Background and Challenges 
+A mining company in South America discovered vendor fraud schemes perpetrated by employees, resulting in a significant financial loss for the company. 
+## Approach 
+BDO assisted in an internal investigation for the client to determine the existence of any additional schemes, as well as determine if there were any previously unidentified employees or vendors involved. BDO applied a multi-faceted investigative approach which included imaging over 90 computers, performing tailored data analytics, reviewing public records and employee email correspondence, and conducting interviews with key personnel.
+## Client Impact 
+As a result of these investigative efforts, BDO estimated a loss of approximately $18 million to vendor fraud. The company terminated nearly 40 employees and terminated relationships with approximately 60 vendors. BDO also helped the company significantly strengthen its their internal controls, processes, and procedures based on knowledge gained during the engagement.
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+## SHARE
+  * 
+
+## Related Resources
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026In this episode, our hosts talk with Tamara Lemmon of Wilson Sonsini to explore why proactive planning is becoming one of the most important competitive advantages in legal and compliance teams. Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=eiuus74pqn)
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026This episode offers practical insights for legal operations leaders, litigation support professionals, law firm leaders, in-house counsel, and anyone seeking a grounded perspective on where generative AI is creating real value in legal services today.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=wlkbngi3x9)
+[ Article2026 U.S. AML/CFT Regulatory Developments Tracker August 27, 2026 Article2026 U.S. AML/CFT Regulatory Developments Tracker August 27, 2026A guide and readiness checklist for BSA-covered institutions, investment advisers, permitted payment stablecoin issuers, and certain real estate closing and settlement professionals. Read Morechevron_right ](https://www.bdo.com/insights/advisory/2026-u-s-aml-cft-regulatory-developments-tracker)
+[ ArticleShared Taxonomy: Resilience Data as a Cross-Functional Unifier August 26, 2026 ArticleShared Taxonomy: Resilience Data as a Cross-Functional Unifier August 26, 2026Explore how resilience exercises help organizations identify dependencies, strengthen coordination, and prepare for disruption. Read Morechevron_right ](https://www.bdo.com/insights/advisory/shared-taxonomy-resilience-data-as-a-cross-functional-unifier)

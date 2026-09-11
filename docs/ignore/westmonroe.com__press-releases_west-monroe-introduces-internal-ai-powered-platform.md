@@ -1,0 +1,24 @@
+<!-- Source: https://www.westmonroe.com/press-releases/west-monroe-introduces-internal-ai-powered-platform | Title: Network and Fleet Optimization Boosts EBITDA | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+# West Monroe Introduces Nigel, an Internal AI-Powered Platform
+Nigel enables firm’s 2,000 employees to apply AI with specific prompts to drive efficiency and value
+CHICAGO, November 1, 2023 – West Monroe, a leading digital services firm, today announced the launch of its innovative internal chat platform, Nigel. Powered by cutting-edge Generative AI, Nigel empowers West Monroe’s 2,000 employees with valuable insights to enhance productivity and efficiency without compromising confidential data and information. Named after West Monroe’s mission to build the Next Generation of Leaders, Nigel represents a significant leap forward in West Monroe's ongoing investment and exploration in AI. 
+Nigel is powered by Microsoft’s Azure OpenAI Service, offering secure and compliant ChatGPT-like functionality. With a closed API, Nigel ensures the confidentiality and privacy of sensitive data. Nigel's capabilities are diverse, ranging from drafting emails to analyzing complex data sets to answering technical questions and writing code. The most exciting feature at launch is its Prompt Library which houses pre-populated prompts to take the guesswork out of good prompting specific to tasks performed by West Monroe employees—enabling faster workflows across the firm’s entire employee population. The tool also has crowdsourced functionality, encouraging anyone to submit prompts for addition to the library. More functionality and features will be added over time, empowering teams to work faster on higher-valuer activities for clients. 
+“AI is an undeniable part of the future, and that is why we worked tirelessly over the past few months to make it highly accessible for our entire employee population while we are all advising hundreds of clients who are also trying to navigate this space,” said Cory Chaplin, managing partner and leader of West Monroe’s AI Lab.
+We believe integrating AI into existing workflows is a winning strategy, and what better way to help our clients think this way than to have all West Monroe employees ‘walking the walk.'
+The technology holds value for every facet of the organization, from technologists to product developers to corporate employees. Nigel is accessible to everyone regardless of role or level —to improve delivery and enhance efficiency across the board at West Monroe. The development of Nigel is an integral part of the firm’s broader initiative of building a 100% generative AI-literate workforce. 
+“AI is a powerful enabling technology, and at West Monroe, we're committed to ensuring that every member of our team becomes proficient in leveraging this game-changing technology,” said Tanya Moore, West Monroe’s Chief People Officer.
+Upskilling our entire workforce to leverage AI will even further strengthen our client outcomes and employee experience. 
+Nigel is not just a groundbreaking tool for West Monroe, but represents a solution that other companies in the market are seeking to adopt so they too can securely apply confidential information. Learn more about West Monroe’s AI capabilities and how the firm helps its clients realize tangible value from generative AI. 
+This launch reaffirms West Monroe's pragmatic approach to driving real results with AI. In September, West Monroe launched This is AI, a video podcast miniseries where the firm’s AI experts break down real-world AI examples and use cases to revolutionize businesses. Episodes include: Unpacking AI: The Rise & Reach of Generative AI Models; AI Dilemma: What Comes First, the Technology or the Use Case?; and The Art of Crafting Prompts – From Simple Questions to Complex Challenges. 
+**About West Monroe**
+West Monroe is a digital services firm that was born in technology but built for business—partnering with companies in transformative industries to deliver quantifiable financial value. We believe that digital is a mindset—not a project, a team, or a destination—and it’s something companies become, not something they do. That’s why we work in diverse, multidisciplinary teams that blend management consulting, digital design, and product engineering to move companies from traditional ways of working to digital operating models—and create experiences that transcend the digital and physical worlds. Connected by the 13 founding values that drive our culture, our 2,000 employees work collaboratively across the firm with the belief that our clients’ success is our success. Visit westmonroe.com to learn more.
+**Media Inquiries**
+Christina Galoozis
+Senior Manager, External Communications 
+cgaloozis@westmonroe.com
+847-302-1762 
+Shira Cohen
+Senior PR Specialist
+scohen@westmonroe.com
+443-841-6879

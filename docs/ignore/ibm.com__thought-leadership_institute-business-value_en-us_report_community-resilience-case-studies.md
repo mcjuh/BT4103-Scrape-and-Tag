@@ -1,0 +1,59 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/community-resilience-case-studies | Title: Building community-based resilience: Emergency preparedness and response case studies | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# Building community-based resilience: Emergency preparedness and response case studies
+Communities can be more resilient after shock events when more authority and resources are available at the point of impact.
+[Download the insights (will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/1443d5cb8340223c)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+Disruptive, shock-level events are increasing in frequency, magnitude, and complexity. In recent years, governments worldwide have faced overlapping floods, wildfires, severe storms, infrastructure failures, and humanitarian emergencies. These events have arrived with little warning and have often cascaded across systems and borders, revealing the limits of traditional and centralized response models.
+Governments need to develop new approaches to emergency preparedness and response to build community-based resilience—placing decision-making authority, critical resources, and actionable information as close as possible to the point of impact. 
+> The lessons of recent years make one reality clear: the ability to anticipate and prepare for disruptions before they occur is just as critical as the capacity to respond and recover afterward.
+### How do the case studies in this report highlight new ways to position decision-making, resources, and information closer to the front lines? 
+  * **Community Brigades in fire-prone California.** These grassroots organizations demonstrate how training and equipping neighborhood-based teams can extend official firefighting capacity and strengthen public trust in emergency operations.
+  * **A Resilience Action Plan for hurricane-vulnerable Florida.** Online data viewers from the Florida Department of Transportation provide scenario planning tools and build transportation resilience. Standardized data help local agencies anticipate and mitigate infrastructure risks before they escalate.
+  * **A single platform to help small businesses in Texas recover from disruption.** Texas’s BeforeDuringAfter.com consolidates more than 10,000 local resources into a single platform to give small businesses and local governments clear, actionable guidance in the face of disruptions, such as floods and other emergencies.
+  * **A new first responder communication network across Great Britain.** To take advantage of advanced mobile technology and benefit from lower costs, the UK Home Office is replacing its current system with the Emergency Services Network (ESN). ESN integrates secure, resilient communications across police, fire, ambulance, and other responders, helping to ensure coordination when it matters most.
+
+
+These examples demonstrate that resilience is not a passive trait but a deliberate strategy. By proactively embedding capability at multiple levels, investing in accessible information systems, and formalizing cross-sector partnerships, governments can have a greater likelihood of effectively managing uncertainty and addressing future events.
+> Safeguarding lives, sustaining essential services, and accelerating recovery rests on placing decision-making authority, critical resources, and actionable information at the point of impact.
+### What are practical steps that government leaders can take now to strengthen readiness, speed recovery, and save lives? 
+  * **Distribute operational impact at the point of impact.** Design systems where the people on the ground—local agencies, trained community groups, and infrastructure operators—are equipped and authorized to act decisively without delay.
+  * **Make actionable information universally accessible.** Commit to building systems where every responder—whether a public agency, private partner, or community volunteer—can access the same real-time, location-specific intelligence. This requires interoperable data platforms, open dashboards, and eliminating proprietary bottlenecks that slow the flow of vital information.
+  * **Build integrated networks that function under stress.** Cultivate partnerships across government, industry, and community sectors that can adapt and scale when the unexpected happens. These networks must be “always on” with established trust, shared objectives, and the ability to function even if traditional command structures are disrupted.
+  * **Institutionalize forward-looking, data-driven planning.** Integrate this approach into normal operations to help ensure that every major decision—whether on capital projects, land use, or public services—strengthens the system against future shocks, avoids locking in current vulnerabilities, and considers the lifecycle costs of major investments.
+
+
+Download the report to learn how government leaders can build resilience at the community level, coordinate response more effectively, and reduce the human and economic toll of high-impact events.
+[Download the insights(will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/1443d5cb8340223c)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[Preparing Governments for Future Shocks (will open in a new window) Preparing Governments for Future Shocks Transforming government readiness and resilience for an increasingly uncertain world  ](https://www.ibm.com/consulting/government)
+[IBM Garage (will open in a new window) IBM Garage Let's create an approach that turns ideas into outcomes  ](https://www.ibm.com/garage)
+[Driving digitization by transforming integration solutions (will open in a new window) Driving digitization by transforming integration solutions One of the UK’s largest government departments uses integration modernization to deliver improved digitized services to millions of customers.  ](https://www.ibm.com/case-studies/department-for-work-and-pensions-ibm-consulting)
+How can IBM help you?
+[Preparing Governments for Future Shocks (will open in a new window) Preparing Governments for Future Shocks Transforming government readiness and resilience for an increasingly uncertain world  ](https://www.ibm.com/consulting/government)
+[IBM Garage (will open in a new window) IBM Garage Let's create an approach that turns ideas into outcomes  ](https://www.ibm.com/garage)
+[Driving digitization by transforming integration solutions (will open in a new window) Driving digitization by transforming integration solutions One of the UK’s largest government departments uses integration modernization to deliver improved digitized services to millions of customers.  ](https://www.ibm.com/case-studies/department-for-work-and-pensions-ibm-consulting)
+You might also like
+[Drought, deluge, and data  Drought, deluge, and data Read case studies and insights from emergency responders on how governments team with communities to prepare for climate disruptions. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/climate-resilience-case-studies)
+[Building future ready governments  Building future ready governments While responding to the global COVID-19 pandemic, some governments were also able to rapidly transform their operations and build capabilities to get ready for other future shock events. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/future-ready-governments)
+[Resilience in action  Resilience in action Case studies from Europe and the US show how collaboration and innovation enable effective government response to crises. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/crisis-resilience-case-studies)
+[Defense and Intelligence in the AI era  Defense and Intelligence in the AI era What defense and intelligence leaders across NATO and Five Eyes say about AI, decision-making, and the systems shaping future readiness. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/ai-defense-operations)
+[Government in the AI era  Translations available Government in the AI era As governments increase AI spending, they are increasingly willing to accept the risks of uncertainty to reap AI’s rewards. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/government-in-ai-era)
+[Government State of the Industry (will open in a new tab) Government State of the Industry Explore the market and technology trends and strategic imperatives shaping decision-making in the government industry. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/government-state-of-industry)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinel
+Open chat history
+AskIBV
+BETA
+AI Explained
+## AskIBV 
+BETA
+AskIBV combines advanced AI with the IBV’s trusted, data‑driven research and executive interviews to deliver exclusive insights and perspectives you won’t find anywhere else.
+Loading AskIBV insights AI
+Focus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/community-resilience-case-studies#truste_domain_list). 
+Accept All More options

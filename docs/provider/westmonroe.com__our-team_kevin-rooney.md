@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/kevin-rooney | Title: Kevin Rooney, Chief Information Officer | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+As Chief Information Officer, Kevin leads West Monroe’s IT and digital transformation efforts, driving enhanced efficiency and collaboration across the firm.[ Linkedin](https://www.linkedin.com/in/kevindrooney/)
+Contact
+Since becoming CIO in 2022, Kevin has spearheaded initiatives like West Monrobot, a conversational AI chatbot that streamlines internal tech support. His focus on automation, data platforms, and upskilling has delivered significant cost savings and operational agility, enabling faster results and impactful business outcomes.
+Kevin joined West Monroe in 2019 as Chief Administrative Officer, creating the Shared Services function. He has held numerous C-level roles, and joined West Monroe from Gartner where he served as an Executive Partner. Kevin earned his degree in Management Information Systems from the University of Notre Dame. He was named CIO+ of the Year by SIM Chicago and led the team recognized as AITP-Chicago’s 2024 Most Effective Technology team.
+## _Kevin’s All-In Mindset_
+Kevin embraces an “Yes, and…” mindset, blending ideas to innovate and drive change. Outside of work, he’s a competitive volleyball player and has coached high school volleyball. He also serves on the boards of the Chicago Poetry Center and Genesys Works Chicago.

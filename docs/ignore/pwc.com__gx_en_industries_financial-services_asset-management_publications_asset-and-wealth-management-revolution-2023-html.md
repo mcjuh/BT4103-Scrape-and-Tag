@@ -1,0 +1,133 @@
+<!-- Source: https://www.pwc.com/gx/en/industries/financial-services/asset-management/publications/asset-and-wealth-management-revolution-2023.html | Title: Balancing relevance and returns in a profitability paradox | PwC | Seed: https://www.pwc.com/sg/en/services/consulting.html (PWC) -->
+
+# Turn insight into action
+We help you solve the problems that matter most so you can act faster and move further. 
+[ What would you like to explore?  ](https://www.pwc.com/gx/en/1/issues/reinvention/asset-wealth-management-revolution.html)
+20 min read 1 Author
+Chapter: The takeaways
+Chapter: The takeaways
+Asset and wealth management revolution 2025
+# Balancing relevance and returns in a profitability paradox 
+Article  24 November 2025
+## Revenues are up, yet profitability lags. By 2030, firms that move fastest to reinvent themselves will have the edge. 
+##  The takeaways 
+  * Asset and wealth management revenues are rising, but margins are falling as firms face persistent cost pressure and fee competition—leaving opportunities for reinvention.
+  * Growth alone is no longer enough; sharper choices on clients, channels, and business models can help firms stay relevant and improve returns.
+  * Key actions include using AI and automation effectively, scaling personalisation, and deciding where to integrate and where to specialise.
+
+
+##  Profit pressures 
+The asset and wealth management (AWM) industry faces a stark paradox. Global assets under management (AUM) are expected to rise from US$139 trillion today to $200 trillion by 2030, with as much as $230 billion of new revenue available to capture in the next five years. By any conventional measure, this should be a period of prosperity for asset and wealth managers that have the right strategy and capabilities. But scale and asset growth no longer automatically translate into profitability. Margins are being eroded. Profit as a share of AUM has already fallen roughly 19% since 2018, and it’s set to decrease by another 9% by 2030.
+PwC’s 2025 AWM Revolution research draws on market projections; surveys of managers, investors, and distributors; and the analysis of financial data from a selected group of global asset managers. It shows that structural, rather than cyclical, profitability pressure is pervasive. 89% of asset managers report profitability pressure over the past five years; almost half describe it as high, and more than one in five characterise it as very high. To aggravate matters, confidence in the ability to counter these forces is strikingly low. In an industry accustomed to having growth smooth out inefficiencies, only one in four managers say they’re very confident in their fund’s profitability strategy.
+### Can pressure drive progress?
+Costs remain the most visible driver of the squeeze. The industry’s cost-to-income ratio is stuck at around 68%, which is higher than many banks and means expenses consume more than two-thirds of every dollar earned. Traditional cost-cutting has barely made a dent. Diversifying into new asset classes and expanding into new markets add cost and complexity. [**Cost-efficient models built around automation and AI**](https://www.pwc.com/gx/en/issues/c-suite-insights/the-leadership-agenda/ai-and-wealth-management-a-new-era.html) remain in the early stages of development and adoption. In turn, fee competition is relentless. Intensifying competition is placing even the standout margins delivered by alternative investment managers under pressure.
+At the same time, value pools are shifting. Passive AUM is projected to rise at a compound annual growth rate (CAGR) of roughly 10% to reach $70 trillion by 2030. Private markets, digital assets, and other alternative investments are opening up to retail investors. The total global pool of investable wealth is set to climb beyond $481 trillion by the end of the decade. North America will remain the dominant market for global AUM, but the Asia-Pacific region is projected to grow fastest, at a CAGR of 6.8%. New wealth creation in India, intergenerational transfers across the Asia–Pacific region, and Japan’s efforts to channel household savings into investments are fuelling structural demand. Latin America (with a projected CAGR of 6.6%), the Middle East and Africa (6.3% CAGR), and Europe (5.6% CAGR) are also expanding their AUM.
+PwC’s [**Value in motion**](https://www.pwc.com/gx/en/issues/value-in-motion.html) research shows that capturing future opportunities requires more than chasing asset flows. As revenues swell but profitability stagnates, the winners in the next decade won’t be those who gather the most assets. Instead, they’ll be the players who rewire their business model fastest, translate disruptive technology into opportunity, and secure their relevance in a market where investors’ profiles and demands are shifting.
+The spearhead of reinvention is the rapid advance of AI, including generative and agentic models, together with tokenisation. As these technologies mature, the boundaries between the AWM sector, financial technology (fintech) companies, and broader financial services are fading. This development is creating more integrated solutions for high-net-worth individuals (HNWI) and the mass-affluent segment of clients with notable investable assets. Levels of personalisation and portfolio choice that were once limited to a select few can now reach mass markets. From investment analysis to regulatory reporting, processes that once took weeks can now be completed in seconds.
+In this report, we look at how the market will transform in the next five years and explore the strategic questions leaders will need to address today to reassert firms’ relevance and boost profitability tomorrow.
+##  New order 
+## What will the asset and wealth management industry look like in 2030?
+Fast-forward five years, and the pressures visible today have evolved into a new competitive order. Firms contend with rising investor sophistication, intelligent automation, persistent cost pressure, tokenised growth in private markets, blurred competitive boundaries, and a premium on talent.
+### Investors with new expectations
+The fastest-growing client segments we project mirror the pattern seen in previous research. Sovereign wealth funds (SWFs), growing at a base CAGR of 6%, seek co-investment opportunities and alignment with national priorities such as decarbonisation, the energy transition, and economic diversification. HNWI investors, expanding at a CAGR of 6.5%, expect highly tailored portfolio management, estate and succession planning, and access to private markets. Mass-affluentclients rising by a CAGR of 5.7%, are driving growth through demand for broader diversification and low-cost, digital-first engagement.
+By 2030, high expectations for personalisation, immediacy, and access are the norm, rather than a differentiator. The experience of Margaret, 68, illustrates this shift. On her retirement dashboard, she can see her monthly pension income, equity dividends, and steady cash flows from a private credit fund. A simple retirement income meter shows whether she’s on track to meet her living expenses, fund travel, and support her grandchildren. She still values the trust built with her long-time advisor but appreciates the clarity and control offered by the digital interface.
+Sustaining relevance also means reaching clients where they are, across digital journeys, lifestyle channels, and social or gaming platforms. Amira, 27, exemplifies this future. Scrolling through her phone between meetings in Dubai, she sees a notification from her social finance app that matches her interest in sustainability documentaries with a new tokenised green infrastructure fund. She watches a short video explainer, commits $200, and shares her investment with her online community within seconds.
+### Intelligence as the new profit engine
+In a market where margins continue to narrow, intelligence is a prime source of differentiation and profitability. By 2030, client interactions are shaped by intelligent, adaptive systems. Collaboration between humans and machines allows investors to optimise outcomes. Digital portfolio partners autonomously construct portfolios, monitor risk thresholds, and interact with clients in natural language.
+In 2024, our research showed that rapidly evolving technologies, such as AI, distributed ledger technology, and blockchain, were fuelling both growth and efficiency across the industry; nearly 80% of asset managers said disruptive technology was driving revenue. In 2025, roughly two-thirds (69%) of institutional investors signalled their likelihood to allocate capital to asset managers that were developing tech capabilities to offer enhanced products and services.
+Asset managers see AI integration and automation as the most important actions they’re taking today to transform and future-proof their business models for 2030. This is reflected in the rapid growth of AI investment, which is set to increase several-fold. Yet, as many firms today still focus on isolated use cases, such as automating know-your-customer tools, the real opportunity lies in developing integrated AI strategies that transform portfolio performance, client engagement, and operations.
+The asset and wealth managers out in front will be able to move beyond individual solutions to embed AI and other disruptive technologies into the core of their business models. This will help them deliver intelligent solutions for clients, improve outcomes, and boost profitability.
+### Margins under sustained pressure
+Even as asset and wealth managers increase investment in technology, the cost equation remains punishing. Almost three-fifts of institutional investors say they’re likely (41%) or very likely (16%) to replace a manager purely for cost reasons. At the same time, asset managers face fee compression and rising operational expenses. Despite efforts to streamline, costs remain elevated and are projected to reach $2.81 million per $1 billion of AUM by 2030.
+Traditional cost-cutting can buy time but not advantage. The structural reset of profitability demands more fundamental change: automation that redesigns processes, data that drives smarter allocation, and AI that reduces friction across the investment value chain.
+### Convergence is reshaping the client interface
+Asset managers anticipate that by 2030, [convergence with wealth management and fintech](https://www.pwc.com/gx/en/issues/business-model-reinvention/how-we-fund-and-insure/private-equity-industry-convergence.html) will have a significant impact on their revenue growth, as clients expect holistic solutions spanning investments, financial well-being, legacy planning, and even healthcare. Owning the client interface, and the data flowing through it, will be a key source of value.
+Already today, the majority of managers rely on third-party platforms for distribution, and the migration towards model portfolios and separately managed accounts is concentrating buying power in fewer hands. In both retail and institutional markets, privileged access to platforms, models, and delegated mandates is becoming the decisive route to scale and margin resilience.
+### Private markets, tokenisation, and the retail frontier
+Private markets will remain the industry’s most profitable engine. Today, they generate roughly four times as much profit per dollar of AUM as traditional managers. By 2030, alternative AUM is expected to reach $34 trillion. Private markets are set to reach $26.6 trillion and deliver over half of total industry revenues. But rising competition will put growing pressure on fees and margins.
+At the same time, “retailisation” is reshaping access. Regulatory reforms and new semi-liquid structures are opening private markets to a wider investor base, including the UK’s long-term asset funds, European long-term investment funds (ELTIF 2.0), US interval funds, Singapore’s proposed long-term investment fund, and Hong Kong’s pathway to listing alternative assets closed-end funds. Tokenisation could accelerate that shift by fractionalising ownership and lowering barriers to entry across private equity, private credit, and infrastructure. In that way, it could do for asset management what streaming did for music: broaden access, streamline distribution, and create a new category of investor experience.
+Tokenised fund AUM is projected to grow at a 41% CAGR, to $715 billion by 2030 from about $90 billion in 2024. Already, more than 40% of managers view tokenisation as their most important product innovation. For managers, the question is how to capture the economics of this new model, in anticipation of fintech and big tech companies driving innovation and tokenising private markets.
+### Talent as a strategic constraint
+The transformation imperative is running up against a shortage of the skills needed to deliver it. Traditional product and investment expertise remains vital, but future-fit firms also need deep capability in AI, data science, and cybersecurity risk, combined with sector-specific insight. Demand for AI and data specialists continues to far exceed supply, with wage premiums for top talent exceeding [50% in 2024, more than double the 25% differential seen the previous year](https://www.pwc.com/gx/en/1/services/ai/ai-jobs-barometer.html).
+The challenge isn’t headcount but capability. The next frontier of productivity, powered by humans and AI working together, will require new management disciplines, governance frameworks, and continuous learning built into organisational fabrics by design. Asset managers told us that talent development and organisational agility are key aspects of how they’ll reinvent or future-proof their business models over the next five years. Their priorities include upskilling employees in AI and digital fluency, fostering a culture of innovation, and creating more agile structures to respond to fast-moving market trends.
+##  Competitive models 
+## Four ways firms are positioning to win 
+As the need to rebuild profitability and reinvent business models intensifies, the businesses best positioned to outpace and outcompete are clustering around four distinct models.
+### Full-scale private-to-public hypermarkets
+These groups span public and private markets with genuine breadth and operating scale. They combine global distribution with deep manufacturing capabilities across active and private-market assets. And they’re extending their reach in both directions: public-market leaders are adding private-market engines, while private-market players are expanding into the wealth channel with products that offer greater liquidity and accessibility for individual investors.
+**Boosting relevance and return**
+  * Use data and technology to personalise portfolios at scale.
+  * Offer end-to-end coverage and co-manufacturing of products and services for platforms and delegated buyers.
+  * Sharpen client intelligence and turn the insights into improved outcomes and profitability.
+
+
+### Solutions platforms
+These platforms are portfolio construction engines that are often embedded within, or closely aligned to, wealth platforms or institutional buyers. Their main role is to create tailored investment outcomes—such as model portfolios, retirement solutions, and tax-efficient accounts—by combining in-house capabilities with support from external partners.
+**Boosting relevance and return**
+  * Control, or position yourself closest to, the customer journey, whether that takes the form of traditional advisor relationships, direct-to-client interactions, or engagement on social media and other digital platforms.
+  * Deliver personalisation at scale.
+  * Standardise diligence and supervision.
+
+
+### Low-cost manufacturers (E-traded funds/collective investment trust giants)
+These firms provide scalable, transparent investment products designed to fit into model portfolios and unbundled solutions. Their edge lies in broad product range and ultra-low costs, supported by deep liquidity, robust risk management, and reliable servicing.
+**Boosting relevance and return**
+  * Maintain relentless cost leadership, through either bundled or unbundled partnership models.
+  * Offer a broad range of investments, including access to alternatives.
+  * Secure your position within model portfolios and institutional mandates.
+  * Develop your digital channels and scalable tech capabilities both for your own needs and as a service and access point for partners.
+
+
+### Niche champions
+These firms build lasting advantage through focus, whether by region, asset class, client segment, or distribution strength. Growth may be constrained by capacity limits, concentration risk, or dependence on a narrow proposition. Yet in a fast-changing market, well-defended specialisations can deliver superior profitability, loyalty, and brand strength. Strategic partnerships and collaborations offer powerful ways to extend reach and relevance.
+**Boosting relevance and return**
+  * Leverage credibility, brand, strategic partnerships, or specialisation to command pricing power and loyalty in your chosen lane.
+  * Punch above your AUM weight by setting the standard in your niche.
+  * Increase capabilities and drive down costs by focusing on core strengths and unbundling other operations to be taken on by more capable and cost-efficient partners.
+
+
+##  Five key questions 
+##  How to choose the right path to profitability
+These paths to profitability demand clear choices about how you compete and where you create value. Each choice involves trade-offs that shape cost structures, distribution economics, and positioning within the investment ecosystem.
+Below, we set out five strategic considerations for asset and wealth management leaders:
+### 1. Where should you integrate, where should you unbundle, and where should you collaborate or acquire to compete?
+Do you want to retain or build an integrated model that keeps control of the full value chain, combining manufacturing, distribution, and data to create scale and differentiation? Or do you want to unbundle, focusing on your core sources of alpha and handing off non-essential, commoditised, or infrastructure-heavy activities to shared utilities, platforms, or partners?
+This isn’t simply another approach to cost reduction. It’s a strategic choice about which capabilities define your competitive edge, which you should retain or discard, and which can be delivered more efficiently through collaboration and scale.
+### 2. Which parts of the client interface should you own, and where are you a product supplier?
+Do you want to invest to own the client interface through digital platforms, advisory ecosystems, and data-driven personalisation controlling the economics of distribution? Or would you rather focus on being a product supplier for distribution by others, competing to be the preferred provider in a broader marketplace?
+This choice defines whether you control distribution economics or compete for shelf space. Success depends on strategic clarity about where you create unique advantages.
+### 3. How do you make tech investment count?
+If your tech investment is rising, it needs to deliver outcomes. How can you go further and faster in eliminating inefficiencies and boosting performance, while channelling savings into initiatives that drive business value? How can you use AI-led personalisation tools (e.g. direct indexing or digital engagement) and collaboration with hyperscalers and fintechs to scale tech infrastructure?
+Tech optimisation is as much about talent as it is technology. How can you make sure that your workforce has the skills to make the most of new technology and use the tools and time freed up to drive real value? How do roles and responsibilities need to evolve? How do you successfully integrate humans and machines in areas such as prompting and overseeing generative and agentic AI?
+### 4. Where should you sit in the investment value chain?
+Should you design integrated solutions that meet client outcomes, such as pension portfolios or multi-asset mandates, acting as an architect of capital flows? Or should you focus on providing the specialist strategies and products that others integrate into those solutions?
+The distinction lies in whether you shape outcomes or supply the building blocks. Many leading firms are adopting hybrid models, designing complete solutions for some clients while remaining core providers to others. Emerging asset classes such as digital assets are expanding both roles, transforming the infrastructure of capital markets and how capital is formed, deployed, and managed globally.
+### 5. How will you balance orchestrating ecosystems and participating in them?
+Do you position yourself to orchestrate ecosystems that bring together a range of partners including fintechs, banks, insurers, and data providers? Or do you choose to be a specialist participant within these ecosystems, focusing on incremental improvements within your existing model and optimising for efficiency and margin growth?
+The decision comes down to scale, brand, and infrastructure where orchestration can allow a firm to create a multisided value platform. Participation enables focus on a specific strength within an ecosystem, with the advantages of broader reach and accelerated innovation. Both paths can be viable, reflecting different risk appetites, time horizons, and market conditions.
+Success depends on making deliberate strategic choices. Organisations that anchor their strategy around a clear centre of gravity—be it scale, solutions, cost, or focus—and align their capabilities to that choice will turn growth into profitable advantage.
+_This article reflects the insights and contributions of PwC partners on the asset and wealth management revolution editorial board:[Albertha Charles](https://dpe.pwc.com/content/pwc/uk/en/contacts/a/albertha-charles.html) (Chair), [Maja Baiocco](https://www.pwc.ch/de/contacts/m/maja-baiocco.html), Matthew Blumenfeld, Peter Brewin, Declan Byrne, Roland Kastoun, Barry Knee, [Steven Libby](https://www.pwc.com/gx/en/content/pwc/global/forms/contactUsNew.html?style=pwc&territory=gx&cf=true&contactLink=L2NvbnRlbnQvZGFtL3B3Yy9neC9lbi9jb250ZW50LWZyYWdtZW50cy9jb250YWN0cy9zL3N0ZXZlbi1saWJieS0x&parentPagePath=/content/pwc/gx/en/issues/transformation/asset-and-wealth-management-revolution), Andy O’Callaghan, [Paul Pak](https://www.pwc.com/sg/en/contacts/p/paul-pak.html), Andrew Thorne, Joseph Wiggins, and [Dariush Yazdaniopens in a new tab](https://www.pwc.com/gx/en/contacts/d/dariush-yazdani.html)._
+##  Research overview 
+###  About the survey
+PwC’s 2025 Global Asset and Wealth Management Survey is an international survey of global asset managers, distributors, and institutional investors.
+Despite continued growth in AUM, profitability remains under pressure from fee compression, rising operational costs, and evolving investor demands. This year’s survey is a forward-looking analysis of the AWM industry’s response to this growing trend that also highlights transformative megatrends, disruptions, and opportunities that will shape profitability until 2030.
+The survey captured responses from 300 asset managers, institutional investors, and distributors, spanning a wide range of AUM sizes. More than half manage more than $50 billion in assets.
+###  Methodology 
+For our projections, we used econometric modelling to obtain our estimates. The relevant indicators (AUM, client assets, revenues, etc.) were used as the target variable (generally based on data from the last two decades). Various macroeconomic indicators from the International Monetary Fund were used as explanatory variables. Historical data were sourced from LSEG Lipper (accessed 23 May), Preqin, and Monterey Insight (both accessed 27 May). These datasets were enhanced using PwC’s proprietary data, research, and modelling to address coverage gaps and produce the final historical figures presented in this report. All estimated future data are our own proprietary econometric modelling.
+Statistical software was used to test various models, and statistically significant models for each country or region were shortlisted. Additionally, we’ve included PwC experts’ points of view on future key trends within the different industries.
+###  For further information 
+For questions about the research, contact [Dariush Yazdani](https://www.pwc.com/gx/en/contacts/d/dariush-yazdani.html) in PwC’s Global Asset and Wealth Management Market Research Centre.
+[ Download the report ](https://assets.pwc.com/adobe/assets/urn:aaid:aem:a0dfd62d-61ef-4e16-a258-ba8250bb29af/original/as/pwc-awm-revolution-2025.pdf "Download the report")
+### How we fund and insure
+Capturing value in the new Fund and Insure domain of growth
+[ Find out more ](https://www.pwc.com/gx/en/1/industries/convergence/fund-insure.html "Find out more")
+## Related content
+### [ Fit for the future of asset and wealth management  The firms pulling ahead are aligning their organisations behind clearer strategic choices as they navigate emerging trends in asset and wealth management.  19 min read  ](https://www.pwc.com/gx/en/1/industries/financial-services/asset-wealth-management/asset-wealth-management-outlook.html) ### [ Reinventing your company for growth  A decade of value in motion, marked by innovation and industry reconfiguration, awaits. Seize the moment to extend your lead—or to catch up to rivals.  29 min read  ](https://www.pwc.com/gx/en/1/issues/value-in-motion/reinventing-company-growth.html) ### [ Want ROI from AI? Go for growth  Some companies get more than cost savings from AI—they’re achieving growth. PwC studied what these AI leaders do differently from everyone else.  30 min read  ](https://www.pwc.com/gx/en/1/issues/tech-data-ai/ai-roi.html)
+## Get in touch
+###  Albertha Charles 
+Global Asset and Wealth Management Leader 
+PwC United Kingdom 
+###  Dariush Yazdani 
+Global AWM Market Research Centre, Partner 
+PwC Luxembourg 
+© 2026 PwC. All rights reserved. PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity. Please see www.pwc.com/structure for further details. This content is for general information purposes only, and should not be used as a substitute for consultation with professional advisors. This website contains content generated by or created with the assistance of AI.

@@ -1,0 +1,52 @@
+<!-- Source: https://www.arup.com/insights/improving-the-host-city-bargain/ | Title: Improving the host city bargain: a new focus on multi-location events - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/improving-the-host-city-bargain/#main-content)
+Article
+#  Improving the host city bargain: a new focus on multi-location events 
+Striking a balance between major cities and adjacent regions is increasingly seen as the best way to ensure major national sporting events will benefit everyone. 
+Global Host Cities Leader
+Nic Merridew
+Director
+Last updated: February 2024 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/improving-the-host-city-bargain/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/improving-the-host-city-bargain/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact
+The bargain of mutual benefit between major events and cities that host them is being stretched to breaking point. Costs continue to be pushed up by rising inflation, greater complexity and the expectations of everyone experiencing and involved in a major event. Some governing bodies are looking to deliver games in new ways, splitting and spreading costs across multiple countries and cities, and many cities are deciding that the benefits do not outweigh the costs, taking their hat out of the host city ring. 
+We need to look at how we can rebalance the bargain so that city residents, businesses and visitors continue to reap the long-term rewards of hosting the world’s greatest events. A major problem for city leaders is that when costs need to be reduced, it is often the investment that matters most to a host city and its communities, the legacy that justified the commitment to host, that is put on the chopping block. We explored how to overcome this in our ‘social value’ playbook (co-published with the International Society of Sports Science and Technology (AISTS)), which looked at ways to improve the way legacy is crafted and implemented, ensuring host cities get more enduring and valuable outcomes from the bargain. 
+Legacy can take different shapes and sizes, from driving a neighbourhood, city or region towards a greener future, to connecting communities and helping achieve inclusive economic growth. In recent decades, there has been a move to place legacy at the heart of many major events hosted primarily in a single city, with the long-term benefit built into bidding, planning and design from the outset. This has produced a mixed bag of results. 
+The wider, deeper and longer-term benefit for a city hosting a major event continues to be an undervalued, low and ‘at risk’ priority that lacks clarity, understanding, research and measurement. The challenge is that without a tangible legacy on offer at the outset, communities and leaders are less likely to step forward to host a major event. 
+In the [Social Value in Major Events Playbook](https://www.arup.com/insights/social-value-in-major-events/ "social value"), we set out how a ‘hierarchy of needs’ approach can be taken by event organisers and hosts to create lasting social and economic value for businesses and communities. Applying this approach starts at the point of the most basic needs of a city’s communities, not searching for a superficial sprinkling of icing sugar or focusing solely on an easy, discrete problem to solve. We must not shy away from investing in ‘less shiny’ but more transformative systemic changes to any aspect of society or culture, which can raise standards of living and create long-lasting legacy from hosting major sports, cultural and business events. The stronger and more transparent legacy plans can be, the more likely they are to be achieved. 
+## Sharing the benefits widely
+A number of upcoming major sports events are set to be hosted across multiple countries and cities, even across continents. In this context, pin-pointing what needs investment first, and which communities are most in need of support, can be difficult, and will be made more difficult as multi-location events become a popular way to spread costs, reach and access. 
+Hosting across multiple cities and countries can share the benefits of a major event more widely. But, with investment spread more thinly, there is a risk of the intended social, economic and environmental legacy benefits being diluted and less impactful across the communities. If we want to ensure that cities across the world are willing and able to host major events, how do we respond to this legacy challenge? 
+When collaborating to identify legacy opportunities, communities need meaningful and realistic interventions tailored to their needs. While potentially small-scale, such as a youth employment programme, these activities will ultimately have more of an impact than a series of broad event-wide programmes which aren’t relevant to each community. 
+## Making the case
+Transparency and honesty are essential to avoid ‘social-value-washing’, over-promising or lack of clarity around the benefits of hosting that can lead residents feeling disconnected, disempowered and resentful of events in their city. People would rather know why one area has a new bike lane or transport hub than have the promise of infrastructure that is then not delivered. 
+What we are discovering in our current discussions with host cities is that a multi-city event presents the ability to coordinate efforts, build connections, share resources, and learn from each other. Governing bodies should help facilitate this collaboration to forge significant lasting benefits, far beyond hosting a specific event and benefiting more communities than could be reached through an event hosted by a single city. 
+Part of the host city bargain that needs to be re-examined for the new era of multi-location events is the share of broadcast or other income generated that is invested in the long-term benefits of the residents, businesses and communities that enable events to happen. To deliver a return on investment across all the host cities of an event, this will need a systematic, structured approach that maximises impact through cross-event coordination and locally tailored approaches.
+## Testing, assessing, learning, sharing
+To adapt how major events plan and deliver legacy, and encourage more cities to host these events, we must have stronger and more consistent evaluation, with full transparency of costs and benefits and over a long enough period for the legacy to be realised. Findings should be pooled and shared to build trust among city leaders and residents alike, of existing and potential host cities. 
+By sharing the detail of what does and doesn’t work, we can make sure limited resources are channelled in the right way. Governing bodies could lead the way by agreeing a programme of centralised evaluation with established benchmarks and standardised data collection that every city can contribute towards. This shared evidence base would improve future major events for all. 
+The opportunity is there to maximise the legacy benefits of a new era of major events and the collaborations required to achieve this will mean starting work on the detail of long-term planning much earlier in the planning process. The magic of major events is that they have the power to create memories and experiences that last a lifetime, while changing the lives of communities in the cities that host them for generations. In most cities, times are getting tougher, but we’re committed to helping make this magic happen with cities worldwide, are you with us?
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/improving-the-host-city-bargain/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/improving-the-host-city-bargain/) Copy link  Close Share Menu 
+Explore similar insights
+[ Article ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=107) [ Sport ](https://www.arup.com/insights/filtered-insights/?MarketTaxonomies=24) [ Host cities ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=174) [ Sports architecture ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=181) [ Planning ](https://www.arup.com/insights/filtered-insights/?ServiceCategoryTaxonomies=31) [ Social value ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=119)
+## 
+Social value 
+in major 
+events
+When a city invests in major sporting or cultural events, there's an understandable desire to ensure that the widest range of community benefits are achieved. This playbook includes recommendations for any host city team bidding for major events who want to focus on socially valuable legacy.
+[ Learn more ](https://www.arup.com/insights/social-value-in-major-events/)
+## Insights
+### Explore more sport insights
+[ See more ](https://www.arup.com/insights/all-sports-insights/)
+[ Article  How Alberta could shape the future of the Winter Olympics  ](https://www.arup.com/insights/article-how-alberta-could-shape-the-future-of-the-winter-olympics/) [ Article  The opportunity of host city moments: Rethinking how cities partner with community organisations  ](https://www.arup.com/insights/article-the-opportunity-of-host-city-moments-rethinking-how-cities-partner-with-community-organizations/) [ Article  Plan for the fans: how to magnify the audience and impact of sporting events  ](https://www.arup.com/insights/plan-for-the-fans-how-to-magnify-the-audience-and-impact-of-sporting-events/) [ Article  Sport for everyone: planning accessible and inclusive major events  ](https://www.arup.com/insights/sport-for-everyone-planning-accessible-and-inclusive-major-events/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/improving-the-host-city-bargain/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/improving-the-host-city-bargain/)
+Close Close

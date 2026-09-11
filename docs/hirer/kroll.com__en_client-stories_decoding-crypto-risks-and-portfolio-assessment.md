@@ -1,0 +1,19 @@
+<!-- Source: https://www.kroll.com/en/client-stories/decoding-crypto-risks-and-portfolio-assessment | Title: Decoding Crypto Risks and Portfolio Assessment for a Global Investment Company | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Decoding Crypto Risks and Portfolio Assessment for a Global Investment Company
+Discover how Kroll, armed with discretion and expertise, unveils the secrets of a global investment company’s risk exposure. Navigating the dynamic crypto landscape, our experts conducted covert investigations to extract actionable intelligence.
+The Challenge
+In a dynamic crypto market marked by conflicts, our client, a global investment company, sought intelligence regarding their risk exposure. This information needed to be rapid and actionable, as crucial decisions regarding partners, investments and overall market exposure were imminent. The primary requirement was absolute confidentiality, ensuring complete discretion in Kroll’s investigative activities, undisclosed to industry peers or investee companies. This demanded a high level of sensitivity and an ability to leverage a global network to comprehend the cultural and operational dynamics of the investee companies.
+Kroll Solution
+The proposition was compelling as combining both discretion and accuracy to the investigative work had to be undertaken. Kroll’s team of data and forensic experts embraced this challenge, deploying their global assets and leveraging extensive investigative experience. They executed investigative activities on the client’s partners with utmost caution, quickly and discreetly identifying potential risks. Kroll introduced a distinctive approach to this case, incorporating their exceptional network of contacts within the crypto industry and beyond, advanced investigative techniques and a profound understanding of the cryptocurrency technology and the fundamentals of blockchain technology.
+The Impact
+Kroll analyzed the data and generated a comprehensive report with crucial insights unknown to the client. This report not only enhanced the client’s decision-making capabilities but also provided verified and actionable information, empowering them to drive their financial strategy with complete confidence. By offering full visibility into their exposure across multiple investee companies, Kroll ensured the client’s strategic decisions were well-informed and aligned with their long-term financial goals. 
+Need help staying ahead of a complex challenge?
+[Talk to an Expert](https://www.kroll.com/en/contactus)
+[ Brandon Sprague Associate Managing DirectorInvestigations, Diligence and ComplianceSan Francisco ](https://www.kroll.com/en/our-experts/brandon-sprague)
+bsprague@kroll.com[+1 415 693 5345](tel:+1-415-693-5345)
+### [Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Cryptocurrency Risk, Investigation and Compliance Services](https://www.kroll.com/en/services/financial-crime-advisory/crypto-risk-investigation-compliance)
+Kroll is the leading global provider of crypto compliance, risk, and investigative services. Since the introduction of the first virtual asset in 2009, Kroll has worked side-by-side with crypto companies, investors, and law enforcement to help them meet their most critical challenges.
+[Forensic Investigations and Monitorships](https://www.kroll.com/en/services/forensic-investigations-monitorships)
+The Kroll Investigations, Diligence and Compliance team consists of experts in forensic investigations and intelligence, delivering actionable data and insights that help clients worldwide make critical decisions and mitigate risk.

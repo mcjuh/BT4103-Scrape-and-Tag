@@ -1,0 +1,179 @@
+<!-- Source: https://www.erm.com/insights/sustainable-connections-podcast-30-navigating-the-eu-omnibus/ | Title: Sustainable Connections Podcast Episode 30: Navigating the EU Omnibus | Seed: https://www.erm.com/ (ERM) -->
+
+Podcast EMEA 39mins  10 Apr 2025 
+# Episode 30: Navigating the EU Omnibus
+In this episode, Mark Lee speaks to Johann Weicht, Jennifer Klie and Aiste Brackley about the latest updates to the EU Omnibus regulation. The Omnibus proposals aim to streamline the CSRD, CSDDD, EU Taxonomy and CBAM are expected to bring significant changes to the regulated sustainability disclosure and due diligence landscape. The episode delves into what these changes mean for businesses and how companies can best navigate compliance.
+Their conversation covers:
+  * What is the EU Omnibus and why is it so important?
+  * What are the main changes to each policy?
+  * Key recommendations for companies
+  * The impact of the EU Omnibus and next steps
+
+
+Please note that this conversation was recorded on Friday 4th April 2025.
+**Related Links:**
+  * [EU Omnibus update: European Parliament agrees to ‘stop-the-clock,’ but the EU Omnibus debate continues](https://www.erm.com/insights/eu-omnibus-update-european-parliament-agrees-to-stop-the-clock-but-the-eu-omnibus-debate-continues/)
+  * [Reporting & Disclosure](https://www.erm.com/solutions/reporting-disclosure/)
+  * [EU Omnibus Policy Alert](https://www.erm.com/insights/eu-omnibus-policy-alert/)
+
+
+**Subscribe to the podcast:**
+##  Podcast Transcript
+The transcript highlights below have been edited for clarity.
+**Mark Lee**
+Today I'm having a conversation with three of my colleagues and we are going to apply all of their expertise and knowledge to the EU Omnibus and break down the significant new proposal from the European Commission; and what it means in terms of reporting, transparency and sustainability from a corporate perspective. The first thing I'd like to do is introduce the three people who are with me and we’re fortunate to have a spread of folks in different parts of our business from across North America and Europe. The first one of those is Jennifer Klie, who I’m going to call Jen during the course of this conversation. Jen, please introduce yourself.
+**Jennifer Klie**
+Thanks Mark. I'm Jen Klie and I'm in our North American business. I have been spending the last 15 years focusing on sustainability strategy and disclosure. The last 18 to 24 months have been heavily focused on helping our North American clients unpack the impact of impending ESG disclosure regulations, in particular the CSRD (Corporate Sustainability Reporting Directive).
+**Mark Lee**
+Terrific and we'll get into the regional impacts of this as we get through the conversation too. Also, in North America and close to me, in California, is Aiste Brackley.
+**Aiste Brackley**
+Hello everyone, great to be here. I’m Aiste Brackley, based in the San Francisco Bay area in the US. I'm a partner at ERM and also the Director of the Sustainability Institute, which is our thought leadership platform. I'm a European transplant in the US so it's been fascinating to watch the developments of the last few months, compare notes and track where we are with sustainability and what that means for businesses worldwide.
+**Mark Lee**
+Finally, our third colleague with me today is Johann Weicht. Johann, please introduce yourself.
+**Johann Weicht**
+Thank you for having me on the podcast name. I'm Johann Weicht, a partner with ERM. I sit in our office in Berlin, Germany. Like my colleagues, I do a lot of work in the ESG reporting and disclosure space. I switched over to ERM at a very interesting time, having worked more on the sustainability assurance side of things at a different firm, when the switch from voluntary to regulated reporting just started. There was still the NFRD (Non-Financial Reporting Directive) as the acronym and not yet the CSRD (Corporate Sustainability Reporting Directive), and then as soon as CSRD started taking over the main stage, switched over to ERM and pretty much have been doing nothing but CSRD, EU Taxonomy and SFDR (Sustainable Finance Disclosure Regulation), you know all the fun acronym work ever since. I’ve had a bit of a split focus between the more technical side, think accounting manual, as well still having a good story to tell for our clients.
+_What is the EU Omnibus and why is it so important_
+**Mark Lee**
+Johann, you seem to know so many acronyms. I may as well take advantage of it and we'll have to try and explain some of those as we go through today. I'm assuming with listeners a high degree of knowledge around Omnibus, but we're not going to assume everybody has all the details. So, Johann, can you tell us what it is and why it is so important?
+**Johann Weicht**
+The EU Omnibus, let's start with the term. It's the name of the vehicle the legislators in the European Union are using to review several pieces of sustainability reporting, but also sustainability due diligence legislation under the same umbrella with the shared set of objectives in mind. Keeping it short for now, let's just say it's about simplification in the spirit of maintaining competitiveness of the European economy.
+**Mark Lee**
+Aiste, what were the drivers behind this? Why is it upon us now in 2025?
+**Aiste Brackley**
+We could have several podcasts to explain why and have many reasons. But I think ultimately it just boils down to two things. One, probably the most important one, is that it is part of a larger effort by the EU to increase the competitiveness of the European economy. We have EU facing competition from China and the US, global trade tensions and a lot of concern about very sluggish growth in the EU. The big factor for this was a report issued by Mario Draghi last fall, who was the former President of the European Central Bank. He noted all of these things and recommended that they should cut the red tape and should focus on decarbonization and clean energy as part of its competitive advantage. So really the Omnibus is part of a much larger package, and the sum of the estimates are that this package will inject at least an additional €50 billion into the European economy.
+I think you can’t have a competitive economy if you have too much red tape. That's really the second reason why we have seen the EU Omnibus proposal released. The companies said that there's too much regulation, it's unclear and it's simply too hard to do business in Europe. So, I think the EU Commission is reacting to that, proposing to make the regulations simpler, clarify some of the things that are unclear and in the grey territory and make life easier for European companies.
+**Mark Lee**
+Jen, which policies and pieces of legislation that previously existed are now affected by the Omnibus and why are they the ones that we're focused on streamlining?
+**Jennifer Klie**
+There are four primary legislations that are impacted by the Omnibus. The first is the Corporate Sustainability Reporting Directive (CSRD) and is very broad, sweeping reporting legislation. Tied to that is the EU taxonomy whereby companies need to report on their sustainability-aligned operating expenditures and capital expenditures etc. It also talks to the Corporate Sustainability Due Diligence Directive. So that is really about what you are doing to ensure both environmental and human rights issues are being managed within the supply chain. Finally, the last piece impacted is the Carbon Border Adjustment Mechanism.
+**Mark Lee**
+Before we dive into some of the specific elements, I want to invite each of you to say one thing that struck you as particularly important, maybe surprised you or excited you about the Omnibus when it was released.
+**Jennifer Klie**
+I think one of the things that we've heard universally among our clients, certainly here in North America, is how unprepared folks were feeling for the initial timeline, which would have most of the clients I'm working with reporting in January or first part of 2026. So, there's been a collective sigh of relief that there is a little more time to be prepared. And yet there is also this growing recognition that even with an extra couple of years to get prepared, even with the potential simplifications, it's still going to be a long road ahead.
+**Aiste Brackley**
+I think one important thing to note is that it's just a proposal. So, we recently had the vote of the European Parliament and the Council to move ahead with the ‘Stop-the-clock’ Directive, which essentially will stop the clock for companies, so that they have more time. We have the guidelines from the EU Commission of what it would like to achieve, but there will still be a lot more negotiation and change. From what we have now, the EU Omnibus proposal, we probably will end up with something that is even just a little bit different. I think keeping that in mind is important as companies prepare for these new rules.
+**Johann Weicht**
+I'm going to single out two pieces, building on one thing Aiste said earlier, so competitiveness and sustainability, how does it fit together? I actually don't think it's intended in any way, shape or form to say that they are in diametrical opposition to one another, but to perhaps reframe how sustainability fits into the overall competitiveness agenda. And almost to say, obviously, reporting has a role to play, we need the right data, especially in capital markets to reallocate capital flows in line with sustainability imperatives. But if folks end up spending more time on reporting than on actual sustainability performance improvements, then things have gotten slightly out of balance. I think that's very important to stress across the board and across the globe.
+Now my slightly more European observation and second point would be to say, I feel like mostly for European companies, they have sort of a macro timing and a micro timing challenge to keep in mind. Some of the pieces of the Omnibus are directives, meaning they require transposition not only at the EU level, but also by each EU Member State in order to actually be legally binding. Whereas others are regulations that only need approval at the EU co-legislative level. So therefore, for those directive pieces, companies depending on which Member States in the EU they’re active in, don't just have to follow the EU news, but also the local Member State news to get to the final and legally binding answer as to what their timeline will eventually look like for them.
+**Mark Lee**
+Johann, timelines are going to be extended and the scope of what companies need to comply with is going to be reduced, especially with CSRD. Why did the Commission choose this path and what impact will it have on businesses other than giving them a little bit more time?
+**Johann Weicht**
+I think we have to understand the history again, before the CSRD and EU taxonomy became key buzzwords, it used to be the NFRD which only applied to large, publicly listed companies in the EU. There was realization that if we want to drive large-scale sustainability transformation, that's not sufficient. We need more companies to report comparable data, so that was initially what the CSRD and these other pieces of legislation were supposed to contribute to. Now, because of the geopolitical developments that Aiste mentioned earlier, again there was now a moment to hit the pause button and then rethink and refocus on whether too many companies might have been asked to report too quickly perhaps. To put that into perspective, under the predecessor of legislation we're looking at companies that by in large have a history of voluntary sustainability reporting for 5,10 and, in some cases, almost 20 years. But under those CSRD initial scope discussions, we would have looked at 50,000 companies, maybe a little bit more even, across the globe. Some of which had never reported on sustainability, not internally or externally. We all know that change has to be accepted by those who are affected by it if we want for that change, in and of itself, to be sustainable. So that's really the reason why timelines and scope are now being revisited.
+_The main changes for each policy_
+**Mark Lee**
+I want to get into the four elements now and Jen, you already broke down the acronyms for us, I'd like to get into the key changes related to each. Jen, if you can pick up CSRD and then Johann and Aiste, I'll come to you on the rest.
+**Jennifer Klie**
+With the CSRD, the first change approved during the first week in April was a delay of two years for companies that were initially set to start reporting in 2026 on 2025 data, that's now been pushed to 2028. That has been approved and is the only thing that is set in stone at this point in time. The second key element of the proposed changes is the redefinition of who is in scope. Taking a look at the 50,000 companies that were going to need to report and coming up with a smaller subset, the proposal has been that we've moved from companies needing to meet two out of three criteria, which were 250 employees, €50 million in turnover, €25 million in assets, that has now been proposed that it would go to 1000 FTE's in what's considered a large undertaking and either €50 million in turnover or €25 million in assets. So, a pretty significant increase in the size of companies that are being considered. 
+**Mark Lee**
+Is there an estimate out there, Jen, that it will take from 50,000 to how many companies will be remaining in scope?
+**Jennifer Klie**
+It might reduce the number of companies in scope by as much as 80 percent. There was a second phase, particularly relevant to my North American clients, which is that a non-EU based parent will need to report in 2029 on 2028 data, if it meets turnover thresholds in the EU of €450 million. That was originally proposed to be €150 million, now it's €450 million, so a pretty big increase there as well. No change in timing for those companies.
+Then the next piece that we are anxiously waiting to hear on is EFRAG, which is the standard-setting body that developed the European Sustainability Reporting Standards (ESRS), they've been asked to look at simplifying the required disclosure requirements. We're looking at a 25 to 35 percent simplification of that. It's going to be very helpful and I'm anticipating a lot of the things that will be pulled out are the things that none of our clients have figured out how to report on yet. So that should reduce some of the burden on companies getting ready.
+Also, notably the assurance that is required for CSRD reporting was initially set to start with limited assurance and move to reasonable assurance over time and the proposal is to keep it at limited assurance. That's still a big lift for a lot of companies that are not having all of their data and reporting assured, even at the limited level today. But that certainly keeps things a little bit less onerous for companies as they transition to this regulatory reporting.
+**Mark Lee**
+Johann, can you similarly break down the EU Taxonomy?
+**Johann Weicht**
+CSRD and Taxonomy have always been joined at the hip because the Taxonomy didn't quite say, you are in scope of the Taxonomy regulation because of this list of criteria. It always said if you're in scope of CSRD, you have to do EU Taxonomy as well. Everything that Jen just said applies to the Taxonomy as well with a few tweaks and additions.
+The first tweak is and I'm going to build on the size and headcount figures that Jen just walked through. It's also the 1000 employees for EU Taxonomy because of that CSRD trigger but then, instead of the either €50 million in turnover or €25 million in assets, suddenly we're talking about €450 million asset turnover threshold. So, really quite the second additional hurdle in contrast to the CSRD. And again, I don't want to make this a political who's who and what's everybody's view on that. Let's just say there is backlash against that, especially from some of the supervisory authorities in the EU, the European Banking Authority comes to mind for instance, but also the Platform on Sustainable Finance, which is the European Financial Reporting Advisory Group (EFRAG) equivalent in terms of technical advisory behind the scenes. They have said: hang on, it was always supposed to be the CSRD and the EU taxonomy, but suddenly if you're now putting forward different thresholds, maybe that's not the best thing to do. Let's see where we will end up eventually on that.
+Then there's a few quality-of-life improvements proposed. Many of my clients previously complained about there not being any form of materiality thresholds in the EU Taxonomy, it just wasn't recognized as a principle as per the EU Commission's proposal to be introduced across a few different levels. Both in terms of reporting itself, which KPIs etc., but also in terms of those two steps of the EU Taxonomy, so I'm going to introduce those technical terms. Eligibility, meaning you do something that is covered by the Taxonomy regulation, a different economic activity which could be, I manufacture steel or I produce energy from solar PV for instance. And then there's alignment, meaning for each of those economic activities, looking at their sustainability, compliance and performance criteria. You don't have to meet them, but you have to report on whether you meet them or not. One of those materiality thresholds being discussed is about not being forced to assess whether or not you are aligned for economic activities where you don't really have any material volume of turnover, so capital expenditure or operating expenditure associated with it. Again, to focus more on the material pieces within the reporting, rather than trying to report on everything and anything.
+Then this is more of an announcement and there's not a lot of technical detail available quite yet. So, definitely something to follow this space. It's about review, streamlining, and simplification of those alignment criteria especially, and I think, Jen, this is a point you will probably be able to agree with from your project experience. Those criteria have been written from an EU-centric perspective, cross-referencing to a ton of EU law, which is great if you're based in the EU. But because of those third-country reporting obligations, like Jen has talked about, it’s still a bit less straightforward if you're based somewhere outside the EU.
+**Mark Lee**
+Aiste, please give us a quick headline on the key changes for CSDDD and CBAM.
+**Aiste Brackley**
+I think an important distinction, we talked about EU Taxonomy and CSRD, the focus is very much on disclosure. For CSDDD, disclosure is important, but there's also a lot that the directive spells out in terms of action, specifically on due diligence. So, it mandates in scope companies to identify and address human rights and environmental impacts. Not just in their operations, but in their entire value chains and the proposed changes are less in scope than EU Taxonomy and CSDDD so the number of companies remains unchanged. It was smaller to begin with and it remains that way. It's about 6000 EU and 900 non-EU companies. Compared to about 10,000, as we talked about for CSRD, so a smaller number, mostly really large companies. The compliance timeline shifts by one year, though, to 2028.
+The biggest issue with the directive is that it has placed quite a lot of burden on smaller companies and indirect suppliers in the global company supply chains that will change the proposal, it puts forward the idea that the requirement to scrutinize all indirect suppliers be removed unless there's a clear indication of harm. Also, the proposal puts a shield on smaller companies, and I think that's an important theme across the entire Omnibus proposal. I think the burden on small and medium-sized enterprises has been perceived as being simply too big of all these proposals, so there will be limits just to how much information companies can request from smaller suppliers in their value chain.
+For CBAM, Carbon Border Adjustment Mechanism, it essentially imposes a carbon price on imports of carbon-intensive goods. I think this is a good example, we talked about how the EU needs to balance the growth agenda and competitiveness with the regulations, while maintaining this very steady course on sustainability and transition to a clean economy. So I think CBAM is a good example, the EU maintains the goal of making sure that the carbon intensity of the European economy drops, but it essentially will exempt approximately 90 percent of importers, while still covering 99 percent of emissions, so the goal remains the same, the burden decreases, especially for smaller companies, and it will also clarify some of the rules for CBAM.
+**Mark Lee**
+Johann, companies out there are already starting to issue CSRD-aligned reports now. What do they do and what about all the other folks who were preparing to in the next kind of 12 months? Do people stop and wait? Do they pull these things back? What's the next step?
+**Johann Weicht**
+I don't think there's a one-size-fits-all answer here. Let's start with the compliance side of things. If I only look at CSRD and Taxonomy for a second, which were the most live of the bunch if you will, the so-called wave one companies or those previously affected by the NFRD, they would have published their first CSRD statements early in 2025, reporting on 2024. Talking about that stop-the-clock proposal, they're not affected by that because the stop-the-clock piece is designed to avoid companies starting to report to them, potentially falling out of scope if those threshold changes come through. But that wouldn't apply to that first batch, or at least not the majority of them. For them, it's almost business as usual if you will, with a little asterisk. That asterisk being the underlying technical standards for reporting might change as well, which means you will have to amend. But honestly, and I think Jen, you mentioned that a little while ago, that preparedness and starting point is very different from company to company. For most companies, getting ready for CSRD and EU Taxonomy, getting back to a level of quality and efficiency of reporting processes was never a one-year process anyway. There was always an idea to build out further as you go along and as you learn.
+I think for those other companies, it really depends on how far along you are in your process. I think that there is a sunk cost piece to consider, not from the perspective of saying, it's all been for nothing but more from a perspective of, if you're fairly advanced, if you have that attention internally, why not keep building forward? Perhaps not with 100 percent speed but perhaps putting on hold some of the pieces that are likely to be most affected by those underlying technical changes. One example here would be to say, all the quantitative disclosures are more likely to stay in scope as they are today, compared to those in-depth descriptions of what are your policies, what are your management programs, etc., and finding a more balanced approach as to how to progress. Jen, you said it earlier as well, for non-EU parent companies, the timeline doesn't change whatsoever for that parent undertaking reporting and then it really comes down to how much choice you're reporting to begin with, if you still have a lot of homework to do, you might actually need all of the time you had planned anyways. If you're more advanced, maybe you can slow down a little bit.
+_Key recommendations for companies_
+**Mark Lee**
+Johann, instead of our point of view, what have clients been asking you? What's an example of how companies have reacted?
+**Johann Weicht**
+We covered the timeline and scope quite extensively already. Honestly, there has been a ton of that. But other than that, it's really about what are the no to low regret options I can still progress with, regardless of which batch, which wave of companies I belong to. I think honestly the best short answer is: focus on quantitative disclosures because that's very certain to stay in scope. Everything else you probably can get away with parking and de-prioritizing that a little bit.
+**Mark Lee**
+Jen, are companies in North America asking the same questions or different?
+**Jennifer Klie**
+We have a whole variety depending on where companies are coming from and what their plan for complying with CSRD had been to begin with. I want to point out an interesting nuance that builds on Johann’s last comments. We have a lot of clients here in North America who were initially going to be in scope in 2026 for their EU entities and some of them were choosing to go down the path of reporting for those EU entities, and then they would take the time to report on the enterprise level when that came into effect in 2029. Those EU entities now, their first reports will be due in 2028. The enterprise reports will still be due in 2029, so I have a lot of clients who are rethinking this and saying I was going to use that as a test case and ease into it. But now they're rethinking. Does it really help us to develop an EU report that's only going to be valid for one year and then go to enterprise anyways? So, in some ways, for some of my clients, it's actually sped up their timeline to getting to enterprise-wide reporting.
+**Mark Lee**
+So, then that's definitely a space to watch. I'll be fascinated to see what choices companies make, given the rules they've been presented with if the proposal goes through as designed.
+**Jennifer Klie**
+Yes, and you can hear those companies asking, well why are those companies getting the delay and I'm not getting the delay? I point out that this is about maintaining the competitiveness of EU companies.
+**Mark Lee**
+Aiste, moving from clients, the Omnibus might be described as streamlining and in the US the SEC (Securities and Exchange Commission) climate rule is currently nowhere and not expected to reappear, so we'd have to say that we've got either reporting guidance being streamlined, reduced or backed up a little bit in time. In some places like North America, it's being pulled back almost entirely at a federal level. What might that mean for voluntary reporting and for the ESG ratings and rankings world? Does it push us back to a higher prominence of those things or do they continue as they were?
+**Aiste Brackley**
+It's a great question and I'll look at my crystal ball and make a few predictions here. I think for the ESG ratings and rankings, what's interesting about my clients are that there's been no fewer inquiries about the ratings and rankings. Everybody still deems them to be very relevant and I think with pushing out the timeline of CSRD compliance, that will again help them boost their relevance in the market. Also, I think what's interesting is that a lot of smaller companies, now based on the proposal, will not have to report. However, they still need to be rated and ranked because the investor interest in this data will remain. So, I think we might see a few shifts in developments in this space, maybe ESG ratings and ratings will look to how they fit in the compliance world. They might also look to orient themselves more towards the smaller companies that don't need to comply with the requirements. We'll have the next wave of our Rate the Raters report this fall. We'll look into some of these questions and try to come up with at least some trends or forecasts on how this field might develop, so watch out for that. 
+For voluntary reporting, I think what's interesting is that the EU Commission has said quite explicitly that with the proposal, it tends to put a greater emphasis on voluntary reporting, so it's here to stay. And I think it's true for North America as well. Jen talked about North American companies and the actions they're considering, given that the timeline for many of them has been delayed. They will still have to report, many of them have been reporting for many years, so it's here to stay. I think what's helpful is that the EU Commission, in a fast-track manner, is looking at adopting new standards for voluntary reporting that will really help for all of those companies that are looking for just more comprehensive and clear guidance on how to do that.
+_The impact of the EU Omnibus and next steps_
+**Mark Lee**
+Johann, can you expand a little bit on what you think the impact of the changes in the EU will be on sustainability-related regulation globally?
+**Johann Weicht**
+I think this is an area where we have to step back from all those different acronyms whether that’s CSRD or SFDR or ISSB (International Sustainability Standards Board), SEC etc. for a second and really look at intent and, if you will, the spirit of the law rather than letter of the law. It truly and fundamentally believes that this shift that started five or so years ago. When I say shift, I mean that trend of capital markets and regulators to really get sustainability reporting, overtime, up to the level of robustness and reliability as financial reporting. I don't think this will go away. If you look at ISSB and all those local adaptations, it's about financial materiality. If you look at who's publishing that standard. It's the IFRS (International Financial Reporting Standards Foundation), it's literally the global center for financial reporting. So maybe it's going to take a bit more time for global markets, companies and investors to eventually get to this point because of what we're now seeing as part of the Omnibus over here, but I think the broad objective and the direction of travel really does not change.
+**Mark Lee**
+Aiste and Jen, what else would you tell companies to do as they wait for the proposal to move to reality and as they look at the global situation, what should be their next step?
+**Aiste Brackley**
+I would like to double down on this topic of data. We've already seen an increasing focus on data by companies in the last few years and it will be more and more important. So, as we wait for clearer rules, one of the things that's super clear at the moment is that companies will need more robust data and they will need to find ways to collect that across their entire value chain. I think this is particularly relevant given recent developments in AI. We've seen the world change so dramatically in the last couple of years with the new tools. I think they will need to be creative and will need to just investigate the best ways to do that. Also, the EU Commission has been very clear that a lot of the changes in reporting requirements will shift in the direction of quantitative data.
+**Jennifer Klie**
+I think it's important to note that there's so many different areas and so many different topics on which companies need to advance. It's hard to do everything 100 percent across the board at the same time, so prioritization becomes really important. I'd say look beyond the regulators to what are your customers asking for. What are the expectations of those raters and rankers and other audiences? Even within the regulators, look across all of the alphabet soup that Johann was talking about. And in North America, some of the state regulations, climate is sort of a no-brainer, it’s a good place to start, given it is the most common denominator for all of these requests that companies are getting. So, prioritize and keep pushing forward where you can.
+**** END ****
+Share this page:
+## Explore related topics
+  * [Technology, Media & Telecommunications](https://www.erm.com/insights/?industry=Technology%2c+Media+%26+Telecommunications "View more 'Technology, Media & Telecommunications' articles")
+  * [Reporting & Disclosure](https://www.erm.com/insights/?category=121 "View more 'Reporting & Disclosure' articles")
+  * [Corporate Strategy/Development/M&A](https://www.erm.com/insights/?companyrole=Corporate+Strategy%2fDevelopment%2fM%26A "View more 'Corporate Strategy/Development/M&A' articles")
+  * [Reporting & Disclosure](https://www.erm.com/insights/?category=163 "View more 'Reporting & Disclosure' articles")
+  * [Sustainability Strategy](https://www.erm.com/insights/?category=167 "View more 'Sustainability Strategy' articles")
+
+
+Share this page:
+###  Authors 
+**Johann Weicht**
+Consulting Partner 
+**Jennifer Klie**
+Partner, Sustainability 
+**Aiste Brackley**
+Director, the ERM Sustainability Institute 
+**Mark Lee**
+Global Director, Thought Leadership 
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. 
+Cookies Settings
+Accept
+## Privacy Preference Center
+## Privacy Preference Center
+  * ### Your Privacy
+  * ### Targeting Cookies
+  * ### Functional Cookies
+  * ### Performance Cookies
+  * ### Strictly Necessary Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+#### Performance Cookies
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Confirm My Choices
+Allow All

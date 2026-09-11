@@ -1,0 +1,32 @@
+<!-- Source: https://www.capgemini.com/insights/expert-perspectives/harnessing-ai-for-enhanced-customer-experience-and-software-engineering/ | Title: Harnessing AI for enhanced customer experience and software engineering - Capgemini | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/insights/expert-perspectives/harnessing-ai-for-enhanced-customer-experience-and-software-engineering/#main-content)
+## Google Cloud Next 2025 is coming. Last year’s conference showcased the possibilities around the convergence of innovation, customer experience, and artificial intelligence (AI).
+Dave Chapman and Rob Kernahan, our [Cloud Realities podcast](https://www.capgemini.com/insights/research-library/cloud-realities-podcast/) hosts, welcomed [Kevin Shatzkamer](https://www.linkedin.com/in/kshatzka/), Former Managing Director of Conversational AI at Google Cloud, and [Miku Jha](https://www.linkedin.com/in/mikujha/), Director of Gen AI Partner Engineering at Google Cloud to discuss how AI is impacting all industries and driving advancements in customer experience and software engineering. 
+###  **Transforming customer experience with conversational AI**
+Kevin shared his thoughts on the rapid advancements in conversational AI and how it is impacting customer service. The focus has shifted from theoretical possibilities to real-world implementations that deliver measurable value. The accessibility of generative AI has made it a board-level conversation, with companies eager to develop a minimal viable product (MVP) to explore how AI can enhance customer interactions. 
+One of the most intriguing observations Kevin shared was the humanization of AI interactions. Users are beginning to say “please” and “thank you” to virtual agents, indicating a significant shift in how people perceive and engage with AI. This evolution is crucial for improving customer satisfaction and driving the adoption of AI-powered solutions. 
+### Enhancing software engineering with AI 
+Miku discussed the transformative potential of [AI in software engineering](https://www.capgemini.com/insights/expert-perspectives/unleashing-engineering-potential-with-generative-ai/). She highlighted that AI’s role extends beyond code completion and generation to include debugging, instrumentation, and securing APIs. The integration of tools like Pro 1.5 with Gemini Code Assist allows developers to upload entire code repositories and debug complex issues in a fraction of the time. Reducing these kinds of manual tasks significantly enhances developer productivity and code quality. 
+Miku also emphasized the importance of multimodality in AI, which allows for the integration of text, video, audio, and other inputs to create a more comprehensive and human-like understanding of data. This capability is expected to drive the development of powerful enterprise applications and solutions, transforming how businesses operate and interact with AI technology. 
+####  **Practical applications and future gazing**
+Google Cloud Next 2024 highlighted several practical applications of AI that are already delivering significant benefits. For instance, AI-powered customer support solutions are providing operational efficiencies. Developer productivity tools are enabling faster iteration and higher code quality, while multimodal AI is creating new possibilities for enterprise applications. 
+Looking ahead, the potential for AI to revolutionize both customer experience and software engineering is immense. As businesses continue to explore and implement AI solutions, we can expect to see even more innovative applications and measureable results. 
+####  **Road to Google Cloud Next 2025**
+Google Cloud Next 2024 underscored the transformative potential of AI in both customer experience and software engineering. As businesses continue to navigate the complexities of AI adoption, the integration of conversational AI and multimodal capabilities offers a path to meet the challenges and unlock new opportunities for growth and efficiency. The future will have AI seamlessly integrated into every aspect of a business so AI advancements will continue to be the key. It will be interesting to see how the needle has moved one year later. 
+The themes of innovation, customer experience, and AI will continue to be hot topics. Capgemini’s Cloud Realities podcast will be broadcasting again from [Google Cloud Next](https://www.capgemini.com/news/events/google-cloud-next/) with a list of exciting guests every day. Attendees can also check out exclusive client sessions and interactive demos exploring exactly how we are embracing customer experience, software engineering and AI meet across all industries, on Google Cloud. 
+Innovation, meet intelligence. 
+Explore the power of [our collaboration with Google Cloud](https://www.capgemini.com/about-us/partnerships/google-cloud/). 
+## Our Cloud Realities hosts
+### Dave Chapman
+VP Cloud Evangelist at Capgemini
+### Esmee van de Giessen
+Strategic Partner Manager, Capgemini
+### Rob Kernahan
+Chief Architect for Cloud and a Global SME on Cloud Technology, Data and IT Operating Models
+close button
+#### Get in touch
+Thank you for contacting us. 
+We are sorry, the form submission failed. Please try again.
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All

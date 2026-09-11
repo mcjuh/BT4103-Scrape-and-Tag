@@ -1,0 +1,28 @@
+<!-- Source: https://www.kroll.com/en/client-stories/kroll-transformed-telecommunications-giants-near-collapse-into-strategic-success | Title: Navigating Crisis: How Kroll Transformed a Telecommunications Giant's Near-Collapse into Strategic Success | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Navigating Crisis: How Kroll Transformed a Telecommunications Giant's Near-Collapse into Strategic Success
+Discover how Kroll's crisis leadership and cross-border restructuring expertise saved 20,000 jobs, preserved essential services for 13 million users, and enabled a successful business exit within three months - all while navigating Peru's complex insolvency framework without protective stay.
+[ Talk to an Expert ](https://www.kroll.com/en/contactus)
+The Challenge
+Telefonica del Peru faced an unprecedented crisis that threatened to collapse one of the region's most critical telecommunications infrastructure providers. With over €2.2 billion in accumulated losses since 2017, the subsidiary was forced to file for local insolvency under Peru's "Concurso" framework - a decision that would impact 20,000 jobs (directly and indirectly) and disrupt essential communications services to 13 million clients and 4 million households.
+There was a financial burden of €2.6 billion in total liabilities, including €1.3 billion in banks and tax claims, €600 million in bond liabilities, and €400 million in trade payables. Peru's insolvency framework presented a 90-working-day vulnerability window where all creditors were aware of the filing, but the company remained unprotected from enforcement actions - creating a volatile environment where any stakeholder could initiate hostile collection efforts.
+The situation demanded rapid, high-trust stakeholder engagement across a fragmented creditor base spanning international bondholders, local suppliers, tax authorities, and unions - all while maintaining critical telecommunications infrastructure that millions depended upon daily.
+## Kroll's Solution
+Kroll was appointed as Chief Restructuring Officer to, preserve value, and avoid chaotic liquidation while preparing the business for strategic sale. Our team deployed senior interim leadership and board directrorship support, working hand in hand with senior management on the ground to orchestrate a complex, multi-jurisdictional crisis management strategy.
+We immediately secured international protection by closely coordinating recognition in US courts via Chapter 15 proceedings, protecting critical assets across borders. Simultaneously, we led extensive negotiations with local and global creditors, and essential suppliers while supporting interactions with Peru's tax authority to prevent hostile enforcement actions from all creditors despite operating without a protective stay.
+Our approach focused on rebuilding trust and providing the stability required for a successful equity transaction. We vetted the company's business plan and cash forecasts while leading negotiations with bondholders' ad hoc groups to enhance transparency and assess recovery options. Through strategic negotiations, we negotiated critical standstills and extensions that prevented enforcement actions during the vulnerable window, ultimately creating a platform for successful sale to a third-party operator.
+The Impact
+Kroll's intervention delivered transparency, built the necessary trust and accelerated a consensual framework for a comprehensive solutionthat preserved critical infrastructure while protecting all stakeholders. We successfully preserved 20,000 direct and indirect jobs and ensured uninterrupted telecommunications service to 13 million users and 4 million households - preventing a communications crisis that could have had devastating economic and social consequences.
+Despite operating in the dangerous 90-day vulnerability window without protective stay, we avoided all enforcement actions through strategic stakeholder management. Our efforts enabled the successful sale of the business to a qualified operator within just three months - an exceptionally rapid timeline for such a complex cross-border transaction.
+The restructuring protected the parent company's reputation while minimizing financial exposure. Beyond quantifiable results, we delivered substantial qualitative return on investment by restoring market confidence, ensuring operational continuity, and creating a viable exit path that preserved value for all stakeholders. The case establishes a new benchmark for telecommunications restructurings in emerging markets.
+Need help staying ahead of a complex challenge?
+[Talk to an Expert](https://www.kroll.com/en/contactus)
+[ Aurelio Garcia-Miro Managing Director and Co-Head of European RestructuringLondon ](https://www.kroll.com/en/our-experts/aurelio-garcia-miro)
+a.garciamiro@kroll.com[+1 3054283385](tel:+1-3054283385)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Restructuring](https://www.kroll.com/en/services/restructuring)
+Restructuring expertise that maximizes value and recovery
+[Directorships and Chief Restructuring Officer](https://www.kroll.com/en/services/restructuring/directorships-and-chief-restructuring-officer)
+Experienced leadership, stability and transparency for distressed businesses and their stakeholders.
+[Insolvency](https://www.kroll.com/en/services/restructuring/insolvency)
+Maximizing recoveries for complex cross-border insolvencies and enforcements.

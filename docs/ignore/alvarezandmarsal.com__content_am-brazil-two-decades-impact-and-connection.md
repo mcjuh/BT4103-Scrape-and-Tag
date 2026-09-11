@@ -1,0 +1,21 @@
+<!-- Source: https://www.alvarezandmarsal.com/content/am-brazil-two-decades-impact-and-connection | Title: A&M Brazil: Two Decades of Impact and Connection | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/content/am-brazil-two-decades-impact-and-connection#main-content)
+# A&M Brazil: Two Decades of Impact and Connection
+## **Celebrating 20 Years of Achievements, Partnerships, and Memories**
+A&M Brazil recently commemorated its 20th anniversary with a memorable gathering that paid tribute to the visionaries, steadfast clients, and devoted professionals who have shaped the firm’s remarkable journey in the country. The milestone event brought together alumni from the formative years, longstanding clients whose trust has spanned decades, and the current leadership team guiding the Brazil office into the future.
+The celebration was rich with stories and nostalgia. [Luis de Lucio](https://www.alvarezandmarsal.com/our-people/luis-delucio) recounted the firm’s early days in Latin America, recalling the pioneering charge entrusted to him by [Bryan Marsal](https://www.alvarezandmarsal.com/our-people/bryan-marsal) and [Tony Alvarez](https://www.alvarezandmarsal.com/our-people/tony-alvarez-ii). He also reflected on his enduring partnership with [Marcelo Gomes](https://www.alvarezandmarsal.com/our-people/marcelo-gomes)—a collaboration that predates even their shared time at A&M and continues to inspire the firm’s spirit of camaraderie.
+Former colleagues and clients took the stage, sharing heartfelt reflections on how their professional paths have flourished since their A&M days. Many alumni now occupy leadership positions at organizations that remain close partners with the firm, a testament to the enduring bonds and reciprocal growth that have blossomed over the years.
+This inaugural alumni-focused event in Brazil was not merely a look back, but a vibrant affirmation of the community A&M has fostered. The firm aims to nurture this dynamic network of past and present professionals, clients, and friends—a network that serves as fertile ground for new opportunities and shared success in the years to come.
+Set against a backdrop of exceptional cuisine and a warm, inviting atmosphere, the gathering was a true celebration of the trust, partnership, and enduring connections that define A&M’s legacy in Brazil. As the festivities drew to a close, a profound sense of gratitude mingled with excitement for the promising road ahead, underscoring the lasting impact of two decades of collaboration and achievement.
+[Campus Spotlight: Eduardo Tonaco](https://www.alvarezandmarsal.com/content/campus-spotlight-eduardo-tonaco)
+In this Q&A, Eduardo reflects on A&M’s core value of Objectivity, sharing how it shapes his work and professional growth
+[Alumni Spotlight: Daniel Propp](https://www.alvarezandmarsal.com/content/alumni-spotlight-daniel-propp)
+Entrepreneur Daniel Propp reflects on how his time as an A&M Consultant gave him the skills, vision, and values to build two thriving businesses from the ground up. 
+[A Walking Dinner Tour Through Munich](https://www.alvarezandmarsal.com/content/walking-dinner-tour-through-munich)
+In May, the Alvarez & Marsal Alumni Network gathered alumni and colleagues in Munich for the annual event, this year included a walk and dinner, reconnecting through a shared evening in the city. 
+[Historias de Crecimiento: Álvaro Casas Iriarte](https://www.alvarezandmarsal.com/es/content/historias-de-crecimiento-alvaro-casas-iriarte)
+Álvaro Casas Iriarte es Analista en el área de Restructuring & Special Situations de Alvarez & Marsal México. Egresado de Economía por el ITAM, inició su trayectoria en A&M como intern y hoy continúa desarrollando su carrera dentro de la firma como analista.
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/85331--en)
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

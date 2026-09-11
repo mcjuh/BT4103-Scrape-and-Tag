@@ -1,0 +1,46 @@
+<!-- Source: https://www.alvarezandmarsal.com/press-release/alvarez-marsal-appoints-bernd-oehring-to-expand-carve-out-and-merger-intergration-capabilities-in-private-equity-performance-improvement-team-pepi | Title: Alvarez & Marsal Appoints Bernd Oehring to Expand Carve-Out And Merger Intergration Capabilities in Private Equity Performance Improvement Team (Pepi) | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-appoints-bernd-oehring-to-expand-carve-out-and-merger-intergration-capabilities-in-private-equity-performance-improvement-team-pepi#main-content)
+[Expertise](https://www.alvarezandmarsal.com/expertise) [Private Equity Services](https://www.alvarezandmarsal.com/expertise/private-equity-services) [Private Equity Performance Improvement](https://www.alvarezandmarsal.com/expertise/private-equity-performance-improvement)
+July 14, 2026
+# Alvarez & Marsal Appoints Bernd Oehring to Expand Carve-Out And Merger Intergration Capabilities in Private Equity Performance Improvement Team (Pepi)
+_Senior hire to strengthen carve-out and merger integration capabilities across Europe_
+**London, 14th July 2026** – Global professional services firm Alvarez & Marsal (A&M) has appointed Bernd Oehring as a Managing Director in its [Private Equity Performance Improvement](https://www.alvarezandmarsal.com/expertise/private-equity-performance-improvement) (PEPI) practice. Based in Germany, he will work across Europe as part of the firm’s [Carve-out and Merger Integration](https://www.alvarezandmarsal.com/expertise/portfolio-company-performance-improvement/merger-integrationcarve-outseparation) team.
+His appointment follows the arrival of [Tom Parkinson](https://www.alvarezandmarsal.com/our-people/tom-parkinson) and [Sushank Agarwal](https://www.alvarezandmarsal.com/our-people/sushank-agarwal) as Managing Directors in London earlier this year and reflects A&M’s ongoing investment in building out its European PEPI capabilities to better support clients in driving operational excellence and long-term performance. The continued expansion of the team further enhances A&M’s ability to support private equity and corporate clients across the continent through complex carve-outs, merger integrations and transformation programmes.
+Bernd joins A&M with experience spanning operational consulting, private equity investing and investment banking. He began his career at J.P. Morgan before moving into carve out consulting at Oliver Wyman. Subsequently Bernd joined a mid-sized private equity sponsor and delivered value creation programs for portfolio companies. Most recently, he served as a Partner at Oliver Wyman, where he co-led Corporate Mergers & Acquisitions in Europe. Drawing on experience as a banker, investor and consultant, he advises financial sponsors and corporates across the full deal lifecycle, specialising in carve-outs and post-merger integration, as well as strategy, due diligence, value creation and corporate finance.
+He will further fortify the Carve-out and Merger Integration team within the wider PEPI practice, adding significant experience across complex transactions, separation and integration programmes. His appointment will consolidate the firm’s ability to support clients across the full transaction lifecycle.
+[**Dominic Orchard**](https://www.alvarezandmarsal.com/our-people/dominic-orchard)**, Managing Director at Alvarez & Marsal, said: **“ _Carve-outs and merger integrations remain among the most value-critical moments for investors and corporates. Bernd brings a rare combination of investment banking, private equity investing and consulting experience, which will bolster our ability to support clients before, during and aftrer transactions. His arrival is another important step in the continued growth of our European carve-out and merger integration team, and our ability to support our clients with experienced leaders in Europe.”_
+[**Steffen Kroner**](https://www.alvarezandmarsal.com/de/our-people/steffen-kroner)**, Managing Director at Alvarez & Marsal, said:** _“Bernd’s appointment reflects the continued momentum behind our European PEPI team and our continued focus on strengthening the specialist expertise our clients need. His combination of strategic transaction expertise and hands-on value creation experience is strongly aligned with A &M’s results-focused approach and will further strengthen our ability to help clients unlock value across complex transactions and transformation programmes.”_
+**On his appointment, Bernd said:**_“A &M’s reputation for operational excellence, senior-led execution and measurable results is highly distinctive in the market. I am excited to join the rapidly growing PEPI practice, and look forward to contributing to its continued development and, above all, supporting clients to deliver lasting value creation.”_
+**ENDS**
+**About Alvarez & Marsal**
+Companies, investors and government entities around the world turn to Alvarez & Marsal (A&M) for leadership, action and results. Privately held since its founding in 1983, A&M is a leading global professional services firm that provides advisory, business performance improvement and turnaround management services. When conventional approaches are not enough to create transformation and drive change, clients seek our deep expertise and ability to deliver practical solutions to their unique problems. With over 10,000 people providing services across six continents, we deliver tangible results for corporates, boards, private equity firms, law firms and government agencies facing complex challenges. Our senior leaders, and their teams, leverage A&M’s restructuring heritage to help companies act decisively, catapult growth and accelerate results. We are experienced operators, world-class consultants, former regulators and industry authorities with a shared commitment to telling clients what’s really needed for turning change into a strategic business asset, managing risk and unlocking value at every stage of growth. 
+To learn more, visit: [AlvarezandMarsal.com](https://www.alvarezandmarsal.com/). 
+[Thought Leadership ](https://www.alvarezandmarsal.com/insights/business-industry-insights)
+[AI Token Economics: A Practical Guide for Managing AI Spend ](https://www.alvarezandmarsal.com/thought-leadership/ai-token-economics-a-practical-guide-for-managing-ai-spend)
+August 12, 2026 
+AI adoption has reached near-universal levels in engineering, yet a clear gap between perception and measured impact. This paper describes what those practices look like, why they matter, and how organizations can realize real value with AI-assisted engineering. 
+[Press Releases ](https://www.alvarezandmarsal.com/taxonomy/term/561)
+[Alvarez & Marsal Appoints Maureen O’shea to Strengthen European Supply Chain & Operations Capabilities in Private Equity Performance Improvement Team ](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-appoints-maureen-o-shea-to-strengthen-european-supply-chain-operations-capabilities-in-private-equity-performance-improvement-team)
+August 12, 2026 
+Senior hire brings nearly three decades of industry and consulting experience across supply chain, operations and transformation. 
+[Press Releases ](https://www.alvarezandmarsal.com/taxonomy/term/561)
+[Alvarez & Marsal Expands Sports, Media & Entertainment Industry Group, Appoints Three Managing Directors ](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-expands-sports-media-entertainment-industry-group-appoints-three-managing-directors)
+July 9, 2026 
+A&M launches a new Sports, Media & Entertainment Industry Group with three new Managing Directors who bring deep sector expertise to help clients modernize operations and accelerate growth. 
+[Press Releases ](https://www.alvarezandmarsal.com/taxonomy/term/561)
+[Alvarez & Marsal Launches AI-Enabled Zero-Based Optimization (AI-ZBO) to Accelerate EBITDA Improvement for Private Equity ](https://www.alvarezandmarsal.com/press-release/alvarez-marsal-launches-ai-enabled-zero-based-optimization-ai-zbo-to-accelerate-ebitda-improvement-for-private-equity)
+June 30, 2026 
+A&M has launched AI-Enabled Zero-Based Optimization to help private equity teams simplify workflows, reduce rework, and drive measurable EBITDA improvement. 
+Featured Experts
+# [Dominic Orchard ](https://www.alvarezandmarsal.com/our-people/dominic-orchard)
+Managing Director
+# [Tom Parkinson ](https://www.alvarezandmarsal.com/our-people/tom-parkinson)
+Managing Director
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/96656--en)
+FOLLOW & CONNECT WITH A&M 
+Amazon Music
+Apple Podcast
+Spotify
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/brett-mastalli | Title: Brett Mastalli, Banking Lead | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Brett is the Banking lead at West Monroe, helping banks drive innovation and deliver transformative results in a dynamic financial landscape.[ Linkedin](https://www.linkedin.com/in/mastalli/)
+Contact
+Brett leads West Monroe’s Banking practice, working with banks to design and deliver optimization projects using best-in-class loan origination solutions built on state-of-the-art, cloud-based technologies. His leadership combines a passion for client success with a commitment to developing teams and fostering innovation across the industry.
+He previously led West Monroe’s New York banking team, where Brett focused on strengthening client relationships, ensuring delivery excellence, and mentoring future leaders—efforts that earned him multiple leadership awards. A trusted advisor, Brett tackles challenges like commercial lending transformation, digital bank modernization, customer experience design, and core banking solutions with a hands-on, results-driven approach that aligns technology with business goals.
+## _Brett’s All-In Mindset_
+Brett and his wife stay busy raising triplets—two girls and a boy—while giving back to their community. He serves as an assistant scoutmaster for his local Boy Scout troop and chairs his church’s finance committee, reflecting his dedication to service and leadership beyond work.

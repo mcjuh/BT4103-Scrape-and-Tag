@@ -1,0 +1,43 @@
+<!-- Source: https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/ | Title: How cities can embrace nature and meet their net zero goals - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/#main-content)
+Article
+#  How cities can embrace nature and meet their net zero goals? 
+Greening our cities is a powerful reminder that if we learn from nature, we can develop passive, energy-neutral solutions, improve the urban experience and tackle a worldwide emergency.
+Global and Europe Building Envelopes Leader
+Rudi Scheuermann
+Director
+Last updated: March 2021 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact
+Ever since Le Corbusier, many commentators have observed that cities are ‘machines for living in’.
+Extending the metaphor a little, we can all see how those machines have become profligate consumers of energy and emitters of CO2. As populations urbanise and cities densify, heat increases and with it the demand for air conditioning and thus production of emissions – a highly un-virtuous circle. Beyond some visionary (and expensive) new ‘BREEAM-rated outstanding’ buildings we see in a few places, the real challenge is how to make thousands of older, existing buildings more sustainable. The scale and extensive efforts often require technical retrofitting solutions which need to be clever and efficient to avoid impractical solutions which could produce still more emissions, if approached with a lack of consideration. If you look at most contemporary urban buildings, their envelopes feature a lot of metal and glass, which absorb and store energy from the sun all day, before releasing it out into the city after dark. When these buildings are in proximity they contribute to a microclimate that concentrates this heat, causing more reliance on energy hungry cooling and air conditioning systems. This leads to a situation where the temperature is artificially increased by 10-15 degrees above a building, and cities facing heat island effects that render areas increasingly unbearable with the temperature extremes produced by climate change. 
+Watch: In collaboration with Mashable, Rudi discusses the relationship between nature and architecture in order to create a more sustainable city.
+## 20%… is bigger than you think
+All over the world city leaders are beginning to realise that greening our cities is one of the most effective, practical and realistic ways of reversing these trends, greatly improving the liveability of our urban environment and meeting net zero goals. It all starts with a simple piece of maths, something I call the 20% rule. 
+Imagine you could bring nature to just one face of a building – a fifth of its total surface area – with plants allowed to grow on its envelope. You gain some immediate benefits at relatively low cost: the plants shade the building, lowering the need for cooling in the city and thus for the building. The substrate for the plants absorbs noise and the plants also clean the air of fine dust and particulates. It doesn’t stop there: green envelopes also reduce the effects of stronger rainfall (a growing climate change effect) meaning less occurrence of city flooding. And as we all know, human beings love being around greenery – it lowers stress and is fantastic for our mental health. 
+Now imagine that you could apply this natural solution to 20% of the buildings in an entire city. We modelled the benefits in a number of different locations and the potential improvements are quite startling. In London we calculate that green envelopes would lower the air temperature by 3 degrees, in Berlin by 4 degrees, in Melbourne it’s 10 degrees and in the super dense environment of Hong Kong, an 11 degree drop is predicted by means of simulations. So, is this green vision practical? 
+## A natural design ethos
+Earlier generations of green envelopes have been criticised for being expensive or impractical to maintain, but the design ethos has matured and evolved. Our approach follows a few simple principles: it must be easy to maintain, easy to apply to a wide range of existing buildings, able to let nature do its thing without too much human intervention, taking our inspiration from the nature that thrives on cliffs. The systems we have prototyped, and currently on show at the Einfach Grün (Greening the city) exhibition at the Deutsche Architektur Museum in Frankfurt, are an intentionally affordable solution. By producing an extensive elevation system for plants, the maintenance costs for irrigation, fertilisation and drainage can to a large extent be eliminated. 
+Designing for nature: images from the DAM exhibition
+By producing an extensive elevation system for plants, the maintenance costs for irrigation, fertilisation and drainage can to a large extent be eliminated.
+## The green meme is coming
+I believe that this approach to greening and cooling the city has the potential to grow like a meme – such is the inherent appeal of greenery and nature, especially in rapidly and over-developed cities. City politicians have a valuable role to play here, as leaders and example-setters who control large amounts of urban real estate. In fact, Melbourne is already exploring how to make this a requirement on 20% of its buildings; Stuttgart is demanding it for 30% of its public stock; and Frankfurt is also investigating the potential. 
+Ultimately, the battle against climate change cannot be won by simply bringing additional, new technology to bear on problems created by other existing technology. Greening our cities is a powerful reminder that if we learn from nature, we can develop passive, energy-neutral solutions, improve the urban experience and tackle a worldwide emergency – all at once. 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/) Copy link  Close Share Menu 
+Explore similar insights
+[ Article ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=107) [ Cities ](https://www.arup.com/insights/filtered-insights/?MarketTaxonomies=12) [ Facade engineering ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=144) [ Engineering and technical services ](https://www.arup.com/insights/filtered-insights/?ServiceCategoryTaxonomies=32) [ Nature-based solutions ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=140)
+## Insights
+### Explore more nature-based insights
+[ See more ](https://www.arup.com/insights/all-nature-insights/)
+[ Article  A much-needed restorative: why cities need to embrace nature-based solutions  ](https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/) [ Article  Practical, scalable, measurable: how cities can implement their sponge city ambitions  ](https://www.arup.com/insights/article-practical-scalable-measurable-how-cities-can-implement-their-sponge-city-ambitions/) [ Article  Cities are ecosystems – so how do we ensure they remain natural, human-friendly and thriving?  ](https://www.arup.com/insights/cities-are-ecosystems-natural-human-and-thriving/) [ Article  Green Star Communities v2: What does it mean for your development?  ](https://www.arup.com/insights/green-star-communities-v2-what-does-it-mean-for-your-development/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/)
+Close Close

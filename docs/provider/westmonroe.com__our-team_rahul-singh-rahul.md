@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/rahul-singh-rahul | Title: Rahul Singh | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+As the leader of our Provider industry, Rahul has decades of experience driving IT strategy, innovation, and transformation for healthcare organizations. [ Linkedin](https://www.linkedin.com/in/rahul-singh-3495493/)
+Contact
+Rahul leads West Monroe’s Healthcare Provider practice, helping organizations harness technology to drive operational excellence and long-term value. With a unique blend of CTO and consulting experience, Rahul brings both pragmatic execution and bold innovation to every engagement. He has led enterprise-wide IT transformations across Fortune 100 providers and payers, delivering measurable outcomes—including $250 million in annual savings for a major health system.
+Rahul’s impact spans more than $5 billion in transformation initiatives, built on deep industry knowledge and a passion for driving progress. Before joining West Monroe through Pace Harmon, he was chief transformation officer for Catholic Health Initiatives, chief technology officer for UnitedHealth Group, and vice president of IT for Cigna. He holds a patent in telehealth and continues to lead with curiosity, empathy, and a vision for what’s next in healthcare.
+## _Rahul’s All-In Mindset_
+Rahul sponsors students in rural India and is deeply committed to mentorship, taking pride in the success of those he’s helped develop into enterprise leaders. A world traveler and lifelong sports enthusiast, he’s also climbed peaks in the Himalayas and holds a certification in mountaineering.

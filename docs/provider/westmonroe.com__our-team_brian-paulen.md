@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/brian-paulen | Title: Brian Paulen, Chief Administrative Officer | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Brian Paulen leads West Monroe’s internal operations, overseeing administrative and operational functions to drive efficiency, alignment, and firm performance.[ Linkedin](https://www.linkedin.com/in/brian-paulen-86b5581)
+Contact
+As Chief Administrative Officer, Brian manages West Monroe’s global offices, marketing team, nearshoring strategy, and core operational functions—ensuring they work together to support growth. He establishes standard operating procedures, partners with senior leaders to align business processes with long-term goals, and acts as a liaison across the firm to streamline decision-making and execution.
+With more than 27 years of consulting experience, Brian brings deep expertise in process improvement and operational strategy. He joined West Monroe through its 2014 acquisition of Madrona Solutions Group, where he served as CEO. After decades working alongside client and line leaders to drive growth, he later transitioned into Shared Services to strengthen internal capabilities, optimize performance, and support the firm’s continued expansion.
+## _Brian’s All-In Mindset_
+Brian is deeply committed to mentorship, diversity, and inclusion across the firm and his community. He enjoys the Pacific Northwest outdoors with his family and serves on a number of nonprofit boards in the Seattle area.

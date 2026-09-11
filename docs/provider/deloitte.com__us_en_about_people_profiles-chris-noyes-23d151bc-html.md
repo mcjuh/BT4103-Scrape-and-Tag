@@ -1,0 +1,9 @@
+<!-- Source: https://www.deloitte.com/us/en/about/people/profiles.chris-noyes+23d151bc.html | Title: Chris Noyes, Managing Director | Deloitte Consulting LLP | Managing Director | Deloitte Consulting LLP | Seed: https://www.deloitte.com/us/en/services/consulting/services/mergers-acquisitions.html (Deloitte) -->
+
+Link opens in a new tab opens in new window
+[Skip to main content](javascript:void\(0\))
+Welcome to Deloitte 
+If we have selected the wrong experience for you, please change it above.
+#  Chris Noyes 
+##  Managing Director | Deloitte Consulting LLP 
+Chris specializes in solving critical supply chain challenges using advanced analytics and cognitive technologies. He has led impactful projects tackling issues such as poor on-time delivery, high cost of quality, and low asset efficiency, leveraging machine learning, natural language processing, and computer vision. He holds an MBA from Washington University in St. Louis, a B.S. in Electrical Engineering from Northeastern University, and an M.S. in Machine Learning and Artificial Intelligence from Georgia Tech. His background includes developing AI algorithms for defense intelligence agencies and leading cross-functional teams to deliver value for top brands—such as creating an analytics control tower for Chipotle’s 3,000 restaurants and designing automated warranty claim monitoring solutions that process 100,000+ claims daily. He is also credited with developing reusable analytics modules for Smart Factory projects, accelerating project turnaround across multiple engagements. He is valued for client leadership and translating data into actionable business outcomes.

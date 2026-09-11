@@ -1,0 +1,59 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-commerce | Title: Own the agentic commerce experience  | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# Own the agentic commerce experience 
+In collaboration with NRF, we explore consumer use of AI and how brands can thrive in the era of AI-assisted shopping
+[Download the insights (will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/153d3d3ba44fa7db)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+Your next customer may not start their shopping journey browsing your website, scrolling your social media, or visiting your store. A seismic shift in commerce is underway with the transition from people-led browsing to AI-assisted discovery. Eventually, autonomous AI agents will make the purchase on the shopper’s behalf.
+Already, OpenAI includes [instant checkout for Etsy and Shopify shoppers](https://openai.com/index/buy-it-in-chatgpt/) without leaving the ChatGPT app, with [PayPal integration](https://newsroom.paypal-corp.com/2025-10-28-OpenAI-and-PayPal-Team-Up-to-Power-Instant-Checkout-and-Agentic-Commerce-in-ChatGPT) coming in 2026. [Perplexity AI’s “Shop Like a Pro”](https://www.perplexity.ai/help-center/en/articles/10352906-what-is-shop-like-a-pro) researches and recommends products and then offers one-click checkout to US subscribers.
+A new IBM Institute for Business Value (IBM IBV) study of more than 18,000 consumers reveals they are ready to take the next step in AI-assisted shopping. Their use of AI applications such as ChatGPT, Google Gemini, and other chatbots surged 62% over the last two years, and even more for Gen X (82%) and Boomers (92%).
+> Global consumer usage of AI applications such as ChatGPT has surged 62% over the last two years, ushering in the era of agentic commerce.
+At the same time, consumers say AI personal shoppers and autonomous delivery are nearly as important as beautiful stores in the ideal shopping journey. The appeal for customers is clear: they state their needs and AI handles the rest, comparing prices, confirming availability, and orchestrating transactions. The question is whether brands and retailers can ensure their products are discoverable and trustworthy within these AI-driven ecosystems.
+> “How do you make sure an agent is choosing your brand over another? What’s the role of the brand or retailer? These are interesting questions that we need to answer.”
+> **Byron Ells, Vice President** Marketing Technology and Digital Experience, Sobeys
+This report draws on proprietary consumer research, plus a survey of 200 industry executives, to address the new world of commerce in three areas:
+  * **How is consumer spending changing? What do these spending trends mean for AI-assisted shopping?** Shoppers are spending strategically, not simply spending less, as economic pressure changes both how much and how people buy. A third of consumers surveyed are trading down to budget-friendly alternatives, while others selectively indulge or pay more for trusted brands. As AI agents come online to assist with purchases, they'll need to navigate these same strategic trade-offs between price, quality, and trust. 
+  * **How are consumers using AI in the shopping journey?** From assistants to agents, AI is reshaping shopping primarily in the discovery and decision-making stage. 41% of consumers use AI assistants to research products, 33% to look for reviews, and 31% to search for deals. Brands and retailers must orchestrate experiences and ensure visibility and relevance across every digital, physical, and AI-enabled touchpoint.
+
+
+**How consumers use AI in the shopping journey**
+  * **How comfortable are consumers with sharing personal data? What does that mean for the future of AI-driven commerce?** 52% of consumers are comfortable sharing their data, but collectively, 83% express multiple overlapping concerns about privacy, data misuse, and unwanted marketing. Trust, the foundation of brand relationships, must now be earned by both people and algorithms. That means fortifying data practices and cultivating advocacy networks where consumers and AI agents consistently discover and recommend brands based on verified quality experiences.
+
+
+> “Our creativity and authentic brand promise are what make us unique. AI cannot do that for us.What it will do is help us amplify our values and what differentiates us from others.”
+> **Stanislas Vignon** Head of Insights (AI and Omnichannel), Louis Vuitton Moët Hennessy (LVHM)
+Download the report to explore each of these areas in more detail. We also introduce a set of consumer segments based on whether they prioritize price or the brand and their engagement preferences. Each group has unique priorities, trust triggers, and engagement styles.
+We conclude with an action guide of practical steps brands and retailers can take to align with consumers, integrate and advance AI strategically, and position themselves to thrive now and in a future of agentic commerce.
+[Download the insights(will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/153d3d3ba44fa7db)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[Retail and consumer products consulting (will open in a new window) Retail and consumer products consulting Deliver experiences and products that create more valuable relationships with consumers. ](https://www.ibm.com/consulting/retail)
+[AI consulting services (will open in a new window) AI consulting services Enhance employee and customer experiences by using data and AI to create intelligent workflows. ](https://www.ibm.com/consulting/artificial-intelligence%20)
+[Data and analytics consulting services (will open in a new window) Data and analytics consulting services Unlock the value of your data so you can take advantage of investments in artificial intelligence, including agentic AI. ](https://www.ibm.com/consulting/analytics)
+How can IBM help you?
+[Retail and consumer products consulting (will open in a new window) Retail and consumer products consulting Deliver experiences and products that create more valuable relationships with consumers. ](https://www.ibm.com/consulting/retail)
+[AI consulting services (will open in a new window) AI consulting services Enhance employee and customer experiences by using data and AI to create intelligent workflows. ](https://www.ibm.com/consulting/artificial-intelligence%20)
+[Data and analytics consulting services (will open in a new window) Data and analytics consulting services Unlock the value of your data so you can take advantage of investments in artificial intelligence, including agentic AI. ](https://www.ibm.com/consulting/analytics)
+You might also like
+[Retail and consumer products in the AI era  Translations available Retail and consumer products in the AI era Retailers and consumer products companies are using AI to meet and exceed customer experience expectations and drive innovation. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/retail-consumer-products-in-ai-era)
+[Embedding AI in your brand’s DNA  Translations available Embedding AI in your brand’s DNA Explore the rapid growth of AI in the retail and consumer products industry and three keys for brands to scale AI for long-term advantage. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/ai-retail-cpg)
+[Orchestrating agentic AI for intelligent business operations  Translations available Orchestrating agentic AI for intelligent business operations Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation)
+[Upstream oil and gas in the AI era  Upstream oil and gas in the AI era AI isn't failing in upstream oil and gas. What's failing is scaling its value across the enterprise. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/upstream-oil-and-gas-in-ai-era)
+[Orchestrating agentic AI for intelligent business operations - French (will open in a new tab) Orchestrating agentic AI for intelligent business operations - French Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-french)
+[Orchestrating agentic AI for intelligent business operations - German (will open in a new tab) Orchestrating agentic AI for intelligent business operations - German Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-german)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinel
+Open chat history
+AskIBV
+BETA
+AI Explained
+## AskIBV 
+BETA
+AskIBV combines advanced AI with the IBV’s trusted, data‑driven research and executive interviews to deliver exclusive insights and perspectives you won’t find anywhere else.
+Loading AskIBV insights AI
+Focus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-commerce#truste_domain_list). 
+Accept All More options

@@ -1,0 +1,44 @@
+<!-- Source: https://www.bdo.com/insights/industries/auto-dealerships/dealerships-and-unclaimed-property-what-you-need-to-know | Title: Dealerships and Unclaimed Property – What You Need to Know | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Dealerships and Unclaimed Property – What You Need to Know
+Across the country, states are conducting unclaimed property audits of dealerships. Whether an item may be considered unclaimed property often requires a review of the dealership’s policies and procedures, as well as an understanding of how those items are recorded by the dealership. All business types are subject to unclaimed property laws including corporations, S corps, partnerships and limited liability companies. In this article we review what you need to know about these audits, why it matters and the potential risks you may be facing as a dealership.
+## What is Unclaimed Property?
+Unclaimed property includes items that a business owes to its employees, customers, vendors, creditors or shareholders that have passed certain prescribed periods of abandonment (dormancy periods), typically one to five years in length depending on the state and property types at issue. Items of particular concern for dealerships may include:
+  * Dealer refunds and overpayments (i.e., trade payoffs, fees, taxes)
+  * Service & parts refunds and overpayments (i.e., parts returns)
+  * Payroll/ commissions checks outstanding and/or voided
+  * Accounts payable/general disbursements outstanding and/or voided
+  * Accounts receivable credits and customer deposits held on account
+  * “We-Owe” – accessories/services negotiated at time of sale
+  * Promotional credits - extended warranty refunds, GAP insurance, free oil changes, tires, service, etc.
+
+
+## What State Do You Report Unclaimed Property To?
+Every state has an unclaimed property law, as well as Washington, D.C., Puerto Rico, U.S. Virgin Islands and Guam. Each state has a unique law that specifies how unclaimed property should be managed and reported by holders. There are established rules that dictate which state’s law applies to a particular property. These are known as priority rules:
+### 1st Priority Rule
+The state of the apparent property owner’s (employee, customer, vendor, creditor or shareholder) last known address.
+### 2nd Priority Rule
+If the owner’s address is unknown or in a foreign country, then the laws of the holder’s state of incorporation are applied (i.e., commercial domicile for unincorporated entities).
+## Why Unclaimed Property Matters
+States are enforcing unclaimed property compliance more strictly. As part of this compliance enforcement effort, dealerships are experiencing an increase in outreach from the states, which is handled in multiple forms: Self-audit programs [Example of Self-Audit Notice from Illinois](https://www.bdo.com/getmedia/ea3a1594-b724-495d-9d16-cd524412415a/Illinois-State-Treasurer_Unclaimed-Property_Redacted.pdf) Invitations to participate in state voluntary compliance/disclosure programs. [Example of VDA Program Notice From Delaware](https://www.bdo.com/getmedia/26ab52be-882a-4615-aa18-8c6c048425c8/DE-SoS-UP-VDA-June-2021-Certified-Letter_Redacted.pdf) Multi-state audits, typically conducted by third-party auditors, often paid on a contingent fee basis. These can take several years to complete. [Example of Audit Notice From Delaware](https://www.bdo.com/getmedia/435e8fb2-63d4-4e4b-a975-87f35541669f/DE-UP-Letter-Nov-2020_Redacted.pdf) Unclaimed property compliance question on California state income/ franchise tax return this year. [Read more about what this means](https://www.bdo.com/insights/tax/state-and-local-tax/california-income-tax-reporting-change-will-enhanc) The programs often have a review period of 10-15 years or more and are heavily dependent on the availability of complete and researchable records. If records are not available, then estimation of the liability is typically required. Any unclaimed property notice from a state is time sensitive and should be acted upon immediately. It’s important to note that penalties and interest vary by state. Self-audit and voluntary disclosure agreement (VDA) notices often include a deadline for participation. If a company fails to respond or sign up to participate, they will most likely be referred for audit – which comes with a much more significant process.
+## How to Mitigate Unclaimed Property Risk
+More than ever, dealerships must take proactive steps to manage the potential risks related to unclaimed property and help ensure compliance. Here are some steps to better understanding and mitigating unclaimed property risk:
+### 1. Feasibility Review
+Consider conducting a truncated review of unclaimed property obligations that follows traditional testing methodologies. These reviews arm businesses with a low-to-high range of potential escheat exposures by property type and legal entity. Often, the results of these reviews are used to book ASC 450 accounting reserves and lead to more proactive remediation measures (such as voluntary disclosures, policies and procedures, compliance, etc.).
+### 2. Compliance
+All organizations should establish a robust annual filing process, including due diligence efforts to mitigate penalties, interest and audit risks.
+### 3. Policies and Procedures
+The absence of unclaimed property policies and procedures is the easiest way for a company to fall out of compliance with state escheatment laws and regulations. With the successful implementation of full global mapping procedures or streamlined unclaimed property policies and procedures, organizations can drive strong escheat compliance reporting.
+### 4. Other States
+If an organization hasn’t been meeting its multi-state filing obligations, it should consider voluntary disclosure or amnesty filings with other jurisdictions to mitigate the risk of an audit.
+### How BDO Can Help
+BDO has extensive experience and the comprehensive technical and technology resources required to mitigate unclaimed property exposure, including audit/self-audit defense, feasibility study and risk assessments, voluntary disclosure agreements, and compliance report preparation and filing. Visit our state-specific pages for more information on compliance programs in [California](https://www.bdo.com/insights/tax/state-and-local-tax/california-new-unclaimed-property-law), [Delaware](https://www.bdo.com/email-landing-pages/delaware-vda-program), [Illinois](https://www.bdo.com/insights/tax/state-and-local-tax/illinois-unclaimed-property-program-has-commenced), [Minnesota](https://www.bdo.com/insights/tax/state-and-local-tax/minnesota-unclaimed-property-program-has-commenced), [Massachusetts](https://www.bdo.com/insights/tax/state-and-local-tax/massachusetts-unclaimed-property-program) and [New York](https://www.bdo.com/insights/tax/state-and-local-tax/new-york-increasing-unclaimed-property-compliance).
+[Return to Driving Profits Main Page](https://www.bdo.com/insights/industries/auto-dealerships/driving-profits-newsletter)
+## SHARE
+  * 
+
+## Related Resources
+[ ArticlePennsylvania Adopts Destination-Based Local Sales Tax Sourcing September 1, 2026 ArticlePennsylvania Adopts Destination-Based Local Sales Tax Sourcing September 1, 2026Pennsylvania is shifting to destination-based local sales tax sourcing. Explore what the change means for vendors. Read Morechevron_right ](https://www.bdo.com/insights/tax/pennsylvania-adopts-destination-based-local-sales-tax-sourcing)
+[ ArticleMaryland Overrides Digital Ad Tax, Paving Way for Challenges to Other States’ Regimes September 1, 2026 ArticleMaryland Overrides Digital Ad Tax, Paving Way for Challenges to Other States’ Regimes September 1, 2026Maryland’s digital advertising tax has been struck down. Learn what the ruling could mean for taxpayers and refund claims. Read Morechevron_right ](https://www.bdo.com/insights/tax/maryland-overrides-digital-ad-tax-paving-way-for-challenges-to-other-states-regimes)
+[ ArticlePennsylvania’s Changes to 163(j) Calculations Could Affect 2025 Filings September 1, 2026 ArticlePennsylvania’s Changes to 163(j) Calculations Could Affect 2025 Filings September 1, 2026Explore the implications of Pennsylvania’s revised Section 163(j) guidance for tax years beginning in 2025 and later. Read Morechevron_right ](https://www.bdo.com/insights/tax/pennsylvanias-changes-to-163-j-calculations-could-affect-2025-filings)
+[ mic_none PodcastBDO Talks Total Tax - Episode 2: One Year Later: How Companies Are Responding to OBBBA August 28, 2026 PodcastBDO Talks Total Tax - Episode 2: One Year Later: How Companies Are Responding to OBBBA August 28, 2026One year after OBBBA, companies are taking a more strategic approach to tax planning as they assess how key provisions work together across the business. Read Morechevron_right ](https://www.bdo.com/insights/tax/bdo-talks-total-tax-podcast?wchannelid=823mmphw1r&wmediaid=qwwi46c7at)

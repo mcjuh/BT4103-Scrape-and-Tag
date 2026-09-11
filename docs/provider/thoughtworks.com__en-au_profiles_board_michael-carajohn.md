@@ -1,0 +1,9 @@
+<!-- Source: https://www.thoughtworks.com/en-au/profiles/board/michael-carajohn | Title: Michael Carajohn | Thoughtworks Australia | Seed: https://www.thoughtworks.com/ (ThoughtWorks) -->
+
+[ Leaders Back ](https://www.thoughtworks.com/en-au/about-us/leaders)
+#  Michael Carajohn
+Director
+Pronouns: He / Him
+Michael has served as a member of our board since 2025. He joined Apax Partners in 2021 and is currently a principal in the Tech team. He currently serves on the board of directors of Zellis Group and EcoOnline and formerly served on the board of AffiniPay. Prior to joining Apax, Michael was a private equity investor at the Carlyle Group where he most recently focused on Buyout and Growth investments for the flagship US Buyout Fund. Michael holds a BA in Political Science from the University of Pennsylvania.
+Thoughtworks acknowledges the Traditional Owners of the land where we work and live, and their continued connection to Country. We pay our respects to Elders past and present. Aboriginal and Torres Strait Islander peoples were the world's first scientists, technologists, engineers and mathematicians. We celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander Elders of all communities who also work and live on this land. 
+As a company, we invite Thoughtworkers to be actively engaged in advancing reconciliation and strengthen their solidarity with the First Peoples of Australia. Since 2019, we have been working with Reconciliation Australia to formalize our commitment and take meaningful action to advance reconciliation. We invite you to review our [Reconciliation Action Plan.](https://www.thoughtworks.com/content/dam/thoughtworks/documents/guide/tw_guide_reconciliation_action_plan.pdf)

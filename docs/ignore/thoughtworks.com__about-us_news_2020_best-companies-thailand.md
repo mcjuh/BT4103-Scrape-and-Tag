@@ -1,0 +1,11 @@
+<!-- Source: https://www.thoughtworks.com/about-us/news/2020/best-companies-thailand | Title: Thoughtworks Receives HR Asia “Best Companies to Work For in Thailand” Award for 2020 | Thoughtworks | Seed: https://www.thoughtworks.com/ (ThoughtWorks) -->
+
+#  Thoughtworks Receives HR Asia “Best Companies to Work For in Thailand” Award for 2020 
+[ News archive Back ](https://www.thoughtworks.com/about-us/news/archives)
+Close
+October 19, 2020  - Bangkok
+###### _Recognized for excellence in company culture and talent development_
+Thoughtworks has been recognized as Thailand’s “Best Companies to Work For in 2020” by HR Asia, alongside Microsoft and Oracle Corp. Thoughtworks earned the honor for its dedication to cultivating a company culture of persity, learning, and people empowerment, as well as its continuous investment in its employees.
+HR Asia annually gives the award to organizations across the region who create and maintain workplace excellence and promote greater employee engagement. The key selection criteria for the award were the results of a survey conducted with the employees of each nominated company.
+“At Thoughtworks, we believe that what we do today will not stay the same tomorrow. Technology moves very quickly, therefore we must focus on learning and knowledge-sharing within and outside the company to keep apace fast-changing technologies and situations. To make this possible, cultural persity and an open workplace environment are our core protocols.” said Pete Chemsripong, General Manager of Thoughtworks Thailand. “We are honored to receive the Thailand’s Best Companies to Work For award in the technology industry category. It proves that we are on the right track and we will continue to create the environment that Thoughtworkers need to serve the fast-growing digital economy of Thailand.”
+In Thailand and globally we have strived to build a culture of collaboration, innovation and experimentation. The inclusive organizational structure has been designed to empower individuals to share and learn together, and from each other. We have focused on creating an environment that fosters inpidual and collective growth coupled with providing an environment and opportunities for growth and development. At Thoughtworks, the culture and investment in people will always remain a core priority.

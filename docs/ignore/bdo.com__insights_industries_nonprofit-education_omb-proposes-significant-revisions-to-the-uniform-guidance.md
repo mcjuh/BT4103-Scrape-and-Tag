@@ -1,0 +1,62 @@
+<!-- Source: https://www.bdo.com/insights/industries/nonprofit-education/omb-proposes-significant-revisions-to-the-uniform-guidance | Title: OMB Proposes Major Uniform Guidance Revisions | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# OMB Proposes Significant Revisions to the Uniform Guidance: What Federal Funding Recipients Need to Know 
+Article 5 min read
+  * PRINT 
+  * 
+
+The federal grants landscape may be entering another period of significant change. On May 29, 2026, the U.S. Office of Management and Budget (OMB) published a proposed rule in the Federal Register that would substantially revise the government-wide regulations governing federal financial assistance, including the Uniform Guidance in 2 CFR Part 200. The proposal represents one of the most significant reconsiderations of federal grants administration since the Uniform Guidance was first established, and it comes less than two years after the most recent major revisions became effective in October 2024. 
+If finalized, the proposed revisions could affect nearly every type of organization that receives federal funding, including nonprofit organizations, colleges and universities, healthcare entities, state and local governments, tribal organizations, and pass-through entities administering federal awards. Although the proposal is not yet final, it signals the Administration’s priorities for oversight, accountability, transparency, and stewardship of taxpayer resources. 
+## Why OMB Is Proposing These Changes
+According to OMB, the proposed revisions are intended to advance three primary objectives: 
+  * Improve transparency, accountability, and oversight of federal financial assistance. 
+  * Clarify the regulatory status and authority of OMB’s government-wide grant regulations. 
+  * Reduce administrative burden where appropriate while strengthening federal oversight mechanisms. 
+
+
+OMB notes that federal spending through grants and cooperative agreements has grown significantly over time and that existing regulations do not always provide sufficient oversight across the full lifecycle of a federal award—from program design and award selection through monitoring and closeout. The agency has indicated that the proposal is intended to strengthen stewardship of taxpayer dollars and improve consistency across federal grantmaking programs. 
+The proposal also reflects broader policy discussions across the federal grants community regarding compliance expectations, indirect cost reimbursement, recipient accountability, risk management, and the balance between administrative flexibility and federal oversight. 
+## Other Key Proposed Provisions That May Have a Significant Impact
+Among the more notable changes proposed are the following: 
+  1. Renaming the current Uniform Guidance in [2 CFR Part 200](https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200?toc=1) as the Uniform Grants Regulation (UGR) and clarifying that the regulatory text in [2 CFR, subtitle A](https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-A) is itself an OMB regulation with independent regulatory effect. 
+  2. Eliminating fixed-amount awards and fixed-amount subawards, which OMB states can limit transparency and hinder effective oversight. 
+  3. Prohibiting the use of federal awards to fund, promote, encourage, subsidize, or facilitate DEI policies. 
+  4. Prohibiting “discriminatory event services” by public entities receiving federal awards, which states that recipients and subrecipients of federal financial assistance may not discriminate based on the viewpoint, content, or subject matter of speech when providing services for events, meetings, conferences, speakers, or other expressive activities. This includes discrimination based on political, ideological, or religious viewpoints. 
+  5. Restricting “covered foreign collaborations” involving covered foreign countries or entities, extending long-standing Wolf Amendment-style restrictions (government-wide restrictions on certain collaborations, transactions, and activities involving entities connected to the government of the People’s Republic of China or other designated foreign adversaries), across all federal financial assistance programs. 
+  6. Expanding federal authority to terminate awards on a discretionary basis when they no longer effectuate program goals, agency priorities, or the national interest, along with creating new temporary suspension authority. 
+  7. Requiring pre-issuance review of all discretionary awards by senior appointees, including consideration of whether awards advance the President’s policy priorities. 
+  8. Requiring participation in DHS’s E-Verify program and use of Treasury’s “Do Not Pay” system for recipient employees. 
+  9. Simplifying notices of funding opportunities through mandatory posting on Grants.gov, a 500-word cap on executive summaries, and the use of Statements of Interest to reduce applicant burden. 
+  10. Encouraging multi-year awards to reduce the number of applications and individual awards issued each year. 
+  11. Enacting new restrictions on allowable costs, including advertising and public relations, publication costs, conferences, and lobbying. 
+
+
+## Why This Proposal Matters 
+The Uniform Guidance is the foundational framework for federal financial assistance. It establishes the administrative requirements, cost principles, and audit requirements that apply to federal awards across agencies. As a result, changes to 2 CFR Part 200 can have far-reaching implications for both recipients and subrecipients. 
+Organizations should monitor this proposal closely because future revisions could affect areas such as: 
+  * Internal control and compliance expectations. 
+  * Federal agency oversight authority. 
+  * Award administration requirements. 
+  * Risk assessment and monitoring procedures. 
+  * Cost allowability and reimbursement. 
+  * Subrecipient monitoring responsibilities. 
+  * Single Audit and related compliance requirements. 
+  * Federal reporting and documentation expectations. 
+
+
+While many aspects of the proposal will likely be debated during the rulemaking process, it clearly demonstrates OMB’s intent to revisit key elements of federal grants administration on a government-wide basis. 
+## The Importance of the Comment Period 
+At this stage, the proposal is not final. OMB is seeking public comments from stakeholders across the federal financial assistance community. This process gives recipients, grant administrators, compliance professionals, auditors, industry associations, universities, nonprofit organizations, healthcare systems, and governmental entities an opportunity to provide feedback and highlight potential operational, compliance, financial, and administrative impacts. 
+Public comments can play a meaningful role in shaping final regulations. Historically, OMB has considered stakeholder feedback when finalizing significant revisions to the Uniform Guidance, including during the extensive 2024 revision process. 
+OMB has established a 45-day comment period for the proposed rule. Comments are due by July 13, 2026, following publication of the proposal in the Federal Register on May 29, 2026. Stakeholders wishing to provide input should review the proposed rule carefully and [submit comments before the deadline](https://www.regulations.gov/commenton/OMB-2026-0034-0001). 
+### Looking Ahead 
+The federal grants environment continues to evolve rapidly. Many organizations are still navigating implementation issues related to the 2024 Uniform Guidance revisions that became effective beginning October 1, 2024, while also evaluating a new round of potentially significant regulatory changes. 
+Although it is too early to know which provisions, if any, will ultimately be finalized, the proposal underscores the importance of proactive compliance planning and ongoing monitoring of federal regulatory developments. Organizations receiving federal financial assistance should follow the rulemaking process closely, assess the potential impact on their operations, and consider participating in the comment process. Decisions made during this rulemaking cycle could shape federal grant administration, compliance expectations, and audit requirements for years to come. 
+As additional analysis becomes available and stakeholder feedback is submitted, recipients should expect continued discussion across the grants management, nonprofit, higher education, healthcare, and governmental sectors regarding the future direction of the Uniform Guidance. 
+BDO will continue to provide updates on key developments as the comment period progresses and additional guidance emerges. [Subscribe to email communications](https://login.bdo.com/bdousprdb2c.onmicrosoft.com/oauth2/v2.0/authorize?p=b2c_1a_signup_signin_bdocom&client_id=80433613-5089-459f-946a-dafacb6553ae&redirect_uri=https%253A%252F%252Fwww.bdo.com%252Fsignin-oidc&response_type=id_token&scope=openid%2520profile&response_mode=form_post&nonce=639161040000541891.MDNjYmU2ZmYtYTMzZS00N2FkLTgyMzYtNjJjMTZlY2ExMzViZGY4OTk0MWYtYzVlYS00YmRkLThiOWYtZGE4NDc4MDRjYWRk&state=CfDJ8BbdyWmhyIFHvd-NReGxMdA4oKFCJBsBLA4i1ztkg8EWEBsjBpq1kDIbdhlU_VWtU1T8FSMTMIeCJZr_W4Gum4X5q1TSCXd44qICvCqx1P3VwxlAzD9r6YU1xyN-qkLxqLzmzZLfoAEeOjkjEdJlfSDJEJ16YSEIxmx052zhWO9_LQ55pduloURqZzJXC6umPRIHvlh1UsG-H_t-lqGmIgpuco7zHgWDD4H_Hc2VKFMJMWIt0W5Lrjvi5u2aeCQ-QobVh9VLWP2G8A_mlfik_Jc1hbCQMptSB_QdZ2EvDZYS5MHcA-96nWjm1QYEn_ieNf-_9JBG9RdSYKWy-5Dgr5NL4fS9Eq2UBLa6IyJgTJuNvd8Bd2mBE9u4hfp4i5LFE58saEZkJcJmxMxFY8Ajlwv0suX3Nk2y8Jx2CrtV_TMZ&x-client-SKU=ID_NET8_0&x-client-ver=7.1.2.0) to stay informed and be the first to receive updates. If you have specific questions about how these proposed changes may affect your organization, [contact a BDO professional](https://www.bdo.com/contact).
+Select your preferences and stay current with our latest insights  [ SUBSCRIBE ](https://www.bdo.com/create-account)
+## Related Resources
+[ ArticleMore Than a Funding Extension: What the Continuing Resolution Means for OMB’s Proposed Uniform Guidance Rewrite  September 4, 2026 ArticleMore Than a Funding Extension: What the Continuing Resolution Means for OMB’s Proposed Uniform Guidance Rewrite  September 4, 2026A new Continuing Resolution pauses OMB’s proposed Uniform Guidance rewrite and delays its planned rollout. Explore what this temporary halt could mean for federal award recipients, agencies, and auditors in the months ahead. Read Morechevron_right ](https://www.bdo.com/insights/industries/nonprofit-education/what-the-continuing-resolution-means-for-ombs-proposed-uniform-guidance-rewrite)
+[ ArticleUnderstanding HUD's Mainstream Voucher Funding and Reporting Transition August 28, 2026 ArticleUnderstanding HUD's Mainstream Voucher Funding and Reporting Transition August 28, 2026HUD’s latest guidance changes how Mainstream Voucher funding is handled, but PHAs still need to track and report legacy MSV funds separately during the transition. Learn what changed, what stayed the same, and how to manage reporting correctly. Read Morechevron_right ](https://www.bdo.com/insights/industries/government-public-sector/understanding-huds-mainstream-voucher-funding-and-reporting-transition)
+[ ArticleHelping IRA Rebate Funding Reach Rural Communities August 24, 2026 ArticleHelping IRA Rebate Funding Reach Rural Communities August 24, 2026Learn how states can help IRA Home Energy Rebates funding reach rural communities by identifying need, expanding outreach, and building contractor networks in harder-to-serve areas. Read Morechevron_right ](https://www.bdo.com/insights/industry-specialty-consulting/helping-ira-rebate-funding-reach-rural-communities)
+[ ArticleThe Quick Wins Paradox: Why Early Wins Don’t Always Lead to Change August 24, 2026 ArticleThe Quick Wins Paradox: Why Early Wins Don’t Always Lead to Change August 24, 2026Explore the "quick wins paradox" and learn how the LIFTS framework helps nonprofits identify actions that support long-term transformation and sustainable results in our recent insight. Read Morechevron_right ](https://www.bdo.com/insights/industry-specialty-consulting/the-quick-wins-paradox-why-early-wins-dont-always-lead-to-change)

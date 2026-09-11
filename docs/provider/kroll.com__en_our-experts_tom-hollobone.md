@@ -1,0 +1,21 @@
+<!-- Source: https://www.kroll.com/en/our-experts/tom-hollobone | Title: Tom Hollobone | Investigations, Diligence and Compliance | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Tom Hollobone
+##### Regional Managing Director, Integrity Due Diligence, EMEA
+[Investigations, Diligence and Compliance](https://www.kroll.com/en/services/investigations-diligence-and-compliance)
+[Tom Hollobone](https://www.linkedin.com/in/tomhollobone/)[+44 207 029 5159](tel:+44%20207%20029%205159)thollobone@kroll.com
+AT A GLANCE 
+Tom Hollobone is a Managing Director in the Integrity Due Diligence practice, based in London. In this role, he advises clients navigating complex regulatory landscapes, as well as managing the EMEA research and operations team. Tom leverages more than 20 years of experience in integrity and transactional due diligence, investigations, third-party and vendor screening, business intelligence and C-suite pre-employment screening, through both open source and human intelligence.
+Tom specializes in advising on and executing pre-transactional due diligence on targets in various sectors and industries, with a focus on the renewable energy industry and ethical investing. He also has extensive experience in implementing third-party screening programs and assisting large multinational companies in setting up and maintaining robust anti-bribery procedures. This enables clients to adhere to various sanctions regimes, anti-money laundering regulations and anti-bribery regulations, such as the Foreign Corrupt Practices Act and the UK Bribery Act. He also oversees senior-level pre-employment screening for clients across EMEA, in strict compliance with EU data protection and privacy legislation. 
+In his career, Tom has worked on diverse projects including assisting FTSE 100 and S&P 500 companies. He implemented a third-party screening program for a FTSE-listed conglomerate to address bribery, sanctions and trade risks in their vendor and distributor networks. This program involved conducting a remediation exercise on existing third parties and evolved to identify other environmental, social and corporate governance (ESG) risks, such as evidence of pollution, forced labour and unsubstantiated sustainability claims. 
+He supported a Japanese private equity firm in identifying the integrity and regulatory risks in acquiring a global producer of renewable energy. This included a review of the target’s global operations, a review of the leadership teams and inquiries into the unusual awarding of energy licences. As a result of Kroll’s findings, the client removed problematic entities from the successful acquisition of the group. 
+Tom has managed an in-country review of anti-bribery and corruption processes and procedures, including interviews with compliance staff, for a subsidiary of a Middle East-based company in a high-risk jurisdiction. Additionally, Tom has provided tailored advice and investigative research to a Danish corporation to help identify the ultimate beneficial owners of several high-risk third parties, addressing potential sanctions exposure.
+He has also structured and managed a comprehensive screening program to conduct integrity due diligence on key decision makers at hedge funds for a large investment bank. 
+Lastly, he has managed in-depth source of wealth research for high-net-worth customers for several tier 1 global financial institutions. 
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Investigations, Diligence and Compliance](https://www.kroll.com/en/services/investigations-diligence-and-compliance)
+Kroll’s Investigations, Diligence and Compliance team helps our clients stay ahead of complex demands related to independent expert analysis, testimony, advice and intelligence in complex investigations, litigation and projects globally.
+[Explore insights](https://www.kroll.com/en/insights)
+[ June 6, 2022 Compliance Risk 2022 Anti-Bribery and Corruption Report ](https://www.kroll.com/en/reports/anti-bribery-and-corruption-report)

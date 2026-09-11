@@ -1,0 +1,53 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-customer-engagement | Title: The expanding auto ecosystem | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# The expanding auto ecosystem
+Understand the evolving customer journey and fuel customer engagement with data and AI-driven analytics.
+[Download the insights (will open in a new tab)](https://www.ibm.com/downloads/cas/JYMNZMVO)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+Gone are the days when the only way to buy a car was to walk into a dealership with the fear of being pressured and “sold to.” Customers today are much more educated—by the time they engage with a brand or dealership, they’ve already done price and quality comparisons and know something about financing options.
+71% of buyers reported exhaustively researching and comparing vehicles online before purchase, while nearly half (45%) expect to wait until they are very or extremely certain a vehicle is a good fit before contacting a dealer. Armed with this knowledge, today’s customers are in control as never before.
+> OEMs and dealers need to understand the entire customer journey to engage buyers at the right time and in the right manner.
+[One research report](https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/consumer-car-buying-process-reveals-auto-marketing-opportunities) cited a customer journey that covered hundreds of digital touch points over several months before the customer finally leased the vehicle that met her needs. It included searches, video views, and website visits to the sites of manufacturers, dealers, and auto reviewers. And it covered moments of interest in quality, suitability for her family’s needs, value, affordability, financing options, and where best to purchase. The implications for the auto industry are huge.
+As a manufacturer, what do you do when your historical primary point of customer contact—the auto dealer, and therefore your chief channel to market—is no longer the only, or even primary, point of contact? And how do auto dealers succeed with their changing status?
+> AI-driven analytics help pinpoint where a customer’s unique needs intersect with the needs of the OEM.
+**The customer engagement challenge**
+Over the past decade or so, original equipment manufacturers (OEMs) have stepped up their role in generating leads, which they then pass on to their dealers. Dealers follow up by facilitating a test drive and then, hopefully, closing the sale. But just as the leading OEMs are becoming proficient at this, the industry is rapidly changing beneath them.
+To many OEMs, “selling a car” and keeping the production line flowing continues to be the main reason to generate leads—in fact, the main reason for the brand’s existence. But the time is rapidly approaching when customers may still buy from a car brand, but they won’t necessarily buy a car.
+> OEMs must find ways to proactively promote new ownership models and mobility services to loyal drivers, users, and customers. 
+Today’s consumers want a seamless experience across all modes of interaction—physical and digital—that requires a correspondingly seamless data exchange among drivers, vehicles, dealers, and OEMs. But the majority of OEMs still separate their interactions with eCommerce purchasers— for example, from their dealers’ interactions with potential drivers—even if they happen to be the same people. This needs to change if the overall driver experience is to become coherent and fluid.
+So what’s driving the future of lead management? Being able to manage inquiries from many sources, about many products, to many stakeholders.
+**Proliferating customer journeys:** Anticipating and facilitating the paths customers may take drives customer engagement.
+Read the full report to learn how your organization can get more from its sales leads and drive engagement throughout the customer journey.
+[Download the insights(will open in a new tab)](https://www.ibm.com/downloads/cas/JYMNZMVO)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[Are you ready to thrive in the digital era? (will open in a new window) Are you ready to thrive in the digital era? Digital transformation is an opportunity to radically rethink your enterprise.  ](https://www.ibm.com/industries/automotive/connected-experiences)
+[Automotive industries (will open in a new window) Automotive industries The pace of change in automotive is accelerating. Markets have evolved from manufacturers and service providers largely defining what types of vehicles to produce and market into entirely new forms focused on in-vehicle experience.  ](https://www.ibm.com/industries/automotive)
+[IBM Consulting (will open in a new window) IBM Consulting Your trusted business and technology partner for digital transformation. ](https://www.ibm.com/consulting)
+How can IBM help you?
+[Are you ready to thrive in the digital era? (will open in a new window) Are you ready to thrive in the digital era? Digital transformation is an opportunity to radically rethink your enterprise.  ](https://www.ibm.com/industries/automotive/connected-experiences)
+[Automotive industries (will open in a new window) Automotive industries The pace of change in automotive is accelerating. Markets have evolved from manufacturers and service providers largely defining what types of vehicles to produce and market into entirely new forms focused on in-vehicle experience.  ](https://www.ibm.com/industries/automotive)
+[IBM Consulting (will open in a new window) IBM Consulting Your trusted business and technology partner for digital transformation. ](https://www.ibm.com/consulting)
+You might also like
+[Empowering autoworkers through AI—Digital tech for enhanced skills and productivity  Empowering autoworkers through AI—Digital tech for enhanced skills and productivity How augmenting human capabilities with AI and digital tools can increase productivity and resilience in the factory. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/empowering-autoworkers-ai)
+[The future of automotive commerce  The future of automotive commerce Digital customer experiences will make the difference in a competitive market. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-digital-experience)
+[Automotive State of the Industry (will open in a new tab) Automotive State of the Industry Explore the market and technology trends and strategic imperatives shaping decision-making in the automotive industry. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-state-of-industry)
+[Automotive in the AI era  Translations available Automotive in the AI era As more software defined vehicles hit the road, automakers are looking to AI to create more customer value and increase revenue. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-in-ai-era)
+[Automotive 2035  Translations available Automotive 2035 Explore the expectations and challenges of more than 1,200 global industry executives as they navigate the era of software-defined vehicles. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-2035)
+[Digital cars need digital automakers  Translations available Digital cars need digital automakers Software on wheels? Yes, in the form of digital cars. Learn how hybrid cloud can help automakers face their digital challenges. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-hybrid-cloud)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinel
+Open chat history
+AskIBV
+BETA
+AI Explained
+## AskIBV 
+BETA
+AskIBV combines advanced AI with the IBV’s trusted, data‑driven research and executive interviews to deliver exclusive insights and perspectives you won’t find anywhere else.
+Loading AskIBV insights AI
+Focus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/automotive-customer-engagement#truste_domain_list). 
+Accept All More options

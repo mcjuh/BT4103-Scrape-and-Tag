@@ -1,0 +1,30 @@
+<!-- Source: https://www.arup.com/insights/what-is-europes-nature-restoration-law/ | Title: What is Europe's Nature Restoration Law? - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/what-is-europes-nature-restoration-law/#main-content)
+Arup Explains
+#  What is Europe's Nature Restoration Law? 
+Last updated: January 2023 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/what-is-europes-nature-restoration-law/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/what-is-europes-nature-restoration-law/) Copy link  Close Share Menu 
+Europe’s nature is in decline, according to the European Environment Agency, threatened by climate change, urban sprawl, unsustainable farming and forestry and pollution, with more than 80% of habitats in poor condition.
+The EU’s proposed Nature Restoration Law, adopted by Parliament in a razor-thin vote in July 2023 will set out a mechanism to halt and reverse biodiversity loss of ecosystems in need by 2050.Nature is in crisis, placing human and planetary health at risk. The proposal to restore ecosystems, habitats and species across the European Union’s land and sea, includes legally binding targets for forest, marine, urban and agricultural ecosystems. Protecting and increasing biodiversity is seen as an essential step to limit global warming, and ultimately building up Europe’s resilience and strategic autonomy.To bring about these changes, member states will have to design national restoration plans with binding restoration targets and measures to fulfil obligations by 2050, with intermediate deadlines set for 2030 and 2040; although parliament has allowed for delays to implementation for exceptional conditions.The nature restoration agenda is the EU’s response to the [groundbreaking agreement reached during COP15](https://www.arup.com/perspectives/cop15-and-the-critical-fight-for-nature-restoration) in Montreal in 2022 to protect and restore 30% of the world’s degraded ecosystems by 2030. If implemented, the proposed EU law will be a game changer to restore ecosystems for people, the climate and the planet.
+The proposed law was tabled under the commissions’ European Green Deal, which seeks to make the bloc carbon neutral by 2050, and its [Biodiversity Strategy for 2030](https://environment.ec.europa.eu/strategy/biodiversity-strategy-2030_en). The EU expects the proposal will unlock long-term benefits when it comes to sustainable food security, [economic value](https://environment.ec.europa.eu/topics/nature-and-biodiversity/nature-restoration-law_en) and climate change; easing short-term concerns raised by some sectors. The proposal will now undergo another round of negotiations shaped as trilogues between the EU Parliament and EU Council.Nature and biodiversity underpin the success of our businesses, our nations and ultimately the health and well-being of our society. Arup has signed up to the Business for Nature pledge urging the EU to urgently adopt regulation that promotes the protection, restoration and sustainable use of nature, alongside clear implementation roadmaps. The letter, endorsed by more than 80 business and financial institutions, also calls for the strengthening and enforcement of existing environmental legislation to address the nature and climate crisis together. 
+Arup is helping clients across sectors to meet future restoration targets by leveraging our deep-domain expertise to embed biodiversity into everything they do.
+Halting and reversing nature loss is critical to supporting sustainable and equitable development and to safeguard planetary health.
+Fiona Patterson
+Europe Nature Leader
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/what-is-europes-nature-restoration-law/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/what-is-europes-nature-restoration-law/) Copy link  Close Share Menu 
+Explore similar insights
+[ Arup Explains ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=105) [ Nature-based solutions ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=140)
+## Insights
+### Explore more nature-based insights
+[ See more ](https://www.arup.com/insights/all-nature-insights/)
+[ Article  A much-needed restorative: why cities need to embrace nature-based solutions  ](https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/) [ Article  Practical, scalable, measurable: how cities can implement their sponge city ambitions  ](https://www.arup.com/insights/article-practical-scalable-measurable-how-cities-can-implement-their-sponge-city-ambitions/) [ Article  Cities are ecosystems – so how do we ensure they remain natural, human-friendly and thriving?  ](https://www.arup.com/insights/cities-are-ecosystems-natural-human-and-thriving/) [ Article  Green Star Communities v2: What does it mean for your development?  ](https://www.arup.com/insights/green-star-communities-v2-what-does-it-mean-for-your-development/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/what-is-europes-nature-restoration-law/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/what-is-europes-nature-restoration-law/)
+Close Close

@@ -1,0 +1,72 @@
+<!-- Source: https://www.erm.com/insights/sustainable-connections-podcast-9-business-case-esg-kkr/ | Title: Sustainable Connections Podcast Episode 9: The business case for ESG featuring KKR | Seed: https://www.erm.com/ (ERM) -->
+
+Podcast Global 40mins  23 Aug 2023 
+# Episode 9: The business case for ESG featuring KKR
+In our ninth episode, Mark Lee is joined by Ken Mehlman, Global Head of Public Affairs at global investment firm KKR and Co-head of KKR Global Impact fund, and Sabine Hoefnagel, Global Leader of Sustainability & Risk at ERM, to discuss the evolving business case for ESG.
+Their conversation covers:
+  * The financial impacts of ESG for companies and investors
+  * How to interpret and respond to the ESG backlash
+  * Investor expectations of C-suite leadership on ESG
+
+
+**Subscribe to the podcast**
+Share this page:
+## Explore related topics
+  * [Technology, Media & Telecommunications](https://www.erm.com/insights/?industry=Technology%2c+Media+%26+Telecommunications "View more 'Technology, Media & Telecommunications' articles")
+  * [Clean Energy Procurement ](https://www.erm.com/insights/?category=115 "View more 'Clean Energy Procurement ' articles")
+  * [Social Impact & Human Rights](https://www.erm.com/insights/?category=122 "View more 'Social Impact & Human Rights' articles")
+  * [Strategy & Transformation](https://www.erm.com/insights/?category=123 "View more 'Strategy & Transformation' articles")
+  * [Corporate Strategy/Development/M&A](https://www.erm.com/insights/?companyrole=Corporate+Strategy%2fDevelopment%2fM%26A "View more 'Corporate Strategy/Development/M&A' articles")
+  * [Training Programs & Courses](https://www.erm.com/insights/?category=154 "View more 'Training Programs & Courses' articles")
+  * [Climate & Decarbonization](https://www.erm.com/insights/?category=158 "View more 'Climate & Decarbonization' articles")
+  * [Supply Chain & Circularity](https://www.erm.com/insights/?category=166 "View more 'Supply Chain & Circularity' articles")
+
+
+Share this page:
+###  Authors 
+**Ken Mehlman**
+Global Head of Public Affairs KKR and Co-head of KKR Global Impact fund 
+**Sabine Hoefnagel**
+Global Leader of Sustainability & Risk at ERM 
+**Mark Lee**
+Global Director, Thought Leadership 
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. 
+Cookies Settings
+Accept
+## Privacy Preference Center
+## Privacy Preference Center
+  * ### Your Privacy
+  * ### Targeting Cookies
+  * ### Functional Cookies
+  * ### Performance Cookies
+  * ### Strictly Necessary Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+#### Performance Cookies
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Confirm My Choices
+Allow All

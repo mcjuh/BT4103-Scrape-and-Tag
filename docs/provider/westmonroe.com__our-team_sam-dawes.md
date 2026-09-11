@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/sam-dawes | Title: Sam Dawes, Consumer & Industrial Products Lead | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Sam is the Consumer & Industrial Products Industry Lead, partnering with private equity firms and their portfolio companies to drive scalable growth and value creation across consumer and industrial businesses. [ Linkedin](https://www.linkedin.com/in/sam-dawes-2b6a3525/)
+Contact
+As the Consumer & Industrial Products Industry Lead at West Monroe, Sam delivers impactful cross-functional programs for private equity firms and their consumer and industrial portfolio companies. He designs digital and operational solutions that help businesses scale, improve margins, and execute against investment theses across consumer goods, industrials, retail, and distribution.
+Recognized by Consulting Magazine as a “Rising Star of the Profession,” Sam is passionate about addressing workforce challenges and has published insights on attracting and retaining top talent. He joined West Monroe in 2011 after earning a bachelor’s degree from Miami University in Ohio.
+## _Sam’s All-In Mindset_
+Sam launched and grew the Minneapolis office to more than 100 people. He leads the Consumer & Industrial Products team, expanding it from four to 40+ since 2019, and leads foundational training programs for campus hires and managers.

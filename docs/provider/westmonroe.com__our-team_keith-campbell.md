@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/keith-campbell | Title: Keith Campbell, Global M&A Lead | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Keith serves as the global Mergers & Acquisitions lead, specializing in creating value in complex carve-out transactions while reducing costs and timelines for clients.[ Linkedin](https://www.linkedin.com/in/kcampbell7/)
+Contact
+Keith serves as West Monroe’s global Mergers & Acquisitions and Private Equity lead, helping clients create value in complex, time-sensitive transactions—including AI-driven transformations and carveouts—where pace, precision, and thesis alignment are critical.
+He specializes in carve-out transactions, where his expertise drives a 30% reduction in cost and timeline across operations and technology functions. With over 200 private carve-outs under his belt, Keith identifies opportunities quickly, negotiates favorable TSAs, and executes unique separation strategies, creating millions in value. Known for his hands-on approach, Keith isn’t afraid to dive into the most challenging deals. He’s also committed to mentoring the next generation of M&A practitioners, fostering growth and expertise across the firm. 
+## _Keith’s All-In Mindset_
+Outside of work, Keith serves on the Alumni Advisory Board at the University of Illinois and enjoys planning optimized trips to Disney World with his wife and three daughters. He was named a Notable M&A Dealmaker by Crain’s Chicago.

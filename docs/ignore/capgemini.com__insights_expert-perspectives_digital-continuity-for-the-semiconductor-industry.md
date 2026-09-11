@@ -1,0 +1,58 @@
+<!-- Source: https://www.capgemini.com/insights/expert-perspectives/digital-continuity-for-the-semiconductor-industry/ | Title: Digital continuity for the semiconductor industry - Capgemini | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/insights/expert-perspectives/digital-continuity-for-the-semiconductor-industry/#main-content)
+## Learn about major semiconductor industry trends, why digital continuity is important to the sector and what companies can do to create this continuity.
+> “Good companies manage Engineering. Great companies manage Product”.
+> **– Thomas Schranz**
+Semiconductors are the backbone of modern technology, playing a pivotal role in virtually every aspect of our daily lives. These tiny electronic components – which manage the flow of electric current in a device – can be found in everything from smartphones and LED bulbs, to cars, kitchen white goods and medical devices.
+Looking ahead, the importance of semiconductors is only expected to grow as society becomes increasingly reliant on digital technologies. The rise of the Internet of Things (IoT), autonomous vehicles, artificial intelligence (AI), and 5G networks all require sophisticated semiconductor technology. These advancements require faster, more energy-efficient, and smaller semiconductors to accommodate the ever expanding demands of a digitally connected world.
+As such – semiconductor manufacturers must produce more efficiently, meeting the ever increasing need for ‘smaller, faster, cheaper’, whilst maintaining margins, and dealing with fluctuations of demand and uncertainty of supply. Because of this, it’s increasingly evident that these companies need to better manage the requirements of the semiconductor chip product lifecycle – eg. the mix of chip complexity and the need for specialized ‘mission-specific’ chips, regulatory constraints, and various other challenges. This will allow companies to gain R&D, operational and margin efficiency, and decrease their time to market – largely by enabling digital continuity across their systems.
+Below we outline major trends affecting the semiconductor industry which, due to the impact of semiconductors, also have broader global significance.
+## Semiconductor industry trends
+  * **The growing importance of ecosystem partnering and selling across vertical industries:** Proof of functionality and new next-gen technology, for example, AI, Metaverse, 5G, and Edge, are driving partnerships across the semiconductor ecosystem to address end markets with complete end-market platforms.
+  * **5G is accelerating the pace and possibilities of connectivity – and the use cases it enables:** Next-gen connectivity is evolving, from wired and wireless networks to private 5G, which is revolutionizing use cases across a wide range of industries.
+  * **Verticals****are bringing chip design in-house:** Semiconductor manufacturers are losing share to a growing number of product/system companies, which are designing chips in-house for use in their own products/services – allowing them to disrupt, differentiate and control the supply chain.
+  * **The steady shift towards ‘Industry 4.0’ and fully automated manufacturing –** Digitization is creating an array of challenges (and opportunities) related to collecting, managing, processing, analyzing, visualizing, and effectively utilizing data – a microchip-hungry endeavor.
+  * **Increased product innovation and reimagined customer experiences****–** An increased focus on co-innovation and co-design with the goal of establishing digital continuity and a single source of truth (SSoT) for all product data. The intent is to accelerate product innovation and consequentially delight customers.
+  * **The value of Moore’s Law diminishing:** Semiconductor manufacturers competing on performance, power, and area (PPA) seek creative ways to achieve a competitive advantage, while others add value by producing customizable modular chips called ‘chiplets’ that can be combined to form a complete system-on-chip (SoC).
+
+
+## Why is digital continuity important to the semiconductor industry?
+‘Digital continuity’ is an organization’s ability to maintain (and put to use) important information, despite ongoing changes to the organization’s ways of storing data, and relentless evolutions in digital technology. This allows an organization to connect the ‘digital threads’ (information flows) of this data across its systems. Through this intelligent information sharing and monitoring, digital continuity helps the company and its ecosystem to operate more efficiently. 
+The ability to manage information will be a competitive differentiator. Success for companies that produce these chips will depend upon these companies achieving a faster time to market with a ‘first time right’ approach. Geopolitical changes and challenges (eg. certain countries ‘reshoring’ the production of core semiconductors for national security purposes) will continue to force the localization of production, and these new greenfield plants will only be able to meet the required pace with the right PLM backbone and digital continuity foundations.
+The previous approach to development, ie. using custom homegrown disconnected systems, results in misaligned technical investments and technical debt – namely the accumulated cost of shortcuts taken during software development, creating increased complexity and maintenance efforts over time.
+The traditional document-centric development approach often does not allow traceability between requirements, product design, or the front and back-end manufacturing of products. This loss of traceability creates additional costs, quality control issues, compliance risks and sustainability overheads for enterprises.
+As such, there is a clear need for an industrialized PLM backbone that provide a single source of truth (SSoT), offering consistency, accuracy, and reliability in the use of data and information across all departments and processes _._ In addition, rapid integration into end-user product ecosystems (which is required to meet the competitive pace of business today) requires the use of simulation and model-based approaches.
+## What features would such a PLM backbone require?
+  * **A complex hierarchical data model:** Allowing oversight of variables like chip order part numbers and customer part numbers. It could also manage complex chip design, development & verification and tapeout, as well as finalize die designs. Other capabilities would include register-transfer layer (RTL) design, GDSII data management, mask set management, along with control over reticles & die variants, wafer fabrication & sort – and, ultimately, the chip assembly process to the final product. 
+    * This data model would also address product complexity and technology development needs for the data models that are used by downstream systems to design and manufacture products. These include engineering bills of materials (EBOM), manufacturing bills of materials (MBOM), and production bills of materials (PBOM).
+  * **Management of new product introduction (NPI) programs and product portfolios:** Meeting the need for new markets, changing consumer demand and emerging technologies.
+  * **Integrated fabless and foundry management:** Once designs are ready to hand over to approved foundries or to outsourced semiconductor assembly and test (OSAT).
+  * **IP management:** Providing integrated IP reuse that is controlled and secured. Transparent IP management increases efficiency in R&D, operations, and margin efficiency – whilst avoiding the risk of IP infringement.
+  * **Product sustainability and environmental compliance:** Offering integrated material substance declarations and compliance checks for Integrated Device Manufacturer and Original Design Manufacturer compliance management. Ultimately, this can help to increase the effectiveness of semiconductor equipment, moving us towards the future of sustainability compliance in the factory. 
+
+
+With all the above, the semiconductor industry is looking to build integrated close-loop quality system tracking into its design and manufacturing processes.
+## An opportunity, for those with the means to seize it
+Once the hard work has been done to establish digital continuity across an organization’s many systems, companies can expect increased efficiency in R&D, operations and margins, decreased time to market and, of course, a significant competitive advantage.
+Semiconductor manufacturers today have a major opportunity to support the next generation of technology, but will only be able to properly exploit it with the kind of digital continuity that sophisticated PLM provides.
+Capgemini’s world class team of semiconductor industry experts is ready to help you build a next-gen secure, intelligent PLM backbone for your semiconductor business.
+Our VLSI practice experts be an integral part of your team, working closely with your business product managers and fab leadership team. We also offer pre-configured semiconductor solutions and accelerators for PLM, MES, and ERP triptych products – to help you bring everything together.
+Ready to progress, or want to learn more? Meet our experts.
+## Meet our experts
+### Ravindra Jadhav
+Digital Continuity Presales and Delivery Director
+Ravindra has 20+ years of experience, successfully delivering IT products and program solutions for a range of industries, including aerospace and defense, automotive and high-tech. He possesses deep knowledge of product lifecycle development, engineering, manufacturing and the supply chain – and has led many successful customer-centric programs
+Slider. Slide 1.
+### Shekhar Burande
+Vice President, Digital Continuity & PLM
+Shekhar is an expert in digital continuity, digital twin domains and is responsible for the Capgemini Engineering’s solution portfolio and Center of Excellence. Shekhar is also an active participant at events and has spoken in sessions on topics of digital continuity on subjects like cloud, battery and gigafactory and climate tech.
+Slider. Slide 1.
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All
+#### Contact with us
+Thank you for your submission. We will be in touch with you soon! 
+We are sorry, the form submission failed. Please try again.
+#### Contact with us
+Thank you for your submission. We will be in touch with you soon! 
+We are sorry, the form submission failed. Please try again.

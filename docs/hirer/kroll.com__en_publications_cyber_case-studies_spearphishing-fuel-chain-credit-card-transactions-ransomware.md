@@ -1,0 +1,43 @@
+<!-- Source: https://www.kroll.com/en/publications/cyber/case-studies/spearphishing-fuel-chain-credit-card-transactions-ransomware | Title: Spearphishing Compromises Fuel Chain Credit Card Transactions, Ends in Ransomware | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Digital Forensics and Incident Response
+# Spearphishing Compromises Fuel Chain Credit Card Transactions, Ends in Ransomware
+Share
+[https://www.linkedin.com/sharing/share-offsite/url=https%3A%2F%2Fwww.kroll.com%2Fen%2Fpublications%2Fcyber%2Fcase-studies%2Fspearphishing-fuel-chain-credit-card-transactions-ransomware](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.kroll.com%2Fen%2Fpublications%2Fcyber%2Fcase-studies%2Fspearphishing-fuel-chain-credit-card-transactions-ransomware "Linkedin")mailto:?subject=Spearphishing%20Compromises%20Fuel%20Chain%20Credit%20Card%20Transactions%2C%20Ends%20in%20Ransomware&body=https%3A%2F%2Fwww.kroll.com%2Fen%2Fpublications%2Fcyber%2Fcase-studies%2Fspearphishing-fuel-chain-credit-card-transactions-ransomware
+##### PCI Forensic Investigation (PFI) Request
+A PCI Forensic Investigation is intended to determine the occurrence, scope and potential causes of a potential breach of cardholder data protected under PCI DSS. A PFI can only be carried out by a certified PCI Forensic Investigator accredited by the PCI Council.
+In this case, the PFI was inspired by a common purchase point (CPP) investigation. Analysis of a collection of credit cards used in fraud can determine if multiple cards were used at the same location at approximately the same time. If so, it is likely that the criminals gained access to the card information via a breach at that common point where the cards were used. The evidence of a potential breach of cardholder data at the client’s gas stations led them to request Kroll investigators to perform a PFI. The investigation's objective was to determine if the fraudulent transactions associated with cards used at the gas station indicated a breach of the client’s systems.
+The main challenge of a PFI is identifying whether the fraud is associated with a compromise in the client’s network. A thorough investigation is required to either reject the explanation that a breach occurred or to identify all potential intrusions within the client’s network and systems.
+##### Endpoint Monitoring Across Fuel Controllers
+Kroll used [endpoint monitoring solutions](https://www.kroll.com/en/services/cyber/kroll-responder/managed-edr) to pull event logs from all of the fuel controllers within the customer environment. This enabled them to perform cross-correlation of event data across these controllers and search for evidence of potentially suspicious or malicious activity.
+Investigation of the event logs led to the discovery of an encoded PowerShell program installed on each of the fuel controllers. Decoding the PowerShell revealed that the malware was making outbound connections to IP addresses located in Asia over port 443.
+##### Reverse Engineering Malware
+After identifying the malicious code, Kroll investigators executed it in a sandboxed environment. While it was running, the PowerShell created an output file that contained encrypted data.
+Analysis of the PowerShell program enabled Kroll analysts to identify the encryption key used to create the output file and to decrypt its contents. The decrypted output file contained magnetic strip data pulled from credit cards that were used for payments at the infected fuel controllers.
+##### Identifying the Root Cause – Spearphishing
+After identifying the malware in question, the Kroll analysts were able to track the source of the attack back to the initial infection vector.
+A spearphishing attack was the initial entry point into the gas station’s network. The email targeted the military recruiter within the gas stations’ HR departments and pretended to be looking for a position for a veteran. When the HR employee clicked on the email, a backdoor was opened on their system.
+Once the attackers had access to the HR employee’s computer, they moved laterally through the gas station network to a system in the on-site coffee shop. From there, it was possible to access other stores’ coffee shop computers and drop the encoded PowerShell malware on fuel controllers across the region.
+##### Ending with a Ransomware Bang
+Based upon analysis of the malware and infection chain, remediation began in mid-May 2020. However, the attackers retained some access to the infected systems and detected the ongoing remediation efforts by May 31.
+Realizing that they had been detected and that their malware was being removed from infected systems, the cybercriminals abandoned their attempt to continue stealing card data from gas station customers. In a last-ditch effort to continue monetizing their access, the attackers deployed ransomware on the devices they still had access to.
+This decision to pivot from carding to ransomware demonstrates the evolution of the cyber threat landscape. Only a few years ago, attacks were largely siloed with a group performing a [BEC attack](https://www.kroll.com/en/insights/publications/cyber/monitor/business-email-compromise-trends) or a credit card breach or intellectual property theft. Today, when one attack is detected and remediated, cybercriminals adapt and attempt to maximize the impact and value of their access.
+Following the investigation, the client elected to keep Kroll’s endpoint protection technology installed on their systems. This ensures that their endpoints are monitored 24x7 for suspicious behaviors and can help to prevent similar attacks from occurring in the future.
+This case study was extracted from the webinar [COVID-19 and the Surge in Retail Threats](https://www.kroll.com/en/insights/webcasts-and-videos/webcast-replay-covid-19-surge-in-retail-cyber-threats), which also includes an overview of the PCI environment along with two additional case studies.
+Credit card attacks typically target point of sale (PoS) terminals at retail locations such as stores, restaurants and hotels. In the early stages of the COVID-19 pandemic, in-person retail activity greatly diminished, forcing criminals to seek other targets and to virtualize their operations. Gas stations are unique in that they remained a viable target during lockdown, and one cybercrime group took advantage of this to target a regional fuel chain through phishing rather than the traditional physical skimming device.
+This incident was a multi-stage and well-executed attack. From a single point of entry, the attackers were able to compromise gas stations across the region via the network for their in-store coffee shops. From there, malware was installed on fuel controllers, enabling large-scale theft of payment card data.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)
+Kroll merges elite security and data risk expertise with frontline intelligence from thousands of incident responses and regulatory compliance, financial crime and due diligence engagements to make our clients more cyber- resilient.
+[Payment Card Industry Services](https://www.kroll.com/en/services/cyber/regulatory-compliance-assessments/pci-services)
+Kroll offers a wide range of services for both merchants and payment processors, from audits to incident management services, to pragmatic approaches for strengthening your cyber defenses.
+[Cyber Risk Assessments](https://www.kroll.com/en/services/cyber/cyber-risk-assessments)
+Kroll's cyber risk assessments deliver actionable recommendations to improve security, using industry best practices & the best technology available.
+[Malware and Advanced Persistent Threat Detection](https://www.kroll.com/en/services/cyber/reactive-services/malware-advanced-persistent-threat-detection)
+Our expertise allows us to identify and analyze the scope and intent of advanced persistent threats to launch a targeted and effective response.
+[Cyber Vulnerability Assessment](https://www.kroll.com/en/services/cyber/threat-exposure-management/vulnerability-assessment)
+Proactively identify vulnerable systems and devices that may be exploited by an attacker or malicious software, often resulting in data loss or breach. 
+[24x7 Incident Response](https://www.kroll.com/en/services/cyber/reactive-services/incident-response)
+Kroll is the largest global IR provider with experienced responders who can handle the entire security incident lifecycle.
+[Reactive Services](https://www.kroll.com/en/services/cyber/reactive-services)
+Your partner for every stage of a cyber crisis

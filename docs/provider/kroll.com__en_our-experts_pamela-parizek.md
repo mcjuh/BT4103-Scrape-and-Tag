@@ -1,0 +1,28 @@
+<!-- Source: https://www.kroll.com/en/our-experts/pamela-parizek | Title: Pamela J. Parizek | Investigations, Diligence and Compliance | Washington, D.C. | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Pamela J. Parizek
+##### Managing Director
+[Investigations, Diligence and Compliance](https://www.kroll.com/en/services/investigations-diligence-and-compliance)
+[Pamela J. Parizek](https://www.linkedin.com/in/pamela-parizek-78b9335)[+1 202 649 1240](tel:+1%20202%20649%201240)Pam.Parizek@Kroll.com
+AT A GLANCE 
+Pam Parizek is a Managing Director in the Investigations, Diligence and Compliance practice, based in Washington, D.C. She leads the Financial Investigations practice for North America. 
+Pam is a recognized business leader, with more than 30 years of experience advising audit committees, C-suite executives and outside counsel on complex accounting, legal and regulatory matters.
+Before joining Kroll, Pam served in the enforcement division of the U.S. SEC, led the Washington, D.C. forensic practice of a Big Four accounting firm and served as an independent compliance advisor for several regulated entities and multilateral organizations.
+Over the past decade, Pam has led over 100 engagements in 30 countries, including numerous cross-border investigations into alleged anti-bribery and corruption (ABC) violations. She has developed ABC training programs, risk assessments, compliance audits, due diligence procedures and remediation plans for clients in EMEA, South America, APAC and the U.S. Her findings have been presented to the U.S. SEC, U.S. Department of Justice (DOJ), Serious Fraud Office and other U.S. and foreign regulatory authorities—in compliance with restrictive data protection and privacy regimes around the world.
+Pam has also conducted a wide variety of forensic accounting investigations involving overstatement of revenue, improper deferral of expenses, misappropriation of assets, manipulation of reserves, improper accounting for bonus accruals, performance rebates and accounts receivable reserves, premature recognition of software revenue and improper capitalization of current period expenses. She specializes in crisis management involving multiple constituents, including but not limited to U.S. and foreign regulators, corporate boards and audit committees, C-suite executives, external counsel, independent auditors and other stakeholders.
+Pam's regulatory compliance engagements include serving as an independent auditor to a regulated entity to assess compliance with undertakings as per U.S. SEC and Commodity Futures Trading Commission (CFTC) orders. She was also appointed as an independent auditor in a False Claims Act matter to facilitate settlement among a global shipping company, the DOJ and the Department of Navy. She has acted as an external compliance advisor for several multilateral investment funds to administer annual financial disclosure programs. Earlier in her career, she served as a financial advisor to the regulatory auditor of a national stock exchange, where she assessed whether the exchange’s policies and procedures pertaining to its investigations and disciplinary program were reasonably designed to detect and deter violations of federal securities laws and exchange rules governing floor members.
+Pam holds a J.D. from Northwestern University School of Law and a B.A. from Harvard College. She is a licensed Certified Public Accountant in Virginia, and she is Certified in Financial Forensics (CFF) by the American Institute of Certified Public Accountants. She is also a member of the International Association of Independent Corporate Monitors.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Forensic Investigations and Monitorships](https://www.kroll.com/en/services/forensic-investigations-monitorships)
+The Kroll Investigations, Diligence and Compliance team consists of experts in forensic investigations and intelligence, delivering actionable data and insights that help clients worldwide make critical decisions and mitigate risk.
+[Financial Crime Advisory](https://www.kroll.com/en/services/financial-crime-advisory)
+Kroll’s global Financial Crime Advisory team is comprised of seasoned compliance, investigative and regulatory professionals to help enterprises around the world defend against the rapid growth of financial crime.
+[Investigations, Diligence and Compliance](https://www.kroll.com/en/services/investigations-diligence-and-compliance)
+Kroll’s Investigations, Diligence and Compliance team helps our clients stay ahead of complex demands related to independent expert analysis, testimony, advice and intelligence in complex investigations, litigation and projects globally.
+[Corporate Compliance and Business Ethics Advisory](https://www.kroll.com/en/services/investigations-diligence-and-compliance/corporate-compliance-and-business-ethics-advisory)
+Kroll’s Corporate Compliance and Business Ethics Advisory team helps businesses turn compliance and ethics into a strategic advantage in the moments that matter most.
+[Explore Insights](https://www.kroll.com/en/insights)
+[ July 10, 2023 Compliance Risk Staying Ahead of the Curve: Understanding and Implementing the DOJ's Latest Guidelines Emanuel Batista, Pamela J. Parizek, Maria Vahos ](https://www.kroll.com/en/publications/compliance-risk/understanding-implementing-dojs-latest-guidelines)
+[ March 25, 2022 Fraud Kroll/IIA Report 2022 - Fraud and the Pandemic - Internal Audit Stepping Up to the Challenge Pamela J. Parizek, Arturo del Castillo ](https://www.kroll.com/en/reports/kroll-iia-report-2022-fraud-and-the-pandemic)

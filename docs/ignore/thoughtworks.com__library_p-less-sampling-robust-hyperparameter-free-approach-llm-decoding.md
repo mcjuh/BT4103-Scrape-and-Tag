@@ -1,0 +1,12 @@
+<!-- Source: https://research.thoughtworks.com/library/p-less-sampling-robust-hyperparameter-free-approach-llm-decoding | Title: p-less Sampling: A robust hyperparameter-free approach for LLM decoding | Thoughtworks AI Labs | Seed: https://www.thoughtworks.com/ (ThoughtWorks) -->
+
+Research
+# p-less Sampling: A robust hyperparameter-free approach for LLM decoding
+By 
+Published: September 27, 2025  | Last updated: February 27, 2026
+Obtaining high-quality outputs from Large Language Models (LLMs) often depends upon the choice of a sampling-based decoding strategy to probabilistically choose the next token at each generation step. While a variety of such sampling methods have been proposed, their performance can be sensitive to the selection of hyperparameters which may require different settings depending upon the generation task and temperature configuration. 
+In this work, we introduce p-less sampling: an information-theoretic approach to sampling which dynamically sets a truncation threshold at each decoding step based on the entire token probability distribution. Unlike existing methods, p-less sampling has no hyperparameters and consistently produces high-quality outputs as temperature increases. We provide theoretical perspectives on p-less sampling to ground our proposed method and conduct experiments to empirically validate its effectiveness across a range of math, logical reasoning, and creative writing tasks. 
+Our results demonstrate how p-less sampling consistently outperforms existing sampling approaches while exhibiting much less degradation in text quality at higher temperature values. We further show how p-less achieves greater inference-time efficiency than alternative methods through lower average token sampling times and shorter generation lengths, without sacrificing accuracy. Finally, we provide analyses to highlight the benefits of p-less through qualitative examples, case studies, and diversity assessments.
+**Read the[research paper on arXiv](https://arxiv.org/abs/2509.23234).**
+**The code can be[found on GitHub](https://github.com/ryttry/p-less).**
+**Learn more[in this companion piece](https://research.thoughtworks.com/library/p-less-sampling).**

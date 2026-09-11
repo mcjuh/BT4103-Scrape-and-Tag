@@ -1,0 +1,45 @@
+<!-- Source: https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/ | Title: Can autonomous robots make construction more sustainable? - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/#main-content)
+Article
+#  Can autonomous robots make construction more sustainable? 
+Autonomous 3D printing robots can play a key role in a sustainable built environment. Advances in machine learning, localisation and mapping, state estimation, motion planning, and even sensor capability are all contributing to vastly more capable robots.
+Alvise Simondetti
+Last updated: March 2024 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact our experts
+A robot with a 3D printing arm is successfully laying down an initial layer of construction clay, tracing a complex pathway across the floor.
+However, like many a confident tradesperson before it, it suddenly stops. It has found an unexpected obstacle – to continue would involve rolling over the material it has just deposited. The robot pauses a moment, reverses, before relocating to a better position and then continues with its task.
+This robot demonstrator, a collaboration between University College London and Arup, marks a step change in the development of autonomous robotics in construction, where the machines aren’t simply following an instruction set, but becoming aware and knowing agents themselves. Beyond the technological achievement this represents, our team are also convinced that this could lead to more sustainable construction practices for the industry.
+## Beyond “dull, dirty and dangerous”
+If the best definition of a “construction robot” once meant a large arm, stuck in a safety-rigged work cell, tirelessly repeating the same task, the next generation is a huge leap forward. Advances in machine learning, localisation and mapping, state estimation, motion planning, and even sensor capability are all contributing to vastly more capable robots.
+Until now, we have mainly used robotic arms to replace humans in the narrow opportunity presented by tasks that are dull, dirty and dangerous – repeating them millions of times with little flexibility. However, mobile and aware robots can perform tasks that are specific, sustainable and scalable. They are specific in that they can produce one-off designs. They are sustainable because they render viable material and reduce waste. Yet they maintain scalability, being able to effortlessly multiply in hundreds or even millions. What is more, they are “smart” enough to work alongside humans, rather than replace them.
+Aware and mobile deposition robot by UCL with Arup. Given a task, onboard planning algorithms make decisions that correct as they go.
+## Extending the life of infrastructure
+For infrastructure, frequent repair is essential and is also the lowest emission way to extend assets’ lifespans. Consider potholes. They cause millions of pounds of damage to cars every year. However, the time involved in locating potholes then repairing them is a drain on resources. Sometimes it is seen as easier to simply resurface a whole section of road, despite the economic and environmental cost of doing so.
+A ubiquitous and always-on-duty infrastructure repair robot, aware and mobile as UCL’s prototype demonstrates, could patrol streets, identify potholes (or the initial damage that leads to bigger gaps) and fill them in on the go. This approach would stop problems before they happen, save lives, as well as extending the life of an asset, reducing the environmental impact of unnecessary additional maintenance or pre-emptive replacement.
+## Repurposing without new emissions
+We already know that repurposing existing buildings leads to outstanding embodied carbon reduction, as the majority of the structure is reused and counts for zero in embodied carbon (and cost) calculations. But what are the risks with this approach?
+When developers consider a case for retrofit versus new build, their preference is to keep it simple, opting to add standard steel sections working in isolation with the existing structure. The approach minimises construction risk and ensures a swift installation. However, standard sections are associated with redundant material.
+Manual column strengthening techniques such as Bespoke Concrete Confinement, achieves structural bonding between existing and new, dramatically reducing embodied carbon. However, this slow and complex process relies on access to skilled workers, meaning it is not viable in most cases. Autonomous robotics could de-risk this and make advanced carbon reduction technique commercially viable.
+## Building new assets with nature
+Climate change is challenging us to adapt as a society, and solutions mustn’t add to the problem – either in increasing emissions or causing other negative effects. Flooding causes severe damage, yet the building of reinforced concrete walls and barriers downstream is very impactful and far from sustainable. The alternative is natural flood management using sticks, stones and other debris found in a river’s watershed to create leaky dams upstream which slow surface runoff and enables ground absorption. Unfortunately, these more natural techniques cannot easily scale.
+Using an autonomous robot, we could imagine a kind of ‘beaver’ that is able to use local and naturally occurring materials to create and maintain decentralized natural defences, and in doing so, work alongside nature. AI and ML systems are already beginning to characterise land and with digital terrain models are identifying the position, height and orientation of thousands of decentralised natural defences. Guided by this highly specific and localised information, a fleet of autonomous mobile robots could then continuously reassemble leaky dams using locally occurring debris, fetched by untrained local workers. These “beaver colonies”, working alongside humans, could lead to regenerative design at scale.
+## Who will build this future?
+These robots use materials very precisely and avoid waste. They can continuously monitor and repair. They complement and augment human workers’ role on a site, while de-risking key tasks, they can implement bespoke design in tune with nature at scale. In general, they boost efficiency while reducing our industry’s environmental impacts. The emerging combination of advantages that robotics now presents is encouraging us to rethink many of our sector’s traditional practices. So, will the construction industry boldly develop this opportunity, or will we wait for others to innovate for us?
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/) Copy link  Close Share Menu 
+Explore similar insights
+## Insights
+### Explore more digital insights
+[ See more ](https://www.arup.com/insights/all-decarbonisation-insights/)
+[ Article  Digital, human, inclusive – how to design a workplace for neurodivergent people  ](https://www.arup.com/insights/digital-human-inclusive-how-to-design-a-workplace-for-neurodivergent-people/) [ Article  Can virtual design and construction (VDC) transform the efficiency of today’s building process?  ](https://www.arup.com/insights/reaping-the-benefits-of-digital-integration-across-a-projects-lifecycle/) [ Article  From urban heat to biomimetic design: how digital tools can support greener cities  ](https://www.arup.com/insights/from-urban-heat-to-biomimetic-design-how-digital-tools-can-support-greener-cities/) [ Publication  Digital Cities, Resilient Cities Delivering urban resilience through digital solutions  ](https://www.arup.com/insights/digital-cities-resilient-cities-delivering-urban-resilience-through-digital-solutions/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/can-autonomous-robots-make-construction-more-sustainable/)
+Close Close

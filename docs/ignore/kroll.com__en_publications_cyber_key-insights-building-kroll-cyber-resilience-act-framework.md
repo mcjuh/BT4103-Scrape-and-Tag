@@ -1,0 +1,53 @@
+<!-- Source: https://www.kroll.com/en/publications/cyber/key-insights-building-kroll-cyber-resilience-act-framework | Title: A New Compliance Discipline: Building the Kroll CRA Framework | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Cyber
+September 4, 2026
+# A New Compliance Discipline: Key Insights from Building the Kroll Cyber Resilience Act Framework
+From September 11, 2026, any manufacturer, importer or distributor of hardware and software products with digital elements made available on the EU market must comply with the Cyber Resilience Act (CRA). The harmonized standards under the CRA are still being drafted, and the first will not be finalized before manufacturers need to act. In response, the Kroll Risk Advisory team has developed a 62-control CRA Framework, drawing on its experience of supporting connected-product manufacturers across the EU with CRA readiness, conformity assessment preparation and European Union Agency for Cybersecurity (ENISA) reporting operations. The development process highlighted many areas that set the CRA, and the steps required to comply with it, apart from other regulations.
+This article provides an overview of these important differences and sets out how Kroll’s CRA Framework enables manufacturers to address them, mitigating the potential pitfalls and complexities of compliance.
+[DOWNLOAD THE KROLL CRA FRAMEWORK PREVIEW](https://edge.sitecorecloud.io/krollllc17bf0-kroll6fee-proda464-0e9b/media/kroll-images/pdfs/key-insights-building-kroll-cyber-resilience-act-framework.pdf)
+## The Imperative for a CRA-Specific Framework
+Every chief information security officer we work with already runs a credible security program. Most hold ISO 27001, many align with NIST CSF 2.0 and a few have layered in IEC 62443 or NIST SSDF for product engineering. The assumption is that those certifications carry them most of the way to CRA conformity, but this is not the case.
+While existing frameworks govern how an organization manages security, the CRA governs how a product behaves on the market. This distinction changes who is accountable, what evidence is required and where the audit lands.
+A connected multifunction printer manufacturer we advised this year held ISO 27001 across three sites and operated a mature software development life cycle (SDLC). Its progression gap to CRA readiness still amounted to nine months of net-new work, almost none of which was visible through the enterprise security program. That pattern repeats across sectors, which is why we needed something built for the product layer rather than bolted onto the organizational layer.
+## The Kroll Cyber Resilience Act Framework: Built Around Regulatory Focus
+The Kroll CRA Framework consists of 62 controls structured across eight domains, derived directly from CRA Annex I, Annex II and Articles 13 to 28. It is important to note that each domain is weighted according to where the regulation places its emphasis, not where security teams are most comfortable.
+Product Security Design and Vulnerability Management together carry 45% of the weight. This is intentional. The CRA is, at its core, a product engineering regulation communicated in compliance language. In our view, treating it purely as a governance exercise is the fastest way to fail a conformity assessment.
+## A 0-to-5 Maturity Model, Not a Pass/Fail Tick Box Exercise
+Binary scoring is not effective for readiness work. Manufacturers need to know where they are on the curve, what good looks like for their product class and how much runway they have to close the gap. We score every control on a six-point scale, from 0 (No Capability) to 5 (Optimizing), with Level 3 (Defined) as the working target for CRA conformity and Level 4 (Managed and Measurable) for Class II and Critical product families.
+This matters operationally. A manufacturer at Level 2 in Vulnerability Management can still ship products in 2026 if it has a credible plan to reach Level 3 by mid-2027. A manufacturer at Level 1 with no SBOM and no disclosure process cannot. The maturity model clearly defines the difference in a way that a red/amber/green dashboard does not.
+## Gap Severity Drives the Roadmap, Not the Other Way Around
+Every gap is assigned a severity rating tied to a fixed remediation window. This is the part clients use most because it turns assessment output directly into a budgeted program plan.
+The pattern we see across engagements is consistent: Around a third of clients carry at least one Critical gap in the incident response or vulnerability management domain, and almost all carry at least one High in Technical Documentation. The remediation conversation becomes much easier when the timeline is mathematical rather than negotiable.
+## Cyber Resilience Act Cross-Mapping: Where the Certificates Help
+We mapped all 62 controls against five widely adopted frameworks. The headline number is reassuring. Holding ISO/IEC 27001:2022 together with NIST CSF 2.0 gives a manufacturer roughly 92% topical coverage of the CRA: 36 controls map directly, 21 map partially and only five have no equivalent at all.
+That is the good news. The bad news is in those five frameworks. They are the conformity assessment controls (CA.1 through CA.7 plus TD.7), and they sit at the regulatory core of the CRA: product classification documentation, CE marking procedures, DoC preparation, NB engagement, technical file compilation and the EU-specific update mechanism. No security framework addresses them because they were never security work. They are product safety regulation, borrowed wholesale from the world of CE marking on machinery and toys.
+This is the gap that catches mature security organizations off guard. It is not a technical weakness; it is an entirely new compliance discipline, and it requires legal, regulatory affairs and product engineering to work together. The security team alone cannot close it.
+## Key Insights from Building the Kroll CRA Framework
+Three notable findings have shaped how we run every CRA engagement since developing our framework:
+  * **The CRA is more prescriptive than security teams expect:** It tells the manufacturer what the product must do at the device level, not what the organization should aspire to. “Secure by default” is not a principle here. It is a testable property with documentation requirements attached.
+  * **The partial-coverage controls are riskier than the no-coverage ones:** The 21 partial mappings create a false sense of readiness. ISO 27001 A.8.8 covers vulnerability management at the organizational level. The CRA requires it per product, with mandatory coordinated disclosure, a public contact point and machine-readable advisories per product family. While this is topically adjacent, it is operationally a very different exercise.
+  * **The strongest ISO 27001 program we have seen still faces three to six months of net-new work to reach CRA conformity:** The certificate is an asset, not a silver bullet. The companies that use it as a springboard are six months ahead of those using it as a shield.
+
+
+## The Urgent Need for a Defensible Approach
+The harmonized standards will arrive, with the first draft European standards under the CRA expected to be in force throughout 2026 and into 2027. We will refresh the Kroll framework as they emerge. Until then, manufacturers need a structured way to assess their current status, plan what to fix and arrive ready for a NB audit, rather than merely audit-hopeful.
+We have shared the Kroll CRA Framework with clients, peer reviewers and a small number of EU regulatory contacts. We are publishing the methodology openly because the CRA affects every connected-product manufacturer in the European market, and the harmonized standards will not arrive in time to help the December 2027 cohort. The earlier the industry converges on a defensible approach, the fewer products will be pulled from the shelves in 2028.
+## Download the Framework Preview
+We have published a downloadable extract of the 62-control framework, including the eight domain weightings, the maturity model and a sample of the cross-mapping to ISO 27001 and NIST CSF 2.0. It is the same artifact we use in client kick-offs.
+[DOWNLOAD THE KROLL CRA FRAMEWORK PREVIEW](https://edge.sitecorecloud.io/krollllc17bf0-kroll6fee-proda464-0e9b/media/kroll-images/pdfs/key-insights-building-kroll-cyber-resilience-act-framework.pdf)
+If you would like the full framework walkthrough with our advisory team, the link above also routes to our booking page.
+The Kroll Cyber Risk Advisory team works with connected-product manufacturers across the EU on CRA readiness, conformity assessment preparation and ENISA reporting operations. We support over 3,000 [incident response](https://www.kroll.com/en/services/cyber/reactive-services/incident-response) cases worldwide every year, which is where most of this framework was stress-tested before it ever reached a client deck.
+[ Hristiyan Lazarov Associate Managing DirectorCyber and Data ResilienceFrankfurt ](https://www.kroll.com/en/our-experts/hristiyan-lazarov)
+[Hristiyan Lazarov](https://www.linkedin.com/in/hlazarov/)hristiyan.lazarov@kroll.com[+49 6971918429](tel:+49-6971918429)
+[ Tiernan Connolly Managing DirectorCyber and Data ResilienceDublin ](https://www.kroll.com/en/our-experts/tiernan-connolly)
+[Tiernan Connolly](https://www.linkedin.com/in/tiernan-connolly-11847516/)tiernan.connolly@kroll.com[+353 14283125](tel:+353-14283125)
+[ Craig Parkin Associate Managing DirectorCyber and Data ResilienceLondon ](https://www.kroll.com/en/our-experts/craig-parkin)
+[Craig Parkin](https://www.linkedin.com/in/craig-parkin-b90705a/)craig.parkin@kroll.com[+44 2070890960](tel:+44-2070890960)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)
+Kroll merges elite security and data risk expertise with frontline intelligence from thousands of incident responses and regulatory compliance, financial crime and due diligence engagements to make our clients more cyber- resilient.
+[Regulatory Compliance Assessments](https://www.kroll.com/en/services/cyber/regulatory-compliance-assessments)
+Expert support to comply with a wide range of cybersecurity compliance requirements and build long-term cyber resilience.
+[DORA Compliance Assessment](https://www.kroll.com/en/services/cyber/regulatory-compliance-assessments/dora)
+Understand your gaps and prioritize key requirements for DORA compliance with guidance from Kroll experts.

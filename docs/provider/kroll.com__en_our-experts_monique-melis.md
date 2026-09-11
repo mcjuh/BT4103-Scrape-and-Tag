@@ -1,0 +1,30 @@
+<!-- Source: https://www.kroll.com/en/our-experts/monique-melis | Title: Monique Melis | Global Head of Financial Services Compliance and Regulation | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Monique Melis
+##### Managing Director and Global Head of Financial Services Compliance and Regulation
+[Monique Melis](https://www.linkedin.com/in/monique-melis-b0326013)[+44 (0)20 7089 0820](tel:+44%20\(0\)20%207089%200820)monique.melis@kroll.com
+AT A GLANCE 
+Monique Melis is Managing Director and Head of the Financial Services Compliance and Regulation practice, based in London. She joined from Kinetic Partners, which was acquired by Kroll in January 2015. 
+Monique specializes in regulatory advice and, over the last 26 years, has worked with the FCA, various types of investment firms and asset managers. Monique is a member of the firm’s Luxembourg regulated entity Board where she acts as a Non-Executive Director since 2012. In June 2017 Monique was appointed a non-executive director at Metro Bank PLC, a London Stock Exchange listed company. 
+Monique’s areas of expertise include senior management systems and controls, governance and regulatory risk, market monitoring issues, global procedure manuals for banks, large investment firms, regulatory investigations, transaction reporting, expert witness reports and regulatory due diligence. Monique is also involved in the resolution of regulatory investigations issues and has spoken at industry seminars and written articles on regulatory change and transaction reporting on numerous occasions. Monique has testified in the high court in respect of a high-profile AML case and acted as expert witness on both AML and market conduct cases globally.
+Prior to joining Kinetic Partners, Monique was the Head of Market Regulation at the Cayman Stock Exchange. She also worked at CIMA where she assisted in the Cayman Islands IMF review and co-drafted the Securities Investment Business Law for the Islands. She previously managed the Transaction Monitoring Unit in the Markets and Exchanges Division of the FSA. She transferred to the FSA from the Securities and Futures Authority where she worked in the Surveillance Department. 
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+Monique has an MSc in Economics and Business Administration from Linkoping University (Sweden) and Ecole Supérieure de Commerce, Nantes-Atlantique (France) and holds a Diploma in Regulation and Compliance from the Chartered Institute for Securities and Investment. In 2012, she completed the Executive Leadership and Managerial Finance programme at the University of Chicago Booth School of Business.
+Monique helps clients worldwide with compliance and regulation needs and shares how her professional growth at Kroll helps clients today. She explains how Kroll can help clients meet their compliance and regulatory requirements, grow and prosper. 
+Explore Insights
+[ May 6, 2026 Regulatory Updates Financial Compliance in 2026 – Risk Is Migrating Faster Than Regulation Monique Melis ](https://www.kroll.com/en/publications/financial-compliance-regulation/financial-compliance-in-2026-risk-migrating-faster-than-regulation)
+[ December 3, 2024 Regulatory Updates Transparent Commission Disclosure in Vehicle Finance Agreements: What Does Good Look Like? Monique Melis, Sebastien Petsas ](https://www.kroll.com/en/publications/financial-compliance-regulation/transparent-commission-disclosure-vehicle-finance-agreements)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Compliance and Regulation](https://www.kroll.com/en/business-challenges/compliance-and-regulation)
+End-to-end governance, advisory and monitorship solutions to detect, mitigate and remediate security, legal, compliance and regulatory risk.
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+In the ever-evolving financial services landscape, Kroll's award-winning team offers comprehensive regulatory and compliance services, guiding clients through registration, licensing, and compliance support to minimize risks and enhance efficiency globally.
+[Regulatory Advisory and Assurance Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/regulatory-advisory-and-assurance-services)
+In an era of increasing regulatory scrutiny, Kroll stands as a premier provider of Regulatory Advisory and Assurance Services to the financial services industry. Our award-winning team helps clients navigate complex regulatory landscapes, offering tailored solutions from governance and risk management to financial crime prevention and investment compliance.
+[Global Regulatory Licensing Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/global-regulatory-licensing-services)
+Kroll's expert team provides regulatory registration and licensing services taking the burden of regulatory requirements off business operators. We partner with you to answer regulator queries and assist you in developing a tailored operational framework that meets regulator and investor expectations.
+[Regulatory Due Diligence](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/regulatory-due-diligence)
+Kroll is a leader in performing regulatory and compliance reviews that complement the financial, commercial and legal M&A transaction due diligence process.
+[Skilled Person and Regulator Commissioned Reviews](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/skilled-person-and-regulator-commissioned-reviews)
+Kroll partners with regulators and firms worldwide to deliver comprehensive skilled person reports, address risks and resume to business as usual. We streamline processes, allowing firms to tackle challenges, ensure compliance, and prioritize their core business.

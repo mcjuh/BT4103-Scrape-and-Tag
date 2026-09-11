@@ -1,0 +1,27 @@
+<!-- Source: https://www.kroll.com/en/our-experts/nicolas-inman | Title: Nicolas Inman | Compliance and Regulation | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Nicolas Inman
+##### Managing Director
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+[+44 (0)20 7089 0939](tel:+44%20\(0\)20%207089%200939)nicolas.inman@kroll.com
+AT A GLANCE 
+Nicolas Inman joined Kroll in January 2015 from Kinetic Partners. He is a Managing Director in the Financial Services Compliance and Regulation practice, based in London.
+Nicolas specializes in the provision of ad hoc regulatory advice as well as larger project-based consultancy work including the assessment of firms’ processes and procedures, the identification of any weaknesses and the design of appropriate regulatory and risk management frameworks.
+Nicolas has been a consultant with Kroll for almost 10 years, during which time he has gained significant experience across multiple jurisdictions and regulatory regimes for a wide variety of firms. Nicolas has been working with investment banks, brokers, asset managers and custodians, through a mixture of on-going relationships, long term secondments and standalone projects, typically thematic in nature. Nicolas has worked on projects across the regulatory spectrum including market conduct and electronic trading reviews, anti-money laundering and financial crime, conduct of business issues, governance and risk management frameworks. Most recently, from 2012 to 2015, Nicolas co-led the governance, risk and compliance consulting service offering based in London.
+Nicolas has gained extensive experience in assisting clients with their control frameworks and risk assessments, particularly in relation to measuring the adequacy and effectiveness of existing internal controls relative to business activity and profile.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+Explore Insights
+[ March 10, 2026 Regulatory Updates HM Treasury Consultation on Proposed Reforms to the AR Regime Nicolas Inman, Matteo Basso, Philip Ost, Marc Maingot ](https://www.kroll.com/en/publications/financial-compliance-regulation/hm-treasury-consultation-proposed-reforms-ar-regime)
+[ March 3, 2025 Regulatory Updates Global Regulatory Pulse Colleen Corwell, Hannah Rossiter, Matteo Basso, Rose Kaufman, Ana D. Petrovic, Alasdair Putt, Eoin Devlin, Rajiv Philip, Laura Graham, Kyle Larson, Josh Parker, Karar Kadhim, Matthew Guertler ](https://www.kroll.com/en/publications/financial-compliance-regulation/global-regulatory-pulse-q1-2025)
+[ December 3, 2024 Regulatory Updates Global Regulatory Pulse  Colleen Corwell, Hannah Rossiter, Alasdair Putt, Eoin Devlin, Rose Kaufman, Dimitri Parraud, Ana D. Petrovic, Rajiv Philip, Gurpreet Kaur, Josh Parker, Karar Kadhim, Kyle Larson ](https://www.kroll.com/en/publications/financial-compliance-regulation/global-regulatory-pulse-q4-2024)
+[ October 3, 2024 Regulatory Updates Global Regulatory Pulse  Aaron Weiss, Colleen Corwell, Hannah Rossiter, Eoin Devlin, Rose Kaufman, Ana D. Petrovic, Alasdair Putt, Josh Parker, Rajiv Philip, Amrita Michael ](https://www.kroll.com/en/publications/financial-compliance-regulation/global-regulatory-pulse-q3-2024)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+In the ever-evolving financial services landscape, Kroll's award-winning team offers comprehensive regulatory and compliance services, guiding clients through registration, licensing, and compliance support to minimize risks and enhance efficiency globally.
+[Regulatory Advisory and Assurance Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/regulatory-advisory-and-assurance-services)
+In an era of increasing regulatory scrutiny, Kroll stands as a premier provider of Regulatory Advisory and Assurance Services to the financial services industry. Our award-winning team helps clients navigate complex regulatory landscapes, offering tailored solutions from governance and risk management to financial crime prevention and investment compliance.
+[Retained Compliance Support and Managed Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/retained-compliance-support-and-managed-services)
+Kroll provides comprehensive retained and ad hoc regulatory compliance consulting services, ensuring firms maintain a competitive edge amid evolving regulatory landscapes across the UK, Europe, North America, Hong Kong and Singapore.
+[Global Regulatory Licensing Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/global-regulatory-licensing-services)
+Kroll's expert team provides regulatory registration and licensing services taking the burden of regulatory requirements off business operators. We partner with you to answer regulator queries and assist you in developing a tailored operational framework that meets regulator and investor expectations.

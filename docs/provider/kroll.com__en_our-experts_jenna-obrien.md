@@ -1,0 +1,19 @@
+<!-- Source: https://www.kroll.com/en/our-experts/jenna-obrien | Title: Jenna O'Brien | Expert Services | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Jenna O’Brien
+##### Senior Director
+[Expert Services](https://www.kroll.com/en/services/expert-services)
+[Jenna O’Brien](https://www.linkedin.com/in/jenna-o-brien-cpa-cfe-cams-cira-67870539)[+1 646 867 7834](tel:+1%20646%20867%207834)Jenna.Obrien@kroll.com
+AT A GLANCE 
+Jenna O’Brien is a Senior Director within Kroll's Expert Services practice. Jenna has over fifteen years of experience providing a wide range of forensic, litigation and investigative consulting services.
+Her work is mainly focused in the financial services industry, universities, not-for-profit, governmental and quasi-governmental entities and many of her clients have included hedge funds, private equity funds, traditional asset managers, investment banks, insurers and regulators. She routinely is involved in cases concerning complex accounting matters, accounting reconstruction, financial reporting fraud, accountants liability claims, and intricate asset tracing analyses across numerous industries.
+Jenna has managed numerous accounting and/or auditor malpractice matters, internal investigations, regulatory investigations, Ponzi scheme investigations, U.S. Bankruptcy matters and offshore hedge fund liquidations. In many of her engagements Jenna has focused on providing detailed damages analyses and written expert reports. She has successfully prepared testifying experts in matters involving asset tracing, financial reporting and the application of Generally Accepted Accounting Principles and Generally Accepted Auditing Standards. She has also successfully assisted clients throughout mediations and arbitrations. Jenna joined Kroll with the acquisition of Kinetic Partners where she was an associate on the Forensic & Dispute Services team. Prior to joining Kinetic Partners, Jenna worked at PricewaterhouseCoopers (PwC) as an auditor in the Asset Management Group. At PwC, Jenna worked on various fund types including mutual funds, registered investment companies and hedge funds. Jenna received a B.A. in accounting from The University of Scranton. She is a Certified Public Accountant, Certified Fraud Examiner, Certified Insolvency & Restructuring Advisor, and Certified Anti-Money Laundering Specialist. She is an active member of several professional and community organizations, such as the American Institute of Certified Public Accountants, the Association of Certified Fraud Examiners, and the Association of Insolvency & Restructuring Advisors.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Expert Services](https://www.kroll.com/en/services/expert-services)
+Kroll provides independent expert analysis, testimony and advice for clients. Our consulting experts perform objective and reliable analyses to help businesses, investors and legal advisers establish facts, determine values, assess quantum of damages and settle critical questions.
+[Commercial and Economic Disputes Expert Services](https://www.kroll.com/en/services/expert-services/commercial-economic-disputes)
+Kroll excels in assessing financial loss and damages in complex commercial litigation, and offers robust analysis and testimony in M&A and post-acquisition matters.
+[Internal Expense Allocation](https://www.kroll.com/en/services/expert-services/internal-expense-allocation)
+Kroll experts will help you test, evaluate, benchmark and support your fee and expense policies and procedures and will provide you with robust and defensible practices to mitigate risk.

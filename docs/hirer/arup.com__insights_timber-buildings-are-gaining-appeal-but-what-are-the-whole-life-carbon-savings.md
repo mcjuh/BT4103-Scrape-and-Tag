@@ -1,0 +1,50 @@
+<!-- Source: https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/ | Title: Timber buildings are gaining appeal – but what are the whole life carbon savings - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/#main-content)
+Article
+#  Timber buildings are gaining appeal – but what are the whole life carbon savings? 
+We explore if increasing timber in construction could offer a potential solution to decarbonise the sector.
+Orlando Gibbons
+Senior Consultant
+Matthew Munro
+Consultant
+Last updated: September 2025 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact
+With 24% of the UK’s consumption-based emissions attributed to the built environment, replacing steel and concrete with timber is often identified as one of the most effective ways to decarbonise buildings, as highlighted by the UK’s independent Climate Change Committee, to help meet the country’s climate targets.
+Timber has the ability to remove carbon dioxide from the atmosphere and store carbon in biomass, and it offers an alternative to using emissions-intensive and hard-to-decarbonise materials like steel and concrete.
+This raises several key questions to address: to what extent could using timber in typical new UK buildings reduce carbon emissions, at both the single building and national level? And secondly, what factors affect the emissions savings from using timber?
+At Arup we have been considering these questions with colleagues and collaborators across the industry, and have grappled with them ourselves as environmentally-minded engineers who’ve [committed to understanding and reducing whole life carbon emissions](https://www.theconstructionindex.co.uk/news/view/arup-pushes-for-whole-life-carbon-reporting) across the built environment.
+To help the UK government understand and navigate this issue, in 2024 we embarked on a research project for the Department for Environment, Food and Rural Affairs (DEFRA) and the Department for Energy Security and Net Zero (DESNZ). The report, titled ‘Improving whole life carbon estimates for buildings constructed out of timber’, is now available on DEFRA’s [Science Search](https://sciencesearch.defra.gov.uk/ProjectDetails?ProjectId=21806) website.
+## A building archetypes approach
+The built environment is of course a complex proposition. So, we developed high-level designs for eleven new-build UK building archetypes (e.g., residential semi-detached). For each archetype, we considered three typical building approaches, including a typical baseline, primarily non-timber-based approach; ‘approach 1’ with timber maximised in the superstructure frame; and ‘approach 2’ with timber maximised in the superstructure frame, internal partitions and façade. It’s worth noting that the impact of using timber in finishes (e.g. floorboards), FF&E (fittings, furnishings and equipment), building services and external works was not considered in this exercise.
+We wanted to reflect what is practicable and typical for UK buildings, so these high-level designs were developed by a multidisciplinary team of Arup’s structural, façade, fire safety, acoustics and architectural experts. The fire safety considerations of timber – an area of active [research](https://www.arup.com/insights/fire-safe-design-of-mass-timber-buildings/) within Arup – were central to this. The high-level designs therefore reflect the extent to which timber could  _realistically_ be included in timber structures and façades, and material quantities reflect the need for fire protection in structural elements.
+## What emissions savings are possible at the single building level?
+Next, we assessed the whole life carbon emissions (both operational and embodied) at the building-level for each archetype and approach. We estimated lifecycle embodied carbon savings of up to around 9%, and upfront carbon savings of up to 15% at the whole-building-level, which is a significant saving for a single intervention**.** Estimated embodied carbon savings within individual building elements were even greater – up to around 35% in the superstructure frame, 20% in the internal partitions, and 20% in the façade.
+## Estimating UK national level emissions savings between 2023-2050
+Following these building-level analyses, our research explored 9 future scenarios for UK-wide timber use, which vary depending on the rate of timber uptake in UK construction, and the level of material and energy decarbonisation. The study shows that significant emissions savings for 2023-2050 of between 32-37MtCO2e are possible, compared to a low timber usage scenario, depending on decarbonisation rate.
+Perhaps unsurprisingly, the scenarios shown to get closest to net zero consumption-based emissions by 2050 combine a high rate of timber use (80% of new UK buildings adopting an ‘approach 1’ or ‘approach 2’ design by 2050) and high rates of material and energy decarbonisation, including implementation of carbon capture and storage for hard-to-abate sectors like cement production.
+## What factors affect the potential emissions savings from using timber?
+Previous research has shown that the level of embodied carbon in timber buildings, and building elements, depends on factors like the timber source, end-of-life treatment, building lifespan, and carbon accounting methodology. Our research included a sensitivity study describing and quantifying the impact of these factors. The results emphasise the well-established importance of sustainable timber sourcing, which is already a legal requirement on UK projects, and prolonging building lifespan, in reducing emissions.
+An idealised carbon lifecycle for timber building products
+## The future of UK timber buildings
+Our study concludes that there are significant carbon savings to be made from using more timber in construction. To maximise timber use, the industry needs new approaches to addressing the fire risk of timber, a focus on developing timber design and construction skills and increased UK timber production and manufacturing capacity. However, the industry also needs to develop better methods of representing the true carbon impacts of using timber and gain more clarity on its wider environmental impacts. We are keen to investigate this further through collaboration with government and the forestry and construction industries. 
+Note: the full technical report, published on DEFRA’s Science Search website, includes recommendations on improving whole life carbon data and methodologies, and it highlights developments that could increase carbon savings from the use of timber in construction. For anyone interested in the underlying data workbooks, which contain the analysis assumptions, these are transparently presented alongside the technical report, enabling the analysis to be repeated and updated as new data and carbon accounting methodologies evolve.
+[Click here to view or download a summary infographic of this research](https://www.arup.com/globalassets/downloads/insights/t/timber-buildings-are-gaining-appeal-but-what-are-the-whole-life-carbon-savings/improving-whole-life-carbon-for-timber-buildings.pdf)
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/) Copy link  Close Share Menu 
+Explore similar insights
+[ Article ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=107) [ Property ](https://www.arup.com/insights/filtered-insights/?MarketTaxonomies=20) [ Materials ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=153) [ Decarbonisation ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=117) [ Design ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=136)
+## Insights
+### Explore more property insights
+[ See more ](https://www.arup.com/insights/all-property-insights/)
+[ Article  Closing the performance gap – how to strengthen commercial value through building optimisation  ](https://www.arup.com/insights/closing-the-performance-gap-how-to-strengthen-commercial-value-through-building-optimisation/) [ Publication  Whole life carbon assessment – embodied carbon quantification in Hong Kong  ](https://www.arup.com/insights/whole-life-carbon-assessment-embodied-carbon-quantification-in-hong-kong/) [ Publication  Embodied carbon in Central London  ](https://www.arup.com/insights/embodied-carbon-in-central-london/) [ Publication  The Reuse Playbook  ](https://www.arup.com/insights/the-reuse-playbook/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/)
+Close Close

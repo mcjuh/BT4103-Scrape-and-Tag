@@ -1,0 +1,32 @@
+<!-- Source: https://www.alvarezandmarsal.com/content/welcome-back-spotlight-krista-kreider | Title: Welcome Back Spotlight: Krista Kreider | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/content/welcome-back-spotlight-krista-kreider#main-content)
+# Welcome Back Spotlight: Krista Kreider
+### **A Senior Director’s Perspective on the Art of Adaptability, Nurturing Relationships and Managing Expectations**
+Krista Kreider is a Senior Director with Alvarez & Marsal’s (A&M) [Healthcare Industry Group](https://www.alvarezandmarsal.com/industries/healthcare) (HIG) in Chicago, Illinois. She earned a bachelor’s degree from Indiana University Bloomington. 
+In this Q&A, Krista discusses the thrill and growth inherent in consulting and emphasizes the value of acclimating to new challenges and leveraging industry experts. Additionally, she provides valuable insights into the skills honed during her tenure at A&M and their significant contribution to her current role, particularly emphasizing adaptability and a keen ability to swiftly grasp essential concepts for rapid learning. 
+**What prompted your return to the firm in November 2023, and how did these factors shape your decision to continue your consulting career?**
+I've always thrived on the thrill and growth inherent in consulting. Immersing myself in varied challenges across different companies fuels my passion and broadens my expertise in healthcare. Helping clients with my knowledge while honing my skills is incredibly fulfilling. What sets A&M, especially HIG, apart is the wealth of consultants with backgrounds as former operators. While I temporarily left A&M to gain firsthand experience in healthcare operations, I've always planned to return and apply that valuable insight. 
+**Reflecting on your time at A &M, can you highlight the skills you developed or gained and how they contribute to your current role? **
+At A&M, you learn the art of adaptability firsthand. Whether it's adjusting to new roles or environments, the ability to swiftly absorb changes and tailor actions accordingly holds immense value. A&M's experience equips you with a knack for identifying key factors essential for rapid learning. Amidst the whirlwind of new roles, teams or projects, the insights gained at A&M guide you to discern what truly matters and direct your efforts effectively. 
+### **Understanding the Value of Mentorship and Company Culture**
+**What specific factors, including aspects of A &M's culture or opportunities, played a crucial role in influencing your decision to return to the firm? **
+What I find particularly distinctive about consulting at A&M is the team's extensive industry expertise. A&M prioritizes leveraging our firsthand experience as operators within our industries and verticals. This approach sets A&M apart by offering clients solutions that have been tried, tested and proven successful. I appreciate our entrepreneurial culture, where each of us is empowered to contribute in ways that align with our individual strengths and passions. 
+**Who are your closest mentors, and what important lessons have you learned from them?**
+I've been fortunate to connect with numerous outstanding individuals, each offering invaluable perspectives that I've grown to depend on. Since my return to A&M, I've found great value in the mentorship provided by [Kristina Park](https://www.alvarezandmarsal.com/our-people/kristina-park). With her diverse expertise, she's been instrumental in shaping how I articulate my background and the value I bring to the table. 
+###  **Best Practices for Nurturing Relationships and Rejoining a Former Employer**
+**Share your approach to building and maintaining relationships with colleagues and clients. How do these relationships enhance your effectiveness and success in your current role?**
+I prioritize building and nurturing relationships founded on genuine connections with people as individuals. Most individuals are eager to share their stories and insights about themselves and their work. By actively listening rather than dominating the conversation, it becomes effortless to forge meaningful connections. 
+**Based on your experience, what advice or insights would you offer to professionals considering a return to A &M or rejoining a former employer? **
+Managing your expectations is crucial when returning to a company that may have evolved since your departure. It's essential to avoid assuming that things remain the same as they were four years ago. Both you and your colleagues undergo significant growth and change over time, requiring a balance between past experiences and current perspectives to navigate your approach to work effectively. 
+[Campus Spotlight: Eduardo Tonaco](https://www.alvarezandmarsal.com/content/campus-spotlight-eduardo-tonaco)
+In this Q&A, Eduardo reflects on A&M’s core value of Objectivity, sharing how it shapes his work and professional growth
+[Alumni Spotlight: Daniel Propp](https://www.alvarezandmarsal.com/content/alumni-spotlight-daniel-propp)
+Entrepreneur Daniel Propp reflects on how his time as an A&M Consultant gave him the skills, vision, and values to build two thriving businesses from the ground up. 
+[A Walking Dinner Tour Through Munich](https://www.alvarezandmarsal.com/content/walking-dinner-tour-through-munich)
+In May, the Alvarez & Marsal Alumni Network gathered alumni and colleagues in Munich for the annual event, this year included a walk and dinner, reconnecting through a shared evening in the city. 
+[Historias de Crecimiento: Álvaro Casas Iriarte](https://www.alvarezandmarsal.com/es/content/historias-de-crecimiento-alvaro-casas-iriarte)
+Álvaro Casas Iriarte es Analista en el área de Restructuring & Special Situations de Alvarez & Marsal México. Egresado de Economía por el ITAM, inició su trayectoria en A&M como intern y hoy continúa desarrollando su carrera dentro de la firma como analista.
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/68851--en)
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

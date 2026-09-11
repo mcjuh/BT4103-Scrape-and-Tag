@@ -1,0 +1,8 @@
+<!-- Source: https://www.westmonroe.com/our-team/christina-powers | Title: Christina Powers | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Christina leads proactive cybersecurity strategies that protect organizations from risks, ensuring operational continuity and safeguarding investment value.[ Linkedin](https://www.linkedin.com/in/christina-m-powers/)
+Contact
+Christina is dedicated to safeguarding her clients’ organizations by identifying and mitigating cybersecurity risks before they can impact operations or investments. She leads West Monroe's Cybersecurity Advisory for Private Equity (CAPE) program, helping private equity firms and their portfolio companies maintain ongoing visibility into security practices and risks. Christina also conducts cybersecurity due diligence for potential acquisitions. 
+Before joining West Monroe, Christina worked in Accenture’s Technology Consulting Security practice, specializing in identity and access management. She holds a bachelor’s degree in Electrical Engineering from the University of Notre Dame and has completed executive education at the Yale School of Management. 
+## _Christina’s All-In Mindset_
+Christina enjoys outdoor adventures like hiking and skiing, with favorite trips including Angels Landing in Zion and Whistler Blackcomb. Fluent in Ukrainian, she also serves on the board of the Ukrainian Youth Camping Organization, supporting the Ukrainian scouting community in Chicago.

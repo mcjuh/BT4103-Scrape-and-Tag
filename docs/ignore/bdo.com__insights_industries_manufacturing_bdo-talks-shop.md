@@ -1,0 +1,21 @@
+<!-- Source: https://www.bdo.com/insights/industries/manufacturing/bdo-talks-shop?wchannelid=sxpbm9tf1x&wmediaid=am7xxr0dg0 | Title: Artificial Intelligence in Manufacturing - When Data Turns Into Decisions - BDO Talks Shop | Seed: https://www.bdo.com/ (BDO) -->
+
+Video Series
+# BDO Talks Shop
+Where manufacturing gets real.
+Cyber threats don't stop at the IT network. AI doesn't deliver value without trusted data. Operational excellence depends on alignment across production, supply chain, and finance.
+Manufacturing leaders don't need more theory, they need practical perspectives grounded in what is happening inside plants today. BDO Talks Shop brings manufacturing's toughest challenges into focus, and the actions organizations are taking to move forward.
+## Ready to talk shop? Watch the latest episodes.
+### [Risk Management - When Exposure Hides Inside Operations](https://www.bdo.com/insights/industries/manufacturing/bdo-talks-shop?wchannelid=sxpbm9tf1x&wmediaid=0pc1bsmh6c)
+### [Cybersecurity on the Line - When OT Becomes the Opening for Attack](https://www.bdo.com/insights/industries/manufacturing/bdo-talks-shop?wchannelid=sxpbm9tf1x&wmediaid=8ezufo1ahq)
+### [Operational Excellence - When Insight, Efficiency, and Planning Move in Sync](https://www.bdo.com/insights/industries/manufacturing/bdo-talks-shop?wchannelid=sxpbm9tf1x&wmediaid=6th4oo5o3z)
+### [Artificial Intelligence in Manufacturing - When Data Turns Into Decisions](https://www.bdo.com/insights/industries/manufacturing/bdo-talks-shop?wchannelid=sxpbm9tf1x&wmediaid=am7xxr0dg0)
+## SHARE
+  * 
+
+## Related Resources
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026In this episode, our hosts talk with Tamara Lemmon of Wilson Sonsini to explore why proactive planning is becoming one of the most important competitive advantages in legal and compliance teams. Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=eiuus74pqn)
+[ ArticleFinCEN Final Rule Permanently Relieves U.S. Companies of Beneficial Ownership Reporting Obligations September 4, 2026 ArticleFinCEN Final Rule Permanently Relieves U.S. Companies of Beneficial Ownership Reporting Obligations September 4, 2026FinCEN has finalized relief from Corporate Transparency Act reporting for U.S. companies. Learn what the rule means for domestic entities, which foreign companies may still need to report, and the key compliance considerations moving forward. Read Morechevron_right ](https://www.bdo.com/insights/tax/fincen-final-rule-permanently-relieves-us-companies-of-beneficial-ownership-reporting-obligations)
+[ ArticleThe Resilient Finance Function: Building an Operating Model That Can Adapt, Scale, and Deliver Better Decisions September 3, 2026 ArticleThe Resilient Finance Function: Building an Operating Model That Can Adapt, Scale, and Deliver Better Decisions September 3, 2026A resilient finance function can help organizations adapt, scale, and perform more effectively. Explore how the right operating model supports long-term business demands. Read Morechevron_right ](https://www.bdo.com/insights/assurance/building-an-operating-model-that-can-adapt-scale-and-deliver-better-decisions)
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026This episode offers practical insights for legal operations leaders, litigation support professionals, law firm leaders, in-house counsel, and anyone seeking a grounded perspective on where generative AI is creating real value in legal services today.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=wlkbngi3x9)
+  * BDO Talks Shop

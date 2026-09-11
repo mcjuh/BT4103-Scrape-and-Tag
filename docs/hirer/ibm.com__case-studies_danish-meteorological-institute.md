@@ -1,0 +1,70 @@
+<!-- Source: https://www.ibm.com/case-studies/danish-meteorological-institute | Title: Danish Meteorological Institute (DMI) | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+Support
+  * [OverviewResolve product issues with self-service tools](https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl)
+  * [CommunityShare knowledge in a collaborative environment to unlock innovation](https://community.ibm.com/community/user/community?lnk=flathl)
+  * [DeveloperAccess digital resources, code samples and code trials](https://developer.ibm.com/?lnk=flathl)
+  * [DocumentationUnderstand, develop and deploy our products with comprehensive technical resources](https://www.ibm.com/docs/en?lnk=flathl)
+  * [IBM Cloud platformAccess subject matter experts and content to address questions and issues about IBM Cloud](https://www.ibm.com/products/cloud/support?lnk=flathl)
+  * [ImplementationDrive better business outcomes with an experienced team of IBM product experts](https://www.ibm.com/products/expertlabs?lnk=flatitem)
+  * [TrainingDevelop your skills with premiere educational offerings and credentials](https://www.ibm.com/training/?lnk=flathl)
+  * [Technology Lifecycle ServicesElevate your support experience with a holistic approach to data center management across your IT environment](https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl)
+
+
+My IBM  Log in 
+#  Conserving energy in a data-driven world 
+The Danish Meteorological Institute teams with IBM to adopt a modernized, more sustainable storage system 
+Let’s talk about the weather. For the Danish Meteorological Institute (DMI), it’s much more than a topic of coffee-hour chatter. From real-time forecasts and severe weather warnings to long-term climate studies based on 100+ years of observations, the institute uses weather and climate data to make critical and lasting impacts on society. 
+The 150-year-old institute is responsible for monitoring and forecasting weather, climate and environmental conditions in the air, land and sea for the Kingdom of Denmark, which includes Denmark, the Faroe Islands and Greenland. To that end, it collects data from weather stations and satellites from across the kingdom.
+But its reach extends far beyond its borders. While the institute is headquartered in Copenhagen and stores much of its data there, it does its forecasting calculations on a supercomputer in Iceland as part of a partnership with Iceland, the Netherlands and Ireland. The collaborative relationship reinforces the institute’s commitment to a global approach to sharing forecasting and climate information.
+“The whole world is in a green transition,” says Marianne Thyrring, Director General at DMI. “We provide data to help manage wind farms, solar farms and the like, and will continue to do so in the future. On the other hand, climate change is here. It is not something we are waiting for. So our responsibility as the authoritative voice in weather forecasting and collaboration with the civil protection agencies is a very, very important part of our duties as well. And it is a role that has a growing importance when it comes to severe weather situations.”
+In the past, DMI charged commercial users for its data. But a few years ago, the institute started phasing out its commercial business to focus solely on serving the public, offering its data for free to any person or entity—from individuals to other research institutes to corporations—that requested it.
+The decision supports DMI’s two-fold purpose. “We made a strategic choice to focus on our role as the public authority taking care of human beings and property in cases of severe weather hazards,” says Thyrring. “We also are a relevant body in climate research, as hosts of the National Center for Climate Research.”
+While people and the environment are at the heart of DMI’s mission, data is the driver that makes fulfilling that mission possible. Within the organization, a team of climate scientists relies on that data being accurate, timely and available. And the quantity of data is growing with ever-increasing speed.
+“Every time I run a climate model over one of the ice sheets, I’m probably generating as much data as the first hundred years of DMI,” says Ruth Mottram, Senior Climate Scientist at DMI, who studies the effect of global warming on the ice sheets of Greenland. “We’re producing a lot more data now. We work with satellite data, and there are ever more satellite missions coming with higher resolution. So the models are constantly improving, and the amount of data we want to assimilate into them is also increasing.”
+## **1 Storage system**
+Replaced a multi-vendor storage system with **1** end-to-end IBM storage system that integrates flash, spinning disk and tape media 
+## **150 years’ data**
+Implemented a multi-tiered storage system to manage**150** years’ worth of meteorological data 
+The way IBM has worked with us has been really positive. IBM has a lot of experience in new ways of establishing storage for huge amounts of data and has demonstrated the openness we need to trust that listening vendors will lead to good things. 
+Marianne Thyrring  Director General  Danish Meteorological Institute 
+An integrated storage system 
+##  An integrated storage system 
+In late 2020, DMI was preparing to move its Copenhagen data center to a new location in the city. It was the perfect opportunity to reevaluate the institute’s outdated storage system.
+“Our storage system was getting too old to cope with future demands,” says Thomas Kjellberg, Deputy Director General at DMI. “We wanted to reduce the environmental footprint of storage, because it was an area of huge energy consumption. We also wanted to support our diverse users with easier and better access to data at a lower cost. And we needed a solution that could scale, not just on premises but also into the cloud—a hybrid cloud solution.”
+The ability to archive data to tape was particularly critical to DMI, from both environmental and cost perspectives. Unlike data stored on discs, data stored on tape uses no electricity when not in use. “We store a lot of data for reforecasting and remodeling purposes, which might be done in five or 10 years,” says Kjellberg. We don’t need high speed, energy-consuming storage to store that data.”
+Of all the storage providers DMI evaluated, IBM rose to the top. Not only did IBM offer an integrated hardware and software storage system, but it also provided it as part of a turnkey solution, with IBM overseeing the entire implementation and providing expert support along the way.
+At the core of the solution is [IBM® Storage Scale](https://www.ibm.com/products/storage-scale). The enterprise-level file storage system has the scalability and performance needed to handle large, complex data workloads and the capacity to combine flash, disk, tape and cloud storage into a unified system.
+For longer-term data storage, [IBM Storage Archive](https://www.ibm.com/products/storage-archive) stores archived data on tape and [IBM Storage Protect](https://www.ibm.com/products/storage-protect) moves the data to tape and retrieves it when a user requests it. The entire process is transparent to the end users, who access all data, regardless of where it resides, from a single interface.
+The team began work in earnest in January 2021. An IBM project manager oversaw the implementation from start to finish, and the IBM team collaborated closely with DMI throughout.
+IBM launched the project with a series of workshops to gather input from key users across various DMI departments—from IT to management—in an effort to understand users’ needs and educate them on the new system’s capabilities. During the workshops, an IBM Systems Lab Services representative provided guidance on the new system, explaining the various data service levels, directory structures and backup routines for each area of the file systems.
+During the implementation, the team needed a way to move the data from DMI’s old data center to its new one without disrupting users’ access to that data. The solution was to do the data implementation and physical migration in two parts. “We built half the system in the old location, moving data out of the old tape library into the new storage system,” says Kjellberg. “Then we moved the entire storage system to our new location and set it up there. We then implemented the second part of the new system.”
+The next level of sustainability 
+##  The next level of sustainability 
+With its new IBM storage system up and running, DMI is now deepening its focus on sustainability. “In 2023, we are really keen on having a bigger voice in the green transition in Denmark,” says Thyrring. “With the effect of current world events on energy markets, the green transition in Europe is top of everybody’s minds. So using climate data to regulate and predict energy consumption and increase its efficiency is really key.
+“That’s why the next step for us is to make even more use of our data and our scientists’ knowledge in the areas of climate and hazardous weather situations. Of course, we can’t handle all the data, all our forecasts and all the technical pieces without a robust technological setup.”
+DMI is working with IBM to build upon that technology, especially in expanding the cloud capabilities of its storage solution and delving into AI. “We’re starting to invest heavily in machine learning,” says Mottram. “So our data is going to be hugely valuable because we can use it to start training machine learning models in the future. There are a lot of things we don’t know at the time we’re producing data, but in five-years’ or ten-years’ time, we’ll be able to go back and say, ‘It’s good that we got that. And that was useful.’”
+Having a unified storage system is also reaping benefits for DMI. “The important thing for us is that we have one storage system that keeps control of the underlying structure in terms of where data is stored,” says Mottram. “There has been a reduction in the cost per petabyte of data that is stored on tape in the new system compared to the old system. As we move forward, of course, it’s vital that we continue to provide end users a good, trustworthy experience.”
+Trust is also key in the successful relationship between DMI and IBM. “Working with IBM to develop this solution has been a learning exercise for us,” says Thyrring. “The way IBM has worked with us has been really positive. IBM has a lot of experience in new ways of establishing storage for huge amounts of data and has demonstrated the openness we need to trust that listening vendors will lead to good things.
+“We are dealing with such complex matters that only by putting our brains together can we find good solutions,” she concludes. “After buying this storage system, it’s really important to us to know we are going to work together in the years to come.”
+About Danish Meteorological Institute (DMI) 
+##  About Danish Meteorological Institute (DMI) 
+Founded in 1872, [DMI](https://www.dmi.dk/) provides meteorological services to the citizens of the Kingdom of Denmark, which comprises Denmark, the Faroes and Greenland. The institute’s responsibilities include monitoring and forecasting weather, climate and environmental conditions in the air, land and sea. The institute is headquartered in Copenhagen, Denmark. 
+Solution components  IBM® Storage Archive  IBM Storage Protect  IBM Storage Scale 
+Next up:
+University of Birmingham 
+Driving innovative research forward by taking control of data
+[ Read the case study ](https://www.ibm.com/case-studies/university-of-birmingham-systems-software-spectrum-scale)
+pixitmedia 
+Hollywood in the hybrid cloud: Data management solutions keep the action rolling
+[ Read the case study ](https://www.ibm.com/case-studies/pixitmedia-spectrum-scale)
+Orange Caraïbe 
+Saving time, money and effort with a more eco-friendly, powerful data center
+[ Read the case study ](https://www.ibm.com/case-studies/orange-caraibe-systems-hardware-telecommunications)
+#####  Footnotes 
+© Copyright IBM Corporation 2023. IBM Corporation, IBM Storage, New Orchard Road, Armonk, NY 10504.
+Produced in the United States of America, June 2023
+IBM, and the IBM logo are trademarks of International Business Machines Corporation, registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on [ibm.com/trademark](https://www.ibm.com/legal/copyright-trademark).
+This document is current as of the initial date of publication and may be changed by IBM at any time. Not all offerings are available in every country in which IBM operates.
+All client examples cited or described are presented as illustrations of the manner in which some clients have used IBM products and the results they may have achieved. Actual environmental costs and performance characteristics will vary depending on individual client configurations and conditions. Generally expected results cannot be provided as each client's results will depend entirely on the client's systems and services ordered. THE INFORMATION IN THIS DOCUMENT IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING WITHOUT ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND ANY WARRANTY OR CONDITION OF NON-INFRINGEMENT. IBM products are warranted according to the terms and conditions of the agreements under which they are provided.
+Products Consulting services Industries Case studies Financing Research LinkedIn X Instagram YouTube Podcasts Business partners Documentation Events Newsletters Support TechXchange community Overview Careers Investor relations Leadership Newsroom Security, privacy and trust United States — English Contact IBM Privacy Terms of use Accessibility

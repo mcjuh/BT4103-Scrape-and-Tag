@@ -1,0 +1,97 @@
+<!-- Source: https://www.ibm.com/case-studies/ntt-data-business-solutions-poland-sap-hana-power | Title: NTT DATA Business Solutions Poland | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+Support
+  * [OverviewResolve product issues with self-service tools](https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl)
+  * [CommunityShare knowledge in a collaborative environment to unlock innovation](https://community.ibm.com/community/user/community?lnk=flathl)
+  * [DeveloperAccess digital resources, code samples and code trials](https://developer.ibm.com/?lnk=flathl)
+  * [DocumentationUnderstand, develop and deploy our products with comprehensive technical resources](https://www.ibm.com/docs/en?lnk=flathl)
+  * [IBM Cloud platformAccess subject matter experts and content to address questions and issues about IBM Cloud](https://www.ibm.com/products/cloud/support?lnk=flathl)
+  * [ImplementationDrive better business outcomes with an experienced team of IBM product experts](https://www.ibm.com/products/expertlabs?lnk=flatitem)
+  * [TrainingDevelop your skills with premiere educational offerings and credentials](https://www.ibm.com/training/?lnk=flathl)
+  * [Technology Lifecycle ServicesElevate your support experience with a holistic approach to data center management across your IT environment](https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl)
+
+
+My IBM  Log in 
+#  NTT DATA Business Solutions Poland 
+Seizes competitive advantage with top-quality, cost-effective SAP hosting services 
+[ Learn more ](https://www.ibm.com/it-infrastructure/power/sap-hana)
+As IT service providers jostle for market share, victory will come to the companies that outperform on cost-efficiency and service quality. By running SAP® ERP powered by SAP HANA® hosting services on IBM® Power® Systems and IBM FlashSystem®, NTT DATA Business Solutions Poland can offer first-class SLAs at ultra-competitive prices, shaking off the competition.
+Business challenge 
+##  Business challenge 
+NTT DATA Business Solutions Poland set out to offer superior SAP HANA hosting services. Could the company find the magic mix of enhanced operational excellence combined with greater cost-efficiency?
+Transformation 
+##  Transformation 
+NTT DATA Business Solutions Poland launched SAP ERP powered by SAP HANA hosting services on IBM Power Systems servers and IBM FlashSystem storage, using advanced virtualization to boost efficiency.
+Results 
+##  Results 
+Accelerates 
+provisioning of new client systems from two days to a few hours 
+Reduces 
+operational costs, helping NTT DATA Business Solutions Poland to undercut rivals’ fees 
+Slashes 
+latency by a factor of five to deliver stellar service to clients 
+Business challenge story 
+##  Business challenge story 
+### Need for speed
+In the past few years, SAP has been turning heads in the IT industry, with a wealth of new solutions hitting the market. The major wave of change came with the announcement of [SAP HANA](https://www.ibm.com/power/sap-hana), a powerful in-memory database promising to unlock real-time analytics on an unprecedented scale.
+As interest in the possibilities of SAP HANA grew, SAP specialist NTT DATA Business Solutions quickly rose to the challenge. Alongside its partner divisions in other nations, NTT DATA Business Solutions Poland launched SAP Business Warehouse powered by SAP HANA hosting services, supported by an x86 architecture. As customers adopted the new offering, NTT DATA Business Solutions Poland found that the underlying hardware lacked flexibility and was difficult to manage. Furthermore, it was hard to maintain efficient operations, as the company had to run dedicated servers for each customer—causing costs to rise in line with revenues. 
+When SAP ERP powered by SAP HANA appeared on the horizon, with considerably greater technical demands, NTT DATA Business Solutions Poland set out to find ways to improve its service delivery and to cut its operational costs. 
+IBM Power Systems and IBM FlashSystem enable us to offer outstanding SAP solutions and our world-class SLAs at very commercially attractive fees. 
+Tomasz Piętak  Cloud Solutions Architect  NTT DATA Business Solutions Poland 
+Transformation story 
+##  Transformation story 
+### Tried and tested platform
+For many years, NTT DATA Business Solutions Poland had run customers’ traditional SAP ERP applications on [IBM Power Systems](https://www.ibm.com/power) with great success. Based on its previous experience, the company decided to trial SAP ERP powered by SAP HANA on IBM Power Systems, and found that the IBM platform was an excellent fit with its requirements.
+Tomasz Piętak, Cloud Solutions Architect at NTT DATA Business Solutions Poland, recalls, “We had been using IBM Power Systems for around eight years previously, and we were very happy with the platform. In the past, we had reserved IBM Power Systems primarily for our most demanding customers, and we knew from experience that the servers would continue to perform well even under constant, very high utilization. For us, IBM Power Systems stands for reliability and stability, and that was precisely what we wanted to deliver for our SAP ERP powered by SAP HANA hosting services.” 
+NTT DATA Business Solutions Poland deployed IBM Power Systems in a Tailored Datacenter Integration (TDI) approach—utilizing existing infrastructure to run SAP HANA rather than purchasing new dedicated hardware. The company engaged [IBM Systems Lab Services](https://www.ibm.com/services) for the initial deployment, and purchased the servers, paid in flat monthly installments through a five-year contract arranged by [IBM Global Financing](https://www.ibm.com/financing). Since then, NTT DATA Business Solutions Poland has onboarded many additional customers for the new service and has expanded its IBM Power Systems footprint, completing these subsequent implementations independently. 
+Today, NTT DATA Business Solutions Poland runs the majority of customers’ SAP HANA instances on IBM Power Systems, including business-critical systems. SAP ERP powered by SAP HANA runs on [IBM Power Systems E950](https://www.ibm.com/products/power-e1050) servers, each running on the latest generation [IBM POWER9®](https://www.ibm.com/power) processors. These servers are virtualized using [IBM PowerVM®](https://www.ibm.com/products/ibm-powervm) and run the [SUSE Linux Enterprise Server for SAP Applications](https://www.suse.com/products/sles-for-sap/) (link resides outside of ibm.com) operating system. In total, NTT DATA Business Solutions Poland runs more than 220 virtual machines—known as logical partitions (LPARs)—on its IBM Power Systems servers, and has one of the country’s largest installation bases for SAP ERP powered by SAP HANA. 
+More recently, SAP launched SAP S/4HANA—an entirely new generation of ERP. NTT DATA Business Solutions Poland currently serves several customers with SAP S/4HANA hosting services running on IBM Power Systems and IBM FlashSystem. 
+Additionally, NTT DATA Business Solutions Poland continues to run traditional SAP ERP applications supported by other databases, using the [IBM AIX®](https://www.ibm.com/products/aix) operating system running on IBM Power Systems E950 servers. 
+Tomasz Piętak adds, “We use IBM Power Systems to run a private cloud through which our customers can access their SAP applications. Our offering is SAP-as-a-Service, we can give you everything you need to run SAP, from the infrastructure and hypervisor right through to the operating system and applications, all in one neat package.” 
+### Harnessing advanced virtualization
+The IBM PowerVM virtualization software enables NTT DATA Business Solutions Poland to share its physical IBM Power Systems servers between multiple clients in a highly secure manner. As a result, NTT DATA Business Solutions Poland can support many customer systems using a smaller physical footprint, reduce the need to purchase new servers, and achieve excellent server and storage utilization.
+The IBM Power Systems platform features Live Partition Mobility, which enables NTT DATA Business Solutions Poland to move live customer systems seamlessly from one physical machine to another without disrupting users—offering excellent flexibility. This function enables NTT DATA Business Solutions Poland to avoid system outages for customers during hardware maintenance, for example. Furthermore, the feature helps NTT DATA Business Solutions Poland to distribute workloads evenly between physical servers to optimize performance and utilization. 
+Tomasz Piętak comments, “We have been using Live Partition Mobility on IBM Power Systems for many years, and it never ceases to impress us as the systems we move today are so much larger than those of a few years ago. For example, we recently migrated a live 1.5 TB customer system from one server to another, and it worked perfectly as usual.” 
+NTT DATA Business Solutions Poland has largely automated the management of virtual machines on its IBM Power Systems servers using [IBM PowerVC Virtualization Center](https://www.ibm.com/products/powervc) software, helping the IT team to save time on routine system management tasks. IBM PowerVC Virtualization Center, Cloud-Init and Ansible allow NTT DATA Business Solutions Poland to provision new virtual machines in a highly automated fashion, cutting deployment times. 
+### Cutting-edge storage
+After initially trialing storage from another vendor to support customers’ SAP ERP powered by SAP HANA solutions, Cloud-Init soon switched to using its existing IBM Storage devices. As these machines approach end of life, NTT DATA Business Solutions Poland is upgrading to state-of-the-art [IBM FlashSystem](https://www.ibm.com/flashsystem) solutions virtualized using [IBM Spectrum® Virtualize](https://www.ibm.com/products/spectrum-virtualize-for-public-cloud). Currently, the company stores over 200 TB of data on IBM FlashSystem.
+“We have seen massive advantages from moving to IBM FlashSystem,” remarks Tomasz Piętak. “Because flash is extremely fast, we have been able to cut latency from 3-5 milliseconds to less than 1 millisecond, helping to keep response times low for customers. What’s more, the new storage arrays can handle much greater IOPS than their predecessors. Ultimately, these advantages mean that when customer contracts come to an end, at the renewal we can offer them more performance for the same or perhaps even a lower fee.” 
+He continues, “Besides speed, the other big win from FlashSystem is the advanced virtualization. We use IBM Spectrum Virtualize to support everything from compression and volume copies to moving storage volumes between different physical devices. The virtualization solution makes routine system management so much easier. Building on our work with IBM Spectrum Virtualize, we are currently looking to switch from SAP HANA System Replication to the [IBM Geographically Dispersed Resiliency for Power Systems](https://www.ibm.com/power) solution.” 
+For us, IBM Power Systems stands for reliability and stability, and that was precisely what we wanted to deliver for our SAP ERP powered by SAP HANA hosting services. 
+Tomasz Piętak  Cloud Solutions Architect  NTT DATA Business Solutions Poland 
+Results story 
+##  Results story 
+### Taking the lead
+The IBM servers and storage help NTT DATA Business Solutions Polandto offer more responsive customer service at lower cost, transforming its offering. For example, automation from the IBM PowerVC Virtualization Center has cut the time to provision new client systems from two days to just a few hours.
+Because the provisioning process is highly automated, NTT DATA Business Solutions Poland’s IT team saves time and can devote more energy to other activities. By shrinking the management overhead, the company reduces the need to hire additional IT personnel as it acquires new customers. 
+Tomasz Piętak elaborates, “IBM Power Systems and IBM FlashSystem enable us to offer outstanding SAP solutions and our world-class SLAs at very commercially attractive fees. We are confident that the IBM solutions will continue to meet our customers’ demands for years to come. 
+He continues, “For example, many customers are only using around 20 percent of their available CPU power. That tells us that the IBM Power Systems servers can do much more than we currently demand from them, so I have excellent peace of mind. 
+Tomasz Piętak concludes, “Running SAP ERP powered by SAP HANA on IBM Power Systems and IBM FlashSystem helps NTT DATA Business Solutions to reduce operational costs and simultaneously provide faster, more agile services to clients—a win-win for all.” 
+We have seen massive advantages from moving to IBM FlashSystem. Because flash is extremely fast, we have been able to cut latency from 3–5 milliseconds to less than 1 millisecond, helping to keep response times low for customers. 
+Tomasz Piętak  Cloud Solutions Architect  NTT DATA Business Solutions Poland 
+NTT DATA Business Solutions Poland 
+##  NTT DATA Business Solutions Poland 
+[NTT DATA Business Solutions](https://nttdata-solutions.com/au/) (link resides outside of ibm.com), formerly itelligence, is a leading international full-service provider focusing on SAP deployments, offering consulting, licensing, application management services, hosting services, and proprietary industry solutions. NTT DATA Business Solutions employs around 7,000 people in 25 countries.
+NTT DATA Business Solutions Poland, formerly itelligence Poland, employs more than 200 people across five locations. The company has been awarded with a Customer Friendly Company certificate and a Quality International Award. In 2017, the company generated total sales of PLN 82.7 million (EUR 19.6 million). 
+Solution components  IBM Global Financing  IBM Power Systems E950  IBM Power Systems running Linux - SUSE  Power9®  SAP ERP  SAP HANA  SSAP S/4 HANA  STG Lab Services: Power  SUSE Linux Enterprise Server for SAP Applications (link resides outside of ibm.com)  Software - PowerVC (not HPC, nor VA Linux)  Software - PowerVM (not HPC, nor VA Linux) 
+Take the next step
+To learn more about IBM Power Systems for SAP HANA, please contact your IBM representative or IBM Business Partner, or visit: [ibm.com/consulting/sap-s4hana](https://www.ibm.com/consulting/sap-s4hana).
+  1. [ Read the PDF ](https://www.ibm.com/downloads/cas/ZBMEJPRR)
+  2. [ View more case studies ](https://www.ibm.com/case-studies/search)
+
+
+#####  Legal 
+© Copyright IBM Corporation 2021. 1 New Orchard Road, Armonk, New York 10504-1722 United States. Produced in the United States of America, June 2021.
+IBM, the IBM logo, ibm.com, AIX, IBM FlashSystem, IBM Spectrum, Power, POWER9, Power Systems, and PowerVM are trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the web at “Copyright and trademark information” at [ibm.com/legal/copyright-trademark](https://www.ibm.com/legal/copyright-trademark). 
+Not all offerings are available in every country in which IBM operates.
+The performance data and client examples cited are presented for illustrative purposes only. Actual performance results may vary depending on specific configurations and operating conditions.
+All client examples cited or described are presented as illustrations of the manner in which some clients have used IBM products and the results they may have achieved. Actual environmental costs and performance characteristics will vary depending on individual client configurations and conditions. Contact IBM to see what we can do for you.
+It is the user’s responsibility to evaluate and verify the operation of any other products or programs with IBM products and programs.
+SUSE Linux Enterprise Server for SAP Applications is not an IBM product or offering. SUSE Linux Enterprise Server for SAP Applications is sold or licensed, as the case may be, to users under SUSE’s terms and conditions, which are provided with the product or offering. Availability, and any and all warranties, services and support for SUSE Linux Enterprise Server for SAP Applications is the direct responsibility of, and is provided directly to users by, SUSE.
+The client is responsible for ensuring compliance with laws and regulations applicable to it. IBM does not provide legal advice or represent or warrant that its services or products will ensure that the client is in compliance with any law or regulation.
+© 2021 SAP SE. All rights reserved. SAP, R/3, SAP NetWeaver, Duet, PartnerEdge, ByDesign, SAP BusinessObjects Explorer, StreamWork, SAP HANA, and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. These materials are provided by SAP SE or an SAP affiliate company for informational purposes only, without representation or warranty of any kind, and SAP SE or its affiliated companies shall not be liable for errors or omissions with respect to the materials. This document, or any related presentation, and SAP SE’s or its affiliated companies’ strategy and possible future developments, products, and/or platform directions and functionality are all subject to change and may be changed by SAP SE or its affiliated companies at any time for any reason without notice.
+Products Consulting services Industries Case studies Financing Research LinkedIn X Instagram YouTube Podcasts Business partners Documentation Events Newsletters Support TechXchange community Overview Careers Investor relations Leadership Newsroom Security, privacy and trust United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/case-studies/ntt-data-business-solutions-poland-sap-hana-power#truste_domain_list). 
+Accept All More options

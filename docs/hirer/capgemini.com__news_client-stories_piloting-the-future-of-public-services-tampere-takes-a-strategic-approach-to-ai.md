@@ -1,0 +1,58 @@
+<!-- Source: https://www.capgemini.com/news/client-stories/piloting-the-future-of-public-services-tampere-takes-a-strategic-approach-to-ai/ | Title: Piloting the future of public services – Tampere takes a strategic approach to AI - Capgemini | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/news/client-stories/piloting-the-future-of-public-services-tampere-takes-a-strategic-approach-to-ai/#main-content)
+## The city of Tampere set out to explore the potential of AI solutions to improve municipal services and enhance services for businesses and residents
+**Client Challenge:** The city of Tampere wanted to understand the potential of generative AI technology to improve its public services.**Solution:** Working with Capgemini, the city creates a generative AI governance and perform extensive learning to effectively prepare for a future of innovation.**Benefits:**
+  * Insights and guidance from an external expert on leveraging generative AI
+  * Upskilling organization while piloting use cases simultaneously
+  * An opportunity to explore the potential of generative AI and pilot its use internally before implementing services for residents
+
+
+## Building the foundations of AI governance
+Tampere, known as the industrial capital of Finland, boasts a strong heritage in manufacturing and innovation. It is a leading hub for smart and sustainable manufacturing and renowned internationally for its expertise in intelligent machines and information and communications technology (ICT). The city thrives on close cooperation between businesses, educational institutions, and research organizations, making it a vibrant ecosystem for growth and technological advancement.
+AI and, more specifically, Generative AI have been hot topics for the past couple of years, capturing the attention of public organizations and businesses worldwide. For Tampere, the tipping point came with the global rise of ChatGPT, which demonstrated the power of language models and AI-driven tools in everyday tasks, such as creating headlines or summarizing text. Suddenly, everyone wanted to understand how they could benefit from generative AI. In response, Tampere began exploring how AI could be utilized securely and ethically.
+The city had already developed a data strategy, recognize that all evolving systems rely on a strong foundation of data. However, the rapid rise of generative AI prompted Tampere to explore how this new technology could enhance public services.
+> “Large language models can harness vast amounts of freely available information from the internet and research sources have significantly enhanced the ability of intelligent systems to engage in dialogue with humans. This development compelled us to reflect on our approach and ask ourselves what this means in our context. It’s not just about implementing AI but about rethinking our operations and understanding the implications these technologies bring to our work.”
+> Aleksi Kopponen,Director of Digital Transformation, City of Tampere
+## Pragmatic pilots and systematic learning 
+This reflection and rethinking marked the beginning of Tampere’s learning journey, where the city set out to openly explore what Generative AI is all about. The city chose Capgemini as its companion on this journey. 
+Tampere’s approach to AI was anchored in pragmatism and a focus on learning. The city set clear goals for AI: creating governance models that support broader digital transformation and identifying practical use cases that can eventually be scaled to different needs and environments. 
+For its pilot use cases, the city chose an experimental approach, focusing on the renewal of its intranet. The goal was to explore how Generative AI could support AI-driven dialogue using only the city’s own HR information, rather than drawing on all available internal data. 
+By starting with a carefully targeted pilot, the city ensures the initial focus is on improving internal understanding and dialogue among employees, before considering public-facing applications where both the impact and risks could be greater. 
+> “We have ongoing AI governance activities aimed at ensuring our governance models align with the city’s digital transformation on a broader scale. We want to make pragmatic decisions and understand where the real benefits lie.” 
+> Aleksi Kopponen, Director of Digital Transformation, City of Tampere 
+A key part of the collaboration was learning circles, which included participants from various parts of city of Tampere. The topics covered ranged from the basics of AI to content management and more advanced aspects of technical implementation. The learning circles played a crucial role in spreading knowledge, building skills, and fostering a culture of continuous learning.
+> “The collaborative aspect of Capgemini’s approach has been highly adaptable and collaborative. They have acted as guides, facilitators, and problem solvers, ensuring the learning circles were well-prepared and aligned with real work context. It wasn’t just about attending random courses but truly integrating learning with our daily tasks. Through this partnership, we have ensured that this journey is a shared learning experience, not just an outsourced solution.” 
+> Aleksi Kopponen, Director of Digital Transformation, City of Tampere 
+## Partnership with Capgemini brings expertise to the table
+In addition to facilitating the learning circles, Capgemini’s role in the collaboration has included developing the initial use cases for generative AI, “Ask HR” and “Ask About Procurement Contracts,” applications that streamline internal processes by leveraging generative AI to provide instant access to information.
+> “Our task was not just to build solutions but also to create the foundational architecture for future AI use cases. The goal was to design an architecture that could scale as the number of use cases grows, without having to reinvent the wheel each time.”
+> Jaakko Lehtinen,Automation and Technology Director, Sogeti
+Sogeti, a leading Capgemini business unit driving automation and business assurance, has been developing generative AI solutions for enterprises since 2019 – long before the technology became a mainstream topic of conversation. Its Finland-based experts have direct connections with international Gen AI pioneers. Now, Sogeti brings its long-developed expertise and insights to Finnish clients, leveraging the latest GPT models for business needs. This unique access has allowed Tampere to benefit from the latest advancements and best practices in AI deployment.
+## A strategic approach sets Tampere apart
+What makes Tampere’s AI journey particularly noteworthy is the city’s commitment to a systematic and strategic approach. Unlike many organizations that rush into AI without a clear plan, Tampere is building a strong foundation first, focusing on learning and developing governance models before rolling out large-scale solutions.
+This deliberate approach is crucial not just for the success of individual AI projects, but for ensuring that AI becomes a trusted and integral part of Tampere’s public services.
+> “AI implementation requires patience and strategic thinking. It’s important that leadership understands the significance of AI and stays closely involved in the development process. We’re making sure that our projects are open and inclusive, cutting across the entire organization.”
+> Aleksi KopponenDirector of Digital Transformation, City of Tampere
+As the city continues to pilot AI solutions, the focus remains on building a sustainable and strategic AI infrastructure that can adapt to evolving needs. The partnership with Capgemini and the emphasis on learning ensure that Tampere is not just adopting AI but doing so in a way that is thoughtful, systematic, and geared towards long-term success.
+> “Tampere’s systematic approach to AI shows that it’s not just about the technology, but about the people and the processes behind it. Our shared goal is to find the right solutions that can be scaled and brought into production, making a tangible difference for the city and its residents.” 
+> Jaakko Lehtinen, Automation and Technology Director, Sogeti 
+## The vision for the future
+Tampere aims to harness AI to deliver better public services, enrich community life, and foster regional prosperity.
+As the city navigates its AI journey, its focus on strategy, governance, and learning sets a powerful example for other municipalities looking to harness the power of AI. Through meticulous planning and close collaboration with professional partners like Capgemini, Tampere is actively shaping the future of public services.
+> “We can’t just focus on the exciting parts; we need to get the basics right. That’s why we carefully prepare and prioritize building a solid foundation first. At the same time, we are working on developing ideas to explore where these cutting-edge solutions could best be used. Showcasing our spearhead products to the world is also an important way for us to get feedback on what we are doing.“
+> Aleksi Kopponen,Director of Digital Transformation, City of Tampere
+## Client stories
+Data and AI ### [ABN AMRO adopts a future-focused approach to Gen AI development ](https://www.capgemini.com/news/client-stories/abn-amro-adopts-a-future-focused-approach-to-gen-ai-development/)
+Public sector ### [Enabling evidence-based education decision-making with agentic AI ](https://www.capgemini.com/news/client-stories/enabling-evidence-based-education-decision-making-with-agentic-ai/)
+Data and AI ### [TE Connectivity boosts product development with a knowledge hub ](https://www.capgemini.com/news/client-stories/te-connectivity-boosts-product-development-with-a-knowledge-hub/)
+[ Capgemini Research Institute World Cloud Report – Financial Services 2026 ](https://www.capgemini.com/insights/research-library/world-cloud-report/)
+[ Point of view Gen AI: Turn belief into reality with Capgemini and Microsoft 365 ](https://www.capgemini.com/insights/research-library/gen-ai-turn-belief-into-reality-with-capgemini-and-microsoft-365/)
+[ Point of view Capturing HNWI loyalty across generations ](https://www.capgemini.com/insights/research-library/capturing-hnwi-loyalty-across-generations/)
+[ Point of view Could AI unlock great customer service in the public sector? ](https://www.capgemini.com/insights/research-library/could-ai-unlock-great-customer-service-in-the-public-sector/)
+###  Public sector 
+####  Governments and public sector organizations are leading the transformation to a digital, sustainable future. 
+###  Data and artificial intelligence 
+####  Master your data, and empower your organization. 
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All

@@ -1,0 +1,18 @@
+<!-- Source: https://www.slalom.com/us/en/who-we-are/newsroom/slalom-github-partner-award?=2024-financial-services-outlook | Title: Slalom Named AMER GitHub Services and Channel Partner of the Year | Slalom | Seed: https://www.slalom.com/ (Slalom) -->
+
+[Skip to main content](https://www.slalom.com/us/en/who-we-are/newsroom/slalom-github-partner-award?=2024-financial-services-outlook#mainContent)
+[ Back to newsroom ](https://www.slalom.com/us/en/who-we-are/newsroom?=2024-financial-services-outlook)
+Announcement
+# Slalom Named AMER GitHub Services and Channel Partner of the Year
+October 28, 2025
+[ Share ](https://www.slalom.com/us/en/who-we-are/newsroom/slalom-github-partner-award?=2024-financial-services-outlook#shareModal)
+**Seattle, WA – October 28, 2025** – Slalom, the global business and technology consulting company, announced today it has received the AMER GitHub Services and Channel Partner of the Year for exceptional performance and commitment to its GitHub partnership. The AMER GitHub Services and Channel Partner of the Year award recognizes a global GitHub partner that has driven meaningful customer outcomes and advanced GitHub adoption through strategic services, innovation, and collaboration across North America.
+"Congratulations to Slalom. AMER GitHub Services and Channel Partner of the Year winners were selected because of their strategic vision and their exceptional work on behalf of our joint customers. We look forward to building on our partnership and continuing to deliver strong results together,” said Elizabeth Pemmerl, GitHub’s Chief Revenue Officer.
+The GitHub Partner Awards honor distinguished global and regional partners who have demonstrated an unwavering commitment to collaboration and innovation. The awards celebrate organizations that, through their partnership with GitHub, empower customers to achieve meaningful business outcomes and advance their mission to drive positive change in the world.
+Award recipients were carefully selected by a panel of GitHub executives, regional leaders, and GitHub’s global partner organization.
+**About Slalom**
+Slalom is a fiercely human business and technology consulting company that leads with outcomes and champions leaders to dream big and build now. From strategy through delivery, our agile teams across 54 offices in 12 countries collaborate with clients to bring powerful customer experiences, innovative ways of working, and new products and services to life. We are trusted by leaders across the Global 1000, many successful enterprise and mid-market companies, and 500+ public sector organizations to improve operations, drive growth, and create value. At Slalom, we believe that together, we can move faster, dream bigger, and build better tomorrows for all.
+### Let’s build  _together._
+[ Get in touch ](https://www.slalom.com/us/en/who-we-are/newsroom/slalom-github-partner-award?=2024-financial-services-outlook#lets_talk_form)
+Share
+[ Share to LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.slalom.com%2Fcontent%2Fslalom%2Fus%2Fen%2Fwho-we-are%2Fnewsroom%2Fslalom-github-partner-award.html%3F%3D2024-financial-services-outlook) [ Share to X ](http://twitter.com/share?url=https%3A%2F%2Fwww.slalom.com%2Fcontent%2Fslalom%2Fus%2Fen%2Fwho-we-are%2Fnewsroom%2Fslalom-github-partner-award.html%3F%3D2024-financial-services-outlook) [ Share to Facebook ](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.slalom.com%2Fcontent%2Fslalom%2Fus%2Fen%2Fwho-we-are%2Fnewsroom%2Fslalom-github-partner-award.html%3F%3D2024-financial-services-outlook) Share via Email Copy link

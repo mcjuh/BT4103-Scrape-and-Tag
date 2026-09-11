@@ -1,0 +1,52 @@
+<!-- Source: https://www.bdo.com/insights/industries/financial-institutions-specialty-finance/determining-the-path-forward-when-a-company-in-your-portfolio-breaches-its-covenant | Title: What to Do When a Portfolio Company Breaches Its Covenant
+ | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Determining the Path Forward When a Company in Your Portfolio Breaches Its Covenant
+When a company breaches a covenant in its credit agreement, the reasons behind the breach can be as varied as the strategies that lenders (including bank and non-bank lenders) can take to address them. Determining the best path forward must include an assessment of the company’s history, the details of the breach, its causes, and its short- and long-term impacts on the lender’s overall portfolio. This information will be critical when determining how to amend the credit agreement. Lenders must carefully plan their next steps when navigating a company’s breach of covenant to mitigate the risk of additional, costly breaches in the future.
+## Determine the Landscape of the Breach
+There are several foundational questions lenders should ask upon being notified that a company may or will breach its covenant. Answering these questions can help lenders build a strong foundation for determining the future of their relationship with the company in breach of its covenant. These items include:
+### How serious is the covenant the company is about to breach?
+Determining the severity of the breach can inform decisions about the kinds of controls to put in place in an amended agreement. In the event of a minor breach, a lender might find it more appropriate to make small changes to the terms of the agreement. If the breach is serious enough, some lenders may want to consider implementing recovery frameworks in addition to amendments. Lenders should consider the short- and long-term impact that the company in question plays in an investment portfolio and how a breach of covenant might affect that role.
+### What led to this breach?
+Thoroughly examining the financial conditions and operational issues that precipitated a breach will aid in the development of a recovery framework. Lenders will be better able to determine what conditions could help mitigate the risk of further breaches in an amended agreement once they are equipped with an understanding of how and why a breach occurred. Lenders can also leverage knowledge gained from this examination to inform future decisions about agreements with other borrowers.
+### How should the agreement be amended?
+After looking into the extent, severity, and causes of a breach, lenders will determine what terms in the credit agreement need to be amended and to what extent. For example, if the company in breach plays an important role in a lender’s portfolio or if the breach is not serious, a lender may choose to amend the credit agreement, but will also collect an amendment fee and in many cases increase the interest rate. In these cases, there could also be other terms added to the agreement. The lender may choose to force a division sale, management change, or shut down a poorly performing segment in the company breaching the agreement.
+### Are there alternatives when an agreement cannot be reached?
+When a consensus cannot be reached on how to move forward, a lender may choose to exit the agreement. While this is not a common or preferred option for most lenders, it could be the case if the breach is significant, or a successful recovery does not seem realistic. In these situations, lenders may elect to pursue a distressed loan sale in order to minimize their losses or foreclose on the assets of the company. Even if this particular loan will no longer be under the lender’s purview, it is still beneficial to incorporate lessons learned from said breach into investment planning going forward.
+Unsure how to forecast your loan portfolio in today’s high-interest rate environment? [Check out our new insight](https://www.bdo.com/insights/industries/financial-institutions-specialty-finance/bank-pov-forecasting-loan-portfolios-in-a-high-interest-rate-environment). 
+## Key Considerations When Amending a Credit Agreement 
+Most lenders opt to remain in an agreement with a company that has breached a covenant and need to set conditions for a new agreement following the breach. These lenders should begin by implementing new and expanded controls to guard against another breach and mitigate potentially enhanced risks under the terms of an amended agreement. When developing these controls, banks and non-bank lenders should consider the following questions.
+### Who should handle this process?
+If the broken covenant encompasses a large dollar amount, the lender’s chief credit officer should aid the special asset group in managing next steps. However, if the breach is minor, the special asset group may manage the company’s recovery on their own. Some companies may also bring in outside assistance, such as a third-party advisor, to perform third-party attestation and support due diligence when negotiating the new agreement.
+### What are the initial steps to amending a credit agreement?
+Once a team or specialist has been appointed to manage the amendment process, there are multiple priorities they must keep in mind while they develop an amended agreement.
+This includes:
+  * Achieving a default rate of interest
+  * Getting an amendment fee
+  * Resetting covenants to a level that are achievable without being too lenient
+
+
+With these priorities established, lenders should establish and maintain effective lines of communication with the borrower to track the short- and long-term progress toward loan repayment and to measure the impact of that progress on overall portfolio health. These lines of communication will provide lenders with regular insight into the company’s operating and financial metrics as well as their 13-week cash flow analysis.
+### How do we set the company up for success and mitigate the risk of another future breach? 
+Once lines of communication have been established and lenders have assessed the borrower’s financial and operational conditions, the two parties should determine what financial obstacles they should prepare for and the mitigation strategies they can employ to mitigate the risk of a future breach. These strategies could include tactics like:
+  * Coordinating with the company’s leadership to establish a 13-week forecast
+  * Performing monthly assessments of operational health and efficiency
+  * Determining what the company will do to improve capital and EBITDA margins
+  * Establishing how the company will mitigate the risk of breaching additional covenants
+
+
+On the borrower side, in the interest of maintaining a positive relationship with the lender going forward, the borrower should remain proactive in communicating their recovery status, particularly regarding operational issues and their progress on the controls put in place to rectify the breach. Lenders should be looking for borrowers to overcommunicate, rather than risk leaving out important information. When lenders have access to as much information as possible, they are better able to plan next steps regarding the current and future conditions of the credit agreement.
+## Amendments Are Not One-Size-Fits-All
+When amending an agreement following a breach of covenant, lenders must be thorough in their assessment of the company in breach and the environment that led to the breach. The path forward will always vary based on the company’s industry, role in the bank’s portfolio, and its financial size, meaning recovery will look different for each agreement.
+To help carefully examine the breach and understand the impact it may have on the entire loan portfolio and/or if a loan default is possible, banks and non-bank lenders may consider involving a third-party advisor for support.
+At BDO, we help lenders assess the status of the companies in their portfolio following a breach and work with distressed companies to develop clear and reliable [operational and financial recovery strategies](https://www.bdo.com/services/advisory/turnaround-restructuring-services).
+[Have Questions? Contact Us](https://www.bdo.com/contact)
+Turnaround and restructuring services as well as operational value creation services within the United States are offered through BDO Consulting Group, LLC, a separate legal entity and affiliated company of BDO USA, PA, a Virginia professional service corporation. Certain turnaround and restructuring services may not be available to attest clients of BDO USA under the rules and regulations of public accounting.
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleFinCEN Final Rule Permanently Relieves U.S. Companies of Beneficial Ownership Reporting Obligations September 4, 2026 ArticleFinCEN Final Rule Permanently Relieves U.S. Companies of Beneficial Ownership Reporting Obligations September 4, 2026FinCEN has finalized relief from Corporate Transparency Act reporting for U.S. companies. Learn what the rule means for domestic entities, which foreign companies may still need to report, and the key compliance considerations moving forward. Read Morechevron_right ](https://www.bdo.com/insights/tax/fincen-final-rule-permanently-relieves-us-companies-of-beneficial-ownership-reporting-obligations)
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)
+[ ArticleBusiness Impact: Measurable Returns on AI August 28, 2026 ArticleBusiness Impact: Measurable Returns on AI August 28, 2026AI can create measurable business value when tied to clear goals. Explore how organizations are evaluating returns and turning AI efforts into meaningful outcomes. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/business-impact-measurable-returns-on-ai)

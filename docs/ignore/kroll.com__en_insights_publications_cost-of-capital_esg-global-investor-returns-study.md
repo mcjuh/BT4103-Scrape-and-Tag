@@ -1,0 +1,21 @@
+<!-- Source: https://www.kroll.com/en/insights/publications/cost-of-capital/esg-global-investor-returns-study | Title: ESG and Global Investor Returns Study | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Environmental, Social and Governance
+September 13, 2023
+# ESG and Global Investor Returns Study
+Kroll examined the relationship between historical returns of over 13,000 publicly traded companies across a variety of geographies and industries and their ESG ratings to determine the correlation of ESG ratings to company performance.
+Share
+[https://www.linkedin.com/sharing/share-offsite/url=https%3A%2F%2Fwww.kroll.com%2Fen%2Freports%2Fcost-of-capital%2Fesg-global-investor-returns-study](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.kroll.com%2Fen%2Freports%2Fcost-of-capital%2Fesg-global-investor-returns-study "Linkedin")mailto:?subject=ESG%20and%20Global%20Investor%20Returns%20Study&body=https%3A%2F%2Fwww.kroll.com%2Fen%2Freports%2Fcost-of-capital%2Fesg-global-investor-returns-study
+Kroll’s ESG and Global Investor Returns Study (“ESG Returns Study”) analyzes the relationship between a company’s total stock returns (dividends plus capital appreciation) and its MSCI environmental, social and governance (ESG) ratings over the 2013−2021 period. For this analysis, we built investment portfolios comprising of companies rated under each of MSCI’s seven individual ESG rating categories (i.e., AAA, AA, A, BBB, BB, B and CCC, with AAA being the best and CCC being the worst) and aggregate ratings (i.e., Leaders, Average and Laggards) to investigate whether an investment strategy focused on companies with better ratings would result in a superior return performance. Our analysis found that companies with better ESG ratings generally outperformed those with lower ratings over the 2013−2021 period.
+The ESG Returns Study is unique in its design as the most comprehensive quantitative examination of the relationship between companies’ ESG ratings and returns, which includes analyzing four geographic regions (World, North America, Western Europe, and Asia Pacific) and 12 countries/territories (Australia, Brazil, Canada, China, France, Germany, Hong Kong SAR, India, Japan, South Korea, the UK and the U.S.). 
+In addition, within some of these geographies, we further scrutinize the results for 11 industries (as defined by the GICS® structure): energy, materials, industrials, consumer discretionary, consumer staples, health care, financials, information technology, communications services, utilities and real estate. The methodology used and key insights from the study can be found by downloading the report.
+Below, you can explore our study results through our dynamic Kroll ESG Dashboard. Our dashboard illustrates the compounded annual return of your selected investment portfolio for individual and aggregate MSCI ESG Ratings. Returns were all translated into U.S. dollars to allow comparisons across geographies.
+Get started by selecting a region/ country from the first drop down button and then select an industry to view the data. 
+©2023 Kroll, LLC. All calculations and investment portfolios are created by Kroll, LLC. 
+ESG Materiality Assessment
+Our ESG materiality assessments help organizations identify important sustainability impacts, risks and opportunities, serving as a foundation for stakeholder engagement, transparency and long-term success by prioritizing ESG factors with the most impact on their business.
+[Contact Us](https://www.kroll.com/en/services/esg-materiality-assessment)
+Application of the EU Taxonomy Regulation for Financial Market Participants
+Since 2020, the EU has adopted several new ESG regulations. For financial market participants, the EU Taxonomy Regulation (2020) and the Sustainable Financial Disclosure Regulation (2021) are most relevant as many FMPs start complying with the EU’s developing sustainable finance framework.
+### Sign up our Cost of Capital Thought Leadership
+Kroll's Cost of Capital Resource Center shares trending insights related to global economic and financial market conditions impacting cost of capital inputs and valuations. We deliver what you need to know to stay current.

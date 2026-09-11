@@ -1,0 +1,51 @@
+<!-- Source: https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/ | Title: Six principles for people-first road and highway regenerationwew - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/#main-content)
+Article
+#  Six principles for people-first road and highway regeneration 
+As earlier generations of city roads and streets meet their end of life, we have an incredible opportunity to reimagine their form and function.
+Kate White
+Americas Roads & Streets Leader
+Last updated: June 2026 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/) Copy link  Close Share Menu 
+As earlier generations of city roads and streets meet their end of life, we have an incredible opportunity to reimagine their form and function. It’s a chance to reconnect communities and embrace a wider range of transport modes including active travel. Ultimately our aim should be to produce travel infrastructure that supports city and community resilience.
+Changing the car-centric way we approach the development of cities’ roads and highways involves a mindset change. Business-as-usual it is not. At Arup, we’ve shaped road and highway schemes across the world and have distilled our experience here into six useful principles. Our aim is to strike a better balance between road uses, working to a whole-community vision of the outcomes we want.
+## 1. Communities as neighborhood stewards
+In planning local infrastructure projects, it’s essential that the leadership for transformational change comes from those who will be affected—and benefit—the most. Rather than traditional outreach, it means community members themselves play a leadership role in project creation. To reach the most residents possible, consultation should be convenient with a range of locations on multiple days of the week and at different times of day. Identify community-based organizations who can connect to those who may be harder to reach. As professionals, meet communities where they are rather than expecting them to come to you.
+Adapt engagement strategies to fit each city and neighborhood, respecting local culture, to help residents feel welcome. Use diverse formats, like workshops, community events, and online surveys, ensuring materials are accessible. Quickly report back to the community, demonstrating how their input will inform the plan.
+For true co-creation, the public must be engaged early to help define goals, generate ideas and shape outcomes. To avert improvements that produce displacement, planning can include protections for tenants and businesses, collective ownership or control mechanisms, so that value is shared by those already living in the communities.
+Case study: Austin’s Cap and Stitch Program
+Arup led the conceptual design for new cap parks over the to-be recessed Interstate 35 in Austin, Texas. Significantly, the vision plan for the 30 acres of reclaimed space emerged from hands-on workshops with the community. At one feedback session, we gathered local artists, musicians, and poets to foster an environment where people felt welcome and free to voice their thoughts.
+[ Read more ](https://www.arup.com/projects/our-future-35-austins-cap-and-stitch-program/)
+## 2. Break down bureaucratic barriers
+Rarely do infrastructure projects fit neatly under one government agency’s competence. These projects can span multiple jurisdictions and be subject to complicated layers of ownership and operation.
+When responsibilities and budgets are fragmented, the more hurdles a project must overcome to get built. Even the most widely supported projects are at risk of stalling because of ballooning costs, construction delays, and more. To counteract this, partners must decide from the start to work together to achieve their shared goals and forge a pathway to funding and approvals.
+One way to overcome these obstacles is through a regionally coordinated effort that goes beyond jurisdictional boundaries. In California, Arup is working with the Southern California Association of Governments (SCAG) to create a workable framework for converting highways to boulevards. SCAG is the largest metropolitan planning organization in the United States, bringing together 191 cities to shape policy and planning for the entire megaregion.
+Arup is supporting the organization in developing a guide for local jurisdictions to implement the transformational projects for reknitting communities previously bisected by highways. By providing practical guidance—one that supports a regional vision while navigating local complexities—cities and counties will be equipped to support the guiding vision of a brighter future for Southern California.
+## 3. Prioritize active mobility and transit
+Congestion is fundamentally a space-allocation problem, not a capacity problem. Multi-modal mobility brings logistical benefits for busy urban centers. Improved transit options can help reduce congestion by addressing induced demand, the well documented phenomenon where expanding road capacity leads to more traffic. Rather than continuing to widen highways, urban areas can be more easily navigable when road space is reallocated for bikes, buses, and transit.
+Promoting a shift from driving to other modes of travel can also improve roadway safety. Fewer car trips mean fewer opportunities for crashes, according to [research from Safe Streets Research & Consulting](https://www.bart.gov/sites/default/files/2025-12/App%20E%20White%20Paper.pdf).
+Case study: Safe Trips to BART
+In California, the San Francisco Bay Area Rapid Transit District (BART) released “Safe Trips to BART,” a first-of-its-kind rail agency plan for eliminating traffic crashes on streets that connect to its stations. The plan, developed by an Arup-led consultant team, identifies a toolbox of systemic safety measures that cities, counties, and the state of California can implement to protect travelers on their way to and from train stations.
+[ Read more ](https://www.bart.gov/about/planning/station-access/safe-trips)
+## 4. Explore creative funding mechanisms
+When funding is a barrier, cities and agencies can look beyond traditional capital programs and consider alternative delivery models.
+Public-private partnerships (P3 or PPP) are one way of procuring public infrastructure by leveraging private sector capital. Commonly used in Europe, Asia, Australia, Canada, and Latin America, P3s can offer faster delivery, lower long-term costs, better risk management, and improved asset performance. The reconstruction of Presidio Parkway is a strong example of how a P3 delivery mechanism turned an ambitious vision into a built reality.
+Case study: Presidio Parkway
+Three decades ago, an aging highway cut through the San Francisco Bay Area’s Presidio and separated the neighborhood from the waterfront. The community dreamed of replacing the highway with a parkway and creating a parkland on top—today, the Presidio Tunnel tops.
+To get there, this large and complex project required a delivery and financing scheme that offered the best value for money. Arup prepared a business case for the parkway, evaluating different methods and recommending an approach that would lead to securing public approval to pursue a public-private partnership. At the time, this delivery model was not common in the United States. It has since grown in popularity and proven a successful framework for similar complex infrastructures across the nation and globe.
+## 5. Design for the future
+Repairing aging infrastructure is an opportunity to build lasting value for generations to come. Rather than making short-term fixes, we must take a future-focused lens to design for future climate hazards as well as evolving travel trends. And as populations grow and weather events become more intense, the resilience of our roadways becomes even more vital.
+[ Publication  Road to resilience: practical insights to enable more resilient and adaptable road networks  Keeping our roads in good condition will only become more important as the climate changes. Effective resilience involves understanding local context and designing beyond today’s needs to ensure solutions can perform over the long term.  ](https://www.arup.com/insights/road-to-resilience/)
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/) Copy link  Close Share Menu 
+Explore similar insights
+[ Article ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=107) [ Roads and streets ](https://www.arup.com/insights/filtered-insights/?MarketTaxonomies=23) [ Transport ](https://www.arup.com/insights/filtered-insights/?MarketTaxonomies=223) [ Americas ](https://www.arup.com/insights/filtered-insights/?RegionTaxonomies=33) [ Social value ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=119) [ Transport ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=139)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/article-five-principles-for-people-first-road-and-highway-regeneration/)
+Close Close

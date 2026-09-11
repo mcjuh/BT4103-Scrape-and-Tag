@@ -1,0 +1,96 @@
+<!-- Source: https://www.bdo.com/insights/industries/real-estate-construction/2026-real-estate-construction-industry-predictions | Title: 2026 Real Estate and Construction Industry Forecast | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# 2026 Real Estate & Construction Industry Predictions
+Article 12 min read
+  * PRINT 
+  * [ file_download  ](https://www.bdo.com/getmedia/7600def9-9b64-4f8d-8a4a-840d6efa344b/REC-2026-Industry-Predictions-Report.pdf?ext=.pdf)
+DOWNLOAD 
+  * 
+
+The real estate and construction industry has weathered years of disruption, from supply chain chaos and natural disasters to labor shortages and interest rate volatility. As companies look ahead, 2026 is shaping up to be another year of change and challenge. 
+Emerging trends in technology, artificial intelligence (AI), and labor are cementing into permanent market forces that could fundamentally change how firms build and operate. We expect the companies that thrive in 2026 to be those that recognize these shifts early and invest in the capabilities required to capitalize on them. Transformation is no longer an exploratory project — it must become a core business discipline.
+Here are BDO’s six real estate and construction industry predictions for the new year. 
+##  Data Center Demand Drives Infrastructure Innovation
+AI proliferation and cryptocurrency mining continue to fuel explosive demand for computing power in 2026. But data center development faces critical constraints around power generation, transmission capacity, site selection requirements, labor availability, and cooling systems that traditional energy infrastructure cannot solve.
+In response to these challenges, we expect to see accelerated adoption of alternative power sources in 2026, including small modular nuclear reactors (SMRs) for on-site generation, distributed renewable energy projects, fuel cells, and advanced cooling techniques like liquid and immersion cooling. Facilities may also deploy smart grid management systems that leverage AI to predict energy needs, balance loads, and reduce waste. 
+Developers need to take a holistic approach to [data center site selection](https://www.bdo.com/insights/industries/technology/strategic-guide-to-data-center-site-selection), balancing grid reliability, water access, physical security, community relations, and more. New regulations are likely to emerge as companies weigh these considerations, particularly relating to [environmental and safety standards](https://www.bdo.com/insights/industries/technology/data-center-dangers-addressing-digital-physical-and-environmental-security-threats). Additional rules could provide much-needed clarity to a burgeoning market, and the potential introduction of new credits or incentives for these sites may bolster funding, but these factors could also introduce new compliance challenges that firms must track throughout 2026 and beyond.
+In the near-term, real estate developers and construction firms should grow their experience in specialized power and cooling systems, and prioritize building relationships with general contractors serving data center projects. Because the market is largely dominated by big technology players, these relationships and demonstrable competencies, alongside helpful knowledge of local markets, will be key to claiming a competitive advantage in one of the fastest-growing segments of commercial real estate.
+43%
+AI data center energy use is [projected to grow](https://www.datacenterknowledge.com/data-center-construction/moody-s-report-reveals-surge-in-data-center-demand-driven-by-ai-boom) by an average of 43% annually until 2029, underscoring the urgent need for grid upgrades and the challenge of implementing them in a compressed timetable.
+##  From Experiment to Standard Practice: AI Transforms Back-Office Operations
+We expect gaps between AI leaders and followers to widen in 2026 as companies that launched AI pilots in previous years fully integrate the technology into their operations. This next stage of adoption is set to have the most pronounced effect on back-office functions, with self-contained tasks like financial forecasting, contract management, compliance checking, and project scheduling offering the most straightforward potential for AI applications.
+However, companies will not stop there. We expect to see the rise of [agentic AI](https://insights.bdo.com/guide-to-agentic-ai.html) — autonomous agents with the ability to make decisions independently — over the next year. Agents can partner with their human oversight to handle increasingly complex, non-deterministic workflows. This “human-in-the-loop” approach lets companies automate judgment-based tasks, like coordination with contractors on a worksite, while still enforcing output quality and responsibility standards.
+But achieving AI maturity also comes with its own challenges. Many companies, in attempting to pursue deeper integrations, may discover that their data infrastructure is not yet ready to support AI at scale. Others may realize that they still lack the governance processes to review and verify outputs. Forging ahead without these foundational elements in place could lead to costly errors or compliance actions that harm firms’ profitability and reputation.
+Companies that invest now in the data and governance structures necessary to support AI are likely to see measurable returns and more stable operations in 2026. Those who wait may fall behind, struggle to realize the operational efficiencies, and lose their competitive edge to more technologically advanced rivals.
+To learn more about practical applications for agentic AI in real estate and construction, read our insight [**Agentic AI Use Cases for Today's Real Estate and Construction Firms**](https://www.bdo.com/insights/industries/real-estate-construction/agentic-ai-use-cases-for-todays-real-estate-and-construction-firms)**.**
+##  Labor Market Contracts as Competition for Skilled Workers Expands
+The construction industry is no stranger to labor shortages, but these challenges are reaching new severity in 2026. As existing workers age out, [fewer young workers enter the trades](https://www.peopleready.com/newsroom/skilled-trades-labor-scarcity-workforce-aging-as-fewer-recruits-enter-trades/#:~:text=As%2520workers%2520continue%2520to%2520age,careers%2520that%2520are%2520critically%2520important.), and tech-enabled talent becomes a must-have, skilled labor could become a primary constraint for many firms. Approximately 41% of the current construction workforce is [expected to retire](https://www.nccer.org/newsroom/how-apprenticeships-empower-adult-learners-and-bridge-the-construction-workforce-gap/#:~:text=With%2520half%2520a%2520million%2520new,and%2520development%2520projects%2520will%2520suffer.) before 2031, underscoring the scope of the problem and showing how the shortage will compound year over year. Labor costs, which already represent [20 – 40% of total construction costs](https://www.e-a-a.com/what-percentage-of-construction-cost-is-labor/), could rise even higher as the problem grows more acute. Electricians, plumbers, HVAC specialists, and project managers will be in high demand. Double-digit wage increases for specialty trade contractors may become a new industry norm.
+But firms can still mitigate these impacts. In 2026, we expect businesses to seek out new partnerships to build their own long-term talent pipelines. Many may collaborate directly with technical schools and expand recruitment to non-traditional talent pools like community colleges and apprenticeship programs.
+Forecasts estimate that the construction industry will need to attract [499,000 new workers](https://www.abc.org/News-Media/News-Releases/abc-construction-industry-must-attract-439000-workers-in-2025) to keep pace with growing demand in 2026 alone.
+499,000
+##  The Tokenization Boom: Expanded Access to Real Estate Investment
+Real estate tokenization — converting property ownership to digital tokens on a blockchain — is ready to go from niche to mainstream in 2026, unlocking new investment avenues and opening real estate markets around the world. After years of regulatory uncertainty, new federal laws, like the [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582/text) and the [Digital Asset Market Clarity Act](https://www.congress.gov/bill/119th-congress/house-bill/3633/text), are providing long-sought rules of the road and paving the way for a tokenization wave.
+Tokenization, via fractional ownership, breaks down traditional barriers to real estate investment. Assets that previously would have sold for millions of dollars can be tokenized and distributed to scores of investors, with each paying a comparatively lower price. Property owners and developers could gain access to broader funding pools (including international buyers), while retail investors can access asset classes that were previously restricted to large institutions or high-net-worth (HNW) individuals. 
+Blockchain-based property titles could also eliminate costs and inefficiencies that were once viewed as unavoidable. Title insurance, for example, exists because paper-based ownership records are highly vulnerable to loss or manipulation. The blockchains’ immutable ledger could reduce the need for such additional protection, while also accelerating the speed at which transactions take place.
+[International markets are currently leading](https://cryptorank.io/news/feed/1d8db-mufg-buys-osaka-tower-plans-to-tokenize-it) the way in the push toward widespread tokenization, but we expect U.S.-based companies to catch up in 2026. Real estate developers, investors, and service providers should begin building the technical infrastructure and compliance capabilities to support tokenization now. 
+Those who start early can better position themselves to strike a winning balance between innovation and risk management, capturing new investments while also keeping abreast of evolving regulatory standards or tax requirements.
+##  Private Equity Targets Specialty Construction — Not General Contracting
+Private equity (PE) is expanding its presence within the construction industry, presenting new growth paths to firms that can demonstrate their value. We expect investment to accelerate in 2026, but with a strategic focus on specific industry segments that may offer better returns and less volatility than traditional general contracting.
+PE investors will likely express the greatest desire to target specialty trade contractors — electrical, HVAC, and plumbing, for example — with recurring revenue models and higher margins that make for an attractive portfolio company (portco). Other areas of interest may include infrastructure and highway contractors positioned to benefit from government spending, modular construction firms with manufacturing-style operations and predictable margins, and construction technology companies. 
+This influx of PE capital could drive consolidation and professionalization within the industry. We expect specialty trade roll-ups to become commonplace as PE funds combine their portcos to form regional or even national players with improved operational capabilities. PE-backed firms are also likely to invest in enhanced financial management systems, technology platforms, and talent development, raising operational standards and heightening competitive pressures for independent contractors.
+Funds are expected to seek firms with strong governance structures, modern technology platforms, and well-documented, repeatable processes. Making these improvements now can help firms on multiple fronts. Those pursuing PE investment can present a compelling business case, and those preferring to remain independent should be well-positioned to compete against better capitalized, PE-backed rivals.
+PE leaders are constantly adjusting their investment strategies to capitalize on market disruptions. To learn more about how the industry is facilitating revenue growth even amid challenging investment conditions, read BDO’s**2025 Private Equity Survey.**
+[Read the full report](https://insights.bdo.com/2025-Private-Equity-Survey.html) to learn more.
+##  Natural Disaster Recovery Becomes a Permanent Construction Business Line
+We expect disaster recovery to move from episodic to predictable work in 2026, as the frequency and severity of events like hurricanes, wildfires, floods, and other extreme weather events continue to rise.
+This change is being driven in large part by growth in multi-phase revenue opportunities. The umbrella of “disaster work” is expanding, encompassing not only immediate restoration but also resilience retrofitting, infrastructure hardening, and even [insurance claims processing](https://www.bdo.com/insights/advisory/navigating-the-post-disaster-insurance-recovery-process). Immediate reconstruction of damaged residential and commercial properties requires rapid mobilization resource allocation. Resilience retrofitting demands specialized building knowledge to reinforce roofing systems, integrate flood- and fire-proof building materials, and construct wind-resistant building envelopes. Infrastructure hardening is increasingly crucial to protect power grids and telecommunications infrastructure — especially as data center projects expand and the cost of downtime, for business and consumers, is only growing.
+Forward-thinking construction firms are likely to develop core proficiencies to meet these evolving needs, with formalized processes to deploy teams, equipment, and materiel to disaster zones within 24 – 48 hours of an event. They may also reassess their supplier relationships to ensure they can maintain uninterrupted access during inevitable post-disaster shortages. 
+We expect to see new credentials emerge to accompany these deepened offerings. Industry-recognized resilience construction standards could help firms differentiate themselves from competitors and build credibility with the regions and customers they serve. Firms that invest in these capabilities now could gain a head start over their peers, securing contracts and cultivating valuable trust in disaster-prone markets.
+### Interested in learning more about how BDO can help your business seize new opportunities in 2026?
+Select your preferences and stay current with our latest insights  [ SUBSCRIBE ](https://www.bdo.com/create-account)
+## Related Resources
+[ ArticleUnderstanding the Power Grid Crisis August 10, 2026 ArticleUnderstanding the Power Grid Crisis August 10, 2026Rising demand from AI, data centers, and electrification is putting new strain on the U.S. power grid. Learn what’s driving the pressure and why it matters for businesses. Read Morechevron_right ](https://www.bdo.com/insights/advisory/understanding-the-power-grid-crisis)
+[ ArticleReimagining Work in the Age of AI July 29, 2026 ArticleReimagining Work in the Age of AI July 29, 2026AI is reshaping work at a rapid pace, pushing leaders to rethink jobs through the lens of skills, human potential, and business value. Discover why this shift has become a pressing leadership priority. Read Morechevron_right ](https://www.bdo.com/insights/advisory/reimagining-work-in-the-age-of-ai)
+[ ArticleReal Estate & Construction’s Top Three Tax Priorities For 2026 July 7, 2026 ArticleReal Estate & Construction’s Top Three Tax Priorities For 2026 July 7, 2026State audit activity, OBBBA changes, and a growing transferable tax credit market are reshaping the outlook for real estate and construction. See the top three tax priorities highlighted in BDO’s 2026 Tax Strategist Survey. Read Morechevron_right ](https://www.bdo.com/insights/tax/real-estate-constructions-top-three-tax-priorities-for-2026)
+[ ArticleSales and Use Tax in Construction: An Overlooked Source of Financial Risk June 24, 2026 ArticleSales and Use Tax in Construction: An Overlooked Source of Financial Risk June 24, 2026Contract structure, exemptions, and jurisdictional rules can all affect construction tax costs. Read the insight to learn how to identify sales and use tax risks early. Read Morechevron_right ](https://www.bdo.com/insights/tax/sales-and-use-tax-in-construction-an-overlooked-source-of-financial-risk)
+## Cookies Help Us Improve Your Experience
+BDO USA uses third-party cookies and other tracking technologies (“Cookies”) on this website. We require the use of certain Cookies (“Mandatory Cookies”) that may collect and receive your information, including information relating to your usage of the website and content you submit or share during your visit, for website functionality, performance, analytics, and other business purposes. You may choose whether to accept our use of certain other Cookies (“Optional Cookies”) to conduct targeted advertising or for other purposes considered data “sharing” or “selling” under applicable privacy laws. To accept these Optional Cookies, please select “Accept All” below, or to opt out, select “Accept Only Mandatory Cookies.”[Privacy Policy](https://www.bdo.com/privacy-policy)
+Customize Cookies
+Accept Only Mandatory Cookies Accept All
+Opt-Out Request Honored
+## Opt-out of Targeted Advertising/Do Not Sell or Share My Personal Information
+BDO USA uses third-party cookies and similar tracking technologies (“Cookies”) to conduct targeted advertising and for other purposes considered data “sharing” and/or “selling” under privacy laws, as further detailed in our Privacy Policy. In accordance with applicable law, we provide you with the ability to opt out of our use of Cookies for these purposes. If you visit this website from a different browser or device, or if you “clear” your cookies or otherwise reset your browser settings, you may need to re-submit your opt-out preference. Cookies may collect and receive your information, including information relating to your usage of the website and content you submit or share during your visit. Please note that we require the use of certain Cookies for analytics and other business purposes, as described in the “Mandatory Cookies” section below. By selecting “Confirm” below, you acknowledge and accept that we may use Cookies for these purposes. [Privacy Policy](https://www.bdo.com/legal-privacy/legal/privacy-policy%20)
+Allow All
+### Opt-out
+#### Mandatory Cookies
+Always Active
+Some cookies and tracking technologies are necessary for our website to function, or used for monitoring, performance, analytics and other business purposes.
+  * ##### Strictly Necessary Cookies
+Always Active
+
+
+  * ##### Performance Cookies
+Always Active
+
+
+  * ##### Functional Cookies
+Always Active
+
+
+#### Optional Cookies
+Optional Cookies Active
+Please use the toggle to opt out of our use of Cookies to conduct targeted advertising or for other purposes considered data “sharing” or “selling” under privacy laws. These Cookies are ON when the toggle is moved to the right, and will be turned OFF when the toggle is moved to the left.
+Back Button
+### Cookie List
+Search Icon
+Filter Icon
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Confirm

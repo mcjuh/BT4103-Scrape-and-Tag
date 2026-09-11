@@ -1,0 +1,23 @@
+<!-- Source: https://www.arup.com/projects/advisory-services-projects/ | Title: Advisory services projects - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/projects/advisory-services-projects/#main-content)
+[ Back to all projects  ](https://www.arup.com/projects/all-projects/)
+#  Advisory services projects 
+Filter
+Locations
+AmericasAsia PacificEuropeUK, India, Middle East and AfricaView all
+Markets
+Arts and cultureAviationCitiesData centresEducationEnergyHealthcareIndustry and manufacturingInternational developmentMaritimePropertyRailRoads and streetsScienceSportTransportWater
+#### [Unlocking Heathrow’s first commercial development in more than two decades Heathrow Airport Eastern Business Park, United Kingdom ](https://www.arup.com/projects/heathrow-airport-eastern-business-park/)#### [Transforming Shotton Mill into one of the most technologically advanced paper mills in the world  Shotton Mill, United Kingdom ](https://www.arup.com/projects/shotton-mill/)#### [Using emotionally intelligent leadership to transform performance South West Water Team Development, United Kingdom ](https://www.arup.com/projects/south-west-water-team-development/)#### [ Delivering a £200M future-ready hub for pioneering research and collaboration at the University of Oxford University of Oxford's Life and Mind Building, United Kingdom ](https://www.arup.com/projects/university-of-oxfords-life-and-mind-building/)
+#### [Technical due diligence to support financing of expanded solar energy Technical due diligence for ENERPARC's solar plants, Germany ](https://www.arup.com/projects/due-diligence-for-enerparcs-photovoltaic-systems/)#### [Enabling sustainable, inclusive growth through collaboration India UK PACT, Thailand UK PACT and Vietnam UK PACT, United Kingdom, Vietnam, India ](https://www.arup.com/projects/india-uk-pact-thailand-uk-pact-and-vietnam-uk-pact/)#### [Strategic consultancy for a thriving innovation campus Rotterdam Makers District, Netherlands ](https://www.arup.com/projects/rotterdam-makers-district/)#### [Strategy for innovation districts in Amsterdam: a roadmap for implementation Amsterdam Innovation Districts, Netherlands ](https://www.arup.com/projects/amsterdam-innovation-districts/)
+#### [Helping to pioneer an integrated energy system with floating offshore wind  Cerulean Winds, United Kingdom ](https://www.arup.com/projects/cerulean-winds/)#### [New life for renewables in Poland Baltic Towers, Poland ](https://www.arup.com/projects/baltic-towers/)#### [Designing a safe, sustainable tramway for Colombia's second largest city 80th Avenue Medellín Tramway, Colombia ](https://www.arup.com/projects/80th-avenue-medellin-tramway/)#### [Bringing Australia closer to offshore wind energy generation Blue Mackerel Offshore Wind Farm, Australia ](https://www.arup.com/projects/blue-mackerel-offshore-wind-farm/)
+#### [Owner’s engineer services for a major renewables project in South Africa Selemela Solar PV Project 1, South Africa ](https://www.arup.com/projects/selemela-solar-pv-project-1/)#### [Improving water security and sanitation for millions in urban India Australia-India Water Security Initiative (AIWASI), India ](https://www.arup.com/projects/australia-india-water-security-initiative-aiwasi/)#### [A strategic approach to flood management  Greater Nottingham Asset Management Plan, United Kingdom ](https://www.arup.com/projects/greater-nottingham-asset-management-plan/)#### [Property fund IPUT Real Estate’s head office puts user wellness first IPUT Real Estate head office, 47-49 St. Stephen’s Green, Ireland ](https://www.arup.com/projects/iput-real-estate-head-office-47-49-st-stephens-green/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/projects/advisory-services-projects/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/projects/advisory-services-projects/)
+Close Close
+Close
+## Filter options

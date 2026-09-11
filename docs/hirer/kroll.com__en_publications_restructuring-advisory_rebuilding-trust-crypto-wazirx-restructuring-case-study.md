@@ -1,0 +1,40 @@
+<!-- Source: https://www.kroll.com/en/publications/restructuring-advisory/rebuilding-trust-crypto-wazirx-restructuring-case-study | Title: Rebuilding Trust in Crypto: What Happens When a Platform Refuses to Fold? | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Restructuring
+November 25, 2025
+# Rebuilding Trust in Crypto: What Happens When a Platform Refuses to Fold?
+Share
+[https://www.linkedin.com/sharing/share-offsite/url=https%3A%2F%2Fwww.kroll.com%2Fen%2Fpublications%2Frestructuring-advisory%2Frebuilding-trust-crypto-wazirx-restructuring-case-study](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.kroll.com%2Fen%2Fpublications%2Frestructuring-advisory%2Frebuilding-trust-crypto-wazirx-restructuring-case-study "Linkedin")mailto:?subject=Rebuilding%20Trust%20in%20Crypto%3A%20What%20Happens%20When%20a%20Platform%20Refuses%20to%20Fold%3F&body=https%3A%2F%2Fwww.kroll.com%2Fen%2Fpublications%2Frestructuring-advisory%2Frebuilding-trust-crypto-wazirx-restructuring-case-study
+What does it take for a crypto exchange to survive a nine-figure breach, retain hundreds of token types and convince millions of users to stay?
+In mid-2024, WazirX faced a crisis that could have ended its story. A security failure at a third-party custody provider led to the loss of over 230 million dollars in digital assets. The platform was fragmented, exposed and under pressure from regulators and creditors alike. Most companies in this position would have shut down. WazirX chose a different path.
+Instead of liquidating, the company pursued full-scale restructuring. That decision shaped everything that followed. It meant preserving the platform’s token ecosystem, proving control over hundreds of thousands of wallets and resolving legal questions that crossed borders and legal systems. It also meant rebuilding trust in a market that had grown deeply skeptical.
+## A Market on Edge
+At the time of the breach, the crypto sector was already under strain. Global trading volumes were down, regulatory scrutiny was rising and investor confidence had been shaken by a string of high-profile collapses. Platforms like Vauld had opted for simplified restructurings that reduced token offerings and prepared for wind-downs. The industry was bracing for more exits, not comebacks.
+WazirX’s decision to restructure as a going concern stood out. It signaled that recovery was still possible, even in the face of massive technical and legal disruption. But it also introduced a level of complexity that few had attempted to manage.
+## What Made This Case Different
+The most defining feature of the WazirX case was scale. The platform held over 300 token types across more than 240,000 wallets. Many of these tokens were illiquid or delisted, making them difficult to rebalance without triggering price volatility. Kroll, appointed to lead the restructuring, developed a phased strategy that grouped tokens by liquidity tiers. High-liquidity assets were rebalanced first. Illiquid tokens were addressed through multiple rounds of trimming and, where necessary, reimbursed using stablecoins.
+To minimize market disruption, the team used time-weighted average pricing algorithms and coordinated with over-the-counter desks and exchanges. This approach helped maintain dollar neutrality and ensured that trades could be executed without distorting prices, particularly for less-capitalized tokens with lower liquidity that nonetheless needed to remain supported following platform reactivation.
+Unlike other restructurings that narrowed token sets to simplify execution, WazirX aimed to preserve its full offering. That decision added complexity but also reinforced the platform’s commitment to continuity.
+## Proving Control in a Decentralized World
+Another major challenge was custody verification. The Singapore High Court required independent proof that WazirX retained control over its digital assets. In traditional finance, this might involve bank statements or custodial attestations. In crypto, control must be demonstrated through blockchain activity.
+To manage this, we coordinated a large-scale custody consolidation effort. Satoshi tests, small, controlled transactions, were used to prove access to private keys. These tests were reviewed by a third-party assessor appointed by the Court. In parallel, the team conducted a full liabilities verification process, including database logic sampling and recalculation of creditor balances.
+This phase was essential. It addressed judicial concerns about asset integrity and helped build trust with creditors who had no direct visibility into the platform’s internal systems.
+## Legal and Regulatory Headwinds
+The restructuring also faced legal challenges around asset ownership. Some creditors argued that WazirX held their tokens in trust, pointing to marketing materials and user communications. Initially, the Court ruled that no trust arrangement existed under Singapore law. But at the final hearing, a group of minority creditors raised the issue again, this time under Indian law.
+The Court allowed expert testimony from both sides and ultimately reaffirmed its position. There was not enough evidence to establish a trust under either jurisdiction. The Scheme was sanctioned, but the dispute delayed approval and highlighted the importance of jurisdictional clarity in crypto restructuring.
+Late in the process, the Court raised another concern. It questioned whether the Scheme conflicted with Singapore’s Financial Services and Markets Act. Specifically, it asked whether the delivery of digital assets to creditors could be considered regulated activity. Kroll had anticipated this and activated a contingency plan. The entities responsible for executing the Scheme were restructured to separate operational delivery from any functions that might trigger regulatory thresholds.
+Despite written confirmation from the Monetary Authority of Singapore that the Scheme did not breach the law, the Court required additional safeguards. The revised structure preserved the commercial terms and ensured compliance.
+## A Blueprint for the Future
+WazirX resumed trading in October 2025 under a restructured framework. The platform retained its original token set, implemented new custody protocols, and restored user access. The restructuring created a model for future crypto recoveries, one that balances technical execution with legal and regulatory discipline.
+The case offers lessons for legal professionals, restructuring advisors and regulators alike. It shows that trust in crypto is not just a matter of sentiment. It is a function of control, transparency and leadership. And when those elements align, even the most complex failures can become opportunities for renewal.
+[ George Gwee DirectorRestructuringSingapore ](https://www.kroll.com/en/our-experts/george-gwee)
+[George Gwee](https://www.linkedin.com/in/george-gwee-8196abb3/)george.gwee@kroll.com[+65 66030502](tel:+65-66030502)
+[ Jason Kardachi Managing Director and Global Co-Head of RestructuringGrand Cayman ](https://www.kroll.com/en/our-experts/jason-kardachi)
+[Jason Kardachi](https://www.linkedin.com/in/jason-kardachi-604a398/)Jason.Kardachi@kroll.com[+ 1 345 525 0245](tel:+-1-345-525-0245)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Restructuring](https://www.kroll.com/en/services/restructuring)
+Restructuring expertise that maximizes value and recovery
+[Asset Recovery and Investigations](https://www.kroll.com/en/services/restructuring/asset-recovery-and-investigations)
+Recovering misappropriated assets through intelligence and enforcement.
+[Insolvency](https://www.kroll.com/en/services/restructuring/insolvency)
+Maximizing recoveries for complex cross-border insolvencies and enforcements.

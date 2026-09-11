@@ -1,0 +1,36 @@
+<!-- Source: https://www.slalom.com/us/en/who-we-are/newsroom/aws-partner-awards-2023?=2024-financial-services-outlook | Title: Slalom Awarded Five 2023 AWS Partner Awards and Named a Finalist for Four | Slalom | Seed: https://www.slalom.com/ (Slalom) -->
+
+[Skip to main content](https://www.slalom.com/us/en/who-we-are/newsroom/aws-partner-awards-2023?=2024-financial-services-outlook#mainContent)
+[ Back to newsroom ](https://www.slalom.com/us/en/who-we-are/newsroom?=2024-financial-services-outlook)
+Announcement
+# Slalom Awarded Five 2023 AWS Partner Awards and Named a Finalist for Four
+November 27, 2023
+[ Share ](https://www.slalom.com/us/en/who-we-are/newsroom/aws-partner-awards-2023?=2024-financial-services-outlook#shareModal)
+### Slalom receives nine 2023 AWS Partner Award acknowledgments, including AWS SI Partner of the Year – Global
+**Las Vegas, NV – November 27, 2023** – Announced during a Partner Awards Gala at AWS re:Invent 2023, Slalom, the global business and technology consulting company, is a winner of five 2023 Geo and Global Amazon Web Services (AWS) Partner Awards and a finalist for four Awards. Finalists represent the top-three-ranked AWS Partners across any data-driven award set. The Awards recognize leaders around the globe playing a key role helping customers drive innovation and build solutions on AWS.
+The Geo and Global AWS Partner Awards that Slalom received for 2023 are:
+  * **System Integrator (SI) Partner of the Year** – Global: Honors top AWS SI Partners that have provided significant contributions related to revenue, launched opportunities, net-new certified individuals, and AWS designations earned 
+  * **SI Partner of the Year – UKI (UK and Ireland)** – Recognizes AWS Partners in the UK and Ireland as leaders in helping customers drive innovation. This is the first time Slalom has won this award in the UK and Ireland and represents Slalom’s close alignment with AWS focusing on industry solutions to drive value for joint customers 
+  * **SI Artificial Intelligence/Machine Learning (AI/ML) Partner of the Year** –Global: Acknowledges top AWS Partners with the AWS Machine Learning Competency that have demonstrated machine learning expertise through the amount of competencies they hold, the value they’ve provided to customers, and the revenue they’ve helped generate 
+  * **SI Migration Partner of the Year – Global** –Showcases top AWS Partners with the AWS Migration Competency and their ability to execute customer migrations based on quantity of migrations, value delivered, and punctual delivery 
+  * **Industry Partner of the Year** – Travel and Hospitality – Global: Recognizes top AWS Partners with the AWS Travel and Hospitality Competency that are helping to drive results in the modernization and innovation journeys of customers in the industry, from behind-the-scenes operational efficiencies to guest-facing customer experiences
+
+
+“I give credit to the collaborative and customer-focused teams at Slalom for the global recognition that we received as a winner in these AWS Partner Award categories this year,” said Mukesh Kumar, General Manager of Slalom’s global technology team. “We’re honored to be acknowledged and grateful for our relationship with AWS, which empowers us to provide an award-winning experience to our mutual customers.”
+Dave Williams, President UK and Ireland at Slalom, had this to say about the AWS SI Partner of the Year – UKI win:
+“Helping organizations to transform through the use of cloud technologies is something we love doing, and it’s always humbling to hear customers or partners giving recognition for the work we do together with them. Collaborating with AWS is really refreshing—its teams are so customer-centric in how they think, super innovative in what they can offer, and really in sync with our own bias for action to get things done, properly. It’s so exciting to think about the impact we can continue to have together for our mutual customers.”
+The UKI win is Slalom’s second location-specific AWS Partner Award win in 2023 after receiving AWS SI Partner of the Year – US [earlier this year](https://www.slalom.com/newsroom/aws-us-partner-award-2023?=2024-financial-services-outlook). This puts Slalom’s total number of 2023 AWS Partner Awards at six. Slalom was also named a finalist for four 2023 Geo and Global AWS Partner Awards:
+  * **Application Modernization SI Partner of the Year – Global**
+  * **SI Data and Analytics Partner of the Year – Global**
+  * **SI Security Partner of the Year – Global**
+  * **Non-Profit Organization (NPO) Partner of the Year – North America**
+
+
+For the second year in a row, Geo and Global AWS Partner Awards included a self-nomination process across several award categories. Award submissions were reviewed by a third-party, Canalys, and winners were selected by a panel of AWS experts based on strict criteria, with special emphasis placed on customer success use cases presented in the nomination form. Slalom has built deep relationships with customers in 45 markets around the world, such as AWS customers [Smith Optics](https://www.slalombuild.com/our-work/smith-optics) and [TUI Group](https://www.slalom.com/case-studies/tui-group-cloud?=2024-financial-services-outlook).
+Slalom has been a member of the AWS Partner Network (APN) since 2010 and is an AWS Premier Tier Services Partner. The APN is a global program focused on helping companies build successful AWS-based businesses or solutions by providing business, technical, marketing, and go-to-market support. The APN includes independent software vendors (ISVs) and SIs around the world, with AWS Partner participation growing significantly during the past 12 months.
+**About Slalom**
+Slalom is a purpose-led, global business and technology consulting company. From strategy to implementation, our approach is fiercely human. In six countries and 43 markets, we deeply understand our customers—and their customers—to deliver practical, end-to-end solutions that drive meaningful impact. Backed by close partnerships with over 400 leading technology providers, our 12,000+ strong team helps people and organizations dream bigger, move faster, and build better tomorrows for all. We’re honored to be consistently recognized as a great place to work, including being one of Fortune’s 100 Best Companies to Work For seven years running. Learn more at [slalom.com](https://www.slalom.com/?=2024-financial-services-outlook).
+### Let’s build  _together._
+[ Get in touch ](https://www.slalom.com/us/en/who-we-are/newsroom/aws-partner-awards-2023?=2024-financial-services-outlook#lets_talk_form)
+Share
+[ Share to LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.slalom.com%2Fcontent%2Fslalom%2Fus%2Fen%2Fwho-we-are%2Fnewsroom%2Faws-partner-awards-2023.html%3F%3D2024-financial-services-outlook) [ Share to X ](http://twitter.com/share?url=https%3A%2F%2Fwww.slalom.com%2Fcontent%2Fslalom%2Fus%2Fen%2Fwho-we-are%2Fnewsroom%2Faws-partner-awards-2023.html%3F%3D2024-financial-services-outlook) [ Share to Facebook ](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.slalom.com%2Fcontent%2Fslalom%2Fus%2Fen%2Fwho-we-are%2Fnewsroom%2Faws-partner-awards-2023.html%3F%3D2024-financial-services-outlook) Share via Email Copy link

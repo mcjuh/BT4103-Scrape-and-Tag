@@ -1,0 +1,47 @@
+<!-- Source: https://www.ibm.com/case-studies/transactis | Title: Transactis | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+Support
+  * [OverviewResolve product issues with self-service tools](https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl)
+  * [CommunityShare knowledge in a collaborative environment to unlock innovation](https://community.ibm.com/community/user/community?lnk=flathl)
+  * [DeveloperAccess digital resources, code samples and code trials](https://developer.ibm.com/?lnk=flathl)
+  * [DocumentationUnderstand, develop and deploy our products with comprehensive technical resources](https://www.ibm.com/docs/en?lnk=flathl)
+  * [IBM Cloud platformAccess subject matter experts and content to address questions and issues about IBM Cloud](https://www.ibm.com/products/cloud/support?lnk=flathl)
+  * [ImplementationDrive better business outcomes with an experienced team of IBM product experts](https://www.ibm.com/products/expertlabs?lnk=flatitem)
+  * [TrainingDevelop your skills with premiere educational offerings and credentials](https://www.ibm.com/training/?lnk=flathl)
+  * [Technology Lifecycle ServicesElevate your support experience with a holistic approach to data center management across your IT environment](https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl)
+
+
+My IBM  Log in 
+#  Transactis ensures the high reliability of its instant payment IS 
+Founded by La Banque Postale and Société Générale, Transactis is a major player in the payment and payment systems sector in France. In order to meet the challenges of high volume and real-time processing, Transactis has chosen IBM Expertise Connect, which delivers customized high-level technical expertise _._
+Challenge: High availability as the foundation for growth 
+##  Challenge: High availability as the foundation for growth 
+_"The digitalization of banking services is driving us towards a greater number of real-time operations._ " says Bertrand Rinié, CTO of Transactis. Accelerated by the pandemic, this technological development is not risk-free: the slightest failure in managing financial flows can have significant consequences on banks and their customers, in terms of both operations and image. _"Today, our number one challenge is to ensure optimal service for all of our offerings_." emphasizes Bertrand Rinié. 
+Transactis has built its reputation and buoyant growth on the impeccable service it provides. In addition to its two founding entities, Transactis’ customers include Boursorama, Ezyness, BFCOI, Ma French Bank, Banque des Caraïbes, and Caisse des Dépôts. Transactis aims for new listings as a payment operator by leveraging its electronic payment, SEPA and Instant Payment platforms, and by developing new offerings as part of the European Payments Initiative.
+The solution: proven technology and expertise 
+##  The solution: proven technology and expertise 
+It was in the context of instant payment that Transactis chose to work with IBM and DataPower at the end of 2018. A robust and resilient structure is essential to process outgoing and incoming transfers in less than 10 seconds. "_DataPower was the obvious choice given its reliability, functionality and proven ability to handle extremely large volumes._ " confides Bertrand Rinié. Moreover, Transactis is familiar with IBM technologies: _"We have an IBM mainframe for which the connectors are natively available on DataPower, which is a real advantage. And the Transactis Payments team have already had experience working with DataPower._ ”
+To avoid compromising performance and to make optimal use of this technological choice, Transactis immediately chose IBM Expertise Connect. Thanks to a technical account manager, IBM Expertise Connect provides immediate personalized support throughout the entire lifecycle of a solution: architecture design, implementation, deployment, management, support, and more. _"We work with IBM Expertise Connect on two fronts: first of all, incident management, to provide responsive support that enables us to resolve problems faster than with standard support. And a more proactive focus, linked to the use of our ecosystem: its management, updates, development...",_ explains Bertrand Rinié.
+Related solutions 
+  * [ IBM® DataPower ](https://www.ibm.com/products/datapower-gateway)
+  * [ IBM® Expertise Connect ](https://www.ibm.com/products/expertlabs/technical-account-management)
+
+
+"Since the beginning of 2019, we have continued to use this system, which perfectly meets our needs." 
+Bertrand Rinié  Transactis 
+Transformation: unwavering responsiveness 
+##  Transformation: unwavering responsiveness 
+In practice, the IBM teams hold a weekly meeting with Transactis. "_Our contact is perfectly familiar with DataPower and our environment_. _Whenever we encounter difficulties, we speak with him, and he rapidly gets back to us with solutions."_ explains David Matthey, Chapter Manager at Transactis. _"For example, we had a technical incident with a firmware update. We quickly obtained expert recommendations to help us solve the problem once and for all."_ There are a wide range of topics discussed each week: dPOD (DataPower Operations Dashboard) alert analyses, a review of developments made by Transactis' in-house teams, recommendations on new features of the latest X3 generation..._"We are currently discussing the possibility of setting up a rollback to better secure our solutions.” adds David Matthey._
+Benefits: performance, stability and flexibility 
+##  Benefits: performance, stability and flexibility 
+_"We feel confident working hand in hand with IBM, the historical leader in the field."_ affirms David Matthey. _"We also know that Datapower expertise can only be developed by IBM.”_ To streamline all queries, Transactis has a single point of contact at IBM, the Technical Account Manager. Depending on the question, this manager mobilizes the top-notch experts from among the thousands of IBM engineers worldwide. _"They work together to provide us with a solution, which is invaluable when multiple technologies are involved._ " emphasizes David Matthey. _"This was the case when we had to reconnect Datapower to the mainframe. IBM quickly proposed a configuration solution that allows us to reconnect. So, when incidents do occur, they are rapidly corrected and do not recur."_
+In addition to optimal technical expertise, ensuring resilience and system performance, IBM Expertise Connect brings a high degree of agility to the company. _"With our contacts in both France and the United States, we don't need to re-explain our environment or the use cases, which saves us time."_ emphasizes Bertrand Rinié. Expertise Connect may be viewed as an extension of the company, mastering both technical solutions and the corporate structure. For David Matthey, _"Our contacts at IBM provide stability and facilitate the transfer of knowledge during personnel changes at Transactis. When I took up my position a few months ago, they immediately helped me understand what was at stake. I was able to ask questions, obtain rapid answers and concentrate on my core business tasks._
+**One last point: partnership flexibility.**
+_"Contractually speaking, we have defined the level of support we require together with IBM, which is reviewed on a quarterly basis. I have to say that they are extremely flexible, and when our needs increase, IBM immediately adapts to the new situation."_ explains Bertrand Rinié. _"Every six months, we conduct a review to modify the contract for the following years. When the contract was drawn up in 2019, the terms and conditions regarding time spent, governance, procedures, etc., were very well thought out. This has definitely been proven to work given the fact that the agreement is renewed yearly._ ”
+The main indicator showing the effectiveness of this partnership is the steady, smooth increase in the number of customers and volumes managed. In the Instant Payment business, 146 million instant payments were managed in 2022, a number expected to more than double in 2023. This robust IS is calibrated to meet the demands of certain clients who wish to transition to instant payment systems in the near future. This should also enable Transactis to continue to expand in a new market: Europe.
+About Transactis 
+##  About Transactis 
+Founded by La Banque Postale and Société Générale, Transactis develops, manages and operates electronic payment information systems, SEPA and international direct debit and credit transfer systems, and instant payment systems for the leading players on the financial market. Transactis represents a 23% market share of the electronic payment market (nearly 19 million cards, 375,000 merchant contracts and over 11,000 ATMs) and 35% of credit transfers and direct debits (6.8 billion transactions) in France. A total of 146 million instant payments were managed in 2022, a number expected to more than double in 2023*.
+*Figures at the end of December 2022.
+Solution components  IBM® DataPower  IBM® Expertise Connect 
+Products Consulting services Industries Case studies Financing Research LinkedIn X Instagram YouTube Podcasts Business partners Documentation Events Newsletters Support TechXchange community Overview Careers Investor relations Leadership Newsroom Security, privacy and trust United States — English Contact IBM Privacy Terms of use Accessibility

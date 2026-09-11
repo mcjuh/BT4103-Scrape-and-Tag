@@ -1,0 +1,10 @@
+<!-- Source: https://www.thoughtworks.com/en-au/profiles/leaders/karthik-srinivasan | Title: Karthik Srinivasan | Thoughtworks Australia | Seed: https://www.thoughtworks.com/ (ThoughtWorks) -->
+
+[ Leaders Back ](https://www.thoughtworks.com/en-au/about-us/leaders)
+#  Karthik Srinivasan 
+Global Head of Agentic AI Platforms
+Pronouns: He / Him
+I am the Global Head of Agentic AI Platforms at Thoughtworks, where I lead the vision, strategy and commercialization of our agentic development platform, AI/works™. My focus is on scaling industrial-grade AI platforms that help clients modernize legacy systems and build new digital products with speed and confidence.
+I bring more than 27 years of experience building and scaling digital and AI-powered platforms across consulting and industry. I have held senior leadership roles at McKinsey & Company and Accenture, where I led global platforms, owned P&L responsibilities and developed patented AI-based solutions. I am based in Bangalore.
+Thoughtworks acknowledges the Traditional Owners of the land where we work and live, and their continued connection to Country. We pay our respects to Elders past and present. Aboriginal and Torres Strait Islander peoples were the world's first scientists, technologists, engineers and mathematicians. We celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander Elders of all communities who also work and live on this land. 
+As a company, we invite Thoughtworkers to be actively engaged in advancing reconciliation and strengthen their solidarity with the First Peoples of Australia. Since 2019, we have been working with Reconciliation Australia to formalize our commitment and take meaningful action to advance reconciliation. We invite you to review our [Reconciliation Action Plan.](https://www.thoughtworks.com/content/dam/thoughtworks/documents/guide/tw_guide_reconciliation_action_plan.pdf)

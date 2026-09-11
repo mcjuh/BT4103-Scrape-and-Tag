@@ -1,0 +1,32 @@
+<!-- Source: https://www.kroll.com/en/client-stories/restructuring-vauld-navigating-a-crypto-liquidity-crisis | Title: Restructuring $325 Million of Cryptocurrency Debt for 150,000 Global Creditors | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Client Stories
+# Restructuring $325 Million of Cryptocurrency Debt for 150,000 Global Creditors
+[ Talk to an Expert ](https://www.kroll.com/en/contactus)
+The Challenge
+In mid-2022, the collapse of the Terra Luna ecosystem and Three Arrows Capital triggered a market-wide crisis across the cryptocurrency sector. Plummeting asset prices and mass panic set off a domino effect of defaults among cryptocurrency lenders as depositors rushed to withdraw funds.
+Vauld, a cryptocurrency exchange, was caught in the middle of the turmoil. The platform held $325 million of unsecured debt owed to approximately 150,000 retail creditors worldwide. Its liabilities were callable immediately under the terms of the platform, but its underlying assets were tied up in long-dated third-party loans and deposits that could not be recovered in the short term. A run on the platform posed a real and immediate threat.
+Vauld needed to mitigate withdrawal pressure quickly, while buying the time and space required to propose a credible restructuring plan. Complicating matters further, a significant portion of its assets was illiquid and tied up with third parties facing their own insolvencies, freeze orders and arbitrations.
+The challenges did not end once a restructuring was agreed upon. During the three-year scheme that followed, a highly contentious boardroom dispute delayed a second distribution to creditors, and existing distribution infrastructure could not be used, which meant a compliant, secure and scalable method of distributing tokens globally had to be built from the ground up.
+Kroll's Solution
+Kroll conceptualized, structured and delivered a successful restructuring of Vauld’s $325 million of debt through a Singapore Scheme of Arrangement.
+The plan balanced the priorities of a large and diverse retail creditor base. A Reverse Dutch Auction gave creditors who wanted to exit the ability to extinguish their claims and recover up to 55% in USD terms, distributed in tokens. Creditors who remained received recoveries of more than 30% immediately upon scheme approval, also in tokens, with entitlements to future distributions from recovered illiquid assets. $10 million of cost reserves was set aside to fund those recovery efforts and maintain the infrastructure supporting the restructuring, all within a clearly defined three-year governance structure.
+Kroll's Restructuring practice led the project management across every aspect of the engagement, from financial modeling and stakeholder management to legal proceedings, business assessment and creditor communications. Kroll Issuer Services built a bespoke claims adjudication and voting platform that integrated with an independent assessor responsible for resolving claims disputes and verifying the scheme vote.
+Beyond passing the scheme, Kroll recovered and distributed $82 million of illiquid assets in late 2025 and early 2026. That distribution was carried out through a Kroll-driven and negotiated partnership with global cryptocurrency exchange Crypto.com, with contingency arrangements in place through Asset Reality, WazirX and Bullish.
+The Impact
+Scheme creditors have now recovered approximately 60% of their claims, before accounting for any appreciation in the value of tokens distributed since 2023. The alternative, a liquidation, would have materially reduced recovery prospects and left creditors waiting years longer for any distribution.
+The restructuring delivered far more than a financial outcome. It provided a court- sanctioned compromise of creditor claims, approved by the creditors themselves. It established a corporate governance framework with creditor oversight, including the appointment of a creditor representative to the board with clearly defined joint approval powers on scheme matters. Regular reporting and creditor town halls kept 150,000 stakeholders informed throughout the process. And in 2026, a compliant, secure and scalable global distribution solution was put in place for all future distributions.
+## Why Kroll
+Restructurings involving retail creditors succeed or fail based on trust. Kroll understood the mindset of 150,000 individual creditors spread across the globe, which meant every option was evaluated against what mattered to them, from a potential third-party buyout to the deleveraging exercise that gave creditors seeking an exit a genuine liquidity opportunity. The plan that creditors ultimately approved was shaped by their feedback at every stage.
+Additionally, Vauld dealt with just one team from crisis response through final distribution. Financial modeling, stakeholder management, legal proceedings, claims adjudication and the voting platform were all delivered under one roof, with no handoffs to disparate providers and no gaps for things to fall through. This approach allowed the process to move quickly and enabled Kroll to provide the resolution the situation demanded.
+## Facing a Complex Restructuring?
+Whether you are managing liquidity pressure, a distressed balance sheet or a large and dispersed creditor base, Kroll’s Restructuring Team can help you find a path forward. Talk to our experts today.
+Need help staying ahead of a complex challenge?
+[Talk to an Expert](https://www.kroll.com/en/contactus)
+[ Jason Kardachi Managing Director and Global Co-Head of RestructuringGrand Cayman ](https://www.kroll.com/en/our-experts/jason-kardachi)
+[Jason Kardachi](https://www.linkedin.com/in/jason-kardachi-604a398/)Jason.Kardachi@kroll.com[+ 1 345 525 0245](tel:+-1-345-525-0245)
+[ George Gwee DirectorRestructuringSingapore ](https://www.kroll.com/en/our-experts/george-gwee)
+[George Gwee](https://www.linkedin.com/in/george-gwee-8196abb3/)george.gwee@kroll.com[+65 66030502](tel:+65-66030502)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Restructuring](https://www.kroll.com/en/services/restructuring)
+Restructuring expertise that maximizes value and recovery

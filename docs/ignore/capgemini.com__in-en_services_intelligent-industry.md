@@ -1,0 +1,113 @@
+<!-- Source: https://www.capgemini.com/in-en/services/intelligent-industry/ | Title: Industry 4.0 Intelligent Engineering Services | Capgemini India | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/in-en/services/intelligent-industry/#main-content)
+# Intelligent industry
+## We have entered the next era of digital transformation. This is characterized by a growing convergence of product, software, data, and services across all industries. At Capgemini we call this ‘Intelligent Industry’.
+Aligning strategic priorities with pragmatic action has never been more challenging. The key to success lies in compound thinking, an approach that integrates digital transformation, physical engineering, and sustainability. This mindset allows businesses to unlock sustainable value and drive innovation by designing intelligent, efficient and adaptive systems.
+Intelligent industry creates a whole new world of opportunity – and this is why we believe…… the future of your industry is INTELLIGENT
+We believe that what we produce – and how we produce it – shapes the future. That’s why we’re committed to helping you devise, design and deliver your vision for Intelligent Industry, accelerating your path to tangible outcomes.
+Our unique approach to integrated solutions makes us your trusted partner in re-engineering supply chains for higher performance, resource efficiency and net zero success. By modernizing and transforming your IT ecosystem, we help you drive both sustainability and profitability.
+Together, we’ll build agile, future proof operations powered by intelligent infrastructure and optimized processes. Our mission is to help you maximize what you have today, so you can lead the industry of tomorrow.
+> “Intelligent Industry is about fostering synergies between the digital and engineering worlds to help companies build intelligent products, operations, and services, at scale.”
+> Roshan Gya, EVP I CEO Capgemini Invent
+### Digital, meet physical
+[Please allow advertising cookies to see this Youtube embed](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+###  Hannover Messe 2026 
+####  The World’s Leading Industrial ShowApril 20-April 24, Hall 15, booth F52 
+###  The new AI imperative in manufacturing 
+####  How the new wave of AI is disrupting manufacturing operations, and how to benefit from it. 
+###  The leader in Everest Group’s Industry 4.0 PEAK Matrix 2025 
+####  Capgemini is honoured as the leader in Everest Group’s Industry 4.0 Services PEAK Matrix® Assessment 2025 
+###  Accelerating the battery industry 
+####  As the world accelerates toward electric mobility and clean energy, battery demand is set to grow exponentially in the next decade. 
+###  The resurgence of manufacturing 
+####  Reindustrialization strategies in Europe and the US – 2025 
+###  Third-party risk management 
+####  Mitigate risk in the age of increasingly complex supply chains and regulations. 
+
+
+## What enables Intelligent Industry?
+### Hyper-convergence​
+Hardware and software are becoming more integrated, traditional industries are blurring their boundaries (e.g., automotive and energy) and future innovations will merge the digital, physical, and biological dimensions.
+### Hyper-connectivity​
+Connected products are creating ecosystems around the customers (e.g. smart homes), but on a larger scale, 5G is enabling private networks for use in smart cities and even battlefield applications.
+### Hyper-intelligence​
+AI and quantum computing are enabling autonomous systems that can be trained at an accelerated rate (e.g. autonomous driving or new drug development).
+## Our approach
+  * ### [Intelligent products and services](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+  * ### [Intelligent manufacturing and supply chain](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+  * ### [Digital continuity and convergence](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+  * ### [Intelligent operations](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+
+
+### [Intelligent products and services](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+**Any product can become smart and connected.** This leads to increased uptime, improved efficiency, cost reduction and new revenue streams through servitization models. It’s the time to leverage enhanced connectivity, such as 5G, and advanced data intelligence to create richer, hyper-personalized products and services.
+[Learn more](https://www.capgemini.com/in-en/services/intelligent-industry/intelligent-products-services/)
+### [Intelligent manufacturing and supply chain](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+Today, industrial companies are under pressure to produce more complex products, faster and more efficiently than ever. The solution to many of these challenges lies within the data generated by the machines and processes that drive their operations. Intelligent Industry leverages emerging technologies and data to transform operations. By extending beyond supply chain and manufacturing activities, intelligent operations transcend industry borders, enabling organizations to collaborate faster and smarter.
+[Learn more](https://www.capgemini.com/insights/research-library/digital-transformation-in-industrial-it-ot/)
+### [Digital continuity and convergence](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+**Disruptive innovation, new as-a-service models, and smart connected products rely on the continuous flow of complete information.** Digital continuity to digitize core processes and digital convergence to create and manage virtual environments, are key to the future of smart design, superior manufacturing operations, streamlined supply chains, and unparalleled service and support that is always reliable, efficient, and sustainable.
+[Learn more](https://www.capgemini.com/in-en/insights/research-library/digital-continuity-building-the-connected-organization/)
+### [Intelligent operations](https://www.capgemini.com/in-en/services/intelligent-industry/#)
+**Disruption, saturation, personalization, and sustainability are triggering transformation across entire value chains.** Our approach to data-centric intelligent operations enables smart manufacturing and streamlined supply chains that are reliable, efficient, and sustainable.
+[Learn more](https://www.capgemini.com/in-en/services/intelligent-industry/intelligent-operations/)
+## Latest insights
+[ Point of view Software-defined vehicles for the commercial vehicle market ](https://www.capgemini.com/in-en/insights/research-library/software-defined-vehicles-for-the-commercial-vehicle-market/)
+[ Point of view Making Brownfield factories smarter and greener ](https://www.capgemini.com/in-en/insights/research-library/making-brownfield-factories-smarter-and-greener/)
+[ Report The battery revolution ](https://www.capgemini.com/in-en/insights/research-library/future-of-batteries/)
+[ Point of view Rethinking rail ](https://www.capgemini.com/in-en/insights/research-library/rethinking-rail-the-digital-transformation-in-railways/)
+[ Capgemini Research Institute Reindustrialization of Europe and US 2025 ](https://www.capgemini.com/in-en/insights/research-library/reindustrialization-of-europe-and-us-2025/)
+## Intelligent together
+### [OPmobility expands software innovation for mobility Working with Capgemini, the automotive manufacturer grew its Op’n Soft program, adding onto the team’s capabilities in order to improve its ability to drive innovation in areas such as assisted driving, infotainment, and sustainability ](https://www.capgemini.com/in-en/news/client-stories/plastic-omnium-expands-software-innovation-for-mobility/)
+### [Digital transformation makes Chevron Phillips Chemical operations more intelligent Capgemini brings data, AI, cloud, engineering, and industry experience to deliver business value to Chevron Phillips Chemical ](https://www.capgemini.com/in-en/news/client-stories/digital-transformation-makes-chevron-phillips-chemical-operations-more-intelligent/)
+### [Accelerating medicine R&D cycles Capgemini and Sanofi set a new industry standard by accelerating clinical trials with the Act4Patients program ](https://www.capgemini.com/in-en/news/client-stories/accelerating-medicine-rd-cycles/)
+### [Thanks to servitization, Sercel transforms and extends its service offer In partnership with Capgemini, Sercel identifies a portfolio of new services that differentiates the equipment manufacturer from its competitors and brings more value to its customers ](https://www.capgemini.com/in-en/news/client-stories/thanks-to-servitization-sercel-transforms-and-extends-its-service-offer/)
+### [Transforming traditional crane system automation at Schneider Electric with 5G Capgemini and Qualcomm coordinate to deliver a 5G solution for Schneider Electric that enhances the capabilities of automated hoisting systems. ](https://www.capgemini.com/in-en/news/client-stories/transforming-traditional-crane-system-automation-at-schneider-electric-with-5g/)
+
+
+## Expert perspective
+Intelligent industry
+### [Building the foundation of an intelligent factory ](https://www.capgemini.com/in-en/insights/expert-perspectives/building-the-foundation-of-an-intelligent-factory/)
+Lydia Aldejohann
+Mar 31, 2026
+Intelligent industry
+### [Building a resilient, connected value chain with compound solutions](https://www.capgemini.com/in-en/insights/expert-perspectives/building-a-resilient-connected-value-chain-with-compound-solutions/)
+Lydia Aldejohann
+Feb 11, 2025
+Innovation
+### [The next industrial revolution – multi-agent systems and small Gen AI models are transforming factories](https://www.capgemini.com/in-en/insights/expert-perspectives/the-next-industrial-revolution-multi-agent-systems-and-small-gen-ai-models-are-transforming-factories/)
+Jonathan Aston
+Jan 23, 2025
+## Meet our experts
+### Volker Darius
+CEO Invent, Group executive committee member
+Volker Darius became CEO of Capgemini Invent in 2026, focusing on human-centered design and strategies to guide clients into an AI-powered future. Since joining Capgemini in 2008, he has held key leadership roles, including Chief Client Officer and Managing Director for Northern and Central Europe, where he expanded business in the Middle East. Prior to Capgemini, Volker gained experience at Audi and Philips and co-founded two technology-driven startups.
+### Michael Schulte
+CEO Engineering, Group Executive Board member
+Michael has been CEO of Engineering since January 2026, and a member of the Group Executive Board since January 2021. Prior to this, from 2021, he was CEO of Northern Europe. Michael was the Managing Director of Capgemini’s Business Unit in Germany from July 2018 to December 2020, after having led the Application Services business in Germany since 2013. Under his leadership Capgemini reached market leading positions both in management consulting and in application development, and became a leading brand for digital talent.
+### Charlotte Pierron-Perlès
+EVP, Managing Director of Intelligent Industry, Capgemini Invent
+Charlotte is the Managing Director of Capgemini Invent’s Intelligent Industry global practice. She drives CxO agenda on R&D and operations transformation. Charlotte has 20 years of experience and acts as trusted advisor to leading large scale end to end transformation for global companies where data, GenAI and advanced technologies are helping to drive significant revenue growth and enhancing their competitiveness, while meeting sustainability imperatives.
+### Pierre Bagnon
+EVP, Global Head of Intelligent Industry Accelerator
+Pierre is Executive Vice President at Capgemini, heading Intelligent Industry for the group. He focuses on digital and sustainable transformation, entailing intelligent operations, intelligent product and services and digital continuity, with a particular focus in the Manufacturing and Automotive sectors. With more than 10 years of experience in advanced manufacturing, Pierre is a global subject matter expert for Smart factory and Industrial ramp-up.
+### Nicolas Rousseau
+Global Head of Engineering Technologies and Transformation
+Nicolas Rousseau, EVP and Chief Digital Engineering & Manufacturing Officer at Capgemini Engineering, drives business for “intelligent industries” by integrating product, software, data, and services. He leads a team that enables clients to innovate business models, optimize operations, and prepare for digital disruptions, enhancing customer interaction, R&D, engineering, manufacturing, and supply chains at the intersection of physical and digital worlds.
+
+
+Slider. Slide 1.
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/in-en/cookie-policy). 
+Accept Manage Settings Decline All
+#### Connect with us
+### Thank You! We have received your form submission.
+We are sorry, the form submission failed. Please try again.
+### Thank You! We have received your form submission.
+We are sorry, the form submission failed. Please try again.
+### Thank You! We have received your form submission.
+We are sorry, the form submission failed. Please try again.
+### Thank You! We have received your form submission.
+We are sorry, the form submission failed. Please try again.
+### Thank You! We have received your form submission.
+We are sorry, the form submission failed. Please try again.

@@ -1,0 +1,22 @@
+<!-- Source: https://www.kroll.com/en/services | Title: Kroll Solutions and Services | Financial and Risk Advisory | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Services
+Kroll provides clients a way to build, protect and maximize value through our trusted expertise spanning risk, governance, transactions and valuation. Our award winning solutions and intelligence provide clients the foresight they need to create an enduring competitive advantage.
+[Valuation Services](https://www.kroll.com/en/services/valuation-services)[Alternative Asset Advisory](https://www.kroll.com/en/services/alternative-asset-advisory)[Transaction Advisory Services](https://www.kroll.com/en/services/transaction-advisory-services)[Real Estate Advisory Service](https://www.kroll.com/en/services/real-estate-advisory-services)[Transaction Opinions](https://www.kroll.com/en/services/transaction-opinions)[Investment Banking](https://www.kroll.com/en/services/investment-banking)
+[Fixed Asset Advisory](https://www.kroll.com/en/services/fixed-asset-advisory)[Tax Services](https://www.kroll.com/en/services/tax-services)[Transfer Pricing](https://www.kroll.com/en/services/transfer-pricing)[Trade and Customs](https://www.kroll.com/en/services/transfer-pricing/trade-and-customs)[Private Capital Markets Platform](https://www.kroll.com/en/tools-and-platforms/private-capital-markets-platform)[Cost of Capital Navigator](https://www.kroll.com/en/tools-and-platforms/cost-of-capital)
+[SEE ALL FINANCIAL ADVISORY](https://www.kroll.com/en/services/financial-advisory)
+##### [Middle-Market M&A Could Defy Gloomy Predictions Despite Recent Volatility](https://www.kroll.com/en/publications/m-and-a/middle-market-ma-gloomy-predictions-recent-volatility)
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)[Enterprise Security Risk Management](https://www.kroll.com/en/services/enterprise-security-risk-management)[Expert Services](https://www.kroll.com/en/services/expert-services)[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+[Investigations, Diligence and Compliance](https://www.kroll.com/en/services/investigations-diligence-and-compliance)[Resolver ](https://www.resolver.com/)[Restructuring](https://www.kroll.com/en/services/restructuring)
+[SEE ALL RISK ADVISORY](https://www.kroll.com/en/services/risk-advisory)
+##### [OT Security Lessons from the Trenches: Patterns and Pitfalls from BACS Assessments](https://www.kroll.com/en/publications/cyber/ot-security-lessons-patterns-pitfalls-bacs-assessments)
+[Agency and Trustee Services](https://www.kroll.com/en/services/agency-and-trustee-services)[Issuer Services](https://www.kroll.com/en/services/issuer-services)[Restructuring Administration](https://www.kroll.com/en/services/restructuring-administration)[Settlement Administration](https://www.kroll.com/en/services/settlement-administration)
+[Mass Tort Bankruptcy Solutions](https://www.kroll.com/en/services/settlement-administration/mass-tort-administration)[Notice Media Solutions](https://www.kroll.com/en/services/notice-media-solutions)[Government Solutions](https://www.kroll.com/en/services/government-solutions)
+[SEE ALL BUSINESS SERVICES](https://www.kroll.com/en/services/business-services)
+##### [U.S. Case Study: Groupon Rights Offering](https://www.kroll.com/en/publications/issuer-services/groupon-rights-offering-issuer-services)
+Ranked in Band 1 for Forensic Accountants in Asia Pacific
+Kroll has been ranked in Band 1 for Forensic Accountants in the Asia Pacific region by Chambers and Partners’ Litigation Support Guide 2025—marking our third consecutive year to receive the recognition.
+Kroll Named 2025 Global Leader in Fairness Opinions
+Kroll continues to set the standard among independent financial advisors with its market-leading Transaction Opinions practice. Over the 20 years that the team has maintained its leadership position, Kroll has rendered over 1,500 fairness opinions worldwide, covering transactions with an aggregate deal value exceeding $1 trillion.
+Kroll's 2025 Financial Crime Report
+From pivotal elections to advances in AI to heightened geopolitical tensions, the events of the past year have only amplified the challenges of fighting financial crime. Based on data from over 600 executives across the globe, our report provides insight to help leaders prepare for what’s next.

@@ -1,0 +1,308 @@
+<!-- Source: https://www.ey.com/en_gl/insights/financial-services/four-regulatory-priorities-to-drive-financial-institutions-focus-in-2025 | Title: Four priorities to drive financial institutions’ in 2025 | EY - Global | Seed: https://www.ey.com/en_gl/industries (EY) -->
+
+[ EY logo, Shape the future with confidence ](https://www.ey.com/en_gl "EY logo, Shape the future with confidence")
+Back
+### Insights
+Read More  Read Less 
+Discover the insights you need to make better decisions today, to shape the future with confidence.
+Read More  Read Less 
+[ Explore ](https://www.ey.com/en_gl/insights)
+See more
+Read More  Read Less 
+#### Highlights 
+Read More  Read Less 
+Private Equity
+[How can PE teams guide portfolio companies to be exit-ready, not exit-reactive?](https://www.ey.com/en_gl/insights/private-equity/private-equity-exit-readiness-study)
+Geostrategic Analysis
+[Geostrategic Analysis](https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis)
+Futures Reimagined
+[Megatrends 2026 and beyond](https://www.ey.com/en_gl/megatrends)
+[EY podcasts](https://www.ey.com/en_gl/media/podcasts) [EY webcasts](https://www.ey.com/en_gl/media/webcasts) [Case studies](https://www.ey.com/en_gl/case-studies)
+Read More  Read Less 
+Back
+### Services
+Read More  Read Less 
+EY helps clients create long-term value for all stakeholders. Enabled by data and technology, our services and solutions provide trust through assurance and help clients transform, grow and operate.
+Read More  Read Less 
+[ Explore ](https://www.ey.com/en_gl/services)
+  * See All
+  * 1||About EY-Parthenon
+  * 2||About EY-Parthenon
+
+
+Read More  Read Less 
+#### Spotlight
+Read More  Read Less 
+[Customer & Growth by EY Studio+](https://www.ey.com/en_gl/services/consulting/transformative-experiences)
+[ey.ai The Reimagination Engine](https://www.ey.com/en_gl/services/ai/platform)
+[Technology transformation](https://www.ey.com/en_gl/services/consulting/technology-transformation)
+[Tax function operations](https://www.ey.com/en_gl/services/tax-function-operations)
+[Climate change and sustainability services](https://www.ey.com/en_gl/services/climate-change-sustainability-services)
+[EY Ecosystems](https://www.ey.com/en_gl/alliances)
+[EY Nexus platform](https://www.ey.com/en_gl/industries/financial-services/business-transformation-platform)
+[EY wavespace™](https://www.ey.com/en_gl/wavespace)
+Read More  Read Less 
+Back
+### Industries
+Read More  Read Less 
+Discover how EY teams are helping to shape the future of your industry.
+Read More  Read Less 
+[ Explore ](https://www.ey.com/en_gl/industries)
+  * 1||##
+  * 2||##
+  * 3||##
+  * 4||##
+  * 5||##
+  * 6||##
+  * 7||##
+  * 8||##
+  * 9||##
+
+
+Read More  Read Less 
+#### Case studies
+Read More  Read Less 
+Consulting
+[How Xoople transforms Earth data into business insights](https://www.ey.com/en_gl/insights/consulting/xoople-transforms-earth-data-into-business-insights)
+Alliances
+[How AI drove Daikin’s business transformation from complexity to agility](https://www.ey.com/en_gl/alliances/daikin-transforms-business-transformation-with-ai)
+Alliances
+[How humanoid robotics are strengthening complex industrial work](https://www.ey.com/en_gl/alliances/fincantieri-humanoids-strengthening-industrial-operations)
+Read More  Read Less 
+Back
+### Careers
+Read More  Read Less 
+We bring together extraordinary people, like you, to build a better working world.
+Read More  Read Less 
+[ Explore ](https://www.ey.com/en_gl/careers)
+See more
+Read More  Read Less 
+#### Spotlight
+Read More  Read Less 
+[Experienced professionals](https://careers.ey.com/ey)
+[Student and entry level programs](https://eyglobal.yello.co/job_boards/c1riT--B2O-KySgYWsZO1Q?locale=en)
+[Talent community](https://careers.ey.com/ey/lp/TC/f7abb34d58e4b33e/?locale=en_US)
+Read More  Read Less 
+Back
+### About us
+Read More  Read Less 
+At EY, our purpose is building a better working world. The insights and services we provide help to create long-term value for clients, people and society, and to build trust in the capital markets.
+Read More  Read Less 
+[ Explore ](https://www.ey.com/en_gl/about-us)
+See more
+Read More  Read Less 
+#### Top news
+Read More  Read Less 
+Press release
+[EY announces on-site quantum computing to help shape the next frontier of enterprise technology transformation](https://www.ey.com/en_gl/newsroom/2026/07/ey-announces-on-site-quantum-computing-to-help-shape-the-next-frontier-of-enterprise-technology-transformation)
+29 Jul 2026[Michael Curtis ](https://www.ey.com/en_gl/people/michael-curtis)
+Press release
+[EY expands NVIDIA-powered enterprise AI capabilities with industry-first validation of NVIDIA NemoClaw for LangChain](https://www.ey.com/en_gl/newsroom/2026/07/ey-expands-nvidia-powered-enterprise-ai-capabilities-with-industry-first-validation-of-nvidia-nemoclaw-for-langchain)
+27 Jul 2026[Barbara Dimajo ](https://www.ey.com/en_gl/people/barbara-dimajo)
+Press release
+[Geopolitics tops the CEO agenda as leaders tighten focus on profitability, AI and strategic deals](https://www.ey.com/en_gl/newsroom/2026/05/geopolitics-tops-the-ceo-agenda-as-leaders-tighten-focus-on-profitability-ai-and-strategic-deals)
+04 May 2026[Laura Furness ](https://www.ey.com/en_gl/people/laura-furness)
+[ Search ](https://www.ey.com/en_gl/insights/financial-services/four-regulatory-priorities-to-drive-financial-institutions-focus-in-2025#)
+search
+Search for insights, services and people...
+close 
+search 
+[ See all results for ' '  ](https://www.ey.com/en_gl/insights/financial-services/four-regulatory-priorities-to-drive-financial-institutions-focus-in-2025#)
+No results have been found 
+Topics
+See All
+General
+See All
+People
+See All
+Recent Searches
+Trending 
+  * [ As AI moves from advice to authority, who defines its limits?  Find out how the use of AI is shifting from assistive to autonomous, led by the choices of everyday people. 26 Mar 2026 ](https://www.ey.com/en_gl/insights/ai/as-ai-moves-from-advice-to-authority-who-defines-its-limits)
+  * [ Can disciplined ambition unlock growth in a volatile global economy?  Explore CEO 2026 priorities: disciplined growth that ties AI to ROI, embeds geopolitics into strategy and uses M&A to compete amid volatility. 04 May 2026 CEO agenda ](https://www.ey.com/en_gl/ceo/ceo-outlook-global-report)
+  * [ Why IPO markets are gaining momentum now  The EY Global IPO Trends Q2 2026 explores IPO momentum, episodic windows shaped by mega-IPOs and geopolitics, and more flexible paths to go public. 07 Jul 2026 IPO ](https://www.ey.com/en_gl/insights/ipo/trends)
+
+
+[ My EY ](https://login.ey.com/myey/home "My EY") [ My EY ](https://login.ey.com/myey/login "My EY")
+[ Global English ](https://www.ey.com/en_gl/insights/financial-services/four-regulatory-priorities-to-drive-financial-institutions-focus-in-2025#)
+Select your location
+[GlobalEnglishdone](https://www.ey.com/en_gl)
+Local sites
+#  Four regulatory priorities to drive financial institutions' focus in 2025 
+Authors 
+  * [ Christopher Woolard CBE  ](https://www.ey.com/en_gl/people/christopher-woolard-cbe)
+EY UK LLP Board Member; Partner, Financial Services, Ernst & Young LLP; EY Global Regulatory Network Chair 
+  * [ Eugène Goyne  ](https://www.ey.com/en_gl/people/eugene-goyne)
+EY Asia-Pacific Financial Services Regulatory Lead 
+
+
+6 minute read  13 Jan 2025 
+Related topics 
+[ Banking & Capital Markets ](https://www.ey.com/en_gl/industries/banking-capital-markets)
+[ Risk and regulatory transformation ](https://www.ey.com/en_gl/banking-capital-markets-risk-regulatory-transformation)
+  * [ Facebook ](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.ey.com%2Fen_gl%2Finsights%2Ffinancial-services%2Ffour-regulatory-priorities-to-drive-financial-institutions-focus-in-2025&t=Four%20priorities%20to%20drive%20financial%20institutions%E2%80%99%20in%202025%20%7C%20EY%20-%20Global "Facebook")
+  * [ LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.ey.com%2Fen_gl%2Finsights%2Ffinancial-services%2Ffour-regulatory-priorities-to-drive-financial-institutions-focus-in-2025&title=Four%20priorities%20to%20drive%20financial%20institutions%E2%80%99%20in%202025%20%7C%20EY%20-%20Global "LinkedIn")
+  * Link Copied
+
+
+Show resources 
+  * ### 2025 Global financial services regulatory outlook (PDF)
+[ Download ](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/insights/financial-services/documents/ey-gl-global-financial-services-regulatory-outlook-01-2025.pdf "Download") 883 KB
+
+
+#### A fragmenting global landscape and intensifying scrutiny of firms’ plans for managing disruptive events are among the key issues for firms.
+Read More  Read Less 
+**In brief**
+  * Geopolitical changes are leading to a fragmented regulatory landscape, increasing costs and complexity for international firms.
+  * Regulators are concerned about firms’ resilience, third-party IT dependencies, and exposure to risks from non-bank financial institutions.
+  * Firms will face pressure to ensure good consumer outcomes, remediate weaknesses quickly, and demonstrate strong governance and risk management.
+
+
+Read More  Read Less 
+The ground beneath the feet of banks and financial services firms is always shifting. However, the past year has seen a convergence of risk factors that together make the outlook for 2025 particularly uncertain.
+Globally, elections – culminating in the US election on November 5 – have provided a key vector for change, pushing policy in new directions that directly impact the role of the finance industry. Increased trade and geostrategic friction between the US and China appear baked in for 2025, alongside much greater use of tariffs. Risks in the Middle East and Ukraine remain elevated, while continuing concerns in many economies over weak growth and lingering inflation are likely to see financial firms drawn deeper into governments’ growth and foreign policy agendas.
+For firms facing such a broad array of pressures, especially those operating globally, resilience and risk management have never been more vital.
+Read More  Read Less 
+Global Financial Services Regulatory Outlook 
+Use the insights and predictions from our Global Regulatory Network to prepare your firm’s regulatory strategy for 2025. 
+[ Read more ](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/insights/financial-services/documents/ey-gl-global-financial-services-regulatory-outlook-01-2025.pdf)
+#### Key issues for 2025
+Against this background, there are a few key issues at the forefront of regulators’ agendas. Our 2025 Global Financial Services Regulatory Outlook identifies four key themes that will play out over the coming year.
+#### 1. Regulation that prioritizes national interests will drive greater fragmentation.
+Domestic political agendas rather than international coordination efforts will increasingly shape regulation. Although efforts to coordinate internationally will continue, we expect policymakers to prioritize country-specific approaches to issues including financial stability, digital assets, artificial intelligence (AI) and data governance. In important areas, such as the Basel 3.1 banking reforms, the effects are already becoming clear, with rules being implemented in different forms and at different speeds around the world. In some jurisdictions, we may see increased pressure for deregulation and concerns about international competitiveness. That may drive local advantage and arbitrage scenarios, but for firms operating globally, it may also increase fragmentation and cost.
+We may also see jurisdictions adopt different standards on innovation or technology, for example in relation to AI regulation or if the US takes a more open stance on crypto tokens. 
+Read More  Read Less   
+|  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+|  Read More  Read Less   |  EU AI Act or similar Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  
+|  Principles Read More  Read Less   |  Guiding Principles/Ethics Framework/Code of Conduct Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  
+|  Digital policies Read More  Read Less   |  AI-related risks considered in digital policies (i.e., data cyber, operational resilience) Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  
+|  FS specific initiatives Read More  Read Less   |  FS specific guidance/initiatives Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  Read More  Read Less   |  
+###### Key: **✓** Present **—** Not present **◻** Proposed under consultation
+Read More  Read Less 
+Open image description  Close image description 
+Graphic depicts the current state of AI progression (present, not present or proposed and under consultation) in terms of laws, principles, digital policies and FS specific guidance for Australia, Canada, China, Europe, Hong Kong, Japan, Singapore, South Korea, Great Britain and United States.
+#### Recommended actions for firms
+  * Invest more in political and regulatory monitoring to anticipate changes and develop strategies to protect their businesses.
+  * Use scenario planning to explore the implications of different outcomes.
+  * Identify local divergences in regulation and address the resulting risks, while combining insights at the global level to gain a whole-market view.
+
+
+Read More  Read Less 
+#### 2. Resilience remains a priority. In particular, expect increased scrutiny of third-party and non-bank risk exposures. 
+Among the external threats facing financial firms, regulators will focus on two areas in 2025: [third-party](https://www.linkedin.com/pulse/tackling-third-party-risk-financial-services-christopher-woolard-cbe-zuoge/?trackingId=7wgc9Q%2FPQ5mVBA9nIK9zFQ%3D%3D) and non-financial risk. The CrowdStrike outage in 2024, a major cybersecurity incident involving one of the leading providers of endpoint security solutions, brought the operational risks that firms face because of their technology dependencies into much sharper focus. This is especially the case where many firms depend on the same small group of providers. The Basel Committee is calling for a more rigorous approach to “critical third parties” and financial regulators in some jurisdictions are preparing to extend their oversight to technology suppliers.
+There will also be increasing focus on non-bank financial institutions (NBFIs), which now account for almost half the assets in the global financial system. Regulators are concerned that concentrations of risk in these firms, some of which offer “bank-like” products and services, could spill over into the regulated sector and destabilize systemically important institutions. The lack of data transparency in the private credit market is a particular concern.
+Beyond these issues, regulators will also concentrate on resilience to climate risks and measures to strengthen their anti-money laundering and combating the financing of terrorism (AML and CTF) regimes.
+#### Recommended actions for firms
+  * Map exposures to third-party technology providers and revisit risk mitigation measures.
+  * Prepare for greater supervisory scrutiny of risk management and exposures to less transparent markets such as private finance, where regulators will be concerned about counterparty, concentration and liquidity risks.
+  * Ensure financial crime initiatives have an appropriate level of oversight, with clearly defined roles and responsibilities.
+
+
+Read More  Read Less 
+What's next for non-bank finance regulation 
+Explore sophisticated analysis and strategic insights designed to empower financial institutions to navigate this complex landscape effectively.
+[ Download the report ](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/industries/banking-capital-markets/documents/ey-gl-regulatory-focus-on-non-bank-finance-05-2025.pdf)
+How EY can help 
+  * [ Global Regulatory Network ](https://www.ey.com/en_gl/industries/banking-capital-markets/global-regulatory-network)
+Our Global Regulatory Network, consisting of former regulators and bankers from the Americas, Asia and Europe, provides strategic insights on financial regulation that helps clients adapt to the changing regulatory landscape.
+[ Read more ](https://www.ey.com/en_gl/industries/banking-capital-markets/global-regulatory-network)
+
+
+#### 3. Securing good outcomes for consumers will continue to play a prominent role.
+With consumers still adapting to recent sharp rises in the cost of living, regulators’ focus on ensuring financial resilience and good consumer outcomes will increase. The UK’s adoption of the Consumer Duty in 2023 – effectively a duty of care toward retail customers – has attracted attention around the world, with several national regulators preparing to ramp up their consumer protections. 
+Firms in many jurisdictions should also expect increasing pressure to promote greater financial inclusion and enhance fraud prevention. Regulators are likely to require firms to ensure their products and services meet the needs of low-income households and to prioritize measures that help consumers with limited credit histories access loans and other products. With fraud and retail scams becoming increasingly sophisticated, there is likely to be increasing pressure to inform consumers of the risks and introduce extra prevention measures. 
+#### Recommended actions for firms
+  * Understand how regulators may view the principle of fairness and be prepared to demonstrate how they are delivering in customers’ interests.
+  * Demonstrate how their products and services cater to the needs of specific customer groups, including vulnerable customers.
+  * Help customers understand common fraud and scams, and use technology to monitor transactions, enhance security and verify customer identity.
+
+
+Read More  Read Less 
+#### 4. Accountability and timely remediation of weaknesses to top regulators’ risk management agendas
+The banking crisis of early 2023, a significant financial turmoil that saw the collapse of several major banks and financial institutions, highlighted two related issues that contributed to firm failures: long-standing risk management weaknesses that had gone unaddressed and failures to strengthen risk management and governance in line with the firms’ changing strategy and ambitions. Although not new, this episode continues to influence regulatory agendas.
+In 2025, supervisors will likely double their focus on timely remediation of known weaknesses and put greater pressure on boards to make sure they have effective oversight of firms’ risk management frameworks. Regulators are becoming more specific about the issues they want to see addressed and are demanding that firms show they can monitor and respond to a fast-changing operating environment.
+Read More  Read Less 
+#### Recommended actions for firms
+  * Conduct regular testing to allow them to anticipate emerging issues.
+  * Explore how advanced technologies such as data analytics and AI can help them predict future issues.
+  * Ensure governance arrangements give board members sufficient oversight of the firm’s risk environment.
+
+
+Read More  Read Less 
+Governments see the finance sector as key to delivering economic and social objectives, so firms must engage with their agenda to contribute insights and understand the issues driving policymakers’ and regulators’ thinking. They must also be prepared to demonstrate that their risk management is flexible and responsive to a changing environment, and that they have the data and tools to deliver against regulators’ priorities. In 2025, these will include critical dependencies, contagion risks and consumer outcomes. 
+Read More  Read Less 
+#### Summary
+Going into 2025, regulators will expect firms to be prepared for market disruption and volatility, while delivering good outcomes for customers. The onus is on firms to prove their risk management and governance arrangements are agile and robust enough to meet these concerns.
+Read More  Read Less 
+2025 global regulatory outlook webcast 
+Join EY Global Regulatory Network panelists as they share insights from the Outlook and discuss what to expect and prepare for in the year ahead.
+[ Discover more ](https://www.ey.com/en_gl/media/webcasts/2025/01/what-to-expect-from-global-financial-services-regulation-in-2025)
+About this article
+Authors 
+  * [ Christopher Woolard CBE  ](https://www.ey.com/en_gl/people/christopher-woolard-cbe)
+EY UK LLP Board Member; Partner, Financial Services, Ernst & Young LLP; EY Global Regulatory Network Chair 
+  * [ Eugène Goyne  ](https://www.ey.com/en_gl/people/eugene-goyne)
+EY Asia-Pacific Financial Services Regulatory Lead 
+
+
+Related topics 
+[ Banking & Capital Markets ](https://www.ey.com/en_gl/industries/banking-capital-markets)
+[ Risk and regulatory transformation ](https://www.ey.com/en_gl/banking-capital-markets-risk-regulatory-transformation)
+  * [ Facebook ](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.ey.com%2Fen_gl%2Finsights%2Ffinancial-services%2Ffour-regulatory-priorities-to-drive-financial-institutions-focus-in-2025&t=Four%20priorities%20to%20drive%20financial%20institutions%E2%80%99%20in%202025%20%7C%20EY%20-%20Global "Facebook")
+  * [ LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.ey.com%2Fen_gl%2Finsights%2Ffinancial-services%2Ffour-regulatory-priorities-to-drive-financial-institutions-focus-in-2025&title=Four%20priorities%20to%20drive%20financial%20institutions%E2%80%99%20in%202025%20%7C%20EY%20-%20Global "LinkedIn")
+  * Link Copied
+
+
+EY logo, Shape the future with confidence
+  * [Our locations](https://www.ey.com/en_gl/locations)
+  * [Legal and privacy](https://www.ey.com/en_gl/legal-and-privacy)
+
+
+Read More  Read Less 
+  * [ Open Facebook profile ](https://www.facebook.com/pages/Ernst-Young/195665063800329 "Open Facebook profile")
+  * [ Open LinkedIn profile ](https://www.linkedin.com/company/1073 "Open LinkedIn profile")
+  * [ Open Youtube profile ](https://www.youtube.com/ernstandyoungglobal "Open Youtube profile")
+
+
+EY refers to the global organization, and may refer to one or more, of the member firms of Ernst & Young Global Limited, each of which is a separate legal entity. Ernst & Young Global Limited, a UK company limited by guarantee, does not provide services to clients.
+Welcome to **EY Global (EN)**
+You are visiting EY main (en) 
+main en
+Welcome to EY.com 
+In addition to cookies that are strictly necessary to operate this website, we use the following types of cookies to improve your experience and our services: **Functional cookies** to enhance your experience (e.g. remember settings), **Performance cookies** to measure the website's performance and improve your experience, and **Marketing/Targeting cookies,** which are set by third parties, allow us to execute marketing campaigns, manage our relationship with you, build a profile of your interests and provide you with content or service offerings in accordance with your preferences.
+You may withdraw your consent to cookies at any time once you have entered the website through a link in the cookie policy, which you can find at the bottom of each page on the website in the ‘Legal and Privacy’ section. 
+Review our [cookie policy](https://www.ey.com/en_gl/legal-and-privacy/cookie-policy) for more information. 
+I decline optional cookies I accept all cookies
+Customize cookies
+## Cookie settings
+Please provide your consent for cookie usage on ey.com and the My EY platform. Select one or more of the cookie types listed below, and then save your selection(s). Refer to ‘Cookie Details’ for each cookie type for details on the cookies and their purpose. 
+[Review our Cookie Policy for more information](https://www.ey.com/en_gl/legal-and-privacy/cookie-policy)
+###  Manage Consent Preferences
+#### Required/Mandatory Cookies
+Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookie details‎
+#### Functional Cookies
+Functional Cookies
+Functionality cookies, which allow us to enhance your experience (for example by remembering any settings you may have selected).
+Cookie details‎
+#### Marketing/Targeting Cookies
+Marketing/Targeting Cookies
+Marketing/targeting cookies, which we use to track user activity and sessions so that we can deliver a more personalized service. Marketing cookies are set by third parties with whom we execute marketing campaigns and allow us to provide marketing relevant to you. If you identify yourself to us (e.g. filling out a form/signing up to receive email updates), EY collects information about your response to our marketing communications and your activity on this website. This information is added to your personal marketing profile and score which is used to measure campaign effectiveness and to provide content and offer services that are relevant for you.
+Cookie details‎
+#### Performance Cookies
+Performance Cookies
+Performance cookies, which help us measure the website’s performance and improve your experience. In using performance cookies we do not store any personal data, and only use the information collected through these cookies in aggregated and anonymized form.
+Cookie details‎
+Back Button
+### Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label label
+Apply Cancel
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Save My Selection

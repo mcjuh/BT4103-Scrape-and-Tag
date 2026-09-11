@@ -1,0 +1,26 @@
+<!-- Source: https://www.kroll.com/en/our-experts/jill-weise | Title: Jill Weise | Vice Chair – Client Service | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Jill Weise
+##### Vice Chair – Client Service
+[Jill Weise](https://www.linkedin.com/in/jill-weise/)[+1 978 666 4780](tel:+1%20978%20666%204780)jill.weise@kroll.com
+AT A GLANCE 
+Jill Weise is the Vice Chair – Client Service at Kroll. She is focused on managing key corporate accounts and bringing multi-disciplinary solutions to client’s most complex needs. 
+Previously, she served as Kroll’s Chief Impact Officer leading the strategy and execution related to company values; leadership and succession planning; environmental, social and governance (ESG) initiatives; employee and community relations; and philanthropy through the Kroll Charitable Foundation. She also served as Global Leader of the firm’s Transfer Pricing practice, as well as a member of Kroll’s Operating Committee, and President of the Kroll Charitable Foundation.
+Jill is a Certified Business Economist through the National Association of Business Economists (NABE) and has more than 20 years of transfer pricing expertise. Throughout her career, she has worked with clients to address an array of transfer pricing issues, including planning analyses, global studies, advance pricing agreements, controversy, litigation (including expert witness testimony), state transfer pricing, cost sharing, intangible asset migration, intangibles pricing and valuation, tax reserve calculations and documentation for penalty protection. She has extensive industry experience in areas such as high-tech, computer software, biotechnology, medical instrumentation, pharmaceuticals, industrial products, chemicals, food and beverage, retail, automotive, and media and entertainment.
+Prior to joining the firm, Jill was the leader of Ceteris’ Boston practice and was integral to building the practice to the success it is today. Before Ceteris, Jill was the Director of Deloitte’s New England transfer pricing practice and the East Coast Transfer Pricing Leader at Charles River Associates.
+Jill is a former board member for National Association of Business Economists (NABE) and was the co-chair of NABE’s transfer pricing roundtable for 10 years. Jill was bestowed the title of NABE Fellow in 2019 for her outstanding contributions to the field of economics. Jill frequently speaks at external events sponsored by law firms, professional associations and educational organizations. In addition, she has published articles in academic and trade journals, including Journal of Political Economy, Bloomberg BNA Transfer Pricing Report, Tax Management Memorandum, Euromoney and World Finance. Jill has been interviewed and featured by several publications, including the International Tax Review and Tax Business.
+Jill was named as one of the 10 Most Influential Women Leading Business in 2023 by Chief Navigators Magazine in 2023 and as a Woman Worth Watching in Leadership by the Profilers in Diversity Journal in 2002. Jill was named as the Top North America Transfer Pricing Practice Leader in 2020 by International Tax Review has been listed in Euromoney's (Legal Media Group) "Guide to the World's Leading Transfer Pricing Advisers" and named the Best Woman in Transfer Pricing in 2019 for the Americas (short-listed in 2015, 2016 and 2017). Jill was also named as one of the top Women Tax Leaders - Transfer Pricing in International Tax Review's Women Tax Leaders publication in 2015 and 2017.
+Jill received an M.A. in economics from The University of Chicago, along with a B.A. in mathematics and in economics from Bates College.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Valuation Services](https://www.kroll.com/en/services/valuation-services)
+When companies require an objective and independent assessment of value, they look to Kroll.
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)
+Kroll merges elite security and data risk expertise with frontline intelligence from thousands of incident responses and regulatory compliance, financial crime and due diligence engagements to make our clients more cyber- resilient.
+[Restructuring](https://www.kroll.com/en/services/restructuring)
+Restructuring expertise that maximizes value and recovery
+[Business Services](https://www.kroll.com/en/services/business-services)
+Expert provider of complex administrative solutions for capital events globally. Our services include claims and noticing administration, debt restructuring and liability management services, agency and trustee services and more.
+[Investigations, Diligence and Compliance](https://www.kroll.com/en/services/investigations-diligence-and-compliance)
+Kroll’s Investigations, Diligence and Compliance team helps our clients stay ahead of complex demands related to independent expert analysis, testimony, advice and intelligence in complex investigations, litigation and projects globally.

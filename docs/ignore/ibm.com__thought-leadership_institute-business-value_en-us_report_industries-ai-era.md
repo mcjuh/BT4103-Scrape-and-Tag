@@ -1,0 +1,57 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/industries-ai-era | Title: Industries in the AI era | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# Industries in the AI era
+How 10 industries are harnessing AI to supercharge business opportunities. For industries to capture the transformational potential of AI, they need to reimagine business models and reconfigure partnerships.
+[Download the insights (will open in a new tab)](http://www.ibm.com/downloads/documents/us-en/1227a45bcb308725)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+Pause video
+Successfully harnessing AI will determine winners and also-rans in industrial sectors across the business landscape. Most CEOs now recognize that organizations with the most advanced generative AI capabilities will reap the most opportunities for growth and innovation. This sentiment is driving a spike in AI investments, where enterprise spend on AI has surged by 78% between December 2022 and March 2024.
+Initially, many businesses tend to incorporate AI tools into existing processes and work methods, seeking improvements to productivity and operational efficiency. Indeed, quick wins can be achieved as AI takes over autonomous tasks and helps reengineer processes and workflows to optimize operations.
+However, companies that settle into the productivity phase of AI evolution will fall behind those that see the AI journey through to its ultimate potential—to generate new ideas, disrupt markets, inspire new products and services, and create new revenue streams and profit centers previously unimagined. 
+> Increased productivity is important, but AI innovation is the prize. **85%** of executives say AI will enable business model innovation and **89%** say it will drive product and service innovation.
+### Seeing innovation potential through the lens of AI
+Innovation-focused AI requires a shift from a tactical POV—how work is done—to a larger, more strategic perspective on what an enterprise could and should be doing. When these efforts become more transformational, they also become more industry and enterprise specific.
+Executives winning with AI are reinventing businesses, transforming operating models, and charting new industry paths. Among CEOs globally, product and service innovation now rank as the top priority, with business model innovation the leading challenge. And to make this happen, 64% of CEOs say they will have to rewrite their organizational playbooks. 
+> Transformation is happening at unprecedented speed as **92%** of C-suite executives expect to digitize workflows and leverage AI-powered automation by 2026.
+### Achieving AI synergy through people, processes, platforms, and partnerships
+Channeling the disruptive potential of AI into market leadership requires an AI-powered operating model centered on people, supported by processes, enabled by tech and data platforms, and reinforced by energized partners.
+People are paramount when it comes to AI adoption and 64% of CEOs say that AI success depends more on people’s adoption that the technology itself. But the promise is becoming real as AI assistants and agents liberate professionals from rote tasks, free up time for higher value activities, and contribute to creative problem-solving.
+As AI assistants evolve into AI agents, business processes and workflows can be fundamentally transformed. Agentic AI identifies, sources, and incorporates data across systems to generate new outcomes, embed enhancements, and scale improvements faster. 
+> AI will increasingly shift to a self-funding model, enabling further investments into new projects with greater breakthrough potential. In fact, **95%** of executives say gen AI will be at least partially self-funded by 2026. 
+Flexible IT structures and platforms will enable businesses to benefit from different AI capabilities and AI models. This allows data to flow across enterprises to where it generates the most value and turns AI into a competitive advantage by leveraging enterprise and industry specific data. 
+But to succeed, organizations must get better at selecting the right partners with the right AI expertise and resources—and not hang on to partnerships that no longer fit. In fact, 55% of business leaders say that changing strategic priorities will mean reconfiguring core partnerships. 
+### What success looks like in specific industry contexts 
+This report provides targeted insights across 10 different sectors including banking and finance, telecommunications, government, retail and consumer products, automotive, oil and gas, utilities, healthcare, insurance, and life sciences. Each industry section also includes a real-world case study and an action guide tailored for industry executives. Download the report to help your clients strategically adopt AI, evolve beyond productivity, and reimagine AI as a driving force for industry innovation, growth, and competitiveness.
+[Download the insights(will open in a new tab)](http://www.ibm.com/downloads/documents/us-en/1227a45bcb308725)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[Artificial intelligence (AI) consulting services (will open in a new window) Artificial intelligence (AI) consulting services Leading the way in gen AI with over 75K consultants trained ](https://www.ibm.com/consulting/artificial-intelligence)
+[Strategy consulting services (will open in a new window) Strategy consulting services Grow and transform your business by reimagining your corporate strategy and how you work ](https://www.ibm.com/consulting/strategy)
+[Realize the promise of AI with watsonx (will open in a new window) Realize the promise of AI with watsonx Become an AI-first enterprise that accelerates business outcomes from within ](https://www.ibm.com/watsonx)
+How can IBM help you?
+[Artificial intelligence (AI) consulting services (will open in a new window) Artificial intelligence (AI) consulting services Leading the way in gen AI with over 75K consultants trained ](https://www.ibm.com/consulting/artificial-intelligence)
+[Strategy consulting services (will open in a new window) Strategy consulting services Grow and transform your business by reimagining your corporate strategy and how you work ](https://www.ibm.com/consulting/strategy)
+[Realize the promise of AI with watsonx (will open in a new window) Realize the promise of AI with watsonx Become an AI-first enterprise that accelerates business outcomes from within ](https://www.ibm.com/watsonx)
+You might also like
+[5 Trends for 2025  Translations available 5 Trends for 2025 What will it take to win with AI? Explore this report to learn what business leaders need to know and do to gain an edge in 2025. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/business-trends-2025)
+[The CEO’s guide to generative AI  The CEO’s guide to generative AI CEOs are used to being in the hot seat. Only the toughest problems land on their desks—and how those problems are solved often defines an organization’s future. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/ceo-generative-ai)
+[Consulting reimagined, powered by AI  Translations available Consulting reimagined, powered by AI Say goodbye to the one-and-done consulting delivery model. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/consulting-ai)
+[Upstream oil and gas in the AI era  Upstream oil and gas in the AI era AI isn't failing in upstream oil and gas. What's failing is scaling its value across the enterprise. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/upstream-oil-and-gas-in-ai-era)
+[Orchestrating agentic AI for intelligent business operations - French (will open in a new tab) Orchestrating agentic AI for intelligent business operations - French Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-french)
+[Orchestrating agentic AI for intelligent business operations - German (will open in a new tab) Orchestrating agentic AI for intelligent business operations - German Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-german)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinel
+Open chat history
+AskIBV
+BETA
+AI Explained
+## AskIBV 
+BETA
+AskIBV combines advanced AI with the IBV’s trusted, data‑driven research and executive interviews to deliver exclusive insights and perspectives you won’t find anywhere else.
+Loading AskIBV insights AI
+Focus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/industries-ai-era#truste_domain_list). 
+Accept All More options

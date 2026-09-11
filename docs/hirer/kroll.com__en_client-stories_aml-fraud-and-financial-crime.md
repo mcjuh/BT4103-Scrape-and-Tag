@@ -1,0 +1,36 @@
+<!-- Source: https://www.kroll.com/en/client-stories/aml-fraud-and-financial-crime | Title: Developing an Advanced PEP Monitoring and Screening Framework | Client Stories | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Developing an Advanced PEP Monitoring and Screening Framework
+Share
+[https://www.linkedin.com/sharing/share-offsite/url=https%3A%2F%2Fwww.kroll.com%2Fen%2Fclient-stories%2Faml-fraud-and-financial-crime](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.kroll.com%2Fen%2Fclient-stories%2Faml-fraud-and-financial-crime "Linkedin")mailto:?subject=Developing%20an%20Advanced%20PEP%20Monitoring%20and%20Screening%20Framework&body=https%3A%2F%2Fwww.kroll.com%2Fen%2Fclient-stories%2Faml-fraud-and-financial-crime
+Discover how Kroll helped their client remedy its situation through system optimization, framework development, regulatory advice, and the review of various automated screening alerts.
+[ Talk to an Expert ](https://www.kroll.com/en/contactus)
+The Challenge
+Regulators are increasingly scrutinizing the emerging, disruptive world of cryptocurrency. Kroll’s global cryptocurrency exchange client was no exception: Regulators in locations around the world were placing pressure on the firm to improve their financial crime detection and prevention systems and controls.
+To detect and effectively manage financial crime risks and comply with applicable regulations, firms must identify whether new or existing customers are PEPs, such as politicians. Due to their influential positions, PEPs present a higher risk for potential corruption.
+Our client’s PEP monitoring system had accumulated a backlog of over 4 million PEP alerts, associated with approximately 600,000 customers that urgently needed to be reviewed. Industry regulators were concerned about the firm’s ability to detect and manage its risks, such as money laundering, bribery and corruption and breach of sanctions.
+The PEP alerts backlog resulted from a lack of experienced resources and the immaturity of the firm’s IT and compliance infrastructure, due to the company’s rapid growth. The PEP monitoring system, which takes information about customers and attempts to match it to a list of known PEPs provided by a customer screening tool, was similarly impacted by the firm’s rapid growth.
+With alerts increasing daily, insufficient experienced resources to review them and rising pressure from regulators, the firm called in Kroll experts to assist with this operational issue. The Kroll team helped the firm develop new policies and optimize systems, provided regulatory advice and reviewed PEP alerts. When PEPs were confirmed during the review, the Kroll team conducted enhanced due diligence.
+Kroll's Solutions
+Kroll’s cross-functional team of experts uncovered what was contributing to the screening system’s inaccuracy: improper setup and gaps in both the vendor’s and the firm’s customer data. The criteria for designating someone as a PEP was not properly defined in the policy, and the configuration for matching customer data with customer screening tool data was not in line with industry standards.
+Additionally, poor-quality data was collected by the firm when new customers were onboarded, hence, the screening system did not automatically close false alerts. In addition, false alerts were frequent due to the customer screening tool’s records of PEPs often containing incomplete data. This was especially true for PEPs with common names who lacked an associated date of birth in the customer screening tool records.
+Kroll’s cross-functional experts collaborated to find the most practical and cost-effective solution for the client. Kroll’s assessment of the screening system setup identified gaps and issues and resulted in the following activities:
+  * Establishing a new PEP definition in the client’s system at the policy level.
+  * Removing PEP categories that did not meet Financial Action Task Force (FATF) and regulatory definition from customer screening tool parameters.
+  * Testing the screening system to ensure fuzzy logic was set at the appropriate percentage level. Following this, the Kroll team recommended the client adjust the percentage threshold, ensuring it captured the relevant alerts and auto-closed those that did not meet the threshold.
+  * Analyzing the data from the alerts, starting with the customer screening tool records that occasionally only had an individual’s name without a date of birth (DOB) ― as these appeared to be generating the largest number of false positives. Kroll experts researched these PEPs using available sources to identify the DOB, where possible. Based on this research, the team developed a computer code to identify and auto-close alerts when the customer's recorded DOB did not match the PEP's DOB. The code’s outputs were tested to verify Kroll’s methodology.
+  * Defining and testing the logic for system automation to identify inactive customers. Of the 600,000 customers with PEP alerts, 230,000 inactive customers were removed from the backlog.
+
+
+Additionally, Kroll provided ongoing advice on auto-closure rules and the development of machine learning models by the client’s technology team, ensuring they met regulatory standards, were rigorously tested and did not mistakenly close genuine matches. 
+The Impact
+Once the Kroll team was done, the client’s screening system’s automatic closure of 1.6 million alerts, accounting for 40% of the backlog led to a significant reduction in review time, the equivalent of $5 million in cost savings for the firm. By reducing the occurrence of false positive PEP alerts, Kroll’s client could reallocate resources to other tasks under regulatory scrutiny.
+Ensuring that the advanced PEP monitoring and screening framework would pass regulatory compliance scrutiny has increased the firm’s ability to prevent financial crime on its trading platform and reduced the risk of future regulatory enforcement penalties.
+Kroll approaches clients’ challenges as a global team, armed with deep expertise in regulatory expectations, compliance, monitoring technology and proper data governance. This empowers clients to establish sustainable compliance solutions that create trust and transparency while helping to prevent financial crime worldwide.
+Need help staying ahead of a complex challenge?
+[Request Our Qualifications](https://www.kroll.com/en/contactus)
+[ Dan Yeloff DirectorCyber and Data ResilienceLondon ](https://www.kroll.com/en/our-experts/dan-yeloff)
+Dan.Yeloff@kroll.com[+44 207 147 8821](tel:+44-207-147-8821)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+In the ever-evolving financial services landscape, Kroll's award-winning team offers comprehensive regulatory and compliance services, guiding clients through registration, licensing, and compliance support to minimize risks and enhance efficiency globally.

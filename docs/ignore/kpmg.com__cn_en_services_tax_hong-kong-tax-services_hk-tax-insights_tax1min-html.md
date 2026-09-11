@@ -1,0 +1,120 @@
+<!-- Source: https://kpmg.com/cn/en/services/tax/hong-kong-tax-services/hk-tax-insights/tax1min.html | Title: Tax1min | Seed: https://kpmg.com/xx/en/what-we-do/services/advisory/deal-advisory/our-capabilities/transaction-services.html (KPMG) -->
+
+正在加载 视频播放器。
+播放视频
+Skip BackwardSkip Forward下一个播放列表项目
+当前时间 0:00
+时长 0:15
+加载完成: 64.06%
+0:00
+媒体流类型 直播
+尝试直播，当前为延时播放直播
+剩余时间 -0:15
+1x
+播放速度
+  * 1.75x
+  * 1.5x
+  * 1.25x
+  * 1x, 选择
+  * 0.75x
+  * 0.5x
+
+
+节目段落
+  * 节目段落
+
+
+  * 关闭描述, 选择
+
+
+  * 字幕设定, 开启字幕设置弹窗
+  * 关闭字幕, 选择
+
+
+  * en (Main), 选择
+
+
+This is a modal window.
+打开对话窗口。Escape键将取消并关闭对话窗口
+文字 颜色白 黑 红 绿 蓝 黄 紫红 青不透明度不透明 半透明 文本背景 颜色黑 白 红 绿 蓝 黄 紫红 青不透明度不透明 半透明 透明 字幕区域背景 颜色黑 白 红 绿 蓝 黄 紫红 青不透明度透明 半透明 不透明
+字体尺寸 50% 75% 100% 125% 150% 175% 200% 300% 400% 字体边缘样式 无 浮雕 压低 均匀 Drop shadow 字体库 比例无细体 单间隔无细体 比例细体 单间隔细体 舒适 手写体 小型大写字体
+关闭弹窗
+结束对话窗口
+关闭弹窗
+This is a modal window. 可以按ESC按键或启用关闭按钮来关闭此弹窗。
+#  Tax1min 
+Tax insights video series 
+
+
+Welcome to**#tax1min** , a series of short videos offering KPMG perspectives on a wide range of tax topics impacting organisations in today’s fast-changing local and international tax landscape. 
+The insights shared in these videos correspond to tax regulations effective at the time of filming. As tax rules are subject to change, the relevance to your individual circumstances may vary. For advice tailored to your needs, our tax professionals are just a conversation away – please don’t hesitate to contact us. 
+[ Cantonese version opens in a new tab](https://kpmg.com/cn/zh/services/tax/hong-kong-tax-services/tax1min-cantonese.html)
+[ Mandarin version opens in a new tab](https://kpmg.com/cn/zh/services/tax/hong-kong-tax-services/tax1min-mandarin.html)
+## Trending
+##  2024 issues 
+##  2023 issues 
+##  Insights 
+###  [Hong Kong Budget Summary 2025-2026](https://kpmg.com/cn/en/insights/2025/02/hong-kong-budget-2025-2026.html)
+The website includes highlights and KPMG China's commentary on the Hong Kong Budget.
+[Read more ](https://kpmg.com/cn/en/insights/2025/02/hong-kong-budget-2025-2026.html)
+###  [Hong Kong SAR Tax Insights](https://kpmg.com/cn/en/services/tax/hong-kong-tax-services/hk-tax-insights.html)
+Covering tax developments and insights affecting businesses in the Hong Kong SAR
+[Read more ](https://kpmg.com/cn/en/services/tax/hong-kong-tax-services/hk-tax-insights.html)
+###  [The Foreign-sourced Income Exemption Regime in Hong Kong SAR](https://kpmg.com/cn/en/insights/2022/08/the-proposed-foreign-source-income-exemption-regime-for-passive-income-in-hong-kong.html)
+Key areas of the revised regime and how KPMG can help
+[Read more ](https://kpmg.com/cn/en/insights/2022/08/the-proposed-foreign-source-income-exemption-regime-for-passive-income-in-hong-kong.html)
+##  Contact us 
+######  John Timpany 
+Head of Tax, Hong Kong SAR 
+KPMG China 
+  * [ mail ](https://kpmg.com/cn/en/services/tax/hong-kong-tax-services/hk-tax-insights/tax1min.html#)
+  * [ opens in a new tab](https://www.linkedin.com/in/john-timpany-087b6a8/)
+
+
+######  Eugene Yeung 
+Tax Partner 
+KPMG China 
+  * [ mail ](https://kpmg.com/cn/en/services/tax/hong-kong-tax-services/hk-tax-insights/tax1min.html#)
+  * [ opens in a new tab](https://www.linkedin.com/in/eugeneccyeung/?originalSubdomain=hk)
+
+
+north Back to top
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer. [Privacy Policy](https://kpmg.com/cn/en/home/misc/privacy.html)
+Cookies Settings Accept All Cookies
+## Privacy Preference Center
+## Privacy Preference Center
+  * ### Your Privacy
+  * ### Functional Cookies
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer. [More information](https://kpmg.com/cn/en/home/misc/privacy.html)
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which essentially amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.
+#### Performance Cookies
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies through for instance collecting data from videos embedded in websites and aggregating it with other data in order display targeted advertising to web visitors across a broad range of their own and other websites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Confirm My Choices
+Allow All

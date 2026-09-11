@@ -1,0 +1,108 @@
+<!-- Source: https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/ | Title: Five ways to leverage sustainability in an age of insecurity | Seed: https://www.erm.com/ (ERM) -->
+
+Blog Global 10 Dec 2024 
+# Five ways to leverage sustainability in an age of insecurity
+Contents
+  * [1 - Societal understanding is critical](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#critical)
+  * [2 - Deep shifts in corporate strategy may be needed](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#deep)
+  * [3 - The evolving societal context will throw up big new opportunities amid the risks](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#risks)
+  * [4 - Amid complexity, a moral compass is essential](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#risks)
+  * [5 - Companies should proactively and responsibly wield influence](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#weild)
+  * [6 - Navigating future geopolitical tensions](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#future)
+
+Show More
+**Sustainability mindsets and approaches can help global companies navigate growing geopolitical tensions**
+Senior executives of global companies face a huge range of issues. They have limited bandwidth for societal challenges, and a growing proportion of that today is focused on geopolitical tensions.
+In place of the ‘unipolar’ world of the 1990s, in which America and the West dominated international affairs, the world is increasing riven by rivalries between the West and other assertive global powers. Violent conflict is on the [rise](https://ourworldindata.org/grapher/number-of-state-based-conflicts) generally, with wars in Ukraine and the Middle East only the most reported of some [110 armed conflicts](https://geneva-academy.ch/galleries/today-s-armed-conflicts) now raging. All this division is worrying for business. The globalisation of trade and markets, on which many global firms have built their business models, now risks going into reverse.
+In this situation, what hope is there for sustainability challenges (whether climate change, nature or human rights) to maintain their place in the minds of senior executives? A clear risk is that geopolitics and political instability displace sustainability as the central societal issue of concern to the C-suite.
+There are indications this may be starting to happen. Since 2022, international firms have begun mentioning [geopolitics in their SEC filings](https://www3.weforum.org/docs/WEF_Geopolitical_Rivalry_and_Business_2024.pdf) more frequently than ESG, sustainability, and climate change, according to World Economic Forum research. A political backlash against the ESG movement, particularly in the US, has also driven a downplaying of sustainability initiatives in some companies. Several high-profile Western companies have recently walked back certain of their sustainability goals under pressure from shareholders to protect profitability amid global uncertainties.
+In reality, of course, both sustainability and geopolitics should be top of mind for senior executives. A worsening in either could undermine the long-term global stability on which most international businesses ultimately depend.
+Moreover, the skills, tools and mindsets which many global firms have been developing as part of their sustainability efforts can be usefully applied to help them navigate geopolitical tensions and conflict. There is an opportunity to apply lessons from the former to the latter.
+Based on ERM’s experiences with different clients on each set of challenges, five lessons stand out.
+**1 - Societal understanding is critical**
+Building a sophisticated view of societal context is key to success for both sustainability and geopolitical management. Firms which excel in managing sustainability impacts undertake in-depth materiality assessments and sophisticated environmental and social impact assessments (ESIAs) to understand stakeholder views and model the complex interplay of their activities with the external world. They develop multiple scenarios, deploy leading experts on the issues, and keep their understanding fresh through ongoing research and stakeholder engagement.
+Success in navigating geopolitics requires similar approaches. Stakeholder interests and positions, including those of different governments and political figures, need to be understood in all their complexity and nuance. Scenarios and risk analyses (covering, for example, election outcomes, and the potential for trade wars or for local and international conflict) need to be developed and continually refreshed, drawing expertise from diplomats and others immersed in the issues.
+It is not as if geopolitical analysis is a new area of activity for many firms. It has long been considered a task for corporate affairs departments. But there are many examples of companies walking headlong into political and geopolitical obstacles which arguably they could have anticipated and navigated. Countless extractive firms have faced predictable political opposition to their overseas projects. Similarly, big tech firms have faced regulatory resistance to their activities in different jurisdictions (as this story [here](https://www.economist.com/europe/2023/03/16/europe-has-led-the-global-charge-against-big-tech-but-does-it-need-a-new-approach?utm_medium=cpc.adword.pd&utm_source=google&ppccampaignID=18156330227&ppcadID=&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gad_source=1&gclid=EAIaIQobChMIrbGe24mSiAMV_ZZQBh3SxCavEAMYASAAEgIc-_D_BwE&gclsrc=aw.ds) about tech regulation in Europe shows). All this suggests a more systematic, disciplined approach to building political and geopolitical understanding in advance of major strategic moves or investment decisions could be helpful – similar to the way in which developing a robust ESIA is hard wired into the sustainability processes of leading companies before they move ahead with a new project.
+**2 - Deep shifts in corporate strategy may be needed**
+The easy but short-sighted way to think about both sustainability and geopolitical management is as a support function within companies, allowing the rest of the business to proceed with ‘business-as-usual.’ Seen through this superficial lens, sustainability is largely about producing good-looking sustainability reports, developing a few nice-sounding green initiatives on the margins of the business, and the like. Likewise, geopolitical management is about little more than keeping abreast of major geopolitical developments, and some lobbying here and there to try to head off those that might become threats to the business.
+In truth, managing either set of issues effectively requires adapting the very core of the business and driving deep shifts in strategy. For many manufacturing firms, for example, tackling climate change and meeting decarbonisation goals will require fundamental changes in production processes and in the design and nature of their end products. In the same way, responding to geopolitical division may require rethinking the nature of the organisation. Many firms are now experimenting with a range of structural changes to their core businesses as they test how to navigate growing divides and tensions between rival ‘great powers.’ These include developing supply chains less dependent on one particular side, hiving off operations that may be geopolitically exposed, and restructuring flows of information within their organisation to secure their IP.
+None of this is easy. Change in response to both geopolitics and sustainability faces similar obstacles. Huge investments may have been made in existing business structures and approaches. These cannot simply be written off. Internal cultural barriers need to be overcome. The short-term costs of change may be clear, whereas the long-term benefits are uncertain.
+But there are also [useful approaches](https://www.erm.com/insights/catching-the-wave/) and lessons that can be adopted from sustainability management on how to tackle these hurdles. These include developing strong understanding at the board and C-suite level of the scale and nature of the challenge, building management of the relevant societal issues directly into internal performance and evaluation systems, and pushing hard to win over investors concerned about the short-term costs of the change required. A shift in mindsets may also need to be engineered. Once the world is seen to be fundamentally changing, whether due to geopolitical rivalry or climate change, the costs of corporate inaction will begin to appear larger than those of action.
+**3 - The evolving societal context will throw up big new opportunities amid the risks**
+One lesson from companies’ experience of trying to drive sustainability into the core of their business is the importance of focusing on investments and strategic shifts which are both green and commercially rewarding. Investments in clean energy have often fallen into this category, partly thanks to the dramatic drop in the costs of solar, wind, and EV battery technologies. The same goes for many corporate investments in energy efficiency, as lower energy costs feed through directly to the bottom line.
+Geopolitical shifts likewise are creating commercial bright spots amid all the international turmoil, and agile companies are beginning to seize the advantage being created. A big area of geopolitical business opportunity is providing supplies (whether of raw materials, components, or manufactured goods) from jurisdictions judged unlikely to be put out of bounds due to geopolitical tensions. For example, investments in India and parts of Latin America have recently benefited from the view that they are a safe haven from deteriorating US-China relations. Government policy is expanding the opportunities as well. The US CHIPS act has allocated billions of [dollars of subsidies](https://www.cfr.org/in-brief/what-chips-act#:~:text=Defining%20the%20CHIPS%20Act&text=Signed%20into%20law%20in%20August,individual%20companies%20offshoring%20the%20technology.) to firms building semiconductor plants on US soil – an attempt to reorient tech supply chains away from Asia – just as, on the sustainability front, the US Inflation Reduction Act poured money into domestic clean energy projects.
+Indeed, the greatest opportunities for companies may increasingly arise where geopolitical, sustainability, and commercial forces happen to push in the same direction (the ‘win-win-wins’ as it were). One example of this is the refreshed momentum behind European renewable energy projects following Russia’s invasion of Ukraine and Russia’s attempts to use its supplies of gas to Europe for geopolitical ends. With gas prices soaring in the wake of the invasion, renewable energy projects experienced a surge in political support from European governments and also commercial attractiveness. As geopolitical and sustainability challenges intensify in the years ahead, more such opportunities may emerge. Forward-thinking companies will be alert to the possibilities.
+**4 - Amid complexity, a moral compass is essential**
+As global tensions increase, businesses are more likely to find themselves operating in, selling to, or sourcing some of their supplies from countries or regions affected by conflict. With that comes the risk of being accused, fairly or not, of complicity in human rights abuses, or even of fuelling the conflict (for example, by generating revenues for one of the warring parties)
+Sometimes the policies of home governments or international sanctions will dictate how companies need to respond. For example, many high-profile Western firms with investments in Russia had little choice but to exit following Russia’s invasion of Ukraine. More often companies will be left to make their own choices whether to stay invested or not, and if they remain, how to conduct themselves. In these cases, careful evaluation of the right course of action is essential, both for ethical and reputational reasons – and this will often mean going deeper than just bending to whichever protest group or advocates of one side or another in a conflict happen to be the noisiest.
+Thankfully, companies can here turn to a body of practical guidelines and principles developed in recent years as part of the broad corporate sustainability agenda which are now particularly relevant in era of geopolitical division. These include the UN Guiding Principles on Human Rights, the Voluntary Principles on Security and Human Rights, OECD guidelines for companies in ‘weak governance zones,’ and a UNDP guide on human rights due diligence for companies in ‘conflict affected contexts’ (see [here](https://www.oecdwatch.org/wp-content/uploads/sites/8/2015/11/International-Standards-for-Responsible-Business-in-Conflict-Affected-and-Fragile-Environments.pdf) for an overview of these and other standards). Among other things, these set out how companies can strengthen their understanding of complex conflict situations, reduce the risk of complicity in abuses, and engage responsibly with other parties. Companies will still face complex judgement calls, and implementation can be challenging, but the outlines of a responsible corporate approach to managing conflict have at least been delineated. 
+**5 - Companies should proactively and responsibly wield influence**
+Lessons from corporate action on sustainability could be usefully applied on the geopolitical front to better wield influence also. A now-accepted part of the toolkit for companies seeking to take a proactive role on climate change is to join business groups calling upon governments to take swifter action to reduce carbon emissions. In advance of recent COP summits, such calls from businesses have become increasingly frequent and assertive (see [here](https://www.weforum.org/agenda/2023/10/alliance-of-ceo-climate-leaders-open-letter-cop28/?gad_source=1&gclid=EAIaIQobChMIy_2v76-aiAMVeBEGAB1UYSKQEAAYAiAAEgJJDvD_BwE) and [here](https://www.wemeanbusinesscoalition.org/blog/business-urges-government-go-fossil-to-clean/) for example). This not just posturing. Many businesses see a commercial need for stronger international action on climate, from strengthening returns from clean energy investments which they may have made or are considering, to reducing the risk of disruption to their operations from extreme weather events.
+The commercial rationale for concerted business engagement to heal geopolitical rifts is no less strong given the potentially devastating economic consequences of all-out conflict. As with engagement on climate, business leaders need to tread carefully lest their legitimacy and influence over governments be called into question. But there are ways for companies to engage diplomatically, responsibly, and collectively, and, behind-the-scenes, to nudge governments and warring parties towards peaceful resolutions.
+In fact, there is a rich set of examples from recent history of businesses taking an active role in peace processes and contributing to the resolution of long-running conflicts as mediators and facilitators. A [study](https://reliefweb.int/report/world/money-makers-peace-makers-business-actors-mediation-processes) by Swisspeace, a conflict-resolution NGO, for example, cites examples from Northern Ireland, Kenya, South Africa, Aceh, Colombia, and elsewhere of business leaders and business groups playing a constructive role in this way. As instances of conflict and geopolitical tensions multiply, there is an opportunity for today’s leading companies to find diplomatic ways to help head off catastrophic global divisions.
+**Navigating future geopolitical tensions**
+For all five lessons, the overall point is not that sustainability approaches are the only source of insight for global companies on how to navigate geopolitics. But the parallels between the tactics needed to tackle each challenge are striking, and the ambitious tacks that at least some companies have taken on sustainability can be replicated on the geopolitical side. It is no simple task for corporate leaders to grapple with two of the greatest societal challenges of this era, alongside running their businesses successfully. They can draw at least some comfort that their experience with one holds clues on how to handle the other.
+Share this page:
+## Explore related topics
+  * [Technology, Media & Telecommunications](https://www.erm.com/insights/?industry=Technology%2c+Media+%26+Telecommunications "View more 'Technology, Media & Telecommunications' articles")
+  * [Clean Energy Procurement ](https://www.erm.com/insights/?category=115 "View more 'Clean Energy Procurement ' articles")
+  * [Strategy & Transformation](https://www.erm.com/insights/?category=123 "View more 'Strategy & Transformation' articles")
+  * [Climate & Decarbonization](https://www.erm.com/insights/?category=158 "View more 'Climate & Decarbonization' articles")
+  * [Sustainability Strategy](https://www.erm.com/insights/?category=167 "View more 'Sustainability Strategy' articles")
+
+
+Share this page:
+Contents
+  * [1 - Societal understanding is critical](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#critical)
+  * [2 - Deep shifts in corporate strategy may be needed](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#deep)
+  * [3 - The evolving societal context will throw up big new opportunities amid the risks](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#risks)
+  * [4 - Amid complexity, a moral compass is essential](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#risks)
+  * [5 - Companies should proactively and responsibly wield influence](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#weild)
+  * [6 - Navigating future geopolitical tensions](https://www.erm.com/insights/five-ways-to-leverage-sustainability-in-an-age-of-insecurity/#future)
+
+Show More
+###  Authors 
+**Daniel Litvin**
+Senior Advisor to ExCom 
+##  How can we help? 
+How can we help you? Contact us to discuss how we can help your organization. 
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. 
+Cookies Settings
+Accept
+## Privacy Preference Center
+## Privacy Preference Center
+  * ### Your Privacy
+  * ### Targeting Cookies
+  * ### Functional Cookies
+  * ### Performance Cookies
+  * ### Strictly Necessary Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+#### Performance Cookies
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Confirm My Choices
+Allow All

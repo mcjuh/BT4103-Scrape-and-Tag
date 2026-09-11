@@ -1,0 +1,22 @@
+<!-- Source: https://www.kroll.com/en/our-experts/michael-gips | Title: Michael Gips | Enterprise Security Risk Management | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Michael Gips
+##### Managing Director
+[Enterprise Security Risk Management](https://www.kroll.com/en/services/enterprise-security-risk-management)
+[Michael Gips](https://www.linkedin.com/in/michaelgips/)[+1 9733559435](tel:+1%209733559435)michael.gips@kroll.com
+AT A GLANCE 
+Michael Gips is Managing Director in the Enterprise Security Risk Management (ESRM) practice, based in Morristown, New Jersey. He is a distinguished executive and thought leader in security and risk management, as well as an attorney, writer, journalist, researcher and business professional.
+Prior to joining Kroll, Michael served as the Chief Global Knowledge and Learning Officer for ASIS International, overseeing learning, content, certification, standards and guidelines, production, enterprise security risk management, and other functions. He also managed ASIS’s corporate security function and developed the CSO Roundtable, a membership group for senior security executives at major corporations worldwide. As editor and publisher of Security Management, he authored several articles and contributed to ASIS’s standards and guidelines on ESRM and Senior Security Executive.
+Michael has received numerous accolades, including Top 40 Global Thought Leader (Life Safety Alliance, 2024), Top 20 Most Influential Security Leaders in the Americas (Security Journal Americas, 2023), and #1 Most Influential Global Security Thought Leader (IFSEC, 2022). He has earned nearly 20 awards for his writing, most recently for his monthly leadership column in Security Magazine .
+In his volunteer roles, Michael is President of the Life Safety Alliance, an officer for the Global Consortium of Law Enforcement Training Executives and head of the security committee for a large house of worship near Washington, DC. He serves on the advisory board of the security committee of Chabad International and several security companies. He also contributed to the committees that updated ASIS’s CSO standard and developed the ESRM guideline.
+Michael’s research publications include papers, reports and chapters on ESRM, the security sector's size and scope, convergence, blockchain, business continuity and COVID-19, security professionalization and security as a business enabler. He regularly contributes to various publications, including Police1/Lexipol, Security Journal Americas and Security Technology Executive. He frequently presents on security and legal topics at conferences and webinars.
+Michael holds several security-related certifications, including Certified Protection Professional, Chartered Security Professional, Certified in Security Risk Management Body of Knowledge, Certified Insider Risk Program Manager and Registered Resilience Professional. He graduated summa cum laude and Phi Beta Kappa from Tufts University and earned his law degree from Harvard Law School. He has also obtained security certificates from R.L. Oatman & Associates, the Wharton School, Tel Aviv University International, IE Business School Madrid, Signpost Six and Risk 2 Resilience.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+Explore News
+[ December 1, 2025 Enterprise Security Risk Management Evolving Security, Empowering Resilience ](https://digital.internationalsecurityjournal.com/html5/reader/production/default.aspx?pubname=&edid=1e18c334-8deb-4347-a5dc-c37a52437d87)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Enterprise Security Risk Management](https://www.kroll.com/en/services/enterprise-security-risk-management)
+Kroll’s Enterprise Security Risk Management practice provides expert guidance and advisory services to our global clientele as they navigate the most challenging and emerging security and threat-related issues. 
+[Compliance and Regulation](https://www.kroll.com/en/business-challenges/compliance-and-regulation)
+End-to-end governance, advisory and monitorship solutions to detect, mitigate and remediate security, legal, compliance and regulatory risk.

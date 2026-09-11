@@ -1,0 +1,30 @@
+<!-- Source: https://www.kroll.com/en/newsroom/kroll-strengthens-dfir-team-emea-colin-sheppard | Title: Kroll Strengthens DFIR Team in EMEA with Colin Sheppard | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Press Release
+May 25, 2023
+#  Kroll Strengthens Digital Forensics and Incident Response Team in EMEA with Colin Sheppard
+London – [Kroll](https://www.kroll.com/en/newsroom/kroll-strengthens-dfir-team-emea-colin-sheppard), the leading independent provider of global risk and financial advisory solutions, announced today it is continuing its global strategic growth plans in EMEA with the appointment of Colin Sheppard as EMEA Head of Incident Response, leading Kroll Cyber’s digital forensics and incident response (DFIR) service offerings within the region.
+Sheppard will continue the diverse growth of Kroll’s DFIR services in the region with a focus on Kroll’s commitment to providing subject matter expertise and incident response services to a robust range of clientele and industries. Sheppard will lead and strategically coordinate with EMEA sales, channel and service line leaders to ensure quality and consistency of services with the existing strong Kroll Cyber Risk team.
+Joining Sheppard and adding to the EMEA DFIR team at Kroll is colleague Thomas Bailey who served as a DFIR consultant for Control Risks and brings an immense background of DFIR knowledge and experience.
+Devon Ackerman, Global Head of Incident Response at Kroll, commented: “I am thrilled to welcome Colin to the DFIR team. He brings an impressive track record of helping large enterprises and government clients prepare for, respond to and recover from cyber incidents. Continuing to grow our EMEA offerings is a key priority for us at Kroll, and I’m excited to have Colin on board to help lead that charge.”
+Sheppard joins Kroll from IBM, where he most recently led IBM Security’s X-Force IR practice. In this role, he was responsible for the development and delivery of incident readiness and incident response services across EMEA. During his tenure with IBM, he also led IBM Security’s X-Force Red practice—IBM’s elite team of offensive security professionals. Prior to IBM, Sheppard focused on building incident response and threat intelligence capabilities for two global fintech companies. He also served as Director of Digital Forensics and Incident Response for Trustwave Spiderlabs where he oversaw unprecedented growth of the practice across the Americas.
+Colin Sheppard, EMEA Head of Incident Response at Kroll, said: “Kroll has a fantastic reputation in the market for merging elite digital forensics experts and frontline threat intelligence. I’m looking forward to being part of the EMEA team and bringing my years of experience to continue helping customers quickly and efficiently investigate risks, contain threats and eject active actors from compromised networks.”
+**About Kroll** As the leading independent provider of risk and financial advisory solutions, Kroll leverages our unique insights, data and technology to help clients stay ahead of complex demands. Kroll’s team of more than 6,500 professionals worldwide continues the firm’s nearly 100-year history of trusted expertise spanning risk, governance, transactions and valuation. Our advanced solutions and intelligence provide clients the foresight they need to create an enduring competitive advantage. At Kroll, our values define who we are and how we partner with clients and communities. Learn more at [Kroll.com](https://www.kroll.com/en/newsroom/kroll-strengthens-dfir-team-emea-colin-sheppard).
+[ Colin Sheppard Regional Managing Director, EMEACyber and Data Resilience ](https://www.kroll.com/en/our-experts/colin-sheppard)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Cyber and Data Resilience](https://www.kroll.com/en/services/cyber)
+Kroll merges elite security and data risk expertise with frontline intelligence from thousands of incident responses and regulatory compliance, financial crime and due diligence engagements to make our clients more cyber- resilient.
+[24x7 Incident Response](https://www.kroll.com/en/services/cyber/reactive-services/incident-response)
+Kroll is the largest global IR provider with experienced responders who can handle the entire security incident lifecycle.
+[Cyber Risk Retainer](https://www.kroll.com/en/services/cyber/enterprise-risk-retainer/cyber-incident-response-retainer)
+Kroll delivers more than a typical incident response retainer—secure a true cyber risk retainer with elite digital forensics and incident response capabilities and maximum flexibility for proactive and notification services.
+[Reactive Services](https://www.kroll.com/en/services/cyber/reactive-services)
+Your partner for every stage of a cyber crisis
+[Kroll Responder MDR](https://www.kroll.com/en/services/cyber/kroll-responder)
+Stop cyberattacks. Kroll Responder managed detection and response is fueled by seasoned IR experts and frontline threat intelligence to deliver unrivaled response.
+[Penetration Testing Services](https://www.kroll.com/en/services/cyber/threat-exposure-management/penetration-testing)
+Validate your cyber defenses against real-world threats.
+[Red Team Security Services](https://www.kroll.com/en/services/cyber/threat-exposure-management/red-teaming)
+Red team security services from Kroll go beyond traditional penetration testing, leveraging our frontline threat intelligence and the adversarial mindset used by threat actors to push the limits of your information security controls. 
+[Cyber Litigation Support](https://www.kroll.com/en/services/cyber/data-risk-discovery-litigation/cyber-litigation-support)
+Whether responding to an investigatory matter, forensic discovery demand, or information security incident, Kroll’s forensic engineers have extensive experience providing litigation support and global eDiscovery services to help clients win cases and mitigate losses.

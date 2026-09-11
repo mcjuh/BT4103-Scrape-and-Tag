@@ -1,0 +1,110 @@
+<!-- Source: https://aesg.com/perspective/the-impact-of-external-shading-windows-glazing-and-frame-on-thermal-performance-of-residential-house-in-abu-dhabi/ | Title: External Shading and Glazing: Thermal Impact | AESG | Seed: https://aesg.com/sg/ (AESG) -->
+
+# The Impact of External Shading, Windows Glazing and Frame on Thermal Performance of Residential House in Abu-Dhabi
+**By:** Omair Awadh
+**Date Published:** January 6, 2019
+**Share this article**
+[**Download this article**](https://aesg.com/wp-content/uploads/2020/07/WSB2014-Conference-Paper-Omair-Awadh.pdf)
+## Latest Articles
+  * [IFRS S1 & S2: What the New Global Sustainability Standards Mean for the GCC](https://aesg.com/perspective/ifrs-s1-s2-what-the-new-global-sustainability-standards-mean-for-the-gcc/) July 21, 2026
+  * [UAE Climate Law: From Net Zero Ambition to Climate Accountability](https://aesg.com/perspective/uae-climate-law-from-net-zero-ambition-to-climate-accountability/) June 30, 2026
+  * [The Silicon Shortcut: Why AI is the Instrument of Choice for the Ignorant, Indolent, and Avaricious](https://aesg.com/perspective/the-silicon-shortcut/) June 17, 2026
+
+
+##  ** _ABSTRACT:_**
+_The amount of solar heat gain and thermal transmittance of the glazing and its setback are the main factors in windows thermal performance. External Shading devices contribute a lot in solar radiation reflectance. The present study aim is to determine the ideal design in dealing with solar radiation and heat gain through windows system, in order to improve existing building energy consumption. This target will be achieved through examining and analyzing different passive design parameters of residential villa in Abu Dhabi with the help of computer simulation (IES VE). Windows system properties and shading devices performance have a great impact on the energy consumption, peak load of mechanical cooling system, therefore CO2 emissions and thermal comfort. Based on that, the house annual cooling loads could be reduced by 10%._
+## **1. INTRODUCTION**
+Sustainable development needs have set one of the bottom lines of Abu-Dhabi 2030 vision, the capital of United Arab Emirates (UAE). Construction industry was prioritized in this vision due to the huge expanding and developments that have been carried on in the area. Construction and buildings industry are the cause of energy’s massive demands in the area as residential buildings’ energy consumption contributes around 45% of UAE’s energy consumption. The present study significance is to enhance existing buildings thermal performance and at the same time improve regulators and buildings designers’ ability to adopt energy efficient practices. Different passive design strategies effectiveness to be analyzed and evaluated in terms of energy saving and occupants comfort. The main focus is windows system with relation to buildings thermal performance. The amount of solar radiation and heat transmittance through transparent façade elements determine indoor thermal and visual conditions and thus energy demands. 
+Significant impact stated in many articles, dealing with buildings envelope characteristics and their relation to air-conditioning system demands and energy consumption. Al Shaali (2013) found out that triple glazing improves house energy consumption by 3% only**,** when compared to double glazing in house in UAE. Amin & Abu-Hijleh (2012) study of Dubai villa glazing assessment showed that the change from double low-e into triple low-e impact on energy consumption as 5% less. Sinha & Kutnar (2012) study stated that PVC frames showed better performance than Aluminum frames, thermally as well as environmentally. Chi-Ming & Yao-Hong (2011) finding is; Box shape shading has the maximum reduction effect, more than horizontal shades and vertical shades. 
+Many other studies stated that the use of an appropriate glazing reduced the annual energy consumption the most, followed by shading devices (SDs) effect (Wong & Istiadji, 2004; Chi-Ming & Yao-Hong, 2011; Lai & Wang, 2011). A study conducted on residential buildings in Al-Ain, UAE found that window area and glazing system provide a considerable amount of energy savings, while SDs provide a limited reduction in terms of energy use (Radhi, 2009). On the contrary, Ebrahimpour & Maerefat (2010) found that using of the most appropriate overhang or side fin is more useful, for any direction of window, than advanced glazing systems. This is related to the fact that shading devices working principle is solar radiation penetration prevention while windows system works on two principles; solar radiation and heat conductivity reduction, based on low-e and U-value properties. This study will contribute to the current applications of the UAE sustainability pearl rating system “Estidama” and help to differentiate Passive Houses from traditional construction. 
+## **2. METHODOLOGY**
+Series of simulations by an energy analysis program, IES VE, adopted in Kim et al. (2011), Bojic (2006), Yu et al. (2008), El Sherif (2012), and Ayyad (2011) studies. The last study stated that IES VE simulation program has the ability to integrate valid weather data, having a friendly user interface, and the flexibility to perform different types of simulations. This computer simulation software will be used to model the base-case house design at first, and then different scenarios will be applied to study their impacts on solar heat gain, annual cooling loads and energy consumption. This software has different modules that can perform different calculations for the same model but with specific data inputs. 
+An existing three-bedroom villa in Abu-Dhabi is the base-line case study. The villa’s ground floor area is 155m2, and first floor area is 100m2. The external walls are basically lightweight concrete blocks with external rendering and internal dense plaster. Total thermal transmittance; U-value, is 0.75 W/m2.K, while roof’s U-value is 0.4 W/m2.K. Existing windows glazing is double clear glass with aluminum frame. Windows thermal transmittance is 3.4 W/m2.K, solar heat gain coefficient (SHGC) is 0.7 and light transmittance ratio is 1. No external shading devices applied to the current house design. Window to wall ratio (WWR) of ground floor is not the same as for the first floor, but the average WWR of the whole house is 0.16. Window to floor ratio (WFR) is constant in both ground and first floor; 0.28. East facing windows area is 59% of total windows area of the house. While south, west, and north facing windows area percentages are 19, 11, 11 % of the house total windows area, respectively. 
+Above mentioned numbers demonstrate how construction systems of most existing houses in Abu-Dhabi do not accommodate even Estidama one pearl. The minimum requirements of thermal transmittance U- value for one pearl Estidama are 0.32, 0.14, and 2.2 W/m2.K for external walls, roof, and glazing, respectively. It is worth mentioning also that the Passive House according to the Germans standards should have: Triple glazing with two low-e coatings, “Warm Edge” spacers between the panes of glass, and Super-insulated frames. Passive House U-values for external walls, roof, and glazing are; 0.15, 0.15, 0.85 W/m2.K, respectively. 
+  * **Modeling Steps:**
+
+
+Abu Dhabi City weather data file (latitude: 24.43◦N, longitude: 54.65◦E) was assigned during all stages of simulation process. Annual solar radiation and shading calculations of the whole building run by Sun Cast module and this is basically depends on Abu Dhabi’s sun path throughout the year. Thermal conditions inputs have been set through building template manager assuming energy saving in residents’ practices. Domestic occupancy profile assigned for cooling system and people internal load as 50% daytime occupancy for non-holiday days. 
+Design temperature for cooling set point is 23oC while no heating system considered due to the climatic conditions in the area. Relative humidity control kept between 30% and 70%. Air change rate profile follows cooling profile with minimum flow rate of 3.0 l/s.m2. Infiltration gain set on continuously with external air maximum air flow 0.1 ACH. Internal gains were basically related to two factors; people (5 persons (sensible gain: 90 W/person, latent heat: 60 W/person)), and electrical lighting (fluorescent lighting with domestic lighting profile). 
+The next step was to assign construction materials as per existing building based on data collected from the project main contractor. Apache-Sim is a dynamic simulation calculates cooling load in the process of energy analysis and this was the reference scenario outputs. Using the same inputs, FlucsDL module used to examine the base-case daylight performance using CIE standard overcast sky and medium quality setting in order to consider SDs applications’ impact on the assigned scenarios. 
+  * **Assigned Scenarios:**
+
+
+Building envelope characteristics, internal loads, interior lighting, ventilating, air conditioning, and occupancy profiles, in addition to weather data, are all unchanged throughout the simulation process. Windows shading condition, glazing and frame materials are the only varying parameters. Horizontal, vertical, and combination of them with two different projections; 30cm and 60cm, are the scenarios assigned in terms of shading devices design and their impact on thermal and daylight performance, in addition to energy consumption changes. Also, shading devices applied for south, east, and west facing windows based on aesthetical, technical, and functional aspects. As for windows’ system scenarios, double clear, triple clear, double low-e, and triple low-e glazing with two different frame materials; Aluminum and PVC, are examined in terms of solar heat gain, cooling loads and energy consumption variations. 
+## **3. RESULTS AND DISCUSSION**
+Reference scenario or existing case study annual energy consumption is 84MWh with cooling sensible load of 104.5MWh and solar heat gain of 22.8MWh. Windows’ system in the reference “base-case” scenario is basically; double-clear glazing with Aluminum frame with no external shading. 
+  * **Windows System Scenarios**
+
+
+Table 1 presents proposed scenarios in terms of windows system; glazing and frame. Studied glazing types have different configurations between double and triple panes, clear and low emissivity (Low-e) glass. Two frame material proposed; Aluminum and PVC. These scenarios proposed based on the mostly used and available materials in the market, thus most of construction professionals and stakeholders are familiar with these systems. 
+Frame material change has a direct impact on windows system thermal transmittance. Table 2 shows the performance of windows’ scenario in terms of solar heat gain, annual cooling load and energy consumption. Cooling sensible load (CSL) is directly proportion to windows U-value and SHGC together. The same relation applied to annual energy consumption. Based on this, the lower the U-value and SHGC are; the less in cooling demands. 
+  * **External Shading Scenarios:**
+
+
+Table 3 shows external shading scenarios performance in terms of solar heat gain, annual cooling demands and energy consumption. As per literature review, shading devices (SDs) prevent solar radiation from heating up the internal spaces effectively and the same findings appear in the present study. Cooling sensible loads are directly proportional to solar heat gain values when it comes to SDs performance. 
+Horizontal shading devices (HSDs) showed better performance than vertical shading devices (VSDs), while the combined design between horizontal and vertical shading devices (H&V SDs) performed the best in terms of solar heat gain and cooling load reductions. Third column of Table 3 shows the impact of different configurations of SDs on solar heat gain. Horizontal, vertical, and combination between them at the 30cm projection reduced solar heat gain by 9%, 6%, and 15%, respectively, when compared to the reference scenario with no SDs. Doubling SDs’ projection; from 30cm to 60cm, reduced solar heat gain value by 8%, 5%, and 13% in the same order. The combination between horizontal and vertical SDs impact on solar heat gain reduction is equal to the sum of the reduction outcome for each shading type individually. 
+At the projection of 30cm, HSDs, VSDs, and H&V SDs could reduce cooling load by 1.3%, 0.9%, and 2.3% respectively, while at 60cm projection the reductions percentage became 2.4%, 1.6%, and 4% in the same order. The comdined design between horizontal and vertical SDs with 60cm projection is the optimal external shading devices design proposed and resulted in 27% reduction in solar heat gain and 4% in annual cooling load. 
+  * **Glazing vs. Shading:**
+
+
+Family room has been chosen as a sample to examin the impact of proposed scenarios on a single zone and their functionality. Family room has different design charectaristic in terms of windows and orientations. It has south and east facing windows equal in the areas but south facing WWR is 33% and east facing WWR is 19%. Based on the difference in windows design and orientation between the whole house and Family room, a difference in performance of the same scenarios resulted. 
+In Family room, the optimal windows system and the optimal shading devices performed the same in terms of cooling load reduction percentage. In the whole house study, optimal windows system performed better than optimal SDs. This result is directly related to the change in WWR and orientation. Since south facing WWR in the family room is higher than east facing WWR resulted in enhancing the SDs performance. In Chart 1, comparsion between cooling load per m2 of the whole house and the family room in four scenarios; base-case (1+A), optimal windows system (8+A), optimal shading (1+G), and optimal shading and windows system (8+G). 
+  * **Optimal Scenario:**
+
+
+Triple glazing (clear + clear + low-e panes) with PVC frame windows system and combined horizontal and vertical shading devices with 60cm projection is the optimal proposed scenario. In comparison between reference and optimal scenarios performance; reduction of 41% in solar heat gain, 10% in annual cooling load and 6% in annual energy consumption achieved. 
+The optimal case scenario impact on cooling load was positive and the total reduction in demands were almost the sum of reductions resulted of applying each of windows system and shading devices individually. Therefore, no overlap witnessed from applying these two applications to the transparent parts of the house envelop, but their positive influences are actually accumulative. A future research study is to examine the influence of studied scenarios not only on thermal and energy performance but to include light and visual performance analysis in order to achieve the optimal energy consumption without compromising any of thermal or light comfort. 
+## **4. CONCLUSION**
+It is possible to reduce 10% of housing projects cooling bills in the UAE by adopting simple passive strategies which are applicable for existing projects also. The present study showed that 6% reduction in the houses annual energy consumption could be achieved. Therefore and based on a simple calculation, 2.7% reduction in the annual energy consumption of the UAE. Sustainable design principles can be simple and effective at the same time without adding much extra cost and sophistication to our architecture. 
+Shading devices (SDs) reduced solar heat gain effectively and more than windows system. While annual cooling load enhanced the most by improving windows system parameters; U-value and SHGC. Horizontal SDs performed better than vertical SDs while combined horizontal and vertical SDs was the best in terms of solar heat gain and energy demands reduction. Same windows system and SDs showed different impact on different house rooms based on their openings design and orientation. 
+In the present study, windows system optimal scenario tends to be Triple glazing with low emissivity pane and PVC frame. As for external shading devices, combination between horizontal and vertical type with 60cm projection performed the best when compared to other examined scenarios. However, case-by-case study and analysis is an essential part in determining the optimal configuration between external shading and windows system. 
+## **5. REFERENCES**
+Al Shaali, R.K. (2013). The Effectual House Elements in Energy Consumption and their Affectivity Ratio. _The Sustainability Conference_ , Ministry of Public Works, Dubai (2013). 
+Amin, G.S. & Abu-Hijleh, B. (2012). Energy Performance of a Residential Villa in Dubai Designed in Accordance with the Abu Dhabi PEARL Villa Rating System. _BSA 2012_ ; 1st International conference on Building Sustainability Assessment, Dublin. 
+Ayyad, T.M. (2011). The Impact of Building Orientation, Opening to Wall Ratio, Aspect Ratio and Envelope Materials on Buildings Energy Consumption in the Tropics. _Dissertation of MSc of Sustainable Design of Built Environment_ , The British University in Dubai. 
+Bojic, M. (2006). Application of overhangs and side fins to high-rise residential buildings in Hong Kong. _Civil Engineering and Environmental Systems 23;4_(2006), pp.271–285. 
+Chi-Ming, L. & Yao-Hong, W. (2011). Energy-Saving Potential of Building Envelope Designs in Residential Houses in Taiwan. _Energies 4_ , (2011), pp. 2061-2076. 
+Ebrahimpour, A. & Maerefat, M. (2010). Application of advanced glazing and overhangs in residential buildings. _Energy Conversion and Management 52_(2011), pp. 212–219. 
+El Sherif, S. (2012). The Impact of Overhangs and Side-fins on Building Thermal Comfort, Visual Comfort and Energy Consumption in the Tropics. _Dissertation of MSc of Sustainable Design of Built Environment_ , The British University in Dubai. 
+Kim, G., Lim, H., Lim, T., Schaefer, L. & Kim, J. (2011). Comparative advantage of an exterior shading device in thermal performance for residential buildings. _Energy and Buildings 46_(2012), pp. 105–111. 
+Lai, C. & Wang, Y. (2011). Energy-Saving Potential of Building Envelope Designs in Residential Houses in Taiwan. _Energies 4_(2011), pp. 2061-2076. 
+Radhi, H. (2009). Evaluating the potential impact of global warming on the UAE residential buildings – A contribution to reduce the CO2 emissions. _Building and Environment 44_(2009), pp. 2451-2462. 
+Sinha, A. & Kutnar, A. (2012). Carbon Footprint versus Performance of Aluminum, Plastic, and Wood Window Frames from Cradle to Gate. _Buildings 2_(2012), pp. 542-553. 
+Wong, N.H. & Istiadji, A.D. (2004). Effect of external shading devices on daylighting penetration in residential buildings. _Lighting Research & Technology_, 36, 4, pp. 317-333. 
+Yu, J., Yang, C. & Tian, L. (2008). Low-energy envelope design of residential building in hot summer and cold winter zone in China. _Energy and Buildings 40_(2008), pp. 1536–1546. 
+[ Linkedin-in ](https://www.linkedin.com/company/aesg/) [ X-twitter ](https://twitter.com/AESG_Limited) [ Youtube ](https://www.youtube.com/channel/UCMiM_KnIUpnInxAd8CNm2EQ)
+### Certified
+ISO 27001:2022ISO 9001:2015ISO 14001:2015ISO 45001:2018
+[Whistleblower Policy](https://aesg.com/whistleblower-policy/)
+### Our Offices
+601-608, The offices at Ibn Battuta GateJebel Ali 1-VillagePO Box 2556Dubai, United Arab EmiratesT / [+971 (0) 4 432 6242](tel:+97144326242)
+305 Mermaid House2 Puddle DockLondon, EC4V 3DSUnited KingdomT / [+44 (0) 208 037 8762](tel:+442080378762)
+### [Abu Dhabi](https://aesg.com/uae/)
+Haibu Space, Abu Dhabi Mall1st floor, Office 37Tourist Club AreaAbu Dhabi, United Arab EmiratesT / [+971 (0) 2 201 2527](tel:+97122012527)
+9391 Wadi Al Thummamah2444 Al Olaya DistrictPO Box 12214Riyadh, Kingdom of Saudi ArabiaT / [+966 (0) 112 278 288](tel:+966112278288)
+### [Singapore ](https://aesg.com/sg/)
+111 Somerset Road#08-10A, 111 SomersetSingapore 238164
+### [South Africa ](https://aesg.com/za/)
+11th Floor, Office 11012 Long StreetCape Town 8000Western Cape, South AfricaT / [+27 (0) 21 137 6444](tel:+27211376444)
+8 Parramatta Square49th Floor, Office 117Parramatta, SydneyNew South Wales 2150AustraliaT / [+61 (0) 2 8042 6817](tel:+61280426817)
+### [Melbourne](https://aesg.com/au/)
+32/F, 367 Collins StreetMelbourne, VIC 3000AustraliaT / [+61 (0) 3 8612 7200](tel:+61386127200)
+Floor 3Office No. 8, Signature Square BuildingMoustafa Kamel AxisNew Cairo 1EgyptT / [+20 (0) 2 2344 1268](tel:+20223441268)
+[ Linkedin-in ](https://www.linkedin.com/company/aesg/) [ X-twitter ](https://twitter.com/AESG_Limited) [ Youtube ](https://www.youtube.com/channel/UCMiM_KnIUpnInxAd8CNm2EQ)
+### Certified
+ISO 27001:2022ISO 9001:2015ISO 14001:2015ISO 45001:2018
+### Our Offices
+601-608, The offices at Ibn Battuta GateJebel Ali 1-VillagePO Box 2556Dubai, United Arab EmiratesT / [+971 (0) 4 432 6242](tel:+97144326242)
+305 Mermaid House2 Puddle DockLondon, EC4V 3DSUnited KingdomT / [+44 (0) 208 037 8762](tel:+442080378762)
+### [Abu Dhabi ](https://aesg.com/uae/)
+Haibu Space, Abu Dhabi Mall1st floor, Office 37Tourist Club AreaAbu Dhabi, United Arab EmiratesT / [+971 (0) 2 201 2527](tel:+97122012527)
+9391 Wadi Al Thummamah2444 Al Olaya DistrictPO Box 12214Riyadh, Kingdom of Saudi ArabiaT / [+966 (0) 112 278 288](tel:+966112278288)
+### [Singapore ](https://aesg.com/sg/)
+111 Somerset Road#08-10A, 111 SomersetSingapore 238164
+### [South Africa](https://aesg.com/za/)
+11th Floor, Office 11012 Long StreetCape Town 8000Western Cape, South AfricaT / [+27 (0) 21 137 6444](tel:+27211376444)
+8 Parramatta Square49th Floor, Office 117Parramatta, SydneyNew South Wales 2150AustraliaT / [+61 (0) 2 8042 6817](tel:+61280426817)
+### [Melbourne](https://aesg.com/au/)
+32/F, 367 Collins StreetMelbourne, VIC 3000AustraliaT / [+61 (0) 3 8612 7200](tel:+61386127200)
+Floor 3Office No. 8, Signature Square BuildingMoustafa Kamel AxisNew Cairo 1EgyptT / [+20 (0) 2 2344 1268](tel:+20223441268)
+Copyright 2026 | | All Rights Reserved

@@ -1,0 +1,9 @@
+<!-- Source: https://www.westmonroe.com/our-team/bret-greenstein | Title: Bret Greenstein, Chief AI Officer | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Bret leads West Monroe’s AI strategy, equipping teams and clients with scalable, real-world solutions that drive measurable impact.[ Linkedin](https://www.linkedin.com/in/bretgreenstein/)
+Contact
+Bret Greenstein leads West Monroe’s AI strategy, accelerating adoption across the firm and helping clients deliver measurable results through applied AI.
+As Chief AI Officer, Bret drives how West Monroe—and its clients—activate the full potential of AI. He works across industries and teams to embed AI into consulting delivery, equip employees with practical AI fluency, and shape differentiated offerings that address evolving business needs. With more than 30 years of experience leading AI and data transformations, Bret has held senior roles at PwC, Cognizant, and IBM, where he built and scaled high-growth practices, led multi-billion-dollar portfolios, and advised Fortune 500 executives on next-generation technology strategies.
+Bret’s leadership ensures AI isn’t just talked about—it’s used, measured, and delivering value from day one.
+## _Bret’s All-In Mindset_
+Bret is a passionate educator and global voice in responsible AI, regularly publishing insights and speaking at major conferences—including TED AI. He holds multiple U.S. technology patents, serves as a SwissCognitive Global AI Ambassador, was named to the DataIQ 100, earned a Stevie® Awards AI Leader of the Year recognition, and was selected by The Consulting Report as one of the Top Artificial Intelligence Consultants and Leaders of 2026. A lifelong learner, Bret also explores new cultures through language—earning certifications in Chinese from the Mandarin House Language School and Japanese from the University of Wisconsin.

@@ -1,0 +1,34 @@
+<!-- Source: https://www.alvarezandmarsal.com/content/campus-spotlight-kylene-ingram | Title: Campus Spotlight: Kylene Ingram | Alvarez & Marsal | Management Consulting | Professional Services | Seed: https://www.alvarezandmarsal.com/expertise (Alvarez & Marsal) -->
+
+[Skip to main content](https://www.alvarezandmarsal.com/content/campus-spotlight-kylene-ingram#main-content)
+# Campus Spotlight: Kylene Ingram
+Kylene Ingram is a Senior Associate with Alvarez & Marsal’s (A&M) [Transactional Advisory Group (TAG)](https://www.alvarezandmarsal.com/expertise/global-transaction-advisory) in Boston, Massachusetts. She earned her bachelor's and master’s degree from Boston College.
+In the following Q&A, Kylene shares her thoughtfully considered decision to intern at A&M, her notable accomplishments in her career and her invaluable mentorship experiences.
+**What led you to pursue your chosen field of study?**
+At Boston College, I studied mathematics and accounting. I chose to study mathematics because it had always been my favorite subject in school, and I wanted to expand my knowledge of the subject. After my freshman year, I enrolled in a summer business program, which is where I participated in my first accounting course. I was drawn to the subject, as it involved strategy, analysis and real-world applications of mathematics. After this course, I pursued a minor in accounting and eventually received my master’s degree in accounting. 
+**Why did you choose to intern at A &M?**
+At the beginning of my junior year of college, I began talking to recruiters about potentially interning at the firm. They talked passionately about the firm and its people, and I wanted to be a part of a company where the employees were a top priority. Additionally, I was curious about financial due diligence, and I thought the internship would give me an excellent opportunity to learn more about this field.
+**Why did you choose to join A &M full-time?**
+The TAG Boston team is filled with intelligent, supportive and driven individuals, and the desire to be a part of this team and culture drove me to return to A&M as an analyst. Specifically, during my internship, I was lucky enough to primarily work with Claire Williams and Riley Kesselring, both of whom are excellent professionals, coaches, mentors and people. They were, and still are, always available to answer my questions and to provide encouragement, and I owe much of my career development thus far to them. 
+**What do you consider to be your biggest accomplishment so far in your career?**
+In November, my deal team was working on a sell-side project for a company that had undergone a common control merger during the historical period. We needed to cleanse and compile multiple data sources to produce a comprehensive databook to deliver to our client and potential buyers. I was tasked with producing and cleansing the final deliverable. Our client, the bankers and the lead managing director were all greatly impressed by the result. This databook was instrumental in expediting the buy-side diligence process, and since it was so comprehensive, the buy-side team hardly had any follow-up requests, despite only having one week to complete their diligence.
+**Can you tell us about a mentor or advisor who has influenced your career development, and what did you learn from them?**
+While in college, I was a teaching assistant for Thomas Wesner, a professor of business law. Whenever he was preparing to speak with his colleagues or drafting an email or memo, he would make a point to explain to me the professional etiquette, language and tone to use in such situations. I always keep these tips in mind when I am speaking with my coworkers or writing an email to a banker, target company or client. Additionally, he advocated for me to get many opportunities while I was in college, and he continues to check in with me and offers guidance to this day.
+**How do you approach networking and building professional relationships, and what tips would you offer to others who are just starting out?**
+One simple way to build professional relationships is by having lunch and grabbing coffee with coworkers. Additionally, attending company events like happy hours or volunteer activities gives you the opportunity to get to know your coworkers in a more casual setting, which can help strengthen your professional relationships with them.
+For those just starting out, I would encourage them to ask colleagues to grab coffee with them, participate in office-wide events and communicate their interests. If they would like to inquire about upcoming networking events or attend specific client events, they will then have an open door with their mentor to discuss these interests.
+**What's your favorite hobby or activity outside of work, and how did you get into it?**
+My college friends and I have started going on weekend walks around the city to catch up. We are all busy during the week, so these walks give us the opportunity to spend uninterrupted time together and explore the city.
+**What are some fun facts about you?**
+I was a manager for the women’s basketball team in college and my family has season tickets for the Philadelphia Eagles.
+[Campus Spotlight: Eduardo Tonaco](https://www.alvarezandmarsal.com/content/campus-spotlight-eduardo-tonaco)
+In this Q&A, Eduardo reflects on A&M’s core value of Objectivity, sharing how it shapes his work and professional growth
+[Alumni Spotlight: Daniel Propp](https://www.alvarezandmarsal.com/content/alumni-spotlight-daniel-propp)
+Entrepreneur Daniel Propp reflects on how his time as an A&M Consultant gave him the skills, vision, and values to build two thriving businesses from the ground up. 
+[A Walking Dinner Tour Through Munich](https://www.alvarezandmarsal.com/content/walking-dinner-tour-through-munich)
+In May, the Alvarez & Marsal Alumni Network gathered alumni and colleagues in Munich for the annual event, this year included a walk and dinner, reconnecting through a shared evening in the city. 
+[Historias de Crecimiento: Álvaro Casas Iriarte](https://www.alvarezandmarsal.com/es/content/historias-de-crecimiento-alvaro-casas-iriarte)
+Álvaro Casas Iriarte es Analista en el área de Restructuring & Special Situations de Alvarez & Marsal México. Egresado de Economía por el ITAM, inició su trayectoria en A&M como intern y hoy continúa desarrollando su carrera dentro de la firma como analista.
+[ SUBSCRIBE TO OUR BULLETIN ](https://bulletins.alvarezandmarsal.com/)
+[ Convert this page to PDF ](https://www.alvarezandmarsal.com/printpdf/62101--en)
+#  Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

@@ -1,0 +1,16 @@
+<!-- Source: https://www.bdo.com/insights/advisory/self-funding-my-mid-size-company-s-health-insurance-is-it-worth-it | Title: Is Self-Funding Mid-Size Company Health Insurance Worth It?
+ | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Self-Funding My Mid-Size Company’s Health Insurance, Is it worth it?
+Health Insurance began during the Great Depression Era because hospitals and physicians needed a way to guarantee payment. However, private health insurance through employers grew rapidly from 1940 to 1960 due to several favorable laws. At the beginning of World War II only 7% of the United States population had health insurance. By 1960 that number had increased to 70%. Plans were at first community-rated and soon gave way to experience-rating (i.e., rates based on claims experience). The concept of retaining the insurance risk and self-funding the payment of claims soon became a way to manage costs. So, if the concept of self-insurance has been around for decades, why such a buzz about it lately?
+BDO USA’s Gregg Mills shares his perspective on some of the key decision factors between being fully insured and being self-insured. 
+[Read Moreopen_in_new](https://www.precisionbenefits.com/self-funding-my-mid-size-companys-health-insurance-is-it-worth-it/)
+_This article was originally published by Precision Benefits Group._
+## SHARE
+  * 
+
+## Related Resources
+[ Blog PostWhere Payer Credentialing Slows Down and What Healthcare Leaders Can Do About It September 4, 2026 Blog PostWhere Payer Credentialing Slows Down and What Healthcare Leaders Can Do About It September 4, 2026Provider credentialing can slow onboarding and reimbursement. Explore strategies to improve coordination and visibility. Read Morechevron_right ](https://www.bdo.com/insights/blogs/bdo-knows-healthcare/where-payer-credentialing-slows-down-and-what-healthcare-leaders-can-do-about-it)
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)
+[ ArticleBusiness Impact: Measurable Returns on AI August 28, 2026 ArticleBusiness Impact: Measurable Returns on AI August 28, 2026AI can create measurable business value when tied to clear goals. Explore how organizations are evaluating returns and turning AI efforts into meaningful outcomes. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/business-impact-measurable-returns-on-ai)

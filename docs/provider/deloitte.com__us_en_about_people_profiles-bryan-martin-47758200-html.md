@@ -1,0 +1,13 @@
+<!-- Source: https://www.deloitte.com/us/en/about/people/profiles.bryan-martin+47758200.html | Title: Bryan Martin | Life Sciences & Health Care Industry Leader | Merger & Acquisition Services | Seed: https://www.deloitte.com/us/en/services/consulting/services/mergers-acquisitions.html (Deloitte) -->
+
+Link opens in a new tab opens in new window
+[Skip to main content](javascript:void\(0\))
+Welcome to Deloitte 
+If we have selected the wrong experience for you, please change it above.
+#  Bryan Martin 
+##  Life Sciences & Health Care Industry Leader | Merger & Acquisition Services | Partner | Deloitte & Touche LLP 
+[ Nashville, US ](https://www.deloitte.com/us/en/offices/office-locator/nashville.html)
+###  Bryan, a distinguished leader, steers the helm as the national managing partner for Deloitte's Merger & Acquisition Life Sciences and Health Care Industry. 
+Bryan serves as the national managing partner of Deloitte’s Life Sciences and Health Care Merger & Acquisition Practice. In this role Bryan has oversight for Deloitte over all areas of the health care Merger & Acquisition life cycle including strategy, diligence, execution, integration and process improvement. Bryan is a CPA who has spent the past 25 years in public accounting while being dedicated in the health care and life science sectors.
+In both public and private sectors, Bryan consults with investors, boards of directors, and senior executives on Merger & Acquisition strategy and execution. His experience includes advising both private equity and corporate clients on many aspects of acquisitions including due diligence, accounting structuring, financial reporting, valuation considerations, financing documents, and the preparation of pro forma financial statements. He also assists clients with many aspects of dispositions such as sell-side & vendor due diligence, the preparation of data room materials, deal structuring, and the preparation of carve-out financial statements.
+Bryan has worked closely with several of Deloitte’s largest clients to help management teams understand the potential impacts related to health care reform. Bryan has served clients in a wide range of sectors within the life sciences and health care industries including for-profit and not-for-profit acute care hospitals, home health, hospice, long-term care, urgent care, behavioral health, durable medical equipment, physician practices, managed care, Medicare Advantage, medical devices, pharmaceuticals, contract research organizations, and biotechnology.

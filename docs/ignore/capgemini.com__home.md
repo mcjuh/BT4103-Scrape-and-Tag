@@ -1,0 +1,28 @@
+<!-- Source: https://www.capgemini.com/?s=Management+team | Title: You searched for Management team - Capgemini | Seed: https://www.capgemini.com/service/capgemini-invent/ (Capgemini Invent) -->
+
+[Skip to content](https://www.capgemini.com/?s=Management+team#main-content)
+# Search
+Most searched: [ Generative AI ](https://www.capgemini.com/?s=Generative%20AI) [ Cloud ](https://www.capgemini.com/?s=Cloud) [ Management team ](https://www.capgemini.com/?s=Management%20team) [ Job offers ](https://www.capgemini.com/careers/join-us/)
+##  **2012** search results for**“Management team”**
+Blog Post### [5G from Space: Intelligent Beam Management for Non-Terrestrial Networks (Part-2) ](https://www.capgemini.com/insights/expert-perspectives/5g-from-space-intelligent-beam-management-for-non-terrestrial-networks-part-2/)5G from Space: Intelligent Beam Management for Non-Terrestrial Networks (Part-2) CapgeminiMar 17, 2026 FacebookLinkedin In Part-1 of the blog titled…
+Blog Post### [5G from Space: Intelligent Beam Management for Non-Terrestrial Networks (Part-1)](https://www.capgemini.com/insights/expert-perspectives/5g-from-space-intelligent-beam-management-for-non-terrestrial-networks-part-1/)5G from space: Intelligent beam management for Non-Terrestrial Networks (Part-1) CapgeminiMar 3, 2026 FacebookLinkedin The convergence of terrestrial and non-terrestrial networks is…
+Page### [Executives](https://www.capgemini.com/careers/career-paths/executives/)Executives FacebookLinkedinAre you ready to take on the challenge?Helping the world’s leading organizations achieve their…
+Page### [Nuclear renaissance](https://www.capgemini.com/industries/energy-and-utilities/utilities/nuclear-renaissance/)Nuclear renaissance FacebookLinkedin Reliable, sustainable and clean – nuclear is back, and it’s more innovative…
+Blog Post### [AI Agents Need an Offboarding Plan Too](https://www.capgemini.com/insights/expert-perspectives/ai-agents-need-an-offboarding-plan-too/)AI Agents Need an Offboarding Plan TooDanuta StojkoMarta KisielaSep 2, 2026 FacebookLinkedin If you want…
+Client story### [KION embraces a long-term path to net-zero carbon emissions](https://www.capgemini.com/news/client-stories/kion-embraces-a-long-term-path-to-net-zero-carbon-emissions/)Client storyKION embraces a long-term path to net-zero carbon emissionsDownload the case study639 KB pdfClient:…Apr 10, 2026
+Page### [Managed services and global capability centers for MedTech](https://www.capgemini.com/industries/life-sciences/medtech/managed-services-and-global-capability-centers-for-medtech/)Managed services and global capability centers for MedTech FacebookLinkedin From managing work to owning capability…
+Agentic AI### [Capgemini and NVIDIA: Pioneering the future of AI factories with Capgemini RAISE™ and Agentic Gallery](https://www.capgemini.com/insights/expert-perspectives/capgemini-and-nvidia-pioneering-the-future-of-ai-factories-with-capgemini-raise-and-agentic-gallery/)Capgemini and NVIDIA: Pioneering the future of AI factories with Capgemini RAISE™ and Agentic GalleryMark…
+Client Story### [A single source of truth for a transformed nuclear company](https://www.capgemini.com/news/client-stories/a-single-source-of-truth-for-a-transformed-nuclear-company/)Client storyA single source of truth for a transformed nuclear companyDownload the case study778 KB…Jul 20, 2026
+Client story### [Ministry of Defence scales Accelerated Define and Procure Tool to modernize and standardize procurement workflows](https://www.capgemini.com/news/client-stories/ministry-of-defence-scales-accelerated-define-and-procure-tool-to-modernize-and-standardize-procurement-workflows/)Client storyMinistry of Defence scales Accelerated Define and Procure Tool to modernize and standardize procurement…Aug 19, 2026
+Load more
+####  Show next 10 (10/2012) 
+Sort By: 
+Filters
+Aerospace and defense Automotive Banking and capital markets Consumer products Energy and utilities Financial services Healthcare High-tech Hospitality and travel Insurance Life sciences Manufacturing Media and entertainment Public sector Retail Telecoms
+Industries 
+Application development & maintenance Cloud Customer experience Cybersecurity Data & AI Digital core Engineering Enterprise management Enterprise service management Enterprise transformation Intelligent business operations Intelligent industry People experience Quality and testing Sustainability
+Analyst Report Blog Post Campaign Client Story Employee Testimonial Event Inside stories Page People Press Release Research & insight Training
+Content Types 
+Clear all
+Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website. You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently affect your browsing experience and limit the availability of some services.Your choices will be recorded by Capgemini and TrustArc for a duration of 3 months, after which you will be required to provide your preferences again.If you wish to know the detailed list of cookies under each category used on the website, you may find it in the [Cookie Policy](https://www.capgemini.com/cookie-policy). 
+Accept Manage Settings Decline All

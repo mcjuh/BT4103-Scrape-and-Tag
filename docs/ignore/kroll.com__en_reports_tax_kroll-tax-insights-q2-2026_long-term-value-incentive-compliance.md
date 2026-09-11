@@ -1,0 +1,17 @@
+<!-- Source: https://www.kroll.com/en/reports/tax/kroll-tax-insights-q2-2026/long-term-value-incentive-compliance | Title: Economic Incentive Compliance: Maximize Benefits & Avoid Risk | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+Tax Services
+June 22, 2026
+# Ensuring Long-Term Value Through Incentive Compliance 
+Economic development incentives such as property tax abatements, sales tax exemptions, and cash grants offered by governments to attract, retain and expand businesses can help companies achieve significant cost reductions and secure capital allocation to fund their projects. 
+[ Back to Kroll Tax Insights ](https://www.kroll.com/en/reports/tax/kroll-tax-insights-q2-2026)
+However, securing incentives is only the first step. Maintaining ongoing compliance reporting and tracking performance obligations throughout the life cycle of the incentive, often 10 years or more, is critical to retaining the award and avoiding penalties.
+Each incentive program has its own reporting cadence, documentation standards and performance thresholds. Without a structured, long-term approach, even well-intentioned companies can fall out of compliance, simply because deadlines were missed or obligations were not clearly understood. Effective compliance requires discipline, continuity and a systematic process that provides guidance throughout the incentive period. This includes translating legal agreements into action plans, tracking reporting requirements, maintaining audit-ready documentation and coordinating across internal departments such as human resources, payroll, operations, tax and project teams. Companies that treat compliance as a strategic function are better positioned to preserve the full value of their incentives.
+Kroll’s experienced tax professionals support incentive compliance with structured processes and tracking systems that help companies stay ahead of their reporting obligations. A defining strength of Kroll’s incentive compliance offering is its proprietary Incentive Management System (IMS), a secure system that tracks deadlines, stores documentation and provides automated reminders in advance of each reporting requirement. IMS serves as a workflow engine and a long-term archive, ensuring continuity as client teams evolve.
+With a disciplined approach to agreement review, compliance scheduling, documentation management and issue resolution, Kroll helps ensure that awarded incentives are realized. When compliance is handled proactively, companies preserve the financial value that justified the project. To learn more about Kroll’s incentive compliance approach, please reach out to our tax professionals.
+[ Doug Heinz  Vice President Site Selection and Incentive Advisory Austin ](https://www.linkedin.com/in/dougheinz21)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Tax Services](https://www.kroll.com/en/services/tax-services)
+Built upon the foundation of its renowned valuation business, Kroll's Tax Service practice follows a detailed and responsive approach to capturing value for clients.
+[Site Selection and Incentives Advisory](https://www.kroll.com/en/services/tax-services/site-selection-and-incentives-advisory)
+Kroll has a proven track record of assisting companies with location strategies in the U.S. and around the globe.

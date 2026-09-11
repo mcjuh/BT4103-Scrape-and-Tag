@@ -1,0 +1,65 @@
+<!-- Source: https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/ | Title: Is artificial intelligence going to design your next building? - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/#main-content)
+Article
+#  Is artificial intelligence going to design your next building? 
+In recent years, artificial intelligence (AI) and machine learning (ML) tools have made the leap from interesting-in-theory to uncanny-in-practice. We discuss whether it might be possible to ask artificial intelligence to ‘design me a building’.
+Steve Walker
+Associate Director
+Last updated: February 2022 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact our experts
+In recent years, AI and machine learning tools have made the leap from interesting-in-theory to uncanny-in-practice.
+Armed with huge data sets and considerable processing power, developments like GPT-3 from Open AI, have surpassed their creators’ predictions, and are seemingly capable of producing competent, cogent and compelling prose, poetry and even pictures to order. Many were surprised, impressed, or even shocked by some of the capabilities shown by GPT-3 when it debuted in summer 2020, with reactions ranging from the slightly alarmist ‘Are you scared yet, human?’ in The Guardian, to inspiring droves of start-ups to build new businesses and services around it.
+So, what might GPT-3’s descendants be like some years from now, given its seeming uncanny ability to generate convincing text (and in other variants, images from a textual description) from a short prompt? And how might it impact the architectural, engineering and construction industry? Might it be possible to ask artificial intelligence to ‘design me a building’?
+## A machine learning partner for designers and engineers?
+GPT-3 has the ability to discern meaningful patterns from billions of different elements of human writing, enabling it to seem to pass something like the Turing Test. You write a sentence or two and it is able to continue your line of thinking, developing it into paragraphs of copy or if using its off-shoot ‘DALL-E’, produce images that variously reflect what you’d requested. So, might it be possible to ask of GPT-100 to “design me a building”?
+Well, for one thing we would need to be more specific: the building ‘that fits this plot of land’, that it ‘it has net zero carbon emissions, has 5 rooms, big windows etc.’ It would be hard to describe precisely what’s required with words alone. More importantly, we are more aware than ever that we live in an interconnected world, that’s changing fast. So, the building must complement its neighbourhood, make efficient use of materials and energy, and present good value for money compared to alternative uses and schemes. The industry already uses parametric design tools to unify these different goals in a rigorous and imaginative ways, based on a blend of highly relevant discrete data sets. It’s not yet clear that a generative pre-trained transformer (GPT) machine learning tool will be helpful in navigating the multi-dimensional reality and constraints of a building project. Well, for now, at least.
+As a highly competent language model based AI, GPT-3 is a very impressive achievement – but other forms of artificial intelligence are also making advances. GPT-3 also embodies some of the weaknesses of current artificial intelligence technologies: inscrutability. The data it draws on is phenomenal in size but will certainly contain biases, is likely not publicly available for inspection or assessment, and data-sets on which it draws are likely to be owned by private companies with their own commercial agenda. This is leading towards a looming ethics issue as we use more data in the built environment, and direct human agency is replaced by the decision making powers of ever more competent machine learning tools.
+Traditional computing methods have become more powerful but even today the level of computing power required can be expensive and slow to use. In the built environment industry modelling and simulation are areas where we need continuous improvement in speed, scale and complexity of computing tasks.
+## Science and machine learning join forces
+As architects, designers, engineers and planners, we work in a complex and dynamic context – we are concerned with not just how things are now and have been, but what they will be like in the future. Beyond the impressive creativity of GPT-3, what we as a community really need are insights into the real-world contexts into which our design decisions must succeed and endure. We need to know how strong a region’s storm winds might blow or how much rainfall future storms might produce, how will the climate affect ground water or a myriad of other factors that increasingly challenge the built and natural environment. Machine learning’s ability to discern patterns and make predictions under incredibly complex sets of conditions might be more what we need.
+Another area that shows great promise is the emerging convergence between machine learning and science, leading to new technologies that build on the huge body of knowledge in mathematics, physics and other sciences. Traditional computing methods have become more powerful but even today the level of computing power required can be expensive and slow to use. In the built environment industry modelling and simulation are areas where we need continuous improvement in speed, scale and complexity of computing tasks. Machine learning tools with GPT-3-like ability to consider billions of factors simultaneously, trained on larger data sets, should enable us to make a quantum leap as we study scientific alternatives, find optimal solutions, and handle more complex models. This would be very valuable on typical fluid flow phenomena such as wind, atmosphere, water flows, structures, materials, chemistry and other hard to compute elements. Here at Arup, we have already been experimenting with AI accelerated air flow simulations (the interaction of wind with buildings). In the past these have played a limited role in design and typically only one or two cases have been studied (because of their time and computational cost). This new approach (although the technology is not yet fully mature) promises far more freedom to explore options and reach optimal solutions more quickly.
+In the case of flood prediction, we see AI models that have learnt from historical data and are informed by physics, being far better able to generalise to, for example, an extreme storm event in a future climate and we are already beginning to test this approach on projects.
+## Machine learning and the planet
+With net zero commitments taking effect across the built environment industry, our industry is going to be increasingly (and rightly) expected to answer tougher questions about the designs we propose and the energy and emissions those solutions might produce. This is another area where machine learning can help us navigate complexity.
+Given the lifespan of buildings and infrastructure, we will need to develop more and more powerful machine learning tools to answer questions about the world these projects will join: from the effects of rising oceans, more powerful storms and flooding, to greater rising temperatures and extremes of cold. Climate modelling tools that can make increasingly accurate predictions will be invaluable as engineers and designers adapt their own decision making in a rapidly warming world.
+At the more tactical level we’ve already begun taking advantage of the power of machine learning to assess the most effective combination of systems and technology, to help Whole Foods supermarket chain meet net zero regulations in California. This ‘genetic algorithm’ approach allows staggering numbers of combinations of chilling, lighting and air-conditioning systems to be evaluated, with the tool able to emulate evolutionary presses to weed out the weaker solutions, until a range of low emission, high performance options were defined. It’s an exciting example of what might be commonplace soon.
+## The machine-human partnership has only just begun
+While we often speak of a ‘design language’, buildings aren’t the same as language models and we shouldn’t expect to this type of machine learning to displace the normal, highly multidisciplinary design process. But even if we aren’t likely to be asking software to design our next concert hall or cathedral quite yet, machine learning remains an exciting and developing realm for built environment practitioners. It is clearly a ‘force multiplier’ that can augment our own, human abilities and creativity, in ways we can’t even fully imagine yet.
+For now, developments like GPT-3 offer a tantalising preview of the scale of engineering and design questions we might answer tomorrow, as well as highlighting the importance of ethical, open data for the whole industry to work from.
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/) Copy link  Close Share Menu 
+Explore similar insights
+## Issues
+### We explore some of the biggest questions facing the built and natural environment
+[ View all issues ](https://www.arup.com/insights/issues/)
+#### [ Issue  How do we build using fewer resources? ](https://www.arup.com/insights/issues/how-do-we-build-using-fewer-resources/) #### [ Issue  How can data centres become more sustainable? ](https://www.arup.com/insights/issues/how-can-data-centres-become-more-sustainable/)
+## Explore
+### Discover more about our expertise
+[ View all services ](https://www.arup.com/services/)
+Services
+[ Architecture ](https://www.arup.com/services/architecture/)
+[ Building Information Modelling ](https://www.arup.com/services/building-information-modelling-bim/)
+[ Building retrofit ](https://www.arup.com/services/building-retrofit/)
+[ Computational fluid dynamics ](https://www.arup.com/services/computational-fluid-dynamics/)
+[ Data and artificial intelligence ](https://www.arup.com/services/data-and-artificial-intelligence/)
+[ Digital design ](https://www.arup.com/services/digital-design/)
+[ Digital fabrication ](https://www.arup.com/services/digital-fabrication/)
+[ Digital twins ](https://www.arup.com/services/digital-twins/)
+Digital solutions and tools
+[ InForm InForm is a generative design tool that can understand and combine many different relevant constraints or client preferences. ](https://www.arup.com/services/digital-solutions/inform/)
+[ Neuron Neuron is an app that integrates our insights into the built environment with emerging digital technologies into a single platform. ](https://www.arup.com/services/digital-solutions/neuron/)
+## Insights
+### Explore more design insights
+[ See more ](https://www.arup.com/insights/all-design-insights/)
+[ Article  Timber buildings are gaining appeal – but what are the whole life carbon savings?  ](https://www.arup.com/insights/timber-buildings-are-gaining-appeal--but-what-are-the-whole-life-carbon-savings/) [ Article  Bringing nature inside: how CapitaLand uses biophilic design to cool buildings and boost wellbeing  ](https://www.arup.com/insights/bringing-nature-inside-how-capitaland-uses-biophilic-design-to-cool-buildings-and-boost-wellbeing/) [ Article  The sustainable route to improving road safety  ](https://www.arup.com/insights/the-sustainable-route-to-improving-road-safety/) [ Article  How can multi-trade integrated mechanical, electrical and plumbing (MiMEP) design enhance construction?  ](https://www.arup.com/insights/how-can-multi-trade-integrated-mechanical-electrical-and-plumbing-design-enhance-construction/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/is-artificial-intelligence-going-to-design-your-next-building/)
+Close Close

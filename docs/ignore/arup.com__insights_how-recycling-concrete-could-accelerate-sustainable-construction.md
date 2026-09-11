@@ -1,0 +1,50 @@
+<!-- Source: https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/ | Title: How recycling concrete could accelerate sustainable construction - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/#main-content)
+Article
+#  How recycling concrete could accelerate sustainable construction 
+In the built environment to date, it has been cheaper and easier to knock things down and start again, despite the cost in CO2 emissions. We explore the potential to reuse concrete, and the benefits from saving CO2, to greater stability.
+Andy Gardner
+Associate
+Last updated: January 2022 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/) Copy link  Close Share Menu 
+With the world’s population still growing, so continues the development of humans’ physical environment. As things stand we still rely on newly cast concrete as an efficient, strong and relatively low cost building material, emitting unsustainable amounts of CO2 as a result (reckoned to be 4 billion tonnes of cement annually, equating to 8% of global emissions).
+The process of demolition when an asset reaches its end of life mostly results in piles of rubble. The scale of waste here is significant. Cembureau, the European cement organisation, calculates that 450-500 million tonnes of construction waste is generated in Europe annually. In the USA, experts reckon concrete could be up to 85% of construction waste. Whatever the precise number, as long as the industry isn’t being forced to price in the externalities of climate change, it’s simply cheaper, quicker and easier to knock things down and start over.
+This rubble masks unseen costs. Concrete production is a one-way transaction with nature, producing valuable structural strength at considerable cost in CO2 emissions. Demolition amounts to a careless disposal of that investment, without accounting for the natural capital it has taken to produce.
+## The era of reuse
+It’s clear that in a post-COP26 world, a convergence of global trends, new regulation, public demand and other market factors are going to force a reappraisal of long-held assumptions. And as designers and engineers of every kind of structure, we at Arup are increasingly concerned with finding a more sustainable way of producing the built environment. 
+In recent years we’ve seen some truly ambitious and innovative reuse/adaptation projects to avoid demolition. LocHal, a former rail depot in Holland or Coal Drops Yard, once a derelict industrial site in London, both demonstrate how old structures can be imaginatively repurposed. But there are of course some constraints and limitations at play here, and not all structures can (or should) be conserved. The increasing deployment of circular economy principles where current building components are designed for future reuses is good to see, but this still nascent and it remains the case that only certain existing structures are likely to be adaptable to new uses. For many, demolition still looms. 
+## Don’t demolish, deconstruct!
+Perhaps the most obvious, yet largely unrealised option, is recycling concrete at the component level. We are getting better at doing this with steel and timber, so why not apply this familiar principle to concrete, the material where so many emissions are produced? 
+This is where things get interesting. Obviously deconstructing a building, a kind of reverse construction process, is considerably more costly and time consuming than simply knocking it down with a massive metal ball. But viewed with a clear sense of urgency from the net zero goal that every organisation must now face up to, the incentives to adopt a new approach become quite persuasive. 
+Broadly, they can be summarised as:
+  1. Immediate CO2 savings. Every cubic metre of reused concrete can theoretically prevent a new cubic metre from being cast, saving over 250kg of carbon dioxide. We may never be able to reach this limit, but the difference between theoretical and realised reuse ratios will only close as digital fabrication methods become more capable, bringing more reused material back into the construction process. 
+  2. Greater stability. Reused concrete has the advantage of greater volume stability than brand new concrete, having endured creep and shrinkage when fitted within its original structure. 
+  3. Proven strengths. The inability to test concrete (before it is cast) means structures are built with onerous strength reduction factors that allow for material variability. With ‘stock’ components, the performance can be assurance tested, so this is another opportunity to improve on normal practice. 
+  4. Readiness for off-site construction. Governments and the industry are already advocating more offsite construction which, for concrete, means precast. Once more, reused concrete has an advantage, it just needs to be cut to the new shape as ready-made components before being delivered for assembly on site. 
+
+
+## Where do we start?
+As ever with major change, it can be hard to see where the revolution will begin. As it stands, reused concrete components aren’t top of architects or engineers’ minds, nor are clients or building owners demanding them. So how do we incentivise this change of mindset and practice, such that it scales and becomes a norm? 
+My colleague Kristian Winther has written recently about how digital tools are beginning to embrace recycled material within their standardised view of components and structures, enabling a significant shift to more ‘circular economy’ principles. This would equally apply to concrete. Designers must be able to specify used components if the practice is to become normalised, accepted and widespread. 
+The possibilities for reused concrete are also considerable. We don’t have to settle for the conservative idea that an old column must become a new column, as clearly plausible as that is. Our goal is to reduce the production of new virgin material as widely and quickly as possible, not to make like-for-like. That concrete column that was once holding up a banking headquarters could become a column, a pile, a series of building blocks, or unassuming kerb stones. 
+A recent [concrete footbridge in Fribourg, Switzerland by the EPFL’s Structural Exploration Lab](https://actu.epfl.ch/news/building-out-of-concrete-but-without-pouring-concr/) has demonstrated how this idea could take off. Exemplar projects like this are incredibly valuable, helping to establish that the risks aren’t real, and that this is a resource whose value we’re simply ignoring. 
+## A rewarding idea
+In business, there’s an old adage about never wanting to leave ‘money on the table’. In our sector, I can see that ethos taking its own form, with building owners viewing the shell of their existing old structure as valuable, financially and reputationally. And who doesn’t want to make money or build a brand while doing the right thing? 
+Our cities are rich with concrete, often in a condition as good if not better than the day it was cast. With just a small change in mindset among practitioners across the sector, from investors and developers to architects and engineers, can finally start to apply the ‘make once, use many’ ethos to concrete. Our commitment to net zero goals demands nothing less.
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/) Copy link  Close Share Menu 
+Explore similar insights
+[ Article ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=107) [ Materials ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=153) [ Engineering and technical services ](https://www.arup.com/insights/filtered-insights/?ServiceCategoryTaxonomies=32) [ Decarbonisation ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=117) [ Design ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=136)
+## Insights
+### Explore more decarbonisation insights
+[ See more ](https://www.arup.com/insights/all-decarbonisation-insights/)
+[ Publication  Whole life carbon assessment – embodied carbon quantification in Hong Kong  ](https://www.arup.com/insights/whole-life-carbon-assessment-embodied-carbon-quantification-in-hong-kong/) [ Article  Data centres, heat reuse and the future of circular energy systems  ](https://www.arup.com/insights/data-centres-heat-reuse-and-the-future-of-circular-energy-systems/) [ Publication  From assessment to action: a spotlight on whole life carbon processes in cities  ](https://www.arup.com/insights/publication-from-assessment-to-action-a-spotlight-on-whole-life-carbon-processes-in-cities/) [ Publication  Arup guide to EU decarbonisation legislation  ](https://www.arup.com/insights/arup-guide-to-eu-decarbonisation-legislation/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/how-recycling-concrete-could-accelerate-sustainable-construction/)
+Close Close

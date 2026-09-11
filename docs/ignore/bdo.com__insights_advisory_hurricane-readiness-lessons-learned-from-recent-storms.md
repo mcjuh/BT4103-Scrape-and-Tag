@@ -1,0 +1,15 @@
+<!-- Source: https://www.bdo.com/insights/advisory/hurricane-readiness-lessons-learned-from-recent-storms | Title: Hurricane Readiness: Lessons & Insights | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Hurricane Readiness: Lessons Learned from Recent Storms 
+Article
+  * PRINT 
+  * 
+
+As hurricanes grow in frequency and intensity, businesses face evolving challenges—not only in safeguarding physical assets, but also in navigating the complex insurance landscape that follows a major storm. John Petzold, BDO’s Claims Recovery leader, and Rukesh Korde, a Washington-based partner at Covington & Burling, draw on lessons from Hurricanes Ian, Helene, and Milton to highlight critical risk management strategies for business leaders.
+[Read the Full Articleopen_in_new](https://www.businessinsurance.com/perspectives-hurricane-readiness-for-commercial-businesses-preparing-for-the-next-big-nat-cat-event/)
+Select your preferences and stay current with our latest insights  [ SUBSCRIBE ](https://www.bdo.com/create-account)
+## Related Resources
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026In this episode, our hosts talk with Tamara Lemmon of Wilson Sonsini to explore why proactive planning is becoming one of the most important competitive advantages in legal and compliance teams. Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=eiuus74pqn)
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 16: From AI Hype to Legal Reality: What Litigation Support Teams Are Actually Using September 1, 2026This episode offers practical insights for legal operations leaders, litigation support professionals, law firm leaders, in-house counsel, and anyone seeking a grounded perspective on where generative AI is creating real value in legal services today.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=wlkbngi3x9)
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)

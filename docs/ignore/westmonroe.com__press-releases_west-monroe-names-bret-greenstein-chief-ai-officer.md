@@ -1,0 +1,35 @@
+<!-- Source: https://www.westmonroe.com/press-releases/west-monroe-names-bret-greenstein-chief-ai-officer | Title: West Monroe Names Bret Greenstein Chief AI Officer to Accelerate Innovation and AI Impact | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Press Release
+# West Monroe Names Bret Greenstein Chief AI Officer to Accelerate Innovation and AI Impact
+AI executive with 30 years of experience joins West Monroe at a moment of strong momentum to help clients move faster and achieve more with AI
+CHICAGO – September 3, 2025 – West Monroe, a global business and technology consulting firm, announced today that [Bret Greenstein](https://www.westmonroe.com/our-team/bret-greenstein) has joined as Chief AI Officer. A globally respected AI executive with more than three decades of experience leading large-scale transformations, Greenstein will lead West Monroe’s AI strategy to drive transformational impact for its clients by integrating AI across client delivery, commercial offerings, and workforce adoption.
+Greenstein brings a wealth of industry expertise in advising the C-suite as they navigate and capitalize on the next generation of technology. He most recently led Generative AI at PwC, focused on offerings, alliances and go-to-market for AI. He previously served as Global AI & Analytics Leader at Cognizant and held multiple leadership roles at IBM, including Global CIO for emerging markets and Vice President of Watson IoT. He has also advised Fortune 500 CEOs, led global forums such as the World Economic Forum’s Global Future Council on Data, and spoken at major conferences including TED AI.
+Greenstein’s appointment as Chief AI Officer at West Monroe builds on its reputation as an AI leader. The firm was recently named among Notable Vendors in Forrester’s report, [The AI Technical Services Landscape, Q2 2025](https://www.westmonroe.com/press-releases/named-in-2025-ai-technical-services-landscape). Its AI-powered asset suite Intellio® reduces time spent on traditionally mundane technology tasks by up to 80%. West Monroe has also helped clients both save and unlock millions of dollars by applying AI to various areas including software, outsourcing, workforce strategy, data reporting, and many others. At West Monroe, employees use a proprietary AI tool to access firm-specific resources, navigate internal systems and processes, and get tailored guidance—enabling smarter work, seamless collaboration, and precise client solutions.
+“Bret joins West Monroe at a time when bold innovation and the need to drive real results faster has never been higher,” said [Gil Mermelstein](https://www.westmonroe.com/our-team/gil-mermelstein), CEO of West Monroe. “Our clients are navigating seismic changes in their industries, and AI is both a catalyst and a tool for transformation. West Monroe’s multidisciplinary approach—combining industry, functional, and technology expertise—is a strong advantage for innovation."
+Bret’s leadership strengthens that edge, pushing the boundaries of what’s possible to deliver lasting value for our clients. He also brings the inspiration to help our clients as well as our employees see the art of the possible with AI—and the practical execution to get there quickly.
+Gil Mermelstein
+CEO, West Monroe
+As Chief AI Officer, Greenstein will lead West Monroe’s AI strategy through three core mandates:
+  * **Accelerating AI-driven transformation for clients:** Greenstein will shape West Monroe’s AI-enabled offerings across industries, working with the firm’s clients to solve their critical challenges and seize emerging opportunities with speed and clarity.
+  * **Embedding AI into client delivery:** He will work with delivery teams to further embed AI into West Monroe’s commercial offerings and client delivery, enhancing how work gets done and ensuring measurable impact from day one.
+  * **Equipping the AI-native workforce:** He will champion firmwide adoption through enablement and governance—empowering West Monroe’s professionals to confidently apply AI with our ecosystems and key partnerships in service of their clients and grow as future-ready advisors.
+
+
+“I'm excited to build on West Monroe’s track record of success, culture of innovation, and deep technology expertise to help build one of the most AI-native consulting firms in the market,” Greenstein said.
+This is a time for bold thinking, disciplined execution, and a deep commitment to helping people succeed. West Monroe has the right mindset and momentum—and I’m honored to be part of what comes next.
+Bret Greenstein
+Chief AI Officer, CEO
+As a firm founded in technology, West Monroe has spent decades helping clients harness AI—through data engineering, machine learning models, and automation—and more recently, by helping organizations apply generative AI to drive measurable business impact. The firm has consistently anticipated how AI will reshape business: Its [2025 Tech Trends to Watch report](https://www.westmonroe.com/insights/tech-trends) spotlighted emerging shifts in AI—from agentic tools to AI in the physical world—and continues to guide how the firm helps clients lead through AI-driven change.
+West Monroe’s appointment of Greenstein is part of an expanded leadership team under CEO Gil Mermelstein, who stepped into the role on July 1, 2025. It follows the [recent addition of Harin Shetty](https://www.westmonroe.com/press-releases/west-monroe-appoints-harin-shetty-as-president), former Senior Managing Director at Accenture, who joined West Monroe as President on July 28. Together, these appointments reflect the firm’s investment in leadership to drive innovation, scale, and client results.
+### About West Monroe
+West Monroe is a global business and technology consulting firm passionate about creating value for our clients. We co-create solutions that accelerate results now and prepare industries to tackle what’s next. We’re excited by the possibilities that technology creates. We work with our clients to deliver on the possible, building on their goals, generating fresh insights and creating inspiring outcomes.We excel at the intersection of industry, strategy, people and technology—always driving rapid impact. Our all-in approach comes from our unique employee ownership structure. Our clients’ success is our success. From the beginning, our growth has come from putting people at the center. Fortune and USA Today consistently celebrate West Monroe as a top workplace, and we’re recognized as a leading consultancy by Forbes and Forrester. Let’s find more value for your business.Share our passion at [westmonroe.com](https://www.westmonroe.com/)
+### Media Inquiries
+Christina Galoozis
+Director, Communications & Public Relations 
+cgaloozis@westmonroe.com
+847-302-1762
+Shira Cohen
+Manager, Public Relations 
+scohen@westmonroe.com
+443-841-6879

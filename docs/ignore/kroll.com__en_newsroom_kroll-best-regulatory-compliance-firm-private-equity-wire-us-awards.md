@@ -1,0 +1,17 @@
+<!-- Source: https://www.kroll.com/en/newsroom/kroll-best-regulatory-compliance-firm-private-equity-wire-us-awards | Title: Kroll Named Best Regulatory and Compliance Firm at Private Equity Wire US Awards 2022 | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+News
+November 7, 2022
+# Kroll Named Best Regulatory and Compliance Firm at Private Equity Wire US Awards 2022
+Kroll, the leading independent provider of global risk and financial advisory solutions, has been named the Best Regulatory and Compliance Firm at the Private Equity Wire U.S. Awards 2022. The Private Equity Wire U.S. Awards recognize excellence among private equity fund managers and service providers in the U.S. across a wide range of categories related to fundraising, performance and services. In addition, Kroll was nominated in the Best ODD Solution category.
+“We are humbled and honored to be recognized for the expertise that we have provided to help clients navigate through complex regulatory and compliance matters,” said Ken Joseph, Managing Director and Head of the Financial Services Compliance and Regulation practice for the Americas at Kroll. “We stand ready to continue to provide advice that is practical, risk-based and that is informed by market-leading knowledge about the ever-evolving regulatory expectations and priorities,” Joseph continued. “Kroll thanks Private Equity Wire and the survey respondents for choosing us as the Best Regulatory and Compliance Firm in 2022.”
+Pre-selection for these awards was provided by Bloomberg and based on annualized performance over a 12-month period from May 31, 2021, to May 31, 2022. The nominations in various award categories were further split by size and strategy as specified in the award name.
+Voting for the awards was conducted via an online poll of over 20,000 Private Equity Wire users, choosing from the shortlisted firms in each category. As per Private Equity Wire, the GP manager categories cover fund performance and fundraising success by firms across a range of private markets investment strategies. The service provider categories span all key areas of the broader private equity industry.
+## About Kroll Compliance and Regulation
+Kroll partners with clients to stay ahead of regulatory and reputational risks associated with ethics and compliance obligations around the world. We deploy a market-leading portfolio of enhanced due diligence services and technology solutions, with a focus on anti-bribery and corruption and anti-money laundering, to assist clients with Know Your Customer initiatives, third-party due diligence, M&A transactions, IPOs and supply chain due diligence. Learn more [here](https://www.kroll.com/en/services/compliance-and-regulation).
+For more information, contact: Devonne Cusi +1 212 450 8199 devonne.cusi@kroll.com
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Compliance and Regulation](https://www.kroll.com/en/business-challenges/compliance-and-regulation)
+End-to-end governance, advisory and monitorship solutions to detect, mitigate and remediate security, legal, compliance and regulatory risk.
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+In the ever-evolving financial services landscape, Kroll's award-winning team offers comprehensive regulatory and compliance services, guiding clients through registration, licensing, and compliance support to minimize risks and enhance efficiency globally.

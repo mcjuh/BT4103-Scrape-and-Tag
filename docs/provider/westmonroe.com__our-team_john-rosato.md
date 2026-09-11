@@ -1,0 +1,9 @@
+<!-- Source: https://www.westmonroe.com/our-team/john-rosato | Title: John Rosato, Technology & Experience Lead | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+John leads Technology & Experience at West Monroe, delivering innovative solutions that enable our clients to transform their businesses in the age of AI.[ Linkedin](https://www.linkedin.com/in/john-rosato-nyc/)
+Contact
+John leads Technology & Experience at West Monroe, delivering innovative solutions that enable our clients to transform their businesses in the age of AI.
+He brings more than two decades of executive experience in IT services, cloud, infrastructure, and digital transformation—including steering complex technology transformations across the Fortune 2000.Before joining West Monroe, John served as Managing Director in Accenture’s multi-billion-dollar Infrastructure Engineering practice, where he helped scale the hybrid cloud business and overall go-to-market strategy. Prior to that, he was CEO of CS Technology, growing the company twofold and leading its acquisition by Accenture.
+John’s leadership blends commercial acumen, technical depth, and cultural stewardship. He’s known for fostering inclusive, high-performing teams and for architecting transformative strategies that unlock growth. His experience spans cloud modernization, AI, data, and enterprise platforms—all focused on creating measurable client value.
+## _John’s All-In Mindset_
+John is a passionate advocate for community-based tech initiatives, supporting organizations like NPower and Inwood House. A frequent speaker on digital transformation, he also mentors emerging leaders and brings that same commitment to developing talent at West Monroe

@@ -1,0 +1,16 @@
+<!-- Source: https://www.kroll.com/en/our-experts/david-denison | Title: David Denison | Site Selection and Incentives Advisory | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# David Denison
+##### Director
+[Site Selection and Incentives Advisory](https://www.kroll.com/en/services/tax-services/site-selection-and-incentives-advisory)
+[David Denison](https://www.linkedin.com/in/david-denison-62b253a0/)[+1 6789162535](tel:+1%206789162535)david.denison@kroll.com
+AT A GLANCE 
+David Denison is Director in Site Selection and Incentives Advisory practice, based in Atlanta. David advises companies on large scale capital investment and job creation projects, bringing over 10 years of experience spanning multistate site searches, statutory credits and abatements, discretionary negotiations and end to end compliance management. He partners with corporate leadership, real estate, tax, treasury and government affairs teams to quantify location alternatives, model after tax project economics and secure competitive economic development packages aligned to long term business outcomes.
+David’s work focuses on enterprise expansions, new facilities and consolidations across sectors such as energy, advanced manufacturing, life sciences, data centers, logistics and headquarters projects. He routinely structures and negotiates incentive portfolios that may include investment and jobs tax credits, cash incentives/grants/rebates, property tax abatements, TIF/PILOT arrangements, infrastructure and training grants, utility rider programs and expedited permitting support. He also designs practical compliance calendars and reporting controls to protect awards and minimize recapture risk.
+Prior to joining Kroll, David served as Project Manager with Georgia Electric Membership Corporation (Georgia EMC), where he led project research and supported statewide recruitment of new industrial and commercial investments. In this role, he delivered labor and wage analyses, demographic and industry profiling, economic impact assessments and site‑specific due diligence to help communities compete for major projects. Earlier, David was Project Analyst with the Georgia Department of Economic Development (GDEcD), where he administered Georgia InSite—the state’s official database of industrial buildings and sites and provided research support to corporate recruitment initiatives. He joined Georgia EMC in August 2017 following his tenure at GDEcD.
+David earned a B.A. in economics from Armstrong State University. He is active in associations like Institute for Professionals in Taxation and Industrial Asset Management Council.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Site Selection and Incentives Advisory](https://www.kroll.com/en/services/tax-services/site-selection-and-incentives-advisory)
+Kroll has a proven track record of assisting companies with location strategies in the U.S. and around the globe.

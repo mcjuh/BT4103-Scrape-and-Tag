@@ -1,0 +1,18 @@
+<!-- Source: https://www.bcg.com/about/people-culture/awards | Title: Awards and Recognition at BCG | Seed: https://www.bcg.com/capabilities/mergers-acquisitions-transactions-pmi/due-diligence (BCG) -->
+
+# Awards and Honors
+Numerous external and independent organizations have recognized BCG. We are proud to be recognized for both the excellence of our work, the [inclusive ](https://www.forbes.com/lists/best-employers-women/)and [robust culture](https://www.forbes.com/lists/best-employers-diversity/) we are building, and the outstanding personal accomplishments of our employees. 
+[EcoVadis Sustainability Rating](https://recognition.ecovadis.com/Gh3mCCWVMk2njgsfvriIfA)
+BCG is honored to have received a Platinum rating from EcoVadis, placing in the top 1% of companies assessed by EcoVadis. EcoVadis is the world’s largest and most trusted provider of business sustainability ratings.
+BCG committed to the MLT Black Equity at Work Certification Program in 2021 to act on our promise to advancing Black equity in our workplace. We have already made significant strides on this front and are honored to have achieved Black Equity at Work Silver Certification.
+BCG is ranked number two on the Vault Top 50 Consulting Firms list for the second year in a row.
+[Glassdoor’s Best Places to Work](https://www.glassdoor.com/Award/Best-Places-to-Work-LST_KQ0,19.htm)
+BCG is ranked on the Glassdoor Best Places to Work list for 2025, which relies solely on the input of employees.
+BCG is proud to receive a top score on the Disability Equality Index. The Disability Equality Index is a comprehensive benchmarking tool that helps companies build a roadmap of measurable, tangible actions that they can take to achieve disability inclusion and equality.
+[America's Best Management Consulting Firms](https://www.forbes.com/lists/best-management-consulting-firms/?sh=34923acb2b87)
+BCG is honored to be recognized on Forbes' 2024 America's Best Consulting Firms list for the ninth year in a row. We were recognized for having expertise in 31 out of 32 functions and industries, a testament to our commitment to excellence.
+[IDC MarketScape: Worldwide Business Consulting Services 2024](https://www.bcg.com/press/8july2024-bcg-named-worldwide-leader-in-business-consulting-services-idc-marketscape)
+BCG was named a Leader in the IDC MarketScape: Worldwide Business Consulting Services 2024, an in-depth report evaluating 18 business consulting services providers against 14 critical criteria. Participating vendors were placed in one of four categories: Leaders, Major Players, Contenders, or Participants. Based on its performance, BCG was named to the Leaders category.
+## BCG Receives External Recognition in Digital Year After Year
+BCG is proud to be recognized by the most respected independent research and advisory firms—including Forrester Research, IDC and ALM Intelligence—for our digital consulting services.
+From FORTUNE ® Magazine, March 1, 2019 © Fortune Media IP Limited. FORTUNE ® and “100 Best Companies to Work For ®” are registered trademarks of Fortune Media IP Limited and are used under License. FORTUNE ® and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of, Boston Consulting Group. From Working Mother, September 25, 2018. ©2018 Bonnier Corporation. All rights reserved. Used by permission and protected by the Copyright Laws of the United States. The printing, copying, redistribution, or retransmission of this Content without express written permission is prohibited.

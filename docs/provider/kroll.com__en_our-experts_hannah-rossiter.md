@@ -1,0 +1,38 @@
+<!-- Source: https://www.kroll.com/en/our-experts/hannah-rossiter | Title: Hannah Rossiter | Financial Services Compliance and Regulation | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Hannah Rossiter
+##### Managing Director
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+[Hannah Rossiter](https://www.linkedin.com/in/hannaherossiter/)[+33 (0)6 74 45 55 05](tel:+33%20\(0\)6%2074%2045%2055%2005)hannah.rossiter@kroll.com
+AT A GLANCE 
+Hannah Rossiter is a Managing Director at Kroll, heads the Financial Services Compliance & Regulation practice in the Middle East and is city leader for Dubai. She has over 25 years of regulatory and compliance experience with several types of financial institutions, offering a broad range of support with licensing and authorizations, independent assessments, audits, outsourced compliance support and regulatory inspections, and acts as a Testifying Expert.
+Based in Dubai, Hannah has over 15 years’ consulting experience conducting compliance and risk framework reviews, undertaking assessments of existing frameworks, and supervising outsourced compliance support programs and outsourced or co-sourced Internal Audit functions for financial services firms. 
+She has extensive experience working with financial services firms during supervisory inspections and audits both preparing for and supporting firms as they undergo a visit from the regulator.
+Her financial services regulatory technical expertise covers areas such as operational resilience and ICT framework security, and the EU GDPR as it relates to financial services firms, key areas of focus for financial services regulators internationally. 
+Hannah also has extensive experience of Skilled Person engagements for financial institutions as mandated by regulators in the UAE, EU and UK, where Kroll is on the FCA Skilled Person Panel. She currently leads the Kroll Skilled Person appointment team with the Central Bank of U.A.E. and led a large international AML review under an appointment from the Danish Financial Supervisory Authority of two Scandinavian banks.
+Drawing on her expertise in financial services compliance and regulation, Hannah also acts as a testifying expert in matters requiring financial services compliance and regulatory expertise. She was appointed to provide expert testimony in the context of a Dubai International Arbitration Centre dispute and assisted as expert with Swiss litigation related to events during the 2008 Financial Crisis.
+Prior to joining Kroll, Hannah acquired extensive experience in operational, legal, and compliance roles in-house in financial services firms in the UK and EU, principally in France where she worked for 20 years before moving to the Middle East.
+Hannah started her career as a finance lawyer at Clifford Chance, working in both the London and Paris offices.
+Hannah holds an MBA (major in Finance) from HEC Paris and is a qualified UK lawyer, and a graduate of King’s College London where she read Modern Languages. 
+She also holds the CF21 Investment Advisor certification from the UK Chartered Institute for Securities and Investment (CISI) and the AMF Professional Certification from the French Financial Markets Authority.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[ Download 2025 Financial Crime Report ](https://www.kroll.com/en/publications/financial-crime-report-2025)
+Kroll's 2025 Financial Crime Report
+From pivotal elections to advances in AI to heightened geopolitical tensions, the events of the past year have only amplified the challenges of fighting financial crime. Based on data from over 600 executives across the globe, our report provides insight to help leaders prepare for what’s next.
+[Explore Insights](https://www.kroll.com/en/publications)
+[ August 4, 2026 Regulatory Updates CBUAE Introduces New Remuneration Rules for Banks and Insurance Companies Soroush Kafiabadi, Hannah Rossiter, Javed Alam ](https://www.kroll.com/en/publications/financial-compliance-regulation/cbuae-introduces-new-remuneration-rules-for-banks-and-insurance-companies)
+[ March 3, 2026 Regulatory Updates Global Regulatory Pulse – Q1 2026 Colleen Corwell, Hannah Rossiter, Ed Shorrock, Laura Graham, Eoin Devlin, Jane Stoakes, Ana D. Petrovic, Kyle Nelson, Chris Copley, Rajiv Philip, Amrita Michael, Neeraj Pai ](https://www.kroll.com/en/publications/financial-compliance-regulation/global-regulatory-pulse-q1-2026)
+[ November 6, 2025 Regulatory Updates Global Regulatory Pulse–Q4 2025 Colleen Corwell, Matteo Basso, Hannah Rossiter, Ed Shorrock, Laura Graham, Eoin Devlin, Ana D. Petrovic, Rose Kaufman, Chris Copley ](https://www.kroll.com/en/publications/financial-compliance-regulation/global-regulatory-pulse-q4-2025)
+[ September 9, 2025 Regulatory Updates Opinion: The UAE’s Investment in Financial Integrity – A Model for the Region or a Global Test Case? ](https://www.kroll.com/en/insights/financial-compliance-regulation/the-uae-investment-financial-integrity-model-global-test-case)
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Financial Services Compliance and Regulation](https://www.kroll.com/en/services/financial-services-compliance-and-regulation)
+In the ever-evolving financial services landscape, Kroll's award-winning team offers comprehensive regulatory and compliance services, guiding clients through registration, licensing, and compliance support to minimize risks and enhance efficiency globally.
+[Regulatory Advisory and Assurance Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/regulatory-advisory-and-assurance-services)
+In an era of increasing regulatory scrutiny, Kroll stands as a premier provider of Regulatory Advisory and Assurance Services to the financial services industry. Our award-winning team helps clients navigate complex regulatory landscapes, offering tailored solutions from governance and risk management to financial crime prevention and investment compliance.
+[Global Regulatory Licensing Services](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/global-regulatory-licensing-services)
+Kroll's expert team provides regulatory registration and licensing services taking the burden of regulatory requirements off business operators. We partner with you to answer regulator queries and assist you in developing a tailored operational framework that meets regulator and investor expectations.
+[Financial Services Internal Audit](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/financial-services-internal-audit)
+Kroll’s Financial Services Internal Audit practice has specialist teams with subject matter experts who help our clients properly manage their major risks. We provide value-adding ideas and solutions to help achieve your business objectives.
+[Skilled Person and Regulator Commissioned Reviews](https://www.kroll.com/en/services/financial-services-compliance-and-regulation/uk-regulation/skilled-person-and-regulator-commissioned-reviews)
+Kroll partners with regulators and firms worldwide to deliver comprehensive skilled person reports, address risks and resume to business as usual. We streamline processes, allowing firms to tackle challenges, ensure compliance, and prioritize their core business.

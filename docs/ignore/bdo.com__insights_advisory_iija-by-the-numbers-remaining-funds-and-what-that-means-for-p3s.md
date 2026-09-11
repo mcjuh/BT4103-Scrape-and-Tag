@@ -1,0 +1,19 @@
+<!-- Source: https://www.bdo.com/insights/advisory/iija-by-the-numbers-remaining-funds-and-what-that-means-for-p3s | Title: Remaining IIJA Funds and What They Mean for P3s | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# IIJA by the Numbers: Remaining Funds and What that Means for P3s
+Signed into law in November of 2021, the Infrastructure Investment and Jobs Act (IIJA) provided hundreds of billions of dollars in federal spending on transportation, energy, broadband internet, and other infrastructure across the U.S. The legislation is set to expire in 2026, meaning we are now more than halfway through its effective period. 
+In addition to the historic levels of funding, the IIJA also holds potential to [facilitate the expansion of public-private partnerships (P3s) within the U.S.](https://www.bdo.com/insights/advisory/forming-a-p3-under-the-iija-a-roadmap) For firms interested in forming a P3 to compete for funding under the IIJA, here are some key figures to keep in mind: 
+(Data as of November 2023)
+## Key Takeaways for Firms Interested in Exploring a P3: 
+As of the end of 2023, about half of the allocated $647 billion in direct or formula funding allocated by the IIJA has been spent. 
+A significantly smaller proportion of competitive funding has been allocated to date, indicating that competition for the remaining funding could heat up in the latter half of the IIJA’s lifespan. 
+Be aware of how much funding remains within your sector. The largest pool of money remaining is in transportation ($346.8b), which also received the largest allocation out of all sectors under the IIJA. 
+[Have Questions? Contact Us.](https://www.bdo.com/contact)
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleUnderstanding HUD's Mainstream Voucher Funding and Reporting Transition August 28, 2026 ArticleUnderstanding HUD's Mainstream Voucher Funding and Reporting Transition August 28, 2026HUD’s latest guidance changes how Mainstream Voucher funding is handled, but PHAs still need to track and report legacy MSV funds separately during the transition. Learn what changed, what stayed the same, and how to manage reporting correctly. Read Morechevron_right ](https://www.bdo.com/insights/industries/government-public-sector/understanding-huds-mainstream-voucher-funding-and-reporting-transition)
+[ ArticleHelping IRA Rebate Funding Reach Rural Communities August 24, 2026 ArticleHelping IRA Rebate Funding Reach Rural Communities August 24, 2026Learn how states can help IRA Home Energy Rebates funding reach rural communities by identifying need, expanding outreach, and building contractor networks in harder-to-serve areas. Read Morechevron_right ](https://www.bdo.com/insights/industry-specialty-consulting/helping-ira-rebate-funding-reach-rural-communities)
+[ ArticleGovernment Property Management: Why Audit Readiness Starts Long Before a PMSA August 19, 2026 ArticleGovernment Property Management: Why Audit Readiness Starts Long Before a PMSA August 19, 2026Audit readiness in government property management begins well before a PSMA. Learn how stronger processes and oversight can support compliance and operational control. Read Morechevron_right ](https://www.bdo.com/insights/industry-specialty-consulting/government-property-management-why-audit-readiness-starts-long-before-a-pmsa)
+[ ArticleFinancing Resilient Infrastructure: Managing Risk, Debt, and Climate Accountability August 11, 2026 ArticleFinancing Resilient Infrastructure: Managing Risk, Debt, and Climate Accountability August 11, 2026Resilient infrastructure depends on smart financing and clear accountability. Explore how risk, debt, and climate expectations are shaping investment decisions. Read Morechevron_right ](https://www.bdo.com/insights/assurance/financing-resilient-infrastructure-managing-risk-debt-and-climate-accountability)

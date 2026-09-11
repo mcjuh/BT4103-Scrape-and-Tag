@@ -1,0 +1,20 @@
+<!-- Source: https://www.westmonroe.com/insights/svb-fallout-west-monroes-perspective-fed-treasury-backstop | Title: Silicon Valley Bank Fallout for Banks | West Monroe | Seed: https://www.westmonroe.com/ (West Monroe) -->
+
+Article
+# The Silicon Valley Bank fallout—what it means for banks
+March 12, 2023
+Social Share
+The crisis at Silicon Valley Bank has the industry spinning and in question mode: Can the impact be contained? How will the Fed’s moves affect customer, investor, and market confidence? And most of all, what do banks need to do next?
+As a partner to several of the country’s top mid-market and regional banks, here is our point of view.
+**The Silicon Valley Bank debacle originated from fundamental issues** —chief among them [poor interest rate management](https://www.bloomberg.com/news/articles/2023-03-10/svb-spectacularly-fails-after-unthinkable-heresy-becomes-reality) and overconcentration in a certain sector—but it’s led to an outsized psychological event that, if not kept at bay, will create havoc in the banking industry. A psychological event needs to be met with a psychological response. There could be a tidal wave of impact throughout the economy if more depositors pull their funds from smaller and mid-market banks in favor of those that are deemed systemically too big to fail, with small businesses and payrolled employees caught in the crosshairs, among others.
+**Mid-market banks in particular are getting hit hard and coming under the microscope.** Even though the government on [Sunday night promised to make SVB and Signature Bank customers “whole”](https://home.treasury.gov/news/press-releases/jy1337) beyond their FDIC-insured deposits, the run on SVB spooked customers and the market, particularly those that bank with specialized or mid-market institutions. We are seeing today many mid-market institutions enter crisis territory—and at a speed never before experienced, with information and money traveling faster than ever.
+Banks should:
+### 1. Quickly (and in real time) gather the data to share with customers, shareholders, and even employees.
+Every bank in America right now will need to get their current state of the business on paper—and fast—to proactively communicate their position quickly and transparently. Our advice is to treat this event almost like a data breach: Communicate what you have in place, how you protect customers, what your strategy is, and how you’re not the next SVB.
+### 2. Understand your liquidity, industry exposure, and deposit levels.
+While customer segmentation is likely accessible in lending customers, is it as accessible with deposit customers? An overexposure to a certain segment in deposits could lead to issues as it did with SVB. Within this customer segmentation should be product analysis to determine “sticky” relationships vs. those that will flee. Plus: Reassess your interest rates strategy across your portfolio of investments. All of this can be traced to the Fed’s decision to raise rates as quickly as they have.
+### 3. Get really good at digital account opening.
+We’re in a period of volatility, not just with high interest rates but with bank customers moving money from bank to bank. As things are in flux, your bank’s ability to attract new customers and their deposits quickly and seamlessly via digital methods could turn out to make a big difference.
+At West Monroe, we see and feel the pressure on the mid-market. As a longstanding partner to many banks in this space, we are here as advisors to help respond and evolve in the face of a rapidly changing landscape.
+_**Last updated: March 13, 2023 at 4 p.m. ET**_
+###  **A message from West Monroe COO Gil Mermelstein on the**[**Fed & Treasury's Joint Statement**](https://home.treasury.gov/news/press-releases/jy1337)

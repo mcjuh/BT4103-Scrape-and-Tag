@@ -1,0 +1,24 @@
+<!-- Source: https://www.kroll.com/en/our-experts/meegan-spicer | Title: Meegan Spicer | Site Selection and Incentives | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Meegan Spicer
+##### Managing Director
+[Site Selection and Incentives Advisory](https://www.kroll.com/en/services/tax-services/site-selection-and-incentives-advisory)
+[Meegan Spicer](https://www.linkedin.com/in/meegan-lally-spicer-bb7749a)[+12162147790](tel:+12162147790)meegan.spicer@kroll.com
+AT A GLANCE 
+Meegan Spicer is a Managing Director in the Site Selection and Incentives Advisory practice, working in Cleveland, Ohio. Meegan leverages 30 years of experience working with companies that are in the process of expanding or consolidating their businesses, making acquisitions, creating or retaining jobs and making capital investments.
+Meegan has extensive experience negotiating and securing state and local economic development incentives for her clients. Such incentives include free or reduced cost land, grants, property and sales tax abatements/exemptions, corporate income/franchise tax credits, favorable financing, infrastructure assistance, utility rebates and training support. Meegan's clients represent a broad range of industries including manufacturing, financial services and information technology. She has several Fortune 500 clients which she has served for many years and on whose behalf she has secured tens of millions of dollars in incentives. Representative projects include expanded and new manufacturing operations, headquarters, and research and development facilities. Meegan's team utilizes a strategic approach to incentives negotiation by working closely with her clients to develop a business case for incentives that aligns with the objectives of the company while furthering the interests of the communities involved. Prior to joining Kroll, Meegan was a senior attorney in the Public Finance practice at Squire, Sanders & Dempsey LLP. Prior to that time, she was a senior manager in Ernst & Young's State and Local Tax practice. Meegan started her career in economic development with the Ohio Department of Development in the Governor's Economic Development Office in Cleveland, Ohio under Governor George Voinovich. Meegan received her J.D. from Cleveland-Marshall College of Law and her B.S. from Bowling Green State University. She is licensed to practice law in Ohio and is a public speaker at various economic development conferences around the country. 
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+Meegan highlighted that the $140 million “Project Clear” development will deliver significant economic benefits both in the short and long term. She also mentioned that construction alone will bring 400–475 workers on site, boosting local business activity and generating additional revenue for the city.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Valuation](https://www.kroll.com/en/services/valuation-services)
+Kroll provides expert, independent valuation services to support financial reporting, tax compliance, and strategic business decisions across industries. 
+[Tax Services](https://www.kroll.com/en/services/tax-services)
+Built upon the foundation of its renowned valuation business, Kroll's Tax Service practice follows a detailed and responsive approach to capturing value for clients.
+[Site Selection and Incentives Advisory](https://www.kroll.com/en/services/tax-services/site-selection-and-incentives-advisory)
+Kroll has a proven track record of assisting companies with location strategies in the U.S. and around the globe.
+[Explore Insights](https://www.kroll.com/en/publications)
+[ July 17, 2026 Tax Services Lights, Camera, Credits: How Film Incentives Create Value Beyond the Production Budget Michael Lateur, Ted Kuch, Michael James, David Denison, Meegan Spicer, David Ratnarajah ](https://www.kroll.com/en/publications/how-film-incentives-create-value-beyond-the-production-budget)
+[ March 16, 2026 Tax Services Kroll Tax Insights Q1 2026: Where AI, Energy and Real Estate Markets Are Heading Michael Lateur, Ted Kuch, Ruben Miranda, Kathryn Tronsberg, Tony Schum, Mark Simzyk, Meegan Spicer, David Denison, Nick Baker, James Grogan ](https://www.kroll.com/en/reports/tax/kroll-tax-insights-q1-2026)
+[ March 16, 2026 Site Selection and Incentives Advisory BYOP Adds a New Dimension to Site Selection Playbooks for Hyperscalers Meegan Spicer, Tony Schum, David Denison ](https://www.kroll.com/en/reports/tax/kroll-tax-insights-q1-2026/byop-site-selection-playbooks-hyperscalers)
+[ September 22, 2025 Transfer Pricing Grantees: The Cornerstone of the U.S. Foreign-Trade Zones Program James Grogan, Nick Baker, Meegan Spicer, Tony Schum, Alison Jacobs, Courtney Stiers ](https://www.kroll.com/en/publications/transfer-pricing/cornerstone-of-us-foreign-trade-zones-program)

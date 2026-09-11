@@ -1,0 +1,55 @@
+<!-- Source: https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/ | Title: How human centred design can boost resilience to climate change - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/#main-content)
+Article
+#  How human centred design can boost resilience to climate change 
+Building resilience to events that are said to be once-in-a-lifetime and easy for local communities to overlook is now an urgent priority. Human-centred design plays an important role in this. What happens when these principles are adopted?
+Marta Granda Nistal
+Associate
+Last updated: August 2023 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/) Copy link  Close Share Menu 
+Get in touch with our team
+Contact our experts
+All over the world towns, cities and whole regions are confronting emerging climate change threats and pondering their response. Once rare, but now common, extremes of temperature or rainfall, have profound and varied implications for the way we live and decisions we take. Events that are said to be once-in-a-lifetime are easy for local communities to overlook or fail to prepare for. Yet, building resilience to these threats is now an urgent priority in a world where emissions, despite many efforts, continue to increase.
+Human-centred design (HCD) has a useful role to play this context. The HCD ethos isn’t new, but its focus on underlying human needs and actively embedding them within developed solutions, is relevant to how we avoid simply building endless new infrastructure as mitigation to climate threats. Most such mitigations simply produce more CO2 emissions, (adding to the problem we’re trying to solve), without taking time to confront and understand the underlying human drivers of the climate problem that we are trying to solve.
+A good example of how this works is to look at a familiar problem: a town council notices lots of traffic congestion on a key bridge into town, so puts out a call to tender for a road widening project. The traditional process sees a group of engineers examine the project brief, before proposing a design for a wider bridge. 
+So what changes when we adopt HCD principles? This time in-depth interviews with residents are conducted to reveal and discover that the congestion reflects a lack of public transport – most people drive into town because there is no other way to reach the centre. The engineers therefore develop and specify a local bus service that takes 25% of the private vehicles off the town’s limited road network. The benefits flow from starting with human need, not off-the-shelf infrastructure solutions. 
+## Enabling behaviour change
+A big part of HCD’s strength is in what it reveals at the individual and community level, enabling the development of new solutions from previously underserved needs. Given that achieving net zero goals inherently requires major changes in behaviour at the level of whole populations, understanding barriers of adoption and what people really care for is undeniably part of the challenge. 
+Rather than imposing a new technology, service or piece of infrastructure on people, human-centred design first tries to understand them and their needs through in-depth primary research and design solutions based on real evidence. This means: 
+  * It gives people services they actually want – rather than what designers assume they want 
+  * People are far more likely to use a service or infrastructure if they understand it 
+  * It improves the design of a service by taking into account more people’s views 
+  * It recognises that people are often experts about the place they live in and have valuable insights about how to improve it 
+  * It empowers citizens and communities to take on an active role shaping their environments 
+  * Designing services using people-first methods de-risks the project investment as we make sure that what gets build is based around a real need 
+
+
+Mapping out key needs from the community groups in a flooding event to shape a new digital service proposition
+## Improving the flooding resilience of local communities
+Let’s look at how HCD can shape a better approach to an increasingly common threat: flooding. According to the UK Environment Agency, climate change’s habit of intensifying rainfall means that around 5.9 million properties or 1 in 6 homes are at risk of flooding across England.
+Our team has recently been involved in a public sector project that called for solutions to improve flood forecasting at scale. There was clear potential to call on new technologies like machine learning, to sharpen up predictions of rainfall intensity and patterns to help shape a response. But we felt that water levels data alone wasn’t to lead to a significant response to the threat.
+Merely having a better idea of when flooding might happen is only an aspect of how a community can prepare; but identifying who will receive this information, in what detail and through what channels are essential components of designing an effective service for people. As part of our proposal, we engaged with local communities and professional support groups to understand their experiences prior, during and post flooding. This process revealed that true flood resilience only happens when people are truly, socially connected. That means they share what they know, know how to gain sound advice. In this context people’s knowledge of flood mechanisms expands, improving the immediate response and support offered to the most vulnerable. With greater social connection everyone gains better access to accurate and timely information, decision makers and responders can act with more coordination, and there’s a greater level of trust across the community.
+A big part of HCD’s strength is in what it reveals at the individual and community level, enabling the development of new solutions from previously underserved needs.
+## Maximizing the benefits of nature-based solutions
+In another example of how HCD can stimulate a deeper response to the climate threat, we have explored the connection between physical solutions and the community’s role in the design, uptake and maintenance of these tools.
+Sustainable drainage systems (SuDS) are a vital part of flood resilience. These are often nature-based interventions like the use of retention ponds, swale or areas of wetland, that provide natural absorption for excess water that the human-made piped drainage network alone cannot handle. SuDS help prevent flooding by absorbing surface water and slowing flow, and offer the added benefit of creating amenity spaces and encouraging greater biodiversity.
+The issue is that all too often SuDS end up poorly maintained and overgrown. Awareness levels among residents of the presence, function and wider benefits of SuDS are low, while lack of public funds leads to communities often being responsible for their maintenance. In addition, people are usually more concerned about other social or economic issues unless their home is currently directly impacted by flooding.
+In the UK, our team is working to develop sustainable drainage systems with the communities, in a way that protects and provides for them beyond efficient water management and that is driven and supported by a community stewardship model. Getting communities engaged with the storm drainage technologies designed for their public realms from the start, makes them feel active part of the solution, and ensures they remain involved with their future maintenance and monitoring. Aiming to meet diverse stakeholder and community needs in a holistic way unlocks the potential of SuDS to be a catalyst of urban (re-)development in a way that improves people’s quality of life – mental and physical well-being – contribute to local economic growth, and build overall community resilience.
+## One ethos, many applications
+These are just two examples based on the growing flood risk challenge. Climate change provides countless contexts where behaviour change will need to be central to the solution, and where designs need to address a complex range of human needs, behaviours and preferences. From accelerating the switch from private car journeys to public transit and active travel, to retrofitting buildings at scale through a combination of technology innovation and lifestyle changes, HCD can help translate real community needs into workable and scalable solutions.
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/) Copy link  Close Share Menu 
+Explore similar insights
+## Insights
+### Explore more decarbonisation insights
+[ See more ](https://www.arup.com/insights/all-decarbonisation-insights/)
+[ Publication  Whole life carbon assessment – embodied carbon quantification in Hong Kong  ](https://www.arup.com/insights/whole-life-carbon-assessment-embodied-carbon-quantification-in-hong-kong/) [ Article  Data centres, heat reuse and the future of circular energy systems  ](https://www.arup.com/insights/data-centres-heat-reuse-and-the-future-of-circular-energy-systems/) [ Publication  From assessment to action: a spotlight on whole life carbon processes in cities  ](https://www.arup.com/insights/publication-from-assessment-to-action-a-spotlight-on-whole-life-carbon-processes-in-cities/) [ Publication  Arup guide to EU decarbonisation legislation  ](https://www.arup.com/insights/arup-guide-to-eu-decarbonisation-legislation/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/how-human-centred-design-can-boost-resilience-to-climate-change/)
+Close Close

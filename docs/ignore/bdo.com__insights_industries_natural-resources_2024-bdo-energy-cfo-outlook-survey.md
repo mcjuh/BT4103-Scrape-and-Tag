@@ -1,0 +1,35 @@
+<!-- Source: https://www.bdo.com/insights/industries/natural-resources/2024-bdo-energy-cfo-outlook-survey | Title: 2024 BDO Energy CFO Outlook Survey  | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# 2024 BDO Energy CFO Outlook Survey
+Competition for Capital Heats Up
+The energy industry is poised for significant growth in 2024. The oil and gas industry remains a critical driver of U.S. economic activity, with production in the U.S. reaching all-time highs in 2023. Investment will continue to pour into the renewables sector, which has been catalyzed by the Inflation Reduction Act (IRA). As oil and gas and renewables businesses look to investors to fund new growth, competition for capital will intensify.
+To stand out, energy companies will need to meet evolving investor expectations around environmental, social, and governance issues (ESG); comply with climate risk, emissions, and human capital disclosure regulations; and demonstrate strong financial performance. We surveyed 100 CFOs in the oil and gas and renewables sectors to find out how they will accomplish these goals. Our survey uncovered CFOs’ plans to improve profitability in 2024, and their strategies and opportunities related to sustainability — including the key role that sustainable tax credits will play.
+Projections for Borrowing Opportunities to Increase
+**60% Oil & Gas | 52% Renewables**
+## Investment Outlook & ESG Gaps
+Oil and gas and renewables companies are bullish about their financial performance this year, as 72% of CFOs at both types of organizations expect profitability to increase. Their positive outlook may explain their optimism around borrowing opportunities.
+As part of their strategies to improve profitability and attract investors, 60% of oil and gas and 25% of renewables organizations are planning a divestiture or carveout in 2024. For oil and gas, divestitures from carbon-intensive business units can signal to investors a shift toward sustainability. For renewables, demonstrating a commitment to profitability will be key to attracting investors in a competitive capital market.
+## Fully Prepared to Report on Emissions Data
+A major ESG-related hurdle for both groups, however, will be complying with climate risk and emissions disclosure rules mandated by the [California Legislature](https://www.bdo.com/insights/sustainability-and-esg/prepare-now-california-climate-laws-impact-thousands-of-businesses), the [European Union](https://www.bdo.com/insights/sustainability-and-esg/important-sustainability-regulation-updates-in-europe-and-worldwide), and the Securities and Exchange Commission (SEC). While the [SEC’s proposed rules](https://www.bdo.com/insights/sustainability-and-esg/preparing-for-the-proposed-sec-climate-disclosure-rule) will apply directly to public companies listed on U.S. exchanges, private organizations in their supply chains would be required to identify, disclose, and eventually secure attestation of sustainability data. Plus, the sweeping California Senate Bills 253 and 261 target public and private companies over certain revenue thresholds. As a starting point, businesses that are unclear as to which issues are most critical to their organization should consider preparing for new and upcoming changes to the regulatory environment.
+## 2024 Tax Credit Strategies  
+| **Oil & Gas**  | **Renewables**  |  
+| --- | --- |  
+|  **Adjust Planned Projects to Capture Credits**  | 56%  | 52%  |  
+| **Claim Credits to Offset Total Tax Liability**  | 56%  | 56%  |  
+| **Sell Credits to Raise Capital**  | 38%  | 40%  |  
+| **Invest in New Renewable Projects**  | 26%  | 36%  |  
+| **Buy Credits to Offset Total Tax Liability**  | 40%  | 20%  |  
+| **Still Evaluating**  | 4%  | 0%  |  
+## Tax Credits Fuel Sustainable Investments
+Tax credits will play a key role in realizing sustainability investments in the oil and gas and renewables sectors and meeting investor expectations around ESG.
+A major focus in CFOs’ 2024 tax credit strategies will likely involve applying for the second round of funding for the qualifying advanced energy project credit program under Internal Revenue Code Section 48C, which is expected to open in spring 2024. Organizations planning to apply for round two should consider starting the process now, so they have enough time to prepare a comprehensive application.
+The first round of funding was oversubscribed by nearly ten times, which indicates that the second round may be just as competitive. New applicants have the benefit of referencing the Department of Energy’s [feedback on round one of concept papers](https://www.bdo.com/events/getting-ready-to-submit-a-section-48c-tax-credit-full-application), which they should review before developing their own.
+### Ready to increase your capital competitiveness for 2024?
+## SHARE
+  * 
+
+## Related Resources
+[ mic_none PodcastBDO Talks Total Tax - Episode 3: Tax Policy Outlook: What to Expect Following the August Congressional Recess September 4, 2026 PodcastBDO Talks Total Tax - Episode 3: Tax Policy Outlook: What to Expect Following the August Congressional Recess September 4, 2026In this BDO Talks Total Tax podcast episode, BDO’s Dustin Stamper and Tax Notes’ Cady Stanton discuss the tax policy developments corporate leaders should watch after the August congressional recess. Read Morechevron_right ](https://www.bdo.com/insights/tax/bdo-talks-total-tax-podcast?wchannelid=823mmphw1r&wmediaid=dtikh7a58x)
+[ ArticleBDO Sustainability Insights – Q3 September 3, 2026 ArticleBDO Sustainability Insights – Q3 September 3, 2026Explore the latest BDO Sustainability Insights, featuring the growing role of battery storage in business energy strategies, a breakdown of EU sustainability reporting frameworks, and key steps for establishing a GHG accounting boundary. Read Morechevron_right ](https://www.bdo.com/insights/sustainability-and-esg/bdo-sustainability-insights-q3-2026)
+[ ArticleFinancing Resilient Infrastructure: Managing Risk, Debt, and Climate Accountability August 11, 2026 ArticleFinancing Resilient Infrastructure: Managing Risk, Debt, and Climate Accountability August 11, 2026Resilient infrastructure depends on smart financing and clear accountability. Explore how risk, debt, and climate expectations are shaping investment decisions. Read Morechevron_right ](https://www.bdo.com/insights/assurance/financing-resilient-infrastructure-managing-risk-debt-and-climate-accountability)
+[ ArticleIEEPA Tariff Refunds: Frequently Asked Questions August 11, 2026 ArticleIEEPA Tariff Refunds: Frequently Asked Questions August 11, 2026The U.S. Supreme Court struck down the IEEPA-based tariffs. Explore BDO’s FAQs to stay compliant, manage exposure, and be ready if/when a tariff refund process emerges. Read Morechevron_right ](https://www.bdo.com/insights/tax/ieepa-tariff-refunds-frequently-asked-questions)

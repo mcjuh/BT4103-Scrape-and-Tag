@@ -1,0 +1,20 @@
+<!-- Source: https://www.bdo.com/insights/industries/technology/tmt-industry-report | Title: 2025 TMT Industry Report: Key Trends in Tech, Media & Telecom | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# 2025 TMT Industry Report Series
+## TMT Industry Faces Disruption Head On
+Technology companies are reorienting their strategies to meet new demands and claim emergent opportunities.
+Telecoms are actively addressing connectivity challenges, media organizations are pioneering AI-driven content personalization, and software companies are exploring alternate pricing models to keep pace with changing market dynamics.
+BDO’s inaugural TMT Industry Report Series analyzes responses from 225 executives at telecom, media, and software companies. Broken down into three distinct installments, the reports address top risks for each sector and examine how leaders are responding to their unique market forces.
+Ready to find out what your peers are planning? Download the report for your sector.
+## Select Your Report
+[ Article2025 Software Report September 15, 2025 Article2025 Software Report September 15, 2025Discover how software companies are navigating market disruption by rethinking pricing models, leveraging AI, and exploring new growth and exit strategies. Read BDO’s 2025 Software Report for insights on industry trends and innovation. Read Morechevron_right ](https://insights.bdo.com/2025-Software-Report.html)
+[ Article2025 Media Report August 25, 2025 Article2025 Media Report August 25, 2025From ad strategies to acquisitions, BDO's 2025 Media Report explores the emerging trends and strategies that are reshaping the media industry. Download the report to learn more. Read Morechevron_right ](https://insights.bdo.com/2025-Tech-Media-Report.html)
+[ Article2025 Telecom Report August 25, 2025 Article2025 Telecom Report August 25, 2025From AI-enhanced customer service to satellite connectivity, BDO's 2025 Telecom Report explores the tools and strategies helping industry leaders get ahead. Download the report to learn more. Read Morechevron_right ](https://insights.bdo.com/2025-Tech-Telecom-Report.html)
+## SHARE
+  * 
+
+## Related Resources
+[ mic_none PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026 PodcastBDO's Legal Tech Talk Podcast - Season 4, Episode 17: The Intersection of Law, Technology, and Business Risk September 8, 2026In this episode, our hosts talk with Tamara Lemmon of Wilson Sonsini to explore why proactive planning is becoming one of the most important competitive advantages in legal and compliance teams. Read Morechevron_right ](https://www.bdo.com/insights/advisory/bdos-legal-tech-talk-podcast?wchannelid=7q2u09npeh&wmediaid=eiuus74pqn)
+[ ArticleHow Battery Storage is Changing the Economics of Data Center Power September 1, 2026 ArticleHow Battery Storage is Changing the Economics of Data Center Power September 1, 2026Battery storage is reshaping how data centers think about power. Explore the economic factors influencing energy strategy, reliability, and long-term infrastructure planning. Read Morechevron_right ](https://www.bdo.com/insights/industries/technology/how-battery-storage-is-changing-the-economics-of-data-center-power)
+[ ArticleAI as a Business Accelerator August 28, 2026 ArticleAI as a Business Accelerator August 28, 2026BDO’s artificial intelligence professionals offer an inside look at how AI tools are driving measurable business value, efficiency, and growth.  Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/overview)
+[ ArticleAI Strategy: People-Driven Transformation  August 28, 2026 ArticleAI Strategy: People-Driven Transformation  August 28, 2026AI tools alone do not drive results. Explore strategies for helping employees adapt, make decisions, and create new value. Read Morechevron_right ](https://www.bdo.com/insights/advisory/ai-as-a-business-accelerator/ai-strategy-people-driven-transformation)

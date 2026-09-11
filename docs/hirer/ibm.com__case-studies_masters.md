@@ -1,0 +1,65 @@
+<!-- Source: https://www.ibm.com/case-studies/masters | Title: The Masters is a smarter business | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+Support
+  * [OverviewResolve product issues with self-service tools](https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl)
+  * [CommunityShare knowledge in a collaborative environment to unlock innovation](https://community.ibm.com/community/user/community?lnk=flathl)
+  * [DeveloperAccess digital resources, code samples and code trials](https://developer.ibm.com/?lnk=flathl)
+  * [DocumentationUnderstand, develop and deploy our products with comprehensive technical resources](https://www.ibm.com/docs/en?lnk=flathl)
+  * [IBM Cloud platformAccess subject matter experts and content to address questions and issues about IBM Cloud](https://www.ibm.com/products/cloud/support?lnk=flathl)
+  * [ImplementationDrive better business outcomes with an experienced team of IBM product experts](https://www.ibm.com/products/expertlabs?lnk=flatitem)
+  * [TrainingDevelop your skills with premiere educational offerings and credentials](https://www.ibm.com/training/?lnk=flathl)
+  * [Technology Lifecycle ServicesElevate your support experience with a holistic approach to data center management across your IT environment](https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl)
+
+
+My IBM  Log in 
+#  The Masters is a smarter business 
+IBM Consulting helps the Masters deliver world-class fan experiences with innovation and efficiency
+The Masters digital experience 
+##  The Masters digital experience 
+For golf lovers, a trip to the hallowed grounds of Augusta National Golf Club is a bucket-list item. Which is why having an exceptional digital experience of the Tournament is so critical.
+“The Masters app and website are designed for the millions of people around the world that are not on the grounds,” says Monica Ellingson, a partner at IBM Consulting, which works closely with the Masters Digital team to design, develop, and deliver the Masters digital experience. “Our job is to get those fans as close to the course, the competition, and the players as possible.”
+For 30 years, IBM has been the digital innovation partner of the Masters, tasked with advancing and improving the award-winning Masters app and website with new features. “The mission of the Masters is to grow the game of golf,” says Ellingson. “So, they want to put forward an elevated digital experience that entertains and engages. And like any business that wants to engage its customers, that means continuous innovation, year after year.”
+As such, the Masters app is packed with AI-powered features that surround the Tournament with context and insight, giving digital patrons a better understanding of the past, present, and future of this legendary golf Tournament. For example, the My Group feature lets fans see every shot on every hole by all their favorited players. The feature also uses AI to identify important moments from elsewhere in the Tournament and add them to the My Group feed. There are also AI models that create the “Round in 3 Minutes” recaps, which are video highlight reels produced minutes after each player completes their round of play. Alongside these capabilities, the experience includes Hole Insights, a feature that uses both generative and agentic AI to produce insights for every shot during the Masters Tournament. The AI systems leverage 10 years of historical shot data to produce relevant context, such as “Historically, from this spot, players across the field have a 12.5% chance of birdie and an 81.25% chance of par.”
+This year, the Tournament introduced a new search feature for the Masters Vault, the Tournament’s digital archive of 58 years of video. The new capability – enabled by a family of AI agents – allows fans to relive their favorite Masters memories quickly and easily, with simple, natural language search terms. These AI-powered features do more than add to the richness of the Masters app. They surround every shot with insight that gets digital patrons closer to the course and players than ever before, increasing the productivity of the Masters Digital team and delighting golf fans in the process. 
+30 years 
+For three decades, IBM and the Masters have partnered to deliver a world-class digital experience to millions of fans around the world.
+25 AI agents 
+The productivity of the Masters digital team benefits from the work of AI agents that streamline development and reduce manual effort.
+20,000+ shots per year 
+The Masters digital platform uses AI to transform data from more than 20,000 shots taken during each Tournament into instant insight.
+The Masters is a smarter business because they are integrating AI and intelligence throughout their workflows to unlock hidden value and new fan experiences from years of Masters Tournament data. 
+Tyler Sidell  Technical Program Director for IBM Sports & Entertainment Partnerships  IBM Corp 
+From data to digital experiences 
+##  From data to digital experiences 
+Inside the Masters Global Content Center at Augusta National Golf Club, there’s a room very few people have ever seen. It sits behind a wall of glass and features an immersive LED screen that’s 21 feet wide and 7 feet tall. This massive screen is built to display a stunningly realistic, interactive digital twin of the most famous golf course in the world. It’s capable of displaying historical data from more than 200,000 shots taken at the Masters over the last 10 years, revealing patterns and insights unique to this tradition that’s unlike any other.
+The experts at [IBM Consulting®](https://www.ibm.com/consulting) built this wall to visualize one of the Masters’ most valuable assets: its data. Nowhere is data more integral to the player and fan experience than at the Masters. The Masters is the only men’s major played at the same course every year: Augusta National Golf Club. For nearly 90 years, in early April, the best golfers in the world take on some of the game’s most recognizable golf holes. The deceivingly difficult tee shot on Hole No. 12. The treacherous approach shot on Hole No. 11. The narrow, tree-lined drive on Hole No. 18.
+Every shot, by every player, on every hole produces more than 30 data points, both structured and unstructured. There are scores, stats, videos, photos, articles, bios and more. This data is the raw material of the Masters digital experience. IBM’s job is to capture, route, process and analyze it all, transforming this massive volume and variety of data into meaningful insights on the Masters app. To do it requires a powerful, fully integrated digital platform that drives innovation and efficiency throughout the entire operation.
+That platform starts with the foundation, which consists of an open, flexible hybrid cloud architecture. IBM hosts Masters applications and workloads on multiple clouds in multiple locations, always choosing the best cloud for each workload. So, the team writes many of the applications on the [Red Hat® OpenShift®](https://www.redhat.com/en/technologies/cloud-computing/openshift) Platform, which means they can write them once and run them on any cloud.
+This architecture also allows the AI models and AI agents to operate on data no matter where it resides, and the key to governing that data across multiple clouds is the [IBM watsonx.data®](https://www.ibm.com/products/watsonx-data) data store, IBM’s data lakehouse. Masters’ data is unique, which makes it hugely valuable, but it comes from a variety of sources and trusted partners. IBM’s watsonx.data is designed to collect, curate and prepare it all for use in AI models: structured or unstructured, historical or real time, on premises, in the cloud, or at the edge.
+“Watsonx.data is critical to the entire operation,” says Tyler Sidell, Technical Program Director for IBM’s Sports & Entertainment Partnerships. “We know that AI-powered experiences are only as good as the data that fuels them, and with watsonx.data we get access to all the key data sources and the confidence that those inputs are ready for processing.”
+To help ensure the entire digital operation runs smoothly, IBM automates key aspects of the IT operation using services like [IBM Instana® Observability](https://www.ibm.com/products/instana) and [IBM Apptio®.](https://www.ibm.com/products/apptio) These offerings help control complexity, reduce costs and minimize downtime by constantly monitoring the performance of critical applications, automatically provisioning cloud resources, and identifying potential efficiencies in cloud usage.
+Beyond birdies and bogies 
+##  Beyond birdies and bogies 
+“The Masters is a smarter business because they are integrating AI and intelligence throughout their workflows to unlock hidden value and new fan experiences from years of Masters Tournament data,” says Sidell.
+By combining valuable, proprietary data with powerful agentic AI, the Masters is redefining the digital experience of golf. But it’s more than a sports story. It’s a showcase of enterprise-grade AI in action. This Masters digital platform illustrates how organizations across industries can leverage proprietary data for customer-facing innovation, scale AI solutions across cloud environments and use AI to increase productivity and accelerate time to value. 
+About the Masters 
+##  About the Masters 
+Since 1934, the [Masters](https://www.masters.com/index.html)has been home to some of golf’s greatest moments. Amidst blooming azaleas, towering pines and flowering dogwoods, the first full week of April ushers in a stage unique to golf and to sport. Over four days and 72 holes, the smallest field in major championship golf competes for a chance to capture the Green Jacket and a place in Masters history.
+Solution components  IBM Consulting®  IBM Consulting Digital product design and engineering  IBM® Granite®  IBM Instana® Observability  IBM watsonx®  IBM watsonx Code Assistant®  IBM watsonx.data®  Red Hat® OpenShift®  IBM Apptio®  IBM watsonx® Orchestrate® 
+Take the next step
+  1. [ Try Red Hat OpenShift on IBM Cloud with USD 200 credit  ](https://cloud.ibm.com/registration?target=https%3A//cloud.ibm.com/kubernetes/catalog/create%3FplatformType%3Dopenshift)
+
+
+Subscribe to curated newsletters for the latest in technology, business and thought leadership 
+[ Get the best of IBM in your inbox ](https://www.ibm.com/subscribe)
+IBM watsonx Brings New Generative AI Capabilities to Masters Tournament Digital Platforms 
+[ Learn more  ](https://newsroom.ibm.com/2024-04-02-IBM-watsonx-Brings-New-Generative-AI-Capabilities-to-Masters-Tournament-Digital-Platforms)
+#####  Legal 
+© Copyright IBM Corporation, March 2026.
+IBM, the IBM logo, Granite, IBM Cloud, IBM Consulting, IBM Instana, IBM watsonx, Instana, watsonx, watsonx Code Assistant, and watsonx.data are trademarks of IBM Corp., registered in many jurisdictions worldwide.
+Examples presented as illustrative only. Actual results will vary based on client configurations and conditions and, therefore, generally expected results cannot be provided. 
+Products Consulting services Industries Case studies Financing Research LinkedIn X Instagram YouTube Podcasts Business partners Documentation Events Newsletters Support TechXchange community Overview Careers Investor relations Leadership Newsroom Security, privacy and trust United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/case-studies/masters#truste_domain_list). 
+Accept All More options

@@ -1,0 +1,37 @@
+<!-- Source: https://www.kroll.com/en/our-experts/daniel-linskey | Title: Daniel Linskey | Enterprise Security Risk Management | Kroll | Seed: https://www.kroll.com/en (Kroll (Duff & Phelps)) -->
+
+# Daniel Linskey
+##### Managing Director
+[Enterprise Security Risk Management](https://www.kroll.com/en/services/enterprise-security-risk-management)
+[Daniel Linskey](https://www.linkedin.com/in/danlinskey)[+1 617 210 7471](tel:+1%20617%20210%207471)daniel.linskey@kroll.com
+AT A GLANCE 
+Daniel Linskey is a Managing Director in the Enterprise Security Risk Management practice, based in Boston. In addition, Daniel serves in the Forensic Investigations and Intelligence practice and leads the Global Law Enforcement Consulting practice. Dan leverages decades of experience in investigations, crisis response and risk management, as well as personal, physical and operational security strategies.
+Prior to joining Kroll, Dan served as the Superintendent-in-Chief at the Boston Police Department (BPD) for 28 years and established a national and international reputation for crisis response, crisis planning and large-scale event security planning. He provided strong leadership through some of the most tragic and contentious events in the city’s history, including the Occupy Movement and the Boston Marathon bombing attacks, where he was overseeing the response and the investigation. Under Dan's leadership, the BPD's handling of the Occupy Movement in 2011 has been lauded as one of the best-managed responses to the protests of any city in the country.
+Dan led a team that developed and implemented regional multidisciplined, realistic training exercises “Urban Shield: Boston.” He rose through the ranks in various assignments during triumph and tragedy always working as a member of, developing, or leading highly effective teams and units. He worked to re-engineer police and community relations while reducing crime, and developed programs that got cops to engage with the public at parks, schools and in community centres. He is also a leading law enforcement trainer and an expert on financial crime and fraud investigations, helping clients identify and recover tens of millions of dollars stolen as the result of criminal fraud.
+Upon retiring from the BPD, Dan founded the Linskey Group. In this role, he provided clients with security, law enforcement and emergency management services, including dignitary protection, cybersecurity and confidential investigations, as well as incident reviews and training exercises designed to prepare agencies and facilities for crisis.
+Dan is active in several professional organizations and is frequently asked to present at conferences and meetings on topics related to law enforcement and homeland security. He is also a prolific writer and a highly sought-after motivational speaker, whose insights and thought leadership are closely followed by law enforcement, security professionals and civic leaders.
+Dan is a three-time recipient of Boston Police Medal of Honor and has also been awarded the American Legion Medal of Valor, the State of Massachusetts George L. Hanna Medal of Honor and The Semper Fidelis Society Marine of the Year Award for his exemplary service with the BPD.
+Dan is associated with FBI National Academy, the International Association of Chiefs of Police, the International Association of Emergency Managers, Massachusetts Major Cities Chiefs’ Association, Police Executive Research Forum, ASIS International and the Security Industry Association, IAFCI International Association of Financial Crimes Investigators, and IAHSS The International Association for Healthcare Security and Safety.
+### Qualifications
+Dan holds a Bachelor of Science in criminal justice from Curry College. He has also completed executive programs from Harvard’s Kennedy School of Government and Chan School of Public Health. Dan also holds multiple certifications from the FBI National Academy, Boston Police Academy and United States Secret Service Dignitary Protection School.
+### Let’s get the conversation started.
+Drop me a quick line and we’ll set up a time to connect.
+[Stay Ahead with Kroll](https://www.kroll.com/en/services)
+[Enterprise Security Risk Management](https://www.kroll.com/en/services/enterprise-security-risk-management)
+Kroll’s Enterprise Security Risk Management practice provides expert guidance and advisory services to our global clientele as they navigate the most challenging and emerging security and threat-related issues. 
+[Sector and Industry Specific Services](https://www.kroll.com/en/services/enterprise-security-risk-management/sector-and-industry-specific-services)
+Kroll experts provide security services tailored to the needs and specific contexts of diverse industries.
+Webinar Replay | Active Assailant Preparedness Webinar with Security and Risk Management Experts
+Webinar replay on proactively identifying, preparing for and responding to active assailant threats in the workplace, hosted by Kroll Security Risk Management Managing Directors and Crisp, a Kroll business.
+[Know more](https://www.kroll.com/en/insights/events/2023/webcast-active-assailant-preparedness-security-risk-management-experts)
+Explore News
+[ December 1, 2025 Enterprise Security Risk Management Evolving Security, Empowering Resilience ](https://digital.internationalsecurityjournal.com/html5/reader/production/default.aspx?pubname=&edid=1e18c334-8deb-4347-a5dc-c37a52437d87)
+Explore Insights
+[ January 9, 2023 Enterprise Risk How to Mitigate the Rising Risk of Retail Theft Daniel Linskey, Justin Leonard ](https://www.kroll.com/en/publications/mitigate-rising-risk-retail-theft)
+[ December 13, 2022 Enterprise Risk From The Back Office To The Checkout: Critical Strategies To Mitigate Retail Theft Daniel Linskey, Jodie Rae Jordan ](https://www.kroll.com/en/publications/small-businesses-navigate-rising-retail-theft)
+[ December 5, 2022 Enterprise Risk Campus Security Threat Management & Violent Incident Preparedness: Does Your Strategy Reflect Today’s Realities? Daniel Linskey, Chris Palmadesso, Harrison Levy ](https://www.kroll.com/en/publications/campus-security-threat-management-violent-incident-preparedness)
+[ November 9, 2022 Enterprise Risk Case Study: Active Shooter Response and Campus Security Program Planning Daniel Linskey ](https://www.kroll.com/en/publications/active-shooter-response-campus-security-program-planning)
+[ June 4, 2026 Outlook Kroll Perspectives: 2026 World Cup Dave Burg, Michael Weaver, David Ball, Nick Doyle, Sameer Koranne, Daniel Linskey, Phil Miles, Mark Mondello, Arya S. Rahimian, Gary Raichart, Steve Rumbold, Emanuel Batista ](https://www.kroll.com/en/publications/kroll-perspectives-2026-world-cup)
+[ April 21, 2026 Enterprise Risk Protecting the Goal: Stadium Security Preparations for the 2026 World Cup Dave Burg, Nick Doyle, Sameer Koranne, Daniel Linskey, Phil Miles, Steve Rumbold ](https://www.kroll.com/en/publications/world-cup-2026-a-security-focused-breakdown)
+[ February 4, 2026 Stadium Security Considerations: From Brick and Mortar to Data Protection Daniel Linskey, Sameer Koranne ](https://www.kroll.com/en/publications/stadium-security-considerations-from-brick-and-mortar-to-data-protection)
+[ November 11, 2022 Enterprise Risk Case Study: Assessing Evolving Threats on a College Campus Daniel Linskey ](https://www.kroll.com/en/publications/assessing-evolving-threats-college-campus)

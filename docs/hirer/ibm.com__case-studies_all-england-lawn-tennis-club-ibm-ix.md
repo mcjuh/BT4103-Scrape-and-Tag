@@ -1,0 +1,71 @@
+<!-- Source: https://www.ibm.com/case-studies/all-england-lawn-tennis-club-ibm-ix | Title: All England Lawn Tennis Club - Wimbledon | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+Support
+  * [OverviewResolve product issues with self-service tools](https://www.ibm.com/mysupport/s/?language=en_US&lnk=flathl)
+  * [CommunityShare knowledge in a collaborative environment to unlock innovation](https://community.ibm.com/community/user/community?lnk=flathl)
+  * [DeveloperAccess digital resources, code samples and code trials](https://developer.ibm.com/?lnk=flathl)
+  * [DocumentationUnderstand, develop and deploy our products with comprehensive technical resources](https://www.ibm.com/docs/en?lnk=flathl)
+  * [IBM Cloud platformAccess subject matter experts and content to address questions and issues about IBM Cloud](https://www.ibm.com/products/cloud/support?lnk=flathl)
+  * [ImplementationDrive better business outcomes with an experienced team of IBM product experts](https://www.ibm.com/products/expertlabs?lnk=flatitem)
+  * [TrainingDevelop your skills with premiere educational offerings and credentials](https://www.ibm.com/training/?lnk=flathl)
+  * [Technology Lifecycle ServicesElevate your support experience with a holistic approach to data center management across your IT environment](https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl)
+
+
+My IBM  Log in 
+#  Serving Innovation: How IBM and Wimbledon Are Transforming a Global Icon 
+Transforming data into insights to inform a world-class digital experience
+[ Learn more about Bob ](https://www.ibm.com/products/ai-coding-agent) [ CEO Guide: AI model optimization ](https://www.ibm.com/thought-leadership/institute-business-value/report/ceo-generative-ai/ceo-ai-model-optimization)
+Engage fans in the off-season and off-court 
+##  Engage fans in the off-season and off-court 
+Since the first Championships in 1877, Wimbledon has brought together fans spanning all walks of life—from members of the British royal family and business owners to tennis fans and armchair sports fans. They come to enjoy strawberries and cream, drink champagne, and watch the best tennis the world has to offer.
+But not everyone can make the journey to the All England Lawn Tennis Club in southwest London. That is why millions of people around the world follow the drama, beauty and excitement of the event through the official Wimbledon app and website. These world-class digital experiences have been developed and delivered through a partnership between Wimbledon and IBM that has spanned more than three decades.
+“As an organisation with heritage at its core, the innovation partnership with IBM is vital to ensure we evolve as the world around us changes,” says Chris Clements, Senior Manager of Digital Strategy and Products at the All England Club. “By utilising the latest tools and world-leading expertise from IBM, we are able to innovate and ensure enduring relevance. There is a fantastic synergy between IBM and Wimbledon as organisations with rich histories that are constantly changing to ensure they are fit for the future.”
+Today, that partnership extends far beyond delivering match scores and statistics. IBM is helping Wimbledon modernise its technology foundation, transform how it engages fans, and build new capabilities that will drive innovation for decades to come.
+data points 
+Every year, IBM captures over 2.7 million Wimbledon data points.
+fans 
+During The Championships 2024, Wimbledon reached approximately 16 million fans through their digital platforms.
+~15,000  assets 
+Approximately 15,000 assets were migrated in just 47 minutes with IBM Bob, a process that would traditionally take months.
+Our relationship with IBM is extremely collaborative. Any digital project requires a technology team, a data team, a marketing team and a content team working closely together. IBM is the glue that makes that happen for us. 
+Bill Jinks  Technology Director  The All England Lawn Tennis Club 
+In service of the fans 
+##  In service of the fans 
+One of the most visible examples of Wimbledon’s fan-facing innovation is Match Chat, an AI-powered assistant designed to act as a real-time companion for fans following a match. Rather than searching through statistics or navigating multiple screens, fans can simply ask questions in natural language and receive immediate answers drawn from live match data and historical performance information. Whether a fan wants to know which player has served more aces, what factors are shaping a match, or how a player’s current performance compares with previous tournaments, Match Chat provides instant context and analysis. During Wimbledon 2025, the feature successfully handled millions of fan interactions, demonstrating both the scale of demand and the reliability of the underlying technology.
+IBM has also expanded the role of AI built with [IBM® watsonx®](https://www.ibm.com/watsonx), helping fans understand the story unfolding within a match. The Likelihood to Win feature uses AI to continuously calculate each player’s probability of victory, taking into account scores, statistics, and expert analysis. Rather than offering a static prediction, the model evolves throughout the match, reflecting changing momentum and shifting competitive dynamics. Fans can see how a crucial break of serve, a dominant stretch of play, or a pivotal set influences the projected outcome in real time.
+“Both Match Chat and Likelihood to Win are about adding context and understanding to matches,” says Fred Baker, Sports Lead for [IBM Consulting®](https://ibm.com/consulting). “There is so much that happens over the course of two weeks at Wimbledon. Hundreds of players, nearly 1,000 matches. So, we want to give fans a way to keep up and stay engaged throughout The Championships. And the AI capabilities of watsonx help us develop and scale those features.”
+As the Likelihood to Win feature matured, IBM discovered that fans were increasingly interested not just in the prediction itself, but in the reasoning behind it. That insight led to the development of Key Moments, a complementary capability that explains the events driving significant changes in the win probability model. Key Moments identifies the plays that alter the direction and dominance of a match, whether they are dramatic turning points such as a set victory or more nuanced moments like a lengthy rally, a well-timed ace, or a costly double fault. By providing transparency into the factors influencing the projection, the feature makes the reasoning of AI models more explainable, while helping fans better understand the momentum shifts that define elite tennis. 
+The smarter business transformation 
+##  The smarter business transformation 
+While these innovations are highly visible to fans, they are enabled by an equally important transformation taking place behind the scenes. Wimbledon is currently in the midst of a multi-year digital modernisation effort designed to reimagine how the organisation operates; something IBMers call creating a “smarter business”. The initiative is focused on modernising infrastructure, redesigning digital platforms, reducing technical debt, improving operational efficiency, and creating new value from the tournament’s growing data assets.
+Like any smarter business, the technology foundations are built around world-class data management, flexible hybrid cloud infrastructure, advanced AI, and the automation of time-consuming IT operations. But the work started with a broad assessment of Wimbledon’s digital ecosystem and the needs of its many stakeholders. While fans remain the primary audience, the project also considered the requirements of players, members, ticket holders, broadcasters, and tournament staff. Extensive research was conducted to understand how different audiences consume content, interact with digital services, and engage with the Wimbledon brand. Those insights informed the design of a new digital experience and the selection of modern content and marketing capabilities built on IBM strategy partner platforms.
+One of the most complex challenges involved migrating Wimbledon’s vast content archive from legacy systems to the new platform. The project required the transfer of more than 15,000 digital assets, including articles, videos, photographs, metadata, and thousands of relationships connecting those assets.
+“The challenge was not simply moving content from one system to another,” says Chris Hay, a Distinguished Engineer at IBM who was asked to solve the complex problem. “Every article contained interconnected elements that needed to be preserved and restructured within an entirely different architecture. Ensuring that these relationships remained intact while minimizing disruption to the digital experience demanded a fundamentally different approach.”
+To solve this problem, Hay leveraged [IBM Bob®](https://bob.ibm.com/), its AI-powered development accelerator. He first used AI to create a comprehensive knowledge graph that mapped the relationships between Wimbledon’s content assets. This graph became a source of truth, providing visibility into how articles, videos, images, and other content elements were connected across the ecosystem. Armed with this understanding, Hay developed AI-driven workflows capable of translating content structures from the legacy environment into the new Adobe Experience Manager architecture. Rather than simply automating individual tasks, the AI functioned as an architectural partner, helping Hay model complex systems, preserve dependencies, and orchestrate migration processes at scale.
+As a result, a mapping project that could traditionally require a team of four to five IBM specialists working for months was completed by a single engineer within 4 weeks, with the targeted 15,000 assets extracted in just 47 minutes.¹ Beyond the immediate productivity gains, the team created reusable frameworks, knowledge models, and migration patterns that can support future modernization efforts. 
+[ Read more  ](https://newsroom.ibm.com/2025-06-17-the-all-england-lawn-tennis-club-and-ibm-launch-new-ai-features-for-real-time-wimbledon-fan-engagement)
+Foundations for the future 
+##  Foundations for the future 
+Already, the benefits of this transformation extend well beyond operational efficiency. AI-assisted tools have helped improve data quality, streamline user journeys, simplify navigation, and create more tailored experiences for different audiences. At the same time, IBM is helping Wimbledon establish an AI operating model that will guide future innovation, governance, and investment decisions. The organisation is not only modernising its technology stack; it is building the capabilities needed to continuously innovate and deliver value in the years ahead.
+“The success of The Championships is built on almost 150 years of delivering an exceptional experience of Wimbledon” says Clements. “So, we like to think long-term here at Wimbledon. And we’re fortunate to have a partner like IBM to set us up for success, not just today, but for many years to come.”
+The IBM-Wimbledon partnership is a demonstration of how any organisation can build a smarter business, guiding a digital transformation that can strengthen a historic institution without compromising its identity. By combining fan-facing innovation with deep operational modernisation, Wimbledon is expanding its global reach, enhancing engagement, and creating a digital foundation that will support the next generation of tennis fans. What spectators experience through the app and website is only the visible layer of a much larger transformation—one that is redefining how one of the world’s most iconic sporting events operates, innovates, and grows. 
+About The All England Lawn Tennis Club (AELTC) 
+##  About The All England Lawn Tennis Club (AELTC) 
+Known simply as Wimbledon, The Championships is the oldest of tennis’ four Grand Slams and one of the world’s highest-profile sporting events. Organized by the [AELTC](https://www.wimbledon.com/) and based in London, Wimbledon has been a global sporting and cultural institution since 1877.
+Solution components  IBM® Consulting®  IBM Garage™ Method  IBM Instana® Observability  IBM watsonx Code Assistant®  IBM watsonx®  Red Hat® OpenShift®  IBM watsonx Orchestrate®  IBM watsonx.ai®  IBM watsonx.governance®  IBM Granite®  IBM Bob® 
+Contact IBM Consulting
+To learn more about the IBM solutions featured in this story, please contact your IBM representative or IBM Business Partner.
+Masters 
+What if the Masters could turn data into insight?
+[ Read the case study ](https://www.ibm.com/sports/masters)
+US Open 
+The USTA and IBM deliver an all-digital US Open experience
+[ Read the case study ](https://www.ibm.com/case-studies/us-open)
+Fantasy Football Insights 
+AI-generated insights in ESPN Fantasy Football
+[ Learn more ](https://www.ibm.com/sports/fantasy)
+#####  Footnotes 
+¹ Actual results shown. Response times can be influenced by the operating system, hardware and software configuration and connectivity. Individual results may vary.
+#####  Legal 
+© Copyright IBM Corporation, June 2026. IBM, the IBM logo, and IBM Consulting, Garage, Instana, Granite, watsonx, watsonx.ai, watsonx Code Assistant, watsonx.governance, watsonx Orchestrate, and IBM Bob are are trademarks of IBM Corp., registered in many jurisdictions worldwide. Red Hat and OpenShift are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United States and other countries. Examples presented as illustrative only. Actual results will vary based on client configurations and conditions and, therefore, generally expected results cannot be provided.
+Products Consulting services Industries Case studies Financing Research LinkedIn X Instagram YouTube Podcasts Business partners Documentation Events Newsletters Support TechXchange community Overview Careers Investor relations Leadership Newsroom Security, privacy and trust United States — English Contact IBM Privacy Terms of use Accessibility

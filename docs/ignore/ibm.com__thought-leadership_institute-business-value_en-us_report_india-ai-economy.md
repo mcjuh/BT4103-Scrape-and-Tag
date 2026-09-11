@@ -1,0 +1,85 @@
+<!-- Source: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/india-ai-economy | Title: How AI is redefining India’s economic future | IBM | Seed: https://www.ibm.com/consulting (IBM Consulting) -->
+
+# From promise to power
+How AI is redefining India’s economic future
+[Download the insights (will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/16951f0d5c615f0d)[Subscribe for more insights from IBM IBV (will open in a new window)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+Around the world, artificial intelligence is changing how industries operate. In India, it has the potential to recalibrate how an entire economy grows. With 1.5 billion people, a predominantly young workforce, and one of the world’s most advanced digital public infrastructures, India is entering a period where it could be a global leader in AI. AI could reshape India’s economic trajectory faster than any previous technology.
+Based on IBM IBV research, AI could unlock an estimated more than $500 billion in economic value for India by 2030. But capturing that economic growth value and the full impact of AI depends on something far more fundamental than models or hype: India’s ability to build the right architecture, AI governance, skills, and industry alignment at national scale.
+The IBM Institute for Business Value report, _From promise to power: How AI is defining India’s economic future,_ analyzes this moment and outlines the factors shaping India’s emerging AI economy. 
+**India's AI outlook: Strong fundamentals, expanding demand**
+### India’s AI strategy: A homegrown architecture designed for scale
+AI in developed markets was built on abundant compute, uniform languages, and mature infrastructure. India’s AI is emerging under different conditions—and that’s shaping a distinct architectural model.
+India is developing sovereign cloud capacity, expanding domestic compute infrastructure, creating trusted national datasets, and supporting multilingual and multimodal AI models built for Indian languages and contexts. Coupled with digital public infrastructure that already underpins payments, identity, and service delivery, these initiatives form the foundation of India’s AI economy.
+> “Digital sovereignty will become the border of the 21st century. If your data leaves the country to make someone else’s model smarter, you’ve already lost half the battle.”
+> **Atul Govil** Chief Transformation Officer and Head (SAP and IT), India Glycols
+Seventy-three percent of executives believe India can become a top global AI nation by 2030. Yet many also acknowledge a readiness gap inside their own organizations. Closing that gap will be one of India’s most important competitive priorities for AI impact. 
+### AI adoption in India: High experimentation, low scale
+Across sectors, AI adoption in India is visible in early pilots: conversational assistants, supply‑chain forecasting, automated content generation, and workflow optimization. But only a small share of enterprises have scaled AI beyond isolated use cases.
+The reasons are structural. Many organizations still rely on legacy information technology systems that slow modernization. Data is frequently fragmented or inconsistent, making it difficult for AI models to learn and perform reliably. Real‑time data movement—a prerequisite for applied AI—is still limited. And expectations around trust, provenance, and governance are increasing rapidly.
+The research shows that AI scale in India depends less on adding more pilots and more on rebuilding core digital and data infrastructure. Organizations that modernize their foundations will move first and fastest. 
+### Why sovereign AI and hybrid cloud are becoming essential in India
+As AI begins influencing decisions across financial services, healthcare, public administration, and citizen‑facing systems, India’s need for secure, transparent, and locally governed AI becomes more urgent.
+This is driving a shift toward a sovereign‑hybrid cloud model—an approach that blends global innovation with domestic control. Hybrid cloud provides flexibility and cost optimization, while sovereign cloud environments allow sensitive data and critical AI workloads to remain within India’s jurisdiction. Increasingly, enterprises expect AI models to run in environments where their training data, governance policies, and performance can be monitored and audited.
+This approach is emerging as the trust layer for India’s AI economy.
+> “Cloud is the electric grid of this century—you can’t shy away from it. Hybrid cloud is real and here to stay, and a sovereign cloud becomes non—negotiable when you handle sensitive or personal data.”
+> **Atul Govil** Chief Transformation Officer and Head (SAP & IT), India Glycols
+### Sector transformation: AI is beginning to rewire India’s industries
+The next wave of AI in India will be defined by industry‑wide transformation rather than isolated tools. Manufacturing is shifting toward data‑connected workflows that improve quality and efficiency, impacting supply chain and other areas. Financial services are redesigning risk engines and customer‑decision systems. Healthcare organizations are turning to agentic AI to streamline administrative work and expand access. Agriculture is testing AI models adapted to regional and climatic diversity.
+The common thread is that the highest value will come when industries share data, insight, and standards across networks—not when individual enterprises operate in isolation. India’s economies of scale position it well for this shift.   
+|   |   |  
+| --- | --- |  
+| of executives agree India needs a more ecosystem oriented approach to AI adoption. And organizations are already moving in that direction.  |  say they are developing, optimizing, or scaling external partnerships to accelerate AI innovation and capability building.  |  
+#### Preparing India's future workforce
+India’s demographic advantage is real, but so is its skills challenge. Only 30% of the workforce has the AI literacy needed for current enterprise adoption. By 2030, organizations estimate that figure must nearly double. That means 57% of the workforce would be AI literate by 2030. 
+**Executives indicate they need to nearly double the number of AI-literate workers in India by 2030**
+This is one of the largest workforce transitions in India’s history. The Indian government, industry, academia, and AI providers are expanding advanced skilling programs, regional tech labs, and AI‑enabled language platforms to broaden access. But the scale of transformation required will demand coordinated and sustained investment in partnership.
+> “From the government, talent development and AI-specific tax breaks would be most helpful. Those are the two big things that would make a real difference.”
+> **Ankur Gupta** CEO, Masin AI
+### What India must do to lead the global AI economy
+India’s opportunity in the global AI landscape is significant, but the window for leadership is narrow. The research identifies three areas where action will determine India’s long‑term position.
+**First** , organizations must modernize their architecture so AI can operate at enterprise scale rather than remain stuck in pilot mode.
+**Second** , industries must evolve into connected ecosystems built on shared platforms, real‑time data, and trusted AI.
+**Third** , India must strengthen its global positioning by investing in domestic research, sovereign compute, and the full AI stack—not just applications.
+If India accelerates in these areas, AI could become a core engine of the country’s Viksit Bharat ambitions. If it does not, India risks becoming a major consumer of global AI without shaping the technologies and AI capabilities that define its future.
+India’s AI-enabled transformation is underway. The decisions made now will shape the country’s economic trajectory for decades.
+> “We must have an inclusive version of AI. It cannot benefit only a few at the top—everyone should be able to participate and prosper.”
+> **S. Krishnan** Secretary of the Ministry of Electronics and Information Technology (MeitY), Government of India, New Delhi
+Download _From promise to power: How AI is defining India’s economic future,_ to explore the full analysis and understand what it will take for India to build an AI future on its own terms.
+**FAQ**
+What is India’s AI economic potential?
+The research shows AI could add more than $500 billion to India’s economy by 2030. Leaders believe this value is achievable, but only if foundational barriers are addressed. 
+How do Indian enterprises compare to global peers in AI progress?
+Executives overwhelmingly believe in India’s long‑term potential, but 72% say their organizations lag global peers today. India’s digital public infrastructure gives the country strong starting advantages, yet many enterprises struggle with legacy systems, tangled interconnections, uneven data quality, and immature operating models. 
+What kind of AI architecture does India need?
+India is coalescing around a sovereign‑hybrid architecture. Enterprises want the flexibility and cost efficiency of hybrid cloud paired with the control and regulatory confidence of sovereign cloud—especially for sensitive or high‑stakes workloads. Leaders also expect localized, transparent AI models that show how they’re trained and where intelligence runs. 
+Why aren’t more Indian companies scaling AI, even though pilots are everywhere?
+India has widespread AI experimentation, but only 15% of organizations have scaled AI across functions. Leaders identify the same underlying barriers to AI development and AI solutions: legacy technology, siloed and inconsistent data, limited real‑time data movement, and gaps in governance. 
+Which industries in India are likely to see the biggest AI-driven disruption?
+Manufacturing, financial services, telecom, healthcare, and agriculture stand out as the sectors where AI systems will move fastest and deliver the most value. These industries already show early adoption and have large-scale workflows that benefit from AI-powered prediction, automation, and connected intelligence. 
+How can India strengthen its position in the global AI ecosystem? 
+Leaders consistently argue that India must build deeper sovereign capability across compute, models, talent, and data infrastructure. Today, 83% of Indian AI startups focus on applying existing models, while only 21% are developing new ones. Strengthening domestic AI research and development, improving data‑sharing frameworks, expanding compute availability, and accelerating indigenous model development are all necessary for India to become a global AI producer rather than primarily a consumer. 
+[Download the insights(will open in a new tab)](https://www.ibm.com/downloads/documents/us-en/16951f0d5c615f0d)[Subscribe for more insights from IBM IBV(will open in a new tab)](https://www.ibm.com/thought-leadership/institute-business-value/en-us/newsletters)
+How can IBM help you?
+[Digital sovereignty solutions (will open in a new window) Digital sovereignty solutions Leverage open hybrid cloud, robust data governance, and regulatory compliance to stay ahead with sovereign solutions. ](https://www.ibm.com/solutions/digital-sovereignty)
+[Data and AI consulting services (will open in a new window) Data and AI consulting services Successfully scale AI with the right strategy, data, security and governance in place. ](https://www.ibm.com/consulting/data-ai)
+[IBM sovereign core (will open in a new window) IBM sovereign core Built for sovereignty. Designed for innovation.  ](https://www.ibm.com/products/sovereign-core)
+How can IBM help you?
+[Digital sovereignty solutions (will open in a new window) Digital sovereignty solutions Leverage open hybrid cloud, robust data governance, and regulatory compliance to stay ahead with sovereign solutions. ](https://www.ibm.com/solutions/digital-sovereignty)
+[Data and AI consulting services (will open in a new window) Data and AI consulting services Successfully scale AI with the right strategy, data, security and governance in place. ](https://www.ibm.com/consulting/data-ai)
+[IBM sovereign core (will open in a new window) IBM sovereign core Built for sovereignty. Designed for innovation.  ](https://www.ibm.com/products/sovereign-core)
+You might also like
+[Chief AI Officers cut through complexity to create new paths to value  Translations available Chief AI Officers cut through complexity to create new paths to value Solving the AI ROI puzzle. Learn how the newest member of the C-suite boosts ROI of AI adoption. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/chief-ai-officer)
+[The tech debt reckoning  Translations available The tech debt reckoning The overlooked factor in AI success: Accounting for technical debt can boost returns by 29%. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/technical-debt-ai-roi)
+[The Great Tech Reset: How hybrid by design creates business value  The Great Tech Reset: How hybrid by design creates business value  A hybrid-by-design approach can help organizations build the technology estate that supports the promise of generative AI. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/hybrid-by-design)
+[Upstream oil and gas in the AI era  Upstream oil and gas in the AI era AI isn't failing in upstream oil and gas. What's failing is scaling its value across the enterprise. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/upstream-oil-and-gas-in-ai-era)
+[Orchestrating agentic AI for intelligent business operations - French (will open in a new tab) Orchestrating agentic AI for intelligent business operations - French Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-french)
+[Orchestrating agentic AI for intelligent business operations - German (will open in a new tab) Orchestrating agentic AI for intelligent business operations - German Learn how agentic AI is set to extend automation of business operations, elevating the workforce and expediting outcomes. Bookmark this report ](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/agentic-process-automation-german)
+AskIBV AI Assistant
+BETA
+How can we help you?Interacting with this button will open IBV Insights AI in a new window Interacting with this button will open IBV Insights AI in a new browser windowClose Interacting with this button will close IBV Insights AI Beta Launcher
+Focus sentinelFocus sentinel
+Overview Annual report Corporate social responsibility Inclusion@IBM Financing Investor Newsroom Security, privacy & trust Senior leadership Careers with IBM Website Blog Publications Automotive Banking Consumer Goods Energy Government Healthcare Insurance Life Sciences Manufacturing Retail Telecommunications Travel Our strategic partners Find a partner Become a partner - Partner Plus Partner Plus log in IBM TechXChange Community LinkedIn X Instagram YouTube Subscription Center Participate in user experience research Podcasts United States — English Contact IBM Privacy Terms of use Accessibility
+IBM web domains
+ibm.com, ibm.org, ibm-zcouncil.com, insights-on-business.com, jazz.net, mobilebusinessinsights.com, promontory.com, proveit.com, ptech.org, s81c.com, securityintelligence.com, skillsbuild.org, softlayer.com, storagecommunity.org, think-exchange.com, thoughtsoncloud.com, alphaevents.webcasts.com, ibm-cloud.github.io, ibmbigdatahub.com, bluemix.net, mybluemix.net, ibm.net, ibmcloud.com, galasa.dev, blueworkslive.com, swiss-quantum.ch, blueworkslive.com, cloudant.com, ibm.ie, ibm.fr, ibm.com.br, ibm.co, ibm.ca, community.watsonanalytics.com, datapower.com, skills.yourlearning.ibm.com, bluewolf.com, carbondesignsystem.com, openliberty.io 
+About cookies on this site Our websites require some cookies to function properly (required). In addition, other cookies may be used with your consent to analyze site usage, improve the user experience and for advertising. For more information, please review your [cookie preferences](javascript:void\(0\)) options. By visiting our website, you agree to our processing of information as described in IBM’s  [privacy statement](https://www.ibm.com/privacy).  To provide a smooth navigation, your cookie preferences will be shared across the IBM web domains listed [here](https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/india-ai-economy#truste_domain_list). 
+Accept All More options

@@ -1,0 +1,11 @@
+<!-- Source: https://www.bdo.com/insights/tax/tax-analytics-process-automation-success-story-manufacturing | Title: Automation Makes Transfer Pricing Compliance Faster and Easier | BDO | Seed: https://www.bdo.com/ (BDO) -->
+
+# Automation Makes Transfer Pricing Compliance Faster and Easier
+## SHARE
+  * 
+
+## Related Resources
+[ ArticleHealthcare’s Top Three Tax Challenges in 2026 July 7, 2026 ArticleHealthcare’s Top Three Tax Challenges in 2026 July 7, 2026Read the insight to learn the key healthcare findings from the 2026 BDO Tax Strategist Survey. Read Morechevron_right ](https://www.bdo.com/insights/tax/healthcares-top-three-tax-challenges-in-2026)
+[ ArticleTax Leaders at PE-backed Portfolio Companies Pursue Growth Amid New Tax Complexity July 7, 2026 ArticleTax Leaders at PE-backed Portfolio Companies Pursue Growth Amid New Tax Complexity July 7, 2026PE-backed portfolio companies face a complex tax environment shaped by OBBBA, emerging AI adoption, and rising focus on credits and incentives. Read the insight to learn more. Read Morechevron_right ](https://www.bdo.com/insights/tax/tax-leaders-at-pe-backed-portfolio-companies-pursue-growth-amid-new-tax-complexity)
+[ Article2026 Tax Strategist Survey Executive Summary May 29, 2026 Article2026 Tax Strategist Survey Executive Summary May 29, 2026Tax is at a pivotal moment as policy volatility, rising tax liability, and technology gaps put more pressure on leaders to expand their impact. Download the 2026 BDO Tax Strategist Survey to explore key trends, priorities, and strategies shaping the tax function. Read Morechevron_right ](https://www.bdo.com/insights/tax/tax-strategist-executive-summary)
+[ Article2026 BDO Tax Strategist Survey May 19, 2026 Article2026 BDO Tax Strategist Survey May 19, 2026Download the 2026 BDO Tax Strategist Survey to elevate your tax strategy with critical data and benchmark your tax function against the competition. Read Morechevron_right ](https://insights.bdo.com/Tax-Strategist-Survey.html)

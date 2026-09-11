@@ -1,0 +1,10 @@
+<!-- Source: https://www.deloitte.com/us/en/about/people/profiles.bkunisch+3026f09.html | Title: Brian Kunisch, Partner – M&A Transaction Services | Deloitte US | Partner | Deloitte & Touche LLP | Seed: https://www.deloitte.com/us/en/services/consulting/services/mergers-acquisitions.html (Deloitte) -->
+
+Link opens in a new tab opens in new window
+[Skip to main content](javascript:void\(0\))
+Welcome to Deloitte 
+If we have selected the wrong experience for you, please change it above.
+#  Brian Kunisch 
+##  Partner | Deloitte & Touche LLP 
+Brian is an accounting partner in Deloitte’s M&A Transaction services group. He has more than 20 years of public accounting experience with Deloitte and 15 years of merger and acquisition experience. Brian has extensive experience in leading due diligence teams to advise some of our most significant private equity and strategic buyer clients on a wide variety of operational and financial due diligence, accounting structuring, carve-out issues, human capital, information systems, and financial reporting aspects of transactions. He has assisted clients on over 100 completed or proposed transactions. Over the past several years, Brian has worked closely with a variety of private equity clients and their portfolio companies with a focus on companies in the consumer and industrial products industries. Brian leads Deloitte’s Private Equity practice in the East region.
+Brian graduated from Georgetown University and during his career spent two years in the Corporate Finance Group of Deloitte & Touche’s London, UK, office, where he worked as a US GAAP accounting specialist for the practice and assisted on a wide variety of transactions throughout the European marketplace. He continues to act as a primary contact for US/European cross-border transactions.

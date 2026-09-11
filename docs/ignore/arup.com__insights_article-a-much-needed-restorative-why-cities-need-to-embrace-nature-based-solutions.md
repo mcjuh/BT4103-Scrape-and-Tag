@@ -1,0 +1,64 @@
+<!-- Source: https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/ | Title: A much-needed restorative: why cities need to embrace nature-based solutions - Arup | Seed: https://www.arup.com/ (Arup) -->
+
+[Skip to content](https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/#main-content)
+Article
+#  A much-needed restorative: why cities need to embrace nature-based solutions 
+Thriving cities are increasingly embracing nature as critical infrastructure to enhance resilience and quality of life through regenerative urban planning.
+Richard de Cani
+Director
+Last updated: August 2026 
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/) Copy link  Close Share Menu 
+Further Reading
+[ Article  How cities can embrace nature and meet their net zero goals?  ](https://www.arup.com/insights/how-cities-can-embrace-nature-and-meet-their-net-zero-goals/)
+[ Article  Cities are ecosystems – so how do we ensure they remain natural, human-friendly and thriving?  ](https://www.arup.com/insights/cities-are-ecosystems-natural-human-and-thriving/)
+Get in touch with our team
+Contact
+When we consider the risks climate change poses to major infrastructure, we’re often thinking too defensively. Can we protect a rail system from flooding? Can we strengthen an energy network to operate in summer heat? Can an area resist wildfires and so on. We’ve been focusing on strengthening physical assets in isolation. However, as climate impacts intensify it’s become clear that this protective stance won’t be enough.
+We need to adopt a regenerative mindset, one that recognises the vital (indeed, pivotal) role played by nature and natural systems: we’ve often invested in sustainability while overlooking nature’s active and wider role in shaping the outcomes we face. In this article I want to explore what it would mean for cities to embrace nature as a powerful partner, one that can teach, guide and inspire us to make better long-term decisions.
+When we talk about a city that’s ‘regenerative’ in nature, this is what we mean: going beyond simply doing less harm and refocusing our efforts on the restoration of what has already been lost. As many of the examples we’ll encounter below make clear, cities that adopt nature as a partner have much to gain.
+## A different way of seeing
+I have spent much of my career working on [transport ](https://www.arup.com/markets/transport/)and [city planning](https://www.arup.com/services/planning/). This is an area of work that depends on understanding how systems interconnect. What we now see is that natural systems have been left out of that development equation for too long. Nature must be treated as critical infrastructure alongside the engineered solutions in development. Nature is a powerful partner for cities in two ways. It helps cities and citizens to thrive through shade, comfort, biodiversity and spaces people want to use. It also helps cities respond to climate shocks. It reduces flood risk, lowers temperatures and supports long-term resilience. When those two roles are designed together, the impact is much greater. Nature stops being something we add. It becomes part of how the city works.
+## Embedding nature within city planning
+Madrid’s strategic planning work embeds nature into decisions about land use, infrastructure and development, helping the city plan for resilience at an urban scale.
+[Madrid’s Strategic City Plan](https://www.arup.com/projects/madrid-strategic-plan/) is one of the clearest examples of this shift. In this programme, we are embedding nature into how the city functions, using an adaptive strategic framework, bringing nature into the planning process. That means decisions about land use, infrastructure and development are shaped by how natural systems are restored and maintained. This approach changes the outcome. Nature is not competing with other priorities. It is a part of them and the city functions differently as a result.
+This nature-based ethos is not unique to Madrid. We are seeing similar thinking emerge in many other places in a range of forms. In Singapore, we are working with PUB, Singapore’s national water agency on adaptation strategies for the northwest coastline. Protection, ecology and public space are treated as one system, a ‘Living Edge’, where the design blurs the boundaries rather than separates them. In a region where coastal cities face increasing pressure from climate change, this decision matters. We move beyond defending against the water alone and we shape the city’s edge to serve multiple roles over time.
+Policy can support the implementation of this approach. In Hong Kong, we’re developing nature-based solutions design guidelines that can be adopted through the existing planning framework for the city. Once adopted, every new project works within that system.These are different contexts, but the principle is the same. Nature is planned, delivered and respected as critical infrastructure.
+## Solutions big and small make a difference
+At a larger scale, _Hunter’s Point South_ in New York shows how a single intervention can meet several needs at once. A former industrial site, it has been transformed into a waterfront park that provides flood protection as well as public space. Designed to allow for future changes in water levels, Hunter’s Point South is built to adapt to a volatile future.
+Hunter’s Point South transformed a former industrial waterfront into public open space, combining flood resilience, habitat creation and community access along New York’s East River.
+The benefits of this approach are highly measurable. In our [urban heat](https://www.arup.com/services/heat-resilience/) work, cities with high levels of vegetation show significant temperature differences within the same urban area. In Auckland, New Zealand, local greening has reduced surface temperatures by up to 12 degrees Celsius. These are practical outcomes that affect how cities function and feel day to day.
+The same thinking can be applied to more constrained sites. In Hong Kong, the Green Deck project places a landscape garden over major transport infrastructure at Hung Hom. Work that enabled road network improvements below can be used to improve the public realm at the same time.
+Even one very small intervention can have impact. In central London, a single parking space was converted into a pocket park. It changed how the street is used and experienced. The scale is wildly different, but the lesson is consistent. The value comes from being prepared to think about and use space differently.
+## The evidence to push forward
+One of the barriers to wider adoption has been how these benefits are measured. In many cases, nature-based solutions have been compared to traditional infrastructure without a full understanding of what they deliver. That is changing.
+London’s Wild West End shows how landowners can work across property boundaries to add green space, strengthen biodiversity and create more resilient, people-friendly urban places.
+Through programmes such as [ReGreeneration in the EU](https://www.arup.com/projects/regreeneration/), cities are developing ways to measure the impact of urban greening and restoration against clear objectives. This is incredibly important for securing investment. When the benefits are understood, the case becomes easier to make.
+The private sector is responding when the data reveals the opportunity. In London, the [Wild West End partnership](https://www.arup.com/projects/wild-west-end/) has shown that creating additional green space across a dense urban area can deliver value for landowners as well as the city. The approach is collaborative, working across property boundaries rather than within them.
+We are seeing similar work in rapidly urbanising cities. In [Dar es Salaam](https://www.arup.com/projects/dar-es-salaam-urban-greening/), Tanzania, nature-based approaches are being used to improve resilience to climate shocks in areas under pressure from growth. Their context may seem different to London or New York, but the underlying logic is the same.
+In Dar es Salaam, nature-based approaches are helping a rapidly growing city understand flood and erosion risk, andidentify practical ways to build long-term climate resilience
+The technical case for this shift is now well understood. The challenge is how it is implemented. Cities must decide how they treat nature in planning and investment. Whether it is seen as a cost or as part of core infrastructure. Whether it is applied consistently or only when conditions allow. These choices shape what can be delivered and they determine whether restoration happens at scale or remains limited to individual projects.
+Cities that take this approach are not doing it for a single reason. They are responding to climate pressure. They are striving to improve quality of life. Or they want to strengthen long-term prospects. Restoration ties all these outcomes together. It is fast becoming a practical measure of how well a city is performing. Cities that make this shift will not only cope better with what lies ahead but set the pace for others to follow.
+Share 
+[ LinkedIn ](https://www.linkedin.com/sharing/share-offsite/?url=https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/) [ Facebook ](https://www.facebook.com/sharer/sharer.php?u=https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/) Copy link  Close Share Menu 
+Explore similar insights
+[ Article ](https://www.arup.com/insights/filtered-insights/?ArticleTypesTaxonomies=107) [ Cities ](https://www.arup.com/insights/filtered-insights/?MarketTaxonomies=12) [ Nature-based solutions ](https://www.arup.com/insights/filtered-insights/?ServiceTaxonomies=122) [ Resilience ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=118) [ Nature-based solutions ](https://www.arup.com/insights/filtered-insights/?ThemeTaxonomies=140)
+## Insights
+### Explore more nature-based insights
+[ See more ](https://www.arup.com/insights/all-nature-insights/)
+[ Article  Practical, scalable, measurable: how cities can implement their sponge city ambitions  ](https://www.arup.com/insights/article-practical-scalable-measurable-how-cities-can-implement-their-sponge-city-ambitions/) [ Article  Cities are ecosystems – so how do we ensure they remain natural, human-friendly and thriving?  ](https://www.arup.com/insights/cities-are-ecosystems-natural-human-and-thriving/) [ Article  Green Star Communities v2: What does it mean for your development?  ](https://www.arup.com/insights/green-star-communities-v2-what-does-it-mean-for-your-development/) [ Article  Nature and technology: balancing data centres with biodiversity  ](https://www.arup.com/insights/nature-and-technology-balancing-data-centres-with-biodiversity/)
+## Issues
+### Explore the big questions facing the built and natural environments:
+[ Explore Issues ](https://www.arup.com/insights/issues/)
+#### [ Issue  How do we make cities resilient to climate change? ](https://www.arup.com/insights/issues/how-do-we-make-cities-resilient-to-climate-change/) #### [ Issue  How does a city become net zero? ](https://www.arup.com/insights/issues/what-makes-a-net-zero-city/) #### [ Issue  How can urban farming improve city life? ](https://www.arup.com/insights/issues/how-can-urban-farming-improve-city-life/)
+## Explore
+### Discover more of our expertise:
+[ View all services ](https://www.arup.com/services/)
+Services
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/)
+Close
+Based on your browser settings, it appears that your preferred language is English. To return to the English version of arup.com, click 'View in English'. To continue proceed in your chosen language, click 'Continue'. 
+Return to prior page  [ Close and proceed ](https://www.arup.com/insights/article-a-much-needed-restorative-why-cities-need-to-embrace-nature-based-solutions/)
+Close Close
