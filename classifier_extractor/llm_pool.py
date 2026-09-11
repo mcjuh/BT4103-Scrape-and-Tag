@@ -34,7 +34,7 @@ Design choices that follow from those two papers:
   (docs/manifest.jsonl and docs/providers.csv/hirers.csv) instead of one
   diversification decision reused twice.
 
-MODEL_POOL is every distinct chat model SOCLAAS serves (from
+MODEL_POOL is every usable distinct chat model SOCLAAS serves (from
 `client.models.list()`), so each one's output can be compared on the same
 corpus. Left out:
 - bge-m3 (embeddings) and whisper-large-v3 (audio transcription): not chat
@@ -48,12 +48,10 @@ corpus. Left out:
   right at SOCLAAS's own gateway cutoff -- its calls 502 whatever the
   client timeout, so the files routed to it would error on every run.
 - qwen3-coder-next: code-specialised, not a fit for prose extraction.
+- gemma4:26b: it can't switch "thinking" off either; an extraction took
+  ~30-45s and ~1.5-2k completion tokens, versus 1-10s for the rest.
 Rerun that listing if SOCLAAS's model list changes. classify.py and
-extract.py leave "thinking" on for every model. Parameter count is a bad
-proxy for cost: measured on a hirer page with thinking switched off where a
-model allowed it (gemma4:26b doesn't), gemma4:26b took ~30-45s and
-~1.5-2k completion tokens per extraction while the rest took 1-10s. With
-thinking on, expect the rest to be slower than that too.
+extract.py leave "thinking" on for every model.
 """
 
 import hashlib
@@ -64,7 +62,6 @@ MODEL_POOL = [
     "qwen3.8:27b",       # Alibaba Qwen (served before as the "qwen3.6:27b" alias)
     "qwen3.6:35b",       # Alibaba Qwen, 35B-A3B mixture-of-experts
     "qwen3-vl:32b",      # Alibaba Qwen, vision-language (text-only use here)
-    "gemma4:26b",        # Google
 ]
 
 

@@ -24,7 +24,7 @@ waiting, skips what's already done, and exits.
 | Path | What it is |
 |---|---|
 | `scrapper/` | `crawl.py` (crawl4ai best-first deep crawl, saved as pruned Markdown) and `seeds.md` (start URLs) |
-| `classifier_extractor/` | `classify.py`, `extract.py`, `llm_pool.py`, `prompts/`, and the `ML_*_schema_v1.md` JSON Schemas extraction is validated against |
+| `classifier_extractor/` | `classify.py`, `extract.py`, `llm_pool.py`, `prompts/`, and the `ML_*_schema_v1.json` JSON Schemas extraction is validated against |
 | `labeller/` | `label.py`: zero-shot relevance scoring of gig/provider pairs ([Zhuang et al., 2023](https://arxiv.org/abs/2310.14122)); see `labeller/README.md` |
 | `monitor/` | `dashboard.py`: local dashboard at http://localhost:8765 |
 | `docs/` | The data lake: crawled pages by bucket, manifests, extracted CSVs |
@@ -48,7 +48,7 @@ pip install spacy
 python -m spacy download en_core_web_sm
 ```
 
-All LLM calls go to NUS SoC's SOCLAAS API. Each page is routed to one of 6 distinct chat models
+All LLM calls go to NUS SoC's SOCLAAS API. Each page is routed to one of 5 distinct chat models
 SOCLAAS serves (see `MODEL_POOL` in `classifier_extractor/llm_pool.py`), and the model that
 produced each record is stored with it, so models can be compared on the same corpus.
 
@@ -73,8 +73,9 @@ Redirecting `crawl.py`'s output to `crawl_run.log` is what feeds the dashboard's
 
 - `docs/manifest.jsonl`: one classification per crawled page (label, reason, model).
 - `docs/providers.csv`, `docs/hirers.csv`: one row per extracted record. Columns follow
-  `classifier_extractor/ML_provider_schema_v1.md` / `ML_hirer_schema_v1.md`, plus `source_file`,
-  `classify_label`, and `extracted_at`. A page counts as extracted once its `source_file` has a row
+  `classifier_extractor/ML_provider_schema_v1.json` / `ML_hirer_schema_v1.json`, plus `source_file`,
+  `classify_label`, `extracted_at`, and `time_taken_by_model` (seconds to extract that row, including a
+  hirer's review and repair). A page counts as extracted once its `source_file` has a row
   here.
 - `docs/extract_manifest.jsonl`: every extraction attempt, including rejections, style rolls,
   quality metrics, and each hirer record's grounding review (reviewer model, keep/retry, reason,

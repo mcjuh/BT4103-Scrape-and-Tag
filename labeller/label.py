@@ -114,7 +114,7 @@ def model_for_pair(hirer_file: str, provider_file: str) -> str:
 # Query (gig) / document (provider profile) text
 # ---------------------------------------------------------------------------
 
-# Content fields of classifier_extractor/ML_*_schema_v1.md. source_company is
+# Content fields of classifier_extractor/ML_*_schema_v1.json. source_company is
 # left out of the gig on purpose: it's the firm that published the page, not
 # part of what the gig needs.
 GIG_FIELDS = [

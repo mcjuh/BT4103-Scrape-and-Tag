@@ -33,7 +33,7 @@
     },
     "hire_title": {
       "type": "string",
-      "description": "Short title or summary of the hiring need."
+      "description": "Short title of the hiring need."
     },
     "hire_description": {
       "type": "string",

@@ -6,8 +6,8 @@ reads classify.py's docs/manifest.jsonl to find pages worth extracting
 (PROVIDER, HIRER, UNCERTAIN) and turns each into ONE record shaped exactly
 like the ML schemas next to this file:
 
-    ML_provider_schema_v1.md  -> ProviderDocument -> docs/providers.csv
-    ML_hirer_schema_v1.md     -> HireDocument     -> docs/hirers.csv
+    ML_provider_schema_v1.json  -> ProviderDocument -> docs/providers.csv
+    ML_hirer_schema_v1.json     -> HireDocument     -> docs/hirers.csv
 
 The schemas are the single source of truth: each prompt's field list and
 JSON skeleton are generated from them, and every LLM response is validated
@@ -108,7 +108,7 @@ ENTITY_TYPE_FOR_LABEL = {
 # pass, so only give them to single-pass entity types.
 ENTITY_CONFIG = {
     "PROVIDER": {
-        "schema": SCRIPT_DIR / "ML_provider_schema_v1.md",
+        "schema": SCRIPT_DIR / "ML_provider_schema_v1.json",
         "prompts": ["extract_provider_facts.md", "extract_provider_style.md"],
         "anonymise": True,
         "csv": PROVIDERS_CSV,
@@ -117,7 +117,7 @@ ENTITY_CONFIG = {
         "repair": None,
     },
     "HIRER": {
-        "schema": SCRIPT_DIR / "ML_hirer_schema_v1.md",
+        "schema": SCRIPT_DIR / "ML_hirer_schema_v1.json",
         "prompts": ["extract_hirer.md"],
         "anonymise": False,
         "csv": HIRERS_CSV,
@@ -143,7 +143,7 @@ load_dotenv(ENV_PATH)
 client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
-    timeout=180,  # thinking is left on; the slowest pool models take 30-75s (llm_pool.py)
+    timeout=180,  # thinking is left on, which slows some pool models down
     max_retries=0,  # _call_with_retries is the only retry loop
 )
 
@@ -153,7 +153,7 @@ client = OpenAI(
 # ---------------------------------------------------------------------------
 
 for _cfg in ENTITY_CONFIG.values():
-    _schema = json.loads(_cfg["schema"].read_text(encoding="utf-8"))  # the .md files hold plain JSON Schema
+    _schema = json.loads(_cfg["schema"].read_text(encoding="utf-8"))
     _cfg["validator"] = Draft7Validator(_schema)
     _cfg["properties"] = list(_schema["properties"])
     _cfg["llm_fields"] = {
@@ -412,9 +412,12 @@ def record_metrics(entity_type: str, doc: dict) -> dict:
 
 def csv_fields(entity_type: str) -> list:
     """source_file first, then the schema's own fields in schema order, then
-    bookkeeping -- so the columns follow the schema file automatically."""
+    bookkeeping -- so the columns follow the schema file automatically.
+    time_taken_by_model is the seconds spent extracting the row: every model
+    call for it (a hirer's review and repair included) plus any retry waits."""
     props = ENTITY_CONFIG[entity_type]["properties"]
-    return ["source_file"] + [k for k in props if k != "source_file"] + ["classify_label", "extracted_at"]
+    return (["source_file"] + [k for k in props if k != "source_file"]
+            + ["classify_label", "extracted_at", "time_taken_by_model"])
 
 
 def _csv_safe(v):
@@ -601,9 +604,10 @@ def main():
                     break
                 continue
 
+            elapsed = round(time.perf_counter() - start, 2)
             base = {
                 "file": fname, "entity_type": entity_type, "model": model, "usage": usage,
-                "elapsed": round(time.perf_counter() - start, 2), **meta, "timestamp": timestamp,
+                "elapsed": elapsed, **meta, "timestamp": timestamp,
             }
             if doc is None:
                 ok, reason = False, ("repair judged the page non-qualifying (model returned {})" if meta.get("repaired")
@@ -613,7 +617,8 @@ def main():
             note = f" [repaired after review: {meta['review']['reason']}]" if meta.get("repaired") else ""
 
             if ok:
-                row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp}
+                row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp,
+                       "time_taken_by_model": elapsed}
                 append_csv_row(cfg["csv"], csv_fields(entity_type), row)
                 title = doc.get(cfg["title_field"])
                 record = {**base, "status": "written", "title": title, "metrics": record_metrics(entity_type, doc)}

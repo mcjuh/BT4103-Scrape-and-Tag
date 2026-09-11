@@ -83,7 +83,7 @@ load_dotenv(ENV_PATH)
 client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
-    timeout=180,  # thinking is left on; the slowest pool models take 30-75s (llm_pool.py)
+    timeout=180,  # thinking is left on, which slows some pool models down
 )
 # No single MODEL constant -- which model classifies a given page comes from
 # llm_pool.model_for_file(), one of MODEL_POOL. SOCLAAS_MODEL in

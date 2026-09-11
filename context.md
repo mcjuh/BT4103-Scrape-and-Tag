@@ -59,18 +59,16 @@ synthetic data.
 
 **`MODEL_POOL`** is every usable distinct chat model SOCLAAS serves (`client.models.list()`),
 widened from the original three so each model's performance can be compared on the same corpus:
-`ornith1.5:35b`, `llama3.1:8b`, `qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`, `gemma4:26b`.
+`ornith1.5:35b`, `llama3.1:8b`, `qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`.
 Left out: `bge-m3` (embeddings), `whisper-large-v3` (audio), `qwen3-coder-next`
-(code-specialised), aliases that would
+(code-specialised), `gemma4:26b` (can't switch thinking off; ~30-45s per extraction), aliases that would
 count a model twice (`default`, `coding`, `advanced-vision`, `test`, `ornith1.0:35b`, and
 `qwen3.6:27b` -- now an alias of `qwen3.8:27b`, so older records labelled `qwen3.6:27b` came
 from that model), and `qwen3.5:9b`, which can't have "thinking" switched off and so takes ~75s
 per extraction -- right at SOCLAAS's gateway cutoff, so its calls 502 whatever the client
 timeout. The earlier three-model pool deliberately picked three distinct families; the wider
-pool is half Qwen (3 of 6), trading some of that diversity for coverage. Parameter count is a
-bad proxy for cost: `gemma4:26b` can't have thinking switched off either and takes ~30-45s per
-extraction, versus 1-10s for the rest with it off. Both scripts leave thinking on for every
-model, with a 180s timeout. The labeller keeps its own three-model copy of the pool (see below).
+pool is Qwen-heavy (3 of 5), trading some of that diversity for coverage. Both scripts leave
+thinking on for every model, with a 180s timeout. The labeller keeps its own three-model copy of the pool (see below).
 
 Which model produced a given record is recorded (`"model"` in `manifest.jsonl`/
 `extract_manifest.jsonl`, `extracted_by_model` in the CSVs) and surfaced in
@@ -102,7 +100,7 @@ regular need, that's the natural next step, but wasn't built speculatively here.
 Runs the SOC LLM (NUS-hosted; credentials in `.env`) over `docs/unprocessed/*.md`, sorting each
 into `docs/provider/`, `docs/hirer/`, `docs/ignore/`, or `docs/uncertain/`. Labels are named to
 match `providers.sql`/`hirers.sql` and the `ProviderDocument`/`HireDocument` ML schemas
-(`classifier_extractor/ML_provider_schema_v1.md`, `classifier_extractor/ML_hirer_schema_v1.md`) directly, rather than an
+(`classifier_extractor/ML_provider_schema_v1.json`, `classifier_extractor/ML_hirer_schema_v1.json`) directly, rather than an
 in-between name like the earlier `individual_profile`/`gig`:
 - **provider**: the page's primary subject is one named person's own
   career/background/expertise -- a bio, profile, or portfolio.
@@ -124,7 +122,7 @@ so nothing is left permanently stranded in `unprocessed/`. Progress is tracked i
 ### 3. `classifier_extractor/extract.py`
 Reads `docs/manifest.jsonl` directly (not `classify.py`'s code) to find pages worth extracting
 -- `PROVIDER`, `HIRER`, `UNCERTAIN` -- and turns each into one record shaped exactly like
-`classifier_extractor/ML_provider_schema_v1.md` / `ML_hirer_schema_v1.md` (plain JSON Schema),
+`classifier_extractor/ML_provider_schema_v1.json` / `ML_hirer_schema_v1.json` (plain JSON Schema),
 written to `docs/providers.csv` / `docs/hirers.csv` with columns in schema order. The schemas are
 the source of truth: prompt field lists are generated from them and every LLM response is
 validated against them (`jsonschema`); a mismatch is retried, never written. `source_file` and
