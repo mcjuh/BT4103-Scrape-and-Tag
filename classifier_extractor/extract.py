@@ -30,6 +30,15 @@ ENTITY_CONFIG:
                       en_core_web_sm; skipped with a warning if missing)
                       and gendered pronouns -> neutral ones.
 
+HIRER records then get a grounding review (from review_gig_content.py and
+gig_repair.py): a DIFFERENT pool model (llm_pool.reviewer_for_file) reads
+the source and the record and answers keep/retry, flagging only clear
+defects (unsupported scope, catch-all roles, invented requirements). On
+retry the extracting model redoes its pass once, given the reviewer's
+reason and its previous record (prompts/repair_hirer.md); that result is
+final. The verdict is kept in the manifest. A review that fails outright
+errors the whole file, so it's retried from scratch next run.
+
 Either prompt may return {} when the page doesn't qualify (no concrete gig
 / not one individual); that's recorded as "rejected", never written.
 
@@ -38,15 +47,14 @@ Also carried over from gig.py/showcase.py:
   tier; provider title style, achievement grammar, and a rare deliberate
   prose imperfection -- so synthetic records don't all converge on one
   voice. Seeded by file name, so a rerun rolls the same way.
-- Thinking-mode suppression, probed once per model per run across four
-  known parameter shapes, plus a per-record flag if hidden reasoning still
-  shows up.
+- A per-record flag (hidden_reasoning) for whether the model reasoned
+  before answering. Thinking mode itself is left on for every model.
 - The OpenAI client's own retries are off; the loop here is the only one.
   --ping checks every pool model responds.
 - Per-record quality metrics in the manifest (field lengths, leftover
   gendered pronouns).
 
-Each file is extracted by one of the three pool models (llm_pool.py).
+Each file is extracted by one model from llm_pool.MODEL_POOL.
 Read-only against docs/<bucket>/. Progress is tracked in
 docs/extract_manifest.jsonl, so reruns skip written/rejected files and
 retry only errors.
@@ -54,6 +62,7 @@ retry only errors.
 
 import argparse
 import csv
+import functools
 import json
 import os
 import random
@@ -66,7 +75,7 @@ from dotenv import load_dotenv
 from jsonschema import Draft7Validator
 from openai import OpenAI
 
-from llm_pool import MODEL_POOL, model_for_file
+from llm_pool import MODEL_POOL, model_for_file, reviewer_for_file
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # classifier_extractor/ sits one level below the project root
@@ -95,7 +104,8 @@ ENTITY_TYPE_FOR_LABEL = {
 
 # Everything that differs between the two entity types. "prompts" run in
 # order: the first reads the page, each later one reads the previous
-# pass's JSON.
+# pass's JSON. "review"/"repair" are optional; a repair reruns the first
+# pass, so only give them to single-pass entity types.
 ENTITY_CONFIG = {
     "PROVIDER": {
         "schema": SCRIPT_DIR / "ML_provider_schema_v1.md",
@@ -103,6 +113,8 @@ ENTITY_CONFIG = {
         "anonymise": True,
         "csv": PROVIDERS_CSV,
         "title_field": "about_title",
+        "review": None,
+        "repair": None,
     },
     "HIRER": {
         "schema": SCRIPT_DIR / "ML_hirer_schema_v1.md",
@@ -110,6 +122,8 @@ ENTITY_CONFIG = {
         "anonymise": False,
         "csv": HIRERS_CSV,
         "title_field": "hire_title",
+        "review": "review_hirer.md",
+        "repair": "repair_hirer.md",
     },
 }
 CODE_FIELDS = ("source_file", "extracted_by_model")  # filled in here, never asked of the LLM
@@ -129,7 +143,7 @@ load_dotenv(ENV_PATH)
 client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
-    timeout=50,
+    timeout=180,  # thinking is left on; the slowest pool models take 30-75s (llm_pool.py)
     max_retries=0,  # _call_with_retries is the only retry loop
 )
 
@@ -146,6 +160,8 @@ for _cfg in ENTITY_CONFIG.values():
         k: v.get("description", "") for k, v in _schema["properties"].items() if k not in CODE_FIELDS
     }
     _cfg["templates"] = [(PROMPTS_DIR / p).read_text(encoding="utf-8").strip() for p in _cfg["prompts"]]
+    for _key in ("review", "repair"):
+        _cfg[f"{_key}_template"] = (PROMPTS_DIR / _cfg[_key]).read_text(encoding="utf-8").strip() if _cfg[_key] else None
 
 VARIATIONS = json.loads((PROMPTS_DIR / "extract_variations.json").read_text(encoding="utf-8"))
 
@@ -213,52 +229,17 @@ def anonymise(text: str) -> str:
 # LLM calls
 # ---------------------------------------------------------------------------
 
-# Serving harnesses disable Qwen3-style "thinking" via different, mutually
-# incompatible parameter shapes, and some silently ignore ones they don't
-# recognise -- so each is probed rather than trusted. The /no_think text
-# suffix is last: it can never be rejected outright, but is the most likely
-# to be silently ignored.
-THINKING_DISABLE_STRATEGIES = [
-    {"name": "chat_template_kwargs.enable_thinking", "extra_body": {"chat_template_kwargs": {"enable_thinking": False}}, "suffix": ""},
-    {"name": "top-level enable_thinking", "extra_body": {"enable_thinking": False}, "suffix": ""},
-    {"name": "thinking.type=disabled", "extra_body": {"thinking": {"type": "disabled"}}, "suffix": ""},
-    {"name": "/no_think prompt suffix", "extra_body": None, "suffix": "\n\n/no_think"},
-]
-_thinking_strategy = {}  # model -> strategy, probed once per model per run
-
-
 def _shows_reasoning(response) -> bool:
+    """Whether the model reasoned ("thinking") before answering. Thinking is
+    left on, so this is recorded per record rather than suppressed."""
     message = response.choices[0].message
     content = message.content or ""
     extra = message.model_dump() if hasattr(message, "model_dump") else {}
     return "<think" in content.lower() or bool(extra.get("reasoning_content") or extra.get("reasoning"))
 
 
-def _request(model: str, content: str, strategy: dict):
-    kwargs = {"model": model, "messages": [{"role": "user", "content": content + strategy["suffix"]}]}
-    if strategy["extra_body"]:
-        kwargs["extra_body"] = strategy["extra_body"]
-    return client.chat.completions.create(**kwargs)
-
-
-def thinking_strategy(model: str) -> dict:
-    if model not in _thinking_strategy:
-        chosen = THINKING_DISABLE_STRATEGIES[-1]  # best-effort fallback
-        for strategy in THINKING_DISABLE_STRATEGIES:
-            try:
-                response = _request(model, "What is 12 times 7? Reply with only the number, nothing else.", strategy)
-            except Exception:
-                continue  # backend rejects this parameter shape
-            if not _shows_reasoning(response):
-                chosen = strategy
-                break
-        _thinking_strategy[model] = chosen
-        print(f"  [{model}] thinking disabled via: {chosen['name']}", flush=True)
-    return _thinking_strategy[model]
-
-
 def _call_llm(model: str, content: str) -> tuple:
-    response = _request(model, content, thinking_strategy(model))
+    response = client.chat.completions.create(model=model, messages=[{"role": "user", "content": content}])
     usage = {}
     if response.usage:
         usage = {
@@ -273,6 +254,8 @@ def _parse_json(raw_output: str) -> dict:
     (llama3.1) wrap the JSON in a preamble and a code fence despite being
     told not to. strict=False accepts raw newlines inside strings, which
     the same models emit in multi-paragraph descriptions."""
+    # reasoning inlined as <think>...</think> could itself contain braces
+    raw_output = re.sub(r"<think>.*?</think>", "", raw_output, flags=re.DOTALL | re.IGNORECASE)
     start, end = raw_output.find("{"), raw_output.rfind("}")
     if start == -1 or end < start:
         raise ValueError(f"no JSON object in response: {raw_output[:120]!r}")
@@ -282,28 +265,44 @@ def _parse_json(raw_output: str) -> dict:
     return data
 
 
-def _call_with_retries(model: str, content: str, entity_type: str, fname: str) -> tuple:
-    """Returns (schema-valid document or None for {}, usage, hidden_reasoning).
-    A parse or schema failure is retried just like an API error. `model`
-    stays fixed for every retry -- falling back to another would break the
-    deterministic file->model assignment llm_pool.py relies on."""
+def _entity_doc(data: dict, entity_type: str, fname: str, model: str):
+    """A parsed extraction response -> schema-valid document, or None for {}.
+    Raises on a schema mismatch, so the caller retries it like any failure."""
+    if data == {}:
+        return None
     cfg = ENTITY_CONFIG[entity_type]
     code_values = {"source_file": fname, "extracted_by_model": model}
+    # blank -> null, so a blank optional field reads as "not stated" and a
+    # blank required one fails the schema check instead of being written
+    data = {k: (None if isinstance(v, str) and not v.strip() else v) for k, v in data.items()}
+    doc = {**data, **{k: v for k, v in code_values.items() if k in cfg["properties"]}}
+    errors = [e.message for e in cfg["validator"].iter_errors(doc)]
+    if errors:
+        raise ValueError(f"schema mismatch: {errors[0]}")
+    return doc
+
+
+def _review_verdict(data: dict) -> dict:
+    """A parsed review response -> {"decision": "keep"|"retry", "reason": str}."""
+    decision = str(data.get("decision", "")).strip().lower()
+    reason = data.get("reason")
+    if decision not in ("keep", "retry"):
+        raise ValueError(f"review decision must be keep or retry, got {data.get('decision')!r}")
+    if not isinstance(reason, str) or not reason.strip():
+        raise ValueError("review reason must be a non-empty string")
+    return {"decision": decision, "reason": reason.strip()}
+
+
+def _call_with_retries(model: str, content: str, validate) -> tuple:
+    """Returns (validate(parsed JSON), usage, hidden_reasoning). A parse or
+    validation failure is retried just like an API error. `model` stays
+    fixed for every retry -- falling back to another would break the
+    deterministic file->model assignment llm_pool.py relies on."""
     last_err = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             raw_output, usage, reasoning = _call_llm(model, content)
-            data = _parse_json(raw_output)
-            if data == {}:
-                return None, usage, reasoning
-            # blank -> null, so a blank optional field reads as "not stated" and a
-            # blank required one fails the schema check instead of being written
-            data = {k: (None if isinstance(v, str) and not v.strip() else v) for k, v in data.items()}
-            doc = {**data, **{k: v for k, v in code_values.items() if k in cfg["properties"]}}
-            errors = [e.message for e in cfg["validator"].iter_errors(doc)]
-            if errors:
-                raise ValueError(f"schema mismatch: {errors[0]}")
-            return doc, usage, reasoning
+            return validate(_parse_json(raw_output)), usage, reasoning
         except Exception as e:
             last_err = e
             if attempt < MAX_RETRIES:
@@ -313,29 +312,62 @@ def _call_with_retries(model: str, content: str, entity_type: str, fname: str) -
     raise last_err
 
 
+def _record_json(entity_type: str, doc: dict) -> str:
+    """The LLM-written part of a record, as handed to a later pass."""
+    fields = ENTITY_CONFIG[entity_type]["llm_fields"]
+    return json.dumps({k: doc.get(k) for k in fields}, ensure_ascii=False, indent=2)
+
+
 def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple:
-    """Runs the entity type's prompt passes in order. Returns (document or
-    None if the model judged the page non-qualifying, usage, meta)."""
+    """Runs the entity type's prompt passes in order, then, if it has a
+    review prompt, the grounding review and at most one repair. Returns
+    (document or None if the page doesn't qualify, the extracting model's
+    usage, meta). The reviewer's own usage is kept in meta["review"]."""
     cfg = ENTITY_CONFIG[entity_type]
     rolls, picked = roll_variations(entity_type, fname)
     kwargs = prompt_kwargs(entity_type, fname, rolls)
     if cfg["anonymise"]:
         text = anonymise(text)
+    validate = functools.partial(_entity_doc, entity_type=entity_type, fname=fname, model=model)
 
-    payload = f"SOURCE MATERIAL:\n```\n{text[:MAX_CHARS]}\n```"
+    source = f"SOURCE MATERIAL:\n```\n{text[:MAX_CHARS]}\n```"
     usage_total = {"prompt_tokens": 0, "completion_tokens": 0}
-    hidden_reasoning = False
-    doc = None
-    for template in cfg["templates"]:
-        doc, usage, reasoning = _call_with_retries(model, f"{template.format(**kwargs)}\n\n{payload}", entity_type, fname)
+    meta = {"rolls": picked, "hidden_reasoning": False}
+
+    def call(call_model: str, content: str, check) -> tuple:
+        result, usage, reasoning = _call_with_retries(call_model, content, check)
+        meta["hidden_reasoning"] = meta["hidden_reasoning"] or reasoning
+        return result, usage
+
+    def extract_call(content: str):
+        doc, usage = call(model, content, validate)
         for k in usage_total:
             usage_total[k] += usage.get(k) or 0
-        hidden_reasoning = hidden_reasoning or reasoning
+        return doc
+
+    doc, payload = None, source
+    for template in cfg["templates"]:
+        doc = extract_call(f"{template.format(**kwargs)}\n\n{payload}")
         if doc is None:
             break
-        llm_part = {k: doc.get(k) for k in cfg["llm_fields"]}
-        payload = f"INPUT RECORD:\n```json\n{json.dumps(llm_part, ensure_ascii=False, indent=2)}\n```"
-    return doc, usage_total, {"rolls": picked, "hidden_reasoning": hidden_reasoning}
+        payload = f"INPUT RECORD:\n```json\n{_record_json(entity_type, doc)}\n```"
+
+    # Only review what would otherwise be written. The reviewer is always a
+    # different model than the extractor, so nothing grades its own output.
+    if doc is not None and cfg["review_template"] and quality_check(entity_type, doc)[0]:
+        reviewer = reviewer_for_file(fname, model)
+        record = _record_json(entity_type, doc)
+        verdict, usage = call(
+            reviewer,
+            f"{cfg['review_template'].format(**kwargs)}\n\n{source}\n\nGENERATED RECORD:\n```json\n{record}\n```",
+            _review_verdict,
+        )
+        meta["review"] = {"model": reviewer, **verdict, "usage": usage}
+        if verdict["decision"] == "retry":
+            repair = cfg["repair_template"].format(**kwargs, review_reason=verdict["reason"], previous_record=record)
+            doc = extract_call(f"{cfg['templates'][0].format(**kwargs)}\n\n{repair}\n\n{source}")
+            meta["repaired"] = True
+    return doc, usage_total, meta
 
 
 # ---------------------------------------------------------------------------
@@ -464,7 +496,7 @@ def ping() -> None:
         start = time.perf_counter()
         try:
             raw, _, reasoning = _call_llm(model, "Reply with exactly: OK")
-            note = "  (hidden reasoning still present)" if reasoning else ""
+            note = "  (reasoned before answering)" if reasoning else ""
             print(f"{model}: OK in {time.perf_counter() - start:.1f}s -> {raw.strip()!r}{note}", flush=True)
         except Exception as e:
             print(f"{model}: FAILED after {time.perf_counter() - start:.1f}s -- {type(e).__name__}: {e}", flush=True)
@@ -573,17 +605,22 @@ def main():
                 "file": fname, "entity_type": entity_type, "model": model, "usage": usage,
                 "elapsed": round(time.perf_counter() - start, 2), **meta, "timestamp": timestamp,
             }
-            ok, reason = quality_check(entity_type, doc) if doc is not None else (False, "page doesn't qualify (model returned {})")
+            if doc is None:
+                ok, reason = False, ("repair judged the page non-qualifying (model returned {})" if meta.get("repaired")
+                                     else "page doesn't qualify (model returned {})")
+            else:
+                ok, reason = quality_check(entity_type, doc)
+            note = f" [repaired after review: {meta['review']['reason']}]" if meta.get("repaired") else ""
 
             if ok:
                 row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp}
                 append_csv_row(cfg["csv"], csv_fields(entity_type), row)
                 title = doc.get(cfg["title_field"])
                 record = {**base, "status": "written", "title": title, "metrics": record_metrics(entity_type, doc)}
-                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> WRITTEN ({entity_type}: {title})", flush=True)
+                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> WRITTEN ({entity_type}: {title}){note}", flush=True)
             else:
                 record = {**base, "status": "rejected", "reason": reason}
-                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> REJECTED  ({reason})", flush=True)
+                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> REJECTED  ({reason}){note}", flush=True)
 
             manifest.write(json.dumps(record) + "\n")
             manifest.flush()

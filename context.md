@@ -36,11 +36,11 @@ retried rather than silently skipped forever. `--concurrency N` runs multiple se
 via a bounded `asyncio.Semaphore`.
 
 ### Multi-LLM routing (`classifier_extractor/llm_pool.py`)
-Both `classify.py` and `extract.py` route each file to one of three SOCLAAS models rather than
+Both `classify.py` and `extract.py` route each file to one of the SOCLAAS models in `MODEL_POOL` rather than
 a single fixed model -- `model_for_file(filename, stage)` picks deterministically via a hash of
 `(stage, filename)`, so a given file always lands on the same model on a rerun, but `classify`
 and `extract` diversify independently (the model that labeled a page isn't necessarily the one
-that later extracted it). Every file still costs exactly one LLM call, not three -- this is
+that later extracted it). Every file still costs exactly one LLM call, not one per model -- this is
 about diversifying which model generates the pipeline's labels/extractions across the corpus,
 not per-document ensembling/voting.
 
@@ -57,16 +57,20 @@ the direct mitigation implemented here: synthetic data drawn from **multiple sou
 measurably mitigates distribution collapse and reduces self-preference bias versus single-source
 synthetic data.
 
-**`MODEL_POOL`** (from SOCLAAS's `client.models.list()`; non-text-generation and
-code/vision-specialized models excluded): `ornith1.5:35b` (this pipeline's original model, kept
-for continuity), `llama3.1:8b` (Meta family), `qwen3.6:27b` (Alibaba Qwen family). Three
-distinct architectural lineages, not three sizes of one family -- picking e.g. three Qwen
-variants would share correlated blind spots and defeat the point. Parameter count was a bad
-proxy for cost here: a same-probe token-usage check found `qwen3.5:9b` and `gemma4:26b` both
-defaulting to a verbose internal "thinking" trace (2062 and 1212 completion tokens on a trivial
-probe) despite being mid-sized, while `qwen3.6:27b`/`llama3.1:8b` answered directly in
-35-160 tokens -- `qwen3.5:9b` was dropped from the pool in favor of the larger-but-cheaper
-`qwen3.6:27b` as a result. Re-run that probe if SOCLAAS's model list changes.
+**`MODEL_POOL`** is every usable distinct chat model SOCLAAS serves (`client.models.list()`),
+widened from the original three so each model's performance can be compared on the same corpus:
+`ornith1.5:35b`, `llama3.1:8b`, `qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`, `gemma4:26b`.
+Left out: `bge-m3` (embeddings), `whisper-large-v3` (audio), `qwen3-coder-next`
+(code-specialised), aliases that would
+count a model twice (`default`, `coding`, `advanced-vision`, `test`, `ornith1.0:35b`, and
+`qwen3.6:27b` -- now an alias of `qwen3.8:27b`, so older records labelled `qwen3.6:27b` came
+from that model), and `qwen3.5:9b`, which can't have "thinking" switched off and so takes ~75s
+per extraction -- right at SOCLAAS's gateway cutoff, so its calls 502 whatever the client
+timeout. The earlier three-model pool deliberately picked three distinct families; the wider
+pool is half Qwen (3 of 6), trading some of that diversity for coverage. Parameter count is a
+bad proxy for cost: `gemma4:26b` can't have thinking switched off either and takes ~30-45s per
+extraction, versus 1-10s for the rest with it off. Both scripts leave thinking on for every
+model, with a 180s timeout. The labeller keeps its own three-model copy of the pool (see below).
 
 Which model produced a given record is recorded (`"model"` in `manifest.jsonl`/
 `extract_manifest.jsonl`, `extracted_by_model` in the CSVs) and surfaced in
@@ -131,9 +135,18 @@ difference is the prompts and `ENTITY_CONFIG`:
 - **Provider** (two passes, from a teammate's `showcase.py`): neutral fact extraction, then a
   first-person restyle, so styling can't add facts. The page is anonymised first (spaCy name
   masking if installed, plus gendered-pronoun neutralisation).
+- **Hirer review + repair** (from the teammate's `review_gig_content.py` + `gig_repair.py`): before
+  a hirer row is written, a *different* pool model (`llm_pool.reviewer_for_file`, never the
+  extractor, to avoid self-preference) checks it against the source and answers keep/retry,
+  flagging only clear defects (unsupported scope, catch-all roles, invented requirements). On
+  retry the extractor redoes its pass once with the reviewer's reason and its previous record
+  (`prompts/review_hirer.md`, `prompts/repair_hirer.md`); that result is final. The verdict is
+  stored in `extract_manifest.jsonl`. The teammate's `collect_gig_retries.py` and
+  `combine_gig_manifests.py` aren't ported: schema validation + retries already keep malformed
+  records out, and there's a single append-only manifest.
 Either prompt returns `{}` for a non-qualifying page (recorded as rejected). Per-file style rolls
-come from `prompts/extract_variations.json`, seeded by file name. Thinking mode is disabled per
-model by probing four known parameter shapes once per run. Code-side checks still apply after
+come from `prompts/extract_variations.json`, seeded by file name. Thinking mode is left on for
+every model (whether a record's model reasoned first is logged as `hidden_reasoning`). Code-side checks still apply after
 the schema check (a real gig title/description; >=2 substantive provider fields; no leaked name
 placeholder). The earlier `speciality_ids` matching and name-based provider dedup were dropped:
 the schemas have no field for them. Progress tracked in `docs/extract_manifest.jsonl` (with the

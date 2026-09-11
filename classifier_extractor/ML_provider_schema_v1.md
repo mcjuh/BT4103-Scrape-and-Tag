@@ -8,7 +8,7 @@
   "properties": {
     "extracted_by_model": {
       "type": "string",
-      "description": "SOCLAAS model that extracted this record: one of the three-model pool in classifier_extractor/llm_pool.py (ornith1.5:35b, llama3.1:8b, qwen3.6:27b)."
+      "description": "SOCLAAS model that extracted this record: one of MODEL_POOL in classifier_extractor/llm_pool.py."
     },
     "about_title": {
       "type": [

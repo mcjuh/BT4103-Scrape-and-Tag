@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Classify the pruned Markdown pages saved in docs/ (by crawl.py) using the
-SOC LLM. Each page is labeled by one of three models (see llm_pool.py for
-which three and why) -- model_for_file() decides which, deterministically,
+SOC LLM. Each page is labeled by one model from llm_pool.MODEL_POOL (see
+llm_pool.py for which and why) -- model_for_file() decides which, deterministically,
 per file.
 
 Based on marcus' triage.py (marcus' files/triage.py) -- same 4-way taxonomy
@@ -83,10 +83,10 @@ load_dotenv(ENV_PATH)
 client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
-    timeout=50,
+    timeout=180,  # thinking is left on; the slowest pool models take 30-75s (llm_pool.py)
 )
 # No single MODEL constant -- which model classifies a given page comes from
-# llm_pool.model_for_file(), one of three per MODEL_POOL. SOCLAAS_MODEL in
+# llm_pool.model_for_file(), one of MODEL_POOL. SOCLAAS_MODEL in
 # .env is no longer read here (kept in .env for other tooling/reference).
 
 # Prompt text lives in prompts/classify_triage.md, not inline here -- editing the taxonomy

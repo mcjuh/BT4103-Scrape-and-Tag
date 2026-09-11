@@ -18,8 +18,8 @@ collapse and reduces self-preference bias relative to single-source
 synthetic data.
 
 Design choices that follow from those two papers:
-- Each document is routed to exactly ONE model, never ensembled across all
-  three -- per-doc voting would triple API cost/latency for a labeling/
+- Each document is routed to exactly ONE model, never ensembled across the
+  whole pool -- per-doc voting would multiply API cost/latency for a labeling/
   extraction task that doesn't need it, and the papers' mitigation is
   about diversifying the CORPUS's source distribution, not about
   per-example consensus.
@@ -34,35 +34,38 @@ Design choices that follow from those two papers:
   (docs/manifest.jsonl and docs/providers.csv/hirers.csv) instead of one
   diversification decision reused twice.
 
-MODEL_POOL (from SOCLAAS's available models -- see `client.models.list()`;
-excluded: bge-m3/whisper/advanced-vision/qwen3-vl are non-text-generation,
-qwen3-coder-next/"coding" are code-specialized, "default"/"test" are
-unversioned aliases not suitable for a reproducible record of which model
-produced which output, and ornith1.0 is superseded by ornith1.5):
-- "ornith1.5:35b" -- this pipeline's original model, NUS/SOCLAAS's own
-  tuned model, kept for continuity and its already-proven judgment on this
-  exact task. ~200 completion tokens on a trivial classification probe.
-- "llama3.1:8b"   -- Meta family: a distinct training lineage from the
-  other two, and the cheapest of everything tested (~35 completion tokens
-  on the same probe).
-- "qwen3.6:27b"    -- Alibaba Qwen family: distinct lineage again, and
-  efficient (~150 completion tokens).
-Deliberately not three sizes of the same family (e.g. three Qwen
-variants), which would share correlated blind spots and defeat the point
-of diversifying at all. Parameter count turned out to be a bad proxy for
-actual cost here: a same-probe token-usage check across every non-vision
-text candidate found qwen3.5:9b (2062 completion tokens) and gemma4:26b
-(1212) both defaulting to a verbose internal "thinking" trace despite
-being mid-sized, while qwen3.6:27b, qwen3.8:27b, and llama3.1:8b answered
-directly in 35-160 tokens -- so qwen3.5:9b was dropped from the pool in
-favor of qwen3.6:27b even though it's larger, since it's actually cheaper
-per call in practice. Run this same probe again if SOCLAAS's model list
-changes before assuming a small model is a cheap one.
+MODEL_POOL is every distinct chat model SOCLAAS serves (from
+`client.models.list()`), so each one's output can be compared on the same
+corpus. Left out:
+- bge-m3 (embeddings) and whisper-large-v3 (audio transcription): not chat
+  models.
+- Aliases, which would just count a pool member twice: "default" ->
+  qwen3.6:35b; "coding" and "qwen3.6:27b" -> qwen3.8:27b; "advanced-vision"
+  and "test" -> qwen3-vl:32b; "ornith1.0:35b" -> ornith1.5:35b. Records
+  produced before the pool was widened carry "qwen3.6:27b" -- that's
+  qwen3.8:27b.
+- qwen3.5:9b: it can't switch "thinking" off, so an extraction takes ~75s,
+  right at SOCLAAS's own gateway cutoff -- its calls 502 whatever the
+  client timeout, so the files routed to it would error on every run.
+- qwen3-coder-next: code-specialised, not a fit for prose extraction.
+Rerun that listing if SOCLAAS's model list changes. classify.py and
+extract.py leave "thinking" on for every model. Parameter count is a bad
+proxy for cost: measured on a hirer page with thinking switched off where a
+model allowed it (gemma4:26b doesn't), gemma4:26b took ~30-45s and
+~1.5-2k completion tokens per extraction while the rest took 1-10s. With
+thinking on, expect the rest to be slower than that too.
 """
 
 import hashlib
 
-MODEL_POOL = ["ornith1.5:35b", "llama3.1:8b", "qwen3.6:27b"]
+MODEL_POOL = [
+    "ornith1.5:35b",     # NUS/SOCLAAS's own tuned model; this pipeline's original
+    "llama3.1:8b",       # Meta
+    "qwen3.8:27b",       # Alibaba Qwen (served before as the "qwen3.6:27b" alias)
+    "qwen3.6:35b",       # Alibaba Qwen, 35B-A3B mixture-of-experts
+    "qwen3-vl:32b",      # Alibaba Qwen, vision-language (text-only use here)
+    "gemma4:26b",        # Google
+]
 
 
 def model_for_file(filename: str, stage: str) -> str:
@@ -72,3 +75,13 @@ def model_for_file(filename: str, stage: str) -> str:
     always pairing the same file with the same model twice."""
     digest = hashlib.sha256(f"{stage}:{filename}".encode("utf-8")).hexdigest()
     return MODEL_POOL[int(digest, 16) % len(MODEL_POOL)]
+
+
+def reviewer_for_file(filename: str, author_model: str) -> str:
+    """Deterministic reviewer for a record `author_model` produced: always a
+    DIFFERENT pool model, so no model grades its own output (the
+    self-preference bias Schaffelder & Gatt measure). Hashed like
+    model_for_file, so a rerun picks the same reviewer."""
+    others = [m for m in MODEL_POOL if m != author_model]
+    digest = hashlib.sha256(f"review:{filename}".encode("utf-8")).hexdigest()
+    return others[int(digest, 16) % len(others)]

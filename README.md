@@ -48,9 +48,9 @@ pip install spacy
 python -m spacy download en_core_web_sm
 ```
 
-All LLM calls go to NUS SoC's SOCLAAS API. Each page is routed to one of three models from
-different families (`ornith1.5:35b`, `llama3.1:8b`, `qwen3.6:27b`; see `classifier_extractor/llm_pool.py`),
-and the model that produced each record is stored with it.
+All LLM calls go to NUS SoC's SOCLAAS API. Each page is routed to one of 6 distinct chat models
+SOCLAAS serves (see `MODEL_POOL` in `classifier_extractor/llm_pool.py`), and the model that
+produced each record is stored with it, so models can be compared on the same corpus.
 
 **Windows:** some crawled page names are long, so clone with long paths enabled:
 `git clone -c core.longpaths=true <repo-url>`.
@@ -76,8 +76,9 @@ Redirecting `crawl.py`'s output to `crawl_run.log` is what feeds the dashboard's
   `classifier_extractor/ML_provider_schema_v1.md` / `ML_hirer_schema_v1.md`, plus `source_file`,
   `classify_label`, and `extracted_at`. A page counts as extracted once its `source_file` has a row
   here.
-- `docs/extract_manifest.jsonl`: every extraction attempt, including rejections, style rolls, and
-  quality metrics.
+- `docs/extract_manifest.jsonl`: every extraction attempt, including rejections, style rolls,
+  quality metrics, and each hirer record's grounding review (reviewer model, keep/retry, reason,
+  whether it was repaired).
 - `docs/relevance_labels.jsonl` / `docs/relevance_scores.csv`: per-call and per-pair relevance
   scores from the labeller.
 
