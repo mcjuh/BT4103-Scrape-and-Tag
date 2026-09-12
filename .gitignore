@@ -8,3 +8,5 @@ __pycache__/
 *.pyc
 *.log
 docs/_crawl.pid
+
+.docx

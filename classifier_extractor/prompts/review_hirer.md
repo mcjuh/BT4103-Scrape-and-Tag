@@ -9,11 +9,13 @@ Return "retry" only for a clear, material defect:
 - the gig combines unrelated specialist disciplines into one catch-all engagement;
 - the gig adds unsupported matchable requirements, such as named technologies, certifications,
   qualifications, employment type, staffing level, location/onsite requirement, duration,
-  budget, or a specific deliverable.
+  budget, or a specific deliverable;
+- hire_title or hire_description names a real organisation, client, government body, division,
+  or team (source_company and source_company_team are metadata and may name the publisher).
 
 Return "keep" when the record is adequately grounded, even if its wording is imperfect or some
 generic framing is inferred. Do not flag it merely because the source is a completed project,
-the gig is concise, it names a real company, or the scope could be phrased better. When
+the gig is concise, or the scope could be phrased better. When
 uncertain, keep.
 
 Return ONLY valid JSON in exactly this format:

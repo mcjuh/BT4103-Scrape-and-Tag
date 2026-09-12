@@ -26,7 +26,8 @@ If a prose imperfection is specified (anything other than "none"):
   relevant_experience line.
 - Do not introduce any other grammatical, spelling, or punctuation errors.
 
-Never write the person's name or "[CANDIDATE_NAME]" in any field.
+Never write the person's name or "[CANDIDATE_NAME]" in any field. Keep the record anonymised: never
+reintroduce a company, client, division, or team name, and keep the input's generic descriptions.
 
 ACHIEVEMENT VERBS
 Prefer past-tense, telic verbs that name a bounded outcome: Led, Delivered, Launched, Built,

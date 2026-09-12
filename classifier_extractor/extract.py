@@ -27,16 +27,17 @@ ENTITY_CONFIG:
                       first-person profile, so styling can't add facts
                       (from showcase.py). The source is anonymised first:
                       names -> [CANDIDATE_NAME] (needs spaCy +
-                      en_core_web_sm; skipped with a warning if missing)
+                      en_core_web_sm; extract.py won't start without it)
                       and gendered pronouns -> neutral ones.
 
 HIRER records then get a grounding review (from review_gig_content.py and
 gig_repair.py): a DIFFERENT pool model (llm_pool.reviewer_for_file) reads
 the source and the record and answers keep/retry, flagging only clear
-defects (unsupported scope, catch-all roles, invented requirements). On
-retry the extracting model redoes its pass once, given the reviewer's
-reason and its previous record (prompts/repair_hirer.md); that result is
-final. The verdict is kept in the manifest. A review that fails outright
+defects (unsupported scope, catch-all roles, invented requirements, named
+organisations). On retry the extracting model redoes its pass once, given
+the reviewer's reason and its previous record (prompts/repair_hirer.md);
+the same reviewer checks the rewrite once more, and a rewrite that's still
+flagged is rejected. The verdict is kept in the manifest. A review that fails outright
 errors the whole file, so it's retried from scratch next run.
 
 Either prompt may return {} when the page doesn't qualify (no concrete gig
@@ -44,7 +45,7 @@ Either prompt may return {} when the page doesn't qualify (no concrete gig
 
 Also carried over from gig.py/showcase.py:
 - Per-file style rolls (prompts/extract_variations.json): hirer detail
-  tier; provider title style, achievement grammar, and a rare deliberate
+  tier and voice/opening; provider title style, achievement grammar, and a rare deliberate
   prose imperfection -- so synthetic records don't all converge on one
   voice. Seeded by file name, so a rerun rolls the same way.
 - A per-record flag (hidden_reasoning) for whether the model reasoned
@@ -200,7 +201,7 @@ try:
     import spacy
     _NLP = spacy.load("en_core_web_sm", exclude=["tagger", "parser", "lemmatizer", "attribute_ruler"])
 except Exception:
-    _NLP = None  # pronouns are still neutralised; names just aren't masked
+    _NLP = None  # main() refuses to start without it
 
 PRONOUN_MAP = [
     (r"\bhimself\b", "themself"), (r"\bHimself\b", "Themself"),
@@ -213,6 +214,17 @@ PRONOUN_MAP = [
     (r"\bher\b", "them"), (r"\bHer\b", "Them"),
 ]
 LEFTOVER_PRONOUN_RE = re.compile(r"\b(he|him|his|she|her|hers|himself|herself)\b", re.IGNORECASE)
+
+
+def mask_publisher(text: str, fname: str) -> str:
+    """Swap the publishing firm's names (its domain stem plus
+    PUBLISHER_ALIASES) for "the firm" before the model reads the page. A bio
+    names its firm in nearly every sentence, so asking the model to leave it
+    out isn't enough on its own."""
+    stem = fname.split("__")[0].rsplit(".", 1)[0]
+    for name in sorted([stem, *PUBLISHER_ALIASES.get(stem, [])], key=len, reverse=True):
+        text = re.sub(rf"(?<!\w){re.escape(name)}(?!\w)", "the firm", text, flags=re.IGNORECASE)
+    return text
 
 
 def anonymise(text: str) -> str:
@@ -238,8 +250,11 @@ def _shows_reasoning(response) -> bool:
     return "<think" in content.lower() or bool(extra.get("reasoning_content") or extra.get("reasoning"))
 
 
-def _call_llm(model: str, content: str) -> tuple:
-    response = client.chat.completions.create(model=model, messages=[{"role": "user", "content": content}])
+def _call_llm(model: str, content: str, json_mode: bool = True) -> tuple:
+    # JSON mode stops malformed JSON (llama3.1 otherwise drops commas and
+    # quotes); every pool model accepts it. Only --ping asks for plain text.
+    extra = {"response_format": {"type": "json_object"}} if json_mode else {}
+    response = client.chat.completions.create(model=model, messages=[{"role": "user", "content": content}], **extra)
     usage = {}
     if response.usage:
         usage = {
@@ -265,6 +280,72 @@ def _parse_json(raw_output: str) -> dict:
     return data
 
 
+# Distinctive details from the prompts' own examples. A record containing one
+# copied an example instead of the source (seen: llama3.1 pasted the example
+# patent numbers and $5M insurance engagement into a real person's profile).
+PROMPT_EXAMPLE_LEAKS = (
+    "9921894", "10203941", "USPTO patents", "European insurance carrier",
+    "Computer Weekly", "40 services off mainframe", "from 3 days to 4 hours",
+)
+
+# Records are anonymised: the text a gig or profile shows must not name the
+# firm that published the page. A domain's own stem (e.g. "kroll") is always
+# checked; these are the other names a publisher goes by.
+PUBLISHER_ALIASES = {
+    "alvarezandmarsal": ["Alvarez & Marsal", "Alvarez and Marsal"],
+    "bcg": ["Boston Consulting Group"],
+    "erm": ["Environmental Resources Management"],
+    "ey": ["Ernst & Young"],
+    "fticonsulting": ["FTI Consulting", "FTI"],
+    "grantthornton": ["Grant Thornton"],
+    "pwc": ["PricewaterhouseCoopers"],
+    "publicissapient": ["Publicis Sapient"],
+    "rsmus": ["RSM"],
+    "westmonroe": ["West Monroe"],
+}
+ORG_FIELDS = ("source_company", "source_company_team")  # metadata, allowed to name the publisher
+
+
+def _join_items(items: list):
+    """Models often itemise a multi-line field (relevant_experience) as a
+    JSON list or dict; the schema wants one string, so join it as "- "
+    lines. For a dict: filled values become "key: value" lines; with no
+    values, keys are kept only if they read as items (sentences, e.g.
+    {"- Chaired a charity committee.": {}}), not labels (e.g.
+    {"budget": null, "timeline": null} -> None)."""
+    if isinstance(items, dict):
+        filled = [(k, v) for k, v in items.items() if isinstance(v, str) and v.strip()]
+        if filled:
+            items = [f"{k}: {v.strip()}" for k, v in filled]
+        else:
+            items = [k for k in items if " " in k.strip() and len(k.strip()) >= 20]
+    lines = []
+    for s in items:
+        if isinstance(s, dict):  # e.g. [{"achievement": "..."}]
+            s = next((v for v in s.values() if isinstance(v, str)), "")
+        s = str(s).strip().lstrip("-•").strip()
+        if s:
+            lines.append(f"- {s}")
+    return "\n".join(lines) or None
+
+
+def _named_org(fname: str, doc: dict):
+    """The first publisher name the record's shown text uses, or None. The
+    publisher comes from the source file's domain (plus PUBLISHER_ALIASES)
+    and the record's own source_company."""
+    stem = fname.split("__")[0].rsplit(".", 1)[0]
+    names = [stem, *PUBLISHER_ALIASES.get(stem, [])]
+    if isinstance(doc.get("source_company"), str):
+        names.append(doc["source_company"])
+    text = " ".join(v for k, v in doc.items()
+                    if isinstance(v, str) and k not in ORG_FIELDS and k not in CODE_FIELDS)
+    for name in names:
+        name = name.strip()
+        if name and re.search(rf"(?<!\w){re.escape(name)}(?!\w)", text, re.IGNORECASE):
+            return name
+    return None
+
+
 def _entity_doc(data: dict, entity_type: str, fname: str, model: str):
     """A parsed extraction response -> schema-valid document, or None for {}.
     Raises on a schema mismatch, so the caller retries it like any failure."""
@@ -272,6 +353,7 @@ def _entity_doc(data: dict, entity_type: str, fname: str, model: str):
         return None
     cfg = ENTITY_CONFIG[entity_type]
     code_values = {"source_file": fname, "extracted_by_model": model}
+    data = {k: (_join_items(v) if isinstance(v, (list, dict)) else v) for k, v in data.items()}
     # blank -> null, so a blank optional field reads as "not stated" and a
     # blank required one fails the schema check instead of being written
     data = {k: (None if isinstance(v, str) and not v.strip() else v) for k, v in data.items()}
@@ -279,6 +361,13 @@ def _entity_doc(data: dict, entity_type: str, fname: str, model: str):
     errors = [e.message for e in cfg["validator"].iter_errors(doc)]
     if errors:
         raise ValueError(f"schema mismatch: {errors[0]}")
+    text = " ".join(v for v in doc.values() if isinstance(v, str)).lower()
+    leak = next((s for s in PROMPT_EXAMPLE_LEAKS if s.lower() in text), None)
+    if leak:
+        raise ValueError(f"copied a prompt example ({leak!r}) instead of the source")
+    org = _named_org(fname, doc)
+    if org:
+        raise ValueError(f"names {org!r}; organisations must be described generically")
     return doc
 
 
@@ -320,14 +409,15 @@ def _record_json(entity_type: str, doc: dict) -> str:
 
 def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple:
     """Runs the entity type's prompt passes in order, then, if it has a
-    review prompt, the grounding review and at most one repair. Returns
+    review prompt, the grounding review, at most one repair, and a second
+    review of that repair. Returns
     (document or None if the page doesn't qualify, the extracting model's
     usage, meta). The reviewer's own usage is kept in meta["review"]."""
     cfg = ENTITY_CONFIG[entity_type]
     rolls, picked = roll_variations(entity_type, fname)
     kwargs = prompt_kwargs(entity_type, fname, rolls)
     if cfg["anonymise"]:
-        text = anonymise(text)
+        text = anonymise(mask_publisher(text, fname))
     validate = functools.partial(_entity_doc, entity_type=entity_type, fname=fname, model=model)
 
     source = f"SOURCE MATERIAL:\n```\n{text[:MAX_CHARS]}\n```"
@@ -356,17 +446,25 @@ def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple
     # different model than the extractor, so nothing grades its own output.
     if doc is not None and cfg["review_template"] and quality_check(entity_type, doc)[0]:
         reviewer = reviewer_for_file(fname, model)
-        record = _record_json(entity_type, doc)
-        verdict, usage = call(
-            reviewer,
-            f"{cfg['review_template'].format(**kwargs)}\n\n{source}\n\nGENERATED RECORD:\n```json\n{record}\n```",
-            _review_verdict,
-        )
-        meta["review"] = {"model": reviewer, **verdict, "usage": usage}
-        if verdict["decision"] == "retry":
-            repair = cfg["repair_template"].format(**kwargs, review_reason=verdict["reason"], previous_record=record)
+
+        def review(rec: dict) -> dict:
+            prompt = (f"{cfg['review_template'].format(**kwargs)}\n\n{source}\n\n"
+                      f"GENERATED RECORD:\n```json\n{_record_json(entity_type, rec)}\n```")
+            verdict, usage = call(reviewer, prompt, _review_verdict)
+            return {"model": reviewer, **verdict, "usage": usage}
+
+        meta["review"] = review(doc)
+        if meta["review"]["decision"] == "retry":
+            repair = cfg["repair_template"].format(
+                **kwargs, review_reason=meta["review"]["reason"], previous_record=_record_json(entity_type, doc))
             doc = extract_call(f"{cfg['templates'][0].format(**kwargs)}\n\n{repair}\n\n{source}")
             meta["repaired"] = True
+            # The rewrite is reviewed once more; one that's still flagged isn't
+            # written (seen: a repair that put the client's name back in).
+            if doc is not None and quality_check(entity_type, doc)[0]:
+                meta["review_after_repair"] = review(doc)
+                if meta["review_after_repair"]["decision"] == "retry":
+                    doc = None
     return doc, usage_total, meta
 
 
@@ -498,7 +596,7 @@ def ping() -> None:
     for model in MODEL_POOL:
         start = time.perf_counter()
         try:
-            raw, _, reasoning = _call_llm(model, "Reply with exactly: OK")
+            raw, _, reasoning = _call_llm(model, "Reply with exactly: OK", json_mode=False)
             note = "  (reasoned before answering)" if reasoning else ""
             print(f"{model}: OK in {time.perf_counter() - start:.1f}s -> {raw.strip()!r}{note}", flush=True)
         except Exception as e:
@@ -529,10 +627,9 @@ def main():
 
     check_csv_headers()
     if _NLP is None:
-        print(
-            "NOTE: spaCy/en_core_web_sm not installed -- provider pages get pronoun neutralisation "
-            "only, names are not masked (pip install spacy && python -m spacy download en_core_web_sm)",
-            flush=True,
+        raise SystemExit(
+            "spaCy/en_core_web_sm isn't installed, so person names on provider pages can't be masked. "
+            "Install it first: pip install spacy && python -m spacy download en_core_web_sm"
         )
 
     already_done = load_extract_progress()
@@ -610,8 +707,13 @@ def main():
                 "elapsed": elapsed, **meta, "timestamp": timestamp,
             }
             if doc is None:
-                ok, reason = False, ("repair judged the page non-qualifying (model returned {})" if meta.get("repaired")
-                                     else "page doesn't qualify (model returned {})")
+                ok = False
+                if meta.get("review_after_repair", {}).get("decision") == "retry":
+                    reason = f"still flagged after repair: {meta['review_after_repair']['reason']}"
+                elif meta.get("repaired"):
+                    reason = "repair judged the page non-qualifying (model returned {})"
+                else:
+                    reason = "page doesn't qualify (model returned {})"
             else:
                 ok, reason = quality_check(entity_type, doc)
             note = f" [repaired after review: {meta['review']['reason']}]" if meta.get("repaired") else ""

@@ -18,20 +18,31 @@ in exactly this shape:
 {skeleton}
 
 hire_title
-State the role and core task plainly, in at most 25 words. Do not use generic filler such as
-"Help Needed" or "Project Opportunity."
+At most 25 words, stated plainly. Name either the role wanted or the task itself, whichever reads
+more naturally for this gig. No generic filler such as "Help Needed" or "Project Opportunity", and
+don't default to the pattern "<Role> for <Project>".
 
 hire_description
-Write as the original hirer, before work begins. State the essential need, then include only the
-source-backed scope, deliverables, tools, standards, and constraints. Choose the most natural
-compact form:
-- For simple work, use one short paragraph.
-- When there are several distinct requirements, use one short opening followed by 2-5 concise
-  bullet points.
+Write it the way a real client posts work on a freelance marketplace, before the work begins:
+plain, specific, and slightly informal. State the need, then only the source-backed scope,
+deliverables, tools, standards, and constraints.
+
+Voice and opening: {voice_instruction}
+
+Choose the most natural compact form:
+- For simple work, one short paragraph.
+- When there are several distinct requirements, a short opening followed by 2-5 concise bullet
+  points.
 - Do not add headings merely to create structure.
-- Mention each requirement once. Use bullets rather than restating the same task in different
-  sentences.
+- Mention each requirement once; use bullets rather than restating a task in different words.
 Length: {detail_instruction} Never more than 220 words.
+
+Sound like a person writing a post, not a brochure:
+- Vary sentence length and structure, and don't start neighbouring sentences the same way.
+- Use plain verbs and everyday words. Avoid stock phrases such as "comprehensive", "robust",
+  "cutting-edge", "end-to-end", "seamless", "leverage", "drive transformation", "seasoned",
+  "we are seeking", and "help us".
+- No sales pitch, no praise of the organisation, and no closing call to action.
 
 hire_description_additional_notes
 Budget, timeline, seniority, or other constraints ONLY if the source explicitly states them.
@@ -61,9 +72,10 @@ outcomes. When in doubt, omit a detail rather than infer it.
   states them.
 - Do not add historic project dates, completed work, prior failures, remedial work, new
   incidents, urgency, or business problems unless explicitly established as the original need.
-- Never identify the real company in the source as the hirer or client inside hire_title or
-  hire_description. Refer to it generically when necessary. Keep named tools, standards, and
-  technologies only when they are genuine source-backed requirements.
+- Anonymise hire_title and hire_description: never name the publishing firm, the client, or any
+  other company, government body, division, practice, or team. Use a generic description instead
+  (e.g. "a regional insurer", "a county government", "the finance operations team"). Keep named
+  tools, standards, and technologies only when they are genuine source-backed requirements.
 - Keep the scope realistic for one specialist or a small focused engagement.
 - Prefer concrete requirements over background, promotional language, or repeated explanations
   of why the work matters.

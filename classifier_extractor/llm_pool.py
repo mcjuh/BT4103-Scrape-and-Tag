@@ -48,6 +48,8 @@ corpus. Left out:
   right at SOCLAAS's own gateway cutoff -- its calls 502 whatever the
   client timeout, so the files routed to it would error on every run.
 - qwen3-coder-next: code-specialised, not a fit for prose extraction.
+- ornith1.5:35b: the pipeline's original model, dropped at the team's
+  request. Records extracted before then still carry it.
 - gemma4:26b: it can't switch "thinking" off either; an extraction took
   ~30-45s and ~1.5-2k completion tokens, versus 1-10s for the rest.
 Rerun that listing if SOCLAAS's model list changes. classify.py and
@@ -57,7 +59,6 @@ extract.py leave "thinking" on for every model.
 import hashlib
 
 MODEL_POOL = [
-    "ornith1.5:35b",     # NUS/SOCLAAS's own tuned model; this pipeline's original
     "llama3.1:8b",       # Meta
     "qwen3.8:27b",       # Alibaba Qwen (served before as the "qwen3.6:27b" alias)
     "qwen3.6:35b",       # Alibaba Qwen, 35B-A3B mixture-of-experts

@@ -40,15 +40,14 @@ crawl4ai-setup                     # installs the browser crawl4ai drives
 cp .env.example .env               # then set SOCLAAS_API_KEY
 ```
 
-Optional, for masking person names on provider pages before extraction (pronouns are neutralised
-either way):
+Required by `extract.py`, which masks person names on provider pages before the model sees them:
 
 ```
 pip install spacy
 python -m spacy download en_core_web_sm
 ```
 
-All LLM calls go to NUS SoC's SOCLAAS API. Each page is routed to one of 5 distinct chat models
+All LLM calls go to NUS SoC's SOCLAAS API. Each page is routed to one of 4 distinct chat models
 SOCLAAS serves (see `MODEL_POOL` in `classifier_extractor/llm_pool.py`), and the model that
 produced each record is stored with it, so models can be compared on the same corpus.
 
@@ -63,7 +62,7 @@ From the repo root:
 python scrapper/crawl.py > crawl_run.log          # --start/--end pick a seed range, --concurrency N
 python classifier_extractor/classify.py
 python classifier_extractor/extract.py            # --limit 20 to try a batch first, --ping to check the models
-python labeller/label.py --max-pairs 50           # 6 LLM calls per pair
+python labeller/label.py --max-pairs 50           # 7 LLM calls per pair
 python monitor/dashboard.py                       # then open http://localhost:8765
 ```
 

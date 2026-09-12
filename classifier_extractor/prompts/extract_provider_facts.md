@@ -7,6 +7,16 @@ The source has been anonymised where possible: the person's name may appear as
 "[CANDIDATE_NAME]", and gendered pronouns have been replaced with neutral ones. Never write the
 person's name or "[CANDIDATE_NAME]" in any field, and do not guess or mention gender.
 
+ANONYMISATION
+The profile must not identify the person or the organisations they worked with. In every field:
+- Replace company, employer, client, and partner names with a generic description of that kind of
+  organisation (e.g. "a Big Four professional services firm", "a global strategy consultancy",
+  "a national financial regulator").
+- Replace division, practice, team, and programme names with what they do (e.g. "the firm's risk
+  assurance practice", "a national sports team").
+- Keep technologies, tools, methods, standards, and certifications (e.g. SAP S/4HANA, IFRS 16), since
+  they describe skills rather than identify anyone.
+
 If the source is not about one specific individual's own career (for example a team page, a
 company page, or a list of several people), return exactly: {{}}
 
@@ -50,6 +60,9 @@ BAD:  "Collaborated with global insurance clients on transformation projects."
 
 GOOD: "Named to Computer Weekly's top 50 most influential women in IT three consecutive years."
 BAD:  "Developed expertise in insurance technology and cyber security."
+
+These examples only show the bar. They are not about this person: never copy their details into the
+record.
 
 The following are NEVER achievements, even when they feel specific:
 - Job titles, roles, responsibilities, or scope statements

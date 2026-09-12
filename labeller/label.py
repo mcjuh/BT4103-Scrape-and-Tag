@@ -25,9 +25,9 @@ rg_3l is the base for rg_3l_multi because it tied with rg_s04 as the
 paper's best variant. Approaches 1-4 use the pair's one routed model (a
 hash of the pair, same idea as classifier_extractor/llm_pool.py), so the
 four prompts are compared on the same model for any given pair while the
-corpus as a whole still spreads across all three. rg_3l_multi reuses the
-routed model's rg_3l call and adds the other two models -- 6 calls per
-pair in total, not 7.
+corpus as a whole still spreads across the whole pool. rg_3l_multi reuses
+the routed model's rg_3l call and adds the other three models -- 7 calls
+per pair in total, not 8.
 
 Every score is normalised to 0-1 (expected relevance / highest label
 value) so the five approaches are directly comparable.
@@ -67,9 +67,9 @@ LABELS_PATH = DOCS_DIR / "relevance_labels.jsonl"  # one line per LLM call
 SCORES_CSV = DOCS_DIR / "relevance_scores.csv"  # one row per pair, rebuilt each run
 
 # Same pool as classifier_extractor/llm_pool.py (see its docstring for why
-# these three). Duplicated rather than imported: roles only talk to each
+# these four). Duplicated rather than imported: roles only talk to each
 # other through docs/, never through Python imports across role folders.
-MODEL_POOL = ["ornith1.5:35b", "llama3.1:8b", "qwen3.6:27b"]
+MODEL_POOL = ["llama3.1:8b", "qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 
 LABEL_TEMPLATE = (PROMPTS_DIR / "rg_labels.md").read_text(encoding="utf-8").strip()
 SCALE_TEMPLATE = (PROMPTS_DIR / "rg_scale.md").read_text(encoding="utf-8").strip()
@@ -90,9 +90,9 @@ TOP_LOGPROBS = 20
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
 MAX_CONSECUTIVE_ERRORS = 5
-# ornith1.5 and qwen3.6 otherwise "think" first, so the first output token --
-# the one whose logprobs get scored -- is reasoning text, not the label.
-# Probed: with this flag all three pool models emit the label as token 0
+# Models that "think" first would otherwise make the first output token --
+# the one whose logprobs get scored -- reasoning text, not the label.
+# Probed: with this flag all four pool models emit the label as token 0
 # with a real distribution over the alternatives.
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
@@ -327,7 +327,7 @@ def main():
     parser.add_argument(
         "--max-pairs", type=int, default=50,
         help="score at most this many (gig, provider) pairs, hirer-major (default: 50). "
-             "Each pair costs up to 6 LLM calls; already-recorded calls are skipped.",
+             "Each pair costs up to 7 LLM calls; already-recorded calls are skipped.",
     )
     args = parser.parse_args()
 

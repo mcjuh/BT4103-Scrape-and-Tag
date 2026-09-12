@@ -59,16 +59,16 @@ synthetic data.
 
 **`MODEL_POOL`** is every usable distinct chat model SOCLAAS serves (`client.models.list()`),
 widened from the original three so each model's performance can be compared on the same corpus:
-`ornith1.5:35b`, `llama3.1:8b`, `qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`.
-Left out: `bge-m3` (embeddings), `whisper-large-v3` (audio), `qwen3-coder-next`
+`llama3.1:8b`, `qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`.
+Left out: `ornith1.5:35b` (the original model, dropped at the team's request), `bge-m3` (embeddings), `whisper-large-v3` (audio), `qwen3-coder-next`
 (code-specialised), `gemma4:26b` (can't switch thinking off; ~30-45s per extraction), aliases that would
 count a model twice (`default`, `coding`, `advanced-vision`, `test`, `ornith1.0:35b`, and
 `qwen3.6:27b` -- now an alias of `qwen3.8:27b`, so older records labelled `qwen3.6:27b` came
 from that model), and `qwen3.5:9b`, which can't have "thinking" switched off and so takes ~75s
 per extraction -- right at SOCLAAS's gateway cutoff, so its calls 502 whatever the client
 timeout. The earlier three-model pool deliberately picked three distinct families; the wider
-pool is Qwen-heavy (3 of 5), trading some of that diversity for coverage. Both scripts leave
-thinking on for every model, with a 180s timeout. The labeller keeps its own three-model copy of the pool (see below).
+pool spans only two families (Meta and Qwen; 3 of 4 are Qwen), trading much of that diversity away. Both scripts leave
+thinking on for every model, with a 180s timeout. The labeller keeps its own copy of the same four models (see below).
 
 Which model produced a given record is recorded (`"model"` in `manifest.jsonl`/
 `extract_manifest.jsonl`, `extracted_by_model` in the CSVs) and surfaced in
@@ -86,7 +86,7 @@ script's:
 - `extract_provider_facts.md` + `extract_provider_style.md` -- extract.py's two provider passes:
   neutral facts first, then a first-person restyle of those facts.
 - `extract_variations.json` -- the per-file style rolls those prompts draw on (hirer detail
-  tier; provider title style, achievement grammar, rare prose imperfection), with weights.
+  tier and voice/opening; provider title style, achievement grammar, rare prose imperfection), with weights.
   Each roll fills `{<roll>}` / `{<roll>_instruction}`.
   `{field_block}` / `{skeleton}` are generated from the ML schema files, not written by hand,
   so the schemas stay the one place that defines the fields.
@@ -132,13 +132,19 @@ difference is the prompts and `ENTITY_CONFIG`:
   hirer could have posted, grounded in the source, never naming the real company in the gig text.
 - **Provider** (two passes, from a teammate's `showcase.py`): neutral fact extraction, then a
   first-person restyle, so styling can't add facts. The page is anonymised first (spaCy name
-  masking if installed, plus gendered-pronoun neutralisation).
+  masking, required, plus gendered-pronoun neutralisation).
+- **Anonymisation** (both types): the prompts replace company, client, division and team names with
+  generic descriptions; provider pages also have the publisher's name swapped for "the firm" before
+  the model reads them; and a record whose shown text names the page's publisher (its domain or a
+  known alias, `PUBLISHER_ALIASES`) is rejected and retried. `source_company`/`source_company_team`
+  are metadata and may name it.
 - **Hirer review + repair** (from the teammate's `review_gig_content.py` + `gig_repair.py`): before
   a hirer row is written, a *different* pool model (`llm_pool.reviewer_for_file`, never the
   extractor, to avoid self-preference) checks it against the source and answers keep/retry,
   flagging only clear defects (unsupported scope, catch-all roles, invented requirements). On
   retry the extractor redoes its pass once with the reviewer's reason and its previous record
-  (`prompts/review_hirer.md`, `prompts/repair_hirer.md`); that result is final. The verdict is
+  (`prompts/review_hirer.md`, `prompts/repair_hirer.md`); the same reviewer checks the rewrite
+  once more, and one that's still flagged is rejected. The verdict is
   stored in `extract_manifest.jsonl`. The teammate's `collect_gig_retries.py` and
   `combine_gig_manifests.py` aren't ported: schema validation + retries already keep malformed
   records out, and there's a single append-only manifest.
@@ -156,11 +162,11 @@ in `providers.csv` (the "document"), following Zhuang et al., ["Beyond Yes and N
 Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance Labels"](https://arxiv.org/abs/2310.14122)
 (arXiv:2310.14122). Five approaches per pair: the paper's four fine-grained prompts (`rg_2l`,
 `rg_3l`, `rg_4l`, `rg_s04`) on the pair's one hash-routed model, plus `rg_3l_multi` -- RG-3L on
-all three pool models, averaged. Scores are expected relevance from label logprobs, normalised
+all four pool models, averaged. Scores are expected relevance from label logprobs, normalised
 to 0-1. Calls must disable thinking (`chat_template_kwargs.enable_thinking=False`), or
-ornith1.5/qwen3.6 score their reasoning instead of the answer. Output: `docs/relevance_labels.jsonl`
+models that reason first score their reasoning instead of the answer. Output: `docs/relevance_labels.jsonl`
 (per call) and `docs/relevance_scores.csv` (per pair). Replaces the earlier plan of matching by
-`speciality_ids` overlap / embeddings. Run-once with `--max-pairs` (6 calls per pair). See
+`speciality_ids` overlap / embeddings. Run-once with `--max-pairs` (7 calls per pair). See
 `labeller/README.md`.
 
 ### `monitor/dashboard.py` -- centralised monitoring
@@ -207,5 +213,5 @@ other script -- it only ever reads their output files, never writes to them.
 1. Let `extract.py` work through the full `provider`/`hirer`/`uncertain` backlog.
 2. Find real people/leadership hub URLs for BCG, KPMG, Deloitte, Accenture, if pursuing that
    gap further.
-3. Run `labeller/label.py` over more pairs once `hirers.csv` has rows (6 LLM calls per pair --
+3. Run `labeller/label.py` over more pairs once `hirers.csv` has rows (7 LLM calls per pair --
    see `labeller/README.md` for cost).
