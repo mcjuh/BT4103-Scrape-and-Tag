@@ -1,0 +1,52 @@
+<!-- Source: https://www.axiomlaw.com/resources/press-releases/axiom-legora-one-year-of-ai-enabled-legal-services | Title: Axiom and Legora Mark One Year of Delivering AI-Enabled Legal Services at Scale for In-House Legal Teams | Seed: https://www.axiomlaw.com/ (Axiom) -->
+
+* [Corporate & Commercial](https://www.axiomlaw.com/practice-areas/corporate-commercial)
+  * [Data Privacy & Cybersecurity](https://www.axiomlaw.com/practice-areas/data-privacy-cybersecurity)
+  * [More](javascript:;)
+    * [Finance & Capital Markets](https://www.axiomlaw.com/practice-areas/finance-capital-markets)
+    * [Healthcare & Life Sciences](https://www.axiomlaw.com/practice-areas/healthcare-life-sciences)
+    * [Legal Support Professionals](https://www.axiomlaw.com/practice-areas/legal-support)
+    * [Litigation & Dispute Resolution](https://www.axiomlaw.com/practice-areas/litigation-dispute-resolution)
+    * [Regulatory & Compliance](https://www.axiomlaw.com/practice-areas/regulatory-compliance)
+
+
+[ Free CLE Sept. 24: Put Legal AI into Practice ](https://www.axiomlaw.com/resources/continuing-legal-education/moving-from-pilot-to-practice)
+# Axiom and Legora Mark One Year of Delivering AI-Enabled Legal Services at Scale for In-House Legal Teams
+June 17, 2026 
+_Legora and Axiom combine advanced legal AI technology with flexible, AI-enabled legal talent to help in-house legal teams drive measurable results across high-volume legal work_
+**NEW YORK and STOCKHOLM — June 17, 2026 —** [Axiom](https://www.axiomlaw.com/) and [Legora](https://legora.com/?gclid=CjwKCAjwt7XQBhBkEiwAtStpp1z7ym0muLeiOSYXK6uTSkA4O3rGvo34T6lMBsRVeOrWGiwszEbILRoCHL8QAvD_BwE&campaignid=22632109411&adgroupid=180295917573&adid=783219712965&device=c&placement=&utm_source=google&utm_medium=cpc&utm_campaign=S_US_Brand_Dt-XX&utm_content=&utm_term=legora%20ai&hsa_acc=6341003195&hsa_cam=22632109411&hsa_grp=180295917573&hsa_ad=783219712965&hsa_src=g&hsa_tgt=kwd-2446984519834&hsa_kw=legora%20ai&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22632109411&gbraid=0AAAAA-5K9xxv6DmuTJejEoiHdALnAGQe7&gclid=CjwKCAjwt7XQBhBkEiwAtStpp1z7ym0muLeiOSYXK6uTSkA4O3rGvo34T6lMBsRVeOrWGiwszEbILRoCHL8QAvD_BwE), the agentic AI platform for legal professionals, today marked one year since Legora became part of [Axiom’s AI Tech+Talent](https://www.axiomlaw.com/solutions/tech-plus-talent) portfolio. Shared client results across healthcare, aerospace, real estate, and manufacturing show that the combination of Legora's purpose-built legal AI and Axiom's AI-enabled legal talent is delivering faster turnarounds, cleaner data, and significant cost savings for in-house legal teams managing high-volume legal work.
+"Legal leaders are done waiting for AI to prove itself. They need solutions that are already driving measurable results on real matters," said [David McVeigh](https://www.axiomlaw.com/about-us/our-team), Chief Executive Officer at Axiom. "Legora has emerged as one of the most innovative platforms in legal technology, and together we’re helping clients improve speed, efficiency, and business impact by pairing Legora with Axiom’s flexible, AI-enabled legal talent."
+The results are clear: organizations across multiple sectors are using Axiom and Legora to streamline complex, high-volume legal workflows with greater speed, accuracy, and efficiency while reducing spend and minimizing the need to expand internal teams. Across shared engagements, clients have cut review timelines from months to weeks, reduced legal resource requirements, improved data quality, and achieved meaningful savings when compared with traditional delivery models.
+  * [**Global Manufacturer**](https://www.axiomlaw.com/resources/case-studies/ai-lawyer-bulk-contract-review)**:** Axiom deployed an AI-enabled legal team that used Legora to review more than 16,000 legacy agreements ahead of a major corporate transaction, identifying roughly 1,500 contracts with change-in-control language and creating 185 contract families tied to unfavorable terms. The client cut the review timeline from one year to five weeks — a roughly 90% reduction — while saving $477,000 compared to a non-AI-enabled team solution and gaining structured, human-validated contract data to support negotiations with confidence.
+  * [**Aerospace Technology Company**](https://www.axiomlaw.com/resources/case-studies/contracts-platform-migration-with-tech-talent-aerospace-company)**:** Axiom deployed Legora alongside an AI-enabled legal professional with Ironclad expertise to categorize, upload, and extract key metadata from 1,400 contracts into the client’s Ironclad CLM system. The engagement helped the client complete a long-overdue CMS overhaul without requiring a single in-house resource, while delivering 20-30% higher accuracy than the client’s own CMS AI tool and giving the legal team a faster, more reliable path to usable contract data inside its CLM environment.
+  * [**Real Estate Manager**](https://www.axiomlaw.com/resources/case-studies/real-estate-contracts-digitized-ai-lawyers)**:** Axiom deployed Legora to digitize and extract key data from 2,000 leases across a newly acquired portfolio of 93 commercial properties, saving over half a million dollars compared to a non-AI solution and cutting per-lease review time by more than half. The engagement also reduced the legal resources required from five lawyers to one — an 80% reduction in staffing needs for the review.
+  * [**Fortune 10 Healthcare Company**](https://www.axiomlaw.com/resources/case-studies/fortune-10-healthcare-cuts-legal-spend)**:** Axiom deployed an AI-enabled senior lawyer who used Legora to process 344 supplier contracts for a Fortune 10 healthcare company, migrating hundreds of agreements ahead of a product launch. The client saved 70% compared to the cost of sending the work to outside counsel, completed the project with properly categorized agreements, and finished the work in days rather than weeks.
+
+
+#####  AI-enabled legal teams turn [bulk contract analysis into real business insight](https://www.axiomlaw.com/solutions/tech-plus-talent/legora).
+Axiom’s and Legora’s shared in-house clients gained immediate visibility into obligations, risks, commercial terms, and transaction-critical contract data at a speed and cost that traditional outside counsel cannot match. By combining Axiom’s AI-enabled legal talent with Legora’s purpose-built legal AI, they compressed review timelines, reduced manual legal effort, and moved high-volume legal work forward with greater confidence and control.
+“In-house legal teams are managing more work volume, under more pressure, than ever before," said Max Junestrand, CEO and Co-Founder of Legora. "Pairing Legora's collaborative AI with Axiom's flexible, AI-enabled legal talent gives clients a faster, more reliable path to real outcomes on high-volume legal work. This reflects how we build at Legora: deeply integrated with a partner that in-house legal teams trust and focused on helping lawyers deliver their best work.”
+“The teams getting AI right are not the ones moving fastest. They are the most disciplined," said Chris Frickland, Vice President, AI Solutions at Axiom. "Success comes from pairing the right technology with the right legal talent, workflows, and oversight from the start. The real value is unlocked when experienced legal professionals know how to apply AI to the right use cases and in the right way. That is exactly what Axiom’s AI Tech+Talent model delivers with Legora, and a year of client results proves it.”
+Together, [Axiom and Legora](https://www.axiomlaw.com/solutions/tech-plus-talent/legora) are purpose-built for that demand across contract remediation, CLM migration, M&A and transaction diligence, regulatory response, data extraction, and large-scale document review.
+## About Axiom
+As the leading alternative legal services provider globally, Axiom Law gives in-house legal teams on-demand access to top legal talent and lawyers — deployed when, where, and how clients need it, for up to 50% less than national law firms.
+Axiom's network of 14,000+ legal professionals includes 4,000+ lawyers with Fortune 500 experience, delivering AI-enabled legal services across more than 12 practice areas: M&A, regulatory compliance, data privacy, labor and employment, technology and AI, and more. Engagements range from legal secondments and complex project support to fully embedded team solutions.
+The results speak for themselves. Trusted by 75% of the Fortune 100 and thousands of mid-market leaders, Axiom ranks #1 among Alternative Legal Service Providers in 8 of 9 performance categories — including talent quality, breadth, productivity, and client experience — according to a top 5 global consulting firm. Across more than 3,000 engagements annually in 6 regions and 4 continents, 93% of clients rate Axiom lawyers as good as or better than top law firm attorneys, with 96% client satisfaction and measurable cost savings that reduce outside counsel spend without sacrificing quality.
+Stop overpaying for law firm work. Start with Axiom. 
+## About Legora
+Legora is the agentic operating system for legal work, supporting lawyers in research, review, and drafting across complex matters. It is used by more than 100,000 legal professionals at more than 1,200 leading law firms and in-house legal teams across over 50 markets.
+[ Learn More About Axiom + Legora ](https://www.axiomlaw.com/solutions/tech-plus-talent/legora) [ Discover AI-Enabled Talent ](https://www.axiomlaw.com/solutions/tech-plus-talent)
+##### MEDIA CONTACT
+Paul Johnson Director, Marketing Communications 267-634-4055 paul.johnson@axiomlaw.com
+##### CONTACT US
+##### Explore resources by type
+  * [Lawyer Spotlights](https://www.axiomlaw.com/lawyer-spotlight)
+
+
+##### Follow us
+## Elevate your in-house legal team
+Get connected with vetted Axiom legal professionals, seamlessly integrated into your team, when and how you need them.
+[Find a Lawyer Now](https://www.axiomlaw.com/talent-finder) [Talk to Our Team](https://www.axiomlaw.com/contact-us)
+What is Axiom? 
+Axiom is a global alternative legal services provider delivering on-demand legal talent, secondments, and AI-enabled legal services to in-house legal departments, supporting both ongoing work and complex legal projects while reducing legal costs and outside counsel spend. 
+Cookies Settings

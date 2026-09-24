@@ -49,9 +49,23 @@ Also carried over from gig.py/showcase.py:
   prose imperfection -- so synthetic records don't all converge on one
   voice. Seeded by file name, so a rerun rolls the same way.
 - A per-record flag (hidden_reasoning) for whether the model reasoned
-  before answering. Thinking mode itself is left on for every model.
+  before answering. Thinking mode is switched off (NO_THINKING); the flag
+  is what keeps records from before and after that change comparable.
 - The OpenAI client's own retries are off; the loop here is the only one.
   --ping checks every pool model responds.
+- --entity hirer|provider extracts only one type (provider = PROVIDER and
+  UNCERTAIN pages); --balance and --limit then apply within that type.
+- --workers N extracts N files at once (default 4; one at a time is
+  latency-bound); --rps caps requests/second across all workers (default
+  1). SOCLAAS sustains only ~1 request/s, shared by every script on the
+  key, and past that returns bare 429s. The tagging stage ran 2,894 pages
+  at 4 workers / 1 rps cleanly. Only the main thread writes the CSVs and the
+  manifest.
+- industry / secondary_industry / taxonomy_version columns are copied in
+  from industry.py's docs/industry_manifest.jsonl by code, never asked of
+  the LLM. --backfill-industries rewrites both CSVs with the current tags
+  (joined on source_file), which is also how a CSV written before these
+  columns existed is migrated.
 - Per-record quality metrics in the manifest (field lengths, leftover
   gendered pronouns).
 
@@ -68,7 +82,9 @@ import json
 import os
 import random
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
@@ -85,6 +101,7 @@ ENV_PATH = ROOT_DIR / ".env"
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 
 CLASSIFY_MANIFEST_PATH = DOCS_DIR / "manifest.jsonl"
+INDUSTRY_MANIFEST_PATH = DOCS_DIR / "industry_manifest.jsonl"  # industry.py's output, read for --balance
 EXTRACT_MANIFEST_PATH = DOCS_DIR / "extract_manifest.jsonl"
 PROVIDERS_CSV = DOCS_DIR / "providers.csv"
 HIRERS_CSV = DOCS_DIR / "hirers.csv"
@@ -128,11 +145,21 @@ ENTITY_CONFIG = {
     },
 }
 CODE_FIELDS = ("source_file", "extracted_by_model")  # filled in here, never asked of the LLM
+# Copied from industry.py's manifest, never asked of the LLM either. A file
+# industry.py hadn't tagged when it was extracted gets blanks until the next
+# --backfill-industries.
+INDUSTRY_FIELDS = ("industry", "secondary_industry", "taxonomy_version")
+PID_PATH = DOCS_DIR / "_extract.pid"  # read by monitor/dashboard.py for an exact RUNNING state
 
 MAX_CHARS = 24000
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
 MAX_CONSECUTIVE_ERRORS = 5
+# Per call, a guard against a model developing qwen3.8:27b's runaway output
+# again (11,832 median completion tokens with thinking on). Thinking off, the
+# largest record seen was 655 tokens across BOTH provider passes, and a
+# review is ~125. A reply cut off here fails loudly rather than as bad JSON.
+MAX_COMPLETION_TOKENS = 1500
 
 GENERIC_TITLE_BLOCKLIST = {
     "our services", "contact us", "get in touch", "learn more", "services",
@@ -144,9 +171,26 @@ load_dotenv(ENV_PATH)
 client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
-    timeout=180,  # thinking is left on, which slows some pool models down
+    timeout=180,  # generous: calls take ~2-10s with thinking off
     max_retries=0,  # _call_with_retries is the only retry loop
 )
+
+
+class Pacer:
+    """Spaces requests evenly across worker threads (--rps)."""
+
+    def __init__(self, rps: float):
+        self.gap, self.next_at, self.lock = 1.0 / rps, time.monotonic(), threading.Lock()
+
+    def wait(self):
+        with self.lock:
+            now = time.monotonic()
+            slot = max(now, self.next_at)
+            self.next_at = slot + self.gap
+        time.sleep(max(0.0, slot - now))
+
+
+_PACER = None  # set by main() when --rps is given
 
 
 # ---------------------------------------------------------------------------
@@ -220,16 +264,31 @@ def mask_publisher(text: str, fname: str) -> str:
     """Swap the publishing firm's names (its domain stem plus
     PUBLISHER_ALIASES) for "the firm" before the model reads the page. A bio
     names its firm in nearly every sentence, so asking the model to leave it
-    out isn't enough on its own."""
+    out isn't enough on its own.
+
+    Also swallows up to two capitalised words right after the name (e.g.
+    "PwC Canada", "BCG Institute", "Alvarez & Marsal GmbH"): otherwise only
+    the name is replaced and the qualifier is left dangling ("the firm
+    Canada"), which reads as broken grammar and leaks exactly the kind of
+    detail this masking exists to hide. The extension is case-sensitive
+    (unlike the name match) so it only grabs genuine proper-noun
+    continuations, not ordinary words that happen to follow."""
     stem = fname.split("__")[0].rsplit(".", 1)[0]
     for name in sorted([stem, *PUBLISHER_ALIASES.get(stem, [])], key=len, reverse=True):
-        text = re.sub(rf"(?<!\w){re.escape(name)}(?!\w)", "the firm", text, flags=re.IGNORECASE)
+        text = re.sub(
+            rf"(?<!\w)(?i:{re.escape(name)})(?:\s+[A-Z][a-zA-Z]*){{0,2}}(?!\w)",
+            "the firm", text)
     return text
+
+
+_NLP_LOCK = threading.Lock()  # spaCy pipelines aren't documented as thread-safe; --workers shares one
 
 
 def anonymise(text: str) -> str:
     if _NLP is not None:
-        names = {ent.text for ent in _NLP(text).ents if ent.label_ == "PERSON"}
+        with _NLP_LOCK:
+            ents = _NLP(text).ents
+        names = {ent.text for ent in ents if ent.label_ == "PERSON"}
         for name in sorted(names, key=len, reverse=True):
             text = text.replace(name, NAME_PLACEHOLDER)
     for pattern, repl in PRONOUN_MAP:
@@ -250,11 +309,32 @@ def _shows_reasoning(response) -> bool:
     return "<think" in content.lower() or bool(extra.get("reasoning_content") or extra.get("reasoning"))
 
 
+# Thinking off, as labeller/label.py already does. It was left on here
+# deliberately, but the cost turned out to be carried almost entirely by one
+# model: qwen3.8:27b reasoned on 100% of its extract calls, emitting a median
+# 11,832 completion tokens against ~350 for the other three, at a median
+# 171.2s per record versus 4.0-10.8s -- p90 378s, max 734s. Routed a quarter
+# of all files, it was ~85-90% of total extraction wall clock. Measured A/B on
+# one page: 19.6s/1,389 tokens with thinking on, 2.5s/126 tokens off; the
+# other models are unaffected either way (qwen3.6:35b: 1.4s vs 2.4s).
+# `hidden_reasoning` is still recorded per record, so the ON-era rows remain
+# comparable against the OFF-era ones. Checked 21 Sep on a 200-file OFF-era
+# run: no quality drop (qwen3.8:27b hirer first-review keep 88.6% -> 95.7%,
+# providers written 100% in both eras; small n -- see BACKLOG.md item G).
+NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
+
+
 def _call_llm(model: str, content: str, json_mode: bool = True) -> tuple:
     # JSON mode stops malformed JSON (llama3.1 otherwise drops commas and
     # quotes); every pool model accepts it. Only --ping asks for plain text.
     extra = {"response_format": {"type": "json_object"}} if json_mode else {}
-    response = client.chat.completions.create(model=model, messages=[{"role": "user", "content": content}], **extra)
+    if _PACER is not None:
+        _PACER.wait()
+    response = client.chat.completions.create(
+        model=model, messages=[{"role": "user", "content": content}],
+        max_completion_tokens=MAX_COMPLETION_TOKENS, extra_body=NO_THINKING, **extra)
+    if json_mode and response.choices[0].finish_reason == "length":
+        raise ValueError(f"reply hit the {MAX_COMPLETION_TOKENS}-token cap (runaway output?)")
     usage = {}
     if response.usage:
         usage = {
@@ -512,17 +592,33 @@ def csv_fields(entity_type: str) -> list:
     """source_file first, then the schema's own fields in schema order, then
     bookkeeping -- so the columns follow the schema file automatically.
     time_taken_by_model is the seconds spent extracting the row: every model
-    call for it (a hirer's review and repair included) plus any retry waits."""
+    call for it (a hirer's review and repair included) plus any retry waits.
+
+    The roll_* tail is this entity type's style rolls from
+    extract_variations.json -- which wording variant produced this row. They
+    were only in extract_manifest.jsonl before, which meant anyone reading
+    the CSV on its own couldn't tell a "Minimal"-detail gig from a
+    "Standard" one, or check whether a variant correlates with weaker rows.
+    Column names come from the variations file, so adding a roll there adds
+    its column here (and, as ever, changes the header -- see
+    check_csv_headers).
+
+    INDUSTRY_FIELDS come from industry.py's manifest, so the CSVs can be
+    split or balanced by industry without a join (see backfill_industries)."""
     props = ENTITY_CONFIG[entity_type]["properties"]
     return (["source_file"] + [k for k in props if k != "source_file"]
-            + ["classify_label", "extracted_at", "time_taken_by_model"])
+            + ["classify_label", *INDUSTRY_FIELDS, "extracted_at", "time_taken_by_model"]
+            + [f"roll_{k}" for k in VARIATIONS.get(entity_type, {})])
 
 
 def _csv_safe(v):
     """Guard against CSV-formula injection if this is ever opened in Excel/
-    Sheets straight off disk -- a page's scraped text is untrusted input."""
+    Sheets straight off disk -- a page's scraped text is untrusted input.
+    "-" is excluded: _join_items() always starts relevant_experience with
+    "- ", so guarding it would prepend a stray apostrophe onto nearly every
+    bulleted field instead of only ones a source could actually weaponise."""
     s = "" if v is None else str(v)
-    return "'" + s if s[:1] in ("=", "+", "-", "@", "\t", "\r") else s
+    return "'" + s if s[:1] in ("=", "+", "@", "\t", "\r") else s
 
 
 def append_csv_row(path: Path, fieldnames: list, row: dict) -> None:
@@ -542,10 +638,52 @@ def check_csv_headers() -> None:
             with cfg["csv"].open(newline="", encoding="utf-8") as f:
                 header = next(csv.reader(f), [])
             if header != csv_fields(entity_type):
+                if set(header) < set(csv_fields(entity_type)):
+                    missing = [c for c in csv_fields(entity_type) if c not in header]
+                    raise SystemExit(
+                        f"{cfg['csv'].name} predates some of the current columns ({', '.join(missing)}). "
+                        f"Run extract.py --backfill-industries once to migrate it in place.")
                 raise SystemExit(
                     f"{cfg['csv'].name} was written under a different schema (columns differ from "
                     f"{cfg['schema'].name}). Move it and docs/extract_manifest.jsonl aside and rerun."
                 )
+
+
+def backfill_industries() -> None:
+    """Rewrites both CSVs with the current industry tags, joined on
+    source_file -- no LLM calls, nothing re-extracted. Also migrates a CSV
+    whose header predates newer code-filled columns (they're added, blank
+    unless filled here). Refuses a CSV with columns the current code doesn't
+    know, since that means a schema change, not a missing column. The first
+    rewrite keeps a copy as <name>.pre_industry.bak."""
+    industries = load_industries()
+    for entity_type, cfg in ENTITY_CONFIG.items():
+        path, fields = cfg["csv"], csv_fields(entity_type)
+        if not path.exists():
+            continue
+        with path.open(newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            header, rows = reader.fieldnames or [], list(reader)
+        unknown = [c for c in header if c not in fields]
+        if unknown:
+            raise SystemExit(f"{path.name} has columns this code doesn't know ({', '.join(unknown)}); "
+                             f"that's a schema change, not something to backfill.")
+        filled = 0
+        for row in rows:
+            tag = industries.get(row["source_file"])
+            if tag:
+                row.update({k: tag.get(k) or "" for k in INDUSTRY_FIELDS})
+                filled += 1
+        backup = path.with_name(path.name + ".pre_industry.bak")
+        if not backup.exists():
+            backup.write_bytes(path.read_bytes())
+        tmp = path.with_name(path.name + ".tmp")
+        with tmp.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows({k: row.get(k) or "" for k in fields} for row in rows)
+        tmp.replace(path)
+        print(f"{path.name}: {filled}/{len(rows)} rows have an industry tag", flush=True)
 
 
 # ---------------------------------------------------------------------------
@@ -573,6 +711,65 @@ def load_classified_files() -> list:
     return items
 
 
+def load_industries() -> dict:
+    """{filename: industry record} from industry.py's manifest, the latest
+    record per file winning. Re-read on each call like the others, so
+    --watch picks up files industry.py tags while this keeps running."""
+    industries = {}
+    if not INDUSTRY_MANIFEST_PATH.exists():
+        return industries
+    with INDUSTRY_MANIFEST_PATH.open("r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            record = json.loads(line)
+            if record.get("status") == "ok" and record.get("industry"):
+                industries[record["file"]] = record
+    return industries
+
+
+def balance_pending(pending: list, per_cell: int = None) -> list:
+    """Reorder `pending` so extraction spends its calls evenly across
+    (entity_type, industry) cells instead of working through the manifest in
+    order.
+
+    Manifest order is crawl order, which is dominated by whichever domains
+    produced the most pages -- kroll, bcg and alvarezandmarsal are ~47% of
+    everything extractable. Extracting in that order reproduces the
+    imbalance in the output CSVs no matter how many rows get written.
+
+    So: group by cell, then round-robin across cells, taking one file from
+    each in turn. A cell that runs out simply drops out of the rotation --
+    that costs nothing, because a rare industry with 3 files should still
+    contribute all 3. `per_cell` additionally caps how many files any one
+    cell may contribute this run; files over the cap stay pending rather
+    than being spent, so raising the cap later picks up exactly where this
+    left off.
+
+    Files industry.py hasn't tagged yet go in their own "(untagged)" cell
+    rather than being dropped -- extraction shouldn't stall just because
+    tagging is still catching up -- but they're one cell among many, so they
+    can't dominate the run either. Order within a cell is left as-is, so a
+    rerun with the same inputs produces the same order."""
+    industries = load_industries()
+    cells = {}
+    for fname, label in pending:
+        key = (ENTITY_TYPE_FOR_LABEL[label], industries.get(fname, {}).get("industry", "(untagged)"))
+        cells.setdefault(key, []).append((fname, label))
+
+    if per_cell is not None:
+        cells = {k: v[:per_cell] for k, v in cells.items()}
+
+    ordered = []
+    queues = list(cells.values())
+    while queues:
+        for q in queues:
+            ordered.append(q.pop(0))
+        queues = [q for q in queues if q]
+    return ordered
+
+
 def load_extract_progress() -> dict:
     done = {}
     if EXTRACT_MANIFEST_PATH.exists():
@@ -591,6 +788,82 @@ def load_extract_progress() -> dict:
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
+def process_file(fname: str, label: str, industry: dict = None) -> tuple:
+    """Extracts one file and returns (manifest record, CSV row or None, log
+    line). Writes nothing itself, so several can run at once (--workers)
+    while main() stays the only writer. `industry` is the file's record from
+    industry_manifest.jsonl, if it has one."""
+    entity_type = ENTITY_TYPE_FOR_LABEL[label]
+    cfg = ENTITY_CONFIG[entity_type]
+    bucket = label.lower()
+    src = BUCKET_DIRS[label] / fname
+    timestamp = datetime.now().isoformat(timespec="seconds")
+
+    if not src.exists():
+        record = {"file": fname, "status": "error", "reason": "source file missing", "timestamp": timestamp}
+        return record, None, f"{bucket}/{fname} -> ERROR (source file missing)"
+
+    text = src.read_text(encoding="utf-8", errors="ignore")
+    model = model_for_file(fname, "extract")
+    start = time.perf_counter()
+
+    try:
+        doc, usage, meta = extract_entity(text, entity_type, model, fname)
+    except Exception as e:
+        record = {
+            "file": fname, "entity_type": entity_type, "model": model,
+            "status": "error", "reason": f"api_error: {e}", "timestamp": timestamp,
+        }
+        return record, None, f"{bucket}/{fname} ({model}) -> ERROR  ({e})"
+
+    elapsed = round(time.perf_counter() - start, 2)
+    base = {
+        "file": fname, "entity_type": entity_type, "model": model, "usage": usage,
+        "elapsed": elapsed, **meta, "timestamp": timestamp,
+    }
+    if doc is None:
+        ok = False
+        if meta.get("review_after_repair", {}).get("decision") == "retry":
+            reason = f"still flagged after repair: {meta['review_after_repair']['reason']}"
+        elif meta.get("repaired"):
+            reason = "repair judged the page non-qualifying (model returned {})"
+        else:
+            reason = "page doesn't qualify (model returned {})"
+    else:
+        ok, reason = quality_check(entity_type, doc)
+    note = f" [repaired after review: {meta['review']['reason']}]" if meta.get("repaired") else ""
+
+    if ok:
+        row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp,
+               "time_taken_by_model": elapsed,
+               **{k: (industry or {}).get(k) for k in INDUSTRY_FIELDS},
+               **{f"roll_{k}": v for k, v in (meta.get("rolls") or {}).items()}}
+        title = doc.get(cfg["title_field"])
+        record = {**base, "status": "written", "title": title, "metrics": record_metrics(entity_type, doc)}
+        return record, row, f"{bucket}/{fname} ({model}) -> WRITTEN ({entity_type}: {title}){note}"
+    record = {**base, "status": "rejected", "reason": reason}
+    return record, None, f"{bucket}/{fname} ({model}) -> REJECTED  ({reason}){note}"
+
+
+def _results(pending: list, workers: int):
+    """Yields process_file() results: in file order with one worker, else in
+    completion order from a thread pool. Closing the generator early cancels
+    files not started yet; ones already in flight finish unwritten and are
+    simply redone next run."""
+    industries = load_industries()
+    if workers <= 1:
+        for fname, label in pending:
+            yield process_file(fname, label, industries.get(fname))
+        return
+    ex = ThreadPoolExecutor(max_workers=workers)
+    futures = [ex.submit(process_file, fname, label, industries.get(fname)) for fname, label in pending]
+    try:
+        for fut in as_completed(futures):
+            yield fut.result()
+    finally:
+        ex.shutdown(wait=True, cancel_futures=True)
+
 
 def ping() -> None:
     for model in MODEL_POOL:
@@ -616,13 +889,45 @@ def main():
     )
     parser.add_argument(
         "--limit", type=int, default=None,
-        help="process at most this many files then stop (for testing)",
+        help="process at most this many files then stop (with --entity, of that type)",
+    )
+    parser.add_argument(
+        "--balance", action="store_true",
+        help="spend extraction calls evenly across (entity_type, industry) cells instead of in "
+             "manifest order, so the CSVs don't inherit the corpus's skew toward a few domains. "
+             "Needs docs/industry_manifest.jsonl (classifier_extractor/industry.py)",
+    )
+    parser.add_argument(
+        "--per-cell", type=int, default=None,
+        help="with --balance, cap how many files any one (entity_type, industry) cell contributes "
+             "this run; over-cap files stay pending rather than being spent",
+    )
+    parser.add_argument(
+        "--entity", choices=["hirer", "provider"], default=None,
+        help="extract only hirer pages (-> hirers.csv) or only provider pages, i.e. PROVIDER and "
+             "UNCERTAIN (-> providers.csv). Default: both",
     )
     parser.add_argument("--ping", action="store_true", help="check every pool model responds, then exit")
+    parser.add_argument("--workers", type=int, default=4, help="files to extract at once (default: 4)")
+    parser.add_argument(
+        "--rps", type=float, default=1.0,
+        help="cap on requests/second across all workers (SOCLAAS sustains ~1/s per key, shared "
+             "with anything else running on it; default: 1, 0 for no cap)",
+    )
+    parser.add_argument(
+        "--backfill-industries", action="store_true",
+        help="rewrite both CSVs with the current industry tags from docs/industry_manifest.jsonl "
+             "(no LLM calls), migrating a CSV that predates the industry columns, then exit",
+    )
     args = parser.parse_args()
+    global _PACER
+    _PACER = Pacer(args.rps) if args.rps else None
 
     if args.ping:
         ping()
+        return
+    if args.backfill_industries:
+        backfill_industries()
         return
 
     check_csv_headers()
@@ -632,6 +937,15 @@ def main():
             "Install it first: pip install spacy && python -m spacy download en_core_web_sm"
         )
 
+    PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
+    try:
+        run(args)
+    finally:
+        if PID_PATH.exists() and PID_PATH.read_text(encoding="utf-8").strip() == str(os.getpid()):
+            PID_PATH.unlink()  # leave another instance's PID file alone
+
+
+def run(args) -> None:
     already_done = load_extract_progress()
     consecutive_errors = 0
     aborted = False
@@ -641,7 +955,14 @@ def main():
     with EXTRACT_MANIFEST_PATH.open("a", encoding="utf-8") as manifest:
       while True:
         all_items = load_classified_files()
+        if args.entity:
+            # Before --balance and --limit, so both apply within the chosen entity type.
+            all_items = [it for it in all_items if ENTITY_TYPE_FOR_LABEL[it[1]] == args.entity.upper()]
         pending = [it for it in all_items if it[0] not in already_done]
+        if args.balance:
+            # Before --limit, so a limited run still draws evenly across cells
+            # rather than taking its whole quota from the first one.
+            pending = balance_pending(pending, args.per_cell)
         if args.limit is not None:
             pending = pending[: max(0, args.limit - processed_this_run)]
 
@@ -658,84 +979,36 @@ def main():
         idle_announced = False
         print(f"{len(pending)} new file(s) to extract ({len(already_done)} already done)", flush=True)
 
-        for i, (fname, label) in enumerate(pending, 1):
-            entity_type = ENTITY_TYPE_FOR_LABEL[label]
-            cfg = ENTITY_CONFIG[entity_type]
-            bucket = label.lower()
-            src = BUCKET_DIRS[label] / fname
-            timestamp = datetime.now().isoformat(timespec="seconds")
-
-            if not src.exists():
-                record = {"file": fname, "status": "error", "reason": "source file missing", "timestamp": timestamp}
+        results = _results(pending, args.workers)
+        try:
+            for i, (record, row, line) in enumerate(results, 1):
+                if row is not None:  # CSV before manifest, so the manifest never claims an unwritten row
+                    entity_type = record["entity_type"]
+                    append_csv_row(ENTITY_CONFIG[entity_type]["csv"], csv_fields(entity_type), row)
                 manifest.write(json.dumps(record) + "\n")
                 manifest.flush()
-                print(f"[{i}/{len(pending)}] {bucket}/{fname} -> ERROR (source file missing)", flush=True)
-                already_done[fname] = record
-                processed_this_run += 1
-                continue
+                print(f"[{i}/{len(pending)}] {line}", flush=True)
 
-            text = src.read_text(encoding="utf-8", errors="ignore")
-            model = model_for_file(fname, "extract")
-            start = time.perf_counter()
-
-            try:
-                doc, usage, meta = extract_entity(text, entity_type, model, fname)
+                if record["status"] == "error" and record["reason"].startswith("api_error"):
+                    consecutive_errors += 1  # retryable, so not marked done
+                    if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                        print(
+                            f"\n[ABORT] {consecutive_errors} extraction errors in a row -- stopping so the "
+                            f"remaining {len(pending) - i} files aren't ground through blindly. Fix the "
+                            f"underlying issue and rerun; already-processed files are untouched.",
+                            flush=True,
+                        )
+                        aborted = True
+                        break
+                    continue
                 consecutive_errors = 0
-            except Exception as e:
-                consecutive_errors += 1
-                record = {
-                    "file": fname, "entity_type": entity_type, "model": model,
-                    "status": "error", "reason": f"api_error: {e}", "timestamp": timestamp,
-                }
-                manifest.write(json.dumps(record) + "\n")
-                manifest.flush()
-                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> ERROR  ({e})", flush=True)
-                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
-                    print(
-                        f"\n[ABORT] {consecutive_errors} extraction errors in a row -- stopping so the "
-                        f"remaining {len(pending) - i} files aren't ground through blindly. Fix the "
-                        f"underlying issue and rerun; already-processed files are untouched.",
-                        flush=True,
-                    )
-                    aborted = True
+                already_done[record["file"]] = record
+                processed_this_run += 1
+
+                if args.limit is not None and processed_this_run >= args.limit:
                     break
-                continue
-
-            elapsed = round(time.perf_counter() - start, 2)
-            base = {
-                "file": fname, "entity_type": entity_type, "model": model, "usage": usage,
-                "elapsed": elapsed, **meta, "timestamp": timestamp,
-            }
-            if doc is None:
-                ok = False
-                if meta.get("review_after_repair", {}).get("decision") == "retry":
-                    reason = f"still flagged after repair: {meta['review_after_repair']['reason']}"
-                elif meta.get("repaired"):
-                    reason = "repair judged the page non-qualifying (model returned {})"
-                else:
-                    reason = "page doesn't qualify (model returned {})"
-            else:
-                ok, reason = quality_check(entity_type, doc)
-            note = f" [repaired after review: {meta['review']['reason']}]" if meta.get("repaired") else ""
-
-            if ok:
-                row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp,
-                       "time_taken_by_model": elapsed}
-                append_csv_row(cfg["csv"], csv_fields(entity_type), row)
-                title = doc.get(cfg["title_field"])
-                record = {**base, "status": "written", "title": title, "metrics": record_metrics(entity_type, doc)}
-                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> WRITTEN ({entity_type}: {title}){note}", flush=True)
-            else:
-                record = {**base, "status": "rejected", "reason": reason}
-                print(f"[{i}/{len(pending)}] {bucket}/{fname} ({model}) -> REJECTED  ({reason}){note}", flush=True)
-
-            manifest.write(json.dumps(record) + "\n")
-            manifest.flush()
-            already_done[fname] = record
-            processed_this_run += 1
-
-            if args.limit is not None and processed_this_run >= args.limit:
-                break
+        finally:
+            results.close()
 
         if aborted or (args.limit is not None and processed_this_run >= args.limit):
             break

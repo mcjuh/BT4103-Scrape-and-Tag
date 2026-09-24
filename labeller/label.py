@@ -22,10 +22,14 @@ Five approaches:
   rg_3l_multi  rg_3l scored by EVERY model in MODEL_POOL, averaged      (not in paper)
 
 rg_3l is the base for rg_3l_multi because it tied with rg_s04 as the
-paper's best variant. Approaches 1-4 use the pair's one routed model (a
-hash of the pair, same idea as classifier_extractor/llm_pool.py), so the
-four prompts are compared on the same model for any given pair while the
-corpus as a whole still spreads across the whole pool. rg_3l_multi reuses
+paper's best variant. Approaches 1-4 use the gig's one routed model (a
+hash of the gig, same idea as classifier_extractor/llm_pool.py): every
+provider for a given gig is judged by the same model, so each gig's
+ranking and the four prompts are compared within one model, while the
+corpus as a whole still spreads across the pool. Routing per pair instead
+would let the model assignment drive a gig's ranking -- models differ in
+calibration far more than prompts do (probed: llama3.1:8b scores a clearly
+irrelevant pair ~0.5 where the Qwen models give ~0). rg_3l_multi reuses
 the routed model's rg_3l call and adds the other three models -- 7 calls
 per pair in total, not 8.
 
@@ -87,8 +91,8 @@ MULTI_BASE = "rg_3l"
 
 FIELD_CHARS = 1500  # per-field cap when building the query/document text
 TOP_LOGPROBS = 20
-MAX_RETRIES = 3
-RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
+MAX_RETRIES = 5  # SOCLAAS rate-limits (429) bursts of short calls; 2s + 4s wasn't enough
+RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s, 8s, 16s
 MAX_CONSECUTIVE_ERRORS = 5
 # Models that "think" first would otherwise make the first output token --
 # the one whose logprobs get scored -- reasoning text, not the label.
@@ -105,8 +109,8 @@ client = OpenAI(
 )
 
 
-def model_for_pair(hirer_file: str, provider_file: str) -> str:
-    digest = hashlib.sha256(f"label:{hirer_file}|{provider_file}".encode("utf-8")).hexdigest()
+def model_for_gig(hirer_file: str) -> str:
+    digest = hashlib.sha256(f"label:{hirer_file}".encode("utf-8")).hexdigest()
     return MODEL_POOL[int(digest, 16) % len(MODEL_POOL)]
 
 
@@ -147,8 +151,10 @@ def build_prompt(approach: str, query: str, document: str) -> str:
     kind, labels = APPROACHES[approach]
     if kind == "scale":
         return SCALE_TEMPLATE.format(k=len(labels) - 1, query=query, document=document)
-    quoted = [f'"{l}"' for l in labels]
-    options = " or ".join(quoted) if len(quoted) == 2 else ", ".join(quoted[:-1]) + ", or " + quoted[-1]
+    # The paper lists the labels most relevant first: '"Relevant", or "Not Relevant"',
+    # '"Highly Relevant", "Somewhat Relevant", or "Not Relevant"', ...
+    quoted = [f'"{l}"' for l in reversed(labels)]
+    options = ", ".join(quoted[:-1]) + ", or " + quoted[-1]
     return LABEL_TEMPLATE.format(label_options=options, query=query, document=document)
 
 
@@ -168,23 +174,30 @@ def _label_for_token(token: str, labels: list):
     return hits[0] if len(hits) == 1 else None
 
 
+def _logsumexp(xs: list) -> float:
+    top = max(xs)
+    return top + math.log(sum(math.exp(x - top) for x in xs))
+
+
 def label_logprobs(content: list, labels: list):
     """Log-likelihood of each label at the answer position -- the first
-    output token that isn't whitespace/quotes/markdown. A label missing from
-    the top-k there gets a floor just below the lowest logprob seen. Returns
-    None if no label appears in the top-k at all."""
+    output token that isn't whitespace/quotes/markdown. Surface variants of
+    one label in the top-k ("Not", " not", "N") are summed (logsumexp), since
+    each is a way of starting that label. A label missing from the top-k gets
+    a floor just below the lowest logprob seen. Returns None if no label
+    appears in the top-k at all."""
     for tok in content:
         if not _bare(tok.token):
             continue
-        best = {}
+        seen = {}
         for cand in tok.top_logprobs:
             i = _label_for_token(cand.token, labels)
-            if i is not None and cand.logprob > best.get(i, -math.inf):
-                best[i] = cand.logprob
-        if not best:
+            if i is not None:
+                seen.setdefault(i, []).append(cand.logprob)
+        if not seen:
             return None
         floor = min(c.logprob for c in tok.top_logprobs) - 1.0
-        return [best.get(i, floor) for i in range(len(labels))]
+        return [_logsumexp(seen[i]) if i in seen else floor for i in range(len(labels))]
     return None
 
 
@@ -197,11 +210,13 @@ def parse_generated(text: str, labels: list):
 
 
 def judge(approach: str, model: str, query: str, document: str) -> dict:
-    """`model` is fixed for every retry -- falling back to another model
-    would silently change which model the record claims produced it."""
-    _, labels = APPROACHES[approach]
-    prompt = build_prompt(approach, query, document)
+    return judge_prompt(build_prompt(approach, query, document), APPROACHES[approach][1], model)
 
+
+def judge_prompt(prompt: str, labels: list, model: str) -> dict:
+    """Score one rendered prompt whose answer is one of `labels` (ascending
+    relevance). `model` is fixed for every retry -- falling back to another
+    model would silently change which model the record claims produced it."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = client.chat.completions.create(
@@ -249,6 +264,7 @@ def judge(approach: str, model: str, query: str, document: str) -> dict:
         "expected_relevance": round(er, 4),
         "score": round(er / (len(labels) - 1), 4),
         "peak_relevance": round(pr, 4) if pr is not None else None,
+        "loglik": [round(x, 4) for x in s] if s is not None else None,
         "scoring": scoring,
         "usage": usage,
     }
@@ -282,8 +298,12 @@ def load_ok_records() -> list:
     return records
 
 
+# hirer_industry/provider_industry come from the CSVs' code-filled industry
+# column (industry.py's tag), never from these prompts. same_industry is what
+# makes it checkable whether a score tracks relevance or just industry match.
 SCORE_FIELDS = [
     "hirer_file", "hire_title", "provider_file", "about_title", "routed_model",
+    "hirer_industry", "provider_industry", "same_industry",
     *APPROACHES, "rg_3l_multi",
 ]
 
@@ -291,6 +311,7 @@ SCORE_FIELDS = [
 def write_scores(hirers: list, providers: list) -> int:
     titles = {h["source_file"]: _clean(h.get("hire_title")) for h in hirers}
     headlines = {p["source_file"]: _clean(p.get("about_title")) for p in providers}
+    industries = {r["source_file"]: (r.get("industry") or "").strip() for r in hirers + providers}
 
     got = {}  # (hirer, provider) -> {(approach, model): score}
     for r in load_ok_records():
@@ -298,11 +319,15 @@ def write_scores(hirers: list, providers: list) -> int:
 
     rows = []
     for (h, p), scores in got.items():
-        routed = model_for_pair(h, p)
+        routed = model_for_gig(h)
         row = {
             "hirer_file": h, "hire_title": titles.get(h, ""),
             "provider_file": p, "about_title": headlines.get(p, ""), "routed_model": routed,
+            "hirer_industry": industries.get(h, ""), "provider_industry": industries.get(p, ""),
         }
+        # blank, not False, when either side is untagged -- unknown isn't a mismatch
+        if row["hirer_industry"] and row["provider_industry"]:
+            row["same_industry"] = row["hirer_industry"] == row["provider_industry"]
         for a in APPROACHES:
             row[a] = scores.get((a, routed), "")
         multi = [scores[(MULTI_BASE, m)] for m in MODEL_POOL if (MULTI_BASE, m) in scores]
@@ -329,10 +354,18 @@ def main():
         help="score at most this many (gig, provider) pairs, hirer-major (default: 50). "
              "Each pair costs up to 7 LLM calls; already-recorded calls are skipped.",
     )
+    # The client's test workbook lives in labeller/experiments/client_testset/,
+    # deliberately outside docs/, so its synthetic rows can never be mixed into
+    # the real extracted dataset. These overrides are how it gets scored without
+    # copying it in. Column names there match the CSVs', so nothing else changes.
+    parser.add_argument("--hirers", type=Path, default=HIRERS_CSV,
+                        help=f"gig CSV to score (default: docs/{HIRERS_CSV.name})")
+    parser.add_argument("--providers", type=Path, default=PROVIDERS_CSV,
+                        help=f"provider CSV to score (default: docs/{PROVIDERS_CSV.name})")
     args = parser.parse_args()
 
-    hirers = load_rows(HIRERS_CSV)
-    providers = load_rows(PROVIDERS_CSV)
+    hirers = load_rows(args.hirers)
+    providers = load_rows(args.providers)
     if not hirers or not providers:
         print(
             f"Need rows in both {HIRERS_CSV.name} ({len(hirers)}) and {PROVIDERS_CSV.name} "
@@ -345,7 +378,7 @@ def main():
     pairs = [(h, p) for h in hirers for p in providers][: args.max_pairs]
     jobs = []
     for h, p in pairs:
-        routed = model_for_pair(h["source_file"], p["source_file"])
+        routed = model_for_gig(h["source_file"])
         calls = [(a, routed) for a in APPROACHES] + [(MULTI_BASE, m) for m in MODEL_POOL if m != routed]
         jobs += [(h, p, a, m) for a, m in calls if (h["source_file"], p["source_file"], a, m) not in done]
 
@@ -386,4 +419,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Read by monitor/dashboard.py for an exact RUNNING state, as crawl.py's is.
+    PID_PATH = DOCS_DIR / "_label.pid"
+    PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
+    try:
+        main()
+    finally:
+        if PID_PATH.exists() and PID_PATH.read_text(encoding="utf-8").strip() == str(os.getpid()):
+            PID_PATH.unlink()  # leave another instance's PID file alone

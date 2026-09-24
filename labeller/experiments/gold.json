@@ -1,0 +1,413 @@
+{
+ "source": "Derived from client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx by labeller/experiments/build_gold.py -- rerun it rather than editing this file.",
+ "annotator": "The client, writing with an LLM. NOT measured ground truth and NOT human annotation: the workbook's 0-100 expected_score_range values are one model's opinion and are deliberately NOT carried over here. Only the ordinal four-band judgement is, mapped onto the 0-3 rubric below. Treat as a development target, not a measurement of matching quality.",
+ "caveats": [
+  "1:1 pairing only -- the workbook never claims anything about the other 29 providers per gig, but evaluate.py scores unlabelled providers as grade 0.",
+  "The 4 NEAR-MISS gigs have no provider graded >=1, so NDCG is undefined for them (evaluate.py reports nan). Check those with report_near_miss() instead: they are passed by scoring LOW, which a ranking metric cannot see.",
+  "The gigs and showcases are synthetic Singapore-SME scenarios; the extracted corpus is global big-4 consulting. Good scores here do not transfer automatically."
+ ],
+ "rubric": {
+  "3": "Shortlist: the showcase meets the gig's core need (client band OBVIOUS).",
+  "2": "Relevant: a real connection that isn't obvious from keywords (client band SUBTLE).",
+  "1": "Marginal: meaningful overlap, imperfect fit (client band PARTIAL).",
+  "0": "Not relevant, including deliberate near-misses that look similar on the surface (client band NEAR-MISS), and every provider the workbook left unpaired."
+ },
+ "band_to_grade": {
+  "OBVIOUS": 3,
+  "SUBTLE": 2,
+  "PARTIAL": 1,
+  "NEAR-MISS": 0
+ },
+ "gigs": {
+  "client_gig_01": {
+   "id": "C001",
+   "title": "Food Safety Audit for Central Kitchen",
+   "grades": {
+    "client_showcase_01": 3
+   },
+   "bands": {
+    "client_showcase_01": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_01": "Direct match. Hirer needs NEA/SFA remediation. Provider is a former SFA inspector specialising in exactly this."
+   }
+  },
+  "client_gig_02": {
+   "id": "C002",
+   "title": "Disputed Construction Variation Claim",
+   "grades": {
+    "client_showcase_02": 3
+   },
+   "bands": {
+    "client_showcase_02": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_02": "Direct match. Different perspective (subcontractor vs QS) but identical need - SIA/PSSCOC, adjudication."
+   }
+  },
+  "client_gig_03": {
+   "id": "C003",
+   "title": "MAS Regulatory Compliance Gap Review",
+   "grades": {
+    "client_showcase_03": 3
+   },
+   "bands": {
+    "client_showcase_03": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_03": "Direct match. Same regulatory context (PSA, MAS, AML/CFT), same deliverable (gap review, policy recommendations)."
+   }
+  },
+  "client_gig_04": {
+   "id": "C004",
+   "title": "Interim Finance Manager for SGX Listed SME",
+   "grades": {
+    "client_showcase_04": 3
+   },
+   "bands": {
+    "client_showcase_04": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_04": "Direct match. 'Finance Manager' vs 'CFO/FC' - same role, SGX Catalist context, SFRS, same scope."
+   }
+  },
+  "client_gig_05": {
+   "id": "C005",
+   "title": "IT Security Assessment for SME Using Cloud Services",
+   "grades": {
+    "client_showcase_05": 3
+   },
+   "bands": {
+    "client_showcase_05": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_05": "Direct match. Same context (cloud, SME, insurer requirement). Different framing (IT security vs cybersecurity risk)."
+   }
+  },
+  "client_gig_06": {
+   "id": "C006",
+   "title": "Process Optimisation for Medical Clinic Billing",
+   "grades": {
+    "client_showcase_06": 3
+   },
+   "bands": {
+    "client_showcase_06": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_06": "Direct match. Same system (Clinic Assist), same problem (billing errors, insurance rejection)."
+   }
+  },
+  "client_gig_07": {
+   "id": "C007",
+   "title": "Technical Due Diligence for Engineering Firm",
+   "grades": {
+    "client_showcase_07": 3
+   },
+   "bands": {
+    "client_showcase_07": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_07": "Direct match. Hirer needs ACMV/plumbing firm assessed. Provider specialises in exactly this type of technical DD."
+   }
+  },
+  "client_gig_08": {
+   "id": "C008",
+   "title": "Reduce Wastage at F&B Central Production Unit",
+   "grades": {
+    "client_showcase_08": 2
+   },
+   "bands": {
+    "client_showcase_08": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_08": "Hirer talks 'food cost', 'wastage', 'production economics'. Provider talks 'cost optimisation', 'yield loss'. Same problem, vocabulary differs."
+   }
+  },
+  "client_gig_09": {
+   "id": "C009",
+   "title": "Oil Separator Failing API Standards",
+   "grades": {
+    "client_showcase_09": 2
+   },
+   "bands": {
+    "client_showcase_09": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_09": "Hirer describes operational symptom. Provider describes service category. Engine must connect API separator → MPA discharge → marine environmental compliance."
+   }
+  },
+  "client_gig_10": {
+   "id": "C010",
+   "title": "Prepare for BizSAFE Level 3 Certification",
+   "grades": {
+    "client_showcase_10": 2
+   },
+   "bands": {
+    "client_showcase_10": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_10": "Hirer uses 'BizSAFE', 'RMIP', 'WSH audit'. Provider uses 'safety management system', 'BizSAFE certification'. Terminology partially overlaps."
+   }
+  },
+  "client_gig_11": {
+   "id": "C011",
+   "title": "Expert Witness for Software Delivery Litigation",
+   "grades": {
+    "client_showcase_11": 2
+   },
+   "bands": {
+    "client_showcase_11": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_11": "Hirer describes legal context needing technical opinion. Provider describes expert service. Strong semantic match on software delivery failure."
+   }
+  },
+  "client_gig_12": {
+   "id": "C012",
+   "title": "Commercialise A*STAR Biodegradable Packaging",
+   "grades": {
+    "client_showcase_12": 2
+   },
+   "bands": {
+    "client_showcase_12": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_12": "Hirer mentions A*STAR, patent, licensing vs manufacturing. Provider mentions A*STAR, technology transfer, licensing agreements."
+   }
+  },
+  "client_gig_13": {
+   "id": "C013",
+   "title": "Review Franchise Agreement Before Signing",
+   "grades": {
+    "client_showcase_13": 2
+   },
+   "bands": {
+    "client_showcase_13": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_13": "Hirer explicitly does not want a lawyer - wants commercial franchise expertise. Provider positions exactly this way."
+   }
+  },
+  "client_gig_14": {
+   "id": "C014",
+   "title": "Feasibility of Cold Chain for Seafood Business",
+   "grades": {
+    "client_showcase_14": 2
+   },
+   "bands": {
+    "client_showcase_14": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_14": "Hirer describes business situation. Provider describes service. Engine must infer that cold chain feasibility = cold chain logistics advisory."
+   }
+  },
+  "client_gig_15": {
+   "id": "C015",
+   "title": "Financial Projections for Bank Loan Application",
+   "grades": {
+    "client_showcase_15": 1
+   },
+   "bands": {
+    "client_showcase_15": "PARTIAL"
+   },
+   "rationales": {
+    "client_showcase_15": "Related but imperfect - renovation contractor context, provider broader across sectors. Good enough to surface."
+   }
+  },
+  "client_gig_16": {
+   "id": "C016",
+   "title": "Safety Case Review for Offshore Support Vessel",
+   "grades": {
+    "client_showcase_16": 1
+   },
+   "bands": {
+    "client_showcase_16": "PARTIAL"
+   },
+   "rationales": {
+    "client_showcase_16": "Good overlap on marine safety and MPA surveys, but hirer specifies OSV and fire safety specifically. Medium match."
+   }
+  },
+  "client_gig_17": {
+   "id": "C017",
+   "title": "Set Up HR System for Growing Retail Business",
+   "grades": {
+    "client_showcase_17": 1
+   },
+   "bands": {
+    "client_showcase_17": "PARTIAL"
+   },
+   "rationales": {
+    "client_showcase_17": "Strong overlap (Talenox, Infotech, Employment Act, retail context). Provider focused primarily on systems implementation."
+   }
+  },
+  "client_gig_18": {
+   "id": "C018",
+   "title": "Operational Review Before Opening Second Clinic",
+   "grades": {
+    "client_showcase_18": 1
+   },
+   "bands": {
+    "client_showcase_18": "PARTIAL"
+   },
+   "rationales": {
+    "client_showcase_18": "Good match on TCM and branch expansion. Provider more generalised (also physio, dental). Good but not specialist fit."
+   }
+  },
+  "client_gig_19": {
+   "id": "C019",
+   "title": "Write Our Company Employee Handbook",
+   "grades": {
+    "client_showcase_19": 0
+   },
+   "bands": {
+    "client_showcase_19": "NEAR-MISS"
+   },
+   "rationales": {
+    "client_showcase_19": "Both involve HR and SMEs. But hirer needs handbook writing (admin HR). Provider explicitly states NOT focused on admin HR or documentation."
+   }
+  },
+  "client_gig_20": {
+   "id": "C020",
+   "title": "Improve Google Reviews and Online Reputation",
+   "grades": {
+    "client_showcase_20": 0
+   },
+   "bands": {
+    "client_showcase_20": "NEAR-MISS"
+   },
+   "rationales": {
+    "client_showcase_20": "Both involve digital presence for SMEs. But hirer needs review management. Provider explicitly states NOT specialist in review management."
+   }
+  },
+  "client_gig_21": {
+   "id": "C021",
+   "title": "Build Customer-Facing Chatbot for E-Commerce",
+   "grades": {
+    "client_showcase_21": 3
+   },
+   "bands": {
+    "client_showcase_21": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_21": "Direct match. Hirer says 'AI chatbot', 'WhatsApp', 'Shopify'. Provider specialises in exactly this - WhatsApp Business API, Shopify integration."
+   }
+  },
+  "client_gig_22": {
+   "id": "C022",
+   "title": "Automate Client Onboarding Document Review",
+   "grades": {
+    "client_showcase_22": 2
+   },
+   "bands": {
+    "client_showcase_22": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_22": "Hirer describes the business problem (manual KYC review). Provider describes the AI document processing service. Engine must link onboarding document review → AI document processing."
+   }
+  },
+  "client_gig_23": {
+   "id": "C023",
+   "title": "Assess AI to Reduce Defects on Production Line",
+   "grades": {
+    "client_showcase_23": 1
+   },
+   "bands": {
+    "client_showcase_23": "PARTIAL"
+   },
+   "rationales": {
+    "client_showcase_23": "Provider covers computer vision quality inspection but also broader Industry 4.0. Hirer is specifically focused on defect reduction. Medium fit."
+   }
+  },
+  "client_gig_24": {
+   "id": "C024",
+   "title": "Find a Buyer for Our Food Processing Business",
+   "grades": {
+    "client_showcase_24": 3
+   },
+   "bands": {
+    "client_showcase_24": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_24": "Direct match. Hirer needs sell-side M&A advisory. Provider specialises in exactly this for Singapore SMEs in the right revenue range."
+   }
+  },
+  "client_gig_25": {
+   "id": "C025",
+   "title": "Evaluate Acquisition Targets in Dental Market",
+   "grades": {
+    "client_showcase_25": 2
+   },
+   "bands": {
+    "client_showcase_25": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_25": "Hirer describes operational expansion need (rollup strategy). Provider describes buy-side M&A service. Engine must connect dental clinic rollup → healthcare M&A advisory."
+   }
+  },
+  "client_gig_26": {
+   "id": "C026",
+   "title": "Restructure Business After Failed JV",
+   "grades": {
+    "client_showcase_26": 0
+   },
+   "bands": {
+    "client_showcase_26": "NEAR-MISS"
+   },
+   "rationales": {
+    "client_showcase_26": "Both involve corporate change situations. But hirer needs operational restructuring of a single business post-JV. Provider explicitly focuses on post-merger integration of two combined businesses - different situation."
+   }
+  },
+  "client_gig_27": {
+   "id": "C027",
+   "title": "Evaluate Effectiveness of Youth Mentorship Programme",
+   "grades": {
+    "client_showcase_27": 3
+   },
+   "bands": {
+    "client_showcase_27": "OBVIOUS"
+   },
+   "rationales": {
+    "client_showcase_27": "Direct match. Hirer needs independent programme evaluation for a donor. Provider specialises in exactly this for VWOs and social service agencies."
+   }
+  },
+  "client_gig_28": {
+   "id": "C028",
+   "title": "Map Service Gaps for Elderly Residents",
+   "grades": {
+    "client_showcase_28": 2
+   },
+   "bands": {
+    "client_showcase_28": "SUBTLE"
+   },
+   "rationales": {
+    "client_showcase_28": "Hirer describes a community-facing assessment task using volunteers. Provider describes social survey and needs assessment services. Engine must link 'map service gaps' + 'survey methodology' → 'community needs assessment'."
+   }
+  },
+  "client_gig_29": {
+   "id": "C029",
+   "title": "Review Vocational Training Curriculum for Ex-Offenders",
+   "grades": {
+    "client_showcase_29": 1
+   },
+   "bands": {
+    "client_showcase_29": "PARTIAL"
+   },
+   "rationales": {
+    "client_showcase_29": "Provider covers curriculum review and placement process design, which matches the hirer's need. But provider's experience is in F&B, cleaning, and retail - not ex-offender rehabilitation specifically. Medium fit."
+   }
+  },
+  "client_gig_30": {
+   "id": "C030",
+   "title": "Help Us Write Our Annual Impact Report",
+   "grades": {
+    "client_showcase_30": 0
+   },
+   "bands": {
+    "client_showcase_30": "NEAR-MISS"
+   },
+   "rationales": {
+    "client_showcase_30": "Both involve charities and report production. But hirer needs writing from existing data (content task). Provider explicitly states they do NOT do programme evaluation or data analysis - only design and layout from client-provided content. However, if hirer has the data ready, this could actually be a reasonable fit - the near-miss is subtle and intentional."
+   }
+  }
+ }
+}

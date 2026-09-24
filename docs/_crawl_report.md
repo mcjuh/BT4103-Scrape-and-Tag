@@ -1,6 +1,6 @@
 # Crawl Report
 
-Total seeds processed: 86  |  Total files saved: 10590
+Total seeds processed: 121  |  Total files saved: 10590
 
 | Label | Seed URL | Status | Saved | Notes |
 |---|---|---|---|---|
@@ -29,9 +29,9 @@ Total seeds processed: 86  |  Total files saved: 10590
 | Slalom | https://www.slalom.com/ | FAILED (overall timeout) | 30 |  |
 | West Monroe | https://www.westmonroe.com/ | OK (312 pages crawled, 309 saved) | 309 | 3 blocked (bot-check/consent wall) |
 | Capgemini Invent | https://www.capgemini.com/service/capgemini-invent/ | FAILED (overall timeout) | 29 |  |
-| Axiom | https://www.axiomlaw.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
-| Elevate Services | https://www.elevateservices.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
-| UnitedLex | https://unitedlex.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Axiom | https://www.axiomlaw.com/ | FAILED (exception) | 0 | Memory usage exceeded threshold for 600.0 seconds |
+| Elevate Services | https://www.elevateservices.com/ | FAILED (exception) | 0 | Memory usage exceeded threshold for 600.0 seconds |
+| UnitedLex | https://unitedlex.com/ | FAILED (exception) | 0 | Memory usage exceeded threshold for 600.0 seconds |
 | Oliver Wyman | https://www.oliverwyman.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
 | Roland Berger | https://www.rolandberger.com/en/ | OK (0 pages crawled, 0 saved) | 0 |  |
 | L.E.K. Consulting | https://www.lek.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
@@ -90,3 +90,38 @@ Total seeds processed: 86  |  Total files saved: 10590
 | EY (People) | https://www.ey.com/en_gl/people | OK (0 pages crawled, 0 saved) | 0 |  |
 | Bain (People) | https://www.bain.com/our-team/ | OK (0 pages crawled, 0 saved) | 0 |  |
 | PwC (Leadership) | https://www.pwc.com/gx/en/about/leadership.html | OK (0 pages crawled, 0 saved) | 0 |  |
+| Exponent | https://www.exponent.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Cambridge Consultants | https://www.cambridgeconsultants.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Southwest Research Institute | https://www.swri.org/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Element Materials Technology | https://www.element.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| IQVIA | https://www.iqvia.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Parexel | https://www.parexel.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Avalere Health | https://avalere.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| ClearView Healthcare Partners | https://www.clearviewhcp.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Trinity Life Sciences | https://www.trinitylifesciences.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Ramboll | https://www.ramboll.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Arcadis | https://www.arcadis.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| RSK Group | https://www.rskgroup.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| SWA Group | https://www.swagroup.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| OLIN | https://theolinstudio.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Gensler | https://www.gensler.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Perkins and Will | https://www.perkinswill.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Pentagram | https://www.pentagram.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| IDEO | https://www.ideo.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Wolff Olins | https://www.wolffolins.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Landor | https://www.landor.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Made in Music | https://www.madeinmusic.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Sixieme Son | https://www.sixiemeson.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| RADA Business | https://www.radabusiness.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| RWS | https://www.rws.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Lionbridge | https://www.lionbridge.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Welocalize | https://www.welocalize.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Acclaro | https://www.acclaro.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Reedsy | https://www.reedsy.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| MOLA Museum of London Archaeology | https://www.mola.org.uk/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Wessex Archaeology | https://www.wessexarch.co.uk/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Oxford Archaeology | https://oxfordarchaeology.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Ralph Appelbaum Associates | https://www.raa.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| ReD Associates | https://www.redassociates.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Stripe Partners | https://www.stripepartners.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Ethisphere | https://www.ethisphere.com/ | OK (0 pages crawled, 0 saved) | 0 |  |

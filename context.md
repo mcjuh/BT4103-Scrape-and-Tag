@@ -67,8 +67,25 @@ count a model twice (`default`, `coding`, `advanced-vision`, `test`, `ornith1.0:
 from that model), and `qwen3.5:9b`, which can't have "thinking" switched off and so takes ~75s
 per extraction -- right at SOCLAAS's gateway cutoff, so its calls 502 whatever the client
 timeout. The earlier three-model pool deliberately picked three distinct families; the wider
-pool spans only two families (Meta and Qwen; 3 of 4 are Qwen), trading much of that diversity away. Both scripts leave
-thinking on for every model, with a 180s timeout. The labeller keeps its own copy of the same four models (see below).
+pool spans only two families (Meta and Qwen; 3 of 4 are Qwen), trading much of that diversity away.
+**`extract.py` and `industry.py` now switch thinking OFF** (`chat_template_kwargs.enable_thinking=False`),
+as `labeller/label.py` always has; `classify.py` still leaves it on. The 180s timeout is unchanged.
+The labeller keeps its own copy of the same four models (see below).
+
+Thinking was left on deliberately at first, but the cost turned out to sit almost entirely on one
+model. `qwen3.8:27b` reasoned on **100%** of its extract calls, emitting a median **11,832**
+completion tokens against ~350 for the other three, at a median **171.2s** per record versus
+4.0-10.8s (p90 378s, max 734s -- one observed call ran **611.7s** for a single record). Routed a
+quarter of all files, it was ~85-90% of total extraction wall clock. With thinking off it runs a
+median **6.0s / 406 tokens** -- and the other three models are unaffected either way
+(`qwen3.6:35b`: 1.4s on, 2.4s off).
+
+The quality check has now been run on 21 Sep, comparing the ON era (records before 20 Sep 19:00)
+with a 200-file OFF-era `--balance` run. No quality drop was found. On `qwen3.8:27b`, the only model
+whose behaviour changed, hirer first-review keep went from 88.6% (n=35) to 95.7% (n=23), and
+providers were written 100% of the time in both eras. The whole-pool hirer keep rate went from
+82.5% to 85.3%. The samples are small, and the OFF files were chosen by `--balance`, so they
+differ in mix from the ON era (crawl order); see BACKLOG item G for the full table.
 
 Which model produced a given record is recorded (`"model"` in `manifest.jsonl`/
 `extract_manifest.jsonl`, `extracted_by_model` in the CSVs) and surfaced in
@@ -130,6 +147,19 @@ validated against them (`jsonschema`); a mismatch is retried, never written. `so
 difference is the prompts and `ENTITY_CONFIG`:
 - **Hirer** (one pass, from a teammate's `gig.py`): reframes a case study as the gig its original
   hirer could have posted, grounded in the source, never naming the real company in the gig text.
+  The shape follows the client's own 30 test gigs (`labeller/experiments/gold.json` /
+  `client_testset/gigs.csv`):
+  - It describes the **work**, not the person. The title names a task ("Design Target Operating
+    Model for Finance Function"), never a job title. The old "Role first" voice was replaced by
+    "Problem first".
+  - It stays **small**: one self-contained piece a single specialist could finish in under a
+    year, carved out of a big programme if necessary.
+  - The description runs situation -> work -> `Deliverable:` -> `Engagement duration:` in at
+    most 120 words (the client's are 60-92). The duration is the one detail the model may
+    estimate without the source. The reviewer (`review_hirer.md`) accepts it if it's plausible
+    and under 12 months, and flags a gig that is too big.
+  - On a 10-page dry run: every gig had both lines, durations from 4 weeks to 8 months, 59-110
+    words, and all were kept by review.
 - **Provider** (two passes, from a teammate's `showcase.py`): neutral fact extraction, then a
   first-person restyle, so styling can't add facts. The page is anonymised first (spaCy name
   masking, required, plus gendered-pronoun neutralisation).
@@ -149,33 +179,182 @@ difference is the prompts and `ENTITY_CONFIG`:
   `combine_gig_manifests.py` aren't ported: schema validation + retries already keep malformed
   records out, and there's a single append-only manifest.
 Either prompt returns `{}` for a non-qualifying page (recorded as rejected). Per-file style rolls
-come from `prompts/extract_variations.json`, seeded by file name. Thinking mode is left on for
-every model (whether a record's model reasoned first is logged as `hidden_reasoning`). Code-side checks still apply after
+come from `prompts/extract_variations.json`, seeded by file name and now also written to the CSVs
+as `roll_*` columns. Thinking mode is switched off for every model (see the pool section above for
+the measurements); whether a record's model reasoned first is still logged as `hidden_reasoning`,
+which is what makes the before/after rows comparable. Code-side checks still apply after
 the schema check (a real gig title/description; >=2 substantive provider fields; no leaked name
 placeholder). The earlier `speciality_ids` matching and name-based provider dedup were dropped:
 the schemas have no field for them. Progress tracked in `docs/extract_manifest.jsonl` (with the
 style rolls and quality metrics per record); `--ping` checks every pool model responds.
+
+**Industry columns.** `industry`, `secondary_industry` and `taxonomy_version` sit after
+`classify_label` in both CSVs. Like `source_file` they're filled in by code, copied from
+`docs/industry_manifest.jsonl` when the row is written, never asked of the LLM. A file that
+`industry.py` hadn't tagged yet gets blanks. `--backfill-industries` rewrites both CSVs with the
+current tags, joined on `source_file`, with no LLM calls. Run it after re-tagging, and to migrate
+a CSV written before these columns existed. The first rewrite keeps `docs/*.csv.pre_industry.bak`.
+It refuses a CSV with columns the code doesn't know, since that means a schema change rather than
+a missing column.
+
+**Defaults and guards.** `--workers 4 --rps 1` is now the default (was 1 worker, no cap), the
+settings the tagging stage ran 2,894 pages on cleanly. Every call is capped at
+`max_completion_tokens=1500` (`industry.py`: 300) as a guard against runaway output. With thinking
+off, the largest record seen was 655 tokens across both provider passes, and a tagging answer is
+under 100. A reply cut off by the cap fails as an explicit error rather than as unparseable JSON.
+
+**`--balance`** spends extraction calls evenly across `(entity_type, industry)` cells instead of
+working through the manifest in order. Manifest order is crawl order, and crawl order is
+dominated by whichever domains produced most pages -- so extracting in it reproduces the corpus's
+skew in the CSVs no matter how many rows get written. (Measured under the earlier tagging stage,
+the first 200 files came from 3 domains in manifest order versus 12 with `--balance`.)
+
+Cells round-robin one file each in turn; a cell that empties drops out of the rotation, so a rare
+industry with 3 files still contributes all 3. `--per-cell N` additionally caps what any one cell
+contributes this run -- over-cap files stay pending rather than being spent, so raising the cap
+later resumes exactly where it left off. Note the cell is `(entity_type, industry)`, so an
+industry present as both provider and hirer can contribute up to `2N`. Files `industry.py` hasn't
+tagged yet form one `(untagged)` cell rather than being dropped, so extraction never stalls
+waiting on tagging, but can't be dominated by it either. It reads `docs/industry_manifest.jsonl`
+directly, not `industry.py`'s code, like every other cross-role read here.
+
+### 3b. `classifier_extractor/industry.py`
+Tags each already-classified page with the **industry the work is done for**: the sector of the
+client (for an engagement or request) or of the person's experience (for a profile) -- never the
+publisher's. The taxonomy, `industry_v1`, comes from the client: the `industry` column of their
+test workbook (`client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx`, 30 gigs),
+collapsed into 12 groups -- Food & Beverage, Construction & Real Estate, Financial Services,
+Manufacturing, Logistics & Distribution, Healthcare, Marine & Offshore, Technology & Software,
+Retail & Consumer, Professional Services, Engineering Services, Social Services & Non-profit.
+Three more were added because the consulting-heavy corpus has a lot of work in them: Energy &
+Resources, Public Sector, Education. Every entry records its `origin` (client or corpus) and the
+client labels it absorbs. Plus `Cross-industry` (the page never says what the client does, or the
+expertise is explicitly general) and `OTHER`, which asks the model to name the sector it wanted,
+so taxonomy gaps get measured instead of guessed at.
+
+The taxonomy lives in `prompts/industry_taxonomy.json` (versioned, `taxonomy_version` on every
+record) and the prompt's industry list is generated from it, the same way `extract.py`'s
+`{field_block}` is generated from the ML schemas. Each record carries `industry`, an optional
+`secondary_industry`, `other_industry` (only for OTHER) and a short `reason`.
+
+The prompt (`prompts/classify_industry.md`) has two rules that matter:
+1. Label the client's industry, not the publisher's. Most pages come from consultancies, so
+   Professional Services is only for work whose client is itself a professional firm.
+2. The *type* of work never decides the industry. Finance, legal, HR, marketing and IT work
+   happen in every sector; if the page never says what the client does, the answer is
+   Cross-industry. Without this rule the models tagged reputation work for a pet-grooming chain,
+   and expert-witness work for an IT firm, as Professional Services.
+
+**Why industry and not an academic subject.** It replaced an earlier academic-subject stage
+(taxonomy from `SenseigigsDoc1.pdf`). Run on the client's own 30 gigs, that taxonomy put 21 of
+them into Mathematics, Accountancy or Law, so it couldn't separate the work the client cares
+about. Run on the same 30 gigs, `industry_v1` agreed with the client's own industry label on 26.
+Of the 4 misses, #21 (an online homeware store the client labelled Technology/Software because
+the work is a chatbot) is arguably right on rule 2, and #12 (food-packaging materials) and #26
+(a distributor's JV restructure) are borderline. #4 is a clear miss: finance work for a listed SME
+whose sector the text never states was tagged Financial Services, not Cross-industry. Don't tune
+the prompt further against those 30 gigs -- they're the client's test set (see BACKLOG item I).
+The old stage's code and manifest are archived in `docs/archive/2026-09-21/subject_v1/`.
+
+The point is **dataset balance**: the corpus is 23 domains and the top 3 (kroll, bcg,
+alvarezandmarsal) are ~47% of everything extractable, so an industry label gives `extract.py` a
+key to spend its calls evenly on, and gives `scrapper/seeds.md` a concrete list of starved
+industries to seed for.
+
+It's its own stage, not a field on either neighbour, for two reasons. Folding it into
+`extract.py`'s schemas would be free but useless for balancing -- by the time that call returns
+it's already paid for, and balance means knowing the industry *before* deciding whether to spend
+an extraction. Folding it into `classify_triage.md` is impossible without a re-run of everything:
+`classify.py` only globs `docs/unprocessed/`, so the 12k labelled pages would all have to be
+moved back -- and editing that prompt would perturb a PROVIDER/HIRER/IGNORE boundary that already
+has 12k rows behind it.
+
+Reads `docs/manifest.jsonl` (not `classify.py`'s code) for `PROVIDER`/`HIRER`/`UNCERTAIN`,
+reads each page out of its bucket folder and **never moves it** -- industry is a second,
+orthogonal axis on the existing buckets. `--include-ignore` also tags the ~9.4k IGNORE pages,
+off by default since they never reach `extract.py`. Hash-routed across `MODEL_POOL` with its own
+`"industry"` stage salt, for the reason `llm_pool.py` documents. Progress in
+`docs/industry_manifest.jsonl`; `--watch`, `--limit`, `--workers` (default 4), `--rps` (default
+1), retry-with-backoff and the same 5-consecutive-error circuit breaker as the other two.
+`--report` prints the distribution (industry, industry x classify label, secondary, OTHER gaps,
+per model, per domain) straight from the manifest with no LLM calls, so it's safe to run mid-run.
 
 ### 4. `labeller/label.py`
 Zero-shot LLM relevance labels between each gig in `hirers.csv` (the "query") and each provider
 in `providers.csv` (the "document"), following Zhuang et al., ["Beyond Yes and No: Improving
 Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance Labels"](https://arxiv.org/abs/2310.14122)
 (arXiv:2310.14122). Five approaches per pair: the paper's four fine-grained prompts (`rg_2l`,
-`rg_3l`, `rg_4l`, `rg_s04`) on the pair's one hash-routed model, plus `rg_3l_multi` -- RG-3L on
+`rg_3l`, `rg_4l`, `rg_s04`) on the gig's one hash-routed model (per gig, not per pair, so a
+gig's ranking isn't driven by model calibration differences), plus `rg_3l_multi` -- RG-3L on
 all four pool models, averaged. Scores are expected relevance from label logprobs, normalised
 to 0-1. Calls must disable thinking (`chat_template_kwargs.enable_thinking=False`), or
 models that reason first score their reasoning instead of the answer. Output: `docs/relevance_labels.jsonl`
-(per call) and `docs/relevance_scores.csv` (per pair). Replaces the earlier plan of matching by
+(per call) and `docs/relevance_scores.csv` (per pair, with `hirer_industry`, `provider_industry`
+and `same_industry` taken from the CSVs' industry column, so it can be checked whether a score
+tracks relevance or just industry match). Replaces the earlier plan of comparing a
+binary model with a hand-tuned weighted-sum score (the binary model is now the `rg_2l` baseline;
+the fine-grained labels replace the weighted sum), and the older one of matching by
 `speciality_ids` overlap / embeddings. Run-once with `--max-pairs` (7 calls per pair). See
 `labeller/README.md`.
 
 ### `monitor/dashboard.py` -- centralised monitoring
-A read-only local dashboard (stdlib `http.server`, no external deps) at
-`http://localhost:8765`, covering every role from one place: crawl progress (`crawl_run.log` +
-`docs/_crawl_state.json`), classify progress and token usage (`docs/manifest.jsonl`), extract
-progress and CSV row counts (`docs/extract_manifest.jsonl`, `providers.csv`, `hirers.csv`), and
-labeller progress (`docs/relevance_labels.jsonl`, `docs/relevance_scores.csv`). Safe to start/stop/restart independently of every
-other script -- it only ever reads their output files, never writes to them.
+A local dashboard (stdlib `http.server`, no external deps) at
+`http://localhost:8765`, laid out as **the pipeline itself**: Crawl -> Classify -> Industry ->
+Extract -> Label, left to right, with the handoff count between each pair of stages.
+
+Every stage answers the same three questions in the same shape -- is it RUNNING, how many
+documents has it PROCESSED, how many are QUEUED for it -- because that's what you actually want
+at a glance. Per-model chips, token counts, the seed table and the classify manifest are
+secondary and live behind a collapsed "Detail" section, which is also only rendered while it's
+open.
+
+How each stage's two numbers are derived, since they're not all the same kind of thing:
+- **Crawl** counts *seeds*, and a seed counts as processed only if it actually saved a page --
+  matching `crawl.py`'s own rule that a `saved_count == 0` seed gets retried rather than being
+  treated as done. The old dashboard showed a green 86/86 while 63 of those seeds had never
+  produced a single page.
+- **Classify**'s queue is just `docs/unprocessed/*.md`: `classify.py` moves each file out as it
+  goes, so the directory listing *is* the queue.
+- **Industry** and **Extract** share one queue set -- the `PROVIDER`/`HIRER`/`UNCERTAIN` files in
+  `docs/manifest.jsonl` -- so the two stages' totals match and can be read against each other.
+  Extract counts *rejected* pages as processed: a page the model judged non-qualifying is
+  finished work, not backlog.
+- **Label** counts (gig, provider) pairs, so its queue is the full cross product implied by the
+  two CSVs and jumps every time `extract.py` writes a row.
+
+Two things it deliberately gets from source rather than from a log: the seed total comes from
+`scrapper/seeds.md` (so adding seeds moves the number immediately), and the crawl log is the
+newest `crawl*.log` in the root rather than a fixed `crawl_run.log` (a run redirected elsewhere
+used to leave the dashboard quoting a stale run's numbers as current).
+
+RUNNING is exact for every stage: each script (`crawl.py`, `classify.py`, `industry.py`,
+`extract.py`, `label.py`) writes `docs/_<stage>.pid` at startup and removes it on exit, and the
+dashboard checks whether that PID is still alive. This replaced an earlier guess from manifest
+mtimes (last 90s), which read high after a run ended and low for a script stuck on one slow call.
+A hard kill leaves a stale PID file, which the liveness check handles. `industry.py --report` and
+`extract.py --ping`/`--backfill-industries` don't write one, since they aren't runs.
+
+**Start/Stop buttons.** Each card can launch its stage in the background:
+- **Crawl:** `crawl.py --concurrency 1`. It refuses to start with less than 8 GB of RAM free
+  (BACKLOG A2).
+- **Classify:** `classify.py`.
+- **Industry:** `industry.py`, with an optional `--limit`.
+- **Extract:** `extract.py --balance`, with optional `--limit` and `--per-cell`.
+- **Label:** `label.py`, with an optional `--max-pairs`.
+
+Each run logs to `logs/<stage>_<timestamp>.log`, and the card shows the last few lines. Stop
+terminates the stage's process and removes its PID file. Every script tolerates this: finished
+files are already in its manifest, and in-flight ones are redone on the next run.
+
+Safety:
+- The page sends only a stage key and integer options, never a command line, and nothing goes
+  through a shell.
+- Launch and stop need a per-session token that is embedded in the page.
+- Requests addressed to a Host other than localhost/127.0.0.1 get a 403.
+- Stop only kills a Python process, so a stale PID file can't hit an unrelated program.
+
+Launched runs are their own processes, so closing the dashboard doesn't stop them. The dashboard
+still never writes to any role's data files.
 
 ## Current state (as of the last full run)
 - 86 seeds processed, 10,590 pages saved (see `docs/_crawl_report.md` for the per-seed

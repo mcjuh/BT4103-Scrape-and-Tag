@@ -327,4 +327,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Read by monitor/dashboard.py for an exact RUNNING state, as crawl.py's is.
+    PID_PATH = DOCS_DIR / "_classify.pid"
+    PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
+    try:
+        main()
+    finally:
+        if PID_PATH.exists() and PID_PATH.read_text(encoding="utf-8").strip() == str(os.getpid()):
+            PID_PATH.unlink()  # leave another instance's PID file alone

@@ -1,0 +1,109 @@
+{
+  "taxonomy_version": "industry_v1",
+  "source": "The `industry` column of the client's test workbook (client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx, 'Hirer Gig Descriptions', 30 gigs), collapsed into groups. Entries marked \"origin\": \"corpus\" are not in that list; they were added because the crawled corpus (mostly consulting-firm pages) has a lot of work in those sectors, which would otherwise all land in OTHER.",
+  "note": "Replaces subject_v1 (the academic-subject taxonomy from SenseigigsDoc1.pdf). Tagged on 30 of the client's own gigs, subject_v1 put 21 of them into Mathematics, Accountancy or Law, so it could not separate the kind of work the client cares about. The subject_v1 manifest is archived in docs/archive/2026-09-21/subject_v1/.",
+  "industries": [
+    {
+      "name": "Food & Beverage",
+      "origin": "client",
+      "client_labels": ["Food & Beverage", "F&B / Franchise", "Food Manufacturing / Catering", "Food Manufacturing", "Seafood / Food Distribution"],
+      "gist": "Restaurants, hawker and food-court stalls, cafes, franchises, central kitchens, catering, food and drink manufacturing, food import and distribution."
+    },
+    {
+      "name": "Construction & Real Estate",
+      "origin": "client",
+      "client_labels": ["Construction / M&E", "Construction / Renovation"],
+      "gist": "Building and civil construction, M&E and fit-out contracting, renovation, property development, real estate investment and facilities management."
+    },
+    {
+      "name": "Financial Services",
+      "origin": "client",
+      "client_labels": ["Fintech / Financial Services"],
+      "gist": "Banks, payments and fintech, insurance, asset and wealth management, capital markets, lending, and regulated financial institutions generally."
+    },
+    {
+      "name": "Manufacturing",
+      "origin": "client",
+      "client_labels": ["Precision Manufacturing", "Manufacturing / Industry 4.0", "Deep Tech / Materials", "Listed SME (Manufacturing / Logistics)"],
+      "gist": "Factories and industrial production: precision engineering, electronics, chemicals and materials, automotive and aerospace production, industrial automation (Industry 4.0). Food manufacturing belongs to Food & Beverage."
+    },
+    {
+      "name": "Logistics & Distribution",
+      "origin": "client",
+      "client_labels": ["Logistics / Transport", "Wholesale / Distribution"],
+      "gist": "Freight, shipping and trucking, warehousing, supply chain operations, transport operators, wholesale trading and distribution."
+    },
+    {
+      "name": "Healthcare",
+      "origin": "client",
+      "client_labels": ["Healthcare / Medical Services", "Healthcare / TCM", "Healthcare / Dental"],
+      "gist": "Hospitals, clinics, GP and specialist practices, dental, traditional Chinese medicine, allied health, pharmaceuticals, medical devices and life sciences."
+    },
+    {
+      "name": "Marine & Offshore",
+      "origin": "client",
+      "client_labels": ["Marine / Shipyard Services", "Marine / Offshore"],
+      "gist": "Shipyards, ship repair and building, vessel operators, offshore platforms and offshore support services, port and marine services."
+    },
+    {
+      "name": "Technology & Software",
+      "origin": "client",
+      "client_labels": ["IT Services", "Technology / Software"],
+      "gist": "Software products and SaaS, IT services and outsourcing, cloud, cybersecurity, data and AI companies, telecoms and digital platforms."
+    },
+    {
+      "name": "Retail & Consumer",
+      "origin": "client",
+      "client_labels": ["Retail / Beauty", "Pet Services / Retail"],
+      "gist": "Shops and e-commerce, consumer brands, beauty and wellness, personal and pet services, hospitality and travel."
+    },
+    {
+      "name": "Professional Services",
+      "origin": "client",
+      "client_labels": ["Professional Services / Legal Tech"],
+      "gist": "Law firms, accounting and audit practices, consultancies, recruitment, marketing and design agencies -- when the CLIENT is itself a professional firm, not when a consultancy merely published the page."
+    },
+    {
+      "name": "Engineering Services",
+      "origin": "client",
+      "client_labels": ["Engineering Services / M&A"],
+      "gist": "Engineering consultancies and contractors selling design, testing, inspection and technical services to other businesses."
+    },
+    {
+      "name": "Social Services & Non-profit",
+      "origin": "client",
+      "client_labels": ["Social Services / NGO", "Social Services / Elder Care", "Social Services / Children", "Social Enterprise / Training"],
+      "gist": "Charities, NGOs, voluntary welfare organisations, social enterprises, elder care, children's and family services, community programmes."
+    },
+    {
+      "name": "Energy & Resources",
+      "origin": "corpus",
+      "client_labels": [],
+      "gist": "Oil and gas, power generation and utilities, renewables, mining and natural resources, environmental and waste services."
+    },
+    {
+      "name": "Public Sector",
+      "origin": "corpus",
+      "client_labels": [],
+      "gist": "Government ministries and agencies, statutory boards, defence, public infrastructure bodies and international development organisations."
+    },
+    {
+      "name": "Education",
+      "origin": "corpus",
+      "client_labels": [],
+      "gist": "Schools, universities, training providers and education technology. A training-focused social enterprise belongs to Social Services & Non-profit."
+    },
+    {
+      "name": "Cross-industry",
+      "origin": "pipeline",
+      "client_labels": [],
+      "gist": "The work is not tied to any one sector: a profile whose expertise is explicitly generic or spans many industries evenly, or an engagement whose client sector is never stated or implied."
+    },
+    {
+      "name": "OTHER",
+      "origin": "pipeline",
+      "client_labels": [],
+      "gist": "The work clearly belongs to one specific sector that none of the industries above covers. Name that sector in other_industry."
+    }
+  ]
+}

@@ -2,14 +2,14 @@
   "_about": "Per-file style rolls for extract.py. Each roll picks one option by weight (seeded by file name) and fills {<roll>} and {<roll>_instruction} in that entity type's prompts. Weights within a roll are relative.",
   "HIRER": {
     "detail": {
-      "Minimal": {"weight": 0.50, "instruction": "Usually 40-80 words. Use a short paragraph or 2-3 bullets."},
-      "Standard": {"weight": 0.40, "instruction": "Usually 80-150 words. Use a short opening and concise bullets when they improve scannability."},
-      "Detailed": {"weight": 0.10, "instruction": "Usually 140-220 words. Use this only when the source supports several distinct scope items or deliverables."}
+      "Minimal": {"weight": 0.40, "instruction": "Usually 50-70 words. One short paragraph."},
+      "Standard": {"weight": 0.50, "instruction": "Usually 70-100 words. One or two short paragraphs, or a short opening plus 2-3 bullets."},
+      "Detailed": {"weight": 0.10, "instruction": "Usually 100-140 words. Use this only when the source supports several distinct tasks within the one gig."}
     },
     "voice": {
       "Task first": {"weight": 0.25, "instruction": "Open with the work itself, as a direct instruction or a noun phrase (e.g. \"Redesign [process] so that...\" or \"Migration of [system] to...\"). No pronoun in the first sentence."},
       "Context first": {"weight": 0.25, "instruction": "Open with one sentence setting the scene in the third person (e.g. \"A [type of organisation] is [situation].\"), then say what is needed. Avoid \"we\" throughout."},
-      "Role first": {"weight": 0.20, "instruction": "Open by naming who is wanted (e.g. \"Looking for a [specialist] to...\" or \"Need an experienced [role] who...\")."},
+      "Problem first": {"weight": 0.20, "instruction": "Open with the problem the hirer has run into (e.g. \"Our month-end close takes twelve days and ...\" or \"Customer complaints about late deliveries doubled this year.\"), then say what work is needed. Don't describe the ideal candidate."},
       "Individual poster": {"weight": 0.15, "instruction": "Write as the one manager posting the gig, using \"I\" and \"my team\" (e.g. \"I run [function] at a [type of organisation] and need...\"). Don't invent a name or a job title the source doesn't support."},
       "Organisation": {"weight": 0.15, "instruction": "Write as the organisation, using \"we\" and \"our\" sparingly, and do not begin the first sentence with \"We\"."}
     }

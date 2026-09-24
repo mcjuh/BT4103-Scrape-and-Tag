@@ -52,8 +52,8 @@ corpus. Left out:
   request. Records extracted before then still carry it.
 - gemma4:26b: it can't switch "thinking" off either; an extraction took
   ~30-45s and ~1.5-2k completion tokens, versus 1-10s for the rest.
-Rerun that listing if SOCLAAS's model list changes. classify.py and
-extract.py leave "thinking" on for every model.
+Rerun that listing if SOCLAAS's model list changes. classify.py leaves
+"thinking" on for every model; extract.py and industry.py switch it off.
 """
 
 import hashlib

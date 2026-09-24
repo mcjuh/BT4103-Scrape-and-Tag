@@ -8,8 +8,14 @@ Return "retry" only for a clear, material defect:
 - the source does not support the gig's role or its central scope;
 - the gig combines unrelated specialist disciplines into one catch-all engagement;
 - the gig adds unsupported matchable requirements, such as named technologies, certifications,
-  qualifications, employment type, staffing level, location/onsite requirement, duration,
-  budget, or a specific deliverable;
+  qualifications, employment type, staffing level, location/onsite requirement, budget, or a
+  deliverable the source doesn't support;
+- the gig is too big to be one gig: a whole multi-year programme or a permanent role rather than
+  one self-contained piece of work, or an "Engagement duration" of 12 months or more.
+
+The "Engagement duration:" line is an allowed estimate: do NOT flag it as unsupported just because
+the source doesn't state a duration, as long as it is plausible for the scoped work and under 12
+months.
 - hire_title or hire_description names a real organisation, client, government body, division,
   or team (source_company and source_company_team are metadata and may name the publisher).
 
