@@ -1,0 +1,24 @@
+<!-- Source: https://www.huronconsultinggroup.com/en/our-experts/eileen-gillespie | Title: Eileen Gillespie - Huron | Seed: https://www.huronconsultinggroup.com/en/our-experts/healthcare-clinicians (Huron (Healthcare Experts)) -->
+
+[Skip to main content](https://www.huronconsultinggroup.com/en/our-experts/eileen-gillespie#main-content)
+Principal
+,
+Healthcare Performance Improvement, Clinical Enterprise
+# Eileen Gillespie
+DNP, R.N., M.S., B.S.
+With over 35 years of healthcare experience, Eileen harnesses clinical, operations, and performance improvement expertise to lead hospitals and health systems in designing structures and processes that improve quality, reduce cost, and expand services aligned to the organization’s strategic plans and operational goals.
+## About Eileen
+With her extensive leadership experience in the hospital and healthcare industry, Eileen leads clients through large-scale improvements in clinical, ancillary, and support services, yielding expense savings ranging from 10%-25%. She helps healthcare clients achieve change management objectives and create a patient-centric environment.
+Eileen has provided clinical and service line leadership for several large-scale mergers and acquisitions of health and hospital systems as well as payer and post-acute care. She has been instrumental in leading the development of innovative operating models, rationalizing programs and services, and driving efficiencies — resulting in strategic growth, improved access, continuity, and an exceptional patient experience. 
+Eileen focuses on strategic program development designed to improve services, processes, compliance, financial performance, and patient outcomes. She is sought after as an adviser on implementing high-quality best practices in care and services within large hospitals, health systems, and post-acute care organizations.
+Throughout her career, Eileen has:
+  * Reduced labor expenses at a nonprofit healthcare system in the Midwest by $3 million through length-of-stay reduction, leadership restructuring, the elimination of temporary contract labor, and improved productivity.
+  * Co-led the integration of two large home care entities post-merger with an integrated healthcare delivery system, establishing the foundation for the expansion of home care, palliative care, hospice, and future hospital-at-home services.
+  * Led the clinical program and service planning work for a large national health plan in preparation for the acquisition of a post-acute provider entity. She helped identify accelerators to create value, improve member experience, and reduce the unnecessary utilization of high-cost settings of care.
+  * As vice president of operations for a nonprofit healthcare system in the Midwest, improved patient satisfaction to the 80th percentile or higher for all areas of her responsibility, led a hospitalwide surgical site infection reduction resulting in a 37% decrease in surgical site infections, and achieved an 18% growth in surgical volumes and a 45% increase in elective outpatient endoscopy volumes.
+
+
+Prior to Huron, Eileen held the roles of executive vice president and chief nursing officer at Northwest Community Healthcare. She served as senior manager and nurse executive in the healthcare advisory practice at Ernst & Young LLP (EY). Eileen has held leadership roles at other healthcare organizations, including Northwestern Medicine and Presence Health, as well as consulting roles at Navigant and Capgemini. She was a faculty member at Northern Illinois University.
+Eileen earned her doctorate of nursing practice from Rush University, her Master of Science from Northern Illinois University, and her Bachelor of Science in nursing from the University of Illinois. She is a registered professional nurse.
+Eileen serves on the executive committee and board of directors of Kenneth Young Center. She is a member of the American Organization for Nursing Leadership and the Illinois Organization of Nurse Leaders.
+> Enterprise transformation is the result of a clear and inspiring vision for the future that motivates others to make it a reality.

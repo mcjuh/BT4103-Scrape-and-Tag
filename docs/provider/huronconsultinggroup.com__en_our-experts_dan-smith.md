@@ -1,0 +1,16 @@
+<!-- Source: https://www.huronconsultinggroup.com/en/our-experts/dan-smith | Title: Dan Smith - Huron | Seed: https://www.huronconsultinggroup.com/en/our-experts/healthcare-clinicians (Huron (Healthcare Experts)) -->
+
+[Skip to main content](https://www.huronconsultinggroup.com/en/our-experts/dan-smith#main-content)
+Principal
+,
+Performance Improvement, HCM
+# Dan Smith
+M.D.
+Dr. Dan Smith is a physician executive with more than 20 years of healthcare experience. He works with health systems and medical groups to create best-in-class workplaces for physicians to practice, staff to work and patients to receive care. 
+## About Dr. Smith
+Dr. Dan Smith has over two decades of healthcare expertise as a practicing physician, leader and adviser. At Huron, he works with organizations across the industry, including health systems, academic medical centers and group practices, to strengthen their culture and elevate key organizational outcomes. 
+Dan joined Huron in 2009, and has coached, mentored and lectured at over 200 organizations in the U.S., Canada, the Philippines and Australia. He has trained over 10,000 physicians and advanced practice providers worldwide. He is currently on the faculty at Indiana University School of Medicine and practices at Indiana University Health Methodist Hospital. He is active on several committees and supports the patient experience improvement program for emergency departments.
+Prior to joining Huron, Dan was a practicing physician in Baptist Health System’s emergency departments in San Antonio. While at Baptist, he initiated and oversaw a patient satisfaction improvement program for emergency physicians. Over a five-year period, his emergency medicine group quadrupled its overall satisfaction rank to the 80th percentile, and he maintained his personal patient satisfaction rank at the 98th percentile for six years.
+Dan completed medical school at Indiana University (IU) School of Medicine in 1995. He was awarded the Excellence in Emergency Medicine certificate by the Society for Academic Emergency Medicine on behalf of IU. He then completed a residency in emergency medicine at William Beaumont Hospital, where he was chief resident and awarded Resident of the Year from the department of emergency medicine. Dr. Smith has been awarded six Pillars of Excellence from Huron and the Crystal Flame Award.
+Dan is a diplomate with the American Board of Emergency Medicine, a fellow of the American College of Emergency Physicians (ACEP) and a member of the Indiana Chapter of ACEP. He is a frequent author and conference speaker on the topics of physician communication, physician performance feedback and performance excellence in the age of change.
+[ Care Transformation, Healthcare, Healthcare Suicide risk insights: An innovative approach to suicide prevention An example of how data-driven approaches help public health leaders better understand risk and intervene earlier and more effectively. ](https://www.huronconsultinggroup.com/en/insights/suicide-risk-insights)

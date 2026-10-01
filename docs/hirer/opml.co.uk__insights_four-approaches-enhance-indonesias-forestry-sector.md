@@ -1,0 +1,58 @@
+<!-- Source: https://www.opml.co.uk/insights/four-approaches-enhance-indonesias-forestry-sector | Title: Four approaches to enhance Indonesia’s forestry sector | Oxford Policy Management | Seed: https://www.opml.co.uk/our-expertise/meet-our-experts (Oxford Policy Management (Experts)) -->
+
+[ Skip to main content ](https://www.opml.co.uk/insights/four-approaches-enhance-indonesias-forestry-sector#main-content)
+Forestry is central to Indonesia's economic development - how can it be kept sustainable and inclusive? 
+Share this page
+[ Share this page ](https://www.opml.co.uk/insights/four-approaches-enhance-indonesias-forestry-sector)
+##  Authors
+  * [Dwi Rahardiani](https://www.opml.co.uk/person/dwi-rahardiani "Go to Dwi Rahardiani's profile") Country Director, Indonesia, and Senior Consultant on Climate, Resilience, and Sustainability
+
+
+  * Date
+July 2018
+  * Areas of expertise
+[Climate, Energy, and Nature](https://www.opml.co.uk/our-expertise/climate-energy-and-nature) [Cross-cutting themes](https://www.opml.co.uk/our-expertise/cross-cutting-themes)
+  * Country
+[Indonesia](https://www.opml.co.uk/search?country%5B72%5D=72)
+  * Keywords
+[Nature and environment](https://www.opml.co.uk/nature-and-environment) [Circular economy](https://www.opml.co.uk/search/?keyword=%22Circular+economy%20\(212\)%22) [Climate change adaptation](https://www.opml.co.uk/search/?keyword=%22Climate+change+adaptation%20\(188\)%22) [Climate change mitigation](https://www.opml.co.uk/search/?keyword=%22Climate+change+mitigation%20\(189\)%22) [Climate governance](https://www.opml.co.uk/search/?keyword=%22Climate+governance%20\(162\)%22) [Forestry and land use](https://www.opml.co.uk/search/?keyword=%22Forestry+and+land+use%20\(163\)%22) [Gender, equality, and social inclusion](https://www.opml.co.uk/gender-equality-and-social-inclusion) [Office of the Chief Economist](https://www.opml.co.uk/office-chief-economist) [Adaptive management](https://www.opml.co.uk/search/?keyword=%22Adaptive+management%20\(164\)%22) [Policy implementation](https://www.opml.co.uk/search/?keyword=%22Policy+implementation%20\(172\)%22) [Policy options](https://www.opml.co.uk/search/?keyword=%22Policy+options%20\(173\)%22) [Technical assistance](https://www.opml.co.uk/search/?keyword=%22Technical+assistance%20\(175\)%22)
+  * Office
+[OPM Indonesia](https://www.opml.co.uk/indonesia)
+  * Project
+[Improving forest sector management in Indonesia](https://www.opml.co.uk/projects/improving-forest-sector-management-indonesia)
+
+
+Being the world’s third largest area of tropical rainforest covering 60% of the country, forests and forestry have played a major role in Indonesia’s economic development for decades. Extensive illegal logging has, nevertheless, significantly reduced this forest area. Investigation done by the Indonesian Corruption Eradication Commission reported the loss of around USD 6.5-8.9 billion in potential state revenue from uncollected taxes from 2003-2014, while the black-market timber sales might have pocketed around more than USD 60 billion during the same period.
+The issue continues to draw the attention of the international community, demanding Indonesia eradicate illegal logging and improve sustainability. Furthermore, even many western countries blacklisted Indonesia’s timber and wood products.
+Parallel to the global impetus, the civil society organisations in Indonesia started discussions on using market mechanisms to curb illegal logging, providing incentives for the timber industry to do business sustainably. Wider multi-stakeholders discussions, including civil society organisations, private sector, academicians, and the Government of Indonesia, were conducted and these has laid the foundation in the development of the Indonesian timber legality assurance system, or _Sistem Verifikasi Legalitas Kayu_ (SVLK).
+To strengthen this multi-stakeholder approach in improving forest governance, the UK’s DFID established and funded the initial Multi-stakeholder Forestry Programme (MFP) in 2000. The [third phase of the programme](https://www.opml.co.uk/projects/improving-forest-sector-management-indonesia) (MFP3) focused the aim to improving forest management as the way to conserve biodiversity and strengthen climate protection. The government’s aim continues to be using the sector to help alleviate poverty for Indonesian communities and people who depend on the use of forestland and forest resources for their governments. 
+At the end of the MFP3, managed by Oxford Policy Management, we take a look at four approaches the programme has aimed to enhance Indonesia’s forestry sector and its governance – as well as principles to take forward into ensuing stages of the programme.
+  1. **Fostering multi-stakeholder dialogues and collaborations**
+
+
+When many stakeholders are involved, often with different priorities and responsibilities, it’s vital to make a collaborative and consultative approach central. As the name of the programme suggests, multiple stakeholders participated in the project – and making sure that all voices are heard leads to the most equitable and representative result, as well as winning continuing support from those involved. By facilitating partnerships between central and local government – including different ministries, civil society, and private sector actors, we have been able to build on the progress made by MFP and MFP2, the earlier stages of the programme.
+By involving all the forestry stakeholders, MFP3 has been able to assist in the development of several agreements and memoranda in improving forest governance. This includes the support to adjust the Indonesian timber legality assurance system (SVLK) in accordance with the strict requirements of the European Union’s Forest Law Enforcement Governance and Trade (FLEGT) system, making Indonesia the first country in the world to issue FLEGT licenses for timber products destined for the European market.
+  1. **Facilitating communities’ access to forests**
+
+
+In addition to the state loss, poor forest governance has adversely affected communities dependent on forests, particularly due to the prevalent issues of unclear tenurial access. The geographical scope for dealing with these issues is immense: it is estimated that there are approximately 33,000 villages within the forest zone, close to half the total number of villages throughout the archipelago.
+Ensuring that these groups have access to the necessary licences and legal approvals is important. Without these, households and individuals who depend on the forestry sector for their livelihoods are necessarily in a hazardous position, and cannot have full confidence that they can even access their basic livelihood, not to mention in investing in their businesses.
+With the support of MFP3 in collaboration with other partners, 280 community groups have received social forestry licences covering over 300,000 hectares in 13 provinces, while nearly 55,000 households now have legal certainty to manage land and legally obtain income from using forest resources. Small- and medium- enterprises (SMEs) of this variety often offer a chance for Indonesian women to access income and independence, which might otherwise be difficult to procure. 
+Through the social forestry scheme, MFP3 has also helped facilitate 160 community groups to generate business plans in forestry enterprises – this has led to funds for 22 such plans being realised through financial institutions with total amount equivalent to about £664,000.
+  1. **Promoting the credibility of Indonesian timber legality system**
+
+
+The credibility of Indonesian timber legality, SVLK, depends on the accountability of the system not only to those involved in SVLK, but also to public at large. Independent forest monitoring in natural forests and communities plays a key role in establishing SVLK as a credible scheme contributing to sustainable forest goals. MFP3 has helped to facilitate the establishment of clear plan of action on independent monitoring and sustainable financing through the establishment of the Independent Forest Monitoring (IFM) Foundation. This is an important step to ensure sustained independent monitoring activities in the forestry sector.
+Drawing the attention of key national and international stakeholders, including the general public, is also among the critical steps in ensuring the promotion of this credibility. Various initiatives were undertaken to promote awareness of compliance standards on the demand-side, and build institutional capacity on the supply-side, alongside policy reforms where appropriate. As a result, SVLK has become a globally recognised brand for Indonesia’s good forest management, and the use of legal timber has increased in value by 30% in the space of three years. As well as protecting community-based forestry, these legal provisions make it much easier to monitor environmentally responsible forestry.
+  1. **Opening access to information**
+
+
+Access to information, and openness of information, helps maintain policies and governance that are accountable and transparent. Where this hasn’t been the case, it is often due to insufficient systems rather than any deliberate lack of transparency. MFP3 has supported the development and establishment of a number of databases and IT systems within the Ministry of Environment and Forestry, under the Directorate of Sustainable Production Forest Management. This includes supporting the improvement of licensing information unit [website](https://silk.dephut.go.id/), developing a [directory](https://kph.or.id/) of forestry management units, and [a website](http://legalwoodmarket.com) to promote SVLK-certified timber.
+MFP3 also supported an initiative of community timber data development in Buleleng, Bali, which contains information on community forests, small- and medium-enterprises, types of timber, and available timber supply. Options for replication elsewhere are being examined – these sorts of records allow a transparent understanding of the sector to be accessed more widely. Meanwhile, independent forest monitoring organisations developed an online monitoring and reporting system that can be accessed by the parties within SVLK. This presents real-time data and information, enabling better-informed decision making – and thus better results for those impacted by Indonesia’s forestry sector.
+Through effective engagement with multiple partners and stakeholders, flexible and adaptive approaches to the programme, and supporting the development of a vibrant community-based forest industry, MFP3 has already made a substantial difference to those communities and individuals working in forestry in Indonesia. Carrying these principles through to MFP4 and beyond will not only cement these successes, but continue the contribution to Indonesia’s wider development goals by reducing rural poverty, enhancing biodiversity conservation, and improving climate protection.
+[ Climate, Energy, and Nature ](https://www.opml.co.uk/our-expertise/climate-energy-and-nature) [ Cross-cutting themes ](https://www.opml.co.uk/our-expertise/cross-cutting-themes)
+Back to top
+## Use of personal data and cookies
+We use cookies and process personal data for the following purposes: **Functional, Analytics & Embedded external content**. 
+[Customize](https://www.opml.co.uk/insights/four-approaches-enhance-indonesias-forestry-sector# "Open consent dialog")
+DeclineAccept

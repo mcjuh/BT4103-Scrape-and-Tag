@@ -1,0 +1,48 @@
+{
+  "_about": "Turns the LLM's judgements (docs/enrich_manifest.jsonl) into the ranker's structured fields. Everything here is synthetic and editable: change a band or bump `seed`, then run `enrich.py --no-llm` to regenerate every number without new LLM calls. Money is S$ per hour on both sides, so budget_fit compares like with like.",
+  "seed": 1,
+  "reference_date": "2026-10-01",
+  "round_to": 5,
+  "_rate_anchor": "Consultant-market scale (S$/h). The bands overlap on purpose: experienced independents often price within the next level's budget, so budget_fit isn't just seniority_fit again. One real platform profile (an interim CFO, S$350/day = S$44/h) sits well below the expert band; it was tried as the anchor on 29 Sep 2026 and judged too low overall.",
+  "rate_bands": {
+    "mid": [60, 120],
+    "senior": [90, 200],
+    "expert": [150, 350]
+  },
+  "tier_slice": {
+    "lean": [0.0, 0.4],
+    "standard": [0.3, 0.7],
+    "premium": [0.6, 1.0]
+  },
+  "_industry_budget_multiplier": "Gig budgets only: what a hirer in that industry can afford for the same level of specialist. Provider rates follow their specialism (price tier), not this. Industries not listed use 1.0.",
+  "industry_budget_multiplier": {
+    "Financial Services": 1.15,
+    "Technology & Software": 1.1,
+    "Energy & Resources": 1.1,
+    "Professional Services": 1.1,
+    "Marine & Offshore": 1.05,
+    "Construction & Real Estate": 1.0,
+    "Healthcare": 1.0,
+    "Engineering Services": 1.0,
+    "Manufacturing": 0.95,
+    "Public Sector": 0.95,
+    "Retail & Consumer": 0.9,
+    "Logistics & Distribution": 0.9,
+    "Food & Beverage": 0.85,
+    "Education": 0.85,
+    "Social Services & Non-profit": 0.75
+  },
+  "budget_lo_factor": [0.75, 0.9],
+  "budget_hi_factor": [1.1, 1.3],
+  "start_by_days": {
+    "soon": [14, 28],
+    "flexible": [28, 70]
+  },
+  "available_now_share": 0.45,
+  "available_later_days": [7, 56],
+  "capacity_days_per_week": {
+    "mid": {"2": 0.1, "3": 0.25, "4": 0.3, "5": 0.35},
+    "senior": {"1": 0.1, "2": 0.25, "3": 0.35, "4": 0.2, "5": 0.1},
+    "expert": {"1": 0.25, "2": 0.35, "3": 0.25, "4": 0.1, "5": 0.05}
+  }
+}

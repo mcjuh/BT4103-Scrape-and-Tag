@@ -17,17 +17,22 @@ employment.
 TRANSFORMATION & STYLE RULES
 1. about_title style -- {title_style}: {title_style_instruction} At most 20 words.
 2. about_description: first person, 70-100 words.
-3. relevant_experience grammar -- {achievement_style}: {achievement_style_instruction} Keep one
-   achievement per line, each starting with "- ".
+3. relevant_experience grammar -- {achievement_style}: {achievement_style_instruction} Keep it
+   as 2-4 sentences of plain prose, 30-60 words (never more than 60, even if the input is
+   longer), with no bullets or line breaks.
 4. Prose imperfection: {imperfection_instruction}
 
 If a prose imperfection is specified (anything other than "none"):
-- Apply exactly ONE natural instance of it, in about_description or in a single
-  relevant_experience line.
+- Apply exactly ONE natural instance of it, in about_description or in one relevant_experience
+  sentence.
 - Do not introduce any other grammatical, spelling, or punctuation errors.
 
 Never write the person's name or "[CANDIDATE_NAME]" in any field. Keep the record anonymised: never
 reintroduce a company, client, division, or team name, and keep the input's generic descriptions.
+
+Keep the input's Singapore setting: its Singapore-based organisation descriptions, Singapore
+regulators and rules, and S$ amounts stay as they are. Use Singapore English spelling
+(organisation, specialising, programme).
 
 ACHIEVEMENT VERBS
 Prefer past-tense, telic verbs that name a bounded outcome: Led, Delivered, Launched, Built,
@@ -43,6 +48,11 @@ The real verb is downstream -- promote it:
   BAD: "Leveraged Salesforce to cut processing time."
   OK:  "Cut processing time by rebuilding the workflow in Salesforce."
 
+The opening tenure sentence in relevant_experience (e.g. "18 years in construction claims ...")
+is not an achievement: keep it first and unchanged apart from the grammar style above. Keep every
+figure in the input. Leave services_offered_title and services_offered_description as they are,
+apart from spelling, including any closing sentence on what the service does not cover.
+
 Test each achievement with: "and then what happened?" If the sentence can't answer that with a
-concrete outcome or result, it is not an achievement -- rewrite it or drop it. If
-relevant_experience is null in the input, keep it null.
+concrete outcome or result, it is not an achievement -- rewrite it or drop it (the tenure
+sentence and past roles stay). If relevant_experience is null in the input, keep it null.

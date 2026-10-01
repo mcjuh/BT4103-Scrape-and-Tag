@@ -1,0 +1,13 @@
+<!-- Source: https://www.mathematica.org/staff/donna-levin | Title: Donna Levin | Seed: https://www.mathematica.org/staff/donna-levin (mathematica, fetch_urls) -->
+
+Your Privacy 
+Our website uses cookies. Please click the “Accept” button or continue to use our website if you agree to our use of cookies, as detailed in our [privacy and cookie policy](https://www.mathematica.org/privacy-policy "Privacy & Cookies Policy").
+Your Privacy 
+Our website uses cookies. Please click the “Accept” button or continue to use our website if you agree to our use of cookies, as detailed in our [privacy and cookie policy](https://www.mathematica.org/privacy-policy "Privacy & Cookies Policy").
+[All Staff](https://www.mathematica.org/about-mathematica/staff#sort=relevancy) | Donna Levin 
+#  Donna Levin 
+CEO, Arthur M. Blank School for Entrepreneurial Leadership at Babson College 
+Donna Levin was appointed to Mathematica’s Board of Directors, effective July 2021. An accomplished entrepreneur and business leader committed to addressing challenges through innovation and technology, she is the CEO of the Arthur M. Blank School for Entrepreneurial Leadership at Babson College. Previously, she was the executive director of innovation and entrepreneurship at Worcester Polytechnic Institute and an entrepreneur-in-residence at the Martin Trust Center for MIT Entrepreneurship. Levin is also a co-founder of Care.com, an online marketplace that helps families across 18 countries find caregivers to provide child care, senior care, special needs care, tutoring, pet care, and housekeeping. She has a distinguished track record of leveraging data and analytics to inform strategic decision making and has built and led high-performing teams driven by core values that facilitate collaboration, innovation, partnership, and growth. She earned an MBA from the Massachusetts Institute of Technology and has served on the boards of Zero to Three, WBUR, and the Center for Women and Enterprise, among others.
+## Efficiency Meets Impact. That's Progress Together.
+To solve their most pressing challenges, organizations turn to Mathematica for deeply integrated expertise. We bring together subject matter and policy experts, data scientists, methodologists, and technologists who work across topics and sectors to help our partners design, improve, and scale evidence-based solutions.
+[Work With Us](https://www.mathematica.org/about-mathematica/work-with-us)

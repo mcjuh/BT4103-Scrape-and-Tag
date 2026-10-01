@@ -1,0 +1,58 @@
+<!-- Source: https://www.opml.co.uk/projects/assessment-effective-vaccine-management-vaccine-wastage-and-temperature-monitoring | Title: Assessment of effective vaccine management, vaccine wastage and temperature monitoring in Ethiopia | Oxford Policy Management | Seed: https://www.opml.co.uk/our-expertise/meet-our-experts (Oxford Policy Management (Experts)) -->
+
+[ Skip to main content ](https://www.opml.co.uk/projects/assessment-effective-vaccine-management-vaccine-wastage-and-temperature-monitoring#main-content)
+The assessment generated evidence to improve vaccine supply chain systems, guide investments, and strengthen end-to-end performance in Ethiopia. 
+Share this page
+[ Share this page ](https://www.opml.co.uk/projects/assessment-effective-vaccine-management-vaccine-wastage-and-temperature-monitoring)
+##  Project team members
+[Ayana Yeneabat](https://www.opml.co.uk/search?author=%22Ayana%20Yeneabat%20%281914%29%22 "View all work by Ayana Yeneabat")[Michael Adenew](https://www.opml.co.uk/people/michael-adenew "Go to Michael Adenew's profile")[Jonathan Cushing](https://www.opml.co.uk/people/jonathan-cushing "Go to Jonathan Cushing's profile")[Hannah Taylor](https://www.opml.co.uk/search?author=%22Hannah%20Taylor%20%28737%29%22 "View all work by Hannah Taylor")
+  * Date
+September 2025 - July 2026
+  * Area of expertise
+[Health](https://www.opml.co.uk/our-expertise/health)
+  * Client
+Gavi
+  * Country
+[Ethiopia](https://www.opml.co.uk/search?country%5B1570%5D=1570)
+  * Keyword
+[Health systems governance [HSG]](https://www.opml.co.uk/health-systems-governance)
+  * Office
+[OPM Ethiopia](https://www.opml.co.uk/where-we-work/opm-ethiopia)
+
+
+## Contact
+  * [Michael Adenew, Country Director](https://www.opml.co.uk/people/michael-adenew "Go to Michael Adenew's profile")
+  * michael.adenew@opml.co.uk
+
+
+OPM Ethiopia was commissioned by Gavi, in partnership with the Ethiopian Ministry of Health (MoH) and the Ethiopian Pharmaceutical Supply Service (EPSS), to undertake the 2025 Integrated Effective Vaccine Management (EVM), Vaccine Wastage, and Temperature Monitoring Assessment.
+The study assessed vaccine availability, storage, distribution, wastage, and temperature monitoring practices against international standards and best practices. It identified key strengths, systemic bottlenecks, and priority areas for improvement across the immunisation supply chain.
+Findings generated actionable evidence to inform targeted investments, strengthen cold chain and logistics systems, and support the development of a Continuous Improvement Plan (CIP). By enhancing end-to-end supply chain performance, the assessment contributes to improved vaccine availability and potency, more efficient immunisation service delivery, and greater equity in access to life-saving vaccines, particularly among underserved and zero-dose populations across Ethiopia.
+### Challenges
+Despite significant progress in strengthening Ethiopia’s immunisation programme, persistent challenges remain across the vaccine supply chain, particularly at lower distribution and service delivery levels. The 2025 Effective Vaccine Management (EVM) assessment identified critical gaps in vaccine availability, stock management, forecasting accuracy, cold chain infrastructure, preventive maintenance, temperature monitoring, and performance monitoring. These challenges increase the risk of vaccine stock-outs, wastage, cold chain failures, and inequitable access to immunisation services.
+Ethiopia’s immunisation supply chain assessments show a system built on a strong institutional foundation, with robust governance, management systems, and technical capacity at primary and sub-national levels. This is reflected in EVM scores of 89% at primary level and 86% at sub-national level, and an improvement in national performance from 65% in 2013 to 72% in 2025. However, performance remains below the WHO benchmark of 80%, with persistent weaknesses concentrated at lower distribution (62%) and service delivery levels (58%). These gaps stem from constraints in cold chain infrastructure, maintenance, stock management, forecasting, digitalisation, and performance monitoring, revealing a disconnect between strong upstream capacity and weaker last-mile delivery. Although vaccine quality (95%) and efficiency (87%) are high, vaccine availability remains critically low at 36%.
+Addressing these constraints is complex due to infrastructure limitations, workforce capacity gaps, inadequate operational financing, weak digital systems, and the logistical challenges of serving remote, hard-to-reach, and conflict-affected populations. While strong governance structures exist at national and sub-national levels, translating these strengths into consistent last-mile performance remains a key challenge.
+### Expertise
+The assessment was delivered through a structured, participatory, and evidence-based approach designed to ensure national ownership, technical rigour, and stakeholder alignment. An Oversight Advisory Group (OAG), comprising representatives from the MoH, EPSS, Ethiopian Public Health Institute (EPHI), WHO, UNICEF, CHAI, Gavi, and OPM, provided strategic guidance and oversight throughout the project lifecycle.
+The study employed a mixed-methods, cross-sectional design based on the WHO/UNICEF Effective Vaccine Management (EVM) 2.0 framework. The assessment covered all levels of Ethiopia’s immunisation supply chain, from national and regional stores to woreda distribution points and service delivery facilities across 10 regions and two city administrations. A total of 100 EVM sites and 120 vaccine wastage assessment sites were selected using WHO-recommended sampling methodologies to ensure national representativeness.
+Data collection combined structured observations, document reviews, key informant interviews, and facility assessments using standardised digital EVM tools. Vaccine wastage and temperature monitoring components were integrated to provide a comprehensive assessment of supply chain performance. Fieldwork was conducted by 42 trained assessors using web-based data collection systems supported by real-time quality assurance, supervision, and performance monitoring dashboards.
+Ethical clearance was obtained from the Ethiopian Medical Association (EMA) Institutional Research Ethics Review Committee (Reference No. EMA/IRERC/002/25) on 29 November 2025, ensuring compliance with national ethical standards. Following approval, EPSS officially launched the assessment, demonstrating high-level government commitment and coordinated engagement among key stakeholders and partners.
+Findings were analysed using WHO/UNICEF EVM methodologies, WHO vaccine wastage assessment guidelines, and WHO temperature monitoring study protocols, and translated into evidence-based recommendations and a stakeholder-owned CIP to strengthen vaccine supply chain performance and immunisation service delivery across Ethiopia. 
+Vaccine wastage is generally within WHO thresholds, reflecting effective vaccine handling and inventory management, though minor exceedances for bOPV, rotavirus, and Td indicate localised inefficiencies at peripheral levels. Temperature monitoring showed vaccines remained within the recommended +2°C to +8°C range for 94.2% of the monitoring period, though heat exposure and transport-related excursions remain important risks. Addressing these last-mile gaps, as well as strengthening lower-level infrastructure, cold chain reliability, digital systems, maintenance, workforce capacity, and real-time monitoring is essential to improve system resilience, vaccine availability, and equitable immunisation coverage nationwide.
+The temperature monitoring assessment found that vaccine temperatures were maintained within the WHO-recommended range of +2°C to +8°C for 94.2% of the monitoring period, demonstrating generally strong overall cold chain performance. However, 5.8% of the monitored time fell outside the recommended range, exposing vaccines to temperature excursions that could compromise potency and effectiveness. Heat exposure was the dominant challenge, accounting for 4.3% of monitoring time, including prolonged periods above +8°C lasting more than 10 consecutive hours, while freezing exposure, though less frequent (1.45%), remained a critical risk due to its irreversible damage to freeze-sensitive vaccines. Performance varied across the supply chain, with stronger stability at higher levels and increasing temperature deviations in downstream segments, particularly during transportation. 
+### Impact
+The assessment provides critical evidence to strengthen Ethiopia’s immunisation supply chain and improve the availability, quality, and reliability of vaccines nationwide. By identifying systemic gaps in vaccine management, cold chain performance, temperature monitoring, stock management, forecasting, and service delivery, the project enables national stakeholders to prioritise investments and implement targeted interventions where they are most needed.
+A key outcome of the assessment is the development of a stakeholder-owned CIP, jointly designed by the MoH, EPSS, Gavi, WHO, UNICEF, CHAI, Regional Health Bureaus, and other partners. The CIP establishes a roadmap for strengthening infrastructure, digital systems, workforce capacity, maintenance systems, operational financing, and performance accountability across all levels of the supply chain. The CIP prioritises targeted investments and system-strengthening interventions to address identified gaps and improve vaccine availability, cold chain performance, and supply chain efficiency. Ongoing stakeholder engagement and implementation monitoring will support the effective execution of the CIP and help ensure sustainable improvements in immunisation service delivery across Ethiopia.
+Implementation of these recommendations is expected to reduce vaccine wastage, improve vaccine availability, strengthen cold chain reliability, enhance data-driven decision-making, and increase the efficiency and resilience of Ethiopia’s immunisation programme. Ultimately, the project will contribute to more equitable access to life-saving vaccines, particularly for underserved, remote, and zero-dose populations.
+The findings and recommendations along with the CIP were disseminated at a workshop with participants from MOH, EPSS, EPHI, RHBs and partners including CHAI, WHO, UNICEF, and CSOs working on immunisation. The final study report was submitted for MOH, EPSS, and Gavi. 
+_**We acknowledge valuable contributions of following project team members:**_
+Special thanks to Wondwossen Temiess Woldeamanuel, Lead and Coordinator of the study. 
+**Full study team**
+• Michael Adenew: Project Director• Dr Ayana Yeneabat: Strategic Adviser and Principal Investigator• Wondwossen Temiess: Lead Consultant and Study Coordinator• Haimanot Fiseha: Consultant – Effective Vaccine Management• Negalign Chekol: Consultant – Temperature Monitoring• Melkamu Adigo: Consultant – Vaccine Wastage Management• Dr Achenef Bekele: Consultant – Data Manager/Monitoring, Evaluation, and Learning• Dr Abebe Abadi: Consultant – Quality Assurance• Jonathan Cushing: Technical Reviewer; UK (OPM)
+_Banner image: Project resource_
+[ Health ](https://www.opml.co.uk/our-expertise/health)
+Back to top
+## Use of personal data and cookies
+We use cookies and process personal data for the following purposes: **Functional, Analytics & Embedded external content**. 
+[Customize](https://www.opml.co.uk/projects/assessment-effective-vaccine-management-vaccine-wastage-and-temperature-monitoring# "Open consent dialog")
+DeclineAccept

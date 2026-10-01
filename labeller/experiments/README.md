@@ -19,7 +19,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
   before quoting the numbers as ground truth.
 - **Candidates** (`results/candidates.json`): per gig, every graded provider plus seeded random
   grade-0 providers, 40 in total. This is the paper's re-ranking setting (it re-ranks BM25's top 100).
-- **Conditions** (8 prompts x 4 models = 32 calls per pair, 23,040 in total):
+- **Conditions** (8 prompts x 3 models = 24 calls per pair, 17,280 in total; the first run also had llama3.1:8b, since dropped):
 
   | id | prompt |
   |---|---|
@@ -31,7 +31,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
 
 - **Scoring** from the same calls: expected relevance (the paper's and `label.py`'s score), peak
   relevance, and the single generated label.
-- **Multi-model**: per prompt, the four models' scores combined by mean score (`label.py`'s
+- **Multi-model**: per prompt, the pool models' scores combined by mean score (`label.py`'s
   `rg_3l_multi`), mean rank, and mean per-model z-score, against label.py's routed single model.
 - **Metrics**: NDCG@10 (the paper's metric) as the expectation over random tie-breaking, plus
   NDCG@5, Kendall tau-b vs gold, AUC, and calibration of raw scores across gigs. 95% bootstrap
@@ -41,7 +41,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
 ## Rate limit
 SOCLAAS returns bare 429s (no headers) past a burst of ~60 and sustains ~1 request/s, shared
 across models. `run_grid.py` paces all workers to `--rps` and disables the OpenAI client's hidden
-retries; the full grid takes ~6-7 hours at 1 rps. It can be stopped at any time and rerun; recorded
+retries; the full grid takes ~5 hours at 1 rps. It can be stopped at any time and rerun; recorded
 calls are skipped. `analyze.py` scores only gigs whose grid is complete, so it can run mid-way.
 The run holds the team's shared API budget while it's going.
 

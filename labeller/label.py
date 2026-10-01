@@ -28,10 +28,11 @@ provider for a given gig is judged by the same model, so each gig's
 ranking and the four prompts are compared within one model, while the
 corpus as a whole still spreads across the pool. Routing per pair instead
 would let the model assignment drive a gig's ranking -- models differ in
-calibration far more than prompts do (probed: llama3.1:8b scores a clearly
-irrelevant pair ~0.5 where the Qwen models give ~0). rg_3l_multi reuses
-the routed model's rg_3l call and adds the other three models -- 7 calls
-per pair in total, not 8.
+calibration far more than prompts do (probed: llama3.1:8b scored a clearly
+irrelevant pair ~0.5 where the Qwen models give ~0, which is why it has
+since been dropped from the pool). rg_3l_multi reuses the routed model's
+rg_3l call and adds the other two models -- 6 calls per pair in total,
+not 7.
 
 Every score is normalised to 0-1 (expected relevance / highest label
 value) so the five approaches are directly comparable.
@@ -71,9 +72,10 @@ LABELS_PATH = DOCS_DIR / "relevance_labels.jsonl"  # one line per LLM call
 SCORES_CSV = DOCS_DIR / "relevance_scores.csv"  # one row per pair, rebuilt each run
 
 # Same pool as classifier_extractor/llm_pool.py (see its docstring for why
-# these four). Duplicated rather than imported: roles only talk to each
-# other through docs/, never through Python imports across role folders.
-MODEL_POOL = ["llama3.1:8b", "qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
+# these three, and why llama3.1:8b was dropped). Duplicated rather than
+# imported: roles only talk to each other through docs/, never through
+# Python imports across role folders.
+MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 
 LABEL_TEMPLATE = (PROMPTS_DIR / "rg_labels.md").read_text(encoding="utf-8").strip()
 SCALE_TEMPLATE = (PROMPTS_DIR / "rg_scale.md").read_text(encoding="utf-8").strip()
@@ -96,7 +98,7 @@ RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s, 8s, 16s
 MAX_CONSECUTIVE_ERRORS = 5
 # Models that "think" first would otherwise make the first output token --
 # the one whose logprobs get scored -- reasoning text, not the label.
-# Probed: with this flag all four pool models emit the label as token 0
+# Probed: with this flag every pool model emits the label as token 0
 # with a real distribution over the alternatives.
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
@@ -109,9 +111,16 @@ client = OpenAI(
 )
 
 
-def model_for_gig(hirer_file: str) -> str:
-    digest = hashlib.sha256(f"label:{hirer_file}".encode("utf-8")).hexdigest()
-    return MODEL_POOL[int(digest, 16) % len(MODEL_POOL)]
+def model_for_gig(hirer_file: str, exclude: tuple = ()) -> str:
+    """A gig routed to an excluded model is re-routed across the remaining
+    ones by the same hash; every other gig keeps its model, so its recorded
+    calls still count."""
+    digest = int(hashlib.sha256(f"label:{hirer_file}".encode("utf-8")).hexdigest(), 16)
+    routed = MODEL_POOL[digest % len(MODEL_POOL)]
+    if routed not in exclude:
+        return routed
+    rest = [m for m in MODEL_POOL if m not in exclude]
+    return rest[digest % len(rest)]
 
 
 # ---------------------------------------------------------------------------
@@ -213,13 +222,13 @@ def judge(approach: str, model: str, query: str, document: str) -> dict:
     return judge_prompt(build_prompt(approach, query, document), APPROACHES[approach][1], model)
 
 
-def judge_prompt(prompt: str, labels: list, model: str) -> dict:
-    """Score one rendered prompt whose answer is one of `labels` (ascending
-    relevance). `model` is fixed for every retry -- falling back to another
-    model would silently change which model the record claims produced it."""
+def complete(prompt: str, model: str):
+    """One greedy, no-thinking call with top-k logprobs. `model` is fixed for
+    every retry -- falling back to another model would silently change which
+    model the record claims produced it."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            response = client.chat.completions.create(
+            return client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=10,
@@ -228,7 +237,6 @@ def judge_prompt(prompt: str, labels: list, model: str) -> dict:
                 top_logprobs=TOP_LOGPROBS,
                 extra_body=NO_THINKING,
             )
-            break
         except Exception as e:
             if attempt == MAX_RETRIES:
                 raise
@@ -236,6 +244,11 @@ def judge_prompt(prompt: str, labels: list, model: str) -> dict:
             print(f"    [RETRY] attempt {attempt}/{MAX_RETRIES} failed ({e}); retrying in {wait_s}s", flush=True)
             time.sleep(wait_s)
 
+
+def judge_prompt(prompt: str, labels: list, model: str) -> dict:
+    """Score one rendered prompt whose answer is one of `labels` (ascending
+    relevance)."""
+    response = complete(prompt, model)
     choice = response.choices[0]
     text = choice.message.content or ""
     content = choice.logprobs.content if choice.logprobs and choice.logprobs.content else []
@@ -308,7 +321,7 @@ SCORE_FIELDS = [
 ]
 
 
-def write_scores(hirers: list, providers: list) -> int:
+def write_scores(hirers: list, providers: list, exclude: tuple = ()) -> int:
     titles = {h["source_file"]: _clean(h.get("hire_title")) for h in hirers}
     headlines = {p["source_file"]: _clean(p.get("about_title")) for p in providers}
     industries = {r["source_file"]: (r.get("industry") or "").strip() for r in hirers + providers}
@@ -319,7 +332,7 @@ def write_scores(hirers: list, providers: list) -> int:
 
     rows = []
     for (h, p), scores in got.items():
-        routed = model_for_gig(h)
+        routed = model_for_gig(h, exclude)
         row = {
             "hirer_file": h, "hire_title": titles.get(h, ""),
             "provider_file": p, "about_title": headlines.get(p, ""), "routed_model": routed,
@@ -352,7 +365,7 @@ def main():
     parser.add_argument(
         "--max-pairs", type=int, default=50,
         help="score at most this many (gig, provider) pairs, hirer-major (default: 50). "
-             "Each pair costs up to 7 LLM calls; already-recorded calls are skipped.",
+             "Each pair costs up to 6 LLM calls; already-recorded calls are skipped.",
     )
     # The client's test workbook lives in labeller/experiments/client_testset/,
     # deliberately outside docs/, so its synthetic rows can never be mixed into
@@ -362,7 +375,15 @@ def main():
                         help=f"gig CSV to score (default: docs/{HIRERS_CSV.name})")
     parser.add_argument("--providers", type=Path, default=PROVIDERS_CSV,
                         help=f"provider CSV to score (default: docs/{PROVIDERS_CSV.name})")
+    # A big cross-product at 6 calls/pair takes most of a day at SOCLAAS's ~1 rps.
+    # Naming only the approaches needed (e.g. rg_3l, 1 call/pair) cuts that down.
+    parser.add_argument("--approaches", nargs="+", choices=[*APPROACHES, "rg_3l_multi"],
+                        default=[*APPROACHES, "rg_3l_multi"],
+                        help="approaches to score (default: all five, 6 calls/pair)")
+    parser.add_argument("--exclude-models", nargs="+", choices=MODEL_POOL, default=[],
+                        help="don't route gigs to these models; their gigs are spread over the rest")
     args = parser.parse_args()
+    exclude = tuple(args.exclude_models)
 
     hirers = load_rows(args.hirers)
     providers = load_rows(args.providers)
@@ -378,8 +399,10 @@ def main():
     pairs = [(h, p) for h in hirers for p in providers][: args.max_pairs]
     jobs = []
     for h, p in pairs:
-        routed = model_for_gig(h["source_file"])
-        calls = [(a, routed) for a in APPROACHES] + [(MULTI_BASE, m) for m in MODEL_POOL if m != routed]
+        routed = model_for_gig(h["source_file"], exclude)
+        calls = [(a, routed) for a in APPROACHES if a in args.approaches]
+        if "rg_3l_multi" in args.approaches:
+            calls += [(MULTI_BASE, m) for m in MODEL_POOL if (MULTI_BASE, m) not in calls]
         jobs += [(h, p, a, m) for a, m in calls if (h["source_file"], p["source_file"], a, m) not in done]
 
     print(
@@ -414,7 +437,7 @@ def main():
                 )
                 break
 
-    n = write_scores(hirers, providers)
+    n = write_scores(hirers, providers, exclude)
     print(f"\nDone. {n} scored pair(s) in {SCORES_CSV}")
 
 

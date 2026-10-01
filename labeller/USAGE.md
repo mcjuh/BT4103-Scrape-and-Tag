@@ -12,13 +12,13 @@ Run every command from the project root (`BT4103-Scrape-and-Tag/`).
 py -3 labeller/label.py --max-pairs 50
 ```
 - Each (gig, provider) pair is scored for relevance by the LLM with five methods: `rg_2l`, `rg_3l`,
-  `rg_4l`, `rg_s04`, and `rg_3l_multi` (the average of RG-3L over all four models). Every score is 0-1,
+  `rg_4l`, `rg_s04`, and `rg_3l_multi` (the average of RG-3L over all three models). Every score is 0-1,
   and higher means more relevant.
 - `--max-pairs N` sets how many pairs to score (default 50). Pairs go gig by gig: all providers for the
   first gig, then the next gig. There are 154 providers, so `--max-pairs 154` gives one complete ranking
   for the first gig.
-- Each pair costs 7 LLM calls. SOCLAAS allows about 1 call per second, so 50 pairs take about
-  6 minutes. Don't run two LLM scripts at the same time: they share the same rate limit.
+- Each pair costs 6 LLM calls. SOCLAAS allows about 1 call per second, so 50 pairs take about
+  5 minutes. Don't run two LLM scripts at the same time: they share the same rate limit.
 - It's safe to stop and rerun. Calls already made are skipped, so raising `--max-pairs` only pays for
   the new pairs.
 
@@ -28,7 +28,7 @@ py -3 labeller/label.py --max-pairs 50
 | `docs/relevance_scores.csv` | One row per pair: `hirer_file`, `provider_file`, the titles, `routed_model`, `hirer_industry`/`provider_industry`/`same_industry` (from the CSVs' industry column; `same_industry` is blank if either side is untagged), and one score column per method. Rebuilt at the end of every run. |
 | `docs/relevance_labels.jsonl` | One line per LLM call, with the label probabilities, for debugging. |
 
-A blank `rg_3l_multi` means one of the four models failed on that pair. Rerun to fill it in.
+A blank `rg_3l_multi` means one of the three models failed on that pair. Rerun to fill it in.
 
 ## 2. Score predictions against the gold labels: `evaluate.py`
 ```
@@ -59,7 +59,7 @@ score means more relevant. Blank scores are skipped.
 ```
 method             gigs  pairs  NDCG@10 [95% CI]      NDCG@5  tau-b  AUC    relevant scored  pooled Spearman  p vs rg_2l@...
 rg_2l@qwen3.8:27b  1     40     0.844 [0.844, 0.844]  0.923   0.504  1.000  1.000            0.568            -
-rg_3l@llama3.1:8b  1     40     0.481 [0.481, 0.481]  0.593   0.342  0.829  1.000            0.424            1.000 (1 gigs)
+rg_3l@qwen3.6:35b  1     40     0.481 [0.481, 0.481]  0.593   0.342  0.829  1.000            0.424            1.000 (1 gigs)
 ```
 | Column | Meaning |
 |---|---|
@@ -82,6 +82,6 @@ rg_3l@llama3.1:8b  1     40     0.481 [0.481, 0.481]  0.593   0.342  0.829  1.00
 ## 3. The prompt experiment (optional)
 To compare every prompt on every model, see [experiments/README.md](experiments/README.md):
 ```
-py -3 labeller/experiments/run_grid.py      # about 23k LLM calls, about 6-7 hours, resumable
+py -3 labeller/experiments/run_grid.py      # about 17k LLM calls, about 5 hours, resumable
 py -3 labeller/experiments/analyze.py       # tables -> labeller/experiments/results/report.md
 ```

@@ -11,6 +11,8 @@ provider is to each gig.
 scrapper/crawl.py                  ->  docs/unprocessed/*.md
 classifier_extractor/classify.py   ->  docs/{provider,hirer,uncertain,ignore}/  +  docs/manifest.jsonl
 classifier_extractor/extract.py    ->  docs/providers.csv, docs/hirers.csv       (ML schema v1)
+enricher/enrich.py                 ->  docs/providers_enriched.csv, docs/hirers_enriched.csv
+                                       (+ rate/budget, seniority, availability for the ranker)
 labeller/label.py                  ->  docs/relevance_scores.csv
 monitor/dashboard.py                   read-only view of all of the above
 ```
@@ -25,6 +27,7 @@ waiting, skips what's already done, and exits.
 |---|---|
 | `scrapper/` | `crawl.py` (crawl4ai best-first deep crawl, saved as pruned Markdown) and `seeds.md` (start URLs) |
 | `classifier_extractor/` | `classify.py`, `extract.py`, `llm_pool.py`, `prompts/`, and the `ML_*_schema_v1.json` JSON Schemas extraction is validated against |
+| `enricher/` | `enrich.py`: tops up extracted records with synthetic rate/budget, seniority and availability for the ranker; see `enricher/README.md` |
 | `labeller/` | `label.py`: zero-shot relevance scoring of gig/provider pairs ([Zhuang et al., 2023](https://arxiv.org/abs/2310.14122)); see `labeller/README.md` |
 | `monitor/` | `dashboard.py`: local dashboard at http://localhost:8765 |
 | `docs/` | The data lake: crawled pages by bucket, manifests, extracted CSVs |
@@ -62,6 +65,7 @@ From the repo root:
 python scrapper/crawl.py > crawl_run.log          # --start/--end pick a seed range, --concurrency N
 python classifier_extractor/classify.py
 python classifier_extractor/extract.py            # --limit 20 to try a batch first, --ping to check the models
+python enricher/enrich.py                         # --no-llm regenerates the numbers from saved judgements
 python labeller/label.py --max-pairs 50           # 7 LLM calls per pair
 python monitor/dashboard.py                       # then open http://localhost:8765
 ```

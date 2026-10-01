@@ -845,5 +845,68 @@
     "OK (0 pages crawled, 0 saved)",
     "",
     0
+  ],
+  [
+    "Brookes Bell (Team)",
+    "https://www.brookesbell.com/about-us/the-team/",
+    "FAILED (overall timeout)",
+    "",
+    6
+  ],
+  [
+    "Secretariat (People)",
+    "https://secretariat-intl.com/people/",
+    "FAILED (overall timeout)",
+    "",
+    6
+  ],
+  [
+    "HKA (People)",
+    "https://www.hka.com/people/",
+    "FAILED (overall timeout)",
+    "",
+    4
+  ],
+  [
+    "Diales (Experts)",
+    "https://www.diales.com/en/experts",
+    "FAILED (overall timeout)",
+    "",
+    23
+  ],
+  [
+    "Chartis (People)",
+    "https://www.chartis.com/about/our-people",
+    "FAILED (overall timeout)",
+    "",
+    51
+  ],
+  [
+    "Huron (Healthcare Experts)",
+    "https://www.huronconsultinggroup.com/en/our-experts/healthcare-clinicians",
+    "FAILED (overall timeout)",
+    "",
+    16
+  ],
+  [
+    "Oxford Policy Management (Experts)",
+    "https://www.opml.co.uk/our-expertise/meet-our-experts",
+    "OK (150 pages crawled, 147 saved)",
+    "3 blocked (bot-check/consent wall)",
+    147
+  ],
+  [
+    "Mathematica (Staff)",
+    "https://www.mathematica.org/about-mathematica/staff",
+    "OK (150 pages crawled, 147 saved)",
+    "3 blocked (bot-check/consent wall)",
+    147
+  ],
+  [
+    "Bridgespan (Leadership)",
+    "https://www.bridgespan.org/about-us/bridgespan-leadership-team",
+    "OK (100 pages crawled, 38 saved)",
+    "62 blocked (bot-check/consent wall)",
+    38
   ]
 ]

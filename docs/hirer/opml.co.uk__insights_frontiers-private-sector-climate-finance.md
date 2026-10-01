@@ -1,0 +1,58 @@
+<!-- Source: https://www.opml.co.uk/insights/frontiers-private-sector-climate-finance | Title: The frontiers of private sector climate finance | Oxford Policy Management | Seed: https://www.opml.co.uk/our-expertise/meet-our-experts (Oxford Policy Management (Experts)) -->
+
+[ Skip to main content ](https://www.opml.co.uk/insights/frontiers-private-sector-climate-finance#main-content)
+There is a huge shortfall in public funding needed to address the climate crisis. Can the private sector plug the gap? We discuss some of the challenges and opportunities that lie ahead. 
+Share this page
+[ Share this page ](https://www.opml.co.uk/insights/frontiers-private-sector-climate-finance)
+##  Authors
+  * [Phil Marker](https://www.opml.co.uk/search?author=%22Phil%20Marker%20%28390%29%22 "View all work by Phil Marker") Former Team Leader, Climate Policy and Finance
+  * [Elizabeth Gogoi](https://www.opml.co.uk/search?author=%22Elizabeth%20Gogoi%20%28248%29%22 "View all work by Elizabeth Gogoi") Team Leader, Energy, Resources, and Growth
+
+
+  * Date
+November 2022
+  * Area of expertise
+[Climate, Energy, and Nature](https://www.opml.co.uk/our-expertise/climate-energy-and-nature)
+  * Keywords
+[Climate policy and finance](https://www.opml.co.uk/climate-policy-and-finance) [Energy, resources and growth](https://www.opml.co.uk/energy-resources-and-growth) [Climate change adaptation](https://www.opml.co.uk/search/?keyword=%22Climate+change+adaptation%20\(188\)%22) [Climate change mitigation](https://www.opml.co.uk/search/?keyword=%22Climate+change+mitigation%20\(189\)%22) [Climate governance](https://www.opml.co.uk/search/?keyword=%22Climate+governance%20\(162\)%22) [Green growth and investment](https://www.opml.co.uk/search/?keyword=%22Green+growth+and+investment%20\(190\)%22) [Renewable energy](https://www.opml.co.uk/search/?keyword=%22Renewable+energy%20\(191\)%22) [Adaptive management](https://www.opml.co.uk/search/?keyword=%22Adaptive+management%20\(164\)%22) [Capacity building](https://www.opml.co.uk/search/?keyword=%22Capacity+building%20\(165\)%22) [Policy implementation](https://www.opml.co.uk/search/?keyword=%22Policy+implementation%20\(172\)%22) [Policy options](https://www.opml.co.uk/search/?keyword=%22Policy+options%20\(173\)%22) [Technical assistance](https://www.opml.co.uk/search/?keyword=%22Technical+assistance%20\(175\)%22) [Humanitarian assistance](https://www.opml.co.uk/search/?keyword=%22Humanitarian+assistance%20\(241\)%22)
+
+
+One of the key issues at COP 27 is climate finance. Yet again, the target of providing $100 billion in climate finance has been missed, and rich and poorer countries trade accusations and excuses. But the truth is that $100 billion is just scratching the surface. The finance needed to decarbonise the global economy and to protect against the impacts of climate change runs into the trillions.
+This is not a new issue, but it has been controversial. It has been recognised for several years that public finance will not be enough to meet the needs of climate change. But vulnerable lower-income nations worry that a focus on mobilising private finance is simply an excuse for rich countries to wriggle out of providing the public, grant finance that they desperately need. In reality, both things are true. Public finance is vitally important because there is a great deal that private finance cannot or will not do (and even more that private finance will not do until public investment has created viable markets and demonstrated viability of innovations). But it is also true that the scale of investments needed to tackle climate change can only be achieved by mobilising global capital flows (the trillions that are invested by pension funds, insurance companies and other financial firms).
+Discussions at climate conferences reflect this need, with more and more focus on how to shape private finance in line with net zero commitments. This is certainly true at COP 27 where there have been a large number of sessions on shaping global finance flows to address climate change.
+###  **Global financial flows need to shift in three ways** :
+  1. First and foremost, investors need to protect against climate risks. For example, investors need to worry whether new construction will be at greater risk of flooding as rainfall patterns shift. This has been a huge area of work increasingly preoccupying mainstream financial sector experts (see for example, the work of the influential [Task Force on Climate-Related Financial Disclosures](https://www.fsb-tcfd.org/)).
+  2. Second, investors need to ensure their portfolios are compatible with net zero. This was started by pioneering ‘green’ investors who were ready to prioritise climate goals over the highest returns. But all investors need to take decarbonisation seriously because if they don’t, they risk being left with ‘stranded assets’ as economies transform – the most obvious examples are coal fire power stations that become obsolete before their investments are recovered.
+  3. Thirdly, much greater private investment is needed to drive adaptation to climate change. This goes beyond protecting investments to ensure they make a return, there is the potential for investments to contribute to public goods that would benefit investors and also benefit local or regional communities. Examples might include crops or irrigation systems that require less water and protect water tables, or afforestation to protect slopes and minimise flooding and landslides. This is something the [Global Commission on Adaptation](https://gca.org/about-us/the-global-commission-on-adaptation/) described as a “triple dividend” of avoided losses, economic benefits, and social and environmental benefits.
+
+
+### **Stimulating private investment in adaptation**
+We are working on all of these areas, but it is the last of these three that has received the least attention. Finance for adaptation is not flowing at a pace commensurate with the impacts of climate change already being felt across the globe. Adaptation finance increased 53% between 2017 and 2020, reaching USD 46 billion, but this still falls short of the average estimated requirement of USD 180 billion.
+But there is very little information available about the nature and scale of opportunities in adaptation markets. We have worked with FCDO under the [Green Growth Equity Facility Technical Cooperation Facility](https://www.opml.co.uk/projects/catalysing-private-investments-in-low-carbon-infrastructure-green-growth-equity-fund-technical-cooperation-facility) to explore investment opportunities in adaptation in India. One of the challenges of encouraging investment in adaptation is the sheer diversity of actions that are needed. A scan of markets for adaptation in India suggests there is significant potential for growth, but also huge diversity and highly disaggregated markets. We identified a sample of 77 viable markets for adaptation goods and services across multiple categories, including infrastructure (e.g. desalination plans), manufacturing (e.g. corrosion resistant railway stock), resources (e.g. drought resistant seeds), and services (e.g. weather based crop insurance). There are also hundreds more potential adaptation solutions with commercial potential.
+The figure below shows the results of our deep dive into the risk and nature of ten sample adaptation solutions in India.
+### **Market barriers to adaptation investments and government as market creator**
+We assessed market barriers for the sample of adaptation solutions in India and four, in particular, stood out:
+  * **Regulatory and policy barriers** are fundamental. In the same way that government action over decades has been crucial to develop renewable energy markets, government will also need to be proactive to help create viable adaptation markets that offer returns to investors and public adaptation benefits. In addition, in many important cases, government will actually be purchasing services through public procurement, for example for installation of underground electricity cables (which remain public-owned in India).
+  * **Access to finance** is another challenge, even where viable markets exist. 46% of the solutions studied showed ’financial barriers’ as a key reason why the market has not developed. Lack of understanding and experience by investors and lenders reduces investment in viable projects. 
+  * **Incomplete/asymmetric information** means investors, farmers, or businesses, are often unaware of the forecast risks and impacts of climate change, or the opportunities to mitigate these risks. Information barriers are estimated to affect nearly half sampled adaptation markets. For example, urea deep placement technology aim can reduce fertilizer costs and improve yields, but requires engagement from millions of farmers who may not yet be aware of this technology.
+  * **Technological limitations** also remain in many of these new markets. In some cases, the technology is not easily available at low cost in India, for example, rapid soil testing devices.
+
+
+### **Investment in solutions**
+There is a huge amount to do to maximise the potential for private investment in adaptation. Given the impacts of climate change are growing year by year, this effort is urgent. There are an increasing number of initiatives focused on solving these challenges, such as:
+  * [Climate Investment Funds](https://www.cif.org/) (CIF) that uses Private Sector Set Asides to allocate concessional financing ($25m in 2019) on a competitive basis to climate resilience projects.
+  * The UK Government ‘[Big Nature Impact Fund](https://www.gov.uk/government/news/update-on-the-big-nature-impact-fund)’: a public-private, blended finance vehicle to catalyse investment in nature-based projects in England
+  * [Water Equity](https://waterequity.org/) which lends financial institutions in emerging markets for water and sanitation microlending to low-income households. Since 2017, it has deployed more than $100m, with a 6.2% net IRR, and reached 2.1 million people.
+
+
+### The path ahead
+Private investment is not a panacea: public investment remains vital to tackling climate change. But private markets are critical to scaling solutions to the problem. A stronger start has been made for decarbonisation where private investments in renewable energy and some other technologies are now happening at scale.
+Private investment in adaptation is, by comparison, barely out of the starting blocks. It is less well understood, less well documented, less well researched, and less well supported. This needs to change to increase the private investment that helps address the adaptation challenges we face globally. Much greater attention is needed to set out priorities, resolve problems, demonstrate potential, show revenue streams, and prove the viability of markets to enable mainstream finance to flow.
+_[Phil Marker](https://www.linkedin.com/in/phillip-marker-6281b918/) is a Principal Consultant in energy, climate change, governance, and economic policy._
+_[Elizabeth Gogoi](https://www.linkedin.com/in/elizabeth-gogoi-37321225/) is a Principal Consultant. She specialises in climate change, and energy policy and planning._
+[ Climate, Energy, and Nature ](https://www.opml.co.uk/our-expertise/climate-energy-and-nature)
+Back to top
+## Use of personal data and cookies
+We use cookies and process personal data for the following purposes: **Functional, Analytics & Embedded external content**. 
+[Customize](https://www.opml.co.uk/insights/frontiers-private-sector-climate-finance# "Open consent dialog")
+DeclineAccept

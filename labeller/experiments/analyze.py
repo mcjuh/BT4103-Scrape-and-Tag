@@ -11,7 +11,7 @@ ranker's per-gig metrics). Rankers:
               pr  = peak relevance, log-likelihood of the top label (paper's alternative)
               gen = the label the model actually generated (the paper's argument against it: ties)
   routed    label.py's production setup: each gig judged by its hashed model (model_for_gig), er
-  ens_*     one condition's er scores from all four models combined per gig, by mean score,
+  ens_*     one condition's er scores from every MODEL_POOL model combined per gig, by mean score,
             mean rank, or mean per-model z-score
 
 Primary metric is NDCG@10 with linear gains (the paper's metric, as in trec_eval), taken as the
@@ -171,7 +171,7 @@ def main():
                      f"{st.mean(model_avg(rankers, c, 'er', 'tau')):.3f}",
                      f"{st.mean(model_avg(rankers, c, 'er', 'auc')):.3f}"])
     rows.sort(key=lambda r: -float(r[1].split()[0]))
-    out.append("## 1. Which prompt ranks best (expected-relevance scoring, averaged over the 4 models)\n")
+    out.append(f"## 1. Which prompt ranks best (expected-relevance scoring, averaged over the {len(MODELS)} models)\n")
     out.append(table(["condition", "NDCG@10 [95% CI]", "vs rg_2l", "p vs rg_2l", "NDCG@5", "Kendall tau-b",
                       "AUC (grade>=2)"], rows) + "\n")
 

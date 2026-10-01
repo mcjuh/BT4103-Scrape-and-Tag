@@ -1,0 +1,48 @@
+<!-- Source: https://www.mathematica.org/blogs/critical-public-services-require-efficient-effective-evidence-based-approaches | Title: Critical Public Services Require Efficient Effective Evidence Based Approaches | Seed: https://www.mathematica.org/about-mathematica/staff (Mathematica (Staff)) -->
+
+Your Privacy 
+Our website uses cookies. Please click the “Accept” button or continue to use our website if you agree to our use of cookies, as detailed in our [privacy and cookie policy](https://www.mathematica.org/privacy-policy "Privacy & Cookies Policy").
+Your Privacy 
+Our website uses cookies. Please click the “Accept” button or continue to use our website if you agree to our use of cookies, as detailed in our [privacy and cookie policy](https://www.mathematica.org/privacy-policy "Privacy & Cookies Policy").
+Critical Public Services Require Efficient, Effective, Evidence-Based Approaches 
+# Critical Public Services Require Efficient, Effective, Evidence-Based Approaches 
+Feb 24, 2025 
+Laura Dyer 
+[Analytics & Operations](https://www.mathematica.org/insights/blog-posts#sort=%40mprcomputedcontentdate%20descending&f:SolutionCategory=\[Analytics%20and%20Operations\]&f:SolutionCategory:operator=and) [Research & Evaluation](https://www.mathematica.org/insights/blog-posts#sort=%40mprcomputedcontentdate%20descending&f:SolutionCategory=\[Research%20and%20Evaluation\]&f:SolutionCategory:operator=and)
+Government agencies oversee billions in public funds across a wide array of programs. With growing concerns about fraud, waste, and improper payments, preventing and addressing these issues is more important than ever. But how can agencies strike the right balance between efficiency and effectiveness to protect taxpayer dollars and improve people’s lives? 
+At Mathematica, we help our clients and partners design, implement, and evaluate programs, policies, and strategies to ensure they are cost-effective, managed properly and transparently, and aligned with stated goals. Backed by deep expertise in evidence generation, data, and advisory services, we are committed to innovative, end-to-end solutions that drive measurable outcomes and improve day-to-day lives while being good stewards of investments—whether public, private, or philanthropic. Here are some examples. 
+Through [Project IMPROVE](https://www.mathematica.org/projects/project-improve), we’ve shared [proven strategies](https://www.mathematica.org/events/learn-about-business-process-management-with-project-improve) from the business world to help agencies improve their operations by coordinating service delivery, streamlining intake processes, and using technology. We’ve also provided innovative technical assistance in support of a customer-focused redesign of a Temporary Assistance for Needy Families (TANF) program that simplified and made the processes associated with program rules and requirements more efficient. 
+As part of our program integrity work at the Centers for Medicare & Medicaid Services (CMS), we examined an initiative aimed at addressing the improper use of ambulance rides, long [cited](https://oig.hhs.gov/oei/reports/oei-05-02-00590.pdf) as a major source of waste and abuse in the Medicare program. Our [analysis](https://www.mathematica.org/news/mathematica-analysis-finds-potentially-significant-savings-in-medicare-expenditures-for-prior) found that requiring healthcare providers to get approval from Medicare before providing repetitive, scheduled non-emergent ambulance transport (RSNAT) services led to a 77 percent decline in costs. This one change saved Medicare about $1 billion between 2015 and 2019. 
+We’ve also partnered with CMS to [determine](https://www.cms.gov/priorities/innovation/innovation-models/md-tccm) whether holding a state fully accountable for the cost and quality of care for each patient with Medicare results in reduced spending and improved beneficiary health. And to help states oversee the performance of Medicaid managed care plans, we developed a [toolkit](https://www.mathematica.org/publications/medical-loss-ratio-mlr-monitoring-reporting-and-oversight-a-toolkit-for-states) that can be used to improve the completeness and accuracy of plan-reported financial data. 
+In Vermont, we [found](https://www.mathematica.org/publications/cost-savings-from-expanding-vermonts-perinatal-psychiatric-consultation-service) that expanding psychiatric services for expecting and new mothers would save $3 for every $1 spent on the program. Treating perinatal depression or anxiety early and effectively would eventually result in both economic and healthcare savings. 
+Our partnerships extend beyond government. We’ve also developed data solutions that help doctors, hospitals, and healthcare providers improve care and lower costs. Our [hospital cost tool](https://www.mathematica.org/dataviz/hospital-cost-tool), created in partnership with the National Academy for State Health Policy, provides transparency into how much hospitals spend on patient care services, how these costs compare with the standard rates hospitals set, and how much health plans actually pay. Another [solution](https://www.mathematica.org/news/new-dashboard-helps-hospitals-and-health-systems-improve-cost-and-quality) helps integrated healthcare delivery networks such as MaineHealth compare revenue, expenses, and quality metrics with other hospitals and health systems nationwide, giving them the information they need to identify cost-saving strategies.
+The goal isn’t just to reduce costs, but to also build and reinforce public trust. When programs capably deliver services to the people they are designed to help, the public can be confident that tax dollars are being used wisely.
+Moving forward, we remain steadfast in our commitment to helping agencies and our other partners use evidence, effective strategies, and real-world solutions to efficiently deliver services and drive results.
+## About the Author
+### Laura Dyer
+Communications Specialist 
+[View More by this Author](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&q=Laura%20Dyer)
+## More like this from Mathematica
+Featured Blog Post
+###  [Four Questions to Help Determine if Program Integrity Initiatives Are Working](https://www.mathematica.org/blogs/four-questions-to-help-determine-if-program-integrity-initiatives-are-working)
+Dec 10, 2024 
+Andrew Asher, Jonathan Ladinsky, and [Jason Weinstock](https://www.mathematica.org/staff/jason-weinstock)
+[Research & Evaluation](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:SolutionCategory=\[Research%20and%20Evaluation\]&f:SolutionCategory:operator=and) [Technical Assistance](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:Solution=\[Technical%20Assistance\]&f:Solution:operator=and) [Performance Management](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:Solution=\[Performance%20Management\]&f:Solution:operator=and)
+Podcast
+###  [Lessons from a Successful Medicare Program Integrity Demonstration Soon to Expand Nationwide](https://www.mathematica.org/blogs/lessons-from-a-successful-medicare-program-integrity-demonstration-soon-to-expand-nationwide)
+Aug 26, 2021 
+J.B. Wogan 
+[Health](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:FocusArea=\[Health\]&f:FocusArea:operator=and) [_On the Evidence_ Podcast](https://www.mathematica.org/insights/blog-posts#sort=%40mprcomputedcontentdate%20descending&f:BlogSeries=\[On%20The%20Evidence-Podcast\]&f:BlogSeries:operator=and) [Medicare](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:FocusArea=\[Health\]&f:FocusArea:operator=and&f:HealthTopic=\[Medicare\]&f:HealthTopic:operator=and)
+Publication
+###  [Business Process Management](https://www.mathematica.org/publications/business-process-management)
+Dec 13, 2023 
+Katie Bodenlos, Alex Bauer 
+[Human Services](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:FocusArea=\[Human%20Services\]&f:FocusArea:operator=and) [Family Support](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:FocusArea=\[Human%20Services\]&f:FocusArea:operator=and&f:HumanServiceTopic=\[Family%20Support\]&f:HumanServiceTopic:operator=and) [TANF and Employment Issues](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:FocusArea=\[Human%20Services\]&f:FocusArea:operator=and&f:HumanServiceTopic=\[Family%20Support\]&f:HumanServiceTopic:operator=and&f:HumanServiceFamilySupportTopic=\[TANF%20and%20Employment%20Issues\]&f:HumanServiceFamilySupportTopic:operator=and)
+Feature
+###  [Improving public well-being through integrated data, technology, and evidence](https://www.mathematica.org/features/improving-public-well-being-through-integrated-data-technology-and-evidence)
+Jan 26, 2026 
+[Data Solutions](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:SolutionCategory=\[Data%20Solutions\]&f:SolutionCategory:operator=and) [Analytics & Operations](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:SolutionCategory=\[Analytics%20and%20Operations\]&f:SolutionCategory:operator=and) [Research & Evaluation](https://www.mathematica.org/search#sort=%40mprcomputedcontentdate%20descending&f:SolutionCategory=\[Research%20and%20Evaluation\]&f:SolutionCategory:operator=and)
+Copy link
+✓
+Thanks for sharing!
+Find any service

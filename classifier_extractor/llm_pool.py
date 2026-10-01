@@ -52,6 +52,10 @@ corpus. Left out:
   request. Records extracted before then still carry it.
 - gemma4:26b: it can't switch "thinking" off either; an extraction took
   ~30-45s and ~1.5-2k completion tokens, versus 1-10s for the rest.
+- llama3.1:8b: dropped 2026-09-28 at the team's request. It ignored the
+  anonymisation rules (named a person's former regulator employer), copied
+  prompt examples verbatim, and returned off-schema keys. Records and
+  classify/industry labels produced before then still carry it.
 Rerun that listing if SOCLAAS's model list changes. classify.py leaves
 "thinking" on for every model; extract.py and industry.py switch it off.
 """
@@ -59,7 +63,6 @@ Rerun that listing if SOCLAAS's model list changes. classify.py leaves
 import hashlib
 
 MODEL_POOL = [
-    "llama3.1:8b",       # Meta
     "qwen3.8:27b",       # Alibaba Qwen (served before as the "qwen3.6:27b" alias)
     "qwen3.6:35b",       # Alibaba Qwen, 35B-A3B mixture-of-experts
     "qwen3-vl:32b",      # Alibaba Qwen, vision-language (text-only use here)

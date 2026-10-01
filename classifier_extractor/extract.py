@@ -68,6 +68,9 @@ Also carried over from gig.py/showcase.py:
   columns existed is migrated.
 - Per-record quality metrics in the manifest (field lengths, leftover
   gendered pronouns).
+- --out-tag TAG writes a separate dataset (docs/hirers_TAG.csv,
+  providers_TAG.csv, extract_manifest_TAG.jsonl) with its own progress, so
+  a re-extraction under new prompts leaves the existing CSVs alone.
 
 Each file is extracted by one model from llm_pool.MODEL_POOL.
 Read-only against docs/<bucket>/. Progress is tracked in
@@ -364,7 +367,7 @@ def _parse_json(raw_output: str) -> dict:
 # copied an example instead of the source (seen: llama3.1 pasted the example
 # patent numbers and $5M insurance engagement into a real person's profile).
 PROMPT_EXAMPLE_LEAKS = (
-    "9921894", "10203941", "USPTO patents", "European insurance carrier",
+    "9921894", "10203941", "USPTO patents", "S$5M engagement",
     "Computer Weekly", "40 services off mainframe", "from 3 days to 4 hours",
 )
 
@@ -382,6 +385,16 @@ PUBLISHER_ALIASES = {
     "publicissapient": ["Publicis Sapient"],
     "rsmus": ["RSM"],
     "westmonroe": ["West Monroe"],
+}
+# Products that carry the publisher's name are tools, which the prompts say to
+# keep ("IBM Power Systems" is a requirement, not the firm). Masked before the
+# name check, which otherwise rejected every IBM case study built around one.
+# Divisions ("IBM Consulting", "IBM Garage") are deliberately not listed.
+PUBLISHER_PRODUCTS = {
+    "ibm": ["Cloud", r"Power\w*", r"watsonx(?:\.\w+)?", r"Watson\w*", "FlashSystem", "Spectrum",
+            "Instana", "Storage", "Granite", "Turbonomic", "Z", "i", "Quantum", "Apptio", "WebSphere",
+            "Maximo", "Db2", "MQ", "Sterling", "Cognos", "SPSS", "Guardium", "QRadar",
+            "API Connect", "z/OS", "Envizi", "DataPower", "mainframe"],
 }
 ORG_FIELDS = ("source_company", "source_company_team")  # metadata, allowed to name the publisher
 
@@ -419,6 +432,10 @@ def _named_org(fname: str, doc: dict):
         names.append(doc["source_company"])
     text = " ".join(v for k, v in doc.items()
                     if isinstance(v, str) and k not in ORG_FIELDS and k not in CODE_FIELDS)
+    products = PUBLISHER_PRODUCTS.get(stem)
+    if products:
+        # Product names matched case-sensitively, so "IBM powered the rollout" still counts
+        text = re.sub(rf"(?<!\w)(?i:{re.escape(stem)})®?\s+(?:{'|'.join(products)})(?![\w/])", " ", text)
     for name in names:
         name = name.strip()
         if name and re.search(rf"(?<!\w){re.escape(name)}(?!\w)", text, re.IGNORECASE):
@@ -426,7 +443,7 @@ def _named_org(fname: str, doc: dict):
     return None
 
 
-def _entity_doc(data: dict, entity_type: str, fname: str, model: str):
+def _entity_doc(data: dict, entity_type: str, fname: str, model: str, source: str = ""):
     """A parsed extraction response -> schema-valid document, or None for {}.
     Raises on a schema mismatch, so the caller retries it like any failure."""
     if data == {}:
@@ -442,7 +459,9 @@ def _entity_doc(data: dict, entity_type: str, fname: str, model: str):
     if errors:
         raise ValueError(f"schema mismatch: {errors[0]}")
     text = " ".join(v for v in doc.values() if isinstance(v, str)).lower()
-    leak = next((s for s in PROMPT_EXAMPLE_LEAKS if s.lower() in text), None)
+    # A phrase the source itself contains isn't a copy (seen: the real person
+    # the patent example was taken from).
+    leak = next((s for s in PROMPT_EXAMPLE_LEAKS if s.lower() in text and s.lower() not in source), None)
     if leak:
         raise ValueError(f"copied a prompt example ({leak!r}) instead of the source")
     org = _named_org(fname, doc)
@@ -498,7 +517,8 @@ def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple
     kwargs = prompt_kwargs(entity_type, fname, rolls)
     if cfg["anonymise"]:
         text = anonymise(mask_publisher(text, fname))
-    validate = functools.partial(_entity_doc, entity_type=entity_type, fname=fname, model=model)
+    validate = functools.partial(_entity_doc, entity_type=entity_type, fname=fname, model=model,
+                                 source=text.lower())
 
     source = f"SOURCE MATERIAL:\n```\n{text[:MAX_CHARS]}\n```"
     usage_total = {"prompt_tokens": 0, "completion_tokens": 0}
@@ -865,6 +885,18 @@ def _results(pending: list, workers: int):
         ex.shutdown(wait=True, cancel_futures=True)
 
 
+def use_out_tag(tag: str) -> None:
+    """Point every output (both CSVs and the progress manifest) at a tagged
+    copy, e.g. "v2" -> docs/hirers_v2.csv. Progress is tracked per tag, so a
+    tagged run re-extracts every file whatever the untagged run did."""
+    global PROVIDERS_CSV, HIRERS_CSV, EXTRACT_MANIFEST_PATH
+    PROVIDERS_CSV = DOCS_DIR / f"providers_{tag}.csv"
+    HIRERS_CSV = DOCS_DIR / f"hirers_{tag}.csv"
+    EXTRACT_MANIFEST_PATH = DOCS_DIR / f"extract_manifest_{tag}.jsonl"
+    ENTITY_CONFIG["PROVIDER"]["csv"] = PROVIDERS_CSV
+    ENTITY_CONFIG["HIRER"]["csv"] = HIRERS_CSV
+
+
 def ping() -> None:
     for model in MODEL_POOL:
         start = time.perf_counter()
@@ -919,9 +951,16 @@ def main():
         help="rewrite both CSVs with the current industry tags from docs/industry_manifest.jsonl "
              "(no LLM calls), migrating a CSV that predates the industry columns, then exit",
     )
+    parser.add_argument(
+        "--out-tag", default=None,
+        help="write to docs/hirers_TAG.csv, providers_TAG.csv and extract_manifest_TAG.jsonl instead "
+             "of the untagged files, with progress tracked separately (e.g. --out-tag v2)",
+    )
     args = parser.parse_args()
     global _PACER
     _PACER = Pacer(args.rps) if args.rps else None
+    if args.out_tag:
+        use_out_tag(args.out_tag)
 
     if args.ping:
         ping()

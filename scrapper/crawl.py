@@ -128,6 +128,9 @@ def read_seed_urls(path: Path):
     seed (this is how the Upwork entry used to go missing)."""
     seeds = []
     url_re = re.compile(r"(https?://\S+)")
+    # Optional per-seed page cap, e.g. "HKA: https://www.hka.com/people/ (max 300 pages)",
+    # so a seed crawls only as much as the corpus needs from it.
+    cap_re = re.compile(r"\(max (\d+) pages?\)", re.IGNORECASE)
     bare_domain_re = re.compile(r"^([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(/\S*)?$")
     skipped = []
     for lineno, raw_line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
@@ -138,7 +141,8 @@ def read_seed_urls(path: Path):
         if m:
             url = m.group(1).rstrip(")\"'.,")
             label = line.split(":", 1)[0].strip() if ":" in line else url
-            seeds.append((label, url))
+            cap = cap_re.search(line)
+            seeds.append((label, url, int(cap.group(1)) if cap else None))
             continue
         # No http(s) URL found -- check for a "Label: bare-domain" line
         # (missing scheme) before giving up on it.
@@ -148,7 +152,7 @@ def read_seed_urls(path: Path):
             if bare_domain_re.match(rest):
                 url = f"https://{rest}"
                 print(f"  [WARN] seeds.md line {lineno}: '{line}' has no scheme, assuming {url}", flush=True)
-                seeds.append((label.strip(), url))
+                seeds.append((label.strip(), url, None))
                 continue
         # Section headers and other non-seed lines are expected to have no
         # URL at all -- only warn when the line looks like it was meant to
@@ -239,9 +243,10 @@ def block_reason(text: str) -> str | None:
     return None
 
 
-async def crawl_seed(crawler: AsyncWebCrawler, label: str, seed_url: str, report: list):
+async def crawl_seed(crawler: AsyncWebCrawler, label: str, seed_url: str, report: list, max_pages: int = None):
     domain = domain_of(seed_url)
-    print(f"\n=== [{label}] {seed_url}  (domain={domain}) ===", flush=True)
+    max_pages = max_pages or MAX_PAGES_PER_DOMAIN
+    print(f"\n=== [{label}] {seed_url}  (domain={domain}, max {max_pages} pages) ===", flush=True)
 
     filter_chain = FilterChain([
         URLPatternFilter(patterns=EXCLUDE_PATTERNS, reverse=True),
@@ -250,7 +255,7 @@ async def crawl_seed(crawler: AsyncWebCrawler, label: str, seed_url: str, report
     deep_strategy = BestFirstCrawlingStrategy(
         max_depth=MAX_DEPTH,
         include_external=False,
-        max_pages=MAX_PAGES_PER_DOMAIN,
+        max_pages=max_pages,
         filter_chain=filter_chain,
         url_scorer=KeywordRelevanceScorer(keywords=LINK_KEYWORDS, weight=1.0),
     )
@@ -420,7 +425,7 @@ async def main():
     # the concurrent workers below only ever see seeds that should actually run.
     to_run = []
     seen_this_run = set()
-    for label, url in batch:
+    for label, url, max_pages in batch:
         if (label, url) in seen_this_run:
             print(f"  [SKIP] {label} ({url}) -- duplicate seed entry within this run", flush=True)
             continue
@@ -432,16 +437,16 @@ async def main():
                 flush=True,
             )
             continue
-        to_run.append((label, url))
+        to_run.append((label, url, max_pages))
 
     semaphore = asyncio.Semaphore(max(1, args.concurrency))
 
-    async def run_one(crawler, label, url):
+    async def run_one(crawler, label, url, max_pages):
         async with semaphore:
             domain = domain_of(url)
             before = len(list(UNPROCESSED_DIR.glob(f"{domain}__*.md")))
             try:
-                await asyncio.wait_for(crawl_seed(crawler, label, url, report), timeout=SEED_TIMEOUT_S)
+                await asyncio.wait_for(crawl_seed(crawler, label, url, report, max_pages), timeout=SEED_TIMEOUT_S)
             except asyncio.TimeoutError:
                 after = len(list(UNPROCESSED_DIR.glob(f"{domain}__*.md")))
                 saved_before_timeout = max(0, after - before)
@@ -459,7 +464,7 @@ async def main():
             save_state(report)  # persist after every seed so progress survives
 
     async with AsyncWebCrawler(config=browser_config) as crawler:
-        await asyncio.gather(*(run_one(crawler, label, url) for label, url in to_run))
+        await asyncio.gather(*(run_one(crawler, label, url, max_pages) for label, url, max_pages in to_run))
 
     total_saved, report_path = write_report_md(report)
     print(f"\nBatch done. Cumulative report written to {report_path}")

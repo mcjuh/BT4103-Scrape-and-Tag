@@ -152,3 +152,19 @@ Business Ethics
 Ethisphere: https://www.ethisphere.com/
 Blocked on a plain GET, worth retrying through crawl4ai's real browser
 These returned 403 to curl, which is usually plain-UA bot detection rather than a dead site, so they are held here rather than discarded. Try them with crawl4ai before writing them off. Thornton Tomasetti, Simpson Gumpertz and Heger, Battelle, Certara, NAMSA, RQM+, HOK, Sasaki, Tetra Tech, Stantec, Health Advances, Putnam Associates, The Ethics Centre.
+
+Thin-industry provider supply -- added 29 Sep 2026
+People/expert hubs for the gig industries with the fewest good provider matches (in the old grades, Social Services 91% of gigs with no good match, Marine 67%, Energy 49%, Construction 47%, Public Sector 43%, Healthcare 34%). Each seed carries a page cap sized to its industry's shortfall against ~1.5 providers per gig (roughly Construction +140, Healthcare +115, Energy +80, Public Sector +50, Social Services +15, Marine +15), at the ~0.4 providers per page that past people-hub crawls yielded -- so they top up the thin cells rather than tipping them over. Every hub was checked on 29 Sep 2026 to list individual bios.
+Marine & Offshore
+Brookes Bell (Team): https://www.brookesbell.com/about-us/the-team/ (max 150 pages)
+Construction, Energy & Disputes Experts
+Secretariat (People): https://secretariat-intl.com/people/ (max 300 pages)
+HKA (People): https://www.hka.com/people/ (max 300 pages)
+Diales (Experts): https://www.diales.com/en/experts (max 150 pages)
+Healthcare
+Chartis (People): https://www.chartis.com/about/our-people (max 250 pages)
+Huron (Healthcare Experts): https://www.huronconsultinggroup.com/en/our-experts/healthcare-clinicians (max 150 pages)
+Public Sector, Social Services & Education
+Oxford Policy Management (Experts): https://www.opml.co.uk/our-expertise/meet-our-experts (max 150 pages)
+Mathematica (Staff): https://www.mathematica.org/about-mathematica/staff (max 150 pages)
+Bridgespan (Leadership): https://www.bridgespan.org/about-us/bridgespan-leadership-team (max 100 pages)

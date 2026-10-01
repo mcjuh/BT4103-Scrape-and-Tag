@@ -2,27 +2,30 @@
   "_about": "Per-file style rolls for extract.py. Each roll picks one option by weight (seeded by file name) and fills {<roll>} and {<roll>_instruction} in that entity type's prompts. Weights within a roll are relative.",
   "HIRER": {
     "detail": {
-      "Minimal": {"weight": 0.40, "instruction": "Usually 50-70 words. One short paragraph."},
-      "Standard": {"weight": 0.50, "instruction": "Usually 70-100 words. One or two short paragraphs, or a short opening plus 2-3 bullets."},
-      "Detailed": {"weight": 0.10, "instruction": "Usually 100-140 words. Use this only when the source supports several distinct tasks within the one gig."}
+      "Minimal": {"weight": 0.25, "instruction": "Usually 55-70 words. One short paragraph."},
+      "Standard": {"weight": 0.65, "instruction": "Usually 70-95 words. One or two short paragraphs."},
+      "Detailed": {"weight": 0.1, "instruction": "Usually 95-120 words. Use a short opening plus 2-3 bullets only when the one task has several distinct steps."}
     },
     "voice": {
-      "Task first": {"weight": 0.25, "instruction": "Open with the work itself, as a direct instruction or a noun phrase (e.g. \"Redesign [process] so that...\" or \"Migration of [system] to...\"). No pronoun in the first sentence."},
-      "Context first": {"weight": 0.25, "instruction": "Open with one sentence setting the scene in the third person (e.g. \"A [type of organisation] is [situation].\"), then say what is needed. Avoid \"we\" throughout."},
-      "Problem first": {"weight": 0.20, "instruction": "Open with the problem the hirer has run into (e.g. \"Our month-end close takes twelve days and ...\" or \"Customer complaints about late deliveries doubled this year.\"), then say what work is needed. Don't describe the ideal candidate."},
-      "Individual poster": {"weight": 0.15, "instruction": "Write as the one manager posting the gig, using \"I\" and \"my team\" (e.g. \"I run [function] at a [type of organisation] and need...\"). Don't invent a name or a job title the source doesn't support."},
-      "Organisation": {"weight": 0.15, "instruction": "Write as the organisation, using \"we\" and \"our\" sparingly, and do not begin the first sentence with \"We\"."}
+      "Owner intro": {"weight": 0.55, "instruction": "Write as the organisation, in the first person plural. Open by saying who you are and your situation (e.g. \"We run a chain of [n] [businesses] in Singapore.\", \"We are a [size] [kind of organisation] in [area] that ...\"), then the problem and what you need."},
+      "Problem first": {"weight": 0.25, "instruction": "Write as the organisation (\"we\", \"our\"). Open with the problem you have run into (e.g. \"Our month-end close takes twelve days and ...\"), then say who you are in a clause and what work is needed."},
+      "Individual poster": {"weight": 0.1, "instruction": "Write as the one manager or owner posting the gig, using \"I\" and \"my team\" or \"our\" (e.g. \"I run [function] at a [kind of organisation] and need...\"). Don't invent a name or a job title the source doesn't support."},
+      "Context first": {"weight": 0.1, "instruction": "Open with one sentence setting the scene in the third person (e.g. \"A [kind of organisation] in Singapore is [situation].\"), then say what is needed. Avoid \"we\" throughout."}
+    },
+    "area": {
+      "named": {"weight": 0.35, "instruction": "place the organisation in one Singapore area or estate that suits the business (e.g. a shipyard in Tuas, a factory in Jurong, a clinic in Bedok, a wholesaler in Pasir Panjang, an office in Paya Lebar), mentioned once in the opening sentence."},
+      "none": {"weight": 0.65, "instruction": "say only that it is in Singapore; do not name an area."}
     }
   },
   "PROVIDER": {
     "title_style": {
-      "Descriptive": {"weight": 0.6, "instruction": "State their core role and specialization plainly and factually -- no authority framing, no sales hook (e.g., \"Senior Management Consultant specializing in supply chain transformation for retail clients\")."},
+      "Descriptive": {"weight": 0.6, "instruction": "State their core role and specialization plainly and factually -- no authority framing, no sales hook (e.g., \"Senior Management Consultant specialising in supply chain transformation for Singapore retail clients\")."},
       "Authority": {"weight": 0.3, "instruction": "Rewrite their core role as an official corporate/industry-leader title (e.g., \"Former Head of [Field] & Industry Leader\")."},
       "Value Prop": {"weight": 0.1, "instruction": "Rewrite their core role as a client-focused, benefit-driven hook (e.g., \"Smart Financing as you Deserve\")."}
     },
     "achievement_style": {
-      "Direct First-Person": {"weight": 0.5, "instruction": "Use explicit \"I\" pronouns with active verbs (e.g., \"I managed...\", \"I led...\"). Cap at 3 items."},
-      "Implied First-Person": {"weight": 0.5, "instruction": "Drop pronouns completely. Start directly with punchy action verbs (e.g., \"Managed...\", \"Led...\"). Cap at 3 items."}
+      "Implied": {"weight": 0.8, "instruction": "Drop pronouns completely, as in a CV summary (e.g. \"18 years as a quantity surveyor ... Has represented subcontractors in over 40 adjudications. Previously with a specialist claims consultancy.\")."},
+      "Direct First-Person": {"weight": 0.2, "instruction": "Use \"I\" with active verbs (e.g. \"I spent 18 years as ... I have represented ...\")."}
     },
     "imperfection": {
       "none": {"weight": 0.95, "instruction": "none; use flawless grammar and punctuation."},
@@ -30,6 +33,10 @@
       "double_connecting_word": {"weight": 0.0075, "instruction": "Accidental double connecting word (e.g., \"for the the project\")"},
       "mid_sentence_tense_switch": {"weight": 0.0025, "instruction": "Unintentionally switch grammatical tense mid-sentence (e.g., \"led the team and develops new strategies\")"},
       "omitted_trailing_period": {"weight": 0.0275, "instruction": "Leave the final sentence without its period"}
+    },
+    "scope_limit": {
+      "none": {"weight": 0.75, "instruction": "none. Do not state what the service does not cover."},
+      "stated": {"weight": 0.25, "instruction": "end with one short sentence naming the nearest adjacent work a hirer might mistake this service for, which the source gives no sign the individual does (e.g. \"Not focused on payroll or HR administration.\", \"Does not include legal drafting or court representation.\"). One adjacent area only, never a list."}
     }
   }
 }

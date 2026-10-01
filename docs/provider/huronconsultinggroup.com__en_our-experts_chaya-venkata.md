@@ -1,0 +1,18 @@
+<!-- Source: https://www.huronconsultinggroup.com/en/our-experts/chaya-venkata | Title: Chaya Venkata - Huron | Seed: https://www.huronconsultinggroup.com/en/our-experts/healthcare-clinicians (Huron (Healthcare Experts)) -->
+
+[Skip to main content](https://www.huronconsultinggroup.com/en/our-experts/chaya-venkata#main-content)
+Managing Director
+# Chaya Venkata
+M.D., MBA
+Dr. Chaya Venkata leads our healthcare digital analytics work. She creates value for healthcare clients by leveraging advanced analytics to improve revenue, performance, and outcomes. She has more than 20 years of experience using targeted insights powered by digital strategies and custom analytics to enable healthcare organizations to deliver personalized care to consumers, engage providers, and enhance benefits to communities.
+## About Dr. Venkata
+Chaya helps organizations across the healthcare continuum harness advanced analytic insights to drive transformation and unlock lasting value. She develops strategies and approaches that generate actionable insights to transform operating models, optimize cost structures, streamline business processes, scale new businesses, and build differentiated capabilities. These efforts enable organizations to thrive across the spectrum of fee-for-service to value-based care reimbursement models. Chaya has led major transformations across a range of providers — including for-profit, not-for-profit, and academic medical centers; regional and national payers and payer-providers; and investor-backed, technology-enabled healthcare services.
+Over her career, Chaya has:
+  * Designed the analytics strategy for a $7 billion value-based care organization, from business need prioritization to data mapping and dashboard design, serving up tailored, actionable intelligence to operational, clinical, and corporate end users. She incorporated predictive and prescriptive use cases to maximize the value extraction of technology and data assets, leading to $450 million per year in realized value for the organization.
+  * Utilized advanced analytic techniques leveraging artificial intelligence and machine learning technology on clinical, claims, and pharmacy data sets to proactively identify patients with a higher likelihood of exacerbations. These efforts reduced high-cost utilization, resulting in an 11% annual reduction in emergency care utilization.
+  * Implemented a digital and analytics transformation for a mission-driven hospital system, establishing a new analytics center of excellence that combines nontraditional data sources with clinical and claims data sets. She led the platform prioritization between Amazon Web Services, Google Cloud Platform, and Azure, delivering targeted use cases that generated more than $10 million in annual business value per case. These efforts enabled the design of personalized care journeys, improving patient access and retention amidst private equity disruption in the local market.
+
+
+Prior to joining Huron, Chaya held executive leadership roles at healthcare analytics firms, including Clarify Health and Sg2. She also served in leadership roles at OhioHealth and The Ohio State University Wexner Medical Center.
+Chaya earned a Master of Business Administration from the Wharton School of the University of Pennsylvania and her medical doctorate from Rajiv Gandhi University of Health Sciences. She is a member of the American College of Physician Advisors and American College of Preventive Medicine.
+> Experienced practitioners craft meaningful analytics strategies that future-proof health systems by aligning missions with financial sustainability, predicting and prescribing opportunities for greater value, enhanced quality of care, and superior outcomes.

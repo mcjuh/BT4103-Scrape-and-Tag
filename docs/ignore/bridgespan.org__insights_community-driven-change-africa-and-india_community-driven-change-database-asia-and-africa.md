@@ -1,0 +1,21 @@
+<!-- Source: https://www.bridgespan.org/insights/community-driven-change-africa-and-india/community-driven-change-database-asia-and-africa | Title: Community-Driven Change Database: Asia and Africa | Bridgespan | Seed: https://www.bridgespan.org/about-us/bridgespan-leadership-team (Bridgespan (Leadership)) -->
+
+# Community-Driven Change Database: Asia and Africa
+May 31, 2024
+# Community-Driven Change Database: Asia and Africa
+In 2023, Bridgespan launched its first global south-focused multiyear initiative: Community-Driven Change. We began the initiative with an aim to shift existing mindsets and practices through a systematic, collaborative, and comprehensive effort that elevates actionable insights and practical approaches to advancing community-driven change. This three-year effort across Asia and Africa ultimately aims to drive greater funding towards community-driven organizations and improved practices for not just listening to communities but working with them towards more lasting and equitable change.
+The initiative has received support from eight funding organizations with deep interest in strengthening proximate leadership and putting communities at the center of change. These include the Global Alliance for Communities, H&M Foundation, Hilton Foundation, Humanity United, Rohini Nilekani Philanthropies, Swades Foundation, Target Foundation, and Veddis Foundation.
+The following database of 96 organizations is not exhaustive. It consists of community-driven organizations across India and Africa identified through Bridgespan research. All of those listed have consented to have their information shared. Under our definition of community-driven, we consider those that engage with communities as partners or owners in the programming. If you believe your organization belongs to this list or wish to amend your data, [please fill out the short form on this page](https://www.bridgespan.org/insights/community-driven-change-africa-and-india/community-driven-change-database-update-form). You can also [download a Microsoft Excel copy of the database](https://www.bridgespan.org/getmedia/49a4d2de-5fff-4b4f-99cc-739af0e60224/bridgespan-cdc-database-asia-africa-june-2024.xlsx). 
+  * [ Bluesky ](https://bsky.app/intent/compose?text=Community-Driven%20Change%20Database%3A%20Asia%20and%20Africa+%7C+Bridgespan%20+https://www.bridgespan.org/insights/community-driven-change-africa-and-india/community-driven-change-database-asia-and-africa)
+  * [ LinkedIn ](https://www.linkedin.com/sharing/share-offsite?mini=true&url=https://www.bridgespan.org/insights/community-driven-change-africa-and-india/community-driven-change-database-asia-and-africa&title=Community-Driven%20Change%20Database%3A%20Asia%20and%20Africa+%7C+Bridgespan)
+  * [ Facebook ](https://www.facebook.com/dialog/share?app_id=2718581264943794&display=popup&href=https://www.bridgespan.org/insights/community-driven-change-africa-and-india/community-driven-change-database-asia-and-africa)
+
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Permissions beyond the scope of this license are available in our [Terms and Conditions](https://www.bridgespan.org/about-us/terms-and-conditions). 
+## Related Content
+  * ### [Dreaming of Place, Purpose, and Possibility In this episode, we travel to Gorée Island for a conversation about history, connection, and possibility across Africa and its global diaspora. ](https://www.bridgespan.org/dreaming-of-place-purpose-and-possibility "Dreaming of Place, Purpose, and Possibility")
+  * ### [Rethinking Risk: Why Direct Funding to Communities Works  ](https://www.bridgespan.org/insights/rethinking-risk-why-direct-funding-to-communities-works "Rethinking Risk: Why Direct Funding to Communities Works ")
+  * ### [Checklist to Identify Community-Driven Change Organisations: Guidance for Funders Questions funders can ask to assess a nonprofit’s orientation towards community-led development.  ](https://www.bridgespan.org/insights/checklist-to-identify-community-driven-change-organisations-guidance-for-funders "Checklist to Identify Community-Driven Change Organisations: Guidance for Funders")
+
+
+Download in progress.Please wait…

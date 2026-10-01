@@ -1,6 +1,6 @@
 # Crawl Report
 
-Total seeds processed: 121  |  Total files saved: 10590
+Total seeds processed: 130  |  Total files saved: 11028
 
 | Label | Seed URL | Status | Saved | Notes |
 |---|---|---|---|---|
@@ -125,3 +125,12 @@ Total seeds processed: 121  |  Total files saved: 10590
 | ReD Associates | https://www.redassociates.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
 | Stripe Partners | https://www.stripepartners.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
 | Ethisphere | https://www.ethisphere.com/ | OK (0 pages crawled, 0 saved) | 0 |  |
+| Brookes Bell (Team) | https://www.brookesbell.com/about-us/the-team/ | FAILED (overall timeout) | 6 |  |
+| Secretariat (People) | https://secretariat-intl.com/people/ | FAILED (overall timeout) | 6 |  |
+| HKA (People) | https://www.hka.com/people/ | FAILED (overall timeout) | 4 |  |
+| Diales (Experts) | https://www.diales.com/en/experts | FAILED (overall timeout) | 23 |  |
+| Chartis (People) | https://www.chartis.com/about/our-people | FAILED (overall timeout) | 51 |  |
+| Huron (Healthcare Experts) | https://www.huronconsultinggroup.com/en/our-experts/healthcare-clinicians | FAILED (overall timeout) | 16 |  |
+| Oxford Policy Management (Experts) | https://www.opml.co.uk/our-expertise/meet-our-experts | OK (150 pages crawled, 147 saved) | 147 | 3 blocked (bot-check/consent wall) |
+| Mathematica (Staff) | https://www.mathematica.org/about-mathematica/staff | OK (150 pages crawled, 147 saved) | 147 | 3 blocked (bot-check/consent wall) |
+| Bridgespan (Leadership) | https://www.bridgespan.org/about-us/bridgespan-leadership-team | OK (100 pages crawled, 38 saved) | 38 | 62 blocked (bot-check/consent wall) |

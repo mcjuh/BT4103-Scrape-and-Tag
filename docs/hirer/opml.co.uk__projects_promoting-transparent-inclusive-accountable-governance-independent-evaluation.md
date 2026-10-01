@@ -1,0 +1,56 @@
+<!-- Source: https://www.opml.co.uk/projects/promoting-transparent-inclusive-accountable-governance-independent-evaluation | Title: Promoting transparent, inclusive and accountable governance: Independent Evaluation | Oxford Policy Management | Seed: https://www.opml.co.uk/our-expertise/meet-our-experts (Oxford Policy Management (Experts)) -->
+
+[ Skip to main content ](https://www.opml.co.uk/projects/promoting-transparent-inclusive-accountable-governance-independent-evaluation#main-content)
+The Open Government Partnership (OGP) provides a platform for governments and civil society to promote transparent, inclusive, and accountable governance around the world. In 2019, OGP funders commissioned Oxford Policy Management (OPM) to undertake an independent evaluation of the OGP’s core institutions, and the efforts of the OGP Support Unit (SU) in particular. 
+Share this page
+[ Share this page ](https://www.opml.co.uk/projects/promoting-transparent-inclusive-accountable-governance-independent-evaluation)
+##  Project team members
+[Stephen Akroyd](https://www.opml.co.uk/person/stephen-akroyd "Go to Stephen Akroyd's profile")[Claire Hutchings](https://www.opml.co.uk/search?author=%22Claire%20Hutchings%20%28513%29%22 "View all work by Claire Hutchings")[Emma Jones](https://www.opml.co.uk/search?author=%22Emma%20Jones%20%28250%29%22 "View all work by Emma Jones")[Natalia Albañil](https://www.opml.co.uk/person/natalia-albanil "Go to Natalia Albañil's profile")[Kate Dyer](https://www.opml.co.uk/person/kate-dyer "Go to Kate Dyer's profile")[Adam Harnischfeger](https://www.opml.co.uk/person/adam-harnischfeger "Go to Adam Harnischfeger's profile")[Czarina Medina-Guce](https://www.opml.co.uk/person/czarina-medina-guce "Go to Czarina Medina-Guce's profile")[Hafsat Abdullahi Mustafa](https://www.opml.co.uk/person/hafsat-abdullahi-mustafa "Go to Hafsat Abdullahi Mustafa's profile")[Caroline Othim](https://www.opml.co.uk/person/slug-07fab8e039933e3f3f71b7bae9872b17 "Go to Caroline Othim's profile")[Terry Roopnaraine](https://www.opml.co.uk/search?author=%22Terry%20Roopnaraine%20%28453%29%22 "View all work by Terry Roopnaraine")[Eleanor Bayley](https://www.opml.co.uk/person/eleanor-bayley "Go to Eleanor Bayley's profile")
+  * Date
+May 2019 - January 2022
+  * Areas of expertise
+[Climate, Energy, and Nature](https://www.opml.co.uk/our-expertise/climate-energy-and-nature) [Governance](https://www.opml.co.uk/our-expertise/governance) [Research and Evidence (R&E)](https://www.opml.co.uk/our-expertise/research-and-evidence)
+  * Client
+Open Government Partnership
+  * Keywords
+[Disaster risk](https://www.opml.co.uk/disaster-risk) [Forestry and land use](https://www.opml.co.uk/search/?keyword=%22Forestry+and+land+use%20\(163\)%22) [Adaptive management](https://www.opml.co.uk/search/?keyword=%22Adaptive+management%20\(164\)%22) [Data collection](https://www.opml.co.uk/search/?keyword=%22Data+collection%20\(167\)%22) [Diagnostics](https://www.opml.co.uk/search/?keyword=%22Diagnostics%20\(168\)%22) [Impact evaluation](https://www.opml.co.uk/search/?keyword=%22Impact+evaluation%20\(170\)%22) [Inequality](https://www.opml.co.uk/search/?keyword=%22Inequality%20\(171\)%22) [Policy implementation](https://www.opml.co.uk/search/?keyword=%22Policy+implementation%20\(172\)%22) [Policy options](https://www.opml.co.uk/search/?keyword=%22Policy+options%20\(173\)%22) [Refugees](https://www.opml.co.uk/search/?keyword=%22Refugees%20\(182\)%22) [Research uptake](https://www.opml.co.uk/search/?keyword=%22Research+uptake%20\(174\)%22) [Technical assistance](https://www.opml.co.uk/search/?keyword=%22Technical+assistance%20\(175\)%22) [Value for Money [VFM]](https://www.opml.co.uk/search/?keyword=%22Value+for+Money+%5BVFM%5D%20\(176\)%22) [Public Sector Governance [PSG]](https://www.opml.co.uk/public-sector-governance) [Public Financial Management [PFM]](https://www.opml.co.uk/public-financial-management) [Accountability](https://www.opml.co.uk/search/?keyword=%22Accountability%20\(178\)%22) [Budgeting](https://www.opml.co.uk/search/?keyword=%22Budgeting%20\(179\)%22) [Economic policy](https://www.opml.co.uk/search/?keyword=%22Economic+policy%20\(180\)%22) [Fiscal decentralisation](https://www.opml.co.uk/search/?keyword=%22Fiscal+decentralisation%20\(181\)%22) [Monitoring, Evaluation, and Learning [MEL]](https://www.opml.co.uk/monitoring-evaluation-and-learning) [Qualitative Data Collection](https://www.opml.co.uk/search/?keyword=%22Qualitative+Data+Collection%20\(195\)%22) [Social Media Listening](https://www.opml.co.uk/search/?keyword=%22Social+Media+Listening%20\(196\)%22)
+  * Office
+[OPM United Kingdom](https://www.opml.co.uk/united-kingdom)
+  * Project status
+Inactive
+
+
+## Contact
+  * [Stephen Akroyd, Team Lead, Governance](https://www.opml.co.uk/person/stephen-akroyd "Go to Stephen Akroyd's profile")
+  * stephen.akroyd@opml.co.uk
+
+
+### Overview
+Taking place over more than 30 months, a developmental evaluation approach was adopted, with a focus on learning and support to the OGP’s ongoing efforts to strengthen and sharpen their engagements in real-time. The evaluation was supported by the UK Department for International Development (DFID, now FCDO), the Hewlett Foundation, and the Open Society Foundation.
+### **Purpose and scope**
+The evaluation was tasked with considering questions on the relevance, effectiveness, and efficiency of the OGP platform and strategies, covering reform processes in different contexts and analysis of the factors that drive, distort or block reforms. An overriding consideration was that the evaluation should contribute to OGP learning and strategy. In particular, the OGP was keen to gain insights that could strengthen their strategies and support their efforts to achieve greater and more sustainable outcomes in promoting and enhancing open governance. This provided the overall framing for the evaluation and informed the decision to take a developmental evaluation approach. Throughout the evaluation, OPM consulted with OGP staff to identify key questions and research themes that would be of most value to them.
+A key feature of the evaluation design was a focus on depth rather than breadth: the evaluation focused on seven locations – five national country members (Colombia, Kenya, Nigeria, Philippines, and Ukraine) and two local government members (Elgeyo-Marakwet in Kenya and South Cotabato in the Philippines); and on three themes (Open Contracting (OC), Beneficial Ownership Transparency (BOT) and Civic Engagement (CE)). This provided coverage of a diversity of contexts and OGP strategies, with an emphasis on understanding contributions to outcomes.
+### **Approach**
+Rather than delivering point-in-time judgements and recommendations, adopting a development evaluation approach provided flexibility to support reflection, dialogue, learning, and decision-making over the lifetime of the evaluation. The evaluation team not only provided timely insights and evidence to the OGP but also supported the uptake and use of findings as they emerged.
+The evaluation drew on a range of data and analytical methods - literature reviews, key informant interviews, media monitoring, and participant observation - and undertook evaluative exercises to respond to specific questions and emerging priorities. This included location case studies that provided qualitative analysis of change processes across the five case study countries, and contribution tracing studies that provided evaluative ‘deep dives’ to investigate the causal factors driving these changes.
+The evaluation team was positioned as an embedded resource in the OGO Support Unit’s efforts to progress more ambitious policy commitments and their effective implementation. Evaluation team members participated in OGP regular meetings, both as participant observers and contributors, sharing insights emerging from the location studies in real-time. It was an iterative, multi-directional learning process that provided evidence and insights to develop actionable intelligence that could be used to inform judgements and decisions about the next steps.
+COVID-19 was declared a pandemic less than a year into the evaluation. While it was agreed that the evaluation questions remained relevant, the flexible nature of the evaluation allowed us to compensate for dramatic shifts in the rhythms and priorities of the OGP at this time.
+### **Evaluation Issues Papers**
+In the final months of the evaluation, the attention shifted to identifying core issues of broad strategic importance to the OGP. These were then distilled into ‘Issues Papers’ which provide a summary of evaluation findings and implications, and potential ways forwards for the OGP. The Issues Papers focus on four topics:
+  * **[Relevance and resilience](https://www.opengovpartnership.org/wp-content/uploads/2022/02/OPM_OGP-Evaluation_Relevance-and-Resilience-vf3.pdf) **- of the OGP platform in the face of internal and external shocks, and what may be done to increase the resilience of the platform, such as investing in champions or promoting institutionalisation.
+  * [**Engagement and inclusion**](https://www.opengovpartnership.org/wp-content/uploads/2022/02/OPM_OGP-Evaluation_Engagement-and-Inclusion-of-Non-Government-Stakeholders-vf3.pdf) - of non-government stakeholders with the OGP platform across the different stages of Action Plan co-creation and implementation, and in different reforms and processes. The paper challenges OGP to be clearer about the purpose and means for strengthening inclusion.
+  * [**Ambition and Implementation**](https://www.opengovpartnership.org/wp-content/uploads/2022/02/OPM_OGP-Evaluation_Ambition-and-Implementation-vf3.pdf) - what the SU in collaboration with country stakeholders and partners can do to enhance the effectiveness of their support to Action Plan implementation. The paper focuses on the implementation phase as much support and guidance to date has focused on co-creation.
+  * [**Connecting global and country engagements**](https://www.opengovpartnership.org/wp-content/uploads/2022/02/OPM_OGP-Evaluation_Global-and-Political-Incentives-vf3.pdf) - exploring the challenges of working across global, national and local levels. For example, why some country actors feel left behind by the pace of change in the policy priorities promoted by OGP at the global level.
+
+
+In addition to the four 'Issues Papers' there are two introductory pieces:
+  * [Introduction & Methodology](https://www.opengovpartnership.org/wp-content/uploads/2022/02/OPM_OGP-Evaluation_Introduction-Methodology-vf3.pdf)
+
+
+All six papers can be downloaded from the [Open Government Partnership](https://www.opengovpartnership.org/documents/independent-evaluation-of-ogp/) website.
+[ Climate, Energy, and Nature ](https://www.opml.co.uk/our-expertise/climate-energy-and-nature) [ Governance ](https://www.opml.co.uk/our-expertise/governance) [ Research and Evidence (R&E) ](https://www.opml.co.uk/our-expertise/research-and-evidence)
+Back to top
+## Use of personal data and cookies
+We use cookies and process personal data for the following purposes: **Functional, Analytics & Embedded external content**. 
+[Customize](https://www.opml.co.uk/projects/promoting-transparent-inclusive-accountable-governance-independent-evaluation# "Open consent dialog")
+DeclineAccept
