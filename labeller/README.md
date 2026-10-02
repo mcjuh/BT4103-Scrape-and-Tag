@@ -60,21 +60,50 @@ All scores are normalised to 0-1 (expected relevance / top label value) so they'
 ## Grading the platform sample format (`grade_pairs.py`)
 
 `grade_pairs.py` is the grader for the new standard format (`docs/platform_sample/`). It is
-self-contained and independent of `label.py` and `judge_pools.py`, which still grade the older
-`hirers.csv` / `providers.csv` format. The model answers `"<grade> <score>"` (e.g. `2 0.62`) under
-`prompts/rubric_01_v4.md`, which judges content fit only: the sample has no structured budget,
-seniority or start date, so those terms are applied after ranking. The grade is the most probable
-band from the answer-position logprobs, and the score is the band-weighted expectation clipped into
-that grade's range, so the two always agree (`round(score * 3) == grade`). Results go to
-`docs/gig_grades.jsonl` and `--export` writes `docs/gig_grades.csv`. Runs on different models share
-the log, but pooling them is left to a later step. Offline tests: `python -m unittest labeller/test_grade_pairs.py`.
+self-contained and independent of `label.py` and `judge_pools.py`, which grade the older
+`hirers.csv` / `providers.csv` format (`judge_pools.py` reads the ranker's `data_sat/` pools). One model
+grades each run: `qwen3.8:27b` by default, the grader of the ranker's labels (`ranker/pipeline/label.md`).
 
 ```
-python labeller/grade_pairs.py --model qwen3.6:35b --dry-run       # show a prompt, call nothing
-python labeller/grade_pairs.py --model qwen3.6:35b --max-pairs 20  # smoke test
-python labeller/grade_pairs.py --model qwen3.6:35b                 # every gig x every provider
-python labeller/grade_pairs.py --export
+python labeller/grade_pairs.py --dry-run                                   # show a prompt, call nothing
+python labeller/grade_pairs.py --max-pairs 20                              # smoke test
+python labeller/grade_pairs.py --pairs docs/platform_sample/pilot_pairs.json   # the 30-pair pilot
+python labeller/grade_pairs.py                                             # every gig x every provider
+python labeller/grade_pairs.py --export                                    # log -> docs/gig_grades.csv
 ```
+Needs `SOCLAAS_BASE_URL` and `SOCLAAS_API_KEY` in a gitignored `.env` at the repo root (copy
+`.env.example`). Offline tests (no API): `python -m unittest labeller/test_grade_pairs.py`.
+
+**The prompt** (`prompts/rubric_01_v4.md`). The model answers `"<grade> <score>"` (e.g. `2 0.62`):
+a grade 0-3 and a score inside that grade's range (0: 0-0.16, 1: 0.17-0.49, 2: 0.50-0.83,
+3: 0.84-0.99). It judges content fit first, then the three practical terms from the v3 rubric, which
+can only lower the result: seniority, budget (rate against the level's day-rate band) and availability
+(start date, days a week), with v3's minor/serious tolerances. The sample carries only some of these:
+the provider's `availability` and `rate` are text and are shown to the model; the gig has no budget,
+seniority or start date, only the extractor's "Engagement duration" estimate (shown as "Estimated
+duration"); and neither side states seniority. So the model works out the gig's terms and the
+provider's seniority from the text, the way `enricher/` did with an LLM judge (`judge_*.md`: mid /
+senior / expert by stated years and title). The budget bands are `enricher/rate_card.json`'s hourly
+bands x 8 (mid S$480-960, senior S$720-1,600, expert S$1,200-2,800 a day). Name, links and tags are
+never shown (`--with-tags` adds the SkillsFuture category / specialisation as an ablation).
+
+**The score.** The grade is the most probable band from the answer-position logprobs, and the score is
+the band-weighted expectation clipped into that band, so the two always agree (`round(score * 3) ==
+grade`). Thinking is off, as in `label.py`. The band edges are not fitted to data: they are the points
+where `round(score * 3)` changes, the rule `judge_pools.py` and the ranker's `grade_from_score()` use to
+turn a score back into a grade. Treat the score's second decimal as noise; the band is the part to trust.
+
+**Outputs.** `docs/gig_grades.jsonl` is the log (one line per call, per model and prompt version; reruns
+skip what is already graded, so a stopped run resumes). `--export` writes `docs/gig_grades.csv`, one row
+per pair, model and prompt version. The log from the 30-pair pilot also holds that pilot's calls on the
+other pool models and on `gemma4:26b`, which was tried and dropped (it cannot switch thinking off: about
+30 s and 1,900 tokens a call against 0.5 s). Combining several models was built and removed: on the pilot
+the three Qwens ranked pairs almost identically (Spearman 0.93-0.95) and no label set exists yet to show
+that pooling beats one model.
+
+`docs/platform_sample/pilot_pairs.json` is the pilot: 10 seeded gigs, each with its best TF-IDF text
+match, a mid-ranked provider and a random lower-half one. The similarity only picked the pairs; the
+models never see it.
 
 ## Replaces the earlier plans
 - **Binary model vs. hand-tuned weighted-sum score.** The binary model becomes the `rg_2l`
@@ -91,15 +120,19 @@ complete ranking for the first gig(s). Reruns skip calls already recorded.
 ```
 py -3 labeller/evaluate.py docs/relevance_scores.csv rg_2l rg_3l rg_3l_multi [--per-gig out.csv]
 ```
-Scores any predictions CSV against the graded gold labels in `experiments/gold.json` (18 gigs,
-every provider graded 0-3): NDCG@10 with a bootstrap interval, NDCG@5, Kendall tau-b, AUC, how many
+Scores any predictions CSV against the graded gold labels in `experiments/gold.json`: the client's 30 test gigs, each with one intended showcase graded 0-3 from the client's four bands (OBVIOUS 3, SUBTLE 2, PARTIAL 1, NEAR-MISS 0).
+The client wrote the workbook with an LLM, so these are an ordinal development check, not measured ground
+truth, and the other 29 showcases per gig are scored as grade 0. Metrics: NDCG@10 with a bootstrap interval, NDCG@5, Kendall tau-b, AUC, how many
 of each gig's relevant providers were scored at all, and pooled Spearman (whether scores are
 comparable across gigs). With several methods it adds a paired test against the first. Input: a
 gig column (`hirer_file`/`gig`), a provider column (`provider_file`/`provider`), and either one
 score column per method (`relevance_scores.csv`'s shape) or `method` + `score` columns. Only gigs
-in the gold file count, so label.py output is only informative once it has scored those gigs.
+in the gold file count, and predictions must use its ids (`client_gig_01`..., `client_showcase_01`...: the
+`source_file` column of `experiments/client_testset/`). `label.py` reads `docs/hirers.csv` and
+`providers.csv`, so none of the scripts here scores that set yet.
 
 ## Prompt experiments
 [`experiments/`](experiments/README.md) compares the prompts (the five above plus a Yes/No baseline and
-three ablations) on every pool model against graded gold labels for 18 gigs, reporting NDCG@10 and
-whether combining models beats one. Results land in `experiments/results/report.md`.
+three ablations) on every pool model, reporting NDCG@10 and whether combining models beats one. Its
+saved grid was run against an earlier 18-gig set of Claude-written labels that is no longer in the repo,
+and `run_grid.py` / `analyze.py` do not currently run against the 30-gig `gold.json`; see its README.

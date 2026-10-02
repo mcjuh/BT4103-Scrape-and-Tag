@@ -1,18 +1,27 @@
-You are matching a gig (a piece of work a client wants done) to a provider profile (an experienced professional's showcase). Judge CONTENT FIT only: whether what the provider has actually done and offers addresses what this gig needs. Ignore rate, availability, seniority, location, and how polished or detailed the writing is.
+You are matching a gig (a piece of work a client wants done) to a provider profile (an experienced independent professional's showcase). Judge how well the provider fits this gig: first what they have actually done (content fit), then whether the practical terms work (seniority, budget, availability). Today is 3 October 2026.
 
 Reply with a grade and a score, grade first, separated by a space. The grade is 0, 1, 2 or 3. The score is a decimal with two places and must lie inside its grade's range:
-3 = excellent match, score 0.84-0.99: the provider's own experience directly addresses this gig's specific need (the same kind of work on the same kind of problem).
-2 = good match, score 0.50-0.83: genuinely relevant domain and skills, but not a perfect fit (for example an adjacent sub-focus, or the right skills applied to a different kind of problem).
-1 = weak match, score 0.17-0.49: some surface relevance (an adjacent area or a transferable skill), but not a real fit for this need.
-0 = not relevant, score 0.00-0.16: no genuine overlap in the work, whatever words the two texts share.
+3 = excellent match, score 0.84-0.99: the provider's own experience directly addresses this gig's specific need (the same kind of work on the same kind of problem), and the terms work (at most one minor mismatch).
+2 = good match, score 0.50-0.83: genuinely relevant domain and skills, but not a perfect fit (for example an adjacent sub-focus, or the right skills applied to a different kind of problem), with at most minor mismatches in the terms; OR an excellent content fit with several minor mismatches.
+1 = weak match, score 0.17-0.49: some surface relevance (an adjacent area or a transferable skill), but not a real fit for this need; OR relevant expertise with a serious mismatch in the terms.
+0 = not relevant, score 0.00-0.16: no genuine overlap in the work, whatever words the two texts share and whatever the terms.
 
-How to choose:
+Step 1, content fit:
 - Start from the gig: what has to be done, and what has to be handed over. Then look in the profile for evidence that this provider has done that kind of work. Credit what the profile shows the person did, not what it lists.
 - A shared industry, sector, regulator or tool is not a match by itself. A tax gig for a hotel group and a profile of a hotel marketing specialist share only an industry: grade 0. A generic skill such as project management or data analysis, with no sign of the gig's domain, is grade 1 at most.
 - A long list of tools, standards or credentials raises the grade only for the items this gig actually needs. Listing more, or writing more, never raises it.
 - The right discipline aimed at a different problem is not an excellent match. A profile on tax advisory for a gig that needs a statutory audit is grade 1 or 2, depending on how much of the work carries over.
+- Ignore location, and how polished or detailed the writing is.
+
+Step 2, terms. The gig states none of these, so work them out from its text, as a hirer would. The provider's rate and availability are written in the profile; their seniority is not, so judge it too. Count a mismatch only when it is clear: if the profile says nothing about a term, or the gig leaves it open, that is no mismatch.
+- Seniority. Levels: mid = a solid practitioner, roughly 5-10 years; senior = an experienced lead, roughly 10-20 years; expert = a recognised authority, roughly 20+ years (partner, managing director, C-level, former regulator, court-accepted expert). For the gig, mid = well-defined, lower-stakes work with a clear method (mapping a process, setting up a standard tool); senior = owns the outcome, advises management, handles some ambiguity or regulation (a compliance gap review, a cost-reduction study); expert = high stakes, a scarce specialism or a formal opinion (an expert-witness report, M&A due diligence, a safety case for a regulator). For the provider, use stated years first, then title. One level apart is a minor mismatch; mid against expert is serious.
+- Budget. The gig states no budget, so take the day-rate band of the level it needs: mid S$480-960, senior S$720-1,600, expert S$1,200-2,800 (premium, scarce or regulated specialisms sit in the upper half of a band, common or generalist work in the lower half). Compare the provider's rate with it; a rate quoted per month or per property is converted to a day rate as best you can, and "from" is the lowest they charge. Up to about 15% over the top of the band is a minor mismatch; more than about 40% over is serious. A rate below the band is fine.
+- Availability. The gig states no start date, so assume it wants to start within about 4 weeks of today unless its text names an imminent deadline (sooner) or says there is no hurry (up to about 10 weeks). Judge the days a week it needs from the scope and its estimated duration: a review or advisory piece spread over several weeks is 1-3 days a week, an intensive build or on-site work 4-5. Starting up to 2 weeks late, offering 1 day a week fewer, or taking only engagements shorter or longer than the gig's duration, is a minor mismatch; starting more than a month late, or offering 2 or more days a week fewer, is serious.
+
+How to choose:
+- The terms can only lower the grade, never raise it above what the content fit supports.
 - When torn between two grades, give the lower one, unless the profile gives specific evidence for the higher one.
-- Within the chosen range, place the score by how close the fit is to the grade above or below: nearer the top when it almost reaches the next grade, nearer the bottom when it only just clears the previous one. Use the whole range, not just its edges or round numbers.
+- Within the chosen range, place the score by how close the fit is to the grade above or below: nearer the top when it almost reaches the next grade, nearer the bottom when it only just clears the previous one, and lower when the terms carry minor mismatches. Use the whole range, not just its edges or round numbers.
 
 Gig:
 {query}

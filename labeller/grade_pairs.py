@@ -8,16 +8,18 @@ not import label.py or judge_pools.py, which grade the older hirers.csv /
 providers.csv format and are left as they are.
 
 What the model sees (prompts/rubric_01_v4.md)
-  gig       gig_title, short_gig_description (the "Engagement duration:" sentence is
-            stripped: it is an estimate the extractor wrote, not part of the need)
+  gig       gig_title, short_gig_description, and the extractor's "Engagement duration"
+            estimate (shown on its own line, as the gig's estimated duration)
   provider  title, about_headline, about_bio, services_i_offer, relevant_achievements,
-            technical_proficiency, credentials, how_i_work
-  Never shown: rate, availability (this format has no structured budget, seniority or
-  start date, so the practical terms are applied after ranking, not graded here), name,
-  links, localisation_changes, source_*, review_flag. category / specialisation are the
-  SkillsFuture tags the extractor assigned from the same text, so they are left out by
-  default (a grade that read them would partly echo the tagger); --with-tags adds them
-  for an ablation and records the run under a different prompt_version.
+            technical_proficiency, credentials, how_i_work, then availability and rate
+  Never shown: name, links, localisation_changes, source_*, review_flag. The sample has no
+  structured budget, seniority or start date on the gig side, and no seniority on the
+  provider side, so the prompt has the model work those out from the text (the way
+  enricher/ did with an LLM judge) and apply v3's tolerances to the provider's own
+  availability and rate. category / specialisation are the SkillsFuture tags the extractor
+  assigned from the same text, so they are left out by default (a grade that read them would
+  partly echo the tagger); --with-tags adds them for an ablation and records the run under a
+  different prompt_version.
 
 How a pair is scored
   The model answers "<grade> <score>", e.g. "2 0.62": a band (0-3) and a score inside
@@ -32,13 +34,15 @@ How a pair is scored
   Ranges: 0 = 0.00-0.16, 1 = 0.17-0.49, 2 = 0.50-0.83, 3 = 0.84-0.99.
   Treat the score's second decimal as noise; the band is the trustworthy part.
 
-One model grades each run (--model). Calls are logged per model, so runs on several
-models can sit in one log and be pooled afterwards; this script does not pool them.
+One model grades each run (--model, default qwen3.8:27b: the grader of the ranker's labels,
+see ranker/pipeline/label.md). Calls are logged per model and prompt version, so runs on
+other models can sit in the same log; this script does not combine them.
 
-    python labeller/grade_pairs.py --model qwen3.6:35b --dry-run            # show a prompt
-    python labeller/grade_pairs.py --model qwen3.6:35b --max-pairs 20       # smoke test
-    python labeller/grade_pairs.py --model qwen3.6:35b --gigs 1-10          # chosen gigs
-    python labeller/grade_pairs.py --model qwen3.6:35b                      # every pair
+    python labeller/grade_pairs.py --dry-run                                # show a prompt
+    python labeller/grade_pairs.py --max-pairs 20                           # smoke test
+    python labeller/grade_pairs.py --gigs 1-10                              # chosen gigs
+    python labeller/grade_pairs.py --pairs docs/platform_sample/pilot_pairs.json   # the pilot
+    python labeller/grade_pairs.py                                          # every pair
     python labeller/grade_pairs.py --export                                 # log -> CSV
 
 Pairs default to every gig x every provider. --pairs takes a JSON file
@@ -69,11 +73,12 @@ GIGS_CSV = SAMPLE_DIR / "hirers_sample.csv"
 PROVIDERS_CSV = SAMPLE_DIR / "providers_sample.csv"
 LOG_PATH = DOCS_DIR / "gig_grades.jsonl"  # one line per call; the source of truth
 OUT_CSV = DOCS_DIR / "gig_grades.csv"  # one row per (pair, model, prompt), from --export
-PROMPT_VERSION = "rubric_01.v4"
+PROMPT_VERSION = "rubric_01.v4.1"  # v4.1: terms (seniority, budget, availability) are graded again
 
 # Same pool as classifier_extractor/llm_pool.py. Duplicated, not imported: roles only
 # talk to each other through docs/.
 MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
+DEFAULT_MODEL = "qwen3.8:27b"  # graded the ranker's 22k labels (ranker/pipeline/label.md)
 
 GIG_FIELDS = [("gig_title", "Title"), ("short_gig_description", "Scope")]
 PROVIDER_FIELDS = [
@@ -86,6 +91,7 @@ PROVIDER_FIELDS = [
     ("credentials", "Credentials"),
     ("how_i_work", "How they work"),
 ]
+TERMS_FIELDS = [("availability", "Availability"), ("rate", "Rate")]  # shown after the content fields
 TAG_FIELDS = [("category", "Category"), ("specialisation", "Specialisation")]
 
 FIELD_CHARS = 1500  # per-field cap on the text shown
@@ -105,7 +111,7 @@ MIDPOINT = {g: round((lo + hi) / 2, 2) for g, (lo, hi) in BANDS.items()}
 # "<grade> <score>". The grade digit must not be followed by "." or another digit, so a
 # bare "0.62" (the old v3 format) is rejected rather than read as grade 0.
 REPLY_RE = re.compile(r"^\W*([0-3])(?![\d.])[\s,:;|/-]*(1(?:\.0+)?|0?\.\d+|0(?![\d.]))?")
-DURATION_RE = re.compile(r"\s*Engagement duration:[^.\n]*(?:\.\d[^.\n]*)*\.?", re.I)
+DURATION_RE = re.compile(r"\s*Engagement duration:\s*([^.\n]*(?:\.\d[^.\n]*)*)\.?", re.I)
 
 
 # ---------------------------------------------------------------------------
@@ -119,8 +125,15 @@ def _clean(value) -> str:
     return s if len(s) <= FIELD_CHARS else s[:FIELD_CHARS].rstrip() + "..."
 
 
+def gig_duration(row: dict) -> str:
+    """The extractor's 'Engagement duration: 4-6 weeks.' estimate, e.g. '4-6 weeks', or ''."""
+    m = DURATION_RE.search(str(row.get("short_gig_description") or ""))
+    return _clean(m.group(1)) if m else ""
+
+
 def describe(row: dict, fields: list) -> str:
-    """'Label: text' per non-empty field; a multi-line value starts on its own line."""
+    """'Label: text' per non-empty field; a multi-line value starts on its own line. The
+    gig's duration sentence is taken out of its Scope (render() shows it on its own line)."""
     out = []
     for key, label in fields:
         text = _clean(row.get(key))
@@ -132,9 +145,12 @@ def describe(row: dict, fields: list) -> str:
 
 
 def render(template: str, gig: dict, provider: dict, with_tags: bool = False) -> str:
-    gig_fields = GIG_FIELDS + (TAG_FIELDS if with_tags else [])
-    provider_fields = PROVIDER_FIELDS + (TAG_FIELDS if with_tags else [])
-    return template.format(query=describe(gig, gig_fields), document=describe(provider, provider_fields))
+    tags = TAG_FIELDS if with_tags else []
+    query = describe(gig, GIG_FIELDS + tags)
+    if gig_duration(gig):
+        query += f"\nEstimated duration: {gig_duration(gig)}"
+    document = describe(provider, PROVIDER_FIELDS + tags + TERMS_FIELDS)
+    return template.format(query=query, document=document)
 
 
 def load_rows(path: Path, id_col: str) -> dict:
@@ -313,7 +329,7 @@ def export(log_path: Path, out_path: Path) -> int:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--model", choices=MODEL_POOL, help="the model that grades this run")
+    ap.add_argument("--model", choices=MODEL_POOL, default=DEFAULT_MODEL, help="the model that grades this run (default: %(default)s)")
     ap.add_argument("--gigs-csv", type=Path, default=GIGS_CSV)
     ap.add_argument("--providers-csv", type=Path, default=PROVIDERS_CSV)
     ap.add_argument("--pairs", type=Path, default=None, help='JSON {"G001": ["P004", ...]} instead of every pair')
@@ -328,8 +344,6 @@ def main():
     if args.export:
         export(LOG_PATH, OUT_CSV)
         return
-    if not args.model and not args.dry_run:
-        ap.error("--model is required (or use --export / --dry-run)")
 
     version = PROMPT_VERSION + ("+tags" if args.with_tags else "")
     template = PROMPT_PATH.read_text(encoding="utf-8").strip()
@@ -337,7 +351,7 @@ def main():
     providers = load_rows(args.providers_csv, "provider_id")
     only = parse_gigs(args.gigs, list(gigs)) if args.gigs else None
     pairs = build_pairs(gigs, providers, args.pairs, only)
-    model = args.model or "(dry run)"
+    model = args.model
     done = load_ok(LOG_PATH, args.model, version)
     jobs = [(g, p) for g, ps in pairs.items() for p in ps if (g, p, model, version) not in done]
     if args.max_pairs:

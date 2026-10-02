@@ -33,6 +33,15 @@ class Bands(unittest.TestCase):
         for (_, hi), (lo, _) in zip(edges, edges[1:]):
             self.assertAlmostEqual(lo - hi, 0.01)
 
+    def test_prompt_grades_the_three_terms_again(self):
+        text = gp.PROMPT_PATH.read_text(encoding="utf-8")
+        for term in ("Seniority.", "Budget.", "Availability."):
+            self.assertIn(term, text)
+
+    def test_default_model_is_the_rankers_grader(self):
+        self.assertEqual(gp.DEFAULT_MODEL, "qwen3.8:27b")
+        self.assertIn(gp.DEFAULT_MODEL, gp.MODEL_POOL)
+
     def test_prompt_states_the_same_ranges(self):
         text = gp.PROMPT_PATH.read_text(encoding="utf-8")
         for grade, (lo, hi) in gp.BANDS.items():
@@ -121,17 +130,30 @@ class SampleFormat(unittest.TestCase):
         for p, prov in self.providers.items():
             self.assertIn("About: ", gp.describe(prov, gp.PROVIDER_FIELDS), p)
 
-    def test_duration_sentence_is_stripped_from_every_gig(self):
+    def test_duration_moves_out_of_the_scope_onto_its_own_line(self):
         for g, gig in self.gigs.items():
             shown = gp.describe(gig, gp.GIG_FIELDS)
             self.assertNotIn("Engagement duration", shown, g)
             self.assertTrue(shown.rstrip().endswith((".", ")", "?")), f"{g} ends oddly: {shown[-60:]!r}")
+            self.assertRegex(gp.gig_duration(gig), r"^\d+(-\d+)? weeks$", g)
+            self.assertIn(f"Estimated duration: {gp.gig_duration(gig)}", gp.render(self.template, gig, self.providers["P001"]))
 
-    def test_terms_and_identity_fields_are_never_shown(self):
+    def test_provider_availability_and_rate_are_shown_and_identity_is_not(self):
         p4 = self.providers["P004"]
         shown = gp.render(self.template, self.gigs["G001"], p4)
-        for secret in (p4["name"], p4["rate"], p4["availability"], p4["category"], p4["search_tags"]):
+        self.assertIn(f"Availability: {p4['availability']}", shown)
+        self.assertIn(f"Rate: {p4['rate']}", shown)
+        for secret in (p4["name"], p4["category"], p4["search_tags"]):
             self.assertNotIn(secret, shown)
+
+    def test_terms_follow_the_content_fields(self):
+        shown = gp.describe(self.providers["P004"], gp.PROVIDER_FIELDS + gp.TERMS_FIELDS)
+        self.assertLess(shown.index("How they work"), shown.index("Availability:"))
+        self.assertTrue(shown.rstrip().split("\n")[-1].startswith("Rate:"))
+
+    def test_every_provider_states_availability_and_a_rate(self):
+        for pid, prov in self.providers.items():
+            self.assertTrue(prov["availability"].strip() and prov["rate"].strip(), pid)
 
     def test_with_tags_adds_category_and_specialisation_only(self):
         p4 = self.providers["P004"]

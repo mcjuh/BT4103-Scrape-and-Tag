@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Score relevance predictions against the graded gold labels
-(experiments/gold.json: 18 gigs, every provider graded 0-3).
+(experiments/gold.json: the client's 30 gigs, one intended showcase each, graded 0-3
+from the client's four bands; every other showcase counts as grade 0).
 
     py -3 labeller/evaluate.py docs/relevance_scores.csv rg_3l
     py -3 labeller/evaluate.py predictions.csv rg_2l rg_3l rg_3l_multi --per-gig per_gig.csv

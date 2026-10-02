@@ -1,5 +1,13 @@
 # Labeller prompt experiments
 
+> **Status.** `results/` (the grid, `candidates.json`) was run against an earlier set of 18 gigs from
+> `docs/hirers.csv`, graded 0-3 by Claude, which is no longer in the repo: the `gold.json` here was
+> regenerated from the client's workbook (30 gigs, one intended showcase each) before the first commit,
+> so it no longer matches. `run_grid.py` stops on it (its gig ids are not in `hirers.csv`) and
+> `analyze.py` has nothing to join the saved grid to. Running this again means pointing `run_grid.py` at
+> the client set (`client_testset/`) or restoring an 18-gig gold. The Design section below describes
+> the saved grid, not the current `gold.json`.
+
 Which relevance prompt ranks providers best for a gig? This folder runs every prompt variant on
 every pool model over a fixed candidate set and scores the rankings against graded gold labels.
 
@@ -9,14 +17,18 @@ py -3 labeller/experiments/analyze.py                                # tables ->
 ```
 
 ## Design
-- **Gold labels** (`gold.json`): 18 gigs from `docs/hirers.csv`, chosen to span the providers'
+- **Gold labels of the saved grid (no longer in the repo):** 18 gigs from `docs/hirers.csv`, chosen to span the providers'
   domains (finance/ERP, insurance, banking, AI, cyber, tax, M&A, supply chain, sports, public
   sector, sales). Every one of the 154 providers was graded against each gig on a 0-3 rubric
   (in the file), so the labels are complete rather than pooled from the systems being compared.
   135 graded pairs: 13 at grade 3, 37 at 2, 85 at 1; the rest 0.
-  **They are silver labels:** written by Claude (claude-opus-5), a model outside the pool, from the
-  full gig and profile text before any experiment score was seen. Spot-check a sample by hand
-  before quoting the numbers as ground truth.
+  **They were silver labels:** written by Claude (claude-opus-5), a model outside the pool, from the
+  full gig and profile text before any experiment score was seen, and never spot-checked by hand
+  (`spotcheck/` is that sheet, unfilled).
+- **Current `gold.json`:** the client's 30 test gigs, each with one intended showcase graded 0-3 from the client's four bands (OBVIOUS 3, SUBTLE 2, PARTIAL 1, NEAR-MISS 0), built by `build_gold.py` from the client workbook. The
+  workbook was written by the client with an LLM, so it is an ordinal development check, not ground truth.
+  Its other 29 showcases per gig are unlabelled and score as grade 0, and the 4 NEAR-MISS gigs have no
+  relevant showcase.
 - **Candidates** (`results/candidates.json`): per gig, every graded provider plus seeded random
   grade-0 providers, 40 in total. This is the paper's re-ranking setting (it re-ranks BM25's top 100).
 - **Conditions** (8 prompts x 3 models = 24 calls per pair, 17,280 in total; the first run also had llama3.1:8b, since dropped):
@@ -35,7 +47,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
   `rg_3l_multi`), mean rank, and mean per-model z-score, against label.py's routed single model.
 - **Metrics**: NDCG@10 (the paper's metric) as the expectation over random tie-breaking, plus
   NDCG@5, Kendall tau-b vs gold, AUC, and calibration of raw scores across gigs. 95% bootstrap
-  intervals and paired permutation tests are both taken over gigs, so with 18 gigs only large
+  intervals and paired permutation tests are both taken over gigs, so with the saved grid's 18 gigs only large
   differences reach significance.
 
 ## Rate limit
@@ -46,6 +58,6 @@ calls are skipped. `analyze.py` scores only gigs whose grid is complete, so it c
 The run holds the team's shared API budget while it's going.
 
 ## Files
-- `gold.json`, `prompts/` -- inputs
+- `gold.json` (the client set), `build_gold.py`, `client_testset/`, `prompts/` -- inputs
 - `results/grid.jsonl` -- one line per call (label probabilities, log-likelihoods, latency)
 - `results/candidates.json`, `results/report.md`, `results/per_gig.csv`, `results/run_grid.log`
