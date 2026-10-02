@@ -57,6 +57,25 @@ All scores are normalised to 0-1 (expected relevance / top label value) so they'
 - Provider records carry no name (the provider schema has none, and extract.py anonymises
   provider pages), so a name can't sway the score.
 
+## Grading the platform sample format (`grade_pairs.py`)
+
+`grade_pairs.py` is the grader for the new standard format (`docs/platform_sample/`). It is
+self-contained and independent of `label.py` and `judge_pools.py`, which still grade the older
+`hirers.csv` / `providers.csv` format. The model answers `"<grade> <score>"` (e.g. `2 0.62`) under
+`prompts/rubric_01_v4.md`, which judges content fit only: the sample has no structured budget,
+seniority or start date, so those terms are applied after ranking. The grade is the most probable
+band from the answer-position logprobs, and the score is the band-weighted expectation clipped into
+that grade's range, so the two always agree (`round(score * 3) == grade`). Results go to
+`docs/gig_grades.jsonl` and `--export` writes `docs/gig_grades.csv`. Runs on different models share
+the log, but pooling them is left to a later step. Offline tests: `python -m unittest labeller/test_grade_pairs.py`.
+
+```
+python labeller/grade_pairs.py --model qwen3.6:35b --dry-run       # show a prompt, call nothing
+python labeller/grade_pairs.py --model qwen3.6:35b --max-pairs 20  # smoke test
+python labeller/grade_pairs.py --model qwen3.6:35b                 # every gig x every provider
+python labeller/grade_pairs.py --export
+```
+
 ## Replaces the earlier plans
 - **Binary model vs. hand-tuned weighted-sum score.** The binary model becomes the `rg_2l`
   baseline, and the fine-grained labels take the place of the weighted sum.
