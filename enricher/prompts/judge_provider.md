@@ -23,8 +23,16 @@ price_score -- the same judgement on a finer 1-10 scale, used to rank specialist
 other: 1-3 lean, 4-7 standard, 8-10 premium. Use the whole range. Most experienced consultants
 are standard (4-7); save 9-10 for the scarcest, highest-stakes specialisms.
 
+sector and track -- where this specialist's SERVICE sits in Singapore's SkillsFuture skills
+framework, chosen from the list below. Pick the sector whose work they do, then one track inside
+that sector. Judge by what they offer, not by their clients' industry: a data-privacy adviser
+to banks is Infocomm Technology, not Financial Services; an auditor of hospitals is Accountancy.
+If no sector fits exactly, pick the closest one. Copy both names exactly as listed, and the
+track must be one listed under the sector you picked.
+{taxonomy}
+
 Return ONLY valid JSON in exactly this shape:
-{{"seniority": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "price_score": 1-10, "reason": "one short sentence"}}
+{{"seniority": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "price_score": 1-10, "sector": "<sector>", "track": "<track>", "reason": "one short sentence"}}
 
 PROFILE:
 {record}

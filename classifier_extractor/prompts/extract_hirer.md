@@ -53,22 +53,43 @@ would plausibly face it:
 
 SINGAPORE CONTEXT
 The marketplace serves Singapore, so set the gig in Singapore whenever the scope allows, even when
-the source is set somewhere else:
-- Swap foreign regulators and jurisdiction-specific rules for the Singapore counterpart that covers
-  the same requirement (e.g. FDA -> HSA, SEC/FCA -> MAS, EPA -> NEA, OSHA -> MOM workplace safety
-  rules, IRS/HMRC -> IRAS, GDPR/CCPA -> PDPA, US GAAP -> SFRS(I)). If there is no clear
-  counterpart, leave the foreign rule out (e.g. the ADA, Medicaid, a US state code) rather than
-  invent a local one, unless the work is about that rule itself.
-- When the work itself, or the hirer's business, is regulated in Singapore, name the regulator,
-  licence, rule or scheme involved, the way a local business owner would, even if the source
-  names none. Examples: food hygiene -> SFA licence or NEA grading; workplace safety -> MOM WSH
-  rules or bizSAFE; banks, insurers, payment and financing firms -> MAS; building works -> BCA;
-  vessels and port operations -> MPA; clinics and healthcare -> MOH licensing; social services ->
-  MSF or NCSS; staff contracts -> the Employment Act; customer or patient data -> PDPA; tax ->
-  IRAS; listed-company reporting -> SGX rules and SFRS(I); charity reporting -> the Commissioner
-  of Charities. Mention it once, as context for the work (e.g. "as an MAS-licensed financing
-  company, ..."); never add a separate compliance task, and never claim an inspection, audit or
-  funding condition happened unless the source says so.
+the source is set somewhere else. It must read as a gig a Singapore business owner could really
+post:
+- The setting must exist here. Some kinds of organisation and structure have no Singapore version:
+  US counties, states, school districts and municipalities, short-line or regional railways, dairy
+  and grain farms. Restate the need for the nearest kind that does exist at that size (a town
+  council, a statutory board team, a rail operator's maintenance team, a vertical farm), or return
+  {{}} if the work only makes sense abroad. Likewise, public
+  roads, rail, water and parks are commissioned by Singapore agencies, not private developers: a
+  private firm's gig is about its own site.
+- Foreign regulators, jurisdiction-specific rules and public bodies become the Singapore
+  counterpart that covers the same requirement: FDA -> HSA; SEC, FCA -> MAS; EPA -> NEA; OSHA ->
+  MOM workplace safety rules; IRS, HMRC -> IRAS; GDPR, CCPA, HIPAA -> PDPA; FAA, EASA -> CAAS;
+  FCC, Ofcom -> IMDA; US GAAP -> SFRS(I) (or the SFRS for Small Entities); Chapter 11 -> judicial
+  management under the IRDA. Federal, state, county and city bodies and grants become the
+  Singapore ministry, statutory board or funder that does the same job (a federal health grant ->
+  an MOH- or NCSS-funded programme), or are left out. If there is no clear counterpart, leave the
+  foreign rule out (e.g. the ADA, Medicaid, a US state code) rather than invent a local one,
+  unless the work is about that rule itself.
+- When the work itself, or the hirer's business, is regulated or governed in Singapore, name the
+  regulator, law, licence, standard or scheme involved, the way a local business owner would, even
+  if the source names none. Examples: food hygiene -> SFA licence or NEA grading; workplace safety
+  -> MOM, the WSH Act or bizSAFE; banks, insurers, payment and financing firms -> MAS; building
+  works -> BCA and the Building Control Act; building contract disputes -> the Security of Payment
+  Act, SIA or PSSCOC conditions; roads, rail, buses and taxis -> LTA; water and drainage -> PUB;
+  parks and biodiversity -> NParks; land use and planning -> URA; industrial estates -> JTC;
+  electricity and gas -> EMA; telecoms, media and digital services -> IMDA; cyber security -> CSA;
+  customer or patient data -> PDPA; company filings and directors' duties -> ACRA and the
+  Companies Act; restructuring and insolvency -> the IRDA; vessels and port operations -> MPA;
+  airports and airlines -> CAAS; clinics and healthcare -> MOH licensing and the Healthcare
+  Services Act; medicines and health products -> HSA; social services -> MSF or NCSS; charity
+  reporting -> the Commissioner of Charities; staff contracts -> the Employment Act; tax -> IRAS;
+  listed-company reporting -> SGX rules and SFRS(I); standards and certification -> Enterprise
+  Singapore; patents and trademarks -> IPOS. Mention it once, as context for the work (e.g. "as an
+  MAS-licensed financing company, ..."); never add a separate compliance task, and never claim an
+  inspection, audit or funding condition happened unless the source says so.
+- Never name a real company, Singapore or foreign. The hirer stays a described kind of
+  organisation, never a named one.
 - Keep international standards, frameworks and tools as they are (e.g. ISO 27001, IFRS, SAP,
   Salesforce); they already apply in Singapore.
 - State every source-backed amount in S$ (never US$, EUR or another currency), converted

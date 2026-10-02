@@ -18,28 +18,53 @@ The profile must not identify the person or the organisations they worked with. 
   they describe skills rather than identify anyone.
 
 SINGAPORE CONTEXT
-The marketplace serves Singapore and this is a Singapore-based specialist's profile. Localise it
-whenever the facts allow, even when the source is set somewhere else:
-- In the generic organisation descriptions, make employers and clients Singapore-based versions of
-  the SAME kind of organisation the source names: keep its industry, type and scale, and change
-  only where it is based (shape: "a Singapore-based [kind of organisation]"; a foreign government
-  agency becomes a Singapore statutory board or ministry). Work spanning several countries can be
-  described as regional (e.g. "across Southeast Asia", "for APAC clients").
-- Swap foreign regulators and jurisdiction-specific rules for the Singapore counterpart that covers
-  the same thing (e.g. FDA -> HSA, SEC/FCA -> MAS, EPA -> NEA, IRS/HMRC -> IRAS, GDPR/CCPA ->
-  PDPA, US GAAP -> SFRS(I)). If there is no clear counterpart, keep the source's rule.
-- Keep international standards, tools and certifications as they are (e.g. IFRS, ISO 27001, SAP,
-  CFA, PMP).
-- State every amount of money in S$ (never US$, EUR or another currency), converted
-  approximately and rounded. Keep every other number as the source
+The marketplace serves Singapore and this is a Singapore-based specialist's profile. Move the
+profile's SETTING to Singapore whenever the facts allow, even when the source is set somewhere
+else, and change nothing else:
+- Employers and clients. Describe each as a Singapore-based version of the SAME kind of
+  organisation the source names: keep its industry, type and scale, and change only where it is
+  based (shape: "a Singapore-based [kind of organisation]"; a foreign government agency becomes a
+  Singapore statutory board or ministry; "a US regional hospital system" becomes "a Singapore
+  regional healthcare cluster"; "the firm's operations in a Nordic country" becomes "the firm's
+  operations in Singapore"). Work spread over several foreign countries or a foreign region
+  becomes regional ("across Southeast Asia", "for APAC clients"). A global organisation stays
+  global ("a global strategy consultancy"). Never write a real company name, Singapore or foreign.
+- Regulators, laws and courts. Swap each foreign one for the Singapore counterpart that covers the
+  same thing: FDA -> HSA; SEC, FINRA, FCA -> MAS; EPA -> NEA; OSHA, HSE -> MOM and the WSH Act;
+  IRS, HMRC -> IRAS; GDPR, CCPA, HIPAA -> PDPA; FAA, EASA -> CAAS; FCC, Ofcom -> IMDA; US GAAP ->
+  SFRS(I); Sarbanes-Oxley -> SGX listing rules and internal-control requirements; Chapter 11,
+  examinership -> judicial management under the IRDA; "state and federal courts" -> "the courts".
+  If there is no clear counterpart, drop the foreign-only rule (Medicaid, federal tax guidance,
+  state licensing boards, US-only programmes) when the sentence stands without it; keep it only
+  when it is the individual's whole specialism.
+- Foreign market as the specialism. When the individual's expertise IS a foreign market or
+  jurisdiction (e.g. Latin American due diligence, German contract law, US tax), keep it and frame
+  the service for Singapore businesses that deal with that market ("for Singapore companies
+  expanding into Latin America").
+- Local rules. In the service description you may name the Singapore laws, regulators, standards
+  and schemes that plainly govern the service even when the source names none, the way a Singapore
+  client would search for them (e.g. restructuring -> the IRDA; tax -> IRAS and the Income Tax Act;
+  data protection -> PDPA and the PDPC; financial advice, banking, insurance, payments -> MAS;
+  construction disputes -> the Security of Payment Act, SIA or PSSCOC conditions; workplace safety
+  -> the WSH Act and bizSAFE; food safety -> SFA and NEA grading; employment -> the Employment Act
+  and MOM; company filings and directors' duties -> ACRA and the Companies Act). Name only ones
+  that fit the work. Never give the individual a Singapore registration, licence, membership or
+  certification the source does not state, and never name a Singapore employer or client.
+- State every amount of money in S$ (never US$, EUR or another currency), converted approximately
+  and rounded (US$1 = S$1.35, EUR1 = S$1.45, GBP1 = S$1.70). Keep every other number as the source
   gives it.
-- Use Singapore English spelling (organisation, specialising, programme).
+- Keep international standards, tools and certifications as they are (e.g. IFRS, ISO 27001, SAP,
+  CFA, PMP, CPA).
+- Use Singapore English spelling (organisation, specialising, programme, optimise).
 The outcome, scope and scale of each fact stay exactly as the source states them; only the setting
-changes. Two things are never localised:
-- Personal facts: nationality, national teams, honours and awards. Describe them generically
-  ("represented a national team"); never say the person represented or served Singapore.
+changes. Things that are never localised:
+- Personal facts: nationality, languages, degrees and the universities that awarded them, national
+  teams, honours and awards. Describe them generically ("represented a national team"); never say
+  the person represented or served Singapore.
 - A government body or regulator the person WORKED FOR. Describe it generically ("a national
   financial regulator"); never name it, and never swap it for a named Singapore agency.
+Never write a sentence about the source itself ("No certifications were mentioned in the source").
+When the source states no certification or registration, say nothing about it.
 
 If the source is not about one specific individual's own career (for example a team page, a
 company page, or a list of several people), return exactly: {{}}
@@ -76,10 +101,11 @@ Write the description in 40-65 words, in this order:
    looking to ...").
 2. "Services include ..." listing 3-5 concrete services.
 3. Optionally one sentence on the tools, standards, regulations or sectors they know ("Familiar
-   with ...", "Particular experience with ..."). Name a Singapore rule only as the counterpart of
-   one the source names (see SINGAPORE CONTEXT); never add one the source has no counterpart
-   for. Leave out foreign-only programmes and rules that no Singapore buyer would search for
-   (e.g. Medicaid, IRS partnership rules) unless they are the individual's whole specialism.
+   with ...", "Particular experience with ..."). Name the Singapore laws, regulators and
+   standards that plainly govern the service (see SINGAPORE CONTEXT), even when the source names
+   none; never one that doesn't fit the work. Leave out foreign-only programmes and rules that no
+   Singapore buyer would search for (e.g. Medicaid, IRS partnership rules) unless they are the
+   individual's whole specialism.
 4. Scope limit: {scope_limit_instruction}
 relevant_experience: 2-4 sentences of plain prose, 30-60 words in all (never more than 60), no
 bullets, no "I" and no name. Pick the facts most relevant to the service offered; drop the rest. Open with the TENURE SENTENCE below, then the individual's most relevant past roles

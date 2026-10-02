@@ -188,6 +188,15 @@ def pilot_gigs(pools: dict, n: int, seed: int) -> list:
     return sorted(random.Random(seed).sample(sorted(pools, key=int), n), key=int)
 
 
+def parse_gigs(spec: str, pools: dict) -> list:
+    """"1-100" or "3,7,10-12" -> those hire_ids that have a pool, in id order."""
+    ids = set()
+    for part in spec.split(","):
+        lo, _, hi = part.strip().partition("-")
+        ids.update(range(int(lo), int(hi or lo) + 1))
+    return [h for h in sorted(pools, key=int) if int(h) in ids]
+
+
 def export(data_dir: Path, done: dict, pools: dict):
     """Writes the two label files the ranker's features.py / evaluate.py read:
     llm_judgments_merged.json  {hire_id: {provider_id: grade}}  incl. zeros (training)
@@ -215,6 +224,7 @@ def main():
     ap.add_argument("--data-dir", type=Path, default=DEFAULT_DATA,
                     help="the ranker fork's pipeline/data_sat/ (default: sibling checkout)")
     ap.add_argument("--sample", type=int, default=0, help="grade only N seeded-random gigs (pilot)")
+    ap.add_argument("--gigs", default=None, help='grade only these hire_ids, e.g. "1-100" or "3,7,10-12"')
     ap.add_argument("--seed", type=int, default=4103)
     ap.add_argument("--export", action="store_true", help="write the ranker's label files and exit")
     # SOCLAAS sustains ~1 rps; unpaced, the pilot drew a 429 every ~90 calls
@@ -240,7 +250,10 @@ def main():
         export(args.data_dir, done, pools)
         return
 
-    gigs = pilot_gigs(pools, args.sample, args.seed) if args.sample else sorted(pools, key=int)
+    if args.gigs:
+        gigs = parse_gigs(args.gigs, pools)
+    else:
+        gigs = pilot_gigs(pools, args.sample, args.seed) if args.sample else sorted(pools, key=int)
     if args.order == "random":
         random.Random(args.seed).shuffle(gigs)
     jobs = [(hid, str(pid)) for hid in gigs for pid in pools[hid] if (hid, str(pid)) not in done]

@@ -68,6 +68,13 @@ Also carried over from gig.py/showcase.py:
   columns existed is migrated.
 - Per-record quality metrics in the manifest (field lengths, leftover
   gendered pronouns).
+- SkillsFuture tags (taxonomy.py, prompts/tag_*.md): once a record is final, tag_record()
+  gives it category (sector), specialisation (track) and skills (TSCs), read from the
+  record's own text. At most 2 sectors, 3 tracks and 8 skills; skills come only from the
+  chosen tracks' lists; a record that fits no track is tagged empty rather than forced.
+  Two extra calls per written record, to a pool model of their own ("tag" salt). They
+  land in the CSV as category / specialisation / skills (" | "-joined), tags_json (the
+  nested form) and tag_taxonomy_version, and in the manifest as meta["tags"].
 - --out-tag TAG writes a separate dataset (docs/hirers_TAG.csv,
   providers_TAG.csv, extract_manifest_TAG.jsonl) with its own progress, so
   a re-extraction under new prompts leaves the existing CSVs alone.
@@ -95,6 +102,8 @@ from dotenv import load_dotenv
 from jsonschema import Draft7Validator
 from openai import OpenAI
 
+import localisation
+import taxonomy
 from llm_pool import MODEL_POOL, model_for_file, reviewer_for_file
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -126,7 +135,9 @@ ENTITY_TYPE_FOR_LABEL = {
 # Everything that differs between the two entity types. "prompts" run in
 # order: the first reads the page, each later one reads the previous
 # pass's JSON. "review"/"repair" are optional; a repair reruns the first
-# pass, so only give them to single-pass entity types.
+# pass, so only give them to single-pass entity types. "localise" is the
+# provider's own repair: a rewrite of the finished record that fixes the
+# foreign-setting phrases localisation.py found (see localise_provider).
 ENTITY_CONFIG = {
     "PROVIDER": {
         "schema": SCRIPT_DIR / "ML_provider_schema_v1.json",
@@ -136,6 +147,7 @@ ENTITY_CONFIG = {
         "title_field": "about_title",
         "review": None,
         "repair": None,
+        "localise": "repair_localise_provider.md",
     },
     "HIRER": {
         "schema": SCRIPT_DIR / "ML_hirer_schema_v1.json",
@@ -145,6 +157,7 @@ ENTITY_CONFIG = {
         "title_field": "hire_title",
         "review": "review_hirer.md",
         "repair": "repair_hirer.md",
+        "localise": None,
     },
 }
 CODE_FIELDS = ("source_file", "extracted_by_model")  # filled in here, never asked of the LLM
@@ -152,6 +165,9 @@ CODE_FIELDS = ("source_file", "extracted_by_model")  # filled in here, never ask
 # industry.py hadn't tagged when it was extracted gets blanks until the next
 # --backfill-industries.
 INDUSTRY_FIELDS = ("industry", "secondary_industry", "taxonomy_version")
+# The SkillsFuture tags (taxonomy.py): written by code from tag_record()'s result, never
+# asked of the extraction prompts, so they stay out of the schemas.
+TAG_FIELDS = taxonomy.TAG_FIELDS
 PID_PATH = DOCS_DIR / "_extract.pid"  # read by monitor/dashboard.py for an exact RUNNING state
 
 MAX_CHARS = 24000
@@ -208,10 +224,35 @@ for _cfg in ENTITY_CONFIG.values():
         k: v.get("description", "") for k, v in _schema["properties"].items() if k not in CODE_FIELDS
     }
     _cfg["templates"] = [(PROMPTS_DIR / p).read_text(encoding="utf-8").strip() for p in _cfg["prompts"]]
-    for _key in ("review", "repair"):
+    for _key in ("review", "repair", "localise"):
         _cfg[f"{_key}_template"] = (PROMPTS_DIR / _cfg[_key]).read_text(encoding="utf-8").strip() if _cfg[_key] else None
 
 VARIATIONS = json.loads((PROMPTS_DIR / "extract_variations.json").read_text(encoding="utf-8"))
+
+# The tagging step (tag_record): one call picks the category/specialisation, a second picks
+# the skills from the chosen tracks' own list. What differs per entity type is the wording
+# and which fields of the finished record the model reads.
+TAG_TEMPLATES = {k: (PROMPTS_DIR / f"tag_{k}.md").read_text(encoding="utf-8").strip()
+                  for k in ("specialisation", "skills")}
+TAG_ENTITY = {
+    "HIRER": {
+        "entity_label": "gig",
+        "subject_rule": "The record is a GIG: a piece of work a hirer wants one specialist to do. "
+                        "Tag the work to be done.",
+        "skill_rule": "The record is a GIG. Choose the skills a specialist needs to do this work.",
+        "text_fields": ("hire_title", "hire_description", "hire_description_additional_notes"),
+    },
+    "PROVIDER": {
+        "entity_label": "provider profile",
+        "subject_rule": "The record is a PROVIDER profile: one individual's own showcase. Tag the "
+                        "service the person offers (the services_offered fields first), supported by "
+                        "their experience.",
+        "skill_rule": "The record is a PROVIDER profile. Choose the skills the person clearly has and "
+                      "would apply in the service they offer, as their experience shows.",
+        "text_fields": ("about_title", "about_description", "services_offered_title",
+                        "services_offered_description", "relevant_experience"),
+    },
+}
 
 
 def roll_variations(entity_type: str, fname: str) -> tuple:
@@ -369,6 +410,13 @@ def _parse_json(raw_output: str) -> dict:
 PROMPT_EXAMPLE_LEAKS = (
     "9921894", "10203941", "USPTO patents", "S$5M engagement",
     "Computer Weekly", "40 services off mainframe", "from 3 days to 4 hours",
+    # client-style examples (extract_hirer.md WHO IS HIRING, provider scope-limit
+    # roll and relevant_experience shape); seen copied in the first v2 run
+    "legal drafting or court representation", "payroll or HR administration",
+    "general insurance agency with 40 staff", "six-outlet retail chain",
+    "precision components maker", "chilled food distributor",
+    # not "quantity surveyor specialising in construction disputes": it is the
+    # honest description of hka.com's experts, so it blocked real records
 )
 
 # Records are anonymised: the text a gig or profile shows must not name the
@@ -454,6 +502,8 @@ def _entity_doc(data: dict, entity_type: str, fname: str, model: str, source: st
     # blank -> null, so a blank optional field reads as "not stated" and a
     # blank required one fails the schema check instead of being written
     data = {k: (None if isinstance(v, str) and not v.strip() else v) for k, v in data.items()}
+    # Singapore English spelling, by code: the prompts ask for it and the models often don't
+    data = {k: (v if k in ORG_FIELDS else localisation.singapore_spelling(v)) for k, v in data.items()}
     doc = {**data, **{k: v for k, v in code_values.items() if k in cfg["properties"]}}
     errors = [e.message for e in cfg["validator"].iter_errors(doc)]
     if errors:
@@ -481,18 +531,28 @@ def _review_verdict(data: dict) -> dict:
     return {"decision": decision, "reason": reason.strip()}
 
 
-def _call_with_retries(model: str, content: str, validate) -> tuple:
+def _call_with_retries(model: str, content: str, validate, feedback: bool = False) -> tuple:
     """Returns (validate(parsed JSON), usage, hidden_reasoning). A parse or
     validation failure is retried just like an API error. `model` stays
     fixed for every retry -- falling back to another would break the
-    deterministic file->model assignment llm_pool.py relies on."""
-    last_err = None
+    deterministic file->model assignment llm_pool.py relies on.
+
+    `feedback`: a retry after a REPLY was rejected (not after an API error) restates
+    the reason, so the model isn't asked the same question again. Used by the tagging
+    calls, where the rejection is specific and fixable ("track X is not listed under
+    sector Y") and the same prompt kept getting the same wrong pair."""
+    last_err, prompt = None, content
     for attempt in range(1, MAX_RETRIES + 1):
+        replied = False
         try:
-            raw_output, usage, reasoning = _call_llm(model, content)
+            raw_output, usage, reasoning = _call_llm(model, prompt)
+            replied = True
             return validate(_parse_json(raw_output)), usage, reasoning
         except Exception as e:
             last_err = e
+            if feedback and replied:
+                prompt = (f"{content}\n\nYOUR PREVIOUS REPLY WAS REJECTED: {e}\n"
+                          f"Fix exactly that, using only the names listed above, and return the corrected JSON.")
             if attempt < MAX_RETRIES:
                 wait_s = RETRY_BACKOFF_S * (2 ** (attempt - 1))
                 print(f"    [RETRY] attempt {attempt}/{MAX_RETRIES} failed ({e}); retrying in {wait_s}s", flush=True)
@@ -504,6 +564,80 @@ def _record_json(entity_type: str, doc: dict) -> str:
     """The LLM-written part of a record, as handed to a later pass."""
     fields = ENTITY_CONFIG[entity_type]["llm_fields"]
     return json.dumps({k: doc.get(k) for k in fields}, ensure_ascii=False, indent=2)
+
+
+def _shown_text(entity_type: str, doc: dict) -> list:
+    """The record's text a Singapore buyer reads, for the foreign-setting check."""
+    return [doc.get(k) for k in TAG_ENTITY[entity_type]["text_fields"]]
+
+
+# A repair that blanks one of these has traded a foreign phrase for lost content.
+_KEEP_FILLED = ("about_description", "services_offered_description", "relevant_experience")
+
+
+def localise_provider(doc: dict, extract_call, kwargs: dict) -> tuple:
+    """Singapore-set check on a finished provider record (localisation.py), then at most
+    one repair pass that fixes just the phrases it found (prompts/repair_localise_provider.md).
+    The prompts already ask for a Singapore setting, but the pool's models follow that
+    unevenly and can't be trusted to grade themselves, so this is the deterministic net.
+
+    The repaired record replaces the original only if it has fewer foreign phrases and no
+    field that had text went blank; otherwise the original stays. A leftover phrase is not
+    an error, since some are right to keep (a membership such as INSOL Europe, a credential,
+    a foreign-market specialism): it's recorded in the manifest as localisation_residue, so
+    the rate can be measured and filtered. Returns (doc, meta)."""
+    residue = localisation.foreign_residue(_shown_text("PROVIDER", doc))
+    meta = {"localisation_residue": residue}
+    if not residue:
+        return doc, meta
+    prompt = ENTITY_CONFIG["PROVIDER"]["localise_template"].format(
+        **kwargs, residue="\n".join(f"- {p}" for p in residue),
+        previous_record=_record_json("PROVIDER", doc))
+    repaired = extract_call(prompt)
+    meta["localisation_repaired"] = False
+    if repaired is None:
+        return doc, meta
+    after = localisation.foreign_residue(_shown_text("PROVIDER", repaired))
+    blanked = [k for k in _KEEP_FILLED if doc.get(k) and not repaired.get(k)]
+    meta.update(localisation_residue_after=after, localisation_blanked=blanked)
+    if len(after) < len(residue) and not blanked:
+        meta["localisation_repaired"] = True
+        return repaired, meta
+    return doc, meta
+
+
+def tag_record(entity_type: str, doc: dict, fname: str) -> tuple:
+    """SkillsFuture tags for a finished record, read from its own text (not the source
+    page: the ranker compares gig tags with provider tags, so they have to describe the
+    records it sees). Two calls to one model, chosen by file name with its own stage salt
+    so tagging diversifies independently of extraction:
+      1. category + specialisation (sector + track pairs, at most 3 tracks in 2 sectors),
+      2. skills from the chosen tracks' own lists (taxonomy.skills_block), 1-8.
+    Returns (nested tags, meta). The tags are {} when the record fits no track -- a valid
+    result, so no skills are asked for. An invalid reply is retried like any failure and
+    errors the file if it never validates, so it's redone from scratch next run."""
+    cfg = TAG_ENTITY[entity_type]
+    model = model_for_file(fname, "tag")
+    record = "RECORD:\n```json\n" + json.dumps(
+        {k: doc[k] for k in cfg["text_fields"] if doc.get(k)}, ensure_ascii=False, indent=2) + "\n```"
+    kwargs = {k: cfg[k] for k in ("entity_label", "subject_rule", "skill_rule")}
+    usage = {"prompt_tokens": 0, "completion_tokens": 0}
+
+    def ask(name: str, check, **extra):
+        content = f"{TAG_TEMPLATES[name].format(**kwargs, **extra)}\n\n{record}"
+        result, call_usage, _ = _call_with_retries(model, content, check, feedback=True)
+        for k in usage:
+            usage[k] += call_usage.get(k) or 0
+        return result
+
+    pairs, why = ask("specialisation", lambda d: (taxonomy.parse_specialisations(d), d.get("reason")),
+                     taxonomy_block=taxonomy.sector_track_block())
+    meta = {"model": model, "usage": usage, "no_fit": not pairs, "reason_specialisation": why}
+    if not pairs:
+        return {}, meta
+    (skills, dropped), why = ask("skills", lambda d: (taxonomy.parse_skills(d, pairs), d.get("reason")),
+                                 skills_block=taxonomy.skills_block(pairs))
+    return taxonomy.nest(pairs, skills), {**meta, "reason_skills": why, "dropped_skills": dropped}
 
 
 def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple:
@@ -542,6 +676,14 @@ def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple
             break
         payload = f"INPUT RECORD:\n```json\n{_record_json(entity_type, doc)}\n```"
 
+    # A provider's finished text is checked for a foreign setting and, if it has one,
+    # repaired once. A hirer is only measured: its reviewer already judges the setting.
+    if doc is not None and cfg["localise_template"] and quality_check(entity_type, doc)[0]:
+        doc, local_meta = localise_provider(doc, extract_call, kwargs)
+        meta.update(local_meta)
+    elif doc is not None:
+        meta["localisation_residue"] = localisation.foreign_residue(_shown_text(entity_type, doc))
+
     # Only review what would otherwise be written. The reviewer is always a
     # different model than the extractor, so nothing grades its own output.
     if doc is not None and cfg["review_template"] and quality_check(entity_type, doc)[0]:
@@ -565,6 +707,10 @@ def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple
                 meta["review_after_repair"] = review(doc)
                 if meta["review_after_repair"]["decision"] == "retry":
                     doc = None
+
+    # Tags come last, from the finished text, and only for a record that will be written.
+    if doc is not None and quality_check(entity_type, doc)[0]:
+        meta["tags"], meta["tag"] = tag_record(entity_type, doc, fname)
     return doc, usage_total, meta
 
 
@@ -624,10 +770,13 @@ def csv_fields(entity_type: str) -> list:
     check_csv_headers).
 
     INDUSTRY_FIELDS come from industry.py's manifest, so the CSVs can be
-    split or balanced by industry without a join (see backfill_industries)."""
+    split or balanced by industry without a join (see backfill_industries).
+    TAG_FIELDS are the SkillsFuture category / specialisation / skills tags
+    (taxonomy.py): flat " | "-joined columns plus tags_json, the same tags nested
+    category -> specialisation -> skills."""
     props = ENTITY_CONFIG[entity_type]["properties"]
     return (["source_file"] + [k for k in props if k != "source_file"]
-            + ["classify_label", *INDUSTRY_FIELDS, "extracted_at", "time_taken_by_model"]
+            + ["classify_label", *INDUSTRY_FIELDS, *TAG_FIELDS, "extracted_at", "time_taken_by_model"]
             + [f"roll_{k}" for k in VARIATIONS.get(entity_type, {})])
 
 
@@ -858,6 +1007,7 @@ def process_file(fname: str, label: str, industry: dict = None) -> tuple:
         row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp,
                "time_taken_by_model": elapsed,
                **{k: (industry or {}).get(k) for k in INDUSTRY_FIELDS},
+               **taxonomy.csv_columns(meta.get("tags")),
                **{f"roll_{k}": v for k, v in (meta.get("rolls") or {}).items()}}
         title = doc.get(cfg["title_field"])
         record = {**base, "status": "written", "title": title, "metrics": record_metrics(entity_type, doc)}

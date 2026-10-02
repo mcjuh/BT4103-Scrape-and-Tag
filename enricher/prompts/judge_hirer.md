@@ -29,8 +29,16 @@ days_per_week -- how many days a week (1-5) one specialist would spend on it, gi
 the "Engagement duration" line: intensive build or on-site work is 4-5; a review or advisory
 piece spread over several weeks is 1-3.
 
+sector and track -- where this WORK sits in Singapore's SkillsFuture skills framework, chosen
+from the list below. Pick the sector whose specialists would do the work, then one track inside
+that sector. Judge by the work itself, not by the hirer's industry: a cybersecurity review for a
+hospital is Infocomm Technology, not Healthcare; a tax filing for a shipping company is
+Accountancy. If no sector fits exactly, pick the closest one. Copy both names exactly as listed,
+and the track must be one listed under the sector you picked.
+{taxonomy}
+
 Return ONLY valid JSON in exactly this shape:
-{{"seniority_needed": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "urgency": "asap" | "soon" | "flexible", "days_per_week": 1-5, "reason": "one short sentence"}}
+{{"seniority_needed": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "urgency": "asap" | "soon" | "flexible", "days_per_week": 1-5, "sector": "<sector>", "track": "<track>", "reason": "one short sentence"}}
 
 GIG:
 {record}

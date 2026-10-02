@@ -29,11 +29,16 @@ bios, which never state rates or availability). duration_weeks is the one
 field read from the text: the "Engagement duration:" line extract_hirer.md
 asks for, itself an LLM estimate.
 
+The judge also places each record in SkillsFuture's framework (taxonomy/:
+39 sectors, 247 tracks): the sector and track of the WORK for a gig, of the
+SERVICE for a provider. Code checks the pair against the files.
+
 Outputs, rebuilt in full each run (original columns first, then the new ones):
   docs/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed, start_by,
-                                 commitment, duration_weeks
+                                 commitment, duration_weeks, sector, track
   docs/providers_enriched.csv  + rate_per_hour, seniority, available_from, capacity,
-                                 availability
+                                 availability, sector, track
+--tag v2 reads/writes the *_v2 files instead (see use_tag).
 Unknown values stay blank (null), never a filler: a record whose judgement
 failed gets blanks until the next run retries it.
 """
@@ -61,6 +66,9 @@ PROMPTS_DIR = SCRIPT_DIR / "prompts"
 
 MANIFEST_PATH = DOCS_DIR / "enrich_manifest.jsonl"
 RATE_CARD_PATH = SCRIPT_DIR / "rate_card.json"
+# SkillsFuture sectors and tracks, copied from ranker/pipeline/data_taxo/ (built
+# there by normalise_taxo.py from the SkillsFuture workbook in skillsfuture/).
+TAXONOMY_DIR = SCRIPT_DIR / "taxonomy"
 PID_PATH = DOCS_DIR / "_enrich.pid"
 
 # Same pool as classifier_extractor/llm_pool.py. Duplicated rather than
@@ -77,7 +85,8 @@ ENTITIES = {
         "out": DOCS_DIR / "hirers_enriched.csv",
         "prompt": "judge_hirer.md",
         "text_fields": ["hire_title", "hire_description", "hire_description_additional_notes", "industry"],
-        "new_fields": ["budget_lo", "budget_hi", "seniority_needed", "start_by", "commitment", "duration_weeks"],
+        "new_fields": ["budget_lo", "budget_hi", "seniority_needed", "start_by", "commitment", "duration_weeks",
+                       "sector", "track"],
     },
     "PROVIDER": {
         "csv": DOCS_DIR / "providers.csv",
@@ -85,13 +94,51 @@ ENTITIES = {
         "prompt": "judge_provider.md",
         "text_fields": ["about_title", "about_description", "services_offered_title",
                         "services_offered_description", "relevant_experience", "industry"],
-        "new_fields": ["rate_per_hour", "seniority", "available_from", "capacity", "availability"],
+        "new_fields": ["rate_per_hour", "seniority", "available_from", "capacity", "availability",
+                       "sector", "track"],
     },
 }
+
+
+def _norm_name(s) -> str:
+    """Loose key for matching a model's sector/track spelling to the list."""
+    return re.sub(r"\s+", " ", str(s or "").replace("&", "and")).strip().lower()
+
+
+def load_taxonomy() -> dict:
+    """{sector name: [track names]}, in the files' order. Track names repeat
+    across sectors ("Operations", "Project Management", ...), so a track only
+    means something together with its sector."""
+    with (TAXONOMY_DIR / "sector.csv").open(newline="", encoding="utf-8") as f:
+        sectors = {r["sector_id"]: r["name"].strip() for r in csv.DictReader(f)}
+    tree = {name: [] for name in sectors.values()}
+    with (TAXONOMY_DIR / "track.csv").open(newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            tree[sectors[r["sector_id"]]].append(r["name"].strip())
+    return tree
+
+
+TAXONOMY = load_taxonomy()
+TAXONOMY_TEXT = "\n".join(f"- {sector}: {'; '.join(tracks)}" for sector, tracks in TAXONOMY.items())
+SECTOR_KEYS = {_norm_name(s): s for s in TAXONOMY}
+
 for _cfg in ENTITIES.values():
     _cfg["template"] = (PROMPTS_DIR / _cfg["prompt"]).read_text(encoding="utf-8").strip()
-    # A prompt edit changes the version, so every record is judged again under it.
-    _cfg["prompt_version"] = hashlib.sha256(_cfg["template"].encode("utf-8")).hexdigest()[:10]
+    # A prompt or taxonomy edit changes the version, so every record is judged again under it.
+    _cfg["prompt_version"] = hashlib.sha256(
+        (_cfg["template"] + TAXONOMY_TEXT).encode("utf-8")).hexdigest()[:10]
+
+
+def use_tag(tag: str) -> None:
+    """Enrich a tagged extraction (extract.py --out-tag), e.g. "v2": read
+    docs/hirers_v2.csv, write docs/hirers_v2_enriched.csv, and keep judgements
+    in docs/enrich_manifest_v2.jsonl, so they never leak into the untagged
+    outputs (build_outputs falls back to a judgement of older text)."""
+    global MANIFEST_PATH
+    MANIFEST_PATH = DOCS_DIR / f"enrich_manifest_{tag}.jsonl"
+    for stem, cfg in (("hirers", ENTITIES["HIRER"]), ("providers", ENTITIES["PROVIDER"])):
+        cfg["csv"] = DOCS_DIR / f"{stem}_{tag}.csv"
+        cfg["out"] = DOCS_DIR / f"{stem}_{tag}_enriched.csv"
 
 MAX_RETRIES = 4
 RETRY_BACKOFF_S = 2  # doubles each retry
@@ -163,6 +210,18 @@ def _pick(data: dict, key: str, allowed: list) -> str:
     return value
 
 
+def _pick_sector_track(data: dict) -> dict:
+    """The model's sector and track, spelled as in the taxonomy. The track must
+    be listed under that sector; anything else raises, so it's retried."""
+    sector = SECTOR_KEYS.get(_norm_name(data.get("sector")))
+    if sector is None:
+        raise ValueError(f"sector not in the taxonomy: {data.get('sector')!r}")
+    track = next((t for t in TAXONOMY[sector] if _norm_name(t) == _norm_name(data.get("track"))), None)
+    if track is None:
+        raise ValueError(f"track {data.get('track')!r} is not listed under sector {sector!r}")
+    return {"sector": sector, "track": track}
+
+
 def validate(entity_type: str, data: dict) -> dict:
     """A parsed reply -> the judgement to store. Raises on anything off-scale,
     so the caller retries it like an API error."""
@@ -176,6 +235,7 @@ def validate(entity_type: str, data: dict) -> dict:
                 "price_tier": _pick(data, "price_tier", TIERS),
                 "urgency": _pick(data, "urgency", URGENCIES),
                 "days_per_week": min(5, max(1, days)),
+                **_pick_sector_track(data),
                 "reason": str(data.get("reason") or "")[:300]}
     score = data.get("price_score")
     try:
@@ -185,6 +245,7 @@ def validate(entity_type: str, data: dict) -> dict:
     return {"seniority": _pick(data, "seniority", LEVELS),
             "price_tier": _pick(data, "price_tier", TIERS),
             "price_score": min(10, max(1, score)),
+            **_pick_sector_track(data),
             "reason": str(data.get("reason") or "")[:300]}
 
 
@@ -195,7 +256,7 @@ def judge(entity_type: str, fname: str, text: str) -> dict:
     base = {"file": fname, "entity_type": entity_type, "model": model,
             "prompt_version": cfg["prompt_version"], "text_hash": text_hash(text),
             "timestamp": dt.datetime.now().isoformat(timespec="seconds")}
-    prompt = cfg["template"].format(record=text)
+    prompt = cfg["template"].format(record=text, taxonomy=TAXONOMY_TEXT)
     last = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -269,7 +330,7 @@ def run_judging(args) -> None:
                     j = rec["judgement"]
                     extra = f" {j['urgency']} {j['days_per_week']}d/wk" if rec["entity_type"] == "HIRER" else ""
                     print(f"[{i}/{len(jobs)}] {rec['entity_type'].lower()}/{rec['file']} ({rec['model']}) -> "
-                          f"{j['seniority']} {j['price_tier']}{extra}", flush=True)
+                          f"{j['seniority']} {j['price_tier']}{extra} | {j['sector']} / {j['track']}", flush=True)
                     consecutive = 0
                 else:
                     print(f"[{i}/{len(jobs)}] {rec['entity_type'].lower()}/{rec['file']} ({rec['model']}) -> "
@@ -359,6 +420,9 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
             "start_by": start_by,
             "commitment": judgement["days_per_week"],
             "duration_weeks": dur,
+            # .get: judgements made before sector/track existed leave them blank
+            "sector": judgement.get("sector"),
+            "track": judgement.get("track"),
         }
     if judgement is None:
         return {}
@@ -377,6 +441,8 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
         "available_from": available_from,
         "capacity": capacity,
         "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
+        "sector": judgement.get("sector"),
+        "track": judgement.get("track"),
     }
 
 
@@ -422,9 +488,14 @@ def main():
     parser.add_argument("--workers", type=int, default=4, help="records to judge at once (default: 4)")
     parser.add_argument("--rps", type=float, default=1.0,
                         help="cap on requests/second across workers (SOCLAAS sustains ~1/s; default 1, 0 = no cap)")
+    parser.add_argument("--tag", default=None,
+                        help="enrich a tagged extraction (extract.py --out-tag): read docs/hirers_TAG.csv and "
+                             "providers_TAG.csv, write *_TAG_enriched.csv, judgements in enrich_manifest_TAG.jsonl")
     args = parser.parse_args()
     global _PACER
     _PACER = Pacer(args.rps) if args.rps else None
+    if args.tag:
+        use_tag(args.tag)
 
     if not args.no_llm:
         PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
