@@ -95,11 +95,11 @@ turn a score back into a grade. Treat the score's second decimal as noise; the b
 
 **Outputs.** `docs/gig_grades.jsonl` is the log (one line per call, per model and prompt version; reruns
 skip what is already graded, so a stopped run resumes). `--export` writes `docs/gig_grades.csv`, one row
-per pair, model and prompt version. The log from the 30-pair pilot also holds that pilot's calls on the
-other pool models and on `gemma4:26b`, which was tried and dropped (it cannot switch thinking off: about
-30 s and 1,900 tokens a call against 0.5 s). Combining several models was built and removed: on the pilot
-the three Qwens ranked pairs almost identically (Spearman 0.93-0.95) and no label set exists yet to show
-that pooling beats one model.
+per pair, model and prompt version. The committed log is the full run: all 900 gigs x providers of the
+sample on `qwen3.8:27b` with prompt `rubric_01.v4.1` (789 pairs at grade 0, 105 at grade 1, 6 at grade 2,
+none at 3; no errors). Using several models was tried on the 30-pair pilot and removed: `gemma4:26b` cannot
+switch thinking off (about 30 s and 1,900 tokens a call against 0.5 s), and the three Qwens ranked pairs
+almost identically (Spearman 0.93-0.95), with no label set yet to show that pooling beats one model.
 
 `docs/platform_sample/pilot_pairs.json` is the pilot: 10 seeded gigs, each with its best TF-IDF text
 match, a mid-ranked provider and a random lower-half one. The similarity only picked the pairs; the
