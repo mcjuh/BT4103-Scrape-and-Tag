@@ -3,14 +3,14 @@
 Score relevance predictions against the graded gold labels
 (experiments/gold.json: 18 gigs, every provider graded 0-3).
 
-    py -3 labeller/evaluate.py docs/relevance_scores.csv rg_3l
+    py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_3l
     py -3 labeller/evaluate.py predictions.csv rg_2l rg_3l rg_3l_multi --per-gig per_gig.csv
 
 predictions.csv has one row per (gig, provider) pair:
   gig column       hirer_file | gig | hirer      (the source_file in hirers.csv)
   provider column  provider_file | provider      (the source_file in providers.csv)
 and each labelling method's score (higher = more relevant) in either layout:
-  wide   a column named after the method -- label.py's docs/relevance_scores.csv
+  wide   a column named after the method -- label.py's data/output/relevance_scores.csv
          (rg_2l, rg_3l, rg_4l, rg_s04, rg_3l_multi) is already in this shape
   long   a method | approach | cond column naming the method, plus a score column
 Blank scores are skipped (e.g. rg_3l_multi for a pair where a model call failed).

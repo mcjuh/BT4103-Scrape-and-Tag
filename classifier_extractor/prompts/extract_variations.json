@@ -24,8 +24,8 @@
       "Value Prop": {"weight": 0.1, "instruction": "Rewrite their core role as a client-focused, benefit-driven hook (e.g., \"Smart Financing as you Deserve\")."}
     },
     "achievement_style": {
-      "Implied": {"weight": 0.8, "instruction": "Drop pronouns completely, as in a CV summary (e.g. \"18 years as a quantity surveyor ... Has represented subcontractors in over 40 adjudications. Previously with a specialist claims consultancy.\")."},
-      "Direct First-Person": {"weight": 0.2, "instruction": "Use \"I\" with active verbs (e.g. \"I spent 18 years as ... I have represented ...\")."}
+      "Implied": {"weight": 0.8, "instruction": "Drop pronouns completely, as in a CV bullet: each sentence starts with a past-tense verb (e.g. \"Led the migration of a client's payroll to a new platform.\")."},
+      "Direct First-Person": {"weight": 0.2, "instruction": "Use \"I\" with active verbs in each sentence (e.g. \"I led the migration of a client's payroll to a new platform.\")."}
     },
     "imperfection": {
       "none": {"weight": 0.95, "instruction": "none; use flawless grammar and punctuation."},

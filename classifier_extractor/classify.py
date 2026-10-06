@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Classify the pruned Markdown pages saved in docs/ (by crawl.py) using the
+Classify the pruned Markdown pages saved in data/pages/ (by crawl.py) using the
 SOC LLM. Each page is labeled by one model from llm_pool.MODEL_POOL (see
 llm_pool.py for which and why) -- model_for_file() decides which, deterministically,
 per file.
@@ -27,13 +27,13 @@ the LLM.
   or the model's response didn't parse cleanly. Not a dumping ground for
   merely low-value pages -- those are IGNORE.
 
-crawl.py saves new pages into docs/unprocessed/ -- this script drains that
-folder, moving (not copying) each file into docs/provider/, docs/hirer/,
-docs/ignore/, or docs/uncertain/ once classified, so docs/unprocessed/ is
+crawl.py saves new pages into data/pages/unprocessed/ -- this script drains
+that folder, moving (not copying) each file into data/pages/provider/,
+hirer/, ignore/, or uncertain/ once classified, so unprocessed/ is
 always exactly "crawled, not yet classified" and nothing sits duplicated
 in two places. A file only leaves unprocessed/ after its bucket copy
 succeeds -- if that fails, it stays put and is retried next time rather
-than being lost. Progress is tracked in docs/manifest.jsonl; reruns skip
+than being lost. Progress is tracked in data/manifests/classify.jsonl; reruns skip
 files already successfully classified but retry ones that previously
 hard-errored.
 """
@@ -53,16 +53,18 @@ from llm_pool import model_for_file
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # classifier_extractor/ sits one level below the project root
-DOCS_DIR = ROOT_DIR / "docs"  # shared data lake -- every role reads/writes here, not its own folder
-UNPROCESSED_DIR = DOCS_DIR / "unprocessed"
+DATA_DIR = ROOT_DIR / "data"  # shared data lake -- every role reads/writes here, not its own folder
+PAGES_DIR = DATA_DIR / "pages"
+UNPROCESSED_DIR = PAGES_DIR / "unprocessed"
+LOGS_DIR = ROOT_DIR / "logs"
 ENV_PATH = ROOT_DIR / ".env"
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 
 BUCKET_DIRS = {
-    "PROVIDER": DOCS_DIR / "provider",
-    "HIRER": DOCS_DIR / "hirer",
-    "IGNORE": DOCS_DIR / "ignore",
-    "UNCERTAIN": DOCS_DIR / "uncertain",
+    "PROVIDER": PAGES_DIR / "provider",
+    "HIRER": PAGES_DIR / "hirer",
+    "IGNORE": PAGES_DIR / "ignore",
+    "UNCERTAIN": PAGES_DIR / "uncertain",
 }
 VALID_LABELS = set(BUCKET_DIRS)
 
@@ -174,7 +176,7 @@ def load_manifest(manifest_path: Path) -> dict:
 
 
 def _pending_files(already_done: dict) -> list:
-    """Files in docs/unprocessed/ not yet in the manifest. Re-globbed on
+    """Files in data/pages/unprocessed/ not yet in the manifest. Re-globbed on
     every call so --watch mode picks up files crawl.py saves while this
     keeps running. A file already in the manifest but still physically
     present here (a prior bucket-move that failed) is treated as done --
@@ -230,7 +232,8 @@ def main():
     for d in BUCKET_DIRS.values():
         d.mkdir(parents=True, exist_ok=True)
 
-    manifest_path = DOCS_DIR / "manifest.jsonl"
+    manifest_path = DATA_DIR / "manifests" / "classify.jsonl"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
     already_done = load_manifest(manifest_path)
     _drain_stuck_moves(already_done)
 
@@ -328,7 +331,8 @@ def main():
 
 if __name__ == "__main__":
     # Read by monitor/dashboard.py for an exact RUNNING state, as crawl.py's is.
-    PID_PATH = DOCS_DIR / "_classify.pid"
+    PID_PATH = LOGS_DIR / "classify.pid"
+    LOGS_DIR.mkdir(exist_ok=True)
     PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
     try:
         main()

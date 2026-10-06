@@ -1,25 +1,25 @@
 # enricher
 
-Adds the structured fields the ranker's Stage-2 features need (see `ranker_input_spec.md`) to
+Adds the structured fields the ranker's Stage-2 features need (see `docs/ranker_input_spec.md`) to
 `extract.py`'s records. It runs after extraction:
 
 ```
-py -3 enricher/enrich.py              # judge new or changed records, then rebuild the outputs
-py -3 enricher/enrich.py --no-llm     # rebuild the outputs from saved judgements (no API calls)
+python run.py enrich              # judge new or changed records, then rebuild the outputs
+python run.py enrich --no-llm     # rebuild the outputs from saved judgements (no API calls)
 ```
 
 | Output | New columns |
 |---|---|
-| `docs/hirers_enriched.csv` | `budget_lo`, `budget_hi` (S$/hour), `seniority_needed`, `start_by` (date or `asap`), `commitment` (days/week), `duration_weeks`, `sector`, `track` |
-| `docs/providers_enriched.csv` | `rate_per_hour` (S$), `seniority`, `available_from` (date or `now`), `capacity` (days/week), `availability` (display text), `sector`, `track` |
+| `data/output/hirers_enriched.csv` | `budget_lo`, `budget_hi` (S$/hour), `seniority_needed`, `start_by` (date or `asap`), `commitment` (days/week), `duration_weeks`, `sector`, `track` |
+| `data/output/providers_enriched.csv` | `rate_per_hour` (S$), `seniority`, `available_from` (date or `now`), `capacity` (days/week), `availability` (display text), `sector`, `track` |
 
-`sector` and `track` come from SkillsFuture's skills framework (`taxonomy/sector.csv`, `track.csv`: 39
-sectors, 247 tracks, copied from the ranker's `pipeline/data_taxo/`). They place the *work* (gigs) or the
-*service* (providers), not the client's industry. Track names repeat across sectors, so read a track
-together with its sector.
+`sector` and `track` come from SkillsFuture's skills framework (`data/reference/skillsfuture/sector.csv`,
+`track.csv`: 39 sectors, 247 tracks, the same files as the ranker's `pipeline/data_taxo/`). They place the
+*work* (gigs) or the *service* (providers), not the client's industry. Track names repeat across sectors,
+so read a track together with its sector.
 
-`--tag v2` enriches a tagged extraction (`extract.py --out-tag v2`): it reads `docs/hirers_v2.csv` /
-`providers_v2.csv`, writes `*_v2_enriched.csv`, and keeps its judgements in `enrich_manifest_v2.jsonl`.
+`--tag v4` enriches a tagged extraction (`extract.py --out-tag v4`): it reads `data/output/hirers_v4.csv` /
+`providers_v4.csv`, writes `*_v4_enriched.csv`, and keeps its judgements in `data/manifests/enrich_v4.jsonl`.
 
 Both files keep every column of `hirers.csv` / `providers.csv`, so the ranker import can read them
 in their place.
@@ -32,7 +32,7 @@ never state rates or availability.
 1. **Judge (LLM).** One Qwen call per record picks categories on one shared rubric: seniority
    (mid / senior / expert), price tier (lean / standard / premium) and SkillsFuture sector and
    track on both sides, plus urgency and days per week for gigs. Code checks that the sector exists
-   and the track is listed under it, and retries the call if not. These are saved in `docs/enrich_manifest.jsonl`, keyed by the file
+   and the track is listed under it, and retries the call if not. These are saved in `data/manifests/enrich.jsonl`, keyed by the file
    and a hash of the text read. A re-extracted record, or an edit to `prompts/`, gets judged again;
    nothing else does.
 2. **Generate (code).** `rate_card.json` turns categories into numbers. A provider's rate and a

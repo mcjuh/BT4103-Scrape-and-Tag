@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Crawl the seed URLs listed in seeds.md using crawl4ai and save each page
-visited under docs/ as pruned, dense Markdown (not raw HTML) -- a
+visited under data/pages/ as pruned, dense Markdown (not raw HTML) -- a
 PruningContentFilter strips nav/footer/cookie-banner/script boilerplate
 before the HTML-to-Markdown conversion, so a ~150-600KB raw page typically
 comes out as a few KB of on-topic text with links preserved. This keeps
-docs/ token-cheap for classify.py and any other future agent reading these
+the pages token-cheap for classify.py and any other future agent reading these
 files, without losing the content that actually matters. No LLM extraction
 in the crawl loop -- that happens as a separate later step (classify.py)
 over the downloaded Markdown.
@@ -28,7 +28,7 @@ Design notes / judgment calls:
   try/except so a single failing/blocking site does not kill the run.
 - Many big consulting sites (McKinsey, BCG, Bain, Big 4) run bot
   protection / heavy JS / consent walls -- failures there are expected
-  and are logged to the console and to docs/_crawl_report.md.
+  and are logged to the console and to data/manifests/crawl_report.md.
 """
 
 import argparse
@@ -51,20 +51,21 @@ from crawl4ai.deep_crawling import BestFirstCrawlingStrategy, FilterChain, Keywo
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-ROOT_DIR = SCRIPT_DIR.parent  # scrapper/ sits one level below the project root
-WEBLINKS_PATH = SCRIPT_DIR / "seeds.md"  # scrapper's own input config, not shared with other roles
-DOCS_DIR = ROOT_DIR / "docs"  # shared data lake -- every role reads/writes here, not its own folder
-# Crawled-but-not-yet-classified pages land here, not loose in DOCS_DIR --
-# classify.py drains this folder (moving each file into its bucket once
-# classified) so DOCS_DIR's root stays just bookkeeping + bucket folders,
-# and it's obvious at a glance what's still pending.
-UNPROCESSED_DIR = DOCS_DIR / "unprocessed"
-STATE_PATH = DOCS_DIR / "_crawl_state.json"
+ROOT_DIR = SCRIPT_DIR.parent  # scraper/ sits one level below the project root
+WEBLINKS_PATH = SCRIPT_DIR / "seeds.md"  # scraper's own input config, not shared with other roles
+DATA_DIR = ROOT_DIR / "data"  # shared data lake -- every role reads/writes here, not its own folder
+PAGES_DIR = DATA_DIR / "pages"  # crawled pages, one folder per classify.py bucket
+MANIFESTS_DIR = DATA_DIR / "manifests"
+# Crawled-but-not-yet-classified pages land here -- classify.py drains this
+# folder (moving each file into its bucket once classified), so it's obvious
+# at a glance what's still pending.
+UNPROCESSED_DIR = PAGES_DIR / "unprocessed"
+STATE_PATH = MANIFESTS_DIR / "crawl_state.json"
 # Written once at startup with this process's PID and deleted on exit, so
 # monitor/dashboard.py can tell "running" from "crashed/stopped" by checking
 # whether that PID is still alive -- the log alone can't (a seed can sit
 # silent for up to SEED_TIMEOUT_S, and a hard kill leaves no trace in it).
-PID_PATH = DOCS_DIR / "_crawl.pid"
+PID_PATH = ROOT_DIR / "logs" / "crawl.pid"
 
 MAX_DEPTH = 5
 MAX_PAGES_PER_DOMAIN = 1000
@@ -91,7 +92,7 @@ LINK_KEYWORDS = [
 
 # Signals that a "successful" fetch actually landed on a bot-check/consent
 # wall rather than real content. Checked against the saved Markdown
-# (lowercased) of every page so blocked pages don't silently pollute docs/
+# (lowercased) of every page so blocked pages don't silently pollute data/pages/
 # (and burn classify.py's LLM budget on junk).
 BLOCK_SIGNALS = [
     "just a moment...",  # Cloudflare interstitial
@@ -343,14 +344,14 @@ def load_state():
 
 
 def save_state(report):
-    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    MANIFESTS_DIR.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(report, indent=2), encoding="utf-8")
 
 
 def dedupe_report(report):
     """Keep only the most recent result per (label, url). The state file
     accumulates across separate invocations (batches, reruns, smoke tests)
-    against the same docs/ dir, so a seed processed twice would otherwise
+    against the same data/ dir, so a seed processed twice would otherwise
     show up twice in the final report."""
     by_seed = {}
     for entry in report:
@@ -359,7 +360,7 @@ def dedupe_report(report):
 
 
 def write_report_md(report):
-    report_path = DOCS_DIR / "_crawl_report.md"
+    report_path = MANIFESTS_DIR / "crawl_report.md"
     lines = ["# Crawl Report\n"]
     total_saved = sum(r[4] for r in report)
     lines.append(f"Total seeds processed: {len(report)}  |  Total files saved: {total_saved}\n")
@@ -391,7 +392,7 @@ async def main():
     )
     args = parser.parse_args()
 
-    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    MANIFESTS_DIR.mkdir(parents=True, exist_ok=True)
     UNPROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     all_seeds = read_seed_urls(WEBLINKS_PATH)
     end = args.end if args.end is not None else len(all_seeds)
@@ -472,7 +473,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    PID_PATH.parent.mkdir(exist_ok=True)
     PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
     try:
         asyncio.run(main())

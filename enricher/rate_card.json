@@ -1,5 +1,5 @@
 {
-  "_about": "Turns the LLM's judgements (docs/enrich_manifest.jsonl) into the ranker's structured fields. Everything here is synthetic and editable: change a band or bump `seed`, then run `enrich.py --no-llm` to regenerate every number without new LLM calls. Money is S$ per hour on both sides, so budget_fit compares like with like.",
+  "_about": "Turns the LLM's judgements (data/manifests/enrich.jsonl) into the ranker's structured fields. Everything here is synthetic and editable: change a band or bump `seed`, then run `enrich.py --no-llm` to regenerate every number without new LLM calls. Money is S$ per hour on both sides, so budget_fit compares like with like.",
   "seed": 1,
   "reference_date": "2026-10-01",
   "round_to": 5,

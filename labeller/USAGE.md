@@ -5,11 +5,11 @@ Run every command from the project root (`BT4103-Scrape-and-Tag/`).
 ## Setup (once)
 1. `.env` in the project root has `SOCLAAS_BASE_URL` and `SOCLAAS_API_KEY` (copy `.env.example`).
 2. Python packages: `py -3 -m pip install openai python-dotenv`.
-3. `docs/hirers.csv` and `docs/providers.csv` exist. They come from `classifier_extractor/extract.py`.
+3. `data/output/hirers.csv` and `data/output/providers.csv` exist. They come from `classifier_extractor/extract.py`.
 
 ## 1. Label gig-provider pairs: `label.py`
 ```
-py -3 labeller/label.py --max-pairs 50
+python run.py label --max-pairs 50
 ```
 - Each (gig, provider) pair is scored for relevance by the LLM with five methods: `rg_2l`, `rg_3l`,
   `rg_4l`, `rg_s04`, and `rg_3l_multi` (the average of RG-3L over all three models). Every score is 0-1,
@@ -25,15 +25,15 @@ py -3 labeller/label.py --max-pairs 50
 **Outputs**
 | File | What's in it |
 |---|---|
-| `docs/relevance_scores.csv` | One row per pair: `hirer_file`, `provider_file`, the titles, `routed_model`, `hirer_industry`/`provider_industry`/`same_industry` (from the CSVs' industry column; `same_industry` is blank if either side is untagged), and one score column per method. Rebuilt at the end of every run. |
-| `docs/relevance_labels.jsonl` | One line per LLM call, with the label probabilities, for debugging. |
+| `data/output/relevance_scores.csv` | One row per pair: `hirer_file`, `provider_file`, the titles, `routed_model`, `hirer_industry`/`provider_industry`/`same_industry` (from the CSVs' industry column; `same_industry` is blank if either side is untagged), and one score column per method. Rebuilt at the end of every run. |
+| `data/manifests/relevance_labels.jsonl` | One line per LLM call, with the label probabilities, for debugging. |
 
 A blank `rg_3l_multi` means one of the three models failed on that pair. Rerun to fill it in.
 
 ## 2. Score predictions against the gold labels: `evaluate.py`
 ```
-py -3 labeller/evaluate.py docs/relevance_scores.csv rg_3l
-py -3 labeller/evaluate.py docs/relevance_scores.csv rg_2l rg_3l rg_3l_multi --per-gig per_gig.csv
+py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_3l
+py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_2l rg_3l rg_3l_multi --per-gig per_gig.csv
 ```
 - The first argument is a predictions CSV. After that, list one or more method names to score.
 - The gold labels are in `labeller/experiments/gold.json`: 18 gigs, with every provider graded

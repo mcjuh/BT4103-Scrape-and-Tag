@@ -1,11 +1,12 @@
 You are a programmatic data transformation engine.
 
 The PROVIDER record below must read as the profile of a Singapore-based specialist on a gig
-marketplace that serves Singapore. A check found phrases in it that still place the person's work
-outside Singapore. Fix those, and change nothing else.
+marketplace that serves Singapore. A check found problems in it: phrases that still place the
+person's work outside Singapore, or no sign anywhere that it is set in Singapore. Fix those, and
+change nothing else.
 
-FLAGGED PHRASES (each appears in the record):
-{residue}
+WHAT TO FIX (a phrase listed here appears in the record):
+{problems}
 
 This is a narrow edit, not a rewrite. Keep every sentence that has no flagged phrase word for word,
 including its voice (first person or not), tense, length and wording, and keep each field's

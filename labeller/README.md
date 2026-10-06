@@ -1,18 +1,18 @@
 # Labeller
 
-Third role in the pipeline, after scrapper and classifier/extractor: **zero-shot LLM relevance
+Third role in the pipeline, after scraper and classifier/extractor: **zero-shot LLM relevance
 labels between hirer gigs and provider profiles**, scored with the method from Zhuang et al.,
 ["Beyond Yes and No: Improving Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance
 Labels"](https://arxiv.org/abs/2310.14122) (arXiv:2310.14122).
 
 ```
-py -3 labeller/label.py [--max-pairs 50]
+python run.py label [--max-pairs 50]
 ```
 Step-by-step usage for `label.py` and `evaluate.py` is in [USAGE.md](USAGE.md).
 
-Reads `../docs/hirers.csv` and `../docs/providers.csv` (from `classifier_extractor/extract.py`).
-Writes `../docs/relevance_labels.jsonl` (one line per LLM call) and rebuilds
-`../docs/relevance_scores.csv` (one row per pair, all five scores side by side) at the end of
+Reads `data/output/hirers.csv` and `data/output/providers.csv` (from `classifier_extractor/extract.py`).
+Writes `data/manifests/relevance_labels.jsonl` (one line per LLM call) and rebuilds
+`data/output/relevance_scores.csv` (one row per pair, all five scores side by side) at the end of
 every run. Run-once: it scores what's asked for and exits.
 
 ## Method
@@ -70,7 +70,7 @@ complete ranking for the first gig(s). Reruns skip calls already recorded.
 
 ## Evaluating predictions
 ```
-py -3 labeller/evaluate.py docs/relevance_scores.csv rg_2l rg_3l rg_3l_multi [--per-gig out.csv]
+py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_2l rg_3l rg_3l_multi [--per-gig out.csv]
 ```
 Scores any predictions CSV against the graded gold labels in `experiments/gold.json` (18 gigs,
 every provider graded 0-3): NDCG@10 with a bootstrap interval, NDCG@5, Kendall tau-b, AUC, how many

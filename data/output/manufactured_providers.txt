@@ -1,0 +1,11 @@
+# Manufactured provider profiles: synthetic, not extracted from a real page
+# Made by classifier_extractor/manufacture_providers.py. Targets: gigs with no provider graded 2 or 3
+# in the ranker's judging pools on the 29 Sep dataset (rubric_0_3.v2), written against each gig's
+# current wording. Two per gig: 'direct' aimed at grade 3, 'adjacent' at grade 2. Not yet graded.
+# Each is in data/output/providers.jsonl / providers.csv under its source_file; the generated
+# profile page it was extracted from is in data/manifests/manufacture.jsonl.
+# 2 providers for 1 gigs (429 of 474 zero-count gigs have a current gig; 0 of them have only one provider so far)
+#
+source_file	variant	aimed_grade	target_hirer_ref	target_gig_source_file	target_gig_title	generator_model	extractor_model	provider_title	provider_headline
+synthetic-provider__H-dc9f3d46__adjacent.md	adjacent	2	H-dc9f3d46	accenture.com__news_2025_accenture-and-apptio-team-up-with-ppl-to-unlock-deeper-technology-spending-insights.md	FinOps Maturity Assessment for Tech Team	qwen3.8:27b	qwen3.6:35b	IT Cost Governance and Cloud Financial Consultant	IT cost governance specialist for Singapore's banking and insurance sectors
+synthetic-provider__H-dc9f3d46__direct.md	direct	3	H-dc9f3d46	accenture.com__news_2025_accenture-and-apptio-team-up-with-ppl-to-unlock-deeper-technology-spending-insights.md	FinOps Maturity Assessment for Tech Team	qwen3.8:27b	qwen3-vl:32b	Cloud Financial Governance Consultant	Former Head of Cloud Financial Governance & Industry Leader in Cost Optimisation for Singapore-Based Fintech and Professional Services Firms

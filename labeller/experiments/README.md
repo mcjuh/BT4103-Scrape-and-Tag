@@ -9,7 +9,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
 ```
 
 ## Design
-- **Gold labels** (`gold.json`): 18 gigs from `docs/hirers.csv`, chosen to span the providers'
+- **Gold labels** (`gold.json`): 18 gigs from an earlier `hirers.csv` (since archived under `data/archive/`), chosen to span the providers'
   domains (finance/ERP, insurance, banking, AI, cyber, tax, M&A, supply chain, sports, public
   sector, sales). Every one of the 154 providers was graded against each gig on a 0-3 rubric
   (in the file), so the labels are complete rather than pooled from the systems being compared.
@@ -48,4 +48,4 @@ The run holds the team's shared API budget while it's going.
 ## Files
 - `gold.json`, `prompts/` -- inputs
 - `results/grid.jsonl` -- one line per call (label probabilities, log-likelihoods, latency)
-- `results/candidates.json`, `results/report.md`, `results/per_gig.csv`, `results/run_grid.log`
+- `results/candidates.json`, `results/report.md`, `results/per_gig.csv` (the old `results/run_grid.log` is in `logs/archive_2026-10-06.zip`)

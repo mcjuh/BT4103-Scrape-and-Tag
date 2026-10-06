@@ -1,8 +1,9 @@
 # Ranker input spec: what hirers.json and providers.json need
 
 The ranker (`ranker/pipeline/`) reads two files, `hirers.json` and `providers.json`.
-`import_scrape_and_tag.py` currently builds them from this repo's `docs/hirers.csv` and
-`docs/providers.csv`. Those files only carry text today. The Stage-2 ranker also needs
+`import_scrape_and_tag.py` currently builds them from this repo's `data/output/hirers.csv` and
+`data/output/providers.csv` (`docs/` before the 2026-10-06 restructure; the counts below are from
+the 29 Sep dataset, now in `data/archive/2026-10-06/`). Those files only carry text today. The Stage-2 ranker also needs
 **structured** fields (budget, seniority and availability) for the signals text embeddings can't
 see. This page defines those fields and explains why the current extraction can't supply them.
 

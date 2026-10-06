@@ -1,7 +1,7 @@
 {
   "taxonomy_version": "industry_v1",
-  "source": "The `industry` column of the client's test workbook (client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx, 'Hirer Gig Descriptions', 30 gigs), collapsed into groups. Entries marked \"origin\": \"corpus\" are not in that list; they were added because the crawled corpus (mostly consulting-firm pages) has a lot of work in those sectors, which would otherwise all land in OTHER.",
-  "note": "Replaces subject_v1 (the academic-subject taxonomy from SenseigigsDoc1.pdf). Tagged on 30 of the client's own gigs, subject_v1 put 21 of them into Mathematics, Accountancy or Law, so it could not separate the kind of work the client cares about. The subject_v1 manifest is archived in docs/archive/2026-09-21/subject_v1/.",
+  "source": "The `industry` column of the client's test workbook (data/reference/client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx, 'Hirer Gig Descriptions', 30 gigs), collapsed into groups. Entries marked \"origin\": \"corpus\" are not in that list; they were added because the crawled corpus (mostly consulting-firm pages) has a lot of work in those sectors, which would otherwise all land in OTHER.",
+  "note": "Replaces subject_v1 (the academic-subject taxonomy from SenseigigsDoc1.pdf). Tagged on 30 of the client's own gigs, subject_v1 put 21 of them into Mathematics, Accountancy or Law, so it could not separate the kind of work the client cares about. The subject_v1 manifest is archived in data/archive/2026-09-21/subject_v1/.",
   "industries": [
     {
       "name": "Food & Beverage",
