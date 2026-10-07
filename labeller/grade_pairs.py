@@ -7,19 +7,23 @@ This is the grader for the new standard format. It is self-contained: it does
 not import label.py or judge_pools.py, which grade the older hirers.csv /
 providers.csv format and are left as they are.
 
-What the model sees (prompts/rubric_01_v4.md)
-  gig       gig_title, short_gig_description, and the extractor's "Engagement duration"
-            estimate (shown on its own line, as the gig's estimated duration)
-  provider  title, about_headline, about_bio, services_i_offer, relevant_achievements,
-            technical_proficiency, credentials, how_i_work, then availability and rate
-  Never shown: name, links, localisation_changes, source_*, review_flag. The sample has no
-  structured budget, seniority or start date on the gig side, and no seniority on the
-  provider side, so the prompt has the model work those out from the text (the way
-  enricher/ did with an LLM judge) and apply v3's tolerances to the provider's own
-  availability and rate. category / specialisation are the SkillsFuture tags the extractor
-  assigned from the same text, so they are left out by default (a grade that read them would
-  partly echo the tagger); --with-tags adds them for an ablation and records the run under a
-  different prompt_version.
+What the model sees (prompts/rubric_01_v5.md)
+  gig       gig_title, short_gig_description, the hirer's additional_notes when there are any,
+            and the extractor's "Engagement duration" estimate (shown on its own line)
+  provider  title, years_experience when the record has it, about_headline, about_bio,
+            services_i_offer, relevant_achievements, technical_proficiency, credentials,
+            how_i_work, then availability and rate
+  Never shown: name, links, localisation_changes, source_*, review_flag. The data has no
+  structured budget, seniority or mode of work, so the prompt has the model work those out from
+  the text (the way enricher/ does with an LLM judge). v5 treats seniority as the main term,
+  grades whether the work is execution or advisory on both sides, and lets budget lower a score
+  only slightly. category / specialisation are the SkillsFuture tags, entered by the user on
+  the platform and taken as they are; they are left out by default so the grade rests on the
+  text alone. --with-tags adds them for an ablation and records the run under a different
+  prompt_version.
+
+Input files: the platform sample CSVs by default; --gigs-csv / --providers-csv also take a
+schema v2 hirers.json / providers.json (their source_file becomes the id).
 
 How a pair is scored
   The model answers "<grade> <score>", e.g. "2 0.62": a band (0-3) and a score inside
@@ -69,22 +73,24 @@ DATA_DIR = ROOT_DIR / "data"
 OUTPUT_DIR = DATA_DIR / "output"
 LOGS_DIR = ROOT_DIR / "logs"
 SAMPLE_DIR = OUTPUT_DIR / "platform_sample"
-PROMPT_PATH = SCRIPT_DIR / "prompts" / "rubric_01_v4.md"
+PROMPT_PATH = SCRIPT_DIR / "prompts" / "rubric_01_v5.md"
 
 GIGS_CSV = SAMPLE_DIR / "hirers_sample.csv"
 PROVIDERS_CSV = SAMPLE_DIR / "providers_sample.csv"
 LOG_PATH = DATA_DIR / "manifests" / "gig_grades.jsonl"  # one line per call; the source of truth
 OUT_CSV = OUTPUT_DIR / "gig_grades.csv"  # one row per (pair, model, prompt), from --export
-PROMPT_VERSION = "rubric_01.v4.1"  # v4.1: terms (seniority, budget, availability) are graded again
+PROMPT_VERSION = "rubric_01.v5"  # v5: seniority is the main term, mode of work (execution vs advisory) is graded, budget counts least
 
 # Same pool as classifier_extractor/llm_pool.py. Duplicated, not imported: roles only
 # talk to each other through data/.
 MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 DEFAULT_MODEL = "qwen3.8:27b"  # graded the ranker's 22k labels (ranker/pipeline/label.md)
 
-GIG_FIELDS = [("gig_title", "Title"), ("short_gig_description", "Scope")]
+# additional_notes (budget, timeline or seniority the hirer stated) is empty for almost every gig
+GIG_FIELDS = [("gig_title", "Title"), ("short_gig_description", "Scope"), ("additional_notes", "Notes from the hirer")]
 PROVIDER_FIELDS = [
     ("title", "Title"),
+    ("years_experience", "Years of experience"),  # v2 records only; the seniority signal
     ("about_headline", "Headline"),
     ("about_bio", "About"),
     ("services_i_offer", "Services"),
@@ -128,7 +134,12 @@ def _clean(value) -> str:
 
 
 def gig_duration(row: dict) -> str:
-    """The extractor's 'Engagement duration: 4-6 weeks.' estimate, e.g. '4-6 weeks', or ''."""
+    """The extractor's 'Engagement duration: 4-6 weeks.' estimate, e.g. '4-6 weeks', or ''.
+    v2 records carry it parsed (duration_weeks_min / max); the platform sample only has the sentence."""
+    lo, hi = row.get("duration_weeks_min"), row.get("duration_weeks_max")
+    if lo not in (None, ""):
+        lo, hi = int(lo), int(hi if hi not in (None, "") else lo)
+        return f"{lo} weeks" if lo == hi else f"{lo}-{hi} weeks"
     m = DURATION_RE.search(str(row.get("short_gig_description") or ""))
     return _clean(m.group(1)) if m else ""
 
@@ -155,7 +166,48 @@ def render(template: str, gig: dict, provider: dict, with_tags: bool = False) ->
     return template.format(query=query, document=document)
 
 
+def _services_text(services) -> str:
+    """v2 services [{service_title, service_detail}] -> the sample's one 'title: detail' per line."""
+    return "\n".join(f"{x.get('service_title', '')}: {x.get('service_detail', '')}".strip(": ")
+                     for x in services or [])
+
+
+def _proficiency_text(groups) -> str:
+    """v2 technical_proficiency [{category, skills[]}] -> 'Category: a, b, c' per line, as in the sample."""
+    return "\n".join(f"{g.get('category', '')}: {', '.join(g.get('skills') or [])}" for g in groups or [])
+
+
+def _bullets(items) -> str:
+    return "\n".join(f"- {x}" for x in items or [])
+
+
+def adapt_v2_gig(rec: dict) -> dict:
+    """A schema v2 HireDocument (data/output/hirers.json) -> the row shape this script reads."""
+    return {"gig_id": rec["source_file"], "hirer_id": rec.get("hirer_ref", ""), "gig_title": rec.get("gig_title"),
+            "short_gig_description": rec.get("short_description"), "additional_notes": rec.get("additional_notes"),
+            "duration_weeks_min": rec.get("duration_weeks_min"), "duration_weeks_max": rec.get("duration_weeks_max"),
+            "source_file": rec["source_file"]}
+
+
+def adapt_v2_provider(rec: dict) -> dict:
+    """A schema v2 ProviderDocument (data/output/providers.json) -> the row shape this script reads.
+    name, links and the tags are not carried over: the prompt never shows them."""
+    return {"provider_id": rec["source_file"], "title": rec.get("title"),
+            "years_experience": rec.get("years_experience"), "about_headline": rec.get("about_headline"),
+            "about_bio": rec.get("about_bio"), "services_i_offer": _services_text(rec.get("services")),
+            "relevant_achievements": _bullets(rec.get("achievements")),
+            "technical_proficiency": _proficiency_text(rec.get("technical_proficiency")),
+            "credentials": "; ".join(rec.get("credentials") or []), "how_i_work": rec.get("how_i_work"),
+            "availability": rec.get("availability"), "rate": rec.get("rate"), "source_file": rec["source_file"]}
+
+
 def load_rows(path: Path, id_col: str) -> dict:
+    """{id: row} from a platform-sample CSV, or from a schema v2 .json (hirers.json / providers.json).
+    A v2 record has no gig or provider id, so its source_file is the id; --gigs then counts by position."""
+    if path.suffix.lower() == ".json":
+        adapt = adapt_v2_gig if id_col == "gig_id" else adapt_v2_provider
+        rows = (adapt(r) for r in json.loads(path.read_text(encoding="utf-8")))
+        return {r[id_col]: r for r in rows}
     csv.field_size_limit(10 ** 9)
     with path.open(newline="", encoding="utf-8-sig") as f:
         return {r[id_col]: r for r in csv.DictReader(f) if r.get(id_col)}
@@ -171,7 +223,8 @@ def parse_gigs(spec: str, gig_ids: list) -> list:
     for part in spec.split(","):
         lo, _, hi = part.strip().partition("-")
         wanted.update(range(int(lo), int(hi or lo) + 1))
-    return [g for g in gig_ids if _num(g) in wanted]
+    numbered = all(re.fullmatch(r"[A-Z]\d+", g) for g in gig_ids)  # G001...; v2 ids are file names, so count by position
+    return [g for i, g in enumerate(gig_ids, 1) if (_num(g) if numbered else i) in wanted]
 
 
 def build_pairs(gigs: dict, providers: dict, pairs_path: Path = None, only: list = None) -> dict:
@@ -332,8 +385,8 @@ def export(log_path: Path, out_path: Path) -> int:
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--model", choices=MODEL_POOL, default=DEFAULT_MODEL, help="the model that grades this run (default: %(default)s)")
-    ap.add_argument("--gigs-csv", type=Path, default=GIGS_CSV)
-    ap.add_argument("--providers-csv", type=Path, default=PROVIDERS_CSV)
+    ap.add_argument("--gigs-csv", type=Path, default=GIGS_CSV, help="platform sample CSV, or a schema v2 hirers.json")
+    ap.add_argument("--providers-csv", type=Path, default=PROVIDERS_CSV, help="platform sample CSV, or a schema v2 providers.json")
     ap.add_argument("--pairs", type=Path, default=None, help='JSON {"G001": ["P004", ...]} instead of every pair')
     ap.add_argument("--gigs", default=None, help='grade only these gigs by number, e.g. "1-10" or "3,7,10-12"')
     ap.add_argument("--max-pairs", type=int, default=0, help="stop after N new calls (smoke test)")

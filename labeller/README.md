@@ -74,18 +74,46 @@ python run.py grade --export                                    # log -> data/ou
 Needs `SOCLAAS_BASE_URL` and `SOCLAAS_API_KEY` in a gitignored `.env` at the repo root (copy
 `.env.example`). Offline tests (no API): `python -m unittest labeller/test_grade_pairs.py`.
 
-**The prompt** (`prompts/rubric_01_v4.md`). The model answers `"<grade> <score>"` (e.g. `2 0.62`):
-a grade 0-3 and a score inside that grade's range (0: 0-0.16, 1: 0.17-0.49, 2: 0.50-0.83,
-3: 0.84-0.99). It judges content fit first, then the three practical terms from the v3 rubric, which
-can only lower the result: seniority, budget (rate against the level's day-rate band) and availability
-(start date, days a week), with v3's minor/serious tolerances. The sample carries only some of these:
-the provider's `availability` and `rate` are text and are shown to the model; the gig has no budget,
-seniority or start date, only the extractor's "Engagement duration" estimate (shown as "Estimated
-duration"); and neither side states seniority. So the model works out the gig's terms and the
-provider's seniority from the text, the way `enricher/` did with an LLM judge (`judge_*.md`: mid /
-senior / expert by stated years and title). The budget bands are `enricher/rate_card.json`'s hourly
-bands x 8 (mid S$480-960, senior S$720-1,600, expert S$1,200-2,800 a day). Name, links and tags are
-never shown (`--with-tags` adds the SkillsFuture category / specialisation as an ablation).
+**The prompt** (`prompts/rubric_01_v5.md`, prompt version `rubric_01.v5`). The model answers `"<grade> <score>"`
+(e.g. `2 0.62`): a grade 0-3 and a score inside that grade's range (0: 0-0.16, 1: 0.17-0.49, 2: 0.50-0.83,
+3: 0.84-0.99). It judges content fit first, then the practical terms, which can only lower the result:
+- **Seniority is the main term.** The same level has no effect; one level apart, in either direction, caps
+  the grade at 2; mid against expert caps it at 1. The provider's level comes from `years_experience` when
+  the record has it, then the years in the text, then the title.
+- **Mode of work.** Execution (drafting, building, preparing) against advisory (reviewing, recommending,
+  steering), read from the gig's deliverable and from what the provider says they did. Either side can be
+  mixed, and a mixed side never mismatches; a clear mismatch caps the grade at 2.
+- **Availability** is unchanged from v4 (start date and days a week, minor and serious tolerances).
+- **Budget counts least.** It never lowers the grade: only a rate more than about 40% over the level's
+  day-rate band lowers the score, by about 0.05 inside its grade. A hirer's own budget may be a guess, and
+  the gig usually states none.
+
+The data carries only some of this. The provider's `availability` and `rate` are text and are shown to the
+model; the gig has no budget, seniority or start date, only the extractor's "Engagement duration" estimate
+(shown as "Estimated duration"), and neither side states its level directly. So the model works out the
+gig's terms and the provider's level from the text, the way `enricher/` does with an LLM judge (`judge_*.md`:
+mid / senior / expert by stated years and title). The budget bands are `enricher/rate_card.json`'s hourly
+bands x 8 (mid S$480-960, senior S$720-1,600, expert S$1,200-2,800 a day). Name, links and tags are never
+shown: tags are user input on the platform and taken as they are, and `--with-tags` adds the SkillsFuture
+category / specialisation as an ablation. `rubric_01_v4.md` is kept as it was, for the `rubric_01.v4.1` run
+in the log.
+
+**Inputs.** The platform sample CSVs by default. `--gigs-csv` / `--providers-csv` also take the schema v2
+`hirers.json` / `providers.json` (see `docs/schema_v2.md`), mapped like this (a v2 record has no gig or provider
+id, so its `source_file` is the id and `--gigs 1-10` counts by position):
+
+| Prompt line | Sample column | Schema v2 field |
+|---|---|---|
+| Scope | `short_gig_description` | `short_description` |
+| Notes from the hirer | `additional_notes` (optional) | `additional_notes` |
+| Estimated duration | the "Engagement duration:" sentence | `duration_weeks_min` / `duration_weeks_max` |
+| Years of experience | `years_experience` (optional) | `years_experience` |
+| Services | `services_i_offer` | `services[]` as `title: detail` |
+| Achievements | `relevant_achievements` | `achievements[]` as bullets |
+| Technical proficiency | `technical_proficiency` | `technical_proficiency[]` as `category: skills` |
+| Credentials | `credentials` | `credentials[]` joined with `;` |
+
+`data/output/crafted_gigs/` holds 30 hand-written v2 gigs for the ranker (see its README).
 
 **The score.** The grade is the most probable band from the answer-position logprobs, and the score is
 the band-weighted expectation clipped into that band, so the two always agree (`round(score * 3) ==
@@ -96,7 +124,7 @@ turn a score back into a grade. Treat the score's second decimal as noise; the b
 **Outputs.** `data/manifests/gig_grades.jsonl` is the log (one line per call, per model and prompt version; reruns
 skip what is already graded, so a stopped run resumes). `--export` writes `data/output/gig_grades.csv`, one row
 per pair, model and prompt version. The committed log is the full run: all 900 gigs x providers of the
-sample on `qwen3.8:27b` with prompt `rubric_01.v4.1` (789 pairs at grade 0, 105 at grade 1, 6 at grade 2,
+sample on `qwen3.8:27b` with the earlier prompt `rubric_01.v4.1` (789 pairs at grade 0, 105 at grade 1, 6 at grade 2,
 none at 3; no errors). Using several models was tried on the 30-pair pilot and removed: `gemma4:26b` cannot
 switch thinking off (about 30 s and 1,900 tokens a call against 0.5 s), and the three Qwens ranked pairs
 almost identically (Spearman 0.93-0.95), with no label set yet to show that pooling beats one model.

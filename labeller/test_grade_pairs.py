@@ -33,10 +33,15 @@ class Bands(unittest.TestCase):
         for (_, hi), (lo, _) in zip(edges, edges[1:]):
             self.assertAlmostEqual(lo - hi, 0.01)
 
-    def test_prompt_grades_the_three_terms_again(self):
+    def test_prompt_grades_the_terms(self):
         text = gp.PROMPT_PATH.read_text(encoding="utf-8")
-        for term in ("Seniority.", "Budget.", "Availability."):
+        for term in ("Seniority (the main term).", "Mode of work.", "Availability.", "Budget (counts least)."):
             self.assertIn(term, text)
+
+    def test_budget_never_lowers_the_grade(self):
+        text = gp.PROMPT_PATH.read_text(encoding="utf-8")
+        self.assertIn("budget never lowers the grade", text)
+        self.assertLess(text.index("Seniority (the main term)"), text.index("Budget (counts least)"))
 
     def test_default_model_is_the_rankers_grader(self):
         self.assertEqual(gp.DEFAULT_MODEL, "qwen3.8:27b")
@@ -177,6 +182,45 @@ class SampleFormat(unittest.TestCase):
     def test_parse_gigs(self):
         ids = list(self.gigs)
         self.assertEqual(gp.parse_gigs("1-3,7", ids), ["G001", "G002", "G003", "G007"])
+
+
+V2_GIG = {"source_file": "crafted-gig__x.md", "hirer_ref": "H-0000abcd", "gig_title": "Review a Lease",
+          "short_description": "We need our lease reviewed. Deliverable: memo. Engagement duration: 2-3 weeks.",
+          "additional_notes": "Budget about S$4,000.", "duration_weeks_min": 2, "duration_weeks_max": 3}
+V2_PROVIDER = {"source_file": "p.md", "title": "Tax Adviser", "years_experience": 18, "credentials": ["CA (Singapore)", "ACCA"],
+               "about_headline": "h", "about_bio": "b",
+               "services": [{"service_title": "Tax Advisory", "service_detail": "Corporate tax for SMEs."}],
+               "achievements": ["Won a penalty waiver.", "Cut a tax bill."],
+               "technical_proficiency": [{"category": "Tax", "skills": ["GST", "CIT"]}], "how_i_work": "I start with the filings."}
+
+
+class V2Mapping(unittest.TestCase):
+    def test_gig_adapter_renames_and_keeps_the_new_fields(self):
+        row = gp.adapt_v2_gig(V2_GIG)
+        self.assertEqual((row["gig_id"], row["hirer_id"]), ("crafted-gig__x.md", "H-0000abcd"))
+        shown = gp.describe(row, gp.GIG_FIELDS)
+        self.assertIn("Notes from the hirer: Budget about S$4,000.", shown)
+        self.assertNotIn("Engagement duration", shown)
+
+    def test_duration_comes_from_the_parsed_weeks_for_v2(self):
+        self.assertEqual(gp.gig_duration(gp.adapt_v2_gig(V2_GIG)), "2-3 weeks")
+        self.assertEqual(gp.gig_duration({"duration_weeks_min": 4, "duration_weeks_max": 4}), "4 weeks")
+        self.assertEqual(gp.gig_duration({"short_gig_description": "x Engagement duration: 5-6 weeks."}), "5-6 weeks")
+
+    def test_provider_adapter_shows_years_and_flattens_the_lists(self):
+        shown = gp.describe(gp.adapt_v2_provider(V2_PROVIDER), gp.PROVIDER_FIELDS)
+        self.assertIn("Years of experience: 18", shown)
+        self.assertIn("Tax Advisory: Corporate tax for SMEs.", shown)
+        self.assertIn("Tax: GST, CIT", shown)
+        self.assertIn("Credentials: CA (Singapore); ACCA", shown)
+        self.assertIn("- Won a penalty waiver.", shown)
+
+    def test_sample_rows_without_the_new_fields_render_as_before(self):
+        shown = gp.describe({"title": "T", "about_bio": "B"}, gp.PROVIDER_FIELDS)
+        self.assertNotIn("Years of experience", shown)
+
+    def test_parse_gigs_counts_by_position_for_file_name_ids(self):
+        self.assertEqual(gp.parse_gigs("2-3", ["a.md", "b.md", "c.md", "d.md"]), ["b.md", "c.md"])
 
 
 class EndToEnd(unittest.TestCase):

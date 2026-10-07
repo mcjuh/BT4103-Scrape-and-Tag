@@ -39,7 +39,7 @@ waiting, skips what's already done, and exits.
 | `marcus/` | The original pipeline, kept for reference; `marcus/README.md` maps each script to its replacement |
 | `data/pages/` | Crawled pages: `unprocessed/` until classified, then one folder per label |
 | `data/manifests/` | One progress record per page or call, per stage: `classify.jsonl`, `industry.jsonl`, `extract.jsonl`, `enrich.jsonl`, `relevance_labels.jsonl`, `gig_grades.jsonl`, plus the crawl's `crawl_state.json` and `crawl_report.md` |
-| `data/output/` | The datasets: `providers.*`, `hirers.*`, `*_enriched.csv`, `relevance_scores.csv`, `gig_grades.csv`, `platform_sample/` |
+| `data/output/` | The datasets: `providers.*`, `hirers.*`, `*_enriched.csv`, `relevance_scores.csv`, `gig_grades.csv`, `platform_sample/`, `crafted_gigs/` (30 hand-written gigs) |
 | `data/reference/` | Inputs from outside the pipeline: the SkillsFuture framework tables (`skillsfuture/`) and the client's test workbook (`client_documents/`) |
 | `data/archive/` | Superseded runs, by date (not in git) |
 | `docs/` | `design.md` (full design notes and the reasoning behind them), `backlog.md`, `schema_v2.md` (the record shape and who fills each field), `ranker_input_spec.md` |

@@ -1,0 +1,933 @@
+[
+  {
+    "source_file": "crafted-gig__01_noncompete-opinion.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-a72717b8",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Opinion on Enforceability of Non-Compete Clauses",
+    "short_description": "Three of our senior engineers have resigned to join a competitor. Their contracts have a 12-month non-compete and a non-solicitation clause. We want to know whether either would hold up in a Singapore court and what we can realistically do about it. Please review the contracts and the circumstances and give us a clear written view we can act on. Deliverable: legal opinion with a recommended course of action. Engagement duration: 1-2 weeks.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Legal Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory and Advocacy",
+              "search_tag": "Advisory and Advocacy (Legal Services)",
+              "skills": [
+                "Legal Research and Analysis",
+                "Legal Writing",
+                "Dispute Resolution Strategy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__02_gst-backlog.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-d54af326",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Clear GST Return Backlog and Reconcile Books",
+    "short_description": "Our part-time bookkeeper left and we are three GST quarters behind on filing. The records are in Xero but nothing has been reconciled. We need someone to reconcile the accounts, prepare the three GST F5 returns and submit them to IRAS, and tell us if penalties are likely. Deliverable: filed returns with reconciliation workpapers. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Tax",
+              "search_tag": "Tax (Accountancy)",
+              "skills": [
+                "Tax Compliance",
+                "Accounting and Tax Systems"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__03_ammonia-spikes.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-9316b794",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Diagnose Ammonia Spikes in Recirculating Fish System",
+    "short_description": "We run a small land-based fish farm in Lim Chu Kang. Ammonia keeps spiking about a week after each restocking and we lost two tanks this quarter. We run about twelve tanks with a drum filter and a moving bed biofilter. We have already checked the feed rate and the biofilter media, so we think the cause is somewhere else. We need a specialist to inspect the system on site, go through our water quality logs and tell us what is going wrong and how to fix it. Deliverable: diagnosis report with a corrective action plan. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Agrifood",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Aquaculture",
+              "search_tag": "Aquaculture (Agrifood)",
+              "skills": [
+                "Farm Biosecurity Compliance and Management",
+                "Data and Statistical Analytics"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__04_wind-up-options.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-4f36c0c5",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Advise Directors on Solvent Wind-Up Options",
+    "short_description": "One of our two operating companies has stopped trading and the director wants to close it properly. It has a few unpaid supplier balances and a loan from the other company. We need advice on whether a members' voluntary liquidation, a creditors' voluntary liquidation or a strike-off with ACRA is the right route, and the steps and risks of each. Deliverable: written options paper with a recommendation. Engagement duration: 1-2 weeks.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 2,
+    "additional_notes": "The directors would like to meet within two weeks.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Restructuring and Insolvency",
+              "search_tag": "Restructuring and Insolvency (Accountancy)",
+              "skills": [
+                "Restructuring Insolvency Advisory",
+                "Corporate and Business Law"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__05_cash-flow-model.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-88d5bb03",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Build a 13-Week Cash Flow Forecast in Excel",
+    "short_description": "We are a trading company and our cash gets tight around month end, when supplier payments and GIRO collections do not line up. We want a simple rolling 13-week cash flow forecast in Excel that our accounts executive can update every Monday from our receivables and payables lists. Deliverable: working Excel model with a one-page guide on updating it. Engagement duration: 1-2 weeks.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Management Accounting",
+              "search_tag": "Management Accounting (Accountancy)",
+              "skills": [
+                "Financial Planning",
+                "Financial Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__06_cyber-essentials-gap.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-05d77f48",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Cyber Hygiene Gap Review Against CSA Cyber Essentials",
+    "short_description": "Our cyber insurer wants proof that we meet the CSA Cyber Essentials baseline before renewal. We have about 40 laptops, Microsoft 365 and a few cloud tools, but no written security policies. We need someone to assess where we stand against the checklist, talk to our IT vendor and tell us what to fix first. Deliverable: gap assessment report and a prioritised fix list. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": "Insurance renewal is on 1 December.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Cyber Security",
+              "search_tag": "Cyber Security (Infocomm Technology)",
+              "skills": [
+                "Security Assessment and Testing",
+                "Cyber Risk Management",
+                "Audit and Compliance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__07_stripe-xero-reconcile.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-5b0522fc",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Script to Reconcile Stripe Payouts with Invoices",
+    "short_description": "We sell subscriptions through Stripe and invoice in Xero. Reconciling the payouts takes our finance executive two days every month because fees and refunds do not match line by line. We would like a script or small tool, preferably in Python, that matches the payout reports to the Xero invoices and flags the differences. Deliverable: working script with documentation and a handover session. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": "Budget is around S$3,500.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Software and Applications",
+              "search_tag": "Software and Applications (Infocomm Technology)",
+              "skills": [
+                "Applications Development",
+                "Applications Integration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__08_survey-dashboard.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f63575b3",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Clean Survey Data and Build a Power BI Dashboard",
+    "short_description": "We ran a customer survey with about 1,800 responses and the export is a mess: duplicate rows, free-text answers and inconsistent labels. We need it cleaned, analysed and shown in a Power BI dashboard that management can filter by branch and month. Deliverable: cleaned dataset, Power BI file and a short note on the main findings. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Data and Artificial Intelligence",
+              "search_tag": "Data and Artificial Intelligence (Infocomm Technology)",
+              "skills": [
+                "Data Analytics",
+                "Data Visualisation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__09_pdpa-programme-review.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-4b19b248",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review Our PDPA Data Protection Programme",
+    "short_description": "We run tuition centres in five locations and hold a lot of student and parent data. Our data protection officer is a teacher who took on the role on top of her classes, and the programme has never been reviewed. We worked from a generic template when we set it up, and it does not cover our tutors who message parents from their personal phones. We need someone to check our consent forms, retention practices, vendor contracts and breach response against the PDPA and PDPC guidelines, speak to the DPO and the centre managers, and tell us where we are exposed. Deliverable: review report with a prioritised remediation plan and a draft breach response procedure. Engagement duration: 4-6 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 6,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Strategy and Governance",
+              "search_tag": "Strategy and Governance (Infocomm Technology)",
+              "skills": [
+                "Data Governance",
+                "Cyber and Data Breach Incident Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__10_pay-bands.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-086d8b37",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Salary Benchmarking and Pay Band Design",
+    "short_description": "Pay has been set one offer at a time as we grew, so people in the same role can be on quite different salaries. We need current Singapore market data for about 20 roles across sales, operations and finance, and a simple pay band structure we can explain to staff. Deliverable: benchmark report and pay band table with a short rollout recommendation. Engagement duration: 3-5 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 5,
+    "additional_notes": "Budget up to S$8,000.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Performance and Rewards",
+              "search_tag": "Performance and Rewards (Human Resource)",
+              "skills": [
+                "Compensation Management",
+                "Job Analysis and Evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__11_annual-dinner.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-80c2eeee",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Plan Run-of-Show for Company Annual Dinner",
+    "short_description": "We are holding our annual dinner and awards at a hotel ballroom in January for about 300 guests and need someone to take over the planning. That covers the programme and run-of-show, coordinating the AV, emcee and photography suppliers, the seating plan and the on-the-night schedule. Deliverable: final run-of-show document and supplier checklist, plus coordination on the event day. Engagement duration: 8-10 weeks.",
+    "duration_weeks_min": 8,
+    "duration_weeks_max": 10,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Tourism",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Event Management and Operations",
+              "search_tag": "Event Management and Operations (Tourism)",
+              "skills": [
+                "Events Planning and Management",
+                "Vendor Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__12_supervisor-workshop.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f59323fd",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Run Half-Day Feedback Workshop for Supervisors",
+    "short_description": "Our ten shift supervisors have never been trained in giving feedback and some of them avoid difficult conversations. We want a half-day in-person workshop at our office, with role plays based on real situations from our restaurants, from someone who has trained front-line supervisors before. Deliverable: designed and delivered workshop with participant handouts. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Learning and Organisation Development",
+              "search_tag": "Learning and Organisation Development (Human Resource)",
+              "skills": [
+                "Learning Needs Analysis",
+                "Learning and Development Programme Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__13_bakery-social.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-ffe71117",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Write Social Media Content for a Bakery",
+    "short_description": "We run a small neighbourhood bakery and our Instagram has gone quiet. We need twelve weeks of captions and a posting calendar, in a friendly local tone. We sell kueh and sourdough. Deliverable: content calendar with all captions written. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Retail",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Marketing",
+              "search_tag": "Marketing (Retail)",
+              "skills": [
+                "Social Media Marketing",
+                "Content Writing and Editing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__14_marketplace-listings.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f01084ac",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Fix Shopee and Lazada Product Listings",
+    "short_description": "Our sales on Shopee and Lazada have dropped and we think the listings are the problem: weak titles, wrong categories and thin descriptions. We sell home organisation products, about 60 SKUs. We need someone who understands how marketplace search works to audit the listings, tell us what is holding them back and rewrite them. Deliverable: audit findings, updated listings for all SKUs and a short guide for adding new ones. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Retail",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "E-Commerce (Omni-Channel)",
+              "search_tag": "E-Commerce (Omni-Channel) (Retail)",
+              "skills": [
+                "E-commerce Campaign Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__15_biscuit-rebrand.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-c7089b96",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Reposition Heritage Biscuit Brand for Gifting",
+    "short_description": "Our family business has made kueh bangkit and pineapple tarts for three decades, mostly sold to regulars at festive periods. Younger buyers do not know us and our packaging looks dated. We want to move into corporate and personal gifting. We need a brand specialist to work out how we should be positioned, who we should target and what the packaging should say. Deliverable: positioning recommendation with a messaging guide and a packaging design brief. Engagement duration: 4-6 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 6,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Retail",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Brand Management",
+              "search_tag": "Brand Management (Retail)",
+              "skills": [
+                "Brand Guideline Development",
+                "Market Profiling",
+                "Customer Behaviour Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__16_product-videos.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-bec69d6e",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Edit Three Short Product Videos",
+    "short_description": "We have raw footage for three 60 to 90 second videos for our skincare line and nobody to edit it. We need them cut, colour corrected and captioned for Instagram and TikTok. A few music tracks are already licensed. Deliverable: three finished videos in vertical and square formats. Engagement duration: 1-2 weeks.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Media",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Content Production and Management",
+              "search_tag": "Content Production and Management (Media)",
+              "skills": [
+                "Video Editing",
+                "Social Media Content Creation and Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__17_halal-cafe-menu.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-42acceaf",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Develop Halal-Friendly Menu with Costings for New Cafe",
+    "short_description": "We are opening a cafe in Tampines and want a short all-day menu of about twelve dishes that can be halal-certified with MUIS and cooked by a small kitchen team. Each dish needs a tested recipe, portion size, plating guide and food cost so we can price it properly. Deliverable: menu, standardised recipe cards and a costing sheet. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Food Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Culinary Arts",
+              "search_tag": "Culinary Arts (Food Services)",
+              "skills": [
+                "Food and Beverage Recipe Formulation",
+                "Cost Control and Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__18_shelf-life-study.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-bfdf6929",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Shelf-Life Study for Chilled Sambal Products",
+    "short_description": "We make chilled sambal and dips for supermarkets with a 14-day shelf life. One retailer wants us to move to 28 days. We need someone to design the shelf-life study, tell us which microbiological and sensory tests to run and at what intervals, and advise whether 28 days is realistic without preservatives or new packaging. Deliverable: study protocol and a written recommendation. Engagement duration: 4-6 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 6,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Food Manufacturing",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Quality Assurance and Control",
+              "search_tag": "Quality Assurance and Control (Food Manufacturing)",
+              "skills": [
+                "Food Safety Analysis",
+                "Quality Assurance Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__19_hcsa-documents.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-8c05ef99",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Prepare Clinic Policies for Healthcare Services Act Licence",
+    "short_description": "Our two GP clinics are moving to a licence under the Healthcare Services Act and our operating policies are scattered across old Word files. We need them reorganised and updated to meet the licensing requirements, covering infection control, medication management, incident reporting and patient records. Someone who has done HCSA licensing before would save us a lot of time. We will review and sign off the final versions. Deliverable: complete set of updated policies and SOPs with a checklist mapped to the requirements. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Healthcare",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Operations",
+              "search_tag": "Operations (Healthcare)",
+              "skills": [
+                "Infection Control",
+                "Professional, Legal and Ethical Healthcare Practice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__20_variation-claim.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-1b0393c7",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Assess Contractor's Variation Claim Under SOP Act",
+    "short_description": "Our contractor's payment claim includes six variation orders that we dispute, about a third of the claimed amount. We have a short window to respond under the Security of Payment Act. We need a quantity surveyor to value the variations against the contract and drawings and tell us what we should accept, reject and say in our payment response. Deliverable: valuation report and draft payment response. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": "The response deadline is tight, so we need to start within a week.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Quantity Surveying",
+              "search_tag": "Quantity Surveying (Built Environment)",
+              "skills": [
+                "Contract Administration and Management",
+                "Dispute Resolution"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__21_condo-maintenance-plan.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-1f282ca9",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Draft Five-Year Maintenance Plan for Condominium Assets",
+    "short_description": "Our MCST has a sinking fund discussion at the next AGM but no proper maintenance plan for the lifts, water pumps and fire systems. We need someone to go through the records, list each asset and draw up a five-year maintenance and replacement schedule with estimated costs so the council can plan the fund. Experience with MCSTs would help. Deliverable: maintenance schedule with cost estimates, in Excel. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Facilities Management",
+              "search_tag": "Facilities Management (Built Environment)",
+              "skills": [
+                "Asset Management",
+                "Contract Administration and Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__22_mezzanine-design.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-4d3ccff6",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Structural Design for Workshop Mezzanine Floor",
+    "short_description": "We want to add a mezzanine floor for storage in our workshop unit, roughly 4 metres by 12, and need structural drawings and calculations for the submission to BCA. The existing slab details and our layout are available. Deliverable: structural drawings and calculations ready for submission. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": "Must be a registered Professional Engineer (Civil).",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Engineering Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Engineering Design",
+              "search_tag": "Engineering Design (Engineering Services)",
+              "skills": [
+                "Civil and Structural Engineering Management",
+                "Engineering Drawing and Design Specifications"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__23_warehouse-reslot.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-9c455b52",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Re-Slot Warehouse Layout to Cut Pick Travel",
+    "short_description": "Our warehouse in Tuas ships about 400 orders a day for e-commerce clients and pickers walk too far because the fast-moving items are spread around. We need someone to analyse the order data and redesign the slotting and aisle layout, then help us move the top items first. Deliverable: slotting analysis, new layout plan and a move schedule. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Logistics",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Warehouse Management and Operations",
+              "search_tag": "Warehouse Management and Operations (Logistics)",
+              "skills": [
+                "Warehouse Layout Design",
+                "Warehouse Administration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__24_hs-code-classification.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f2a01e21",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Classify 40 Products by HS Code for Export",
+    "short_description": "We are starting to export packaged snacks and sauces to Malaysia and Indonesia and need the right HS codes for about 40 products, plus advice on which ones need a certificate of origin to get ASEAN tariff rates. Deliverable: HS code list with reasoning and a short note on the certificate of origin process. Engagement duration: 1-2 weeks.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Wholesale Trade",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Finance and Regulations",
+              "search_tag": "Finance and Regulations (Wholesale Trade)",
+              "skills": [
+                "International Trade Legislation Compliance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__25_bizsafe-level-3.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-9d1d3219",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Prepare Our Company for bizSAFE Level 3",
+    "short_description": "We are a small M&E contractor and our main customer now requires bizSAFE Level 3. We have a few safety procedures but no formal risk management system. We need someone to help us set up the risk assessments, safe work procedures and records we need, and to brief our supervisors on using them. Deliverable: documented WSH management system ready for the bizSAFE audit. Engagement duration: 4-6 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 6,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Workplace Safety and Health",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "System Audit",
+              "search_tag": "System Audit (Workplace Safety and Health)",
+              "skills": [
+                "Risk Management",
+                "Workplace Safety and Health System Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__26_rooftop-solar.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-086251d0",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Rooftop Solar Feasibility for a Small Factory",
+    "short_description": "We lease a single-storey factory in Joo Koon and want to know whether rooftop solar makes sense. We have twelve months of electricity bills and the roof plans. We need someone to size a system, estimate savings and payback under the current EMA and grid connection rules, and tell us whether to buy or use a leasing model. Deliverable: feasibility report with a financial comparison. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Energy and Power",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Distributed Generation",
+              "search_tag": "Distributed Generation (Energy and Power)",
+              "skills": [
+                "Solar Photovoltaic Energy Assessment",
+                "Solar Photovoltaic Project Financing and Risk Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__27_befriending-outcomes.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-b379cecb",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Measure Outcomes of Our Befriending Programme",
+    "short_description": "We run a befriending programme for isolated seniors in rental flats and our funder now wants outcome data, not just visit counts. We have volunteer logs and short feedback forms but no way to show impact. We need someone to design simple outcome measures, look at our data and write up what it shows. Deliverable: outcome measurement framework and an impact summary we can submit to the funder. Engagement duration: 4-6 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 6,
+    "additional_notes": "The funder report is due at the end of February.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Social Service",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Care and Programme",
+              "search_tag": "Care and Programme (Social Service)",
+              "skills": [
+                "Social Service Programme Evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__28_cnc-tolerance-drift.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-292d96bf",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Root Cause Analysis for CNC Tolerance Drift",
+    "short_description": "We machine aluminium housings for a medical device customer and one critical bore starts drifting out of tolerance after about 200 pieces. Tool wear, coolant and spindle thermal growth are the suspects but we have not isolated the cause. The customer has raised a corrective action request, so we need a documented cause and fix we can show them. We need someone with CNC process experience to review our process and inspection data, run a few trials with us on the shop floor and identify the cause. Deliverable: root cause report with corrective actions and an updated control plan for that feature. Engagement duration: 2-4 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Precision Engineering",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Technical and Engineering",
+              "search_tag": "Technical and Engineering (Precision Engineering)",
+              "skills": [
+                "Machining",
+                "Quality Process Control"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__29_partners-offsite.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-31b02d22",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Facilitate Partners' Strategy Offsite",
+    "short_description": "Our seven partners disagree on whether to grow or stay a boutique. We want an experienced, neutral facilitator to speak to each partner beforehand and run a one-day offsite that gets us to a direction we can all commit to. Deliverable: facilitated session and a written summary of the decisions and next steps. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Trade Associations and Chambers",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Strategy & Governance",
+              "search_tag": "Strategy & Governance (Trade Associations and Chambers)",
+              "skills": [
+                "Strategy Planning",
+                "Stakeholder Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__30_family-office-governance.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-24d08150",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Governance Framework for New Single Family Office",
+    "short_description": "Our family is setting up a single family office in Singapore and plans to apply for the 13O tax incentive. We need an experienced adviser to explain what the incentive expects of the structure, how decisions and investment mandates should be documented, and who should sit on what. Some of the family's holdings, a property portfolio and a private company, would need to move into the structure. We already have a lawyer and a fund administrator, but nobody who has taken a family office through this from start to finish. Deliverable: governance framework, investment policy outline and an application readiness checklist. Engagement duration: 2-3 months.",
+    "duration_weeks_min": 8,
+    "duration_weeks_max": 12,
+    "additional_notes": "Prefer someone who has set up a 13O or 13U structure before.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Family Office",
+              "search_tag": "Family Office (Financial Services)",
+              "skills": [
+                "Family Governance",
+                "Trust Structuring",
+                "Wealth Planning Administration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
