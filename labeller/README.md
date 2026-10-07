@@ -83,7 +83,10 @@ Needs `SOCLAAS_BASE_URL` and `SOCLAAS_API_KEY` in a gitignored `.env` at the rep
 - **Mode of work.** Execution (drafting, building, preparing) against advisory (reviewing, recommending,
   steering), read from the gig's deliverable and from what the provider says they did. Either side can be
   mixed, and a mixed side never mismatches; a clear mismatch caps the grade at 2.
-- **Availability** is unchanged from v4 (start date and days a week, minor and serious tolerances).
+- **Availability** (start date and days a week) counts less than seniority and mode of work. A minor
+  mismatch (up to 3 weeks late, one day a week fewer, or only shorter or longer engagements) lowers the
+  score a little and never the grade; a serious one (more than 6 weeks late, or two or more days fewer)
+  caps the grade at 2.
 - **Budget counts least.** It never lowers the grade: only a rate more than about 40% over the level's
   day-rate band lowers the score, by about 0.05 inside its grade. A hirer's own budget may be a guess, and
   the gig usually states none.
