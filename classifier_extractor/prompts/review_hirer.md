@@ -18,7 +18,7 @@ Return "retry" only for a clear, material defect:
   federal, state or county body or grant, US GAAP, a foreign regulator or currency), or on a kind of
   organisation that does not exist in Singapore at that size (e.g. a regional short-line railway, a
   dairy co-op, a private developer building a public road);
-- hire_title or hire_description names a real organisation, client, government body, division,
+- gig_title or short_description names a real organisation, client, government body, division,
   or team (source_company and source_company_team are metadata and may name the publisher). A
   regulator named only as the source of a rule the work must meet is allowed.
 

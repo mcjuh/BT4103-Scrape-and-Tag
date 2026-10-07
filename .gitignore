@@ -7,8 +7,7 @@
 __pycache__/
 *.pyc
 *.log
-docs/_*.pid
 logs/
 
-.docx
-docs/archive/
+*.docx
+data/archive/

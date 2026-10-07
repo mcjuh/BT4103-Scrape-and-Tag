@@ -3,7 +3,7 @@
 Singapore's SkillsFuture framework as the tag vocabulary for extract.py's tagging
 step. Every gig and every provider profile gets:
 
-    category        a SkillsFuture SECTOR            (docs/skillsfuture/sector.csv)
+    category        a SkillsFuture SECTOR            (data/reference/skillsfuture/sector.csv)
     specialisation  a TRACK inside that sector       (track.csv)
     skills          TSCs (technical skills and competencies) linked to the chosen
                     tracks                           (tsc.csv via job_role.csv + job_role_tsc.csv)
@@ -41,7 +41,7 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
-SF_DIR = Path(__file__).resolve().parent.parent / "docs" / "skillsfuture"
+SF_DIR = Path(__file__).resolve().parent.parent / "data" / "reference" / "skillsfuture"
 TAXONOMY_VERSION = "sf_v1"
 MAX_SECTORS, MAX_TRACKS, MAX_SKILLS = 2, 3, 8  # skills: 0 to MAX, see parse_skills
 FUZZY_CUTOFF = 0.88  # a near-miss spelling is accepted; a different name is not
@@ -187,35 +187,38 @@ def parse_skills(data: dict, pairs: list) -> tuple:
 # ---------------------------------------------------------------------------
 
 def nest(pairs: list, skills: list) -> dict:
-    """category -> specialisation -> skills. A skill listed under several chosen
-    tracks sits under the first of them."""
+    """The `tags` block of the v2 record schemas (ML_*_schema_v2.json): category ->
+    specialisation -> skills. A skill listed under several chosen tracks sits under the
+    first of them. `group` (the platform's Industry / Function / Subject / Others heading)
+    is always None here: it is populated afterwards, outside the LLM, from the platform's
+    own category list. No pairs gives an empty `categories` list, the valid "nothing fit"."""
     owner = {}
     for pair in pairs:
         for title in load()["skills"][pair]:
             owner.setdefault(title, pair)
-    nested = []
+    categories = []
     for sector, track in pairs:
         entry = {"name": track, "search_tag": f"{track} ({sector})",
                  "skills": [s for s in skills if owner.get(s) == (sector, track)]}
-        for cat in nested:
-            if cat["category"] == sector:
+        for cat in categories:
+            if cat["name"] == sector:
                 cat["specialisations"].append(entry)
                 break
         else:
-            nested.append({"category": sector, "specialisations": [entry]})
-    return {"taxonomy_version": TAXONOMY_VERSION, "tags": nested}
+            categories.append({"name": sector, "group": None, "specialisations": [entry]})
+    return {"taxonomy_version": TAXONOMY_VERSION, "categories": categories}
 
 
 def csv_columns(tags: dict = None) -> dict:
-    """The TAG_FIELDS strings for a record's nested tags (blank when nothing fit)."""
-    nested = (tags or {}).get("tags") or []
-    if not nested:
+    """The TAG_FIELDS strings for a record's `tags` block (blank when nothing fit)."""
+    categories = (tags or {}).get("categories") or []
+    if not categories:
         return {k: "" for k in TAG_FIELDS}
-    specs = [sp for cat in nested for sp in cat["specialisations"]]
+    specs = [sp for cat in categories for sp in cat["specialisations"]]
     return {
-        "category": SEP.join(cat["category"] for cat in nested),
+        "category": SEP.join(cat["name"] for cat in categories),
         "specialisation": SEP.join(sp["search_tag"] for sp in specs),
         "skills": SEP.join(s for sp in specs for s in sp["skills"]),
-        "tags_json": json.dumps(nested, ensure_ascii=False),
+        "tags_json": json.dumps(categories, ensure_ascii=False),
         "tag_taxonomy_version": tags.get("taxonomy_version", TAXONOMY_VERSION),
     }

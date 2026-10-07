@@ -31,7 +31,7 @@ Design choices that follow from those two papers:
 - classify.py and extract.py hash with different `stage` salts, so the
   model that labeled a given page is not necessarily the same one that
   later extracts its fields -- two independently-diversified corpora
-  (docs/manifest.jsonl and docs/providers.csv/hirers.csv) instead of one
+  (data/manifests/classify.jsonl and data/output/providers.csv/hirers.csv) instead of one
   diversification decision reused twice.
 
 MODEL_POOL is every usable distinct chat model SOCLAAS serves (from

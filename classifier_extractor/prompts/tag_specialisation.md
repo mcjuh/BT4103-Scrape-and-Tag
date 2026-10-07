@@ -24,9 +24,17 @@ HOW TO CHOOSE
 - Read a track's name for the KIND of work it covers, not narrowly. A small sector still fits: Legal
   Services > Advisory and Advocacy is where legal advice, contract and lease review, legal drafting
   and dispute work all belong, and Accountancy covers tax, audit, valuation and restructuring.
-- If nothing fits, return an empty list. The framework has no sector for general strategy or
-  management consulting, public-sector policy, ecology, or research and evaluation; do not force
-  such work into the nearest-sounding track. A wrong tag is worse than no tag.
+- The framework has no sector for general strategy or management consulting, public-sector policy,
+  or pure research and evaluation. Return an empty list only when the record is ONLY that kind of
+  work. When it also names concrete work in a domain the framework does cover (digital engineering,
+  finance, healthcare operations, retail, environmental health and safety, ...), tag that work: a
+  strategy adviser for retail operations is Retail, a healthcare finance restructuring is
+  Accountancy or Healthcare, an environmental impact assessment is Environmental Services >
+  Environment, Health and Safety.
+- Two sectors are often picked wrongly. "Strategy and Governance" under Infocomm Technology is IT
+  strategy and governance, not business strategy in general. "Trade Associations and Chambers" is
+  for the staff of trade bodies and chambers of commerce, never for advisers to ordinary companies.
+- Never force a track on work it doesn't describe. A wrong tag is worse than no tag.
 
 SECTORS AND TRACKS (each line is "Sector: Track | Track | ...")
 {taxonomy_block}

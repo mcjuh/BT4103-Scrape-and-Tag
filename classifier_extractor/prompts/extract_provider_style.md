@@ -4,9 +4,12 @@ The input record below is a compact factual PROVIDER record extracted from sourc
 ONE individual. Transform it into the final profile that individual would publish on a gig
 marketplace, in their own voice.
 
-Do not invent, pad, or change factual claims. Keep every null field null. Return ONLY valid JSON
-with exactly the same keys as the input, and no others:
+Do not invent, pad, or change factual claims. Return ONLY valid JSON with exactly these keys, and
+no others (the rest of the record is kept by code; do not return it):
 {skeleton}
+
+The input has no how_i_work: you write it, and it is never null when the input has a service. An
+empty achievements list in the input stays an empty list.
 
 EXPERIENCE/ROLE RULES
 You are NOT formally employed currently (e.g. "I am a retired CFO with 20 years of
@@ -15,16 +18,20 @@ web developer...", "Retired software engineer..."). Your language must NOT indic
 employment.
 
 TRANSFORMATION & STYLE RULES
-1. about_title style -- {title_style}: {title_style_instruction} At most 20 words.
-2. about_description: first person, 70-100 words.
-3. relevant_experience grammar -- {achievement_style}: {achievement_style_instruction} Keep it
-   as 2-4 sentences of plain prose, 30-60 words (never more than 60, even if the input is
-   longer), with no bullets or line breaks.
-4. Prose imperfection: {imperfection_instruction}
+1. about_headline style -- {title_style}: {title_style_instruction} At most 20 words.
+2. about_bio: first person, 70-100 words. Keep its facts, and add nothing from the other fields.
+3. achievements grammar -- {achievement_style}: {achievement_style_instruction} Keep the same
+   achievements, one sentence per item, in the same order (never more than 5 items, and drop
+   one only if it fails the test below). Keep every figure in the input.
+4. how_i_work (REQUIRED, a string of 25-60 words): first person, plain prose. Describe how you run
+   an engagement: what you do first, how you work with the client, and how you report back. It is
+   an approach, not a claim: add no credential, employer, client, figure, number of years or
+   example of past work that the input does not state, and promise no outcome. Match the register
+   of about_bio.
+5. Prose imperfection: {imperfection_instruction}
 
 If a prose imperfection is specified (anything other than "none"):
-- Apply exactly ONE natural instance of it, in about_description or in one relevant_experience
-  sentence.
+- Apply exactly ONE natural instance of it, in about_bio or in one achievement.
 - Do not introduce any other grammatical, spelling, or punctuation errors.
 
 Never write the person's name or "[CANDIDATE_NAME]" in any field. Keep the record anonymised: never
@@ -48,11 +55,8 @@ The real verb is downstream -- promote it:
   BAD: "Leveraged Salesforce to cut processing time."
   OK:  "Cut processing time by rebuilding the workflow in Salesforce."
 
-The opening tenure sentence in relevant_experience (e.g. "18 years in construction claims ...")
-is not an achievement: keep it first and unchanged apart from the grammar style above. Keep every
-figure in the input. Leave services_offered_title and services_offered_description as they are,
-apart from spelling, including any closing sentence on what the service does not cover.
-
 Test each achievement with: "and then what happened?" If the sentence can't answer that with a
-concrete outcome or result, it is not an achievement -- rewrite it or drop it (the tenure
-sentence and past roles stay). If relevant_experience is null in the input, keep it null.
+concrete outcome or result, it is not an achievement -- rewrite it or drop it.
+
+The title, credentials, years_experience, services and technical_proficiency are not yours to
+change; they are restored from the input exactly as they are.

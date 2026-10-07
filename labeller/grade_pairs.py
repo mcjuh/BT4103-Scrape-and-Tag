@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Grades gig/provider pairs for content fit, on the platform sample format
-(docs/platform_sample/hirers_sample.csv and providers_sample.csv).
+(data/output/platform_sample/hirers_sample.csv and providers_sample.csv).
 
 This is the grader for the new standard format. It is self-contained: it does
 not import label.py or judge_pools.py, which grade the older hirers.csv /
@@ -38,12 +38,12 @@ One model grades each run (--model, default qwen3.8:27b: the grader of the ranke
 see ranker/pipeline/label.md). Calls are logged per model and prompt version, so runs on
 other models can sit in the same log; this script does not combine them.
 
-    python labeller/grade_pairs.py --dry-run                                # show a prompt
-    python labeller/grade_pairs.py --max-pairs 20                           # smoke test
-    python labeller/grade_pairs.py --gigs 1-10                              # chosen gigs
-    python labeller/grade_pairs.py --pairs docs/platform_sample/pilot_pairs.json   # the pilot
-    python labeller/grade_pairs.py                                          # every pair
-    python labeller/grade_pairs.py --export                                 # log -> CSV
+    python run.py grade --dry-run                                # show a prompt
+    python run.py grade --max-pairs 20                           # smoke test
+    python run.py grade --gigs 1-10                              # chosen gigs
+    python run.py grade --pairs data/output/platform_sample/pilot_pairs.json   # the pilot
+    python run.py grade                                          # every pair
+    python run.py grade --export                                 # log -> CSV
 
 Pairs default to every gig x every provider. --pairs takes a JSON file
 {"G001": ["P004", "P007"], ...} to grade a chosen set (e.g. a judging pool).
@@ -65,18 +65,20 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
-DOCS_DIR = ROOT_DIR / "docs"
-SAMPLE_DIR = DOCS_DIR / "platform_sample"
+DATA_DIR = ROOT_DIR / "data"
+OUTPUT_DIR = DATA_DIR / "output"
+LOGS_DIR = ROOT_DIR / "logs"
+SAMPLE_DIR = OUTPUT_DIR / "platform_sample"
 PROMPT_PATH = SCRIPT_DIR / "prompts" / "rubric_01_v4.md"
 
 GIGS_CSV = SAMPLE_DIR / "hirers_sample.csv"
 PROVIDERS_CSV = SAMPLE_DIR / "providers_sample.csv"
-LOG_PATH = DOCS_DIR / "gig_grades.jsonl"  # one line per call; the source of truth
-OUT_CSV = DOCS_DIR / "gig_grades.csv"  # one row per (pair, model, prompt), from --export
+LOG_PATH = DATA_DIR / "manifests" / "gig_grades.jsonl"  # one line per call; the source of truth
+OUT_CSV = OUTPUT_DIR / "gig_grades.csv"  # one row per (pair, model, prompt), from --export
 PROMPT_VERSION = "rubric_01.v4.1"  # v4.1: terms (seniority, budget, availability) are graded again
 
 # Same pool as classifier_extractor/llm_pool.py. Duplicated, not imported: roles only
-# talk to each other through docs/.
+# talk to each other through data/.
 MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 DEFAULT_MODEL = "qwen3.8:27b"  # graded the ranker's 22k labels (ranker/pipeline/label.md)
 
@@ -395,4 +397,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # Read by monitor/dashboard.py for an exact RUNNING state, as label.py's is.
+    PID_PATH = LOGS_DIR / "grade.pid"
+    LOGS_DIR.mkdir(exist_ok=True)
+    PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
+    try:
+        main()
+    finally:
+        if PID_PATH.exists() and PID_PATH.read_text(encoding="utf-8").strip() == str(os.getpid()):
+            PID_PATH.unlink()  # leave another instance's PID file alone

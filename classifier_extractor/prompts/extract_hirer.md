@@ -110,13 +110,13 @@ Otherwise return ONLY valid JSON with exactly these keys, and no others:
 in exactly this shape:
 {skeleton}
 
-hire_title
+gig_title
 3-10 words, stated plainly, naming the TASK, not a job title or a person. Good: "Food Safety
 Audit for Central Kitchen", "Review Franchise Agreement Before Signing", "Map Service Gaps for
 Elderly Residents". Bad: "Senior Food Safety Consultant", "Experienced Lawyer Needed". No generic
 filler such as "Help Needed" or "Project Opportunity".
 
-hire_description
+short_description
 Write it the way a real client posts a gig on a freelance marketplace, before the work begins:
 plain, specific, and slightly informal. Cover, in this order:
 1. The situation: what kind of organisation this is (see WHO IS HIRING), the problem or need it
@@ -160,7 +160,7 @@ Sound like a person writing a post, not a brochure:
   "we are seeking", and "help us".
 - No sales pitch, no praise of the organisation, and no closing call to action.
 
-hire_description_additional_notes
+additional_notes
 Budget, timeline, seniority, or other constraints ONLY if the source explicitly states them.
 Otherwise null.
 
@@ -170,7 +170,7 @@ case study or press release, that's the consulting firm, NOT its client (e.g. an
 study about work for a bank -> "Accenture"). The domain at the start of the source file name
 below is usually the publisher. source_company_team is the publisher's own team or practice
 named on the page as doing the work (e.g. "Accenture Song"), or null if none is named. These two
-fields are metadata only: never name any real company inside hire_title or hire_description.
+fields are metadata only: never name any real company inside gig_title or short_description.
 
 GROUNDING RULES
 This is a realistic simulation, not a literal quotation. You may invent only the hirer's voice,
@@ -189,8 +189,8 @@ outcomes. When in doubt, omit a detail rather than infer it.
   Singapore setting, size and area (see WHO IS HIRING) are setting, not requirements.
 - Do not add historic project dates, completed work, prior failures, remedial work, new
   incidents, urgency, or business problems unless explicitly established as the original need.
-  The plain reason the work itself implies (see hire_description, point 1) is allowed.
-- Anonymise hire_title and hire_description: never name the publishing firm, the client, or any
+  The plain reason the work itself implies (see short_description, point 1) is allowed.
+- Anonymise gig_title and short_description: never name the publishing firm, the client, or any
   other company, government body, division, practice, or team. Use a generic description instead
   (e.g. "a Singapore-based [kind of organisation]", "the finance operations team"). Keep named
   tools, standards, and technologies only when they are genuine source-backed requirements. A

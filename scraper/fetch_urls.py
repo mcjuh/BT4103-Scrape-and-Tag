@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Fetches an explicit list of URLs (no link-following) into docs/unprocessed/,
+Fetches an explicit list of URLs (no link-following) into data/pages/unprocessed/,
 with the same Markdown pruning, link-farm stripping, block detection and file
 naming as crawl.py.
 
-    py -3 scrapper/fetch_urls.py scrapper/topup_urls_20260929.tsv
+    python run.py fetch scraper/url_lists/topup_urls_20260929.tsv
 
 Input: one URL per line, optionally "label<TAB>url". Pages already saved in
-any docs/ bucket are skipped.
+any data/pages/ bucket are skipped.
 
 Why this exists: crawl.py's best-first deep crawl can hang on some sites (it
 saved a handful of pages and then went silent until the 30-minute seed
@@ -46,7 +46,7 @@ def read_list(path: Path) -> list:
 
 def already_saved() -> set:
     return {f.name for d in ("unprocessed", "provider", "hirer", "uncertain", "ignore")
-            for f in (crawl.DOCS_DIR / d).glob("*.md")}
+            for f in (crawl.PAGES_DIR / d).glob("*.md")}
 
 
 def save(r, label: str) -> str:

@@ -1,7 +1,7 @@
 # Labeller prompt experiments
 
 > **Status.** `results/` (the grid, `candidates.json`) was run against an earlier set of 18 gigs from
-> `docs/hirers.csv`, graded 0-3 by Claude, which is no longer in the repo: the `gold.json` here was
+> an earlier `hirers.csv` (archived under `data/archive/`), graded 0-3 by Claude: the `gold.json` here was
 > regenerated from the client's workbook (30 gigs, one intended showcase each) before the first commit,
 > so it no longer matches. `run_grid.py` stops on it (its gig ids are not in `hirers.csv`) and
 > `analyze.py` has nothing to join the saved grid to. Running this again means pointing `run_grid.py` at
@@ -17,7 +17,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
 ```
 
 ## Design
-- **Gold labels of the saved grid (no longer in the repo):** 18 gigs from `docs/hirers.csv`, chosen to span the providers'
+- **Gold labels of the saved grid (no longer in the repo):** 18 gigs from an earlier `hirers.csv` (since archived under `data/archive/`), chosen to span the providers'
   domains (finance/ERP, insurance, banking, AI, cyber, tax, M&A, supply chain, sports, public
   sector, sales). Every one of the 154 providers was graded against each gig on a 0-3 rubric
   (in the file), so the labels are complete rather than pooled from the systems being compared.
@@ -60,4 +60,4 @@ The run holds the team's shared API budget while it's going.
 ## Files
 - `gold.json` (the client set), `build_gold.py`, `client_testset/`, `prompts/` -- inputs
 - `results/grid.jsonl` -- one line per call (label probabilities, log-likelihoods, latency)
-- `results/candidates.json`, `results/report.md`, `results/per_gig.csv`, `results/run_grid.log`
+- `results/candidates.json`, `results/report.md`, `results/per_gig.csv` (the old `results/run_grid.log` is in `logs/archive_2026-10-06.zip`)

@@ -1,18 +1,18 @@
 # Labeller
 
-Third role in the pipeline, after scrapper and classifier/extractor: **zero-shot LLM relevance
+Third role in the pipeline, after scraper and classifier/extractor: **zero-shot LLM relevance
 labels between hirer gigs and provider profiles**, scored with the method from Zhuang et al.,
 ["Beyond Yes and No: Improving Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance
 Labels"](https://arxiv.org/abs/2310.14122) (arXiv:2310.14122).
 
 ```
-py -3 labeller/label.py [--max-pairs 50]
+python run.py label [--max-pairs 50]
 ```
 Step-by-step usage for `label.py` and `evaluate.py` is in [USAGE.md](USAGE.md).
 
-Reads `../docs/hirers.csv` and `../docs/providers.csv` (from `classifier_extractor/extract.py`).
-Writes `../docs/relevance_labels.jsonl` (one line per LLM call) and rebuilds
-`../docs/relevance_scores.csv` (one row per pair, all five scores side by side) at the end of
+Reads `data/output/hirers.csv` and `data/output/providers.csv` (from `classifier_extractor/extract.py`).
+Writes `data/manifests/relevance_labels.jsonl` (one line per LLM call) and rebuilds
+`data/output/relevance_scores.csv` (one row per pair, all five scores side by side) at the end of
 every run. Run-once: it scores what's asked for and exits.
 
 ## Method
@@ -59,17 +59,17 @@ All scores are normalised to 0-1 (expected relevance / top label value) so they'
 
 ## Grading the platform sample format (`grade_pairs.py`)
 
-`grade_pairs.py` is the grader for the new standard format (`docs/platform_sample/`). It is
+`grade_pairs.py` is the grader for the new standard format (`data/output/platform_sample/`). It is
 self-contained and independent of `label.py` and `judge_pools.py`, which grade the older
 `hirers.csv` / `providers.csv` format (`judge_pools.py` reads the ranker's `data_sat/` pools). One model
 grades each run: `qwen3.8:27b` by default, the grader of the ranker's labels (`ranker/pipeline/label.md`).
 
 ```
-python labeller/grade_pairs.py --dry-run                                   # show a prompt, call nothing
-python labeller/grade_pairs.py --max-pairs 20                              # smoke test
-python labeller/grade_pairs.py --pairs docs/platform_sample/pilot_pairs.json   # the 30-pair pilot
-python labeller/grade_pairs.py                                             # every gig x every provider
-python labeller/grade_pairs.py --export                                    # log -> docs/gig_grades.csv
+python run.py grade --dry-run                                   # show a prompt, call nothing
+python run.py grade --max-pairs 20                              # smoke test
+python run.py grade --pairs data/output/platform_sample/pilot_pairs.json   # the 30-pair pilot
+python run.py grade                                             # every gig x every provider
+python run.py grade --export                                    # log -> data/output/gig_grades.csv
 ```
 Needs `SOCLAAS_BASE_URL` and `SOCLAAS_API_KEY` in a gitignored `.env` at the repo root (copy
 `.env.example`). Offline tests (no API): `python -m unittest labeller/test_grade_pairs.py`.
@@ -93,15 +93,15 @@ grade`). Thinking is off, as in `label.py`. The band edges are not fitted to dat
 where `round(score * 3)` changes, the rule `judge_pools.py` and the ranker's `grade_from_score()` use to
 turn a score back into a grade. Treat the score's second decimal as noise; the band is the part to trust.
 
-**Outputs.** `docs/gig_grades.jsonl` is the log (one line per call, per model and prompt version; reruns
-skip what is already graded, so a stopped run resumes). `--export` writes `docs/gig_grades.csv`, one row
+**Outputs.** `data/manifests/gig_grades.jsonl` is the log (one line per call, per model and prompt version; reruns
+skip what is already graded, so a stopped run resumes). `--export` writes `data/output/gig_grades.csv`, one row
 per pair, model and prompt version. The committed log is the full run: all 900 gigs x providers of the
 sample on `qwen3.8:27b` with prompt `rubric_01.v4.1` (789 pairs at grade 0, 105 at grade 1, 6 at grade 2,
 none at 3; no errors). Using several models was tried on the 30-pair pilot and removed: `gemma4:26b` cannot
 switch thinking off (about 30 s and 1,900 tokens a call against 0.5 s), and the three Qwens ranked pairs
 almost identically (Spearman 0.93-0.95), with no label set yet to show that pooling beats one model.
 
-`docs/platform_sample/pilot_pairs.json` is the pilot: 10 seeded gigs, each with its best TF-IDF text
+`data/output/platform_sample/pilot_pairs.json` is the pilot: 10 seeded gigs, each with its best TF-IDF text
 match, a mid-ranked provider and a random lower-half one. The similarity only picked the pairs; the
 models never see it.
 
@@ -118,7 +118,7 @@ complete ranking for the first gig(s). Reruns skip calls already recorded.
 
 ## Evaluating predictions
 ```
-py -3 labeller/evaluate.py docs/relevance_scores.csv rg_2l rg_3l rg_3l_multi [--per-gig out.csv]
+py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_2l rg_3l rg_3l_multi [--per-gig out.csv]
 ```
 Scores any predictions CSV against the graded gold labels in `experiments/gold.json`: the client's 30 test gigs, each with one intended showcase graded 0-3 from the client's four bands (OBVIOUS 3, SUBTLE 2, PARTIAL 1, NEAR-MISS 0).
 The client wrote the workbook with an LLM, so these are an ordinal development check, not measured ground
@@ -128,7 +128,7 @@ comparable across gigs). With several methods it adds a paired test against the 
 gig column (`hirer_file`/`gig`), a provider column (`provider_file`/`provider`), and either one
 score column per method (`relevance_scores.csv`'s shape) or `method` + `score` columns. Only gigs
 in the gold file count, and predictions must use its ids (`client_gig_01`..., `client_showcase_01`...: the
-`source_file` column of `experiments/client_testset/`). `label.py` reads `docs/hirers.csv` and
+`source_file` column of `experiments/client_testset/`). `label.py` reads `data/output/hirers.csv` and
 `providers.csv`, so none of the scripts here scores that set yet.
 
 ## Prompt experiments

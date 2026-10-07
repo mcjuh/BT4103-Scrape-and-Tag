@@ -4,6 +4,10 @@ Tracked work items. Newest section at the top of each list. This is the running 
 `PROGRESS_NOTES_TMP.md` snapshot was folded in here and deleted on 20 Sep (recoverable from git
 if anything in it is missed).
 
+> **Paths below predate the 2026-10-06 restructure** (`docs/` -> `data/`, `scrapper/` -> `scraper/`,
+> `context.md` -> `docs/design.md`, one log per stage). The path map is at the top of
+> `docs/design.md`; the README's Layout section is current.
+
 ---
 
 ## Done

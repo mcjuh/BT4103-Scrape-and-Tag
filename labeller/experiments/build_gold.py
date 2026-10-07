@@ -4,7 +4,7 @@ Build the labeller's gold set from the client's test workbook.
 
     py -3 labeller/experiments/build_gold.py
 
-Reads client_documents/*Test_Dataset*.xlsx and writes, next to this script:
+Reads data/reference/client_documents/*Test_Dataset*.xlsx and writes, next to this script:
     gold.json                    graded labels in evaluate.py's format
     client_testset/gigs.csv      the 30 gigs, in hirers.csv's column names
     client_testset/showcases.csv the 30 showcases, in providers.csv's column names
@@ -57,7 +57,7 @@ except ImportError:
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent.parent  # labeller/experiments/ -> labeller/ -> project root
-CLIENT_DIR = ROOT_DIR / "client_documents"
+CLIENT_DIR = ROOT_DIR / "data" / "reference" / "client_documents"
 GOLD_PATH = SCRIPT_DIR / "gold.json"
 TESTSET_DIR = SCRIPT_DIR / "client_testset"
 
@@ -108,7 +108,7 @@ def build():
 
     TESTSET_DIR.mkdir(parents=True, exist_ok=True)
 
-    # The gigs and showcases go in labeller/experiments/, NOT docs/ -- they are
+    # The gigs and showcases go in labeller/experiments/, NOT data/ -- they are
     # the client's synthetic examples and must never be mixed into the real
     # extracted dataset. Column names match hirers.csv / providers.csv so
     # label.py can read them unchanged; fields the workbook has no column for
@@ -162,7 +162,7 @@ def build():
         entry["rationales"][PROV_ID.format(pid)] = _clean(row.get("match_rationale"))
 
     gold = {
-        "source": f"Derived from client_documents/{wb_path.name} by "
+        "source": f"Derived from data/reference/client_documents/{wb_path.name} by "
                   f"labeller/experiments/build_gold.py -- rerun it rather than editing this file.",
         "annotator": "The client, writing with an LLM. NOT measured ground truth and NOT human "
                      "annotation: the workbook's 0-100 expected_score_range values are one "
@@ -194,7 +194,7 @@ def build():
     print("\nTo score against it:")
     print("  py -3 labeller/label.py --hirers labeller/experiments/client_testset/gigs.csv \\")
     print("        --providers labeller/experiments/client_testset/showcases.csv --max-pairs 900")
-    print("  py -3 labeller/evaluate.py docs/relevance_scores.csv rg_3l rg_3l_multi")
+    print("  py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_3l rg_3l_multi")
 
 
 if __name__ == "__main__":

@@ -3,9 +3,9 @@
 Pick a fixed, good-quality sample of gigs and provider profiles for a full
 cross-product labelling run (every sampled gig x every sampled provider).
 
-    py -3 labeller/sample.py [--n 100] [--seed 4103]
-    py -3 labeller/label.py --hirers docs/sample/hirers_sample.csv \
-        --providers docs/sample/providers_sample.csv --max-pairs 10000
+    python labeller/sample.py [--n 100] [--seed 4103]
+    python run.py label --hirers data/output/sample/hirers_sample.csv \
+        --providers data/output/sample/providers_sample.csv --max-pairs 10000
 
 "Good" means:
   gigs       the first-pass grounding review kept it (no repair needed), it is in
@@ -35,11 +35,11 @@ from collections import defaultdict
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DOCS_DIR = SCRIPT_DIR.parent / "docs"
-HIRERS_CSV = DOCS_DIR / "hirers.csv"
-PROVIDERS_CSV = DOCS_DIR / "providers.csv"
-MANIFEST = DOCS_DIR / "extract_manifest.jsonl"
-OUT_DIR = DOCS_DIR / "sample"
+DATA_DIR = SCRIPT_DIR.parent / "data"
+HIRERS_CSV = DATA_DIR / "output" / "hirers.csv"
+PROVIDERS_CSV = DATA_DIR / "output" / "providers.csv"
+MANIFEST = DATA_DIR / "manifests" / "extract.jsonl"
+OUT_DIR = DATA_DIR / "output" / "sample"
 
 PROFILE_FIELDS = ["about_title", "about_description", "services_offered_title",
                   "services_offered_description", "relevant_experience"]

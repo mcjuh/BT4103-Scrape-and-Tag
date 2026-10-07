@@ -1,5 +1,15 @@
 # Scrapper Agent -- Project Context
 
+> **Paths in this file predate the 2026-10-06 restructure.** `docs/` is now `data/`: pages in
+> `data/pages/<bucket>/`, manifests in `data/manifests/` (`manifest.jsonl` -> `classify.jsonl`,
+> `industry_manifest.jsonl` -> `industry.jsonl`, `extract_manifest.jsonl` -> `extract.jsonl`,
+> `_crawl_state.json` / `_crawl_report.md` -> `crawl_state.json` / `crawl_report.md`), CSVs and JSON
+> in `data/output/`, `client_documents/` and `skillsfuture/` in `data/reference/`. `scrapper/` is
+> `scraper/`, the schemas are in `classifier_extractor/schemas/` (v2 only), this file was
+> `context.md`, and `BACKLOG.md` is `docs/backlog.md`. Logs are one file per stage
+> (`logs/<stage>.log`, written by `run.py` and the dashboard) and PID files are `logs/<stage>.pid`.
+> The README's Layout section is current.
+
 ## What this is
 A scraping pipeline that builds a seed dataset for **GreyGigz**, a gig marketplace for
 experienced/senior professionals spanning ~36 industries and ~39 functional specialties (see

@@ -13,16 +13,16 @@ documents that have cleared the left stage and are waiting on the right one.
 That's the thing you actually want at a glance; per-model chips, token
 counts and the raw tables are secondary and sit below.
 
-It never writes to any role's data -- it reads crawl*.log,
-docs/unprocessed/*.md, docs/manifest.jsonl, docs/industry_manifest.jsonl,
-docs/extract_manifest.jsonl, docs/providers.csv, docs/hirers.csv,
-docs/_crawl_state.json, docs/_<stage>.pid, docs/relevance_labels.jsonl and
-docs/relevance_scores.csv.
+It never writes to any role's data -- it reads logs/crawl.log,
+data/pages/unprocessed/*.md, data/manifests/{classify,industry,extract}.jsonl,
+data/manifests/crawl_state.json, data/output/providers.csv,
+data/output/hirers.csv, data/manifests/relevance_labels.jsonl,
+data/output/relevance_scores.csv and logs/<stage>.pid.
 
 Each stage card also has Start/Stop buttons. They run only the fixed
-commands in LAUNCHABLE (never a command line from the page), log to
-logs/<stage>_<timestamp>.log, and need a per-session token that only the
-page itself carries. A started run is its own process: closing the
+commands in LAUNCHABLE (never a command line from the page), append to
+logs/<stage>.log (the same file run.py writes), and need a per-session token
+that only the page itself carries. A started run is its own process: closing the
 dashboard doesn't stop it. Stop removes the stage's PID file, since a hard
 stop skips the script's own cleanup. Crawl refuses to start with less than
 CRAWL_MIN_FREE_GB of RAM free (BACKLOG A2).
@@ -49,17 +49,21 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # monitor/ sits one level below the project root
-DOCS_DIR = ROOT_DIR / "docs"  # shared data lake every role reads/writes into
-UNPROCESSED_DIR = DOCS_DIR / "unprocessed"
-SEEDS_PATH = ROOT_DIR / "scrapper" / "seeds.md"  # read-only; the authority on how many seeds exist
-MANIFEST_PATH = DOCS_DIR / "manifest.jsonl"
-INDUSTRY_MANIFEST_PATH = DOCS_DIR / "industry_manifest.jsonl"
-EXTRACT_MANIFEST_PATH = DOCS_DIR / "extract_manifest.jsonl"
-STATE_PATH = DOCS_DIR / "_crawl_state.json"
-PROVIDERS_CSV = DOCS_DIR / "providers.csv"
-HIRERS_CSV = DOCS_DIR / "hirers.csv"
-LABELS_PATH = DOCS_DIR / "relevance_labels.jsonl"
-SCORES_CSV = DOCS_DIR / "relevance_scores.csv"
+DATA_DIR = ROOT_DIR / "data"  # shared data lake every role reads/writes into
+MANIFESTS_DIR = DATA_DIR / "manifests"
+OUTPUT_DIR = DATA_DIR / "output"
+UNPROCESSED_DIR = DATA_DIR / "pages" / "unprocessed"
+SEEDS_PATH = ROOT_DIR / "scraper" / "seeds.md"  # read-only; the authority on how many seeds exist
+MANIFEST_PATH = MANIFESTS_DIR / "classify.jsonl"
+INDUSTRY_MANIFEST_PATH = MANIFESTS_DIR / "industry.jsonl"
+EXTRACT_MANIFEST_PATH = MANIFESTS_DIR / "extract.jsonl"
+STATE_PATH = MANIFESTS_DIR / "crawl_state.json"
+PROVIDERS_CSV = OUTPUT_DIR / "providers.csv"
+HIRERS_CSV = OUTPUT_DIR / "hirers.csv"
+LABELS_PATH = MANIFESTS_DIR / "relevance_labels.jsonl"
+SCORES_CSV = OUTPUT_DIR / "relevance_scores.csv"
+LOGS_DIR = ROOT_DIR / "logs"  # one log per stage (logs/<stage>.log, appended) and the PID files
+RUN_MARK = "----- run "  # starts each run in a stage log; same marker as run.py
 
 MANIFEST_RECORD_LIMIT = 300  # how many manifest rows the dashboard shows at once
 
@@ -72,17 +76,12 @@ SAVED_LINE_RE = re.compile(r"^  \[SAVED\] (\S+)", re.MULTILINE)
 SEED_URL_RE = re.compile(r"https?://\S+")
 
 
-def _crawl_log() -> Path:
-    """The newest crawl*.log in the project root, not a fixed filename.
-
-    A run redirected somewhere other than crawl_run.log (e.g.
-    `> crawl_run_expansion.log` for a one-off batch) used to leave this
-    dashboard reading a stale log and reporting an old run's seed and page
-    counts as if they were current. A crawl started from this page logs to
-    logs/crawl_<timestamp>.log, so those count too."""
-    candidates = [*ROOT_DIR.glob("crawl*.log"), *(ROOT_DIR / "logs").glob("crawl_*.log")]
-    logs = sorted(candidates, key=lambda p: p.stat().st_mtime, reverse=True)
-    return logs[0] if logs else ROOT_DIR / "crawl_run.log"
+def _last_run(text: str) -> str:
+    """The latest run in an appended stage log: everything after the last
+    RUN_MARK line, so counts and the done/stopped check describe the current
+    run, not every run the log has ever held."""
+    cut = text.rfind("\n" + RUN_MARK)
+    return text[cut + 1:] if cut >= 0 else text
 
 
 def _total_seeds() -> int:
@@ -144,7 +143,7 @@ def _pid_alive(pid: int) -> bool:
 
 def _script_alive(pid_path: Path) -> bool:
     """Is the PID a script wrote at startup still alive? Every pipeline
-    script writes docs/_<stage>.pid and removes it on exit. It's the only
+    script writes logs/<stage>.pid and removes it on exit. It's the only
     reliable "running" signal: the crawl log can go silent for a whole seed
     (up to 30 min), an LLM stage can sit on one slow call for minutes, and a
     crash or Ctrl+C never writes a closing line. A hard kill leaves a stale
@@ -164,7 +163,7 @@ def _run_state(pid_name: str) -> str:
     proc = LAUNCHED.get(pid_name)
     if proc is not None and proc.poll() is None:
         return "running"
-    return "running" if _script_alive(DOCS_DIR / f"_{pid_name}.pid") else "idle"
+    return "running" if _script_alive(LOGS_DIR / f"{pid_name}.pid") else "idle"
 
 
 # ---------------------------------------------------------------------------
@@ -177,7 +176,7 @@ def _run_state(pid_name: str) -> str:
 # argument, and every choice must be one of the values listed here. Nothing
 # goes through a shell.
 LAUNCHABLE = {
-    "crawl": {"script": "scrapper/crawl.py", "fixed": ["--concurrency", "1"], "options": {}},
+    "crawl": {"script": "scraper/crawl.py", "fixed": ["--concurrency", "1"], "options": {}},
     "classify": {"script": "classifier_extractor/classify.py", "fixed": [], "options": {}},
     "industry": {"script": "classifier_extractor/industry.py", "fixed": [],
                 "options": {"limit": "--limit"}},
@@ -187,7 +186,6 @@ LAUNCHABLE = {
     "label": {"script": "labeller/label.py", "fixed": [],
               "options": {"max_pairs": "--max-pairs"}},
 }
-LOGS_DIR = ROOT_DIR / "logs"  # one log per launch: logs/<stage>_<timestamp>.log
 LAUNCHED = {}  # stage -> Popen, for scripts started by this dashboard process
 LAUNCH_LOCK = threading.Lock()
 # crawl4ai's memory dispatcher silently throttles to zero pages below this
@@ -245,16 +243,8 @@ def _pid_is_python(pid: int) -> bool:
         kernel32.CloseHandle(handle)
 
 
-def _latest_log(stage: str):
-    logs = sorted(LOGS_DIR.glob(f"{stage}_*.log"), key=lambda p: p.stat().st_mtime, reverse=True)
-    return logs[0] if logs else None
-
-
 def _log_tail(stage: str, n: int = 4) -> list:
-    log = _latest_log(stage)
-    if log is None:
-        return []
-    lines = [l for l in _read_text(log).splitlines() if l.strip()]
+    lines = [l for l in _read_text(LOGS_DIR / f"{stage}.log").splitlines() if l.strip()]
     return [l[:220] for l in lines[-n:]]
 
 
@@ -287,15 +277,15 @@ def launch(stage: str, options: dict) -> tuple:
         if _run_state(stage) == "running":
             return False, f"{stage} is already running"
         LOGS_DIR.mkdir(exist_ok=True)
-        log_path = LOGS_DIR / f"{stage}_{time.strftime('%Y%m%d-%H%M%S')}.log"
+        log_path = LOGS_DIR / f"{stage}.log"
         cmd = [sys.executable, "-u", str(ROOT_DIR / spec["script"]), *spec["fixed"], *args]
         # utf-8 output: page titles are printed and would crash a cp1252 console encoder
         env = {**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
         # Own process group, no console: the run survives the dashboard being
         # closed, and a Ctrl+C in the dashboard's window doesn't reach it.
         flags = (subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.CREATE_NO_WINDOW) if os.name == "nt" else 0
-        with log_path.open("w", encoding="utf-8") as log:
-            log.write(f"$ {' '.join(cmd)}\n")
+        with log_path.open("a", encoding="utf-8") as log:
+            log.write(f"\n{RUN_MARK}{time.strftime('%Y-%m-%d %H:%M:%S')}: {' '.join(cmd)}\n")
             log.flush()
             LAUNCHED[stage] = subprocess.Popen(
                 cmd, cwd=ROOT_DIR, stdout=log, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL,
@@ -308,7 +298,7 @@ def stop(stage: str) -> tuple:
     files are already in its manifest, and in-flight ones are redone next run."""
     if stage not in LAUNCHABLE:
         return False, f"unknown stage {stage!r}"
-    pid_path = DOCS_DIR / f"_{stage}.pid"
+    pid_path = LOGS_DIR / f"{stage}.pid"
     pids = set()
     try:
         pids.add(int(pid_path.read_text(encoding="utf-8").strip()))
@@ -364,7 +354,7 @@ def _stage(key, name, script, state, processed, queue, **extra) -> dict:
 # ---------------------------------------------------------------------------
 
 def crawl_state() -> list:
-    """Raw per-seed results from docs/_crawl_state.json: crawl.py's own
+    """Raw per-seed results from data/manifests/crawl_state.json: crawl.py's own
     structured record of every seed it has finished (or given up on),
     independent of what's still in the text log. Each entry is
     [label, url, status, note, saved_count]."""
@@ -384,7 +374,7 @@ def crawl_stage(state: list) -> dict:
     rather than treating it as done -- and it stops the dashboard reporting
     a green 86/86 while 63 of those seeds have never produced a page, which
     is exactly what it used to do."""
-    content = _read_text(_crawl_log())
+    content = _last_run(_read_text(LOGS_DIR / "crawl.log"))
     if _run_state("crawl") == "running":
         run_state = "running"
     elif content.rfind("Batch done.") > content.rfind("total seed URLs"):
@@ -409,7 +399,7 @@ def crawl_stage(state: list) -> dict:
              ("skipped", content.count("  [SKIP]")), ("failed", content.count("  [FAIL]"))]
     note = f"{len(barren)} seed(s) have saved 0 pages and will be retried" if barren else None
     return _stage(
-        "crawl", "Crawl", "scrapper/crawl.py", run_state,
+        "crawl", "Crawl", "scraper/crawl.py", run_state,
         processed=len(productive), queue=queue,
         unit="seeds", output=pages_saved, output_unit="pages saved",
         current=current, chips=chips, note=note,
@@ -418,7 +408,7 @@ def crawl_stage(state: list) -> dict:
 
 
 def classify_stage(records: list) -> dict:
-    """Queue = whatever is physically sitting in docs/unprocessed/. That
+    """Queue = whatever is physically sitting in data/pages/unprocessed/. That
     folder is exactly "crawled, not yet classified" -- classify.py moves each
     file out as it goes -- so the directory listing is the queue, no
     bookkeeping needed."""
@@ -577,7 +567,7 @@ def pipeline() -> dict:
             "options": list(spec["options"]),
             "choices": {k: allowed for k, (_, allowed) in spec.get("choices", {}).items()},
             "log": _log_tail(s["key"]),
-            "log_file": (_latest_log(s["key"]) or Path("")).name,
+            "log_file": f"logs/{s['key']}.log",
         }
     free = _free_ram_gb()
     return {
@@ -755,7 +745,7 @@ PAGE = """<!doctype html>
 </head>
 <body>
   <header><h1>Pipeline</h1><span id="headline" class="muted"></span></header>
-  <div class="subtitle">RUNNING comes from each script&#39;s PID file (docs/_&lt;stage&gt;.pid), so it is exact. Start/Stop run the fixed command shown on each card; output goes to logs/. Runs keep going if this dashboard is closed.</div>
+  <div class="subtitle">RUNNING comes from each script&#39;s PID file (logs/&lt;stage&gt;.pid), so it is exact. Start/Stop run the fixed command shown on each card; output is appended to logs/&lt;stage&gt;.log. Runs keep going if this dashboard is closed.</div>
 
   <div class="pipeline" id="pipeline"></div>
   <div class="wide-panel" id="industry-panel"></div>
