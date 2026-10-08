@@ -73,7 +73,7 @@ _ANCHOR = re.compile(
     r"Singapore|\bS\$|\bSG\b|\b(?:MAS|IRAS|ACRA|MOM|PDPA|PDPC|NEA|SFA|BCA|LTA|URA|HSA|MOH|CSA|IMDA|SGX|IRDA|"
     r"JTC|PUB|MPA|CAAS|EMA|MSF|NCSS|IPOS|SFRS|CPF|HDB|EDG|PSG)\b|NParks|Enterprise Singapore|"
     r"WSH Act|bizSAFE|Employment Act|Companies Act|Security of Payment Act|PSSCOC|Healthcare Services Act|"
-    # the area roll in extract_variations.json names these, and a gig set in "a clinic in Bedok"
+    # the old area roll in extract_variations.json named these, and a gig set in "a clinic in Bedok"
     # is set in Singapore without the word
     r"\b(?:Punggol|Tuas|Jurong|Toa Payoh|Paya Lebar|Bedok|Pasir Panjang|Woodlands|Tampines|Changi|Sentosa|"
     r"Orchard|Marina Bay|Raffles Place|Ang Mo Kio|Yishun|Sengkang|Clementi|Kallang|Bishan|Serangoon|"

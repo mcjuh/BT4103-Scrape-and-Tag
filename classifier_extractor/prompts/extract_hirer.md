@@ -42,8 +42,9 @@ would plausibly face it:
   the finance operations team at a ...").
 - A local government body becomes a statutory board, town council or government agency team.
 - Give the organisation an approximate size (staff, outlets, sites, vessels, clients or
-  beneficiaries). Size and area are setting, not requirements, and size is the only figure you
-  may add. Area: {area_instruction}
+  beneficiaries) only when it tells a specialist how big the job is (laptops to secure, outlets
+  to cover, SKUs to rewrite). Size and area are setting, not requirements, and size is the only
+  figure you may add. Area: {area_instruction}
 - A smaller hirer never means a bigger task. Keep the slice as small as KEEP IT SMALL says: if
   the source's work was a build or rollout, the gig is usually the assessment, design or one
   fix that comes before it.
@@ -116,36 +117,61 @@ Audit for Central Kitchen", "Review Franchise Agreement Before Signing", "Map Se
 Elderly Residents". Bad: "Senior Food Safety Consultant", "Experienced Lawyer Needed". No generic
 filler such as "Help Needed" or "Project Opportunity".
 
+PUBLIC POST
+The gig is posted publicly, before anyone is hired, and is read by every specialist browsing the
+marketplace, including the hirer's competitors, staff and counterparties. Write what lets the
+right specialist see the work fits them; leave out what the hirer would only tell the person
+they end up hiring. Be specific about the WORK and general about the ORGANISATION.
+- Keep: the kind of organisation, the task, the domain, the systems, tools and tech stack, the
+  standards, regulations and licences involved, required qualifications, and figures that size
+  or define the work (volumes, counts, targets, tolerances).
+- Leave out: the story behind the need (who resigned, what broke, what was lost, who disagrees,
+  what was already tried), insiders and their roles or workloads, counterparties (an insurer,
+  funder, customer, competitor or contractor and what they asked for), contract terms, claim
+  amounts and other money at stake, exact locations, and internal deadlines. A hard start date
+  or deadline the source gives goes in additional_notes, not the description.
+- When the reason for the work defines its scope, state it as a plain category: "ahead of a
+  bizSAFE audit", "to meet a customer's corrective action request", "for an upcoming licence
+  application". Never as a story.
+Check each sentence twice. Would a suitable specialist bid differently without it? If not, cut
+it. Would the hirer mind a competitor or one of its own staff reading it? If so, make it general
+("employment contract matters", "operating locally") or cut it.
+
 short_description
 Write it the way a real client posts a gig on a freelance marketplace, before the work begins:
-plain, specific, and slightly informal. Cover, in this order:
-1. The situation: what kind of organisation this is (see WHO IS HIRING), the problem or need it
-   has, and why it needs the work now. Use the trigger the source gives (e.g. a failed
-   inspection, an insurer or customer requirement, a new regulation); if it gives none, use the
-   plain reason the work itself implies (an upcoming audit for audit-readiness work, an expiring
-   licence for a renewal). Never invent incidents, failures, disputes or figures.
-2. The work: what the specialist has to do -- only the source-backed scope, tools, standards and
-   constraints. Describe tasks, not the ideal candidate's personality or career.
-3. A sentence starting "Deliverable:" naming the concrete output handed over at the end (e.g.
-   "Deliverable: written gap analysis and prioritised action list."). It must be source-backed.
+plain, specific about the work, and slightly informal. Cover, in this order:
+1. The opening: one short sentence, either a plain overview of what the organisation does (as a
+   search-engine summary would put it: "We are a contract manufacturer of aluminium parts for
+   medical devices.") or a plain statement of the need ("We need our GST filings brought up to
+   date."). No backstory: see PUBLIC POST.
+2. The ask and the work: what kind of specialist is wanted and what they have to do -- only the
+   source-backed scope, tools, standards, qualifications and constraints. Describe tasks, not the
+   ideal candidate's personality or career. Marketplace phrasing such as "Looking for ...",
+   "Seeking ..." or "Need someone to ..." is fine.
+3. The deliverable: one sentence naming the concrete output handed over at the end. It must be
+   source-backed. Form: {deliverable_instruction}
 4. A sentence starting "Engagement duration:" with a realistic estimate for one specialist doing
    the scoped slice, usually 1-8 weeks and never more than 6 months (e.g. "Engagement duration:
    3-4 weeks."). Don't reuse the source's timeline for the whole programme; it describes the
-   team's work, not this slice.
+   team's work, not this slice. Always use exactly this label.
+The deliverable sentence is always the second-last sentence and "Engagement duration:" always the
+last. Nothing about the work comes after them.
 
 Example of the target shape (a different business, for form only -- never copy its details):
-"We run three physiotherapy clinics in Singapore and our appointment no-show rate has climbed to about 18%.
-We need someone to look at our booking and reminder process, pull the last six months of
-appointment data, and recommend changes we can make with our existing booking software.
-Deliverable: short report with the no-show analysis and a ranked list of fixes. Engagement
-duration: 3-4 weeks."
+"We run a group of physiotherapy clinics in Singapore. Looking for someone to review our booking
+and reminder process with a view to cutting appointment no-shows: pull six months of appointment
+data, find where the drop-offs happen, and recommend changes we can make within our existing
+booking software. At the end we'd like a short report with the analysis and a ranked list of
+fixes. Engagement duration: 3-4 weeks."
 
 Voice and opening: {voice_instruction}
 
-Be specific. Carry over every concrete figure the source gives for this slice of work: volumes,
-error or failure rates, targets, and amounts (apart from enterprise-scale figures, which WHO IS
-HIRING says to drop). Name the systems, tools and local rules involved. A gig with no specifics
-reads as generic; never invent a figure other than the organisation's size.
+Be specific about the work. Carry over the concrete figures the source gives that size or define
+this slice: volumes, counts, error rates, targets and tolerances (apart from enterprise-scale
+figures, which WHO IS HIRING says to drop). Leave out figures about the organisation's troubles
+(losses, amounts in dispute, failure history), per PUBLIC POST. Name the systems, tools and
+local rules involved. A gig with no specifics about the work reads as generic; never invent a
+figure other than the organisation's size.
 
 Keep it compact:
 - One or two short paragraphs. Use 2-4 bullets only when there are several distinct tasks.
@@ -189,7 +215,7 @@ outcomes. When in doubt, omit a detail rather than infer it.
   Singapore setting, size and area (see WHO IS HIRING) are setting, not requirements.
 - Do not add historic project dates, completed work, prior failures, remedial work, new
   incidents, urgency, or business problems unless explicitly established as the original need.
-  The plain reason the work itself implies (see short_description, point 1) is allowed.
+  A plain category of reason the work itself implies (see PUBLIC POST) is allowed.
 - Anonymise gig_title and short_description: never name the publishing firm, the client, or any
   other company, government body, division, practice, or team. Use a generic description instead
   (e.g. "a Singapore-based [kind of organisation]", "the finance operations team"). Keep named
@@ -199,7 +225,7 @@ outcomes. When in doubt, omit a detail rather than infer it.
 - Keep the scope to one slice one specialist could do alone in about 1-8 weeks (see KEEP IT
   SMALL). Slicing is not inventing: every task in the slice must still come from the source.
 - Prefer concrete requirements over background, promotional language, or repeated explanations
-  of why the work matters.
+  of why the work matters. Background is one plain sentence at most (see PUBLIC POST).
 
 Return {{}} for non-qualifying material. Never add keys such as "status", "reason", "error",
 "role", or "required_skills".

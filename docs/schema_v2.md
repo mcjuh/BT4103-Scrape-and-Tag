@@ -57,7 +57,7 @@ directly, so nothing has to be re-parsed from prose.
 |---|---|---|---|
 | (hirer; one hirer, many gigs) | `hirer_ref` | string, `H-` plus 8 hex characters from the source file name | code (one hirer per record for now) |
 | Gig Title | `gig_title` | string, 3-10 words | LLM |
-| Short Gig Description | `short_description` | string, ends with `Deliverable:` and `Engagement duration:` sentences | LLM |
+| Short Gig Description | `short_description` | string, ends with a deliverable sentence (labelled `Deliverable:` or not) and an `Engagement duration:` sentence | LLM |
 | (matching signal) | `duration_weeks_min`, `duration_weeks_max` | integer or null | code, parsed from the duration sentence |
 | (matching signal) | `additional_notes` | string or null | LLM, only when the source states budget, timeline or seniority |
 | Category / Specialisation / search tag | `tags` (nested, below) | object | tagger + code |
@@ -148,7 +148,7 @@ is a lookup, the platform could also join on the category name and leave the fie
   "source_company": "Example Firm",
   "source_company_team": null,
   "gig_title": "Draft Data Processing Agreements for Payments Start-up",
-  "short_description": "We're a payments start-up in Singapore with 30 staff, and we need to update our data processing agreements to meet PDPA and MAS requirements. Our in-house team is stretched thin. We need someone to draft and review 20-30 data processing agreements using our existing privacy templates, and to align them with how we handle data today. Deliverable: completed agreements and a brief summary of the compliance checks. Engagement duration: 3-5 weeks.",
+  "short_description": "We're a payments start-up in Singapore, regulated by MAS. Looking for someone to draft and review 20-30 data processing agreements against PDPA and MAS requirements, working from our existing privacy templates and aligning them with how we handle data today. At the end we'd like the completed agreements and a brief summary of the compliance checks. Engagement duration: 3-5 weeks.",
   "duration_weeks_min": 3,
   "duration_weeks_max": 5,
   "additional_notes": null,

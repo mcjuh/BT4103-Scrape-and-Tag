@@ -7,14 +7,17 @@
       "Detailed": {"weight": 0.1, "instruction": "Usually 95-120 words. Use a short opening plus 2-3 bullets only when the one task has several distinct steps."}
     },
     "voice": {
-      "Owner intro": {"weight": 0.55, "instruction": "Write as the organisation, in the first person plural. Open by saying who you are and your situation (e.g. \"We run a chain of [n] [businesses] in Singapore.\", \"We are a [size] [kind of organisation] in [area] that ...\"), then the problem and what you need."},
-      "Problem first": {"weight": 0.25, "instruction": "Write as the organisation (\"we\", \"our\"). Open with the problem you have run into (e.g. \"Our month-end close takes twelve days and ...\"), then say who you are in a clause and what work is needed."},
-      "Individual poster": {"weight": 0.1, "instruction": "Write as the one manager or owner posting the gig, using \"I\" and \"my team\" or \"our\" (e.g. \"I run [function] at a [kind of organisation] and need...\"). Don't invent a name or a job title the source doesn't support."},
-      "Context first": {"weight": 0.1, "instruction": "Open with one sentence setting the scene in the third person (e.g. \"A [kind of organisation] in Singapore is [situation].\"), then say what is needed. Avoid \"we\" throughout."}
+      "Overview first": {"weight": 0.4, "instruction": "Write as the organisation, in the first person plural. Open with one plain sentence on what the organisation does, at the level of a search-engine summary (e.g. \"We are a [kind of organisation] in Singapore.\", \"We run a small chain of [businesses].\"), then say what kind of specialist you need and for what."},
+      "Need first": {"weight": 0.4, "instruction": "Write as the organisation (\"we\", \"our\"). Open with the ask itself (e.g. \"Looking for a [kind of specialist] to ...\", \"Seeking someone experienced in [field] to ...\"), then mention what kind of organisation you are in a short clause or sentence, then the work."},
+      "Individual poster": {"weight": 0.1, "instruction": "Write as the one manager or owner posting the gig, using \"I\" and \"my team\" or \"our\" (e.g. \"I look after [function] at a [kind of organisation] and need ...\"). Don't invent a name or a job title the source doesn't support."},
+      "Context first": {"weight": 0.1, "instruction": "Open with one plain third-person sentence on what the organisation does (e.g. \"A [kind of organisation] in Singapore is looking for ...\"), then say what is needed. Avoid \"we\" throughout."}
     },
     "area": {
-      "named": {"weight": 0.35, "instruction": "place the organisation in one Singapore area or estate that suits the business (e.g. a shipyard in Tuas, a factory in Jurong, a clinic in Bedok, a wholesaler in Pasir Panjang, an office in Paya Lebar), mentioned once in the opening sentence."},
-      "none": {"weight": 0.65, "instruction": "say only that it is in Singapore; do not name an area."}
+      "none": {"weight": 1.0, "instruction": "say only that it is in Singapore or operates locally; never name an estate, town or street. If the work needs a site visit, say it is on site in Singapore."}
+    },
+    "deliverable": {
+      "Labelled": {"weight": 0.4, "instruction": "start the sentence with \"Deliverable:\" and then name the output (e.g. \"Deliverable: written gap analysis and prioritised action list.\")."},
+      "Natural": {"weight": 0.6, "instruction": "say what gets handed over in an ordinary sentence, without a \"Deliverable:\" label (e.g. \"At the end we'd like a written gap analysis and a prioritised action list.\", \"The output is a working Excel model with a one-page guide.\", \"We expect a final report with the diagnosis and a corrective action plan.\"). It must still name the concrete output plainly."}
     }
   },
   "PROVIDER": {

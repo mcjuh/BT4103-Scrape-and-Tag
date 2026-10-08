@@ -45,7 +45,7 @@
     "short_description": {
       "type": "string",
       "x-filled-by": "llm",
-      "description": "The gig as the hirer would post it, 55-120 words per the detail roll, in a Singapore setting: who the organisation is, the need and why now, the work, then a sentence starting \"Deliverable:\" and a sentence starting \"Engagement duration:\" (1-8 weeks)."
+      "description": "The gig as the hirer would post it, 55-120 words per the detail roll, in a Singapore setting, written as a public post: a one-line overview of the organisation or the need (no backstory), the ask and the work, then a sentence naming the deliverable (labelled \"Deliverable:\" or in plain words) and last a sentence starting \"Engagement duration:\" (1-8 weeks)."
     },
     "duration_weeks_min": {
       "type": ["integer", "null"],
