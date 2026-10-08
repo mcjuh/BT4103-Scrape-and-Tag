@@ -148,21 +148,21 @@ plain, specific about the work, and slightly informal. Cover, in this order:
    source-backed scope, tools, standards, qualifications and constraints. Describe tasks, not the
    ideal candidate's personality or career. Marketplace phrasing such as "Looking for ...",
    "Seeking ..." or "Need someone to ..." is fine.
-3. The deliverable: one sentence naming the concrete output handed over at the end. It must be
-   source-backed. Form: {deliverable_instruction}
+3. A sentence starting "Deliverable:" naming the concrete output handed over at the end (e.g.
+   "Deliverable: written gap analysis and prioritised action list."). It must be source-backed.
 4. A sentence starting "Engagement duration:" with a realistic estimate for one specialist doing
    the scoped slice, usually 1-8 weeks and never more than 6 months (e.g. "Engagement duration:
    3-4 weeks."). Don't reuse the source's timeline for the whole programme; it describes the
    team's work, not this slice. Always use exactly this label.
-The deliverable sentence is always the second-last sentence and "Engagement duration:" always the
-last. Nothing about the work comes after them.
+The "Deliverable:" sentence is always the second-last sentence and "Engagement duration:" always
+the last. Nothing about the work comes after them.
 
 Example of the target shape (a different business, for form only -- never copy its details):
 "We run a group of physiotherapy clinics in Singapore. Looking for someone to review our booking
 and reminder process with a view to cutting appointment no-shows: pull six months of appointment
 data, find where the drop-offs happen, and recommend changes we can make within our existing
-booking software. At the end we'd like a short report with the analysis and a ranked list of
-fixes. Engagement duration: 3-4 weeks."
+booking software. Deliverable: short report with the analysis and a ranked list of fixes.
+Engagement duration: 3-4 weeks."
 
 Voice and opening: {voice_instruction}
 

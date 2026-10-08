@@ -26,9 +26,8 @@ Return "retry" only for a clear, material defect:
   roles, names a counterparty and what it demanded (an insurer, funder, customer, competitor or
   contractor), quotes contract terms or money at stake, names a Singapore estate or street, or
   gives an internal deadline;
-- the short_description has no closing sentence naming a concrete deliverable (with or without a
-  "Deliverable:" label), or the deliverable and "Engagement duration:" sentences are not the last
-  two sentences.
+- the short_description has no "Deliverable:" sentence naming a concrete output, or the
+  "Deliverable:" and "Engagement duration:" sentences are not the last two sentences.
 
 The "Engagement duration:" line is an allowed estimate: do NOT flag it as unsupported just because
 the source doesn't state a duration, as long as it is plausible for the scoped work and at most 6
@@ -49,8 +48,7 @@ hirer. Do NOT flag a gig for any of these:
   foreign counterpart, or naming the Singapore regulator, licence or scheme that plainly governs
   the work described (e.g. SFA for food hygiene work, bizSAFE for workplace safety work);
 - a short, plain reason for the gig that the work itself implies (e.g. an upcoming audit for
-  audit-readiness work);
-- a deliverable sentence without a "Deliverable:" label, as long as it names the output.
+  audit-readiness work).
 Flag it when the setting adds a separate compliance task, requirement or scheme the work does not
 fall under, or invents an incident, failure, dispute or figure other than the organisation's
 size.

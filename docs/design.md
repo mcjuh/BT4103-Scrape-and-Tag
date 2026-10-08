@@ -164,12 +164,10 @@ difference is the prompts and `ENTITY_CONFIG`:
     "Problem first", and later by "Need first" and "Overview first".
   - It stays **small**: one self-contained piece a single specialist could finish in under a
     year, carved out of a big programme if necessary.
-  - The description runs overview -> ask and work -> deliverable -> `Engagement duration:` in at
+  - The description runs overview -> ask and work -> `Deliverable:` -> `Engagement duration:` in at
     most 120 words (the client's are 60-92). It is written as a public post: specific about the
     work, general about the organisation (no backstory, insiders, counterparties, contract terms
-    or exact location; the PUBLIC POST section of `extract_hirer.md`). The deliverable sentence
-    is labelled `Deliverable:` on about 40% of gigs (the `deliverable` roll) and in plain words on
-    the rest; `Engagement duration:` is always labelled because code parses it. The duration is the one detail the model may
+    or exact location; the PUBLIC POST section of `extract_hirer.md`). The duration is the one detail the model may
     estimate without the source. The reviewer (`review_hirer.md`) accepts it if it's plausible
     and under 12 months, and flags a gig that is too big.
   - On a 10-page dry run: every gig had both lines, durations from 4 weeks to 8 months, 59-110

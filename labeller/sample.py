@@ -9,7 +9,7 @@ cross-product labelling run (every sampled gig x every sampled provider).
 
 "Good" means:
   gigs       the first-pass grounding review kept it (no repair needed), it is in
-             the current prompt's format (ends in an Engagement duration: line), it has a
+             the current prompt's format (has a Deliverable: line), it has a
              real industry tag (not OTHER), no additional notes, a unique title,
              and a description of 300-1200 chars once the engagement line is gone.
   providers  classify.py called it PROVIDER (not UNCERTAIN), all five profile
@@ -80,7 +80,7 @@ def good_hirers(rows: list) -> list:
         notes = r["hire_description_additional_notes"].strip()
         title = r["hire_title"].strip().lower()
         if ((m.get("review") or {}).get("decision") != "keep" or m.get("repaired")
-                or not ENGAGEMENT_RE.search(r["hire_description"].strip())
+                or "Deliverable:" not in desc
                 or r["industry"] in ("", "OTHER")
                 or notes not in ("", "null")
                 or not 300 <= len(desc) <= 1200

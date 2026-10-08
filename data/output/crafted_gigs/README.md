@@ -5,10 +5,9 @@ learn from. They are written the way a hirer fills in the platform's gig form, n
 studies: they carry only a title, a short description, optional notes, and user-picked SkillsFuture tags.
 The descriptions follow `classifier_extractor/prompts/extract_hirer.md` (its PUBLIC POST section and
 short_description order): a one-line overview of the organisation or the need, the ask and the work, a
-sentence naming the deliverable, and last an `Engagement duration:` sentence. They are specific about the
+`Deliverable:` sentence, and last an `Engagement duration:` sentence. They are specific about the
 work and general about the organisation: no backstory, insiders, counterparties, contract terms, money at
-stake or named estates. Organisation size is left out unless it sizes the work. The deliverable sentence is
-labelled `Deliverable:` on 12 of the 30, as the extractor's `deliverable` roll does about 40% of the time.
+stake or named estates. Organisation size is left out unless it sizes the work.
 
 - `hirers_crafted.json`: the 30 records, validated against the schema. `source_file` starts with
   `crafted-gig__`, `extracted_by_model` is `crafted`, `hirer_ref` and the duration weeks are filled with
@@ -16,14 +15,12 @@ labelled `Deliverable:` on 12 of the 30, as the extractor's `deliverable` roll d
   `taxonomy.nest()`, so every category, track and skill is a real SkillsFuture name. `group` is null, as for
   extracted records.
 - `design.csv`: what each gig was written to cover (domain, the seniority the work implies, execution or
-  advisory or mixed, generic or specific skills, word count, weeks, hirer notes, whether the deliverable
-  sentence is labelled). It is a coverage sheet for the people
+  advisory or mixed, generic or specific skills, word count, weeks, hirer notes). It is a coverage sheet for the people
   building features and labels; it is not in the records, so nothing downstream can read it as an answer.
 
 Coverage: 21 SkillsFuture sectors; implied seniority 11 mid, 13 senior, 6 expert; mode of work 12
 execution, 11 advisory, 7 mixed, spread across every seniority level so that the two do not move together;
-8 generic, 16 specific and 6 mixed skill sets; 43-103 words; the `Deliverable:` label spread over every
-seniority, mode and specificity level; 1 to 12 weeks; 8 gigs with hirer notes
+8 generic, 16 specific and 6 mixed skill sets; 40-101 words; 1 to 12 weeks; 8 gigs with hirer notes
 (a budget, a start date or a required qualification).
 
 The descriptions were rewritten on 2026-10-08 from a first version whose openings told the story behind

@@ -14,10 +14,6 @@
     },
     "area": {
       "none": {"weight": 1.0, "instruction": "say only that it is in Singapore or operates locally; never name an estate, town or street. If the work needs a site visit, say it is on site in Singapore."}
-    },
-    "deliverable": {
-      "Labelled": {"weight": 0.4, "instruction": "start the sentence with \"Deliverable:\" and then name the output (e.g. \"Deliverable: written gap analysis and prioritised action list.\")."},
-      "Natural": {"weight": 0.6, "instruction": "say what gets handed over in an ordinary sentence, without a \"Deliverable:\" label (e.g. \"At the end we'd like a written gap analysis and a prioritised action list.\", \"The output is a working Excel model with a one-page guide.\", \"We expect a final report with the diagnosis and a corrective action plan.\"). It must still name the concrete output plainly."}
     }
   },
   "PROVIDER": {
