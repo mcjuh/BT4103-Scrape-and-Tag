@@ -36,9 +36,11 @@ against the files.
 
 Outputs, rebuilt in full each run (original columns first, then the new ones):
   data/output/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed, start_by,
-                                        commitment, duration_weeks, sector, track
-  data/output/providers_enriched.csv  + rate_per_hour, seniority, available_from, capacity,
-                                        availability, sector, track
+                                        commitment, duration_weeks, sector, track, used_in_ml
+  data/output/providers_enriched.csv  + rate_per_hour, available_from, capacity,
+                                        availability, sector, track, used_in_ml
+Provider seniority is judged and drives the rate bands, but is not written out: the
+ranker learns it from the text.
 --tag v2 reads/writes the *_v2 files instead (see use_tag).
 Unknown values stay blank (null), never a filler: a record whose judgement
 failed gets blanks until the next run retries it.
@@ -88,7 +90,7 @@ ENTITIES = {
         "prompt": "judge_hirer.md",
         "text_fields": ["hire_title", "hire_description", "hire_description_additional_notes", "industry"],
         "new_fields": ["budget_lo", "budget_hi", "seniority_needed", "start_by", "commitment", "duration_weeks",
-                       "sector", "track"],
+                       "sector", "track", "used_in_ml"],
     },
     "PROVIDER": {
         "csv": OUTPUT_DIR / "providers.csv",
@@ -96,8 +98,8 @@ ENTITIES = {
         "prompt": "judge_provider.md",
         "text_fields": ["about_title", "about_description", "services_offered_title",
                         "services_offered_description", "relevant_experience", "industry"],
-        "new_fields": ["rate_per_hour", "seniority", "available_from", "capacity", "availability",
-                       "sector", "track"],
+        "new_fields": ["rate_per_hour", "available_from", "capacity", "availability",
+                       "sector", "track", "used_in_ml"],
     },
 }
 
@@ -212,6 +214,15 @@ def _pick(data: dict, key: str, allowed: list) -> str:
     return value
 
 
+def _pick_bool(data: dict, key: str) -> bool:
+    value = data.get(key)
+    if isinstance(value, str):
+        value = {"true": True, "false": False}.get(value.strip().lower())
+    if not isinstance(value, bool):
+        raise ValueError(f"{key} must be true or false, got {data.get(key)!r}")
+    return value
+
+
 def _pick_sector_track(data: dict) -> dict:
     """The model's sector and track, spelled as in the taxonomy. The track must
     be listed under that sector; anything else raises, so it's retried."""
@@ -237,6 +248,7 @@ def validate(entity_type: str, data: dict) -> dict:
                 "price_tier": _pick(data, "price_tier", TIERS),
                 "urgency": _pick(data, "urgency", URGENCIES),
                 "days_per_week": min(5, max(1, days)),
+                "used_in_ml": _pick_bool(data, "used_in_ml"),
                 **_pick_sector_track(data),
                 "reason": str(data.get("reason") or "")[:300]}
     score = data.get("price_score")
@@ -247,6 +259,7 @@ def validate(entity_type: str, data: dict) -> dict:
     return {"seniority": _pick(data, "seniority", LEVELS),
             "price_tier": _pick(data, "price_tier", TIERS),
             "price_score": min(10, max(1, score)),
+            "used_in_ml": _pick_bool(data, "used_in_ml"),
             **_pick_sector_track(data),
             "reason": str(data.get("reason") or "")[:300]}
 
@@ -425,6 +438,7 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
             # .get: judgements made before sector/track existed leave them blank
             "sector": judgement.get("sector"),
             "track": judgement.get("track"),
+            "used_in_ml": judgement.get("used_in_ml"),
         }
     if judgement is None:
         return {}
@@ -439,12 +453,12 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
         when = f"from {dt.date.fromisoformat(available_from):%d %b %Y}"
     return {
         "rate_per_hour": rate,
-        "seniority": level,
         "available_from": available_from,
         "capacity": capacity,
         "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
         "sector": judgement.get("sector"),
         "track": judgement.get("track"),
+        "used_in_ml": judgement.get("used_in_ml"),
     }
 
 

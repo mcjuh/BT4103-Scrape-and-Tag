@@ -10,8 +10,8 @@ python run.py enrich --no-llm     # rebuild the outputs from saved judgements (n
 
 | Output | New columns |
 |---|---|
-| `data/output/hirers_enriched.csv` | `budget_lo`, `budget_hi` (S$/hour), `seniority_needed`, `start_by` (date or `asap`), `commitment` (days/week), `duration_weeks`, `sector`, `track` |
-| `data/output/providers_enriched.csv` | `rate_per_hour` (S$), `seniority`, `available_from` (date or `now`), `capacity` (days/week), `availability` (display text), `sector`, `track` |
+| `data/output/hirers_enriched.csv` | `budget_lo`, `budget_hi` (S$/hour), `seniority_needed`, `start_by` (date or `asap`), `commitment` (days/week), `duration_weeks`, `sector`, `track`, `used_in_ml` (true/false) |
+| `data/output/providers_enriched.csv` | `rate_per_hour` (S$), `available_from` (date or `now`), `capacity` (days/week), `availability` (display text), `sector`, `track`, `used_in_ml` (true/false) |
 
 `sector` and `track` come from SkillsFuture's skills framework (`data/reference/skillsfuture/sector.csv`,
 `track.csv`: 39 sectors, 247 tracks, the same files as the ranker's `pipeline/data_taxo/`). They place the
