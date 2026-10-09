@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema v2, the live schema extract.py validates against. x-filled-by says who writes each field: llm = the extraction prompt, code = extract.py, tagger = the two tagging calls assembled by code, external = populated after extraction outside the LLM. See docs/schema_v2.md.",
+  "title": "HireDocument",
+  "type": "object",
+  "required": [
+    "source_file",
+    "extracted_by_model",
+    "hirer_ref",
+    "gig_title",
+    "short_description"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "source_file": {
+      "type": "string",
+      "x-filled-by": "code",
+      "description": "Name of the crawled Markdown file this record was extracted from."
+    },
+    "extracted_by_model": {
+      "type": "string",
+      "x-filled-by": "code",
+      "description": "SOCLAAS model that extracted this record: one of MODEL_POOL in classifier_extractor/llm_pool.py."
+    },
+    "hirer_ref": {
+      "type": "string",
+      "x-filled-by": "code",
+      "description": "Synthetic id of the hirer posting the gig. One hirer can post several gigs, so records sharing a hirer_ref belong to the same hirer. Today every record is its own hirer."
+    },
+    "source_company": {
+      "type": ["string", "null"],
+      "x-filled-by": "llm",
+      "description": "Name of the publisher of the crawled page. Metadata only; never shown in the gig."
+    },
+    "source_company_team": {
+      "type": ["string", "null"],
+      "x-filled-by": "llm",
+      "description": "Name of the team on the crawled page if available, otherwise null. Metadata only."
+    },
+    "gig_title": {
+      "type": "string",
+      "x-filled-by": "llm",
+      "description": "3-10 words naming the TASK, not a job title or a person (e.g. \"Food Safety Audit for Central Kitchen\")."
+    },
+    "short_description": {
+      "type": "string",
+      "x-filled-by": "llm",
+      "description": "The gig as the hirer would post it, 55-120 words per the detail roll, in a Singapore setting, written as a public post: a one-line overview of the organisation or the need (no backstory), the ask and the work, then a sentence starting \"Deliverable:\" and last a sentence starting \"Engagement duration:\" (1-8 weeks)."
+    },
+    "duration_weeks_min": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "x-filled-by": "code",
+      "description": "Parsed from the \"Engagement duration:\" sentence. An LLM estimate, not a source fact."
+    },
+    "duration_weeks_max": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "x-filled-by": "code",
+      "description": "Parsed from the \"Engagement duration:\" sentence; equal to the minimum for a single value such as \"4 weeks\"."
+    },
+    "additional_notes": {
+      "type": ["string", "null"],
+      "x-filled-by": "llm",
+      "description": "Budget, timeline or seniority expectations, only when the source states them. Almost always null."
+    },
+    "tags": { "$ref": "#/definitions/tags" }
+  },
+  "definitions": {
+    "tags": {
+      "type": "object",
+      "x-filled-by": "tagger",
+      "description": "SkillsFuture tags, nested category -> specialisation -> skills. Assembled by code from two flat model replies and validated against data/reference/skillsfuture/, so every name is a real sector, track or skill. Empty categories list when nothing fits.",
+      "required": ["taxonomy_version", "categories"],
+      "additionalProperties": false,
+      "properties": {
+        "taxonomy_version": { "type": "string", "description": "e.g. \"sf_v1\"." },
+        "categories": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["name", "specialisations"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string", "description": "A SkillsFuture sector." },
+              "group": {
+                "type": ["string", "null"],
+                "enum": ["Industry", "Function", "Subject", "Others", null],
+                "x-filled-by": "external",
+                "description": "Which heading the platform's Category list shows this category under. Left null by the extractor; populated afterwards from the platform's own category list, never by the LLM."
+              },
+              "specialisations": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "required": ["name", "search_tag", "skills"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": { "type": "string", "description": "A SkillsFuture track listed under this sector." },
+                    "search_tag": { "type": "string", "description": "\"<track> (<sector>)\", the platform's search tag." },
+                    "skills": {
+                      "type": "array",
+                      "maxItems": 8,
+                      "items": { "type": "string" },
+                      "description": "SkillsFuture TSC titles linked to this track. May be empty."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

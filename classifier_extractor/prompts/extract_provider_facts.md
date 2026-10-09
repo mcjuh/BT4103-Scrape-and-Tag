@@ -41,7 +41,7 @@ else, and change nothing else:
   jurisdiction (e.g. Latin American due diligence, German contract law, US tax), keep it and frame
   the service for Singapore businesses that deal with that market ("for Singapore companies
   expanding into Latin America").
-- Local rules. In the service description you may name the Singapore laws, regulators, standards
+- Local rules. In each service_detail you may name the Singapore laws, regulators, standards
   and schemes that plainly govern the service even when the source names none, the way a Singapore
   client would search for them (e.g. restructuring -> the IRDA; tax -> IRAS and the Income Tax Act;
   data protection -> PDPA and the PDPC; financial advice, banking, insurance, payments -> MAS;
@@ -59,8 +59,9 @@ else, and change nothing else:
 The outcome, scope and scale of each fact stay exactly as the source states them; only the setting
 changes. Things that are never localised:
 - Personal facts: nationality, languages, degrees and the universities that awarded them, national
-  teams, honours and awards. Describe them generically ("represented a national team"); never say
-  the person represented or served Singapore.
+  teams, honours and awards, and the credentials in "credentials". Describe a national team or
+  honour generically ("represented a national team"); never say the person represented or served
+  Singapore, and never swap a credential for a Singapore one.
 - A government body or regulator the person WORKED FOR. Describe it generically ("a national
   financial regulator"); never name it, and never swap it for a named Singapore agency.
 Never write a sentence about the source itself ("No certifications were mentioned in the source").
@@ -70,32 +71,49 @@ If the source is not about one specific individual's own career (for example a t
 company page, or a list of several people), return exactly: {{}}
 
 Apart from the Singapore localisation above, this pass is ONLY factual extraction and
-condensation. Do not add marketing language, authority
-framing, stylistic hooks, or invented credentials. Prioritise what the source says about the
-individual's own professional role, specialisation, experience, responsibilities, projects,
-accomplishments, and expertise. Condense redundant information and keep the wording neutral.
+condensation. Do not add marketing language, authority framing, stylistic hooks, or invented
+credentials. Prioritise what the source says about the individual's own professional role,
+specialisation, experience, responsibilities, projects, accomplishments, and expertise. Condense
+redundant information and keep the wording neutral.
 
-Return ONLY valid JSON with exactly these keys, and no others (null when the source doesn't
-support a field):
+Return ONLY valid JSON with exactly these keys, and no others (null, or an empty list for a list
+field, when the source doesn't support it):
 {field_block}
 
 in exactly this shape:
 {skeleton}
 
-about_title: concise factual role/specialisation, at most 20 words.
-about_description: concise factual summary of the individual's experience, 70-100 words. Include
-years of experience, past roles (described generically), and professional registrations or
-certifications when the source states them.
-services_offered_title / services_offered_description: the service the individual's stated
-expertise lets them offer, as ONE engagement a single client could hire them for alone (e.g.
-"Construction Claims Preparation and Dispute Advisory"), based only on what the source says they
-do. Null if the source gives no clear expertise.
+FIELDS
+title: the job title for a profile card, 2-8 words, plain and factual, from the individual's stated
+role or specialisation (e.g. "Forensic Accountant"). Not a sales hook, and no "Former" or "Senior"
+unless the source's own title says so.
+
+credentials: the professional registrations, certifications and memberships the source states, one
+per item, as the source names them (e.g. "Certified Public Accountant (CPA)", "Member, INSOL
+Europe"). Degrees go in about_bio, not here. An empty list when the source states none.
+
+years_experience: whole years the individual has worked in their field. Use the tenure the source
+states; if it states none but gives start and end years for their roles, add them up as of 2026 and
+round down. If neither is given, null. Never estimate it from seniority or job titles.
+
+about_headline: concise factual role/specialisation, at most 20 words.
+
+about_bio: concise factual summary of the individual's experience, 70-100 words: their
+specialisation, years of experience, past roles (described generically) and degrees. Do not repeat
+the credentials list or the achievements.
+
+services: the 1-3 services the individual's stated expertise lets them offer, based only on what
+the source says they do, best fit first. Most individuals have ONE body of work and so ONE service;
+add a second or third only for clearly separate services the source supports, never by splitting
+one service up to fill the list. Each service is ONE engagement a single client could hire them
+for alone, with a service_title (e.g. "Construction Claims Preparation and Dispute Advisory") and a
+service_detail. An empty list if the source gives no clear expertise.
 The buyers on this marketplace are mostly Singapore SMEs, family businesses, clinics, F&B
 operators, contractors, startups and charities, plus some listed SMEs and teams inside larger
-organisations. Describe the service as the individual would sell it to them, not as a large
+organisations. Describe each service as the individual would sell it to them, not as a large
 firm's practice: for "leads the firm's global restructuring practice", write the restructuring
 advice one person can give one business.
-Write the description in 40-65 words, in this order:
+Write each service_detail in 40-65 words, in this order:
 1. Who it is for: the kinds of organisations and sectors, naming small and mid-sized businesses
    when the expertise suits them (e.g. "Practical advisory for food manufacturers and caterers
    looking to ...").
@@ -106,21 +124,15 @@ Write the description in 40-65 words, in this order:
    none; never one that doesn't fit the work. Leave out foreign-only programmes and rules that no
    Singapore buyer would search for (e.g. Medicaid, IRS partnership rules) unless they are the
    individual's whole specialism.
-4. Scope limit: {scope_limit_instruction}
-relevant_experience: 2-4 sentences of plain prose, 30-60 words in all (never more than 60), no
-bullets, no "I" and no name. Pick the facts most relevant to the service offered; drop the rest. Open with the TENURE SENTENCE below, then the individual's most relevant past roles
-(described generically) and their specific achievements (see ACHIEVEMENT RULES), and end, if the
-source supports it, with a professional registration or certification. Example shape, for form
-only: "15 years in food logistics and cold chain operations, including operations manager at a
-mid-size chilled food distributor. Has helped three SME food businesses move into chilled
-distribution." Null only if the source gives no tenure, no past role and no achievement.
+4. Scope limit, for the FIRST service only: {scope_limit_instruction}
 
-TENURE SENTENCE
-Open relevant_experience with how long the individual has worked in their field and what that
-field is (e.g. "18 years as a quantity surveyor specialising in construction disputes."). Use
-the tenure the source states; if it states none but gives start and end years for the
-individual's roles, add them up as of 2026 and round down. If neither is given, open with the
-individual's most senior role instead. Never estimate tenure from seniority or job titles alone.
+achievements: 0-5 items, one sentence each, the specific outcomes the individual personally
+produced (see ACHIEVEMENT RULES), most relevant to the services first. An empty list when the
+source has no outcome-level content; do not pad it.
+
+technical_proficiency: the tools, methods, standards and systems the source names, grouped by kind
+into at most 4 groups: a short category (1-3 words, e.g. "ERP systems", "Insolvency") and up to 8
+items each. Only what the source names; never infer. An empty list when it names none.
 
 SPECIFICITY
 Keep every figure the source gives: years, numbers of clients, projects or transactions,
@@ -157,8 +169,5 @@ The following are NEVER achievements, even when they feel specific:
 - Areas of expertise, skills, or specialisations
 - Education, degrees, fellowships, certifications
 - Articles, blog posts, talks, or any content authorship
-- Tenure statements ("20 years of experience"), apart from the one TENURE SENTENCE above
-- Restatements of about_description
-
-When the source has no outcome-level content, relevant_experience is just the tenure sentence and
-past roles. Do not pad it with weak achievements.
+- Tenure statements ("20 years of experience"): that is years_experience
+- Restatements of about_bio

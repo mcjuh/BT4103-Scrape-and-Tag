@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Tops up extract.py's records with the structured fields the ranker's Stage-2
-features need (see ranker_input_spec.md): budget, rate, seniority and
+features need (see docs/ranker_input_spec.md): budget, rate, seniority and
 availability, on both sides.
 
-    py -3 enricher/enrich.py                 # judge new/changed records, then rebuild the outputs
-    py -3 enricher/enrich.py --no-llm        # rebuild the outputs from saved judgements only
+    python run.py enrich                     # judge new/changed records, then rebuild the outputs
+    python run.py enrich --no-llm            # rebuild the outputs from saved judgements only
 
 Two steps, kept apart so the numbers can be regenerated for free:
 
@@ -13,7 +13,7 @@ Two steps, kept apart so the numbers can be regenerated for free:
    record's text and picks categories on one shared rubric: seniority
    (mid/senior/expert) and price tier (lean/standard/premium) for gigs and
    providers alike, plus urgency and days per week for gigs. Stored in
-   docs/enrich_manifest.jsonl, keyed by source_file and a hash of the text
+   data/manifests/enrich.jsonl, keyed by source_file and a hash of the text
    it read, so a re-extracted record is judged again and nothing else is.
 
 2. GENERATE (code, no LLM). rate_card.json turns those categories into
@@ -29,15 +29,18 @@ bios, which never state rates or availability). duration_weeks is the one
 field read from the text: the "Engagement duration:" line extract_hirer.md
 asks for, itself an LLM estimate.
 
-The judge also places each record in SkillsFuture's framework (taxonomy/:
-39 sectors, 247 tracks): the sector and track of the WORK for a gig, of the
-SERVICE for a provider. Code checks the pair against the files.
+The judge also places each record in SkillsFuture's framework
+(data/reference/skillsfuture/: 39 sectors, 247 tracks): the sector and track
+of the WORK for a gig, of the SERVICE for a provider. Code checks the pair
+against the files.
 
 Outputs, rebuilt in full each run (original columns first, then the new ones):
-  docs/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed, start_by,
-                                 commitment, duration_weeks, sector, track
-  docs/providers_enriched.csv  + rate_per_hour, seniority, available_from, capacity,
-                                 availability, sector, track
+  data/output/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed, start_by,
+                                        commitment, duration_weeks, sector, track, used_in_ml
+  data/output/providers_enriched.csv  + rate_per_hour, available_from, capacity,
+                                        availability, sector, track, used_in_ml
+Provider seniority is judged and drives the rate bands, but is not written out: the
+ranker learns it from the text.
 --tag v2 reads/writes the *_v2 files instead (see use_tag).
 Unknown values stay blank (null), never a filler: a record whose judgement
 failed gets blanks until the next run retries it.
@@ -61,18 +64,19 @@ from openai import OpenAI
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
-DOCS_DIR = ROOT_DIR / "docs"
+DATA_DIR = ROOT_DIR / "data"
+OUTPUT_DIR = DATA_DIR / "output"
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 
-MANIFEST_PATH = DOCS_DIR / "enrich_manifest.jsonl"
+MANIFEST_PATH = DATA_DIR / "manifests" / "enrich.jsonl"
 RATE_CARD_PATH = SCRIPT_DIR / "rate_card.json"
-# SkillsFuture sectors and tracks, copied from ranker/pipeline/data_taxo/ (built
-# there by normalise_taxo.py from the SkillsFuture workbook in skillsfuture/).
-TAXONOMY_DIR = SCRIPT_DIR / "taxonomy"
-PID_PATH = DOCS_DIR / "_enrich.pid"
+# SkillsFuture sectors and tracks: the same files extract.py's tagging reads
+# (sector.csv and track.csv match the ranker's pipeline/data_taxo/ copies).
+TAXONOMY_DIR = DATA_DIR / "reference" / "skillsfuture"
+PID_PATH = ROOT_DIR / "logs" / "enrich.pid"
 
 # Same pool as classifier_extractor/llm_pool.py. Duplicated rather than
-# imported: roles only talk to each other through docs/ (as labeller/ does).
+# imported: roles only talk to each other through data/ (as labeller/ does).
 MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 
 LEVELS = ["mid", "senior", "expert"]
@@ -81,21 +85,21 @@ URGENCIES = ["asap", "soon", "flexible"]
 
 ENTITIES = {
     "HIRER": {
-        "csv": DOCS_DIR / "hirers.csv",
-        "out": DOCS_DIR / "hirers_enriched.csv",
+        "csv": OUTPUT_DIR / "hirers.csv",
+        "out": OUTPUT_DIR / "hirers_enriched.csv",
         "prompt": "judge_hirer.md",
         "text_fields": ["hire_title", "hire_description", "hire_description_additional_notes", "industry"],
         "new_fields": ["budget_lo", "budget_hi", "seniority_needed", "start_by", "commitment", "duration_weeks",
-                       "sector", "track"],
+                       "sector", "track", "used_in_ml"],
     },
     "PROVIDER": {
-        "csv": DOCS_DIR / "providers.csv",
-        "out": DOCS_DIR / "providers_enriched.csv",
+        "csv": OUTPUT_DIR / "providers.csv",
+        "out": OUTPUT_DIR / "providers_enriched.csv",
         "prompt": "judge_provider.md",
         "text_fields": ["about_title", "about_description", "services_offered_title",
                         "services_offered_description", "relevant_experience", "industry"],
-        "new_fields": ["rate_per_hour", "seniority", "available_from", "capacity", "availability",
-                       "sector", "track"],
+        "new_fields": ["rate_per_hour", "available_from", "capacity", "availability",
+                       "sector", "track", "used_in_ml"],
     },
 }
 
@@ -131,14 +135,14 @@ for _cfg in ENTITIES.values():
 
 def use_tag(tag: str) -> None:
     """Enrich a tagged extraction (extract.py --out-tag), e.g. "v2": read
-    docs/hirers_v2.csv, write docs/hirers_v2_enriched.csv, and keep judgements
-    in docs/enrich_manifest_v2.jsonl, so they never leak into the untagged
+    data/output/hirers_v2.csv, write data/output/hirers_v2_enriched.csv, and keep
+    judgements in data/manifests/enrich_v2.jsonl, so they never leak into the untagged
     outputs (build_outputs falls back to a judgement of older text)."""
     global MANIFEST_PATH
-    MANIFEST_PATH = DOCS_DIR / f"enrich_manifest_{tag}.jsonl"
+    MANIFEST_PATH = DATA_DIR / "manifests" / f"enrich_{tag}.jsonl"
     for stem, cfg in (("hirers", ENTITIES["HIRER"]), ("providers", ENTITIES["PROVIDER"])):
-        cfg["csv"] = DOCS_DIR / f"{stem}_{tag}.csv"
-        cfg["out"] = DOCS_DIR / f"{stem}_{tag}_enriched.csv"
+        cfg["csv"] = OUTPUT_DIR / f"{stem}_{tag}.csv"
+        cfg["out"] = OUTPUT_DIR / f"{stem}_{tag}_enriched.csv"
 
 MAX_RETRIES = 4
 RETRY_BACKOFF_S = 2  # doubles each retry
@@ -210,6 +214,15 @@ def _pick(data: dict, key: str, allowed: list) -> str:
     return value
 
 
+def _pick_bool(data: dict, key: str) -> bool:
+    value = data.get(key)
+    if isinstance(value, str):
+        value = {"true": True, "false": False}.get(value.strip().lower())
+    if not isinstance(value, bool):
+        raise ValueError(f"{key} must be true or false, got {data.get(key)!r}")
+    return value
+
+
 def _pick_sector_track(data: dict) -> dict:
     """The model's sector and track, spelled as in the taxonomy. The track must
     be listed under that sector; anything else raises, so it's retried."""
@@ -235,6 +248,7 @@ def validate(entity_type: str, data: dict) -> dict:
                 "price_tier": _pick(data, "price_tier", TIERS),
                 "urgency": _pick(data, "urgency", URGENCIES),
                 "days_per_week": min(5, max(1, days)),
+                "used_in_ml": _pick_bool(data, "used_in_ml"),
                 **_pick_sector_track(data),
                 "reason": str(data.get("reason") or "")[:300]}
     score = data.get("price_score")
@@ -245,6 +259,7 @@ def validate(entity_type: str, data: dict) -> dict:
     return {"seniority": _pick(data, "seniority", LEVELS),
             "price_tier": _pick(data, "price_tier", TIERS),
             "price_score": min(10, max(1, score)),
+            "used_in_ml": _pick_bool(data, "used_in_ml"),
             **_pick_sector_track(data),
             "reason": str(data.get("reason") or "")[:300]}
 
@@ -423,6 +438,7 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
             # .get: judgements made before sector/track existed leave them blank
             "sector": judgement.get("sector"),
             "track": judgement.get("track"),
+            "used_in_ml": judgement.get("used_in_ml"),
         }
     if judgement is None:
         return {}
@@ -437,12 +453,12 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
         when = f"from {dt.date.fromisoformat(available_from):%d %b %Y}"
     return {
         "rate_per_hour": rate,
-        "seniority": level,
         "available_from": available_from,
         "capacity": capacity,
         "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
         "sector": judgement.get("sector"),
         "track": judgement.get("track"),
+        "used_in_ml": judgement.get("used_in_ml"),
     }
 
 
@@ -489,8 +505,8 @@ def main():
     parser.add_argument("--rps", type=float, default=1.0,
                         help="cap on requests/second across workers (SOCLAAS sustains ~1/s; default 1, 0 = no cap)")
     parser.add_argument("--tag", default=None,
-                        help="enrich a tagged extraction (extract.py --out-tag): read docs/hirers_TAG.csv and "
-                             "providers_TAG.csv, write *_TAG_enriched.csv, judgements in enrich_manifest_TAG.jsonl")
+                        help="enrich a tagged extraction (extract.py --out-tag): read data/output/hirers_TAG.csv and "
+                             "providers_TAG.csv, write *_TAG_enriched.csv, judgements in data/manifests/enrich_TAG.jsonl")
     args = parser.parse_args()
     global _PACER
     _PACER = Pacer(args.rps) if args.rps else None
@@ -498,6 +514,7 @@ def main():
         use_tag(args.tag)
 
     if not args.no_llm:
+        PID_PATH.parent.mkdir(exist_ok=True)
         PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
         try:
             run_judging(args)

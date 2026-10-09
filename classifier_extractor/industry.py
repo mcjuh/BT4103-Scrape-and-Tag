@@ -4,7 +4,7 @@ Tag every already-classified page with the INDUSTRY the work is done for --
 the third stage, between classify.py and extract.py.
 
 The taxonomy comes from the client: the `industry` column of their test
-workbook (client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx,
+workbook (data/reference/client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx,
 30 gigs), collapsed into groups, plus a few sectors the crawled corpus needs
 (Energy & Resources, Public Sector, Education) so they don't all land in
 OTHER. It lives in prompts/industry_taxonomy.json, versioned, and the prompt's
@@ -22,14 +22,14 @@ WHY ITS OWN STAGE, rather than a field on either neighbour:
   BEFORE deciding whether to spend an extraction on it, so it has to be known
   one stage earlier.
 - Not folded into classify_triage.md: classify.py only globs
-  docs/unprocessed/, so the 12k already-labelled pages could not be re-run
+  data/pages/unprocessed/, so the 12k already-labelled pages could not be re-run
   through it without moving them all back, and editing that prompt would
   perturb a PROVIDER/HIRER/IGNORE boundary that already has 12k rows behind it.
 
-So this reads classify.py's docs/manifest.jsonl (not its code, per the
+So this reads classify.py's data/manifests/classify.jsonl (not its code, per the
 project's one-way data-lake rule), reads each qualifying page out of its
 bucket folder, and appends one record per file to
-docs/industry_manifest.jsonl. Nothing is moved: industry is a second,
+data/manifests/industry.jsonl. Nothing is moved: industry is a second,
 orthogonal axis on the same files.
 
 By default only PROVIDER/HIRER/UNCERTAIN are tagged -- the IGNORE pages never
@@ -61,20 +61,23 @@ from llm_pool import model_for_file
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # classifier_extractor/ sits one level below the project root
-DOCS_DIR = ROOT_DIR / "docs"  # shared data lake every role reads/writes into
+DATA_DIR = ROOT_DIR / "data"  # shared data lake every role reads/writes into
+PAGES_DIR = DATA_DIR / "pages"
+MANIFESTS_DIR = DATA_DIR / "manifests"
+LOGS_DIR = ROOT_DIR / "logs"
 ENV_PATH = ROOT_DIR / ".env"
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 
-CLASSIFY_MANIFEST_PATH = DOCS_DIR / "manifest.jsonl"
-INDUSTRY_MANIFEST_PATH = DOCS_DIR / "industry_manifest.jsonl"
+CLASSIFY_MANIFEST_PATH = MANIFESTS_DIR / "classify.jsonl"
+INDUSTRY_MANIFEST_PATH = MANIFESTS_DIR / "industry.jsonl"
 
 # Where classify.py put each label's files. A page is read from here; it is
 # never moved -- industry is an extra axis on the existing buckets.
 BUCKET_DIRS = {
-    "PROVIDER": DOCS_DIR / "provider",
-    "HIRER": DOCS_DIR / "hirer",
-    "IGNORE": DOCS_DIR / "ignore",
-    "UNCERTAIN": DOCS_DIR / "uncertain",
+    "PROVIDER": PAGES_DIR / "provider",
+    "HIRER": PAGES_DIR / "hirer",
+    "IGNORE": PAGES_DIR / "ignore",
+    "UNCERTAIN": PAGES_DIR / "uncertain",
 }
 DEFAULT_LABELS = ("PROVIDER", "HIRER", "UNCERTAIN")
 
@@ -86,7 +89,7 @@ MAX_CONSECUTIVE_ERRORS = 5
 # subject taxonomy, thinking off). The cap is a guard against runaway output,
 # not a limit a normal answer comes near.
 MAX_COMPLETION_TOKENS = 300
-PID_PATH = DOCS_DIR / "_industry.pid"  # read by monitor/dashboard.py for an exact RUNNING state
+PID_PATH = LOGS_DIR / "industry.pid"  # read by monitor/dashboard.py for an exact RUNNING state
 
 load_dotenv(ENV_PATH)
 
@@ -345,7 +348,7 @@ def _bar(n: int, top: int, width: int = 32) -> str:
 
 
 def report() -> None:
-    """Print the industry distribution from industry_manifest.jsonl.
+    """Print the industry distribution from data/manifests/industry.jsonl.
     Read-only, no LLM calls -- safe to run while a tagging run is going."""
     if not INDUSTRY_MANIFEST_PATH.exists():
         print(f"No {INDUSTRY_MANIFEST_PATH.name} yet -- run industry.py first.")
@@ -429,6 +432,7 @@ def main():
     global _PACER
     _PACER = Pacer(args.rps) if args.rps else None
 
+    LOGS_DIR.mkdir(exist_ok=True)
     PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
     try:
         run(args)

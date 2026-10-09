@@ -4,7 +4,7 @@ Grades the ranker's judging pools 0-3, producing the training labels for its
 Stage-2 reranker (cross-encoder + LambdaMART).
 
 Input is the ranker fork's pipeline/data_sat/ folder, built there by
-import_scrape_and_tag.py (gigs + providers from this repo's docs/ CSVs) and
+import_scrape_and_tag.py (gigs + providers from this repo's data/output/ CSVs) and
 build_judging_pools_sat.py (per gig: RRF/BM25/dense top candidates + randoms).
 
 The prompt (prompts/rubric_0_3.md) carries the ranker's own 0-3 rubric
@@ -18,9 +18,9 @@ far more than prompts do (llama3.1:8b rated 82% of pairs relevant, the Qwens
 <=6%; llama has since been dropped from the pool), and training labels have to
 mean the same thing across gigs.
 
-    py -3 labeller/judge_pools.py --model qwen3.6:35b --sample 20        # pilot
-    py -3 labeller/judge_pools.py --model qwen3.6:35b                    # every gig
-    py -3 labeller/judge_pools.py --model qwen3.6:35b --export           # -> ranker label files
+    python run.py judge --model qwen3.6:35b --sample 20        # pilot
+    python run.py judge --model qwen3.6:35b                    # every gig
+    python run.py judge --model qwen3.6:35b --export           # -> ranker label files
 
 --prompt v2 (prompts/rubric_0_3_v2.md) also grades the practical terms -- budget vs
 rate, seniority, start date and days per week -- from the structured fields of the

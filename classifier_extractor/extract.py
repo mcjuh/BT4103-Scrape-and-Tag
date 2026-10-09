@@ -1,20 +1,32 @@
 # -*- coding: utf-8 -*-
 """
 Second half of the classifier/extractor role: classify.py sorts pages into
-docs/provider/, docs/hirer/, docs/ignore/, docs/uncertain/; this script
-reads classify.py's docs/manifest.jsonl to find pages worth extracting
+data/pages/{provider,hirer,ignore,uncertain}/; this script reads
+classify.py's data/manifests/classify.jsonl to find pages worth extracting
 (PROVIDER, HIRER, UNCERTAIN) and turns each into ONE record shaped exactly
-like the ML schemas next to this file:
+like the v2 schemas in schemas/ (see docs/schema_v2.md):
 
-    ML_provider_schema_v1.json  -> ProviderDocument -> docs/providers.csv
-    ML_hirer_schema_v1.json     -> HireDocument     -> docs/hirers.csv
+    ML_provider_schema_v2.json  -> ProviderDocument -> data/output/providers.csv + providers.json
+    ML_hirer_schema_v2.json     -> HireDocument     -> data/output/hirers.csv + hirers.json
 
 The schemas are the single source of truth: each prompt's field list and
 JSON skeleton are generated from them, and every LLM response is validated
 against them (jsonschema) before anything is written -- a response that
-doesn't match is retried like any other failure. source_file and
-extracted_by_model are filled in here, not by the LLM, which can't know
-either.
+doesn't match is retried like any other failure. Each property says who
+writes it (x-filled-by): only "llm" fields are asked of the model; the rest
+(source_file, extracted_by_model, hirer_ref, the duration weeks, the tags)
+are filled in here, the enricher owns availability and rate, and name and
+the tag group stay null.
+
+The record is nested (a provider's services, achievements and technical
+proficiency are lists; the tags nest category -> specialisation -> skills).
+It is written whole to data/output/providers.jsonl / hirers.jsonl as each record
+completes, and export_json() collects those into providers.json /
+hirers.json. The CSV keeps the old flat text columns (about_title,
+hire_description, relevant_experience, ...), derived from the nested record
+by flat_columns(), so the enricher, labeller and ranker import still read
+what they always did; years_experience, hirer_ref and the duration weeks ride
+along as small structured columns.
 
 Providers and hirers run through the same code path; what differs is the
 prompts (prompts/, never inline here) and the per-type settings in
@@ -23,8 +35,10 @@ ENTITY_CONFIG:
   HIRER     1 pass:   extract_hirer.md reframes a case study as the gig
                       its original hirer could have posted (from gig.py).
   PROVIDER  2 passes: extract_provider_facts.md extracts neutral facts,
-                      then extract_provider_style.md restyles them into a
-                      first-person profile, so styling can't add facts
+                      then extract_provider_style.md restyles the headline,
+                      bio and achievements and writes how_i_work;
+                      the rest of the record is carried over from the facts
+                      pass, so styling can't change the facts
                       (from showcase.py). The source is anonymised first:
                       names -> [CANDIDATE_NAME] (needs spaCy +
                       en_core_web_sm; extract.py won't start without it)
@@ -62,7 +76,7 @@ Also carried over from gig.py/showcase.py:
   at 4 workers / 1 rps cleanly. Only the main thread writes the CSVs and the
   manifest.
 - industry / secondary_industry / taxonomy_version columns are copied in
-  from industry.py's docs/industry_manifest.jsonl by code, never asked of
+  from industry.py's data/manifests/industry.jsonl by code, never asked of
   the LLM. --backfill-industries rewrites both CSVs with the current tags
   (joined on source_file), which is also how a CSV written before these
   columns existed is migrated.
@@ -74,20 +88,25 @@ Also carried over from gig.py/showcase.py:
   chosen tracks' lists; a record that fits no track is tagged empty rather than forced.
   Two extra calls per written record, to a pool model of their own ("tag" salt). They
   land in the CSV as category / specialisation / skills (" | "-joined), tags_json (the
-  nested form) and tag_taxonomy_version, and in the manifest as meta["tags"].
-- --out-tag TAG writes a separate dataset (docs/hirers_TAG.csv,
-  providers_TAG.csv, extract_manifest_TAG.jsonl) with its own progress, so
-  a re-extraction under new prompts leaves the existing CSVs alone.
+  nested form) and tag_taxonomy_version, and in the record's `tags` block.
+- Singapore setting: the prompts move each record to Singapore, then localisation.py
+  checks a provider's finished text for foreign phrases or no Singapore anchor and runs
+  up to two repair passes; Singapore English spelling is applied by code.
+- --out-tag TAG writes a separate dataset (data/output/hirers_TAG.csv,
+  providers_TAG.csv, the .jsonl / .json records, data/manifests/extract_TAG.jsonl)
+  with its own progress, so a re-extraction under new prompts leaves the
+  existing files alone. --export-json rebuilds the .json files on their own.
 
 Each file is extracted by one model from llm_pool.MODEL_POOL.
-Read-only against docs/<bucket>/. Progress is tracked in
-docs/extract_manifest.jsonl, so reruns skip written/rejected files and
+Read-only against data/pages/<bucket>/. Progress is tracked in
+data/manifests/extract.jsonl, so reruns skip written/rejected files and
 retry only errors.
 """
 
 import argparse
 import csv
 import functools
+import hashlib
 import json
 import os
 import random
@@ -108,20 +127,29 @@ from llm_pool import MODEL_POOL, model_for_file, reviewer_for_file
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # classifier_extractor/ sits one level below the project root
-DOCS_DIR = ROOT_DIR / "docs"  # shared data lake every role reads/writes into
+DATA_DIR = ROOT_DIR / "data"  # shared data lake every role reads/writes into
+PAGES_DIR = DATA_DIR / "pages"
+MANIFESTS_DIR = DATA_DIR / "manifests"
+OUTPUT_DIR = DATA_DIR / "output"
+LOGS_DIR = ROOT_DIR / "logs"
 ENV_PATH = ROOT_DIR / ".env"
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
+SCHEMAS_DIR = SCRIPT_DIR / "schemas"
 
-CLASSIFY_MANIFEST_PATH = DOCS_DIR / "manifest.jsonl"
-INDUSTRY_MANIFEST_PATH = DOCS_DIR / "industry_manifest.jsonl"  # industry.py's output, read for --balance
-EXTRACT_MANIFEST_PATH = DOCS_DIR / "extract_manifest.jsonl"
-PROVIDERS_CSV = DOCS_DIR / "providers.csv"
-HIRERS_CSV = DOCS_DIR / "hirers.csv"
+CLASSIFY_MANIFEST_PATH = MANIFESTS_DIR / "classify.jsonl"
+INDUSTRY_MANIFEST_PATH = MANIFESTS_DIR / "industry.jsonl"  # industry.py's output, read for --balance
+EXTRACT_MANIFEST_PATH = MANIFESTS_DIR / "extract.jsonl"
+PROVIDERS_CSV = OUTPUT_DIR / "providers.csv"
+HIRERS_CSV = OUTPUT_DIR / "hirers.csv"
+# The nested v2 records (ML_*_schema_v2.json), one per line as they're written; export_json()
+# collects them into providers.json / hirers.json (a JSON array, one record per source file).
+PROVIDERS_JSONL = OUTPUT_DIR / "providers.jsonl"
+HIRERS_JSONL = OUTPUT_DIR / "hirers.jsonl"
 
 BUCKET_DIRS = {
-    "PROVIDER": DOCS_DIR / "provider",
-    "HIRER": DOCS_DIR / "hirer",
-    "UNCERTAIN": DOCS_DIR / "uncertain",
+    "PROVIDER": PAGES_DIR / "provider",
+    "HIRER": PAGES_DIR / "hirer",
+    "UNCERTAIN": PAGES_DIR / "uncertain",
 }
 # UNCERTAIN is, by classify.py's own definition, "a genuine PROVIDER profile
 # that also carries explicit HIRER signals" -- so it's a provider candidate,
@@ -138,29 +166,53 @@ ENTITY_TYPE_FOR_LABEL = {
 # pass, so only give them to single-pass entity types. "localise" is the
 # provider's own repair: a rewrite of the finished record that fixes the
 # foreign-setting phrases localisation.py found (see localise_provider).
+# "pass_fields" is what each pass returns (None = every LLM field): the provider's
+# style pass returns only the four fields it restyles, and the rest of the record
+# is carried over from the facts pass, so a restyle can't drift the facts and
+# costs fewer tokens.
 ENTITY_CONFIG = {
     "PROVIDER": {
-        "schema": SCRIPT_DIR / "ML_provider_schema_v1.json",
+        "schema": SCHEMAS_DIR / "ML_provider_schema_v2.json",
         "prompts": ["extract_provider_facts.md", "extract_provider_style.md"],
+        "pass_fields": [
+            ("title", "credentials", "years_experience", "about_headline", "about_bio", "services",
+             "achievements", "technical_proficiency"),
+            ("about_headline", "about_bio", "achievements", "how_i_work"),
+        ],
         "anonymise": True,
         "csv": PROVIDERS_CSV,
-        "title_field": "about_title",
+        "jsonl": PROVIDERS_JSONL,
+        "title_field": "title",
         "review": None,
         "repair": None,
         "localise": "repair_localise_provider.md",
     },
     "HIRER": {
-        "schema": SCRIPT_DIR / "ML_hirer_schema_v1.json",
+        "schema": SCHEMAS_DIR / "ML_hirer_schema_v2.json",
         "prompts": ["extract_hirer.md"],
+        "pass_fields": [None],
         "anonymise": False,
         "csv": HIRERS_CSV,
-        "title_field": "hire_title",
+        "jsonl": HIRERS_JSONL,
+        "title_field": "gig_title",
         "review": "review_hirer.md",
         "repair": "repair_hirer.md",
         "localise": None,
     },
 }
-CODE_FIELDS = ("source_file", "extracted_by_model")  # filled in here, never asked of the LLM
+# The CSV keeps the v1 text columns, derived from the v2 record by flat_columns(), so the
+# enricher, labeller and ranker import read the same columns as before; a few small structured
+# fields ride along. The nested record itself goes to the .jsonl / .json files.
+CSV_COLUMNS = {
+    "HIRER": ["extracted_by_model", "source_company", "source_company_team", "hire_title",
+              "hire_description", "hire_description_additional_notes", "hirer_ref",
+              "duration_weeks_min", "duration_weeks_max"],
+    "PROVIDER": ["extracted_by_model", "about_title", "about_description", "services_offered_title",
+                 "services_offered_description", "relevant_experience", "years_experience"],
+}
+# Record fields that aren't text a reader sees, so the checks that scan a record's wording skip them.
+NON_TEXT_FIELDS = {"source_file", "extracted_by_model", "hirer_ref", "name", "availability", "rate",
+                   "tags", "duration_weeks_min", "duration_weeks_max", "years_experience"}
 # Copied from industry.py's manifest, never asked of the LLM either. A file
 # industry.py hadn't tagged when it was extracted gets blanks until the next
 # --backfill-industries.
@@ -168,7 +220,7 @@ INDUSTRY_FIELDS = ("industry", "secondary_industry", "taxonomy_version")
 # The SkillsFuture tags (taxonomy.py): written by code from tag_record()'s result, never
 # asked of the extraction prompts, so they stay out of the schemas.
 TAG_FIELDS = taxonomy.TAG_FIELDS
-PID_PATH = DOCS_DIR / "_extract.pid"  # read by monitor/dashboard.py for an exact RUNNING state
+PID_PATH = LOGS_DIR / "extract.pid"  # read by monitor/dashboard.py for an exact RUNNING state
 
 MAX_CHARS = 24000
 MAX_RETRIES = 3
@@ -218,11 +270,19 @@ _PACER = None  # set by main() when --rps is given
 
 for _cfg in ENTITY_CONFIG.values():
     _schema = json.loads(_cfg["schema"].read_text(encoding="utf-8"))
+    Draft7Validator.check_schema(_schema)
     _cfg["validator"] = Draft7Validator(_schema)
+    _cfg["props"] = _schema["properties"]
     _cfg["properties"] = list(_schema["properties"])
+    # What the extraction prompts are asked for: the fields the schema marks x-filled-by "llm".
+    # The others are written by code (source_file, hirer_ref, tags, ...), by the enricher, or
+    # left empty (name), so the LLM is never asked for them.
     _cfg["llm_fields"] = {
-        k: v.get("description", "") for k, v in _schema["properties"].items() if k not in CODE_FIELDS
+        k: v.get("description", "") for k, v in _schema["properties"].items() if v.get("x-filled-by") == "llm"
     }
+    _cfg["pass_fields"] = [list(p) if p else list(_cfg["llm_fields"]) for p in _cfg["pass_fields"]]
+    assert len(_cfg["pass_fields"]) == len(_cfg["prompts"]), "one pass_fields entry per prompt"
+    assert all(set(p) <= set(_cfg["llm_fields"]) for p in _cfg["pass_fields"]), "pass_fields must be LLM fields"
     _cfg["templates"] = [(PROMPTS_DIR / p).read_text(encoding="utf-8").strip() for p in _cfg["prompts"]]
     for _key in ("review", "repair", "localise"):
         _cfg[f"{_key}_template"] = (PROMPTS_DIR / _cfg[_key]).read_text(encoding="utf-8").strip() if _cfg[_key] else None
@@ -240,18 +300,25 @@ TAG_ENTITY = {
         "subject_rule": "The record is a GIG: a piece of work a hirer wants one specialist to do. "
                         "Tag the work to be done.",
         "skill_rule": "The record is a GIG. Choose the skills a specialist needs to do this work.",
-        "text_fields": ("hire_title", "hire_description", "hire_description_additional_notes"),
+        "text_fields": ("gig_title", "short_description", "additional_notes"),
     },
     "PROVIDER": {
         "entity_label": "provider profile",
         "subject_rule": "The record is a PROVIDER profile: one individual's own showcase. Tag the "
-                        "service the person offers (the services_offered fields first), supported by "
-                        "their experience.",
+                        "service the person offers (the services first), supported by their "
+                        "experience.",
         "skill_rule": "The record is a PROVIDER profile. Choose the skills the person clearly has and "
                       "would apply in the service they offer, as their experience shows.",
-        "text_fields": ("about_title", "about_description", "services_offered_title",
-                        "services_offered_description", "relevant_experience"),
+        "text_fields": ("title", "credentials", "about_headline", "about_bio", "services",
+                        "achievements", "technical_proficiency"),
     },
+}
+# What a Singapore buyer reads, for the foreign-setting and anchor checks (localisation.py).
+# Credentials are left out on purpose: they are personal facts and never localised.
+SHOWN_FIELDS = {
+    "HIRER": ("gig_title", "short_description"),
+    "PROVIDER": ("title", "about_headline", "about_bio", "services", "achievements",
+                 "technical_proficiency", "how_i_work"),
 }
 
 
@@ -269,14 +336,139 @@ def roll_variations(entity_type: str, fname: str) -> tuple:
     return kwargs, picked
 
 
-def prompt_kwargs(entity_type: str, fname: str, rolls: dict) -> dict:
-    fields = ENTITY_CONFIG[entity_type]["llm_fields"]
+def _types(prop: dict) -> list:
+    t = prop.get("type")
+    return t if isinstance(t, list) else [t]
+
+
+def _skeleton(prop: dict):
+    """The empty JSON shape of a schema property, for the prompt: null for a scalar, [] for a
+    list of scalars, [{...}] for a list of objects (so the model sees the item's keys)."""
+    types = _types(prop)
+    if "array" in types:
+        items = prop.get("items", {})
+        return [_skeleton(items)] if "object" in _types(items) else []
+    if "object" in types:
+        return {k: _skeleton(v) for k, v in prop.get("properties", {}).items()}
+    return None
+
+
+def _describe(prop: dict) -> str:
+    """A property's description for the prompt's field list, with each key of a list of
+    objects described too."""
+    text = prop.get("description", "")
+    items = prop.get("items", {})
+    if "object" in _types(items):
+        parts = "; ".join(f'"{k}": {v.get("description", "")}' for k, v in items.get("properties", {}).items())
+        text += f" Each item has: {parts}"
+    return text
+
+
+def prompt_kwargs(entity_type: str, fname: str, rolls: dict, fields=None) -> dict:
+    """The placeholders every prompt shares. `fields` is what this pass returns (default: every
+    LLM field), so a pass that returns fewer is shown only those in its field list and skeleton."""
+    cfg = ENTITY_CONFIG[entity_type]
+    fields = list(fields or cfg["llm_fields"])
     return {
         **rolls,
-        "field_block": "\n".join(f'- "{k}": {d}' for k, d in fields.items()),
-        "skeleton": json.dumps({k: None for k in fields}, indent=2),
+        "field_block": "\n".join(f'- "{k}": {_describe(cfg["props"][k])}' for k in fields),
+        "skeleton": json.dumps({k: _skeleton(cfg["props"][k]) for k in fields}, indent=2, ensure_ascii=False),
         "source_file": fname,
     }
+
+
+def flatten_text(value) -> list:
+    """Every string in a record value, however deeply nested (a list of services, a list of
+    technical-proficiency groups), in order."""
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, dict):
+        return [s for v in value.values() for s in flatten_text(v)]
+    if isinstance(value, (list, tuple)):
+        return [s for v in value for s in flatten_text(v)]
+    return []
+
+
+def hirer_ref(fname: str) -> str:
+    """A stable synthetic id for the hirer behind a gig, from the source file name. One hirer can
+    post several gigs, but each crawled page yields one gig, so for now every record is its own
+    hirer; grouping gigs under a shared hirer_ref would be a rule added here."""
+    return "H-" + hashlib.sha1(fname.encode("utf-8")).hexdigest()[:8]
+
+
+_DURATION_RE = re.compile(r"Engagement duration:\s*(\d+)(?:\s*(?:-|to|–)\s*(\d+))?\s*(week|month)", re.IGNORECASE)
+
+
+def parse_duration_weeks(text) -> tuple:
+    """(min, max) weeks from the "Engagement duration: 3-5 weeks." sentence, or (None, None).
+    An LLM estimate, not a source fact. Months count as 4 weeks; anything over a year is
+    treated as unparsed."""
+    m = _DURATION_RE.search(text or "")
+    if not m:
+        return None, None
+    lo = int(m.group(1))
+    hi = int(m.group(2)) if m.group(2) else lo
+    if m.group(3).lower() == "month":
+        lo, hi = lo * 4, hi * 4
+    lo, hi = min(lo, hi), max(lo, hi)
+    return (lo, hi) if 1 <= lo and hi <= 52 else (None, None)
+
+
+def _normalise(value, prop: dict):
+    """A model's value for one schema property, tidied so a near-miss isn't a failed record: a
+    list field given as null, one object or a bulleted string becomes a list; blank strings and
+    empty items go; a list is cut to its maxItems; a number given as "20 years" becomes 20; an
+    object missing a required part (a service with no detail) is dropped as an item. What is
+    still wrong afterwards is left for the schema check to reject."""
+    types = _types(prop)
+    if "array" in types:
+        items = prop.get("items", {})
+        if value is None:
+            value = []
+        elif isinstance(value, dict):
+            value = [value]
+        elif isinstance(value, str):
+            value = [re.sub(r"^[-•*]\s*", "", ln.strip()) for ln in value.splitlines()]
+        elif not isinstance(value, list):
+            return value
+        out = []
+        for item in value:
+            if isinstance(item, dict) and "object" not in _types(items):  # e.g. [{"achievement": "..."}]
+                item = next((v for v in item.values() if isinstance(v, str)), None)
+            item = _normalise(item, items)
+            if item not in (None, "", [], {}):
+                out.append(item)
+        cap = prop.get("maxItems")
+        return out[:cap] if cap else out
+    if "object" in types:
+        if not isinstance(value, dict):
+            return value
+        props = prop.get("properties", {})
+        out = {k: (_normalise(v, props[k]) if k in props else v) for k, v in value.items()}
+        return None if any(out.get(k) in (None, "", []) for k in prop.get("required", [])) else out
+    if "integer" in types and not isinstance(value, bool):
+        if isinstance(value, float):
+            value = int(value)
+        elif isinstance(value, str):
+            m = re.search(r"\d+", value)
+            value = int(m.group(0)) if m else None
+        if isinstance(value, int) and not (prop.get("minimum", -10**9) <= value <= prop.get("maximum", 10**9)):
+            return None
+        return value
+    if isinstance(value, str):
+        return value.strip() or None
+    return value
+
+
+def _respell(value):
+    """Singapore English spelling over every string in a value (localisation.singapore_spelling)."""
+    if isinstance(value, str):
+        return localisation.singapore_spelling(value)
+    if isinstance(value, list):
+        return [_respell(v) for v in value]
+    if isinstance(value, dict):
+        return {k: _respell(v) for k, v in value.items()}
+    return value
 
 
 # ---------------------------------------------------------------------------
@@ -364,7 +556,7 @@ def _shows_reasoning(response) -> bool:
 # `hidden_reasoning` is still recorded per record, so the ON-era rows remain
 # comparable against the OFF-era ones. Checked 21 Sep on a 200-file OFF-era
 # run: no quality drop (qwen3.8:27b hirer first-review keep 88.6% -> 95.7%,
-# providers written 100% in both eras; small n -- see BACKLOG.md item G).
+# providers written 100% in both eras; small n -- see docs/backlog.md item G).
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
 
@@ -478,8 +670,8 @@ def _named_org(fname: str, doc: dict):
     names = [stem, *PUBLISHER_ALIASES.get(stem, [])]
     if isinstance(doc.get("source_company"), str):
         names.append(doc["source_company"])
-    text = " ".join(v for k, v in doc.items()
-                    if isinstance(v, str) and k not in ORG_FIELDS and k not in CODE_FIELDS)
+    text = " ".join(s for k, v in doc.items() if k not in ORG_FIELDS and k not in NON_TEXT_FIELDS
+                    for s in flatten_text(v))
     products = PUBLISHER_PRODUCTS.get(stem)
     if products:
         # Product names matched case-sensitively, so "IBM powered the rollout" still counts
@@ -491,32 +683,67 @@ def _named_org(fname: str, doc: dict):
     return None
 
 
-def _entity_doc(data: dict, entity_type: str, fname: str, model: str, source: str = ""):
-    """A parsed extraction response -> schema-valid document, or None for {}.
-    Raises on a schema mismatch, so the caller retries it like any failure."""
+class ContentRejected(ValueError):
+    """A reply the content checks refuse: it copied a prompt example, names the publisher, or
+    leaves a gig without its title or description. Retried like any bad reply, but if it is
+    still refused after the retries the page is REJECTED, not left as a retryable error: the
+    same model, routed by file name, gives the same answer on every rerun."""
+
+
+def _entity_doc(data: dict, entity_type: str, fname: str, model: str, source: str = "",
+                base: dict = None, allowed=None):
+    """A parsed extraction response -> schema-valid record, or None for {}.
+    Raises on a schema mismatch, so the caller retries it like any failure.
+
+    `allowed` is the fields this pass may return (default: every LLM field), and `base` the
+    record so far, for a pass that returns only some of them (the provider style pass): the
+    reply is merged over it before the schema check. A key the schema has but this pass doesn't
+    own (name, tags, ...) is dropped, never trusted; a key the schema doesn't have is an error.
+    A restyle that returns nothing for a field the record already has keeps the old value, so a
+    pass can't lose content."""
     if data == {}:
         return None
     cfg = ENTITY_CONFIG[entity_type]
+    props, base = cfg["props"], base or {}
+    unknown = [k for k in data if k not in props]
+    if unknown:
+        raise ValueError(f"schema mismatch: unexpected key {unknown[0]!r}")
+    allowed = set(allowed or cfg["llm_fields"])
+    clean = {}
+    for k, v in data.items():
+        if k not in allowed:
+            continue
+        if isinstance(v, (list, dict)) and not {"array", "object"} & set(_types(props[k])):
+            v = _join_items(v)  # a list given for a text field: join it as "- " lines
+        v = _normalise(v, props[k])  # blank -> null, lists tidied, "20 years" -> 20
+        # Singapore English spelling, by code: the prompts ask for it and the models often don't
+        clean[k] = v if k in ORG_FIELDS else _respell(v)
+    for k in allowed:
+        if "array" in _types(props[k]) and k not in clean and k not in base:
+            clean[k] = []  # a list field the model left out is an empty list
+        if base.get(k) and clean.get(k) in (None, "", []):
+            clean[k] = base[k]
     code_values = {"source_file": fname, "extracted_by_model": model}
-    data = {k: (_join_items(v) if isinstance(v, (list, dict)) else v) for k, v in data.items()}
-    # blank -> null, so a blank optional field reads as "not stated" and a
-    # blank required one fails the schema check instead of being written
-    data = {k: (None if isinstance(v, str) and not v.strip() else v) for k, v in data.items()}
-    # Singapore English spelling, by code: the prompts ask for it and the models often don't
-    data = {k: (v if k in ORG_FIELDS else localisation.singapore_spelling(v)) for k, v in data.items()}
-    doc = {**data, **{k: v for k, v in code_values.items() if k in cfg["properties"]}}
-    errors = [e.message for e in cfg["validator"].iter_errors(doc)]
+    if entity_type == "HIRER":
+        code_values["hirer_ref"] = hirer_ref(fname)
+    doc = {**base, **clean, **{k: v for k, v in code_values.items() if k in props}}
+    if entity_type == "PROVIDER" and not doc.get("services"):
+        return None  # a showcase has at least one service; without one the page doesn't qualify
+    if entity_type == "HIRER" and not (doc.get("gig_title") and doc.get("short_description")):
+        # a skeleton of nulls where {} was meant (seen from qwen3.8:27b): not a gig
+        raise ContentRejected("hirer record has no gig_title or short_description")
+    errors = [e.message[:200] for e in cfg["validator"].iter_errors(doc)]
     if errors:
         raise ValueError(f"schema mismatch: {errors[0]}")
-    text = " ".join(v for v in doc.values() if isinstance(v, str)).lower()
+    text = " ".join(s for k, v in doc.items() if k not in NON_TEXT_FIELDS for s in flatten_text(v)).lower()
     # A phrase the source itself contains isn't a copy (seen: the real person
     # the patent example was taken from).
     leak = next((s for s in PROMPT_EXAMPLE_LEAKS if s.lower() in text and s.lower() not in source), None)
     if leak:
-        raise ValueError(f"copied a prompt example ({leak!r}) instead of the source")
+        raise ContentRejected(f"copied a prompt example ({leak!r}) instead of the source")
     org = _named_org(fname, doc)
     if org:
-        raise ValueError(f"names {org!r}; organisations must be described generically")
+        raise ContentRejected(f"names {org!r}; organisations must be described generically")
     return doc
 
 
@@ -567,42 +794,67 @@ def _record_json(entity_type: str, doc: dict) -> str:
 
 
 def _shown_text(entity_type: str, doc: dict) -> list:
-    """The record's text a Singapore buyer reads, for the foreign-setting check."""
-    return [doc.get(k) for k in TAG_ENTITY[entity_type]["text_fields"]]
+    """The record's text a Singapore buyer reads (SHOWN_FIELDS: not the credentials), for the
+    foreign-setting check."""
+    return [s for k in SHOWN_FIELDS[entity_type] for s in flatten_text(doc.get(k))]
 
 
 # A repair that blanks one of these has traded a foreign phrase for lost content.
-_KEEP_FILLED = ("about_description", "services_offered_description", "relevant_experience")
+_KEEP_FILLED = ("about_bio", "services", "achievements")
+MAX_LOCALISE_PASSES = 2
+# Said to the repair prompt when a profile never mentions Singapore. The client's own
+# providers all name a Singapore body or place ("former SFA inspector", "Singapore Mediation
+# Centre"); a profile with none reads as written for another market.
+NO_ANCHOR_NOTE = ("The record never mentions Singapore, S$ or any Singapore law, regulator or scheme. In "
+                  "services_offered_description make the \"who it is for\" clause name Singapore businesses "
+                  "(e.g. \"for Singapore SMEs and family businesses\") and, where one plainly governs the "
+                  "service, name ONE Singapore law, regulator or standard (e.g. MAS for financial services, "
+                  "IRAS for tax, the IRDA for restructuring, PDPA for data protection, the WSH Act for "
+                  "workplace safety). Name only one that fits the work, and never give the person a Singapore "
+                  "licence, registration, employer or client.")
 
 
 def localise_provider(doc: dict, extract_call, kwargs: dict) -> tuple:
-    """Singapore-set check on a finished provider record (localisation.py), then at most
-    one repair pass that fixes just the phrases it found (prompts/repair_localise_provider.md).
-    The prompts already ask for a Singapore setting, but the pool's models follow that
-    unevenly and can't be trusted to grade themselves, so this is the deterministic net.
+    """Singapore-set check on a finished provider record (localisation.py), then up to
+    MAX_LOCALISE_PASSES repair passes (prompts/repair_localise_provider.md), each given
+    exactly what is still wrong. A record is flagged for either of two things: foreign
+    phrases, or no Singapore anchor at all (no mention of Singapore, S$ or a Singapore
+    regulator, law or scheme). The prompts already ask for a Singapore setting, but the
+    pool's models follow that unevenly and can't be trusted to grade themselves, so this
+    is the deterministic net.
 
-    The repaired record replaces the original only if it has fewer foreign phrases and no
-    field that had text went blank; otherwise the original stays. A leftover phrase is not
-    an error, since some are right to keep (a membership such as INSOL Europe, a credential,
-    a foreign-market specialism): it's recorded in the manifest as localisation_residue, so
-    the rate can be measured and filtered. Returns (doc, meta)."""
-    residue = localisation.foreign_residue(_shown_text("PROVIDER", doc))
-    meta = {"localisation_residue": residue}
-    if not residue:
+    A pass's rewrite replaces the record only if it has fewer problems and no field that
+    had text went blank; the first pass that doesn't improve things ends the loop, so a
+    phrase the model keeps on purpose isn't re-asked forever. A leftover is not an error,
+    since some are right to keep (a foreign-market specialism): the manifest records what
+    was flagged, what remained and how many passes ran, so the rate can be measured and
+    filtered. Returns (doc, meta)."""
+    shown = lambda d: _shown_text("PROVIDER", d)
+    problems = lambda d: (localisation.foreign_residue(shown(d)), not localisation.singapore_anchor(shown(d)))
+    cost = lambda p: len(p[0]) + (1 if p[1] else 0)
+    residue, no_anchor = problems(doc)
+    meta = {"localisation_residue": residue, "localisation_no_anchor": no_anchor, "localisation_passes": 0}
+    if not residue and not no_anchor:
         return doc, meta
-    prompt = ENTITY_CONFIG["PROVIDER"]["localise_template"].format(
-        **kwargs, residue="\n".join(f"- {p}" for p in residue),
-        previous_record=_record_json("PROVIDER", doc))
-    repaired = extract_call(prompt)
     meta["localisation_repaired"] = False
-    if repaired is None:
-        return doc, meta
-    after = localisation.foreign_residue(_shown_text("PROVIDER", repaired))
-    blanked = [k for k in _KEEP_FILLED if doc.get(k) and not repaired.get(k)]
-    meta.update(localisation_residue_after=after, localisation_blanked=blanked)
-    if len(after) < len(residue) and not blanked:
-        meta["localisation_repaired"] = True
-        return repaired, meta
+    for _ in range(MAX_LOCALISE_PASSES):
+        todo = [f"- {p}" for p in residue]
+        if no_anchor:
+            todo.append("- " + NO_ANCHOR_NOTE)
+        repaired = extract_call(ENTITY_CONFIG["PROVIDER"]["localise_template"].format(
+            **kwargs, problems="\n".join(todo), previous_record=_record_json("PROVIDER", doc)))
+        meta["localisation_passes"] += 1
+        if repaired is None:
+            break
+        after = problems(repaired)
+        blanked = [k for k in _KEEP_FILLED if doc.get(k) and not repaired.get(k)]
+        meta["localisation_blanked"] = blanked
+        if blanked or cost(after) >= cost((residue, no_anchor)):
+            break
+        doc, (residue, no_anchor), meta["localisation_repaired"] = repaired, after, True
+        if not residue and not no_anchor:
+            break
+    meta.update(localisation_residue_after=residue, localisation_no_anchor_after=no_anchor)
     return doc, meta
 
 
@@ -613,9 +865,10 @@ def tag_record(entity_type: str, doc: dict, fname: str) -> tuple:
     so tagging diversifies independently of extraction:
       1. category + specialisation (sector + track pairs, at most 3 tracks in 2 sectors),
       2. skills from the chosen tracks' own lists (taxonomy.skills_block), 1-8.
-    Returns (nested tags, meta). The tags are {} when the record fits no track -- a valid
-    result, so no skills are asked for. An invalid reply is retried like any failure and
-    errors the file if it never validates, so it's redone from scratch next run."""
+    Returns (the record's `tags` block, meta). The block has an empty `categories` list when
+    the record fits no track -- a valid result, so no skills are asked for. An invalid reply
+    is retried like any failure and errors the file if it never validates, so it's redone
+    from scratch next run."""
     cfg = TAG_ENTITY[entity_type]
     model = model_for_file(fname, "tag")
     record = "RECORD:\n```json\n" + json.dumps(
@@ -630,13 +883,21 @@ def tag_record(entity_type: str, doc: dict, fname: str) -> tuple:
             usage[k] += call_usage.get(k) or 0
         return result
 
-    pairs, why = ask("specialisation", lambda d: (taxonomy.parse_specialisations(d), d.get("reason")),
-                     taxonomy_block=taxonomy.sector_track_block())
-    meta = {"model": model, "usage": usage, "no_fit": not pairs, "reason_specialisation": why}
-    if not pairs:
-        return {}, meta
-    (skills, dropped), why = ask("skills", lambda d: (taxonomy.parse_skills(d, pairs), d.get("reason")),
-                                 skills_block=taxonomy.skills_block(pairs))
+    meta = {"model": model, "usage": usage}
+    try:
+        pairs, why = ask("specialisation", lambda d: (taxonomy.parse_specialisations(d), d.get("reason")),
+                         taxonomy_block=taxonomy.sector_track_block())
+        meta.update(no_fit=not pairs, reason_specialisation=why)
+        if not pairs:
+            return taxonomy.nest([], []), meta
+        (skills, dropped), why = ask("skills", lambda d: (taxonomy.parse_skills(d, pairs), d.get("reason")),
+                                     skills_block=taxonomy.skills_block(pairs))
+    except ValueError as e:
+        # The model kept giving a sector/track pair the framework doesn't have, even after being
+        # told so. The extraction itself is fine, so the record is written untagged (and the
+        # reason kept) instead of discarded. Only a REPLY failing validation lands here: an API
+        # failure (a 429, a timeout) is not a ValueError and still errors the file for a rerun.
+        return taxonomy.nest([], []), {**meta, "no_fit": True, "tag_error": str(e)[:200]}
     return taxonomy.nest(pairs, skills), {**meta, "reason_skills": why, "dropped_skills": dropped}
 
 
@@ -663,15 +924,19 @@ def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple
         meta["hidden_reasoning"] = meta["hidden_reasoning"] or reasoning
         return result, usage
 
-    def extract_call(content: str):
-        doc, usage = call(model, content, validate)
+    def extract_call(content: str, check=None):
+        doc, usage = call(model, content, check or validate)
         for k in usage_total:
             usage_total[k] += usage.get(k) or 0
         return doc
 
+    # Each pass returns its own fields (cfg["pass_fields"]); a later pass's reply is merged
+    # over the record so far, so what it doesn't return is carried over untouched.
     doc, payload = None, source
-    for template in cfg["templates"]:
-        doc = extract_call(f"{template.format(**kwargs)}\n\n{payload}")
+    for template, fields in zip(cfg["templates"], cfg["pass_fields"]):
+        pass_kwargs = prompt_kwargs(entity_type, fname, rolls, fields)
+        doc = extract_call(f"{template.format(**pass_kwargs)}\n\n{payload}",
+                           functools.partial(validate, base=doc, allowed=fields))
         if doc is None:
             break
         payload = f"INPUT RECORD:\n```json\n{_record_json(entity_type, doc)}\n```"
@@ -724,18 +989,19 @@ def _norm(s) -> str:
 
 def quality_check(entity_type: str, doc: dict) -> tuple:
     if entity_type == "HIRER":
-        title = _norm(doc.get("hire_title"))
-        desc = _norm(doc.get("hire_description"))
+        title = _norm(doc.get("gig_title"))
+        desc = _norm(doc.get("short_description"))
         if not title or title.lower() in GENERIC_TITLE_BLOCKLIST:
             return False, f"no credible gig title (got {title!r})"
         if len(desc) < 30:
-            return False, f"hire_description too short ({len(desc)} chars, need >=30)"
+            return False, f"short_description too short ({len(desc)} chars, need >=30)"
         return True, ""
 
     fields = ENTITY_CONFIG["PROVIDER"]["llm_fields"]
-    if any(NAME_PLACEHOLDER in _norm(doc.get(k)) for k in fields):
+    if any(NAME_PLACEHOLDER in s for k in fields for s in flatten_text(doc.get(k))):
         return False, f"{NAME_PLACEHOLDER} placeholder leaked into the profile"
-    substantive = sum(1 for k in fields if len(_norm(doc.get(k))) >= 15)
+    substantive = sum(1 for k in ("about_headline", "about_bio", "services", "achievements", "technical_proficiency")
+                      if len(_norm(" ".join(flatten_text(doc.get(k))))) >= 15)
     if substantive < 2:
         return False, f"only {substantive} substantive field(s) present, need >=2"
     return True, ""
@@ -743,7 +1009,8 @@ def quality_check(entity_type: str, doc: dict) -> tuple:
 
 def record_metrics(entity_type: str, doc: dict) -> dict:
     fields = ENTITY_CONFIG[entity_type]["llm_fields"]
-    texts = {k: doc[k] for k in fields if isinstance(doc.get(k), str)}
+    texts = {k: " ".join(flatten_text(doc.get(k))) for k in fields}
+    texts = {k: v for k, v in texts.items() if v}
     return {
         "field_chars": {k: len(v) for k, v in texts.items()},
         "leftover_pronouns": len(LEFTOVER_PRONOUN_RE.findall(" ".join(texts.values()))),
@@ -755,14 +1022,14 @@ def record_metrics(entity_type: str, doc: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 def csv_fields(entity_type: str) -> list:
-    """source_file first, then the schema's own fields in schema order, then
-    bookkeeping -- so the columns follow the schema file automatically.
+    """source_file first, then CSV_COLUMNS (the v1 text columns, derived from the v2
+    record by flat_columns(), plus a few structured fields), then bookkeeping.
     time_taken_by_model is the seconds spent extracting the row: every model
     call for it (a hirer's review and repair included) plus any retry waits.
 
     The roll_* tail is this entity type's style rolls from
     extract_variations.json -- which wording variant produced this row. They
-    were only in extract_manifest.jsonl before, which meant anyone reading
+    were only in the extract manifest before, which meant anyone reading
     the CSV on its own couldn't tell a "Minimal"-detail gig from a
     "Standard" one, or check whether a variant correlates with weaker rows.
     Column names come from the variations file, so adding a roll there adds
@@ -774,18 +1041,105 @@ def csv_fields(entity_type: str) -> list:
     TAG_FIELDS are the SkillsFuture category / specialisation / skills tags
     (taxonomy.py): flat " | "-joined columns plus tags_json, the same tags nested
     category -> specialisation -> skills."""
-    props = ENTITY_CONFIG[entity_type]["properties"]
-    return (["source_file"] + [k for k in props if k != "source_file"]
+    return (["source_file", *CSV_COLUMNS[entity_type]]
             + ["classify_label", *INDUSTRY_FIELDS, *TAG_FIELDS, "extracted_at", "time_taken_by_model"]
             + [f"roll_{k}" for k in VARIATIONS.get(entity_type, {})])
+
+
+def finalize_record(entity_type: str, doc: dict, tags: dict) -> dict:
+    """The full v2 record (ML_*_schema_v2.json) for a finished extraction: the LLM-written
+    fields, the ones code fills (name stays null, availability and rate are the enricher's,
+    hirer_ref and the duration weeks), and the tags block, in schema order, validated against
+    the whole schema. Raises if it doesn't validate, which would be a bug here, not a bad reply."""
+    cfg = ENTITY_CONFIG[entity_type]
+    rec = {}
+    for k, prop in cfg["props"].items():
+        if k == "tags":
+            rec[k] = tags or taxonomy.nest([], [])
+        elif k in doc:
+            rec[k] = doc[k]
+        else:
+            rec[k] = [] if "array" in _types(prop) else None
+    if entity_type == "HIRER":
+        rec["duration_weeks_min"], rec["duration_weeks_max"] = parse_duration_weeks(rec["short_description"])
+    errors = [e.message[:200] for e in cfg["validator"].iter_errors(rec)]
+    if errors:
+        raise ValueError(f"final record doesn't match its schema: {errors[0]}")
+    return rec
+
+
+def _experience_text(rec: dict):
+    """The v1 relevant_experience text from a provider record: the tenure as a sentence, the
+    achievements, then the credentials."""
+    parts = []
+    if rec.get("years_experience"):
+        parts.append(f"{rec['years_experience']} years of experience.")
+    parts += rec.get("achievements") or []
+    if rec.get("credentials"):
+        parts.append("Credentials: " + "; ".join(rec["credentials"]) + ".")
+    return " ".join(parts) or None
+
+
+def flat_columns(entity_type: str, rec: dict) -> dict:
+    """The CSV_COLUMNS values for a v2 record: the v1 text columns derived from the new fields
+    (so the enricher, labeller and ranker import don't change) plus the structured extras."""
+    if entity_type == "HIRER":
+        return {
+            "extracted_by_model": rec["extracted_by_model"],
+            "source_company": rec.get("source_company"),
+            "source_company_team": rec.get("source_company_team"),
+            "hire_title": rec["gig_title"],
+            "hire_description": rec["short_description"],
+            "hire_description_additional_notes": rec.get("additional_notes"),
+            "hirer_ref": rec["hirer_ref"],
+            "duration_weeks_min": rec.get("duration_weeks_min"),
+            "duration_weeks_max": rec.get("duration_weeks_max"),
+        }
+    services = rec["services"]
+    return {
+        "extracted_by_model": rec["extracted_by_model"],
+        "about_title": rec.get("about_headline"),
+        "about_description": rec.get("about_bio"),
+        "services_offered_title": services[0]["service_title"],
+        # one service reads as before; several are all kept, each under its title, so the
+        # text the ranker matches on holds every service the profile offers
+        "services_offered_description": (services[0]["service_detail"] if len(services) == 1 else
+                                         " ".join(f"{s['service_title']}: {s['service_detail']}" for s in services)),
+        "relevant_experience": _experience_text(rec),
+        "years_experience": rec.get("years_experience"),
+    }
+
+
+def append_jsonl(path: Path, rec: dict) -> None:
+    with path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+
+def export_json() -> None:
+    """Collect each entity type's .jsonl of nested v2 records into a .json array next to it
+    (hirers.json, providers.json): one record per source file, the latest winning, so a rerun
+    after a rejection or a schema fix doesn't duplicate. Run at the end of every extraction and
+    on its own with --export-json."""
+    for entity_type, cfg in ENTITY_CONFIG.items():
+        src = cfg["jsonl"]
+        if not src.exists():
+            continue
+        records = {}
+        for line in src.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                rec = json.loads(line)
+                records[rec["source_file"]] = rec
+        dest = src.with_suffix(".json")
+        dest.write_text(json.dumps(list(records.values()), ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"{dest.name}: {len(records)} {entity_type.lower()} records", flush=True)
 
 
 def _csv_safe(v):
     """Guard against CSV-formula injection if this is ever opened in Excel/
     Sheets straight off disk -- a page's scraped text is untrusted input.
-    "-" is excluded: _join_items() always starts relevant_experience with
-    "- ", so guarding it would prepend a stray apostrophe onto nearly every
-    bulleted field instead of only ones a source could actually weaponise."""
+    "-" is excluded: a text field a model itemised is joined by _join_items()
+    as "- " lines, so guarding it would prepend a stray apostrophe onto
+    bulleted fields instead of only ones a source could actually weaponise."""
     s = "" if v is None else str(v)
     return "'" + s if s[:1] in ("=", "+", "@", "\t", "\r") else s
 
@@ -814,7 +1168,7 @@ def check_csv_headers() -> None:
                         f"Run extract.py --backfill-industries once to migrate it in place.")
                 raise SystemExit(
                     f"{cfg['csv'].name} was written under a different schema (columns differ from "
-                    f"{cfg['schema'].name}). Move it and docs/extract_manifest.jsonl aside and rerun."
+                    f"{cfg['schema'].name}). Move it and {EXTRACT_MANIFEST_PATH.name} aside and rerun."
                 )
 
 
@@ -962,7 +1316,7 @@ def process_file(fname: str, label: str, industry: dict = None) -> tuple:
     """Extracts one file and returns (manifest record, CSV row or None, log
     line). Writes nothing itself, so several can run at once (--workers)
     while main() stays the only writer. `industry` is the file's record from
-    industry_manifest.jsonl, if it has one."""
+    data/manifests/industry.jsonl, if it has one."""
     entity_type = ENTITY_TYPE_FOR_LABEL[label]
     cfg = ENTITY_CONFIG[entity_type]
     bucket = label.lower()
@@ -979,6 +1333,11 @@ def process_file(fname: str, label: str, industry: dict = None) -> tuple:
 
     try:
         doc, usage, meta = extract_entity(text, entity_type, model, fname)
+    except ContentRejected as e:  # still refused after the retries: not retryable, so rejected
+        elapsed = round(time.perf_counter() - start, 2)
+        record = {"file": fname, "entity_type": entity_type, "model": model, "elapsed": elapsed,
+                  "status": "rejected", "reason": f"content check, after retries: {e}", "timestamp": timestamp}
+        return record, None, f"{bucket}/{fname} ({model}) -> REJECTED  ({record['reason']})"
     except Exception as e:
         record = {
             "file": fname, "entity_type": entity_type, "model": model,
@@ -1004,11 +1363,18 @@ def process_file(fname: str, label: str, industry: dict = None) -> tuple:
     note = f" [repaired after review: {meta['review']['reason']}]" if meta.get("repaired") else ""
 
     if ok:
-        row = {**doc, "source_file": fname, "classify_label": label, "extracted_at": timestamp,
-               "time_taken_by_model": elapsed,
+        try:
+            rec = finalize_record(entity_type, doc, meta.get("tags"))
+        except Exception as e:  # a bug here, not a bad reply: error the file so it is redone
+            record = {**base, "status": "error", "reason": f"api_error: {e}"}
+            return record, None, f"{bucket}/{fname} ({model}) -> ERROR  ({e})"
+        # "_v2" is the nested record for the .jsonl; the CSV writer ignores it
+        row = {**flat_columns(entity_type, rec), "source_file": fname, "classify_label": label,
+               "extracted_at": timestamp, "time_taken_by_model": elapsed,
                **{k: (industry or {}).get(k) for k in INDUSTRY_FIELDS},
                **taxonomy.csv_columns(meta.get("tags")),
-               **{f"roll_{k}": v for k, v in (meta.get("rolls") or {}).items()}}
+               **{f"roll_{k}": v for k, v in (meta.get("rolls") or {}).items()},
+               "_v2": rec}
         title = doc.get(cfg["title_field"])
         record = {**base, "status": "written", "title": title, "metrics": record_metrics(entity_type, doc)}
         return record, row, f"{bucket}/{fname} ({model}) -> WRITTEN ({entity_type}: {title}){note}"
@@ -1036,15 +1402,20 @@ def _results(pending: list, workers: int):
 
 
 def use_out_tag(tag: str) -> None:
-    """Point every output (both CSVs and the progress manifest) at a tagged
-    copy, e.g. "v2" -> docs/hirers_v2.csv. Progress is tracked per tag, so a
-    tagged run re-extracts every file whatever the untagged run did."""
-    global PROVIDERS_CSV, HIRERS_CSV, EXTRACT_MANIFEST_PATH
-    PROVIDERS_CSV = DOCS_DIR / f"providers_{tag}.csv"
-    HIRERS_CSV = DOCS_DIR / f"hirers_{tag}.csv"
-    EXTRACT_MANIFEST_PATH = DOCS_DIR / f"extract_manifest_{tag}.jsonl"
+    """Point every output (both CSVs, the nested .jsonl / .json records and the progress
+    manifest) at a tagged copy, e.g. "v2" -> data/output/hirers_v2.csv and
+    data/manifests/extract_v2.jsonl. Progress is tracked per tag, so a tagged run re-extracts
+    every file whatever the untagged run did."""
+    global PROVIDERS_CSV, HIRERS_CSV, PROVIDERS_JSONL, HIRERS_JSONL, EXTRACT_MANIFEST_PATH
+    PROVIDERS_CSV = OUTPUT_DIR / f"providers_{tag}.csv"
+    HIRERS_CSV = OUTPUT_DIR / f"hirers_{tag}.csv"
+    PROVIDERS_JSONL = OUTPUT_DIR / f"providers_{tag}.jsonl"
+    HIRERS_JSONL = OUTPUT_DIR / f"hirers_{tag}.jsonl"
+    EXTRACT_MANIFEST_PATH = MANIFESTS_DIR / f"extract_{tag}.jsonl"
     ENTITY_CONFIG["PROVIDER"]["csv"] = PROVIDERS_CSV
     ENTITY_CONFIG["HIRER"]["csv"] = HIRERS_CSV
+    ENTITY_CONFIG["PROVIDER"]["jsonl"] = PROVIDERS_JSONL
+    ENTITY_CONFIG["HIRER"]["jsonl"] = HIRERS_JSONL
 
 
 def ping() -> None:
@@ -1077,7 +1448,7 @@ def main():
         "--balance", action="store_true",
         help="spend extraction calls evenly across (entity_type, industry) cells instead of in "
              "manifest order, so the CSVs don't inherit the corpus's skew toward a few domains. "
-             "Needs docs/industry_manifest.jsonl (classifier_extractor/industry.py)",
+             "Needs data/manifests/industry.jsonl (classifier_extractor/industry.py)",
     )
     parser.add_argument(
         "--per-cell", type=int, default=None,
@@ -1098,13 +1469,19 @@ def main():
     )
     parser.add_argument(
         "--backfill-industries", action="store_true",
-        help="rewrite both CSVs with the current industry tags from docs/industry_manifest.jsonl "
+        help="rewrite both CSVs with the current industry tags from data/manifests/industry.jsonl "
              "(no LLM calls), migrating a CSV that predates the industry columns, then exit",
     )
     parser.add_argument(
         "--out-tag", default=None,
-        help="write to docs/hirers_TAG.csv, providers_TAG.csv and extract_manifest_TAG.jsonl instead "
-             "of the untagged files, with progress tracked separately (e.g. --out-tag v2)",
+        help="write to data/output/hirers_TAG.csv, providers_TAG.csv, the matching .jsonl / .json records "
+             "and data/manifests/extract_TAG.jsonl instead of the untagged files, with progress tracked separately "
+             "(e.g. --out-tag v2)",
+    )
+    parser.add_argument(
+        "--export-json", action="store_true",
+        help="rebuild hirers.json / providers.json (JSON arrays) from the .jsonl records written so far "
+             "(no LLM calls), then exit; a normal run does this at its end",
     )
     args = parser.parse_args()
     global _PACER
@@ -1114,6 +1491,9 @@ def main():
 
     if args.ping:
         ping()
+        return
+    if args.export_json:
+        export_json()
         return
     if args.backfill_industries:
         backfill_industries()
@@ -1126,6 +1506,7 @@ def main():
             "Install it first: pip install spacy && python -m spacy download en_core_web_sm"
         )
 
+    LOGS_DIR.mkdir(exist_ok=True)
     PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
     try:
         run(args)
@@ -1171,9 +1552,10 @@ def run(args) -> None:
         results = _results(pending, args.workers)
         try:
             for i, (record, row, line) in enumerate(results, 1):
-                if row is not None:  # CSV before manifest, so the manifest never claims an unwritten row
+                if row is not None:  # CSV and .jsonl before manifest, so the manifest never claims an unwritten row
                     entity_type = record["entity_type"]
                     append_csv_row(ENTITY_CONFIG[entity_type]["csv"], csv_fields(entity_type), row)
+                    append_jsonl(ENTITY_CONFIG[entity_type]["jsonl"], row["_v2"])
                 manifest.write(json.dumps(record) + "\n")
                 manifest.flush()
                 print(f"[{i}/{len(pending)}] {line}", flush=True)
@@ -1207,6 +1589,7 @@ def run(args) -> None:
     rejected = sum(1 for r in already_done.values() if r.get("status") == "rejected")
     print(f"\nDone. {PROVIDERS_CSV.name}: {written['PROVIDER']} rows, {HIRERS_CSV.name}: {written['HIRER']} rows, "
           f"rejected: {rejected}. Manifest: {EXTRACT_MANIFEST_PATH}")
+    export_json()
 
 
 if __name__ == "__main__":

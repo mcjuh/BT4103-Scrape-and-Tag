@@ -1,5 +1,5 @@
 You are sizing one independent specialist's profile on a Singapore marketplace where companies
-hire specialists for short gigs. Read the profile below and judge two things about it. The values
+hire specialists for short gigs. Read the profile below and judge a few things about it. The values
 feed a matching engine, so pick the most likely answer even when the profile doesn't say; there
 is no "unknown".
 
@@ -23,6 +23,10 @@ price_score -- the same judgement on a finer 1-10 scale, used to rank specialist
 other: 1-3 lean, 4-7 standard, 8-10 premium. Use the whole range. Most experienced consultants
 are standard (4-7); save 9-10 for the scarcest, highest-stakes specialisms.
 
+used_in_ml -- true if the specialist's service involves building, training, deploying or applying
+machine learning or AI models (data science, ML engineering, computer vision, NLP, AI strategy
+built on models); false otherwise.
+
 sector and track -- where this specialist's SERVICE sits in Singapore's SkillsFuture skills
 framework, chosen from the list below. Pick the sector whose work they do, then one track inside
 that sector. Judge by what they offer, not by their clients' industry: a data-privacy adviser
@@ -32,7 +36,7 @@ track must be one listed under the sector you picked.
 {taxonomy}
 
 Return ONLY valid JSON in exactly this shape:
-{{"seniority": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "price_score": 1-10, "sector": "<sector>", "track": "<track>", "reason": "one short sentence"}}
+{{"seniority": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "price_score": 1-10, "used_in_ml": true | false, "sector": "<sector>", "track": "<track>", "reason": "one short sentence"}}
 
 PROFILE:
 {record}

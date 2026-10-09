@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 The labeller role: zero-shot LLM relevance labels between hirer gigs
-(docs/hirers.csv) and provider profiles (docs/providers.csv), both produced
-by classifier_extractor/extract.py.
+(data/output/hirers.csv) and provider profiles (data/output/providers.csv),
+both produced by classifier_extractor/extract.py.
 
 Method: Zhuang et al., "Beyond Yes and No: Improving Zero-Shot LLM Rankers
 via Scoring Fine-Grained Relevance Labels" (arXiv:2310.14122). Pointwise --
@@ -37,12 +37,12 @@ not 7.
 Every score is normalised to 0-1 (expected relevance / highest label
 value) so the five approaches are directly comparable.
 
-    py -3 labeller/label.py [--max-pairs 50]
+    python run.py label [--max-pairs 50]
 
 Pairs are taken hirer-major (all providers for the first gig, then the
 next gig, ...), so a small --max-pairs yields a complete ranking for the
 first gig(s) rather than a thin slice of every gig. Reruns skip calls
-already recorded in docs/relevance_labels.jsonl, so raising --max-pairs
+already recorded in data/manifests/relevance_labels.jsonl, so raising --max-pairs
 only pays for the new pairs.
 """
 
@@ -62,18 +62,20 @@ from openai import OpenAI
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # labeller/ sits one level below the project root
-DOCS_DIR = ROOT_DIR / "docs"  # shared data lake every role reads/writes into
+DATA_DIR = ROOT_DIR / "data"  # shared data lake every role reads/writes into
+OUTPUT_DIR = DATA_DIR / "output"
+LOGS_DIR = ROOT_DIR / "logs"
 ENV_PATH = ROOT_DIR / ".env"
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 
-PROVIDERS_CSV = DOCS_DIR / "providers.csv"
-HIRERS_CSV = DOCS_DIR / "hirers.csv"
-LABELS_PATH = DOCS_DIR / "relevance_labels.jsonl"  # one line per LLM call
-SCORES_CSV = DOCS_DIR / "relevance_scores.csv"  # one row per pair, rebuilt each run
+PROVIDERS_CSV = OUTPUT_DIR / "providers.csv"
+HIRERS_CSV = OUTPUT_DIR / "hirers.csv"
+LABELS_PATH = DATA_DIR / "manifests" / "relevance_labels.jsonl"  # one line per LLM call
+SCORES_CSV = OUTPUT_DIR / "relevance_scores.csv"  # one row per pair, rebuilt each run
 
 # Same pool as classifier_extractor/llm_pool.py (see its docstring for why
 # these three, and why llama3.1:8b was dropped). Duplicated rather than
-# imported: roles only talk to each other through docs/, never through
+# imported: roles only talk to each other through data/, never through
 # Python imports across role folders.
 MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 
@@ -127,7 +129,7 @@ def model_for_gig(hirer_file: str, exclude: tuple = ()) -> str:
 # Query (gig) / document (provider profile) text
 # ---------------------------------------------------------------------------
 
-# Content fields of classifier_extractor/ML_*_schema_v1.json. source_company is
+# Content fields of extract.py's CSVs (the flat v1 text columns). source_company is
 # left out of the gig on purpose: it's the firm that published the page, not
 # part of what the gig needs.
 GIG_FIELDS = [
@@ -368,13 +370,13 @@ def main():
              "Each pair costs up to 6 LLM calls; already-recorded calls are skipped.",
     )
     # The client's test workbook lives in labeller/experiments/client_testset/,
-    # deliberately outside docs/, so its synthetic rows can never be mixed into
+    # deliberately outside data/, so its synthetic rows can never be mixed into
     # the real extracted dataset. These overrides are how it gets scored without
     # copying it in. Column names there match the CSVs', so nothing else changes.
     parser.add_argument("--hirers", type=Path, default=HIRERS_CSV,
-                        help=f"gig CSV to score (default: docs/{HIRERS_CSV.name})")
+                        help=f"gig CSV to score (default: data/output/{HIRERS_CSV.name})")
     parser.add_argument("--providers", type=Path, default=PROVIDERS_CSV,
-                        help=f"provider CSV to score (default: docs/{PROVIDERS_CSV.name})")
+                        help=f"provider CSV to score (default: data/output/{PROVIDERS_CSV.name})")
     # A big cross-product at 6 calls/pair takes most of a day at SOCLAAS's ~1 rps.
     # Naming only the approaches needed (e.g. rg_3l, 1 call/pair) cuts that down.
     parser.add_argument("--approaches", nargs="+", choices=[*APPROACHES, "rg_3l_multi"],
@@ -443,7 +445,8 @@ def main():
 
 if __name__ == "__main__":
     # Read by monitor/dashboard.py for an exact RUNNING state, as crawl.py's is.
-    PID_PATH = DOCS_DIR / "_label.pid"
+    PID_PATH = LOGS_DIR / "label.pid"
+    LOGS_DIR.mkdir(exist_ok=True)
     PID_PATH.write_text(str(os.getpid()), encoding="utf-8")
     try:
         main()

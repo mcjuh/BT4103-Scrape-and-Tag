@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Schema v2, the live schema extract.py validates against. x-filled-by says who writes each field: llm = the extraction prompts, code = extract.py, tagger = the two tagging calls assembled by code, enricher = enricher/enrich.py, external = populated after extraction outside the LLM, none = left empty. See docs/schema_v2.md.",
+  "title": "ProviderDocument",
+  "type": "object",
+  "required": [
+    "source_file",
+    "extracted_by_model",
+    "title",
+    "about_headline",
+    "about_bio",
+    "services"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "source_file": {
+      "type": "string",
+      "x-filled-by": "code",
+      "description": "Name of the crawled Markdown file this record was extracted from."
+    },
+    "extracted_by_model": {
+      "type": "string",
+      "x-filled-by": "code",
+      "description": "SOCLAAS model that extracted this record: one of MODEL_POOL in classifier_extractor/llm_pool.py."
+    },
+    "name": {
+      "type": ["string", "null"],
+      "x-filled-by": "none",
+      "description": "Left empty (null): not generated, to save tokens. The real name is anonymised away on purpose and is never taken from the source."
+    },
+    "title": {
+      "type": "string",
+      "x-filled-by": "llm",
+      "description": "Job title for the profile card, 2-8 words, plain and factual (e.g. \"Forensic Accountant\"). Not a sales hook."
+    },
+    "credentials": {
+      "type": "array",
+      "maxItems": 6,
+      "items": { "type": "string" },
+      "x-filled-by": "llm",
+      "description": "Professional registrations, certifications and memberships the source states, one per item (e.g. \"Certified Public Accountant (CPA)\"). Empty list when the source states none; never a degree-free guess and never a sentence about the source."
+    },
+    "years_experience": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 60,
+      "x-filled-by": "llm",
+      "description": "Years in the individual's field. The tenure the source states; else the years of their roles added up as of 2026, rounded down; else null. Never estimated from seniority or titles."
+    },
+    "about_headline": {
+      "type": "string",
+      "x-filled-by": "llm",
+      "description": "One-line headline, at most 20 words, in the title style rolled for this record."
+    },
+    "about_bio": {
+      "type": "string",
+      "x-filled-by": "llm",
+      "description": "Bio, 70-100 words: specialisation, past roles described generically (no employer, client or person names), and the Singapore setting. First person or implied, per the voice rolled for this record."
+    },
+    "services": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "x-filled-by": "llm",
+      "description": "Services the individual offers, best fit first. Each is ONE engagement a single client could hire them for alone.",
+      "items": {
+        "type": "object",
+        "required": ["service_title", "service_detail"],
+        "additionalProperties": false,
+        "properties": {
+          "service_title": {
+            "type": "string",
+            "description": "Name of the service, 3-10 words (e.g. \"Construction Claims Preparation and Dispute Advisory\")."
+          },
+          "service_detail": {
+            "type": "string",
+            "description": "40-65 words: who it is for (small and mid-sized Singapore businesses where the expertise suits them), \"Services include ...\" with 3-5 concrete services, optionally the Singapore laws and standards that govern it, and optionally one scope-limit sentence."
+          }
+        }
+      }
+    },
+    "achievements": {
+      "type": "array",
+      "maxItems": 5,
+      "items": { "type": "string" },
+      "x-filled-by": "llm",
+      "description": "Specific outcomes the individual personally produced, one sentence each, keeping every figure the source gives. Never a job title, responsibility, degree, certification, publication or tenure statement. Empty list when the source has no outcome-level content."
+    },
+    "technical_proficiency": {
+      "type": "array",
+      "maxItems": 4,
+      "x-filled-by": "llm",
+      "description": "Tools, methods and standards the source names, grouped. Free text taken from the source (e.g. SAP S/4HANA, IFRS 16); not the SkillsFuture skills in tags.",
+      "items": {
+        "type": "object",
+        "required": ["category", "skills"],
+        "additionalProperties": false,
+        "properties": {
+          "category": { "type": "string", "description": "Group name, 1-3 words (e.g. \"Insolvency\", \"ERP systems\")." },
+          "skills": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 8,
+            "items": { "type": "string" },
+            "description": "Skills, tools or standards in this group, one per item."
+          }
+        }
+      }
+    },
+    "how_i_work": {
+      "type": ["string", "null"],
+      "x-filled-by": "llm",
+      "description": "25-60 words, first person: how the individual runs an engagement. Written in the style pass and not source-backed, so it may describe an approach but must add no credential, client, figure or claim of experience."
+    },
+    "availability": {
+      "type": ["string", "null"],
+      "x-filled-by": "enricher",
+      "description": "Free text, e.g. \"Available from November 2026, 2 days a week.\""
+    },
+    "rate": {
+      "type": ["string", "null"],
+      "x-filled-by": "enricher",
+      "description": "Free text, in S$, e.g. \"From S$3,000 per day.\""
+    },
+    "tags": { "$ref": "#/definitions/tags" }
+  },
+  "definitions": {
+    "tags": {
+      "type": "object",
+      "x-filled-by": "tagger",
+      "description": "SkillsFuture tags, nested category -> specialisation -> skills. Assembled by code from two flat model replies and validated against data/reference/skillsfuture/, so every name is a real sector, track or skill. Empty categories list when nothing fits.",
+      "required": ["taxonomy_version", "categories"],
+      "additionalProperties": false,
+      "properties": {
+        "taxonomy_version": { "type": "string", "description": "e.g. \"sf_v1\"." },
+        "categories": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["name", "specialisations"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string", "description": "A SkillsFuture sector." },
+              "group": {
+                "type": ["string", "null"],
+                "enum": ["Industry", "Function", "Subject", "Others", null],
+                "x-filled-by": "external",
+                "description": "Which heading the platform's Category list shows this category under. Left null by the extractor; populated afterwards from the platform's own category list, never by the LLM."
+              },
+              "specialisations": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "required": ["name", "search_tag", "skills"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": { "type": "string", "description": "A SkillsFuture track listed under this sector." },
+                    "search_tag": { "type": "string", "description": "\"<track> (<sector>)\", the platform's search tag." },
+                    "skills": {
+                      "type": "array",
+                      "maxItems": 8,
+                      "items": { "type": "string" },
+                      "description": "SkillsFuture TSC titles linked to this track. May be empty."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

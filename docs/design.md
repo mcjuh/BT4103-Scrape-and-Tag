@@ -1,5 +1,15 @@
 # Scrapper Agent -- Project Context
 
+> **Paths in this file predate the 2026-10-06 restructure.** `docs/` is now `data/`: pages in
+> `data/pages/<bucket>/`, manifests in `data/manifests/` (`manifest.jsonl` -> `classify.jsonl`,
+> `industry_manifest.jsonl` -> `industry.jsonl`, `extract_manifest.jsonl` -> `extract.jsonl`,
+> `_crawl_state.json` / `_crawl_report.md` -> `crawl_state.json` / `crawl_report.md`), CSVs and JSON
+> in `data/output/`, `client_documents/` and `skillsfuture/` in `data/reference/`. `scrapper/` is
+> `scraper/`, the schemas are in `classifier_extractor/schemas/` (v2 only), this file was
+> `context.md`, and `BACKLOG.md` is `docs/backlog.md`. Logs are one file per stage
+> (`logs/<stage>.log`, written by `run.py` and the dashboard) and PID files are `logs/<stage>.pid`.
+> The README's Layout section is current.
+
 ## What this is
 A scraping pipeline that builds a seed dataset for **GreyGigz**, a gig marketplace for
 experienced/senior professionals spanning ~36 industries and ~39 functional specialties (see
@@ -151,11 +161,13 @@ difference is the prompts and `ENTITY_CONFIG`:
   `client_testset/gigs.csv`):
   - It describes the **work**, not the person. The title names a task ("Design Target Operating
     Model for Finance Function"), never a job title. The old "Role first" voice was replaced by
-    "Problem first".
+    "Problem first", and later by "Need first" and "Overview first".
   - It stays **small**: one self-contained piece a single specialist could finish in under a
     year, carved out of a big programme if necessary.
-  - The description runs situation -> work -> `Deliverable:` -> `Engagement duration:` in at
-    most 120 words (the client's are 60-92). The duration is the one detail the model may
+  - The description runs overview -> ask and work -> `Deliverable:` -> `Engagement duration:` in at
+    most 120 words (the client's are 60-92). It is written as a public post: specific about the
+    work, general about the organisation (no backstory, insiders, counterparties, contract terms
+    or exact location; the PUBLIC POST section of `extract_hirer.md`). The duration is the one detail the model may
     estimate without the source. The reviewer (`review_hirer.md`) accepts it if it's plausible
     and under 12 months, and flags a gig that is too big.
   - On a 10-page dry run: every gig had both lines, durations from 4 weeks to 8 months, 59-110

@@ -1,5 +1,5 @@
 You are sizing one gig on a Singapore marketplace where companies hire independent specialists.
-Read the gig below and judge four things about it. The values feed a matching engine, so pick the
+Read the gig below and judge a few things about it. The values feed a matching engine, so pick the
 most likely answer even when the gig doesn't say; there is no "unknown".
 
 seniority_needed -- the level of specialist the hirer would need to do this work well:
@@ -29,6 +29,10 @@ days_per_week -- how many days a week (1-5) one specialist would spend on it, gi
 the "Engagement duration" line: intensive build or on-site work is 4-5; a review or advisory
 piece spread over several weeks is 1-3.
 
+used_in_ml -- true if the work involves building, training, deploying or applying machine
+learning or AI models (data science, ML engineering, computer vision, NLP, AI strategy built on
+models); false otherwise.
+
 sector and track -- where this WORK sits in Singapore's SkillsFuture skills framework, chosen
 from the list below. Pick the sector whose specialists would do the work, then one track inside
 that sector. Judge by the work itself, not by the hirer's industry: a cybersecurity review for a
@@ -38,7 +42,7 @@ and the track must be one listed under the sector you picked.
 {taxonomy}
 
 Return ONLY valid JSON in exactly this shape:
-{{"seniority_needed": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "urgency": "asap" | "soon" | "flexible", "days_per_week": 1-5, "sector": "<sector>", "track": "<track>", "reason": "one short sentence"}}
+{{"seniority_needed": "mid" | "senior" | "expert", "price_tier": "lean" | "standard" | "premium", "urgency": "asap" | "soon" | "flexible", "days_per_week": 1-5, "used_in_ml": true | false, "sector": "<sector>", "track": "<track>", "reason": "one short sentence"}}
 
 GIG:
 {record}

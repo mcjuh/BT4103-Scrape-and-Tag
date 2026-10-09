@@ -38,19 +38,67 @@ _PATTERNS = [
                               r"|\bOSHA\b|\bEPA\b|\bGDPR\b|\bCCPA\b|\bHIPAA\b|\bMedicaid\b|\bMedicare\b"
                               r"|\bSarbanes\b|\bSOX\b|\bUS GAAP\b|\bstate (?:and|or) federal\b|\bexaminership\b"
                               r"|\bAICPA\b|\bGAAS\b|\bFCPA\b|\bBribery Act\b|\bDodd-Frank\b|\bPCAOB\b"),
+    # Records are anonymised: an employer or client is described, never named. The prompts say
+    # so and the models still leave one in ("Arthur Andersen LLP" in a smoke test), so a
+    # legal-entity suffix or a well-known firm is flagged and the repair pass describes it.
+    ("company name", r"\b[A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,3}\s+(?:LLP|LLC|Inc|Ltd|PLC|GmbH|Corp|Corporation|Co)\b\.?"
+                     r"|\b(?:Arthur Andersen|PricewaterhouseCoopers|PwC|Deloitte|KPMG|Ernst & Young|McKinsey|"
+                     r"Boston Consulting Group|Accenture|Booz Allen|Grant Thornton|Alvarez & Marsal|FTI Consulting|"
+                     r"Goldman Sachs|Morgan Stanley|JPMorgan|J\.P\. Morgan|Citigroup|Citibank|Bank of America|"
+                     r"Wells Fargo|Merrill Lynch|Lehman Brothers|Credit Suisse|Barclays|HSBC|Standard Chartered|"
+                     r"Lazard|Rothschild|Duff & Phelps|Kroll|Mazars|Thoughtworks|West Monroe)\b"),
 ]
 _COMPILED = [(label, re.compile(p)) for label, p in _PATTERNS]
+
+# Personal credentials and memberships are facts about the person, never localised, so they
+# are cut out before the patterns run: "an MBA from the University of Chicago Booth School
+# of Business", "American Society of Appraisers", "CPA Australia", "New York-qualified",
+# "CPA-registered in New York and Texas". In a sample of the v2 providers these were a large
+# share of the hits, and each one cost a pointless repair call and cluttered the log.
+_ORG_NOUN = (r"(?:University|College|School|Institute|Institution|Society|Societies|Association|"
+             r"Academy|Council|Federation|Foundation|Chamber|Board|Bar)")
+_CREDENTIAL = re.compile(
+    r"(?:\b[A-Z][\w&'.-]*\s+){0,4}" + _ORG_NOUN + r"(?:\s+(?:of|and|for|in|the|[A-Z][\w&'.-]*)){0,8}"
+    r"|\bINSOL Europe\b|\bAICPA\b|\bCPA Australia\b"
+    r"|\bChartered Accountants?\s+(?:of|in|from)\s+[A-Z][\w ,&]*?(?=[.;]|$)"
+    r"|\b[A-Z]\w*(?:\s[A-Z]\w*)?-(?:qualified|registered|admitted|licensed|licenced|certified)\b"
+    r"(?:\s+in\s+[A-Z]\w*(?:\s[A-Z]\w*)?(?:(?:,\s*(?:and\s+)?|\s+and\s+)[A-Z]\w*(?:\s[A-Z]\w*)?)*)?"
+    r"|\b(?:qualified|registered|admitted|licensed|licenced|certified)\s+(?:to\s+practi[sc]e\s+)?in\s+"
+    r"[A-Z]\w*(?:\s[A-Z]\w*)?(?:(?:,\s*(?:and\s+)?|\s+and\s+)[A-Z]\w*(?:\s[A-Z]\w*)?)*"
+    r"|\b(?:US\s+|U\.S\.\s+)?(?:CPA|CFA|CMA|CIA|JD|Esq|Bar)\b[^.;]{0,50}")
+
+# What makes a record read as Singapore-set rather than merely free of foreign phrases:
+# Singapore itself, S$, or a Singapore regulator, law or scheme.
+_ANCHOR = re.compile(
+    r"Singapore|\bS\$|\bSG\b|\b(?:MAS|IRAS|ACRA|MOM|PDPA|PDPC|NEA|SFA|BCA|LTA|URA|HSA|MOH|CSA|IMDA|SGX|IRDA|"
+    r"JTC|PUB|MPA|CAAS|EMA|MSF|NCSS|IPOS|SFRS|CPF|HDB|EDG|PSG)\b|NParks|Enterprise Singapore|"
+    r"WSH Act|bizSAFE|Employment Act|Companies Act|Security of Payment Act|PSSCOC|Healthcare Services Act|"
+    # the old area roll in extract_variations.json named these, and a gig set in "a clinic in Bedok"
+    # is set in Singapore without the word
+    r"\b(?:Punggol|Tuas|Jurong|Toa Payoh|Paya Lebar|Bedok|Pasir Panjang|Woodlands|Tampines|Changi|Sentosa|"
+    r"Orchard|Marina Bay|Raffles Place|Ang Mo Kio|Yishun|Sengkang|Clementi|Kallang|Bishan|Serangoon|"
+    r"Hougang|Bukit Merah|Bukit Timah|Queenstown|Geylang|Novena|Tanjong Pagar|Shenton Way|Kranji)\b")
+
+
+def singapore_anchor(texts) -> bool:
+    """Whether any of `texts` (a string or an iterable of them) names Singapore, S$ or a
+    Singapore regulator, law or scheme."""
+    if isinstance(texts, str):
+        texts = [texts]
+    return any(isinstance(t, str) and _ANCHOR.search(t) for t in texts)
 
 
 def foreign_residue(texts) -> list:
     """The distinct foreign-setting phrases found in `texts` (a string or an iterable of
-    them), in order of first appearance. Empty when the text reads as Singapore-set."""
+    them), in order of first appearance, ignoring credentials and memberships. Empty when
+    the text reads as Singapore-set."""
     if isinstance(texts, str):
         texts = [texts]
     found = []
     for text in texts:
         if not isinstance(text, str):
             continue
+        text = _CREDENTIAL.sub(" ", text)
         for _, rx in _COMPILED:
             for m in rx.finditer(text):
                 phrase = m.group(0).strip()

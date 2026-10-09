@@ -7,14 +7,13 @@
       "Detailed": {"weight": 0.1, "instruction": "Usually 95-120 words. Use a short opening plus 2-3 bullets only when the one task has several distinct steps."}
     },
     "voice": {
-      "Owner intro": {"weight": 0.55, "instruction": "Write as the organisation, in the first person plural. Open by saying who you are and your situation (e.g. \"We run a chain of [n] [businesses] in Singapore.\", \"We are a [size] [kind of organisation] in [area] that ...\"), then the problem and what you need."},
-      "Problem first": {"weight": 0.25, "instruction": "Write as the organisation (\"we\", \"our\"). Open with the problem you have run into (e.g. \"Our month-end close takes twelve days and ...\"), then say who you are in a clause and what work is needed."},
-      "Individual poster": {"weight": 0.1, "instruction": "Write as the one manager or owner posting the gig, using \"I\" and \"my team\" or \"our\" (e.g. \"I run [function] at a [kind of organisation] and need...\"). Don't invent a name or a job title the source doesn't support."},
-      "Context first": {"weight": 0.1, "instruction": "Open with one sentence setting the scene in the third person (e.g. \"A [kind of organisation] in Singapore is [situation].\"), then say what is needed. Avoid \"we\" throughout."}
+      "Overview first": {"weight": 0.4, "instruction": "Write as the organisation, in the first person plural. Open with one plain sentence on what the organisation does, at the level of a search-engine summary (e.g. \"We are a [kind of organisation] in Singapore.\", \"We run a small chain of [businesses].\"), then say what kind of specialist you need and for what."},
+      "Need first": {"weight": 0.4, "instruction": "Write as the organisation (\"we\", \"our\"). Open with the ask itself (e.g. \"Looking for a [kind of specialist] to ...\", \"Seeking someone experienced in [field] to ...\"), then mention what kind of organisation you are in a short clause or sentence, then the work."},
+      "Individual poster": {"weight": 0.1, "instruction": "Write as the one manager or owner posting the gig, using \"I\" and \"my team\" or \"our\" (e.g. \"I look after [function] at a [kind of organisation] and need ...\"). Don't invent a name or a job title the source doesn't support."},
+      "Context first": {"weight": 0.1, "instruction": "Open with one plain third-person sentence on what the organisation does (e.g. \"A [kind of organisation] in Singapore is looking for ...\"), then say what is needed. Avoid \"we\" throughout."}
     },
     "area": {
-      "named": {"weight": 0.35, "instruction": "place the organisation in one Singapore area or estate that suits the business (e.g. a shipyard in Tuas, a factory in Jurong, a clinic in Bedok, a wholesaler in Pasir Panjang, an office in Paya Lebar), mentioned once in the opening sentence."},
-      "none": {"weight": 0.65, "instruction": "say only that it is in Singapore; do not name an area."}
+      "none": {"weight": 1.0, "instruction": "say only that it is in Singapore or operates locally; never name an estate, town or street. If the work needs a site visit, say it is on site in Singapore."}
     }
   },
   "PROVIDER": {
@@ -24,8 +23,8 @@
       "Value Prop": {"weight": 0.1, "instruction": "Rewrite their core role as a client-focused, benefit-driven hook (e.g., \"Smart Financing as you Deserve\")."}
     },
     "achievement_style": {
-      "Implied": {"weight": 0.8, "instruction": "Drop pronouns completely, as in a CV summary (e.g. \"18 years as a quantity surveyor ... Has represented subcontractors in over 40 adjudications. Previously with a specialist claims consultancy.\")."},
-      "Direct First-Person": {"weight": 0.2, "instruction": "Use \"I\" with active verbs (e.g. \"I spent 18 years as ... I have represented ...\")."}
+      "Implied": {"weight": 0.8, "instruction": "Drop pronouns completely, as in a CV bullet: each sentence starts with a past-tense verb (e.g. \"Led the migration of a client's payroll to a new platform.\")."},
+      "Direct First-Person": {"weight": 0.2, "instruction": "Use \"I\" with active verbs in each sentence (e.g. \"I led the migration of a client's payroll to a new platform.\")."}
     },
     "imperfection": {
       "none": {"weight": 0.95, "instruction": "none; use flawless grammar and punctuation."},
