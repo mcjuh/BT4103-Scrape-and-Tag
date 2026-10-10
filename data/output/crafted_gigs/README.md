@@ -20,7 +20,7 @@ stake or named estates. Organisation size is left out unless it sizes the work.
 
 Coverage: 21 SkillsFuture sectors; implied seniority 11 mid, 13 senior, 6 expert; mode of work 12
 execution, 11 advisory, 7 mixed, spread across every seniority level so that the two do not move together;
-8 generic, 16 specific and 6 mixed skill sets; 40-101 words; 1 to 12 weeks; 8 gigs with hirer notes
+8 generic, 16 specific and 6 mixed skill sets; 56-101 words; 1 to 12 weeks; 8 gigs with hirer notes
 (a budget, a start date or a required qualification).
 
 The descriptions were rewritten on 2026-10-08 from a first version whose openings told the story behind

@@ -1,6 +1,6 @@
 gig,source_file,domain,implied_seniority,mode_of_work,skill_specificity,words,weeks,hirer_notes
 C01,crafted-gig__01_noncompete-opinion.md,Legal Services > Advisory and Advocacy,expert,advisory,specific,67,1-2,
-C02,crafted-gig__02_gst-backlog.md,Accountancy > Tax,mid,execution,specific,53,2-3,
+C02,crafted-gig__02_gst-backlog.md,Accountancy > Tax,mid,execution,specific,64,2-3,
 C03,crafted-gig__03_ammonia-spikes.md,Agrifood > Aquaculture,senior,advisory,specific,82,2-3,
 C04,crafted-gig__04_wind-up-options.md,Accountancy > Restructuring and Insolvency,expert,advisory,specific,72,1-2,yes
 C05,crafted-gig__05_cash-flow-model.md,Accountancy > Management Accounting,mid,execution,generic,69,1-2,
@@ -11,19 +11,19 @@ C09,crafted-gig__09_pdpa-programme-review.md,Infocomm Technology > Strategy and 
 C10,crafted-gig__10_pay-bands.md,Human Resource > Performance and Rewards,senior,mixed,mixed,60,3-5,yes
 C11,crafted-gig__11_annual-dinner.md,Tourism > Event Management and Operations,mid,execution,generic,68,8-10,
 C12,crafted-gig__12_supervisor-workshop.md,Human Resource > Learning and Organisation Development,senior,execution,generic,62,1,
-C13,crafted-gig__13_bakery-social.md,Retail > Marketing,mid,execution,generic,40,2,
+C13,crafted-gig__13_bakery-social.md,Retail > Marketing,mid,execution,generic,60,2,
 C14,crafted-gig__14_marketplace-listings.md,Retail > E-Commerce (Omni-Channel),mid,mixed,mixed,65,2,
 C15,crafted-gig__15_biscuit-rebrand.md,Retail > Brand Management,senior,advisory,mixed,65,4-6,
-C16,crafted-gig__16_product-videos.md,Media > Content Production and Management,mid,execution,generic,54,1-2,
+C16,crafted-gig__16_product-videos.md,Media > Content Production and Management,mid,execution,generic,60,1-2,
 C17,crafted-gig__17_halal-cafe-menu.md,Food Services > Culinary Arts,senior,execution,mixed,66,3-4,
 C18,crafted-gig__18_shelf-life-study.md,Food Manufacturing > Quality Assurance and Control,senior,advisory,specific,67,4-6,
 C19,crafted-gig__19_hcsa-documents.md,Healthcare > Operations,senior,execution,specific,82,3-4,
-C20,crafted-gig__20_variation-claim.md,Built Environment > Quantity Surveying,expert,advisory,specific,63,2-3,yes
+C20,crafted-gig__20_variation-claim.md,Built Environment > Quantity Surveying,expert,advisory,specific,62,2-3,yes
 C21,crafted-gig__21_condo-maintenance-plan.md,Built Environment > Facilities Management,senior,execution,specific,69,3-4,
 C22,crafted-gig__22_mezzanine-design.md,Engineering Services > Engineering Design,expert,execution,specific,56,3-4,yes
-C23,crafted-gig__23_warehouse-reslot.md,Logistics > Warehouse Management and Operations,senior,mixed,mixed,57,2-3,
+C23,crafted-gig__23_warehouse-reslot.md,Logistics > Warehouse Management and Operations,senior,mixed,mixed,60,2-3,
 C24,crafted-gig__24_hs-code-classification.md,Wholesale Trade > Finance and Regulations,mid,mixed,specific,66,1-2,
-C25,crafted-gig__25_bizsafe-level-3.md,Workplace Safety and Health > System Audit,senior,execution,specific,69,4-6,
+C25,crafted-gig__25_bizsafe-level-3.md,Workplace Safety and Health > System Audit,senior,execution,specific,68,4-6,
 C26,crafted-gig__26_rooftop-solar.md,Energy and Power > Distributed Generation,mid,advisory,specific,72,3-4,
 C27,crafted-gig__27_befriending-outcomes.md,Social Service > Care and Programme,mid,advisory,generic,59,4-6,yes
 C28,crafted-gig__28_cnc-tolerance-drift.md,Precision Engineering > Technical and Engineering,senior,mixed,specific,101,2-4,
