@@ -16,9 +16,12 @@ has no current gig is skipped.
 
 Two providers per target gig, each in two steps:
 1. A pool model (its own "manufacture" salt) invents a fictional specialist
-   and writes their profile PAGE (prompts/manufacture_provider.md): "direct"
+   and writes their profile PAGE (prompts/manufacture_provider_v2.md): "direct"
    is aimed at grade 3 (core expertise is exactly this work), "adjacent" at
-   grade 2 (same field, neighbouring focus).
+   grade 2 (same field, neighbouring focus). The model first reads the gig's
+   seniority and mode of work as rubric_01.v5 defines them, and both variants
+   match the gig on those terms, so content fit is the only thing that varies.
+   v1 of the prompt (manufacture_provider.md) is kept for the providers it made.
 2. That page goes through extract.py's own provider extraction (facts pass,
    style pass, Singapore check, SkillsFuture tags), so the record has the same
    shape, style rolls and checks as one extracted from a crawled page.
@@ -53,22 +56,27 @@ import extract as X
 import taxonomy
 from llm_pool import model_for_file
 
-PROMPT = (X.PROMPTS_DIR / "manufacture_provider.md").read_text(encoding="utf-8").strip()
+PROMPT = (X.PROMPTS_DIR / "manufacture_provider_v2.md").read_text(encoding="utf-8").strip()
+PROMPT_VERSION = "manufacture_provider.v2"  # v1 (manufacture_provider.md) made the records with no prompt_version
+GIG_LEVELS = ("mid", "senior", "expert")  # rubric_01.v5's seniority levels
+GIG_MODES = ("execution", "advisory", "mixed")  # and its modes of work
 MANIFEST_PATH = X.MANIFESTS_DIR / "manufacture.jsonl"
 LIST_PATH = X.OUTPUT_DIR / "manufactured_providers.txt"
 PID_PATH = X.LOGS_DIR / "manufacture.pid"
 PREFIX = "synthetic-provider__"
 MIN_PAGE_WORDS = 120
 
-# variant -> (grade it is aimed at, who the generator invents)
+# variant -> (grade it is aimed at under rubric_01.v5, who the generator invents). The prompt makes
+# both match the gig's seniority and mode of work, so only the content fit differs.
 VARIANTS = {
-    "direct": (3, "A specialist whose core expertise is exactly the kind of work this gig needs, built "
-                  "up in the same industry or setting. A client reading the profile would shortlist "
-                  "them for this gig straight away."),
+    "direct": (3, "A specialist whose core expertise is exactly this kind of work on this kind of "
+                  "problem, built up in the same industry or setting. A client reading the profile "
+                  "would shortlist them for this gig straight away."),
     "adjacent": (2, "A specialist in the same field who is a good but not a perfect fit: their core "
-                    "skills clearly apply, but their main focus is an adjacent area, such as a "
-                    "neighbouring sub-specialism, or the same kind of work done mostly in a different "
-                    "sector. A credible candidate, not the obvious first choice."),
+                    "skills clearly apply, but their main focus is a neighbouring sub-specialism, or "
+                    "the same kind of work done mostly in a different sector. They match the gig's "
+                    "level and mode of work, so the content alone is what keeps them from being the "
+                    "first choice."),
 }
 
 csv.field_size_limit(10**9)
@@ -100,19 +108,25 @@ def gig_text(gig: dict) -> str:
     return "\n".join(parts)
 
 
+def check_reply(data: dict) -> tuple:
+    """(page, gig_level, gig_mode) from the generator's JSON; ValueError makes the call retry."""
+    page = data.get("profile_page")
+    if not isinstance(page, str) or len(page.split()) < MIN_PAGE_WORDS:
+        raise ValueError(f"profile_page missing or under {MIN_PAGE_WORDS} words")
+    level, mode = data.get("gig_level"), data.get("gig_mode")
+    if level not in GIG_LEVELS:
+        raise ValueError(f"gig_level {level!r} is not one of {GIG_LEVELS}")
+    if mode not in GIG_MODES:
+        raise ValueError(f"gig_mode {mode!r} is not one of {GIG_MODES}")
+    return page.strip(), level, mode
+
+
 def generate_page(fname: str, gig: dict, variant: str) -> tuple:
-    """(profile page text, generator model, usage)."""
+    """(profile page text, gig_level, gig_mode, generator model, usage)."""
     model = model_for_file(fname, "manufacture")
     content = PROMPT.format(variant_instruction=VARIANTS[variant][1], gig=gig_text(gig))
-
-    def check(data: dict) -> str:
-        page = data.get("profile_page")
-        if not isinstance(page, str) or len(page.split()) < MIN_PAGE_WORDS:
-            raise ValueError(f"profile_page missing or under {MIN_PAGE_WORDS} words")
-        return page.strip()
-
-    page, usage, _ = X._call_with_retries(model, content, check)
-    return page, model, usage
+    (page, level, mode), usage, _ = X._call_with_retries(model, content, check_reply)
+    return page, level, mode, model, usage
 
 
 def make_provider(gig: dict, gig_row: dict, variant: str) -> tuple:
@@ -122,11 +136,11 @@ def make_provider(gig: dict, gig_row: dict, variant: str) -> tuple:
     timestamp = datetime.now().isoformat(timespec="seconds")
     base = {"file": fname, "variant": variant, "aimed_grade": VARIANTS[variant][0],
             "target_gig": gig["source_file"], "target_hirer_ref": gig["hirer_ref"],
-            "target_title": gig["gig_title"], "timestamp": timestamp}
+            "target_title": gig["gig_title"], "prompt_version": PROMPT_VERSION, "timestamp": timestamp}
     start = time.perf_counter()
     try:
-        page, generator, gen_usage = generate_page(fname, gig, variant)
-        base.update(generator=generator, generator_usage=gen_usage, page=page)
+        page, level, mode, generator, gen_usage = generate_page(fname, gig, variant)
+        base.update(generator=generator, generator_usage=gen_usage, gig_level=level, gig_mode=mode, page=page)
         model = model_for_file(fname, "extract")
         base["model"] = model
         doc, usage, meta = X.extract_entity(page, "PROVIDER", model, fname)
@@ -184,19 +198,22 @@ def write_list(n_zero: int, n_targets: int) -> None:
         "# Manufactured provider profiles: synthetic, not extracted from a real page",
         "# Made by classifier_extractor/manufacture_providers.py. Targets: gigs with no provider graded 2 or 3",
         "# in the ranker's judging pools on the 29 Sep dataset (rubric_0_3.v2), written against each gig's",
-        "# current wording. Two per gig: 'direct' aimed at grade 3, 'adjacent' at grade 2. Not yet graded.",
+        "# current wording. Two per gig: 'direct' aimed at grade 3, 'adjacent' at grade 2 (rubric_01.v5),",
+        "# both at the gig_level / gig_mode the generator read from the gig (blank: made by prompt v1). Not yet graded.",
         "# Each is in data/output/providers.jsonl / providers.csv under its source_file; the generated",
         "# profile page it was extracted from is in data/manifests/manufacture.jsonl.",
         f"# {len(written)} providers for {len(per_gig)} gigs ({n_targets} of {n_zero} zero-count gigs have a "
         f"current gig; {sum(1 for n in per_gig.values() if n < 2)} of them have only one provider so far)",
         "#",
         "\t".join(["source_file", "variant", "aimed_grade", "target_hirer_ref", "target_gig_source_file",
-                   "target_gig_title", "generator_model", "extractor_model", "provider_title", "provider_headline"]),
+                   "target_gig_title", "prompt_version", "gig_level", "gig_mode", "generator_model", "extractor_model",
+                   "provider_title", "provider_headline"]),
     ]
     for r in written:
         lines.append("\t".join(str(v or "").replace("\t", " ").replace("\n", " ") for v in (
             r["file"], r["variant"], r["aimed_grade"], r["target_hirer_ref"], r["target_gig"],
-            r["target_title"], r.get("generator"), r.get("model"), r.get("title"), r.get("headline"))))
+            r["target_title"], r.get("prompt_version", "manufacture_provider.v1"), r.get("gig_level"),
+            r.get("gig_mode"), r.get("generator"), r.get("model"), r.get("title"), r.get("headline"))))
     LIST_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{LIST_PATH.name}: {len(written)} providers for {len(per_gig)} gigs", flush=True)
 
