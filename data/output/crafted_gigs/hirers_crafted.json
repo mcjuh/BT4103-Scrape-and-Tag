@@ -929,5 +929,2326 @@
         }
       ]
     }
+  },
+  {
+    "source_file": "crafted-gig__31_airtable-enquiries.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-c0b8cf6b",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Build Customer Enquiry Workflow in Airtable and Zapier",
+    "short_description": "Looking for a no-code developer to set up an Airtable base for enquiries and site visits at our interior design firm, with Zapier automations that log new enquiries, send a confirmation email and remind the designer to follow up after three days. Enquiries arrive at about 40 a month over WhatsApp and email, and we use Google Workspace. Deliverable: working workflow with a short admin guide. Engagement duration: 1-2 weeks.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 2,
+    "additional_notes": "Budget is around S$2,000.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Software and Applications",
+              "search_tag": "Software and Applications (Infocomm Technology)",
+              "skills": [
+                "Applications Development",
+                "Applications Integration",
+                "Business Requirements Mapping"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__32_nursery-term-plan.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-09de03e1",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Plan a Ten-Week Bilingual Term for Nursery Classes",
+    "short_description": "I run an independent childcare centre with about 60 children aged two to six. Need an early childhood educator to plan a ten-week term of weekly themes for my Nursery 1 and 2 classes, in line with the Nurturing Early Learners framework, with English and Mandarin activities for each week. Themes should cover festivals such as Chinese New Year, Hari Raya and Deepavali in an age-appropriate way. Deliverable: term plan with weekly lesson outlines and activity sheets. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Early Childhood",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Early Childhood Education",
+              "search_tag": "Early Childhood Education (Early Childhood)",
+              "skills": [
+                "Early Childhood Curriculum Design",
+                "Early Childhood Programme Planning",
+                "Learning Environment Design"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__33_facade-method-statement.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-80dbf1ea",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Method Statement for Facade Concrete Repair",
+    "short_description": "We manage a six-storey commercial building and plan repairs to spalling concrete on the facade, working from a gondola. Need a construction specialist to write the method statement covering sequence, access, temporary protection and quality checks, with a work-at-height risk assessment under the WSH regulations. Around 120 sqm of facade across the north and east faces needs repair. Deliverable: method statement and risk assessment. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Construction Management",
+              "search_tag": "Construction Management (Built Environment)",
+              "skills": [
+                "Technical Writing",
+                "Quality System Management",
+                "Workplace Safety and Health Framework Development and Implementation"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workplace Safety and Health",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Operational Control",
+              "search_tag": "Operational Control (Workplace Safety and Health)",
+              "skills": [
+                "Hazards Identification"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__34_adviser-onboarding.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-076db11b",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Redesign Client Onboarding for Financial Advisory Firm",
+    "short_description": "Looking for a process designer to map how new clients are onboarded at our independent financial advisory firm, which has eight advisers, from first meeting and fact-find to policy submission, and to redesign the journey to cut handoffs and repeated paperwork within the MAS Financial Advisers Act requirements. Deliverable: current and future-state process maps with an implementation checklist. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Sales, After Sales, Distribution and Relationship Management",
+              "search_tag": "Sales, After Sales, Distribution and Relationship Management (Financial Services)",
+              "skills": [
+                "Business Process Re-engineering",
+                "Customer Acceptance Checking and Onboarding",
+                "Customer Experience Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__35_incident-response-plan.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f1d549c2",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Incident Response Plan and Ransomware Tabletop Exercise",
+    "short_description": "We are a retailer with about 150 staff and an online store holding customer accounts. Looking for a cyber security consultant for two pieces of work:\n- an incident response plan covering roles, escalation, evidence handling and PDPA breach notification\n- a half-day tabletop exercise with our management team on a ransomware scenario\nWe use Microsoft 365 and a hosted e-commerce platform. Deliverable: incident response plan, facilitated exercise and after-action report. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Cyber Security",
+              "search_tag": "Cyber Security (Infocomm Technology)",
+              "skills": [
+                "Cyber and Data Breach Incident Management",
+                "Business Continuity",
+                "Security Governance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__36_carbon-credit-options.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-749f53da",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Carbon Credit Options Paper Under Singapore Carbon Tax",
+    "short_description": "We need to understand our options for using carbon credits under Singapore's carbon tax. We are a mid-sized manufacturer emitting roughly 30,000 tonnes of CO2e a year from one plant, and have not used credits before. Looking for a carbon markets adviser to compare using eligible international credits against paying the tax on part of our taxable emissions: which project types and standards qualify, indicative prices and the cost of each route. Deliverable: options paper with a cost comparison and a recommended purchasing approach. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Carbon Services and Trading",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory",
+              "search_tag": "Advisory (Carbon Services and Trading)",
+              "skills": [
+                "Carbon Pricing Policy Advisory",
+                "Carbon Trading",
+                "Carbon Markets and Decarbonisation Strategies Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__37_shop-fitout-programme.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-94612251",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review Programme and Cost Plan for Retail Shop Fit-Out",
+    "short_description": "Need a project manager to check the programme and cost plan for the fit-out of a 120 sqm retail shop we are opening in a mall: sequencing, approvals, lead times and where the risks are. The fit-out includes a new ceiling, lighting, joinery and a small back-of-house store, and the contract has not been awarded yet. Deliverable: review memo with a marked-up programme and risk list. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Project Management",
+              "search_tag": "Project Management (Built Environment)",
+              "skills": [
+                "Project Risk Management",
+                "Project Cost",
+                "Regulatory Submission and Clearance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__38_sharepoint-migration.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f9083d34",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Migrate Office File Server to SharePoint Online",
+    "short_description": "We need our shared files moved from a Windows file server to SharePoint Online and OneDrive. We are a 35-person architecture practice with about 2 TB of drawings and documents. Looking for an IT consultant to plan and carry out the migration, map the permissions, and walk staff through the new structure. A few folders have very long file paths or are shared with outside consultants, and the plan should handle both. Deliverable: migrated libraries, permissions matrix and one-page staff guide. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Infrastructure",
+              "search_tag": "Infrastructure (Infocomm Technology)",
+              "skills": [
+                "Cloud Computing",
+                "Infrastructure Deployment",
+                "Change Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__39_fund-settlement-breaks.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-536a06dc",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Diagnose Trade Settlement Breaks at Small Fund Manager",
+    "short_description": "We manage a few funds with a team of 15. Our middle office matches trades and positions with the custodian in spreadsheets. Looking for a fund operations specialist to review that process, find the main causes of settlement breaks, and recommend workflow and control changes. We settle around 150 trades a week across equities and bonds. Deliverable: review report with root causes and a prioritised improvement plan. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Operations",
+              "search_tag": "Operations (Financial Services)",
+              "skills": [
+                "Trade Processing, Fund Settlement and Treasury Transaction Processing",
+                "Operational Risk Management",
+                "Business Process Re-engineering"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__40_gluten-free-pastry.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-d43d9a9f",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Develop Six Gluten-Free Cake and Pastry Recipes",
+    "short_description": "Looking for a pastry chef to develop six gluten-free cakes and pastries for the new range at our dessert cafe in Singapore. They should stay fresh for two days in a display chiller and come with tested recipes, yields and costing. Flavours should suit local tastes such as pandan, gula melaka and kopi. Deliverable: six tested recipes with a costing sheet. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Food Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Pastry and Baking",
+              "search_tag": "Pastry and Baking (Food Services)",
+              "skills": [
+                "Pastry Preparation",
+                "Food and Beverage Recipe Formulation",
+                "Cost Control and Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__41_expense-claims-analytics.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-a0beb409",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Analyse Expense Claims for Fraud Indicators",
+    "short_description": "We are a company with 300 staff and an online expense claims system. Looking for a forensic accountant to run analytics on twelve months of claims to find duplicates, split claims just under approval limits and unusual payees, and to advise on follow-up and control gaps. Claims run to about 9,000 lines a year and can be exported as CSV. Deliverable: exception report and a short note on control improvements. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Financial Forensics",
+              "search_tag": "Financial Forensics (Accountancy)",
+              "skills": [
+                "Forensic Data Analytics",
+                "Fraud Detection and Prevention",
+                "Internal Controls"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Risk, Compliance and Legal",
+              "search_tag": "Risk, Compliance and Legal (Financial Services)",
+              "skills": [
+                "Monitoring and Surveillance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__42_communication-course-pack.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-e2e665df",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Develop Materials for Two-Day Workplace Communication Course",
+    "short_description": "We are a small training provider planning a two-day course on workplace communication for supervisors. Looking for an instructional designer to build the learning materials: learner guide, facilitator guide, slides and assessment activities, mapped to the relevant Skills Framework skills for an upcoming course accreditation application. Deliverable: learner guide, facilitator guide, slide deck and assessment tools. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Training and Adult Education",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Adult Education",
+              "search_tag": "Adult Education (Training and Adult Education)",
+              "skills": [
+                "Skills Framework Adoption",
+                "Learning Strategy Development",
+                "Accreditation Structure Management",
+                "Learning Needs Analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Learning and Organisation Development",
+              "search_tag": "Learning and Organisation Development (Human Resource)",
+              "skills": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__43_remittance-aml-policies.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-694b7bba",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Refresh AML/CFT Policies for Remittance Business",
+    "short_description": "Need a compliance specialist to rewrite the AML/CFT policies and procedures of our MAS-licensed remittance business, which has three branches and a mobile app, to current MAS requirements, covering:\n- customer due diligence, including enhanced checks for higher-risk customers\n- transaction monitoring thresholds\n- suspicious transaction reporting\n- record keeping\nThe current manual is a 60-page Word document. Deliverable: updated policy manual with a gap table against the MAS requirements. Engagement duration: 4-5 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 5,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Risk, Compliance and Legal",
+              "search_tag": "Risk, Compliance and Legal (Financial Services)",
+              "skills": [
+                "Policy Implementation and Revision",
+                "Regulatory Compliance",
+                "Monitoring and Surveillance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__44_annual-report-layout.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-eb462723",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Lay Out 40-Page Annual Report",
+    "short_description": "Our annual report is ready in text and photos and needs laying out. We are a social enterprise. Looking for a graphic designer to lay it out in InDesign, 40 pages, with a clean grid, simple infographics for six key figures and a print-ready PDF. Brand guidelines and logo files are ready, and the text will arrive in Word with captions. Deliverable: print-ready PDF and editable InDesign files. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Design",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Design",
+              "search_tag": "Design (Design)",
+              "skills": [
+                "Visual Communication",
+                "Data and Information Visualisation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__45_store-mystery-shop.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-de659722",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Mystery Shopper Audit of Six Retail Stores",
+    "short_description": "I run six lifestyle stores in Singapore malls and want someone to visit each as a mystery shopper, using a scoring sheet I provide that covers greeting, product knowledge, queue handling and cleanliness, and to write up each visit with observations on what to improve. Visits should be spread over weekdays and weekends. Deliverable: six scored visit reports and a one-page summary of patterns. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Retail",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Retail Operations",
+              "search_tag": "Retail Operations (Retail)",
+              "skills": [
+                "Service Excellence",
+                "Customer Experience Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__46_lease-renewal-review.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-a49e6f3b",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review Commercial Lease Renewal Terms",
+    "short_description": "I run a small retail shop of about 80 sqm under a commercial lease that is up for renewal for another three years, with an option to renew after that. Need a property lawyer to read the draft renewal terms, covering rent review, reinstatement, assignment and early termination, and tell me what to push back on. Deliverable: advice note with suggested changes to the terms. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Legal Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory and Advocacy",
+              "search_tag": "Advisory and Advocacy (Legal Services)",
+              "skills": [
+                "Legal Research and Analysis",
+                "Legal Writing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__47_master-franchise-structure.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-68b93884",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Advise on Master Franchise Agreement Structure",
+    "short_description": "We are an F&B brand with 12 outlets in Singapore, considering master franchising to operators in Southeast Asia. Seeking an experienced franchise and commercial lawyer to advise on how to structure the master franchise agreement: territory, fees, IP licensing, quality control, termination and governing law. Deliverable: advice paper with a term sheet for the master franchise agreement. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Legal Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory and Advocacy",
+              "search_tag": "Advisory and Advocacy (Legal Services)",
+              "skills": [
+                "Legal Research and Analysis",
+                "Dispute Resolution Strategy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__48_charity-procurement-audit.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-646d9624",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Internal Audit of Procurement for a Charity",
+    "short_description": "Need an internal auditor to test the procurement and payment process of our registered charity, which has about 60 staff and several programmes: from purchase request and quotations through approval to payment, against the Code of Governance for Charities and our own policy, using a sample of transactions from the past year and recommending fixes. Deliverable: internal audit report with rated findings and management actions. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Internal Audit",
+              "search_tag": "Internal Audit (Accountancy)",
+              "skills": [
+                "Internal Audit Engagement Execution",
+                "Internal Controls",
+                "Fraud Risk Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__49_sgx-sustainability-report.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-8745d46a",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Draft Sustainability Report for SGX-Listed Manufacturer",
+    "short_description": "Our annual sustainability report needs preparing under the SGX listing rules and the GRI Standards. We are an SGX-listed manufacturing SME with about 200 staff. The work covers:\n- a materiality assessment\n- data collection templates for energy, waste and workforce metrics\n- drafting the report, with a GHG inventory for Scope 1 and 2 emissions\nTwo years of energy and waste records are available. Deliverable: draft sustainability report ready for board review. Engagement duration: 6-8 weeks.",
+    "duration_weeks_min": 6,
+    "duration_weeks_max": 8,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Sustainability Reporting and Assurance",
+              "search_tag": "Sustainability Reporting and Assurance (Accountancy)",
+              "skills": [
+                "Sustainability Reporting",
+                "Non-Financial Reporting",
+                "Greenhouse Gas Accounting",
+                "Climate Reporting"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Carbon Services and Trading",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory",
+              "search_tag": "Advisory (Carbon Services and Trading)",
+              "skills": [
+                "Carbon Reporting"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__50_boutique-hotel-rates.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-bb3bba3e",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Room Pricing and Channel Mix Review for Boutique Hotel",
+    "short_description": "A 40-room boutique hotel in Singapore wants its room pricing reviewed. Looking for a hotel revenue manager to examine our rate structure, the split between direct and online travel agent bookings, and how weekends and events are priced, working from twelve months of data from our property management system. Rates are adjusted by hand today, and the weekend and public holiday uplifts have not been tested. Deliverable: review report with a recommended pricing calendar and channel strategy. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Hotel and Accommodation Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Revenue and Distribution",
+              "search_tag": "Revenue and Distribution (Hotel and Accommodation Services)",
+              "skills": [
+                "Room Revenue Management",
+                "Room Distribution Channel Management",
+                "Hospitality Data Collection and Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__51_job-shop-scheduling.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-8d359cb1",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Improve Production Scheduling at 35-Worker Components Maker",
+    "short_description": "Our precision components workshop has 35 workers on CNC lathes and mills, and schedules jobs on a whiteboard and a spreadsheet. Looking for a production planner to analyse job flow, set up a finite-capacity scheduling workbook in Excel, and train our planner to use it. Deliverable: scheduling workbook with a one-page user guide. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Precision Engineering",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Management",
+              "search_tag": "Management (Precision Engineering)",
+              "skills": [
+                "Production Planning",
+                "Manufacturing Process Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__52_packaging-suppliers.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-2ec9ac30",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Source and Qualify Alternative Packaging Suppliers",
+    "short_description": "We are a household products distributor importing 30 SKUs in plastic containers and cartons. Looking for a sourcing specialist to identify and qualify alternative packaging suppliers in Malaysia and Vietnam, compare quotations and quality samples, and recommend a shortlist. Samples will be judged on drop and leak tests. Deliverable: scored supplier comparison with a shortlist and recommendation. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Wholesale Trade",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Operations, Procurement and Sourcing",
+              "search_tag": "Operations, Procurement and Sourcing (Wholesale Trade)",
+              "skills": [
+                "Supplier Sourcing",
+                "Procurement Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__53_freight-customs-sop.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-35276bf2",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Write Customs Documentation SOP for Freight Forwarder",
+    "short_description": "Need an experienced customs documentation specialist to write the SOP for TradeNet declarations at our freight forwarding company, which has 15 staff and handles sea and air imports and exports. It should cover permits, HS code checks, strategic goods controls and certificates of origin, with checklists for the documentation team. Deliverable: SOP manual with working checklists. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Logistics",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Freight Forwarding and Operations",
+              "search_tag": "Freight Forwarding and Operations (Logistics)",
+              "skills": [
+                "Import and Export Documentation Administration",
+                "International Trade Legislation Compliance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__54_payments-architecture-review.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-705e54c2",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Independent Architecture Review of Payment Platform",
+    "short_description": "Seeking an experienced solutions architect for an independent review of the architecture of our payment processing platform, ahead of a MAS licence application. It should cover resilience, data handling, key management and third-party dependencies, and give an opinion on readiness against MAS technology risk expectations. The platform runs on AWS as a set of microservices and uses two third-party card processors. Deliverable: written architecture review with risk-ranked findings. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": "Looking for someone at expert level who has reviewed MAS-regulated payment systems before.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Software and Applications",
+              "search_tag": "Software and Applications (Infocomm Technology)",
+              "skills": [
+                "Solution Architecture",
+                "Security Architecture",
+                "Enterprise Architecture"
+              ]
+            },
+            {
+              "name": "Infrastructure",
+              "search_tag": "Infrastructure (Infocomm Technology)",
+              "skills": [
+                "Disaster Recovery Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__55_customer-list-cleanup.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-e60da13f",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Clean and Deduplicate 5,000-Row Customer List in Excel",
+    "short_description": "We have a customer list of about 5,000 rows merged from several spreadsheets, with duplicates, inconsistent spellings and missing postal codes. Need someone good with Excel or Power Query to clean, standardise and deduplicate it, and document the rules used. The file will be shared as an Excel workbook, and postal codes can be filled from the addresses. Deliverable: cleaned workbook and a list of the cleaning rules. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": "Budget is around S$800.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Data and Artificial Intelligence",
+              "search_tag": "Data and Artificial Intelligence (Infocomm Technology)",
+              "skills": [
+                "Data Analytics"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__56_founders-sha.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-6c2e97fb",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Draft Shareholders' Agreement for Two-Founder Start-up",
+    "short_description": "I'm one of two founders of a software start-up incorporating a Singapore company, with an angel investor joining. Need a corporate lawyer to draft the shareholders' agreement covering share classes, vesting, reserved matters, drag and tag rights, and what happens when a founder leaves. A term sheet is signed and will be shared. Deliverable: draft shareholders' agreement with a short cover note on key terms. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": "Must be admitted to the Singapore bar.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Legal Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory and Advocacy",
+              "search_tag": "Advisory and Advocacy (Legal Services)",
+              "skills": [
+                "Legal Writing",
+                "Legal Research and Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__57_cleaning-validation.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-cc0fefd3",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Cleaning Validation Protocol for Tablet Compression Line",
+    "short_description": "Seeking a validation specialist to write the cleaning validation protocol for the tablet compression and coating line at our HSA-licensed contract manufacturing site. The protocol should choose the worst-case products, set acceptance limits from toxicity data and define the swab and rinse sampling plan. Our QA team will carry out the sampling. Three products share the line and the largest batch is 150 kg. Deliverable: protocol ready for QA approval, with the worst-case rationale and acceptance limit calculations. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "BioPharmaceuticals Manufacturing",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Quality Assurance and Quality Control (QA&QC)",
+              "search_tag": "Quality Assurance and Quality Control (QA&QC) (BioPharmaceuticals Manufacturing)",
+              "skills": [
+                "Cleaning Validation",
+                "Good Manufacturing Practices Implementation",
+                "Technical Report Writing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__58_heritage-gallery-visitor-review.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-3a4a1ffb",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Visitor Experience Review for Small Heritage Gallery",
+    "short_description": "We run a small heritage gallery that draws about 40,000 visitors a year. Looking for an attractions operations specialist to review the visitor journey from ticketing and queuing to signage and programming, and recommend improvements that fit our space. The gallery has two exhibition halls and a shop, and runs guided tours at weekends. Deliverable: review with a visitor journey map and recommendations. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Tourism",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Attractions Management and Operations",
+              "search_tag": "Attractions Management and Operations (Tourism)",
+              "skills": [
+                "Attractions Content and Experience Development and Delivery",
+                "Attractions Guest Relations Management",
+                "Crowd Control and Planning"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__59_trademark-clearance.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-a4dfe9ec",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Trade Mark Search and Filing for New Product Name",
+    "short_description": "I'm launching a skincare line under a new product name. Need an IP lawyer or trade mark agent to run a clearance search on the IPOS register for the name and logo, advise on the risk of conflict, and file the application in the right classes. The name will be used for creams and serums sold in Singapore and Malaysia. Deliverable: search report with risk assessment, and the filed application. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": "Budget is around S$1,500.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Intellectual Property",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "IP Legal",
+              "search_tag": "IP Legal (Intellectual Property)",
+              "skills": [
+                "Trade Mark Application",
+                "Intellectual Property Audit and Due Diligence"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__60_minority-stake-valuation.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-47e3ec9f",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Value a 30% Minority Stake in a Private Company",
+    "short_description": "Seeking a valuation specialist to value a 30% minority stake in a private engineering services company with about 80 staff, ahead of a share sale between shareholders. The work uses income and market approaches and applies discounts for lack of control and marketability where appropriate. Management accounts for the past three years and a five-year forecast are available. Deliverable: valuation report with assumptions and sensitivity analysis. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": "Must hold a recognised business valuation credential.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Business Valuation",
+              "search_tag": "Business Valuation (Accountancy)",
+              "skills": [
+                "Valuation Approaches and Methodologies",
+                "Valuation of Different Classes of Interest",
+                "Valuation Conclusion and Reporting"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__61_vietnam-market-brief.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-bd8a22d9",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Vietnam Market Entry Brief for Association Members",
+    "short_description": "Seeking a market analyst to prepare a Vietnam market brief for the F&B manufacturers in our trade association who are considering export, covering market size and channels, import and labelling rules, tariff treatment under ASEAN and bilateral agreements, and local distribution models. Deliverable: market entry brief of about 25 pages with a checklist for members. Engagement duration: 4-6 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 6,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Trade Associations and Chambers",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Internationalisation",
+              "search_tag": "Internationalisation (Trade Associations and Chambers)",
+              "skills": [
+                "New Export Market Entry Strategy Formulation",
+                "Industry Knowledge, Research and Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__62_gym-churn-model.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-a5d53b69",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Build Member Churn Prediction Model from CRM Data",
+    "short_description": "Need a data scientist to build and validate a churn prediction model in Python for our five-outlet gym business, from two years of CRM and check-in data covering about 30,000 members, and to score current members by risk. The results must be explainable to non-technical managers. Deliverable: trained model, scored member list and a short methodology note. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Data and Artificial Intelligence",
+              "search_tag": "Data and Artificial Intelligence (Infocomm Technology)",
+              "skills": [
+                "Data Analytics",
+                "Computational Modelling",
+                "Data Visualisation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__63_bim-execution-plan.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-925b6d5e",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "BIM Execution Plan for Office Fit-Out",
+    "short_description": "An interior fit-out contractor taking on a 3,000 sqm office project that requires BIM coordination is looking for a BIM manager to write the BIM Execution Plan, set modelling standards and levels of development, define the clash detection workflow, and set up the Revit project template. Deliverable: BIM execution plan and Revit project template. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Digital Delivery Management",
+              "search_tag": "Digital Delivery Management (Built Environment)",
+              "skills": [
+                "Building Information Modelling Application",
+                "Common Data Environment Management",
+                "Integrated Digital Delivery Application"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__64_puzzle-game-economy.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-b0b69ea0",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review In-Game Economy of Mobile Puzzle Game",
+    "short_description": "Looking for a game designer to review the in-game economy of our mobile puzzle game, now in soft launch: where currency comes in and goes out, the level difficulty curve and the pricing of bundles, using analytics from the first 10,000 players. The game has three currencies and about 300 levels, and we can run A/B tests through our analytics tool. Deliverable: review with recommended tuning changes and a test plan. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Media",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Game Design",
+              "search_tag": "Game Design (Media)",
+              "skills": [
+                "Gameplay Design",
+                "Customer Behaviour Analysis",
+                "Product Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__65_small-company-audit.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-b55fb4a8",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Statutory Audit of Small Company Financial Statements",
+    "short_description": "Our family-owned trading company in Singapore has about 20 staff and needs its statutory audit done under the SFRS for Small Entities. Looking for an auditor to carry out the work, including inventory observation, receivables confirmations and the audit report on the year-end financial statements. Stock sits in a single warehouse and the books are kept in AutoCount. Deliverable: signed audit report and management letter. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": "Must be an ACRA-registered public accountant.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Assurance",
+              "search_tag": "Assurance (Accountancy)",
+              "skills": [
+                "Engagement Execution",
+                "Auditing and Assurance Standards",
+                "Financial Statements Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__66_jewellery-security.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-41f6ca42",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Physical Security Risk Assessment for Jewellery Warehouse",
+    "short_description": "I run a jewellery business with one warehouse for stock and repairs. Need a security consultant to walk the premises and assess physical security risk across access control, CCTV coverage, the safe room and guarding arrangements, then recommend improvements in order of priority. The warehouse is a single-storey unit with one loading entrance, eight CCTV cameras and two guards on rotation. Deliverable: risk assessment report with prioritised recommendations. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Security",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Security Consultancy",
+              "search_tag": "Security Consultancy (Security)",
+              "skills": [
+                "Security Risk Analysis",
+                "Security Threat Research",
+                "Quality Assurance and Audit"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__67_nursing-home-infection-control.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-4c413248",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Infection Control Review of Nursing Home Wards",
+    "short_description": "An 80-bed nursing home in Singapore is looking for an infection control nurse to review practice on two wards, covering hand hygiene, isolation, cleaning, linen handling and outbreak procedures. The reviewer would observe staff at work across shifts and advise on changes in line with MOH guidelines and the Healthcare Services Act. Deliverable: review report with an updated infection control checklist. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Healthcare",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Nursing",
+              "search_tag": "Nursing (Healthcare)",
+              "skills": [
+                "Quality Improvement and Safe Practices",
+                "Professional, Legal and Ethical Healthcare Practice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__68_hr-system-payroll-setup.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-8bf33de6",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Set Up Payroll and Leave Rules in New HR System",
+    "short_description": "We are moving 60 staff to a cloud HR and payroll system. Need someone with Singapore payroll experience to configure it: CPF rules, leave types, claims and approval flows, import the employee records, and run two parallel payrolls to check the results. Deliverable: configured system, reconciliation of the parallel runs and a user guide. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": "The system goes live at the start of January.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Operations and Technology",
+              "search_tag": "Operations and Technology (Human Resource)",
+              "skills": [
+                "Human Resource Systems Management",
+                "Human Resource Digitalisation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__69_portal-pentest.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-6bcd3e56",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Penetration Test of Customer Booking Portal",
+    "short_description": "Looking for a penetration tester for our online booking portal, which serves enrichment centres and is built on PHP with a MySQL back end and a staff admin area. The work is to test the web application and its API against the OWASP Top 10, admin area included, and explain each finding with steps to reproduce. About 20,000 parent accounts are stored, so login, authorisation and the payment pages deserve the most attention. Deliverable: test report with severity ratings and fix recommendations, plus a retest of the fixes. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": "Prefer testers holding OSCP or an equivalent certification.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Cyber Security",
+              "search_tag": "Cyber Security (Infocomm Technology)",
+              "skills": [
+                "Security Assessment and Testing",
+                "Threat Analysis and Defence",
+                "Test Planning"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__70_quickbooks-setup.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-31b6c18d",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Set Up Chart of Accounts and Opening Balances in QuickBooks",
+    "short_description": "Our new Singapore subsidiary is about to start trading and its books need setting up in QuickBooks Online. Looking for a bookkeeper or accountant to build the chart of accounts, enter opening balances, set up GST codes and bank feeds, and write a short procedures note for our part-time clerk. We have a trial balance from the old system in Excel and about 40 customers and suppliers to load. Deliverable: set-up books with a trial balance, and the procedures note. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Financial Accounting",
+              "search_tag": "Financial Accounting (Accountancy)",
+              "skills": [
+                "Transactional Accounting",
+                "Accounting and Tax Systems"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__71_booking-app-prd.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-95efa7bb",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Write Product Requirements for Booking App MVP",
+    "short_description": "Need a product manager to turn founder notes and competitor screens into a requirements document for the first release of our booking app for home-based fitness instructors: user stories, feature priorities and acceptance criteria, with a backlog loaded into Jira so contract developers can quote and start. The first release covers instructor profiles, class booking and payment only. Deliverable: requirements document and a prioritised Jira backlog. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Product Development",
+              "search_tag": "Product Development (Infocomm Technology)",
+              "skills": [
+                "Product Management",
+                "Business Requirements Mapping",
+                "Agile Software Development",
+                "User Experience Design"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Design",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Design",
+              "search_tag": "Design (Design)",
+              "skills": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__72_condo-tree-survey.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-10a41854",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Tree Health and Risk Survey for Condominium Grounds",
+    "short_description": "We are the management council of a condominium with about 40 mature trees, including several rain trees close to buildings and walkways. Looking for an arborist to assess the health and structural risk of each tree by visual inspection and, where needed, resistograph testing, and to rate which need pruning, monitoring or removal. Most are rain trees and angsana, and two stand next to the pool deck. Deliverable: tree register with risk ratings and a prioritised works list. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": "Arborist certification is required.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Landscape",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Arboriculture",
+              "search_tag": "Arboriculture (Landscape)",
+              "skills": [
+                "Tree Assessments",
+                "Tree Health Management",
+                "Tree Conservation and Protection"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__73_warehouse-pest.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-fe5fd176",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Pest Management Survey and Schedule for Food Warehouse",
+    "short_description": "Need a pest control specialist to survey our dry goods and chilled food warehouse in Singapore, mark where rodents and stored-product insects are most likely to get in, and recommend a monitoring and treatment schedule that meets SFA licensing expectations. The site has a loading bay, two storage halls and a staff pantry. Deliverable: site survey report, bait and trap station map and twelve-month service schedule. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Environmental Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Pest Management",
+              "search_tag": "Pest Management (Environmental Services)",
+              "skills": [
+                "Pest Control Site Assessment and Analysis",
+                "Pest Control Detection and Monitoring Application",
+                "Pest Behavioural Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__74_tanker-fuel-analysis.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-195556e1",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Fuel Consumption Analysis for Coastal Tanker Fleet",
+    "short_description": "Seeking a ship energy efficiency specialist to analyse voyage and noon report data for our four coastal product tankers, find where speed, trim and routing are driving fuel consumption, and assess where each vessel stands against the IMO carbon intensity rating. We have 18 months of noon reports in Excel and AIS tracks for each vessel. Deliverable: analysis report with ranked fuel-saving measures. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Sea Transport",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Shipping",
+              "search_tag": "Shipping (Sea Transport)",
+              "skills": [
+                "Ship Energy Efficiency",
+                "Business Data Analysis",
+                "Vessel Cost Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__75_coach-maintenance-review.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f696a32b",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review Maintenance Intervals for Private Coach Fleet",
+    "short_description": "Our fleet of 25 coaches serves school and tourist charters, and its preventive maintenance intervals need a second look. Looking for a bus fleet engineer to review the intervals against service records and breakdown history, and advise on adjusting them for brakes, suspension and air-conditioning while still meeting LTA inspection requirements. Deliverable: review report with a recommended maintenance schedule. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Public Transport",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Bus Fleet Engineering",
+              "search_tag": "Bus Fleet Engineering (Public Transport)",
+              "skills": [
+                "Maintenance Scheduling",
+                "Engineering Maintenance Management",
+                "Bus Regulatory Compliance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__76_dumpling-line-balance.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-74e268f7",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Line Balancing for Frozen Dumpling Production",
+    "short_description": "Looking for a food production engineer to study our semi-manual frozen dumpling line, which has about 25 workers and supplies supermarkets and restaurants, time each station, and rebalance the work and layout to raise output without adding headcount. The line runs two shifts, and product changeovers happen about three times a week. Deliverable: time study, line balance and revised layout with expected output gain. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": "Budget is around S$6,000.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Food Manufacturing",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Production",
+              "search_tag": "Production (Food Manufacturing)",
+              "skills": [
+                "Food Production Management",
+                "Continuous Process Improvement",
+                "Manufacturing Process Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__77_dg-acceptance-review.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f7cae298",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review Dangerous Goods Acceptance at Air Cargo Shed",
+    "short_description": "Need a dangerous goods specialist to review how we accept cargo at a small air cargo handling shed in Singapore that takes general freight and some dangerous goods. The review checks our acceptance checklist and inspection steps against the IATA Dangerous Goods Regulations, observes two shifts of acceptance and points out where checks are inconsistent or skipped. We accept roughly 60 consignments a day, and a sample check of last month's records is part of the work. Deliverable: written review with recommended changes to the acceptance process. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Air Transport",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Cargo Operations",
+              "search_tag": "Cargo Operations (Air Transport)",
+              "skills": [
+                "Dangerous Goods Management",
+                "Cargo Receipt and Inspection",
+                "Standard Operating Procedures Development"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__78_bess-sizing-cold-storage.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-89875a45",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Battery Storage Sizing Study for Cold Storage Facility",
+    "short_description": "We operate a 15,000 sqm cold storage facility with a rooftop solar system. Seeking an energy storage specialist to size a battery system for peak shaving and solar self-consumption from twelve months of half-hourly load data, and to compare financial returns under current tariffs and EMA market rules. Deliverable: sizing study with a financial model and recommendation. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Energy and Power",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Battery Energy Storage Systems",
+              "search_tag": "Battery Energy Storage Systems (Energy and Power)",
+              "skills": [
+                "Battery Systems Design Management",
+                "Business Intelligence and Data Analytics",
+                "Regulatory Compliance"
+              ]
+            },
+            {
+              "name": "Distributed Generation",
+              "search_tag": "Distributed Generation (Energy and Power)",
+              "skills": [
+                "Solar Photovoltaic Energy Assessment"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__79_hazop-blending.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-4095de78",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Facilitate HAZOP for Chemical Blending Unit",
+    "short_description": "A specialty chemical blending plant in Singapore needs an experienced HAZOP facilitator to lead the study of the P&IDs for its batch reactor unit over about four sessions, record the deviations, causes and safeguards, and agree actions with the process engineers. The plant is subject to the Major Hazard Installations regulations. Deliverable: HAZOP worksheets and a report with a tracked action list. Engagement duration: 2-3 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Energy and Chemicals",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Health, Safety and Environment (HSE)",
+              "search_tag": "Health, Safety and Environment (HSE) (Energy and Chemicals)",
+              "skills": [
+                "Workplace Safety and Health Hazard Identification and Risk Control Management",
+                "Safe System of Work Development and Implementation",
+                "Major Hazard Installation Safety Case Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__80_target-financial-dd.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-2f292f47",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Financial Due Diligence on Small Manufacturer Acquisition",
+    "short_description": "Our industrial group in Singapore is looking at buying a precision components manufacturer with about 60 staff. Seeking a transaction services specialist for financial due diligence: quality of earnings, net debt and debt-like items, working capital trends and normalised EBITDA, from data room documents. Revenue is split across three product lines. Deliverable: due diligence report with key findings and valuation adjustments. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": "The report is needed within four weeks of starting.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Mergers and Acquisitions",
+              "search_tag": "Mergers and Acquisitions (Accountancy)",
+              "skills": [
+                "Transaction Due Diligence",
+                "Financial Statements Analysis",
+                "Financial Modelling"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__81_shophouse-aa.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-9f3f4535",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Addition and Alteration Drawings for Conserved Shophouse Unit",
+    "short_description": "We own a conserved shophouse unit and plan interior alterations to the upper floor. Need an architect to act as qualified person for the submission to URA and BCA: prepare the revised floor plans, fire safety provisions and conservation drawings, and respond to agency comments. The unit is about 90 sqm on the second floor, and the proposed change is from storage to a design studio, which needs change-of-use approval. Deliverable: complete drawing set and submission to the authorities. Engagement duration: 3-4 months.",
+    "duration_weeks_min": 12,
+    "duration_weeks_max": 16,
+    "additional_notes": "Must be a registered architect.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Architectural Consultancy and Design",
+              "search_tag": "Architectural Consultancy and Design (Built Environment)",
+              "skills": [
+                "Regulatory Submission and Clearance",
+                "Technical Drawing",
+                "Cultural, Heritage and Socio-economic Sensitivity for Design"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__82_report-proofread.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-1c979283",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Proofread and Copy-Edit 60-Page Corporate Report",
+    "short_description": "We have a 60-page corporate report in Word that needs a careful proofread and copy-edit for grammar, consistency and house style. Looking for an editor comfortable with Singapore English and with finance and operations terminology, working in tracked changes. It covers operations, financial results and governance, with many tables and footnotes. Deliverable: edited document in tracked changes with a short list of queries. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Media",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Content Production and Management",
+              "search_tag": "Content Production and Management (Media)",
+              "skills": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__83_workboat-stability.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-bf8db1fc",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Stability Calculations for Work Boat Crane Installation",
+    "short_description": "We operate a small fleet of harbour craft, including tugs and work boats. Need a naval architect to prepare the stability calculations and updated stability booklet for one 20 m work boat after a deck crane is added, for submission to the classification society and MPA. The builder's approved stability booklet for the vessel is available. Deliverable: stability calculations and updated stability booklet. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": "Must be a qualified naval architect.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Marine and Offshore",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Design and Engineering",
+              "search_tag": "Design and Engineering (Marine and Offshore)",
+              "skills": [
+                "Naval Architecture Calculations",
+                "Marine Engineering Calculations",
+                "Technical Writing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__84_inbox-backlog.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-b14460b7",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Clear Email Backlog and Update Client Records",
+    "short_description": "Need an administrator to clear a backlog of about 600 emails in the shared inbox of our small property agency, label and reply using our templates, and update the client records in our CRM spreadsheet. The emails are mostly viewing requests and listing enquiries, and replies follow six standard templates. Deliverable: cleared inbox, updated records and a short summary of recurring requests. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": []
+    }
+  },
+  {
+    "source_file": "crafted-gig__85_chiller-plant-study.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-62749356",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Chiller Plant Efficiency Study for Green Mark Upgrade",
+    "short_description": "Looking for an M&E engineer to study the efficiency of the water-cooled chiller plant in our ten-storey office building from trended data, identify improvements, and estimate the savings and the effect on the building's BCA Green Mark rating. The plant has three 400-tonne chillers with variable speed pumps, and BMS trend data is available. Deliverable: efficiency study with ranked improvements and payback estimates. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Built Environment",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Engineering Consultancy and Design",
+              "search_tag": "Engineering Consultancy and Design (Built Environment)",
+              "skills": [
+                "Air Conditioning and Mechanical Ventilation System Design",
+                "Green Building Strategy Implementation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__86_furniture-ads-setup.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-fa041b2f",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Set Up Google and Meta Ads for Furniture Retailer",
+    "short_description": "We are a furniture retailer with one showroom and an online store. Need a performance marketer to set up Google Search and Shopping campaigns and Meta retargeting ads, install conversion tracking, and report on how the first two weeks of ads perform. Average order value is about S$900, and Shopify and Google Analytics 4 are already in place. Deliverable: live campaigns, working conversion tracking and a two-week performance report. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Retail",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Marketing",
+              "search_tag": "Marketing (Retail)",
+              "skills": [
+                "Paid Search Engine Marketing (SEM)",
+                "Marketing Campaign Management",
+                "Data Analytics",
+                "E-commerce Campaign Management"
+              ]
+            },
+            {
+              "name": "E-Commerce (Omni-Channel)",
+              "search_tag": "E-Commerce (Omni-Channel) (Retail)",
+              "skills": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__87_brochure-translation.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-6b859eee",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Translate Product Brochure from English to Chinese",
+    "short_description": "Need a translator to turn a 12-page product brochure and eight web pages from English into simplified Chinese, keeping the tone natural for marketing copy and technical terms consistent. We are a household appliances distributor. A glossary of about 60 product terms is available, and a bilingual staff member will review the Chinese copy. Deliverable: translated files in the original layout with a short glossary. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": []
+    }
+  },
+  {
+    "source_file": "crafted-gig__88_family-firm-succession.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-c8827c4d",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Succession Plan for Four Senior Roles in Family Business",
+    "short_description": "We are a family-owned distributor with 90 staff. Seeking an HR adviser to design a succession plan for four senior management roles, the heads of finance, operations, sales and logistics: identify what makes each role critical, assess internal candidates against role competencies, and recommend development plans and timelines. Deliverable: succession framework, talent assessment summary and development plan outlines. Engagement duration: 8 weeks.",
+    "duration_weeks_min": 8,
+    "duration_weeks_max": 8,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Talent Management",
+              "search_tag": "Talent Management (Human Resource)",
+              "skills": [
+                "Succession Planning",
+                "Talent Capability Assessment"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__89_part145-exposition.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-07c33a59",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Update Maintenance Exposition for CAAS Part 145 Renewal",
+    "short_description": "Our line maintenance approval is up for renewal, and the maintenance organisation exposition has to be brought in line with the current Part 145 requirements. We serve turboprop and business jet operators in Singapore. Looking for an aircraft maintenance quality specialist to rewrite the exposition and about 30 linked procedures, which are in Word, and to map each to the requirement it meets. Deliverable: updated exposition and procedures with a compliance cross-reference table. Engagement duration: 3-4 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 4,
+    "additional_notes": "Approval renewal is due at the end of January.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Aerospace",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Aircraft Maintenance",
+              "search_tag": "Aircraft Maintenance (Aerospace)",
+              "skills": [
+                "Aviation Legislation Compliance",
+                "Maintenance Organisation Structure Management",
+                "Quality System Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__90_investor-deck-redesign.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-5d2db9a2",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Redesign 25-Slide Investor Presentation",
+    "short_description": "Need a presentation designer to restyle a 25-slide investor deck in PowerPoint for our seed round, tidy the layouts and turn five data tables into clear charts, without changing the content. We are a start-up. Brand colours and fonts are fixed, and the speaker notes should stay as they are. Deliverable: redesigned deck in PowerPoint and PDF. Engagement duration: 1 week.",
+    "duration_weeks_min": 1,
+    "duration_weeks_max": 1,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Design",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Design",
+              "search_tag": "Design (Design)",
+              "skills": [
+                "Visual Communication",
+                "Business Presentation Delivery"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__91_blackbox-lighting.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-8a9d88f5",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Lighting Design and Cue Programming for Black Box Play",
+    "short_description": "An independent theatre company is staging a 90-minute contemporary play in a black box space with a basic rig of 24 fixtures, and wants a lighting designer. The job is to draw the plot and focus chart from the script and rehearsal notes, then programme the cues and operate them through tech week and a four-night run. The set is a single bare room with two doors and a hanging mirror, with quick shifts between a kitchen and a street scene. Deliverable: lighting plot, focus chart and programmed cue sheet, with operation on show nights. Engagement duration: 5-6 weeks.",
+    "duration_weeks_min": 5,
+    "duration_weeks_max": 6,
+    "additional_notes": "Tech week starts in the first week of March.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Arts",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Technical Theatre & Production",
+              "search_tag": "Technical Theatre & Production (Arts)",
+              "skills": [
+                "Lighting Conceptualisation and Design for Production",
+                "Lighting Operations",
+                "Production Planning and Scheduling"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__92_loan-transfer-pricing.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-e86816d8",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Transfer Pricing Documentation for Related-Party Loans",
+    "short_description": "Need a tax adviser to prepare IRAS-compliant transfer pricing documentation for related-party loans from our Singapore holding company to overseas affiliates, including the functional analysis, benchmarking of the interest rates and the arm's length conclusion. There are three loans in different currencies, and no transfer pricing file exists yet. Deliverable: transfer pricing report with benchmarking workpapers. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Accountancy",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Tax",
+              "search_tag": "Tax (Accountancy)",
+              "skills": [
+                "Transfer Pricing",
+                "Tax Advisory",
+                "Taxation Laws"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__93_mas-outsourcing-gap.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-b35d7d34",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Review IT Outsourcing Arrangements Against MAS Guidelines",
+    "short_description": "Seeking a technology risk adviser to review the outsourcing agreements and oversight practices of a MAS-licensed fund management company with 25 staff, which outsources portfolio accounting and IT hosting. The review is against the MAS Guidelines on Outsourcing and Technology Risk Management and should list the gaps to close. Material outsourcing, exit planning and concentration risk should be covered. Deliverable: gap assessment with a prioritised remediation plan. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Strategy and Governance",
+              "search_tag": "Strategy and Governance (Infocomm Technology)",
+              "skills": [
+                "IT Governance",
+                "Audit and Compliance",
+                "Contract Management"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Risk, Compliance and Legal",
+              "search_tag": "Risk, Compliance and Legal (Financial Services)",
+              "skills": [
+                "Regulatory Compliance",
+                "Contract and Vendor Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__94_clinic-app-ux.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-92669c27",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Usability Test and Redesign of Clinic Booking App",
+    "short_description": "Looking for a UX designer to run five moderated usability sessions on the patient booking app of our five dental clinics in Singapore, find where patients get stuck before confirming, and redesign the booking flow screens in Figma. The app is built in React Native, and our developers can adjust screens but cannot rebuild them from scratch. Deliverable: usability findings summary and a clickable prototype of the redesigned booking flow. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": "Would like to start in the first half of November.",
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Design",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Design",
+              "search_tag": "Design (Design)",
+              "skills": [
+                "User Experience Design",
+                "Design Thinking Practice",
+                "Digital and Physical Prototyping",
+                "User Experience Design"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Software and Applications",
+              "search_tag": "Software and Applications (Infocomm Technology)",
+              "skills": [
+                "User Testing and Usability Testing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__95_iot-emi-fix.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-31740049",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Fix Radiated Emissions Failure on IoT Sensor Board",
+    "short_description": "Looking for an EMC-experienced hardware engineer to fix radiated emissions failures on a battery-powered IoT sensor board. We are a small design house, and our four-layer board fails between 100 and 300 MHz in pre-compliance scans. The work is to review the layout and scans, find the cause, propose layout and filtering changes, and check the revised board in a pre-compliance retest. Deliverable: root-cause note, revised layout files and retest report. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Electronics",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Technical and Engineering",
+              "search_tag": "Technical and Engineering (Electronics)",
+              "skills": [
+                "Failure Analysis",
+                "Product Testing",
+                "Report Writing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__96_credit-scorecard.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-501db552",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Build Credit Scorecard for Small-Business Lending",
+    "short_description": "Looking for a credit risk analyst to build a logistic regression application scorecard in Python or R for our small-business lending, from a history of about 2,500 loans, then validate it and set cut-offs for approve, refer and decline. The data sits in a PostgreSQL database and mixes financial statements, bureau scores and repayment history. Deliverable: scorecard model, validation report and cut-off recommendation. Engagement duration: 8-10 weeks.",
+    "duration_weeks_min": 8,
+    "duration_weeks_max": 10,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Financial Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Digital and Data Analytics",
+              "search_tag": "Digital and Data Analytics (Financial Services)",
+              "skills": [
+                "Data Mining and Modelling",
+                "Data Analytics and Computational Modelling",
+                "Programming and Coding"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Infocomm Technology",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Data and Artificial Intelligence",
+              "search_tag": "Data and Artificial Intelligence (Infocomm Technology)",
+              "skills": [
+                "Data Analytics"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__97_job-descriptions-scorecards.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-f6f56bdb",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Write Job Descriptions and Interview Scorecards for Eight Roles",
+    "short_description": "Looking for an HR practitioner to write job descriptions for eight roles at our 70-person logistics services company, which is hiring across operations, sales and finance, along with structured interview questions and a scoring sheet for each. The roles range from warehouse supervisor to accounts executive, and titles should follow the Skills Framework where a matching role exists. Deliverable: eight job descriptions with matching interview scorecards in Word. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Talent Attraction",
+              "search_tag": "Talent Attraction (Human Resource)",
+              "skills": [
+                "Job Analysis and Evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__98_youth-mentoring-curriculum.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-df32683c",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Design Eight-Session Mentoring Curriculum for Youth",
+    "short_description": "Looking for a youth worker with programme design experience to write an eight-session mentoring curriculum on goal setting, resilience and career exploration for our youth charity's 15- to 18-year-olds, with session plans, activities and a guide for mentors. Sessions run weekly for 90 minutes with groups of 12, and mentors are trained volunteers with no social work background. Deliverable: curriculum pack with session plans and mentor guide. Engagement duration: 4 weeks.",
+    "duration_weeks_min": 4,
+    "duration_weeks_max": 4,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Social Service",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Youth Work",
+              "search_tag": "Youth Work (Social Service)",
+              "skills": [
+                "Mentoring for Youths",
+                "Youth Development",
+                "Social Service Programme Development"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__99_employee-handbook.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-44ba4a89",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Update Employee Handbook to Current Employment Rules",
+    "short_description": "Looking for an HR practitioner who knows the Employment Act and the Tripartite Guidelines on Fair Employment Practices to update the employee handbook of our 120-person services company, covering:\n- leave and working hours\n- flexible work requests\n- grievance handling and disciplinary procedures\nThe current handbook is a 40-page Word file. Deliverable: updated handbook in Word with a summary of changes. Engagement duration: 3 weeks.",
+    "duration_weeks_min": 3,
+    "duration_weeks_max": 3,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Human Resource",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Employee Experience and Relations",
+              "search_tag": "Employee Experience and Relations (Human Resource)",
+              "skills": [
+                "Employee Relationship Management",
+                "Human Resource Policies and Legislation Framework Management"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legal Services",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Advisory and Advocacy",
+              "search_tag": "Advisory and Advocacy (Legal Services)",
+              "skills": [
+                "Legal Research and Analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "source_file": "crafted-gig__100_hot-work-permit.md",
+    "extracted_by_model": "crafted",
+    "hirer_ref": "H-561a068b",
+    "source_company": null,
+    "source_company_team": null,
+    "gig_title": "Draft Hot Work Permit-to-Work Procedure",
+    "short_description": "Need a WSH practitioner to draft the permit-to-work procedure for hot work at our fabrication workshop, covering permit forms, fire watch, gas testing and sign-off in line with MOM requirements, and to brief supervisors on using it. The workshop has 15 welders and fitters in two bays. Deliverable: procedure document, permit form and supervisor briefing. Engagement duration: 2 weeks.",
+    "duration_weeks_min": 2,
+    "duration_weeks_max": 2,
+    "additional_notes": null,
+    "tags": {
+      "taxonomy_version": "sf_v1",
+      "categories": [
+        {
+          "name": "Workplace Safety and Health",
+          "group": null,
+          "specialisations": [
+            {
+              "name": "Operational Control",
+              "search_tag": "Operational Control (Workplace Safety and Health)",
+              "skills": [
+                "Hazards Identification",
+                "Workplace Safety and Health Control Measures",
+                "Workplace Safety and Health Management in Manufacturing Industry"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

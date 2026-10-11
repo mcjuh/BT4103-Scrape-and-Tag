@@ -116,7 +116,7 @@ id, so its `source_file` is the id and `--gigs 1-10` counts by position):
 | Technical proficiency | `technical_proficiency` | `technical_proficiency[]` as `category: skills` |
 | Credentials | `credentials` | `credentials[]` joined with `;` |
 
-`data/output/crafted_gigs/` holds 30 hand-written v2 gigs for the ranker (see its README).
+`data/output/crafted_gigs/` holds 100 hand-written v2 gigs and 800 providers for the ranker (see its README).
 
 **The score.** The grade is the most probable band from the answer-position logprobs, and the score is
 the band-weighted expectation clipped into that band, so the two always agree (`round(score * 3) ==

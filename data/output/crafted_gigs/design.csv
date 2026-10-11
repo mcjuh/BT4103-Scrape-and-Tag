@@ -29,3 +29,73 @@ C27,crafted-gig__27_befriending-outcomes.md,Social Service > Care and Programme,
 C28,crafted-gig__28_cnc-tolerance-drift.md,Precision Engineering > Technical and Engineering,senior,mixed,specific,101,2-4,
 C29,crafted-gig__29_partners-offsite.md,Trade Associations and Chambers > Strategy & Governance,expert,mixed,generic,57,2-3,
 C30,crafted-gig__30_family-office-governance.md,Financial Services > Family Office,expert,advisory,specific,95,8-12,yes
+C31,crafted-gig__31_airtable-enquiries.md,Infocomm Technology > Software and Applications,mid,execution,mixed,70,1-2,yes
+C32,crafted-gig__32_nursery-term-plan.md,Early Childhood > Early Childhood Education,mid,execution,mixed,81,3-4,
+C33,crafted-gig__33_facade-method-statement.md,Built Environment > Construction Management,mid,execution,specific,68,2,
+C34,crafted-gig__34_adviser-onboarding.md,"Financial Services > Sales, After Sales, Distribution and Relationship Management",senior,mixed,generic,62,2,
+C35,crafted-gig__35_incident-response-plan.md,Infocomm Technology > Cyber Security,senior,mixed,specific,75,3,
+C36,crafted-gig__36_carbon-credit-options.md,Carbon Services and Trading > Advisory,expert,advisory,specific,88,2-3,
+C37,crafted-gig__37_shop-fitout-programme.md,Built Environment > Project Management,mid,advisory,mixed,70,2,
+C38,crafted-gig__38_sharepoint-migration.md,Infocomm Technology > Infrastructure,mid,mixed,mixed,85,2-3,
+C39,crafted-gig__39_fund-settlement-breaks.md,Financial Services > Operations,senior,advisory,specific,71,3,
+C40,crafted-gig__40_gluten-free-pastry.md,Food Services > Pastry and Baking,mid,execution,specific,65,3,
+C41,crafted-gig__41_expense-claims-analytics.md,Accountancy > Financial Forensics,expert,advisory,specific,74,2-3,
+C42,crafted-gig__42_communication-course-pack.md,Training and Adult Education > Adult Education,mid,mixed,mixed,60,4,
+C43,crafted-gig__43_remittance-aml-policies.md,"Financial Services > Risk, Compliance and Legal",senior,mixed,specific,74,4-5,
+C44,crafted-gig__44_annual-report-layout.md,Design > Design,mid,execution,generic,72,3,
+C45,crafted-gig__45_store-mystery-shop.md,Retail > Retail Operations,mid,mixed,generic,68,2,
+C46,crafted-gig__46_lease-renewal-review.md,Legal Services > Advisory and Advocacy,mid,advisory,specific,69,1,
+C47,crafted-gig__47_master-franchise-structure.md,Legal Services > Advisory and Advocacy,expert,advisory,specific,61,3,
+C48,crafted-gig__48_charity-procurement-audit.md,Accountancy > Internal Audit,senior,mixed,specific,69,3-4,
+C49,crafted-gig__49_sgx-sustainability-report.md,Accountancy > Sustainability Reporting and Assurance,senior,mixed,specific,77,6-8,
+C50,crafted-gig__50_boutique-hotel-rates.md,Hotel and Accommodation Services > Revenue and Distribution,senior,advisory,specific,81,3-4,
+C51,crafted-gig__51_job-shop-scheduling.md,Precision Engineering > Management,mid,mixed,mixed,57,3-4,
+C52,crafted-gig__52_packaging-suppliers.md,"Wholesale Trade > Operations, Procurement and Sourcing",senior,advisory,specific,61,4,
+C53,crafted-gig__53_freight-customs-sop.md,Logistics > Freight Forwarding and Operations,mid,execution,specific,60,2,
+C54,crafted-gig__54_payments-architecture-review.md,Infocomm Technology > Software and Applications,expert,advisory,specific,72,2-3,yes
+C55,crafted-gig__55_customer-list-cleanup.md,Infocomm Technology > Data and Artificial Intelligence,mid,execution,generic,72,1,yes
+C56,crafted-gig__56_founders-sha.md,Legal Services > Advisory and Advocacy,senior,execution,specific,69,2,yes
+C57,crafted-gig__57_cleaning-validation.md,BioPharmaceuticals Manufacturing > Quality Assurance and Quality Control (QA&QC),senior,execution,specific,82,3-4,
+C58,crafted-gig__58_heritage-gallery-visitor-review.md,Tourism > Attractions Management and Operations,senior,advisory,mixed,67,3,
+C59,crafted-gig__59_trademark-clearance.md,Intellectual Property > IP Legal,mid,mixed,mixed,74,1,yes
+C60,crafted-gig__60_minority-stake-valuation.md,Accountancy > Business Valuation,expert,advisory,specific,70,3-4,yes
+C61,crafted-gig__61_vietnam-market-brief.md,Trade Associations and Chambers > Internationalisation,senior,advisory,specific,59,4-6,
+C62,crafted-gig__62_gym-churn-model.md,Infocomm Technology > Data and Artificial Intelligence,mid,mixed,specific,61,4,
+C63,crafted-gig__63_bim-execution-plan.md,Built Environment > Digital Delivery Management,senior,mixed,specific,58,3,
+C64,crafted-gig__64_puzzle-game-economy.md,Media > Game Design,senior,advisory,specific,75,2,
+C65,crafted-gig__65_small-company-audit.md,Accountancy > Assurance,senior,execution,specific,69,3,yes
+C66,crafted-gig__66_jewellery-security.md,Security > Security Consultancy,senior,advisory,specific,72,2,
+C67,crafted-gig__67_nursing-home-infection-control.md,Healthcare > Nursing,senior,advisory,specific,65,3,
+C68,crafted-gig__68_hr-system-payroll-setup.md,Human Resource > Operations and Technology,mid,execution,specific,58,2,yes
+C69,crafted-gig__69_portal-pentest.md,Infocomm Technology > Cyber Security,senior,execution,specific,92,2,yes
+C70,crafted-gig__70_quickbooks-setup.md,Accountancy > Financial Accounting,mid,execution,generic,84,1,
+C71,crafted-gig__71_booking-app-prd.md,Infocomm Technology > Product Development,mid,mixed,mixed,70,2,
+C72,crafted-gig__72_condo-tree-survey.md,Landscape > Arboriculture,senior,advisory,specific,82,2,yes
+C73,crafted-gig__73_warehouse-pest.md,Environmental Services > Pest Management,mid,advisory,specific,70,2,
+C74,crafted-gig__74_tanker-fuel-analysis.md,Sea Transport > Shipping,expert,advisory,specific,67,3-4,
+C75,crafted-gig__75_coach-maintenance-review.md,Public Transport > Bus Fleet Engineering,senior,advisory,specific,63,3,
+C76,crafted-gig__76_dumpling-line-balance.md,Food Manufacturing > Production,senior,mixed,specific,68,4,yes
+C77,crafted-gig__77_dg-acceptance-review.md,Air Transport > Cargo Operations,senior,advisory,specific,91,2,
+C78,crafted-gig__78_bess-sizing-cold-storage.md,Energy and Power > Battery Energy Storage Systems,expert,advisory,specific,61,4,
+C79,crafted-gig__79_hazop-blending.md,"Energy and Chemicals > Health, Safety and Environment (HSE)",expert,mixed,specific,66,2-3,
+C80,crafted-gig__80_target-financial-dd.md,Accountancy > Mergers and Acquisitions,expert,mixed,specific,65,3-4,yes
+C81,crafted-gig__81_shophouse-aa.md,Built Environment > Architectural Consultancy and Design,senior,execution,specific,83,12-16,yes
+C82,crafted-gig__82_report-proofread.md,Media > Content Production and Management,mid,execution,generic,67,1,
+C83,crafted-gig__83_workboat-stability.md,Marine and Offshore > Design and Engineering,expert,execution,specific,67,3,yes
+C84,crafted-gig__84_inbox-backlog.md,(none: generic task),mid,execution,generic,66,2,
+C85,crafted-gig__85_chiller-plant-study.md,Built Environment > Engineering Consultancy and Design,expert,advisory,specific,67,3-4,
+C86,crafted-gig__86_furniture-ads-setup.md,Retail > Marketing,mid,mixed,specific,73,3,
+C87,crafted-gig__87_brochure-translation.md,(none: generic task),mid,execution,generic,69,1,
+C88,crafted-gig__88_family-firm-succession.md,Human Resource > Talent Management,senior,advisory,specific,62,8,
+C89,crafted-gig__89_part145-exposition.md,Aerospace > Aircraft Maintenance,senior,execution,specific,77,3-4,yes
+C90,crafted-gig__90_investor-deck-redesign.md,Design > Design,mid,execution,generic,61,1,
+C91,crafted-gig__91_blackbox-lighting.md,Arts > Technical Theatre & Production,mid,execution,specific,99,5-6,yes
+C92,crafted-gig__92_loan-transfer-pricing.md,Accountancy > Tax,expert,execution,specific,60,4,
+C93,crafted-gig__93_mas-outsourcing-gap.md,Infocomm Technology > Strategy and Governance,expert,advisory,specific,71,3,
+C94,crafted-gig__94_clinic-app-ux.md,Design > Design,senior,mixed,mixed,74,3,yes
+C95,crafted-gig__95_iot-emi-fix.md,Electronics > Technical and Engineering,senior,mixed,specific,75,3,
+C96,crafted-gig__96_credit-scorecard.md,Financial Services > Digital and Data Analytics,senior,execution,specific,67,8-10,
+C97,crafted-gig__97_job-descriptions-scorecards.md,Human Resource > Talent Attraction,mid,execution,generic,72,2,
+C98,crafted-gig__98_youth-mentoring-curriculum.md,Social Service > Youth Work,mid,execution,generic,71,4,
+C99,crafted-gig__99_employee-handbook.md,Human Resource > Employee Experience and Relations,senior,execution,specific,66,3,
+C100,crafted-gig__100_hot-work-permit.md,Workplace Safety and Health > Operational Control,mid,mixed,specific,59,2,
