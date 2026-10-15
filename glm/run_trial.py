@@ -295,10 +295,13 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--n", type=int, default=5, help="number of gigs (default: 5, the pilot)")
     ap.add_argument("--workers", type=int, default=WORKERS, help="parallel GLM calls (default: %(default)s)")
+    ap.add_argument("--industry", action="store_true",
+                    help="roll the hirer's industry for each gig (design.INDUSTRIES); leave off to resume an earlier run")
     ap.add_argument("--skip-grade", action="store_true")
     ap.add_argument("--report-only", action="store_true")
     args = ap.parse_args()
     WORKERS = args.workers
+    design.USE_INDUSTRY = args.industry
     OUT.mkdir(parents=True, exist_ok=True)
     if not args.report_only:
         generate(args.n)

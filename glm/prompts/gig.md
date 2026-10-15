@@ -6,7 +6,7 @@ WHAT THIS GIG IS
 - Field: <<sector>> > <<track>><<generic_line>>
 - Seniority the work implies: <<level>> -- <<level_hint>>. Never write the word "<<level>>" or any years of experience; let the stakes and the ambiguity of the work imply it.
 - Mode of work: <<mode>> -- <<mode_hint>>.
-- Opening: <<opening>>.
+- Opening: <<opening>>.<<industry_line>>
 - Length of short_description: about <<words>> words (never under 55, never over 120).
 - Engagement duration: <<weeks>> weeks.
 - Hirer notes: <<notes_line>>

@@ -8,7 +8,7 @@ from pathlib import Path
 
 import llm
 import validate
-from design import LEVEL_HINT, MODE_HINT
+from design import INDUSTRIES, LEVEL_HINT, MODE_HINT
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "classifier_extractor"))
@@ -82,6 +82,10 @@ def make_gig(row: dict):
         GIG_PROMPT, sector=row["sector"], track=row["track"], level=row["level"], level_hint=LEVEL_HINT[row["level"]],
         mode=row["mode"], mode_hint=MODE_HINT[row["mode"]], opening=row["opening"], words=row["words"],
         weeks=row["weeks"],
+        industry_line=(f"\n- The hirer's own industry: {row['industry']} ({INDUSTRIES[row['industry']]}). The task is in the field "
+                       "above; the hirer is this kind of business, or a team in it, with a need in that field. If the two sit "
+                       "far apart, pick the nearest organisation in this industry that would plausibly have the need."
+                       if row.get("industry") else ""),
         generic_line=(f"\n- The ask is a GENERIC skill, not a specialism: {row['generic_task']}. The organisation is in this "
                       "field, but the work itself would be the same in any industry." if generic else ""),
         notes_line=("add one short constraint in additional_notes (a budget range in S$, a start date or a required qualification)"

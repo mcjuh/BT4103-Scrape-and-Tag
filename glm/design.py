@@ -2,6 +2,7 @@
 """Design rows for the GLM trial (docs/GLM-TRIAL.md, step 1): code decides what each gig is, and the
 route of each provider, before any model is called. Variety comes from here, not from examples."""
 
+import json
 import random
 import sys
 from pathlib import Path
@@ -9,6 +10,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "classifier_extractor"))
 import taxonomy  # noqa: E402
+
+# Hirer industry pool (opt-in, see design_gigs): the named industries of classifier_extractor/prompts/industry_taxonomy.json,
+# without the two catch-alls. Rolled on its own random stream, so switching it on leaves every other column unchanged.
+USE_INDUSTRY = False
+INDUSTRIES = {i["name"]: i["gist"] for i in json.loads(
+    (ROOT / "classifier_extractor" / "prompts" / "industry_taxonomy.json").read_text(encoding="utf-8"))["industries"]
+    if i["name"] not in ("Cross-industry", "OTHER")}
 
 LEVELS = ("mid", "senior", "expert")
 MODES = ("execution", "advisory", "mixed")
@@ -71,11 +79,17 @@ def _row(i, sector, track, level, mode, generic, rng):
     }
 
 
-def design_gigs(n: int = 5, seed: int = 20261012) -> list:
+def design_gigs(n: int = 5, seed: int = 20261012, industry: bool = None) -> list:
     """n gig design rows. The first 5 are the pilot's, fixed whatever n is (see PILOT_COMBOS), so a bigger run
     extends the pilot instead of replacing it. Beyond them the nine level x mode combinations repeat in a
     shuffled order, about one gig in five is generic, sectors go round in a shuffled order (each sector
-    appears before any repeats) and a sector's tracks are used before one repeats."""
+    appears before any repeats) and a sector's tracks are used before one repeats.
+
+    industry=True (default: USE_INDUSTRY) adds an "industry" column, the kind of business the hirer runs, drawn
+    from INDUSTRIES in shuffled rounds (each appears before any repeats) independently of the sector, so a field
+    meets many kinds of hirer. Off, the rows are exactly what earlier runs produced."""
+    if industry is None:
+        industry = USE_INDUSTRY
     rng = random.Random(seed)
     tracks = taxonomy.load()["tracks"]
     sectors = list(tracks)
@@ -100,6 +114,14 @@ def design_gigs(n: int = 5, seed: int = 20261012) -> list:
             track = rng.choice(fresh)
             used.add((sector, track))
             rows.append(_row(i, sector, track, level, mode, rng.random() < 0.2, rng))
+    if industry:
+        irng, order = random.Random(f"{seed}:industry"), []
+        while len(order) < n:
+            batch = list(INDUSTRIES)
+            irng.shuffle(batch)
+            order += batch
+        for row, name in zip(rows, order):
+            row["industry"] = name
     return rows
 
 

@@ -130,3 +130,15 @@ What the first run (28 of 45 passed, then 33 of 45) taught, now in the prompts a
   treated as company names.
 - `x-test-1` uses em dashes (3 of 5 gigs and 3 of 40 providers); the base set has none in 800 providers, so a ranker
   could learn them as an author tell. Not changed yet: a one-line prompt rule or a replace in `make.py` would do.
+
+## Hirer industry pool (opt-in)
+
+`glm/design.py` already rolls sector, track, level, mode, specificity, words, weeks, opening and notes in code. The 200-gig
+design spreads evenly (every sector 5-6 gigs, each level x mode 21-23, openings 28-39 each). What it left to the model
+was the kind of business the hirer runs. `python glm/run_trial.py --industry` (or `design.design_gigs(n, industry=True)`)
+adds an `industry` column drawn from the 15 named industries of `classifier_extractor/prompts/industry_taxonomy.json`
+(not Cross-industry or OTHER), in shuffled rounds so each appears before any repeats, independently of the sector.
+`prompts/gig.md` gets one extra line when it is set. It is off by default: it uses its own random stream, so with it off
+the rows and prompts are identical to the committed 200-gig run, and with it on every other column is unchanged. Do not
+switch it on to resume a half-finished run, as the gigs already made would not carry the industry. No organisation-size
+field is rolled.
