@@ -1,0 +1,130 @@
+[
+ {
+  "source_file": "glm-gig__01_sharepoint-migration-for.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-942deb5c",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "SharePoint Migration for Clinic File Server",
+  "short_description": "A two-outlet physiotherapy clinic with about 12 staff still runs shared files off an ageing on-premise server.\n\nWe need someone to move everything over to Microsoft 365 SharePoint: migrate the ~300GB of documents, rebuild a cleaner folder structure, set staff permissions so only the right people can reach files with personal data (PDPA), and verify nothing is missing before the old server is switched off. Deliverable: a fully migrated SharePoint site with permissions applied, a folder map, and a short handover document. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Infrastructure",
+       "search_tag": "Infrastructure (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__02_mas-environmental-risk.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-3e66582a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "MAS Environmental Risk Gap Review for Fund Manager",
+  "short_description": "We run a small licensed fund management company in Singapore — about 15 staff, three private funds, no sustainability capability in-house. We need someone to review where we stand against the MAS Guidelines on Environmental Risk Management for asset managers: how environmental factors show up in our investment policies and due diligence, our portfolio monitoring, and what we disclose to investors. There are judgement calls on proportionality for a manager our size, so we want someone who can advise, not just tick boxes. Deliverable: a written gap assessment against the guidelines with a prioritised remediation roadmap for our board. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Financial Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Sustainability",
+       "search_tag": "Sustainability (Financial Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__03_independent-viability-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-48402110",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Viability Review for F&B Group",
+  "short_description": "I run a family-owned F&B group with three outlets and an SFA-licensed central kitchen, about 45 staff. I need an independent business review that looks hard at whether each outlet is viable: margins, footfall, lease costs, and the central kitchen's break-even. You would dig into our POS and Xero data, test our assumptions, and sit with my directors to talk through options — consolidation, closure, or a different model.\n\nDeliverable: a written viability report with per-outlet scenarios and clear recommendations. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Design",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Business",
+       "search_tag": "Business (Design)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__04_redesign-of-client.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-113cb7a1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Redesign of Client Pitch Deck",
+  "short_description": "We run a five-person IP firm in Singapore, handling trade mark and patent filings with IPOS for local SMEs. Our client pitch deck has grown to 30-odd slides and no longer hangs together. We'd like someone to review it, diagnose where the story and layout fall short, recommend a cleaner structure and design system, and rework the slides to match — typography, colour, spacing, the lot.\n\nDeliverable: a reworked 25-slide PowerPoint deck with a reusable slide master, plus a one-page note of recommendations. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Budget S$2,000-2,500; we'd like the work to start in the first week of July.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__05_pdpa-member-advisory.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-61a63139",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "PDPA Member Advisory with Compliance Checklist",
+  "short_description": "Looking for a researcher who knows Singapore's PDPA inside out to draft a member advisory for our association. We represent about 200 small retailers and F&B operators across the island; the secretariat is four people with no in-house legal or compliance capability.\n\nThe work: review the Act and the PDPC's advisory guidelines plus recent enforcement decisions, pull out what actually matters for small businesses handling customer data, and write it up in plain English. Deliverable: an 8-10 page member advisory with a one-page self-check checklist, in Word and PDF. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Trade Associations and Chambers",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Research",
+       "search_tag": "Research (Trade Associations and Chambers)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

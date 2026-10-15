@@ -1,0 +1,6 @@
+gig,n,sector,track,level,mode,specificity,generic_task,words,weeks,opening,notes
+G01,1,Infocomm Technology,Infrastructure,mid,execution,specific,,85,3-4,"a third-person description of the organisation, then the ask",False
+G02,2,Financial Services,Sustainability,senior,advisory,specific,,89,2,the organisation: start with a plain line on what it does,False
+G03,3,Design,Business,expert,mixed,specific,,85,6-8,"first person singular: ""I run ..."" or ""I need ...""",False
+G04,4,Intellectual Property,IP Legal,mid,advisory,generic,redesigning a slide deck,80,2-3,the organisation: start with a plain line on what it does,True
+G05,5,Trade Associations and Chambers,Research,senior,execution,specific,,93,1-2,"the kind of specialist wanted: ""Looking for ...""",False

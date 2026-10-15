@@ -1,0 +1,130 @@
+{
+ "G01": {
+  "source_file": "glm-gig__01_microsoft-365-setup.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d45343ab",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Microsoft 365 Setup and Gmail Migration",
+  "short_description": "Family-run furniture retailer with two showrooms and a warehouse, about 30 staff, and company email still running on personal Gmail accounts. We need someone to set up a Microsoft 365 Business Standard tenant from scratch — mailboxes, shared mailboxes for sales and accounts, distribution lists — then migrate everyone's Gmail mail, calendars and contacts, and switch the DNS records over cleanly. Basic hardening too: MFA on all accounts and admin roles separated, so we're in decent shape for PDPA.\n\nDeliverable: a live tenant with all 30 mailboxes migrated, DNS cut over, and a short admin handover document. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Infrastructure",
+       "search_tag": "Infrastructure (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "G02": {
+  "source_file": "glm-gig__02_mas-environmental-risk.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-3e66582a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "MAS Environmental Risk Gap Review for Fund Manager",
+  "short_description": "We run a small fund management company in Singapore, managing about S$400 million across six funds with a team of 25. We need a sustainability specialist to review how our investment process, policies, board reporting and fund disclosures line up with the MAS Guidelines on Environmental Risk Management for asset managers. It is a gap review: go through our documents and practices, benchmark them against the Guidelines, and tell us what matters most to fix at our size.\n\nDeliverable: a written gap assessment with a prioritised remediation roadmap we can put to the board. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Financial Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Sustainability",
+       "search_tag": "Sustainability (Financial Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "G03": {
+  "source_file": "glm-gig__03_bca-accessibility-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-f28e2dcf",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "BCA Accessibility Compliance Review for Boutique Hotel",
+  "short_description": "I run a 46-room boutique hotel across two conserved shophouse buildings. I need an independent accessibility review of the whole property against BCA's Code on Accessibility in the Built Environment: entrance, reception, lift, guest corridors, a sample of rooms, rooftop terrace, and signage and wayfinding.\n\nYou'd walk the site with me, assess against each clause, flag gaps with photographs and severity ratings, and advise me and my architect on what's mandatory when we next carry out A&A works, what can wait, and sequencing. Deliverable: a formal compliance report with findings, photographs and a prioritised remediation plan. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Design",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Business",
+       "search_tag": "Business (Design)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "G04": {
+  "source_file": "glm-gig__04_client-briefing-deck.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-b492409c",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Client Briefing Deck Redesign",
+  "short_description": "We are a small IP firm in Singapore handling trade mark, patent and registered design filings for SMEs. Our client briefing deck has grown to about 50 slides and needs a proper redesign — reviewing the structure, cutting what clients skip, tightening the copy and restyling it in our house template and colours.\n\nWe also want your advice on which slides earn their place and which should move to an annex. Deliverable: a redesigned PowerPoint deck with speaker notes and a one-page summary of what changed and why. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Budget S$2,000-2,800; able to start within the next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ "G05": {
+  "source_file": "glm-gig__05_member-briefing-note.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d6269163",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Member Briefing Note on Workplace Fairness Act",
+  "short_description": "Looking for a policy researcher to draft a member briefing on Singapore's Workplace Fairness Act. We are a small trade association (five staff) for precision engineering SMEs, about 140 member firms, and members keep asking what the new rules mean for them. The work: read the Act and MOM's guidance, set out obligations and timelines for employers of 10-80 staff, and write it in plain language with worked examples covering job ads, interview questions and grievance handling.\n\nDeliverable: a 10-12 page briefing note (Word) with an FAQ annex and a one-page compliance timeline. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Trade Associations and Chambers",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Research",
+       "search_tag": "Research (Trade Associations and Chambers)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,6 +1,8 @@
 # GLM trial: synthetic gigs and providers
 
-**Status: planned, nothing built yet.**
+**Status: pilot run on 2026-10-12 (5 gigs x 8 providers); see "Pilot result" at the end. Scripts are in `glm/`, outputs in
+`data/output/glm_trial/` (`_pilot_v1/` is a first run kept for reference: it failed the checks below and led to the
+prompt changes listed).** Run it with `python glm/run_trial.py` (`--report-only` for the tables).
 
 ## Goal
 
@@ -98,3 +100,33 @@ figure; no six-word run shared with the gig; no rate or availability (both null)
 - Always split train and test by gig. Train on the base set and test on GLM's as a check that the ranker is not
   reading the author.
 - The base set's earlier shelved batch (`data/output/KIV/crafted_gigs_2/`) is not part of this.
+
+## Pilot result (2026-10-12)
+
+Run: `python glm/run_trial.py`. Model `x-test-1`, zero-shot (no examples), graded by `qwen3.8:27b`, rubric_01.v5.
+
+- **Validation:** 45 of 45 outputs (5 gigs, 40 providers) passed within 3 tries (26 first try, 13 second, 6 third).
+  A call takes about 30 s for a gig and up to 5 minutes for a provider (the reasoning is long), so run with
+  several workers (8 in `run_trial.py`).
+- **Target vs Qwen** (40 providers): grade 3 -> 3 for 6 of 10 (the rest 2); grade 2 -> 2 for 9 of 10; grade 1 -> 0 for 5,
+  1 for 1, 2 for 4; grade 0 -> 0 for all 10. Nothing is 2 or more away, so no regeneration was needed in the final
+  set. The base set (792 pairs) has the same shape: its grade-1 profiles also mostly grade 0 or 2, and its grade 3
+  is 99% exact (GLM's 60% is on 10 profiles).
+- **Style against the base set:** 213 words per profile against 193 (sd 11 against 14), 4.4 achievements against
+  4.0, 1.2 credentials against 0.8. Length does not move with the target grade (210, 217, 215, 211 for grades 3, 2,
+  1, 0). The gigs run longer: 91 words on average against 70 (84-103 against 56-101).
+- **Not yet done:** the optional author check (GLM's 8 against Claude's 8 for the same base-set gig), tags on providers,
+  and any run beyond 5 gigs.
+
+What the first run (28 of 45 passed, then 33 of 45) taught, now in the prompts and checks:
+
+- Left alone, GLM wrote 2 services (the base set has 1), achievements of about 21 words (base 10), `how_i_work`
+  of 50 words (base 31) and 2-3 credentials (base 0-1), so profiles were 338 words against 193. The provider prompt
+  now asks for exactly one service, achievements of 8-14 words, `how_i_work` of 25-40 words and 0-2 credentials, and
+  `validate.py` checks the service count, credentials and achievement length.
+- Gigs overshot the word target; `validate.py` now requires a gig within 15 words of its design target.
+- `llm.py` treats a reply cut off at `max_tokens` as a failure and retries with more room.
+- The figure check accepts spelled-out numbers ("nine days to two"), and tool names such as Google Workspace are not
+  treated as company names.
+- `x-test-1` uses em dashes (3 of 5 gigs and 3 of 40 providers); the base set has none in 800 providers, so a ranker
+  could learn them as an author tell. Not changed yet: a one-line prompt rule or a replace in `make.py` would do.

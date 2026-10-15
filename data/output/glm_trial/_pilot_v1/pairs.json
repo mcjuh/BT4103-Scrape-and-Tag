@@ -1,0 +1,40 @@
+{
+ "glm-gig__01_microsoft-365-setup.md": [
+  "glm-provider__01_a.md",
+  "glm-provider__01_b.md",
+  "glm-provider__01_d.md",
+  "glm-provider__01_e.md",
+  "glm-provider__01_g.md",
+  "glm-provider__01_h.md"
+ ],
+ "glm-gig__02_mas-environmental-risk.md": [
+  "glm-provider__02_a.md",
+  "glm-provider__02_b.md",
+  "glm-provider__02_d.md",
+  "glm-provider__02_g.md",
+  "glm-provider__02_h.md"
+ ],
+ "glm-gig__03_bca-accessibility-compliance.md": [
+  "glm-provider__03_a.md",
+  "glm-provider__03_b.md",
+  "glm-provider__03_c.md",
+  "glm-provider__03_d.md",
+  "glm-provider__03_e.md",
+  "glm-provider__03_f.md",
+  "glm-provider__03_g.md",
+  "glm-provider__03_h.md"
+ ],
+ "glm-gig__04_client-briefing-deck.md": [
+  "glm-provider__04_c.md",
+  "glm-provider__04_d.md",
+  "glm-provider__04_e.md",
+  "glm-provider__04_f.md"
+ ],
+ "glm-gig__05_member-briefing-note.md": [
+  "glm-provider__05_b.md",
+  "glm-provider__05_d.md",
+  "glm-provider__05_e.md",
+  "glm-provider__05_f.md",
+  "glm-provider__05_g.md"
+ ]
+}

@@ -1,0 +1,45 @@
+{"time": "2026-10-12T12:24:08", "kind": "gig", "key": "G02", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:24:09", "kind": "gig", "key": "G05", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:24:14", "kind": "gig", "key": "G04", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:24:34", "kind": "gig", "key": "G01", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:25:38", "kind": "gig", "key": "G03", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:34:10", "kind": "provider", "key": "glm-provider__01_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:36:46", "kind": "provider", "key": "glm-provider__01_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:40:17", "kind": "provider", "key": "glm-provider__01_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:43:18", "kind": "provider", "key": "glm-provider__01_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T12:47:52", "kind": "provider", "key": "glm-provider__02_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-12T12:50:44", "kind": "provider", "key": "glm-provider__01_c.md", "tries": 3, "ok": false, "errors": ["RuntimeError: GLM call failed after 4 tries: empty content"]}
+{"time": "2026-10-12T12:52:33", "kind": "provider", "key": "glm-provider__01_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-12T12:53:33", "kind": "provider", "key": "glm-provider__02_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T12:56:22", "kind": "provider", "key": "glm-provider__02_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T12:58:33", "kind": "provider", "key": "glm-provider__01_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-12T12:58:47", "kind": "provider", "key": "glm-provider__01_f.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Rebuilt the DNS records for a neighbourhood bakery's domain \"", "names a company or firm; describe the kind of organisation instead"]}
+{"time": "2026-10-12T13:05:35", "kind": "provider", "key": "glm-provider__02_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:05:36", "kind": "provider", "key": "glm-provider__03_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:09:18", "kind": "provider", "key": "glm-provider__02_c.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Recommended a phased environmental risk uplift to the board \""]}
+{"time": "2026-10-12T13:11:17", "kind": "provider", "key": "glm-provider__02_e.md", "tries": 3, "ok": false, "errors": ["JSONDecodeError: Expecting ',' delimiter: line 34 column 6 (char 3098)"]}
+{"time": "2026-10-12T13:13:00", "kind": "provider", "key": "glm-provider__02_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T13:13:21", "kind": "provider", "key": "glm-provider__03_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:17:04", "kind": "provider", "key": "glm-provider__03_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:21:44", "kind": "provider", "key": "glm-provider__02_f.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Recommended a revised emissions data process for a regional \""]}
+{"time": "2026-10-12T13:24:00", "kind": "provider", "key": "glm-provider__03_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:25:17", "kind": "provider", "key": "glm-provider__03_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-12T13:26:34", "kind": "provider", "key": "glm-provider__03_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T13:33:59", "kind": "provider", "key": "glm-provider__03_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T13:36:01", "kind": "provider", "key": "glm-provider__04_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:38:51", "kind": "provider", "key": "glm-provider__04_a.md", "tries": 3, "ok": false, "errors": ["names a company or firm; describe the kind of organisation instead"]}
+{"time": "2026-10-12T13:39:06", "kind": "provider", "key": "glm-provider__04_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T13:42:12", "kind": "provider", "key": "glm-provider__03_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-12T13:44:12", "kind": "provider", "key": "glm-provider__04_b.md", "tries": 3, "ok": false, "errors": ["names a company or firm; describe the kind of organisation instead"]}
+{"time": "2026-10-12T13:45:34", "kind": "provider", "key": "glm-provider__04_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T13:46:19", "kind": "provider", "key": "glm-provider__04_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T13:51:40", "kind": "provider", "key": "glm-provider__05_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T13:56:55", "kind": "provider", "key": "glm-provider__05_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-12T14:02:08", "kind": "provider", "key": "glm-provider__05_c.md", "tries": 3, "ok": false, "errors": ["ValueError: no JSON object in reply"]}
+{"time": "2026-10-12T14:02:10", "kind": "provider", "key": "glm-provider__04_h.md", "tries": 3, "ok": false, "errors": ["names a company or firm; describe the kind of organisation instead"]}
+{"time": "2026-10-12T14:03:24", "kind": "provider", "key": "glm-provider__05_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T14:08:12", "kind": "provider", "key": "glm-provider__04_g.md", "tries": 3, "ok": false, "errors": ["names a company or firm; describe the kind of organisation instead"]}
+{"time": "2026-10-12T14:11:03", "kind": "provider", "key": "glm-provider__05_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T14:11:34", "kind": "provider", "key": "glm-provider__05_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-12T14:13:40", "kind": "provider", "key": "glm-provider__05_a.md", "tries": 3, "ok": false, "errors": ["ValueError: no JSON object in reply"]}
+{"time": "2026-10-12T14:19:26", "kind": "provider", "key": "glm-provider__05_h.md", "tries": 3, "ok": false, "errors": ["ValueError: no JSON object in reply"]}

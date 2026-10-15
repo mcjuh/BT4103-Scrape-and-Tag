@@ -1,0 +1,54 @@
+[
+ {
+  "provider": "glm-provider__02_f.md",
+  "target_grade": 3,
+  "qwen_grade": 0,
+  "record": {
+   "source_file": "glm-provider__02_f.md",
+   "extracted_by_model": "x-test-1",
+   "name": null,
+   "title": "Healthcare Regulatory Compliance Advisor",
+   "credentials": [
+    "Certified Professional in Healthcare Quality (CPHQ)"
+   ],
+   "years_experience": 16,
+   "about_headline": "Healthcare licensing and clinical governance advisor for private hospitals, clinic groups and eldercare operators in Singapore.",
+   "about_bio": "I have spent 16 years in Singapore healthcare regulation and quality. I began as a staff nurse, moved into a Singapore-based public hospital group's accreditation office, then led the licensing and clinical governance function of a Singapore-based private hospital operator, and later headed compliance for an eldercare chain with nine homes. I hold a nursing degree and a Master of Health Administration, and now practise as an independent healthcare compliance advisor to smaller providers.",
+   "services": [
+    {
+     "service_title": "Licensing Readiness and Compliance Gap Review",
+     "service_detail": "For small and mid-sized Singapore clinic groups, medical centres and eldercare operators. Services include a review of alignment with MOH licensing conditions under the Healthcare Services Act, policy and incident-process checks, complaint handling review, a prioritised corrective plan for the board, and a management briefing. One operator per engagement."
+    }
+   ],
+   "achievements": [
+    "Advised a private hospital through a full licence renewal in 14 weeks.",
+    "Steered a 12-clinic dental group through its first licence variation cycle.",
+    "Recommended fixes that cut repeat incidents by 40% at an eldercare chain.",
+    "Diagnosed consent-process gaps for a telehealth provider in a 3-week review."
+   ],
+   "technical_proficiency": [
+    {
+     "category": "Regulatory frameworks",
+     "skills": [
+      "Healthcare Services Act licensing conditions",
+      "MOH circulars and guidance",
+      "Singapore Medical Council guidelines"
+     ]
+    },
+    {
+     "category": "Review methods",
+     "skills": [
+      "gap analysis",
+      "tracer-based process walkthroughs",
+      "incident data trending",
+      "root cause analysis",
+      "prioritised action planning"
+     ]
+    }
+   ],
+   "how_i_work": "I start with the licence conditions and guidance that bind the operator, walk through daily practice with frontline staff, then give the board a short written view of where proportionality allows a lighter touch and what must change first.",
+   "availability": null,
+   "rate": null
+  }
+ }
+]

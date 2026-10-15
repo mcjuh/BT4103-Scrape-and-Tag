@@ -1,0 +1,1977 @@
+[
+ {
+  "source_file": "glm-provider__01_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "SharePoint Document Management Consultant",
+  "credentials": [
+   "Microsoft 365 Certified: Enterprise Administrator Expert"
+  ],
+  "years_experience": 7,
+  "about_headline": "I build organised, permission-controlled document systems in Microsoft 365 for Singapore professional-services firms.",
+  "about_bio": "I have spent 7 years making Microsoft 365 document libraries usable for knowledge-heavy firms. I started in a Singapore-based corporate services firm's IT operations team, then joined a Singapore-based legal technology consultancy's implementation team, where I built matter file systems for law practices. I hold a computing degree from a local autonomous university and a postgraduate diploma in information management. Now independent, I work as a document management consultant with small and mid-sized firms across Singapore.",
+  "services": [
+   {
+    "service_title": "SharePoint Document System Setup for Professional Firms",
+    "service_detail": "For small and mid-sized Singapore law and corporate services firms struggling with shared document sprawl. Services include designing a folder and metadata structure, building document libraries in Microsoft 365, configuring permissions aligned to the Personal Data Protection Act, setting retention rules, and preparing a short reference guide for staff."
+   }
+  ],
+  "achievements": [
+   "Built a matter document library for a 25-seat law firm in three weeks.",
+   "Configured access permissions across 14 document libraries for a corporate services firm.",
+   "Reorganised 8,000 client files into a metadata structure for an accounting practice.",
+   "Reduced duplicate documents by 40% for a training provider's course library."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Microsoft 365",
+    "skills": [
+     "SharePoint Online",
+     "Microsoft Teams",
+     "OneDrive for Business",
+     "Power Automate"
+    ]
+   },
+   {
+    "category": "Data governance",
+    "skills": [
+     "Microsoft Purview",
+     "sensitivity labels",
+     "retention policies",
+     "PDPA"
+    ]
+   },
+   {
+    "category": "Automation and scripting",
+    "skills": [
+     "PowerShell",
+     "PnP PowerShell",
+     "Microsoft Lists"
+    ]
+   }
+  ],
+  "how_i_work": "I start with a walkthrough of how staff actually file and find documents, then agree a structure before building. I configure in short stages, test permissions with sample users, and document everything for the team.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Microsoft 365 Migration Consultant",
+  "credentials": [
+   "Microsoft 365 Certified: Fundamentals (MS-900)",
+   "Microsoft 365 Certified: Security Administrator Associate"
+  ],
+  "years_experience": 6,
+  "about_headline": "Microsoft 365 file-share migrations for small Singapore organisations, done hands-on.",
+  "about_bio": "I have spent 6 years on hands-on Microsoft 365 work for small organisations in Singapore. I began on a Singapore-based logistics firm's IT helpdesk, then joined a Singapore-based accounting practice's systems team, and was most recently the sole administrator at a Singapore-based tuition centre, moving its file share into SharePoint. I hold a diploma in infocomm technology from a Singapore polytechnic and a Bachelor of Science in information systems from a Singapore university. I now work independently as a Microsoft 365 consultant.",
+  "services": [
+   {
+    "service_title": "Microsoft 365 File Migration and SharePoint Setup",
+    "service_detail": "For small and mid-sized Singapore businesses keeping documents on an office file server. Services include scoping the move, shifting files into a tidier SharePoint structure, setting access rights that respect PDPA obligations, checking migrated content against source counts, and writing a handover guide for office administrators. One tenant per engagement."
+   }
+  ],
+  "achievements": [
+   "Migrated 420 GB of documents for a trading firm in 18 days.",
+   "Rebuilt a tuition centre's 12,000-file share into 40 organised libraries.",
+   "Cut a design studio's duplicate files by 35% before migration day.",
+   "Configured access groups for 60 staff across a shipping agency's three offices.",
+   "Delivered a 9-page handover guide still used by a law firm's admin team."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Migration",
+    "skills": [
+     "SharePoint Migration Tool (SPMT)",
+     "ShareGate",
+     "Microsoft 365 admin centre",
+     "robocopy"
+    ]
+   },
+   {
+    "category": "Platform and identity",
+    "skills": [
+     "SharePoint Online",
+     "Microsoft Teams",
+     "Entra ID (Azure AD)",
+     "Microsoft Purview sensitivity labels"
+    ]
+   },
+   {
+    "category": "Governance",
+    "skills": [
+     "PDPA access controls",
+     "permission matrices",
+     "information architecture mapping"
+    ]
+   }
+  ],
+  "how_i_work": "I start by counting and sampling what sits on the existing share, agree a target structure with the office admin, migrate in small batches, test access with real users, and leave a written guide before decommissioning.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_c.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Microsoft 365 Administrator",
+  "credentials": [
+   "Microsoft 365 Certified: Messaging Administrator Associate",
+   "Microsoft 365 Certified: Teams Administrator Associate"
+  ],
+  "years_experience": 6,
+  "about_headline": "Microsoft 365 administrator for Singapore SMEs: mail migration, tenant setup and Teams rollout",
+  "about_bio": "I have spent 6 years in Microsoft 365 administration and now work independently as a Microsoft 365 administrator for Singapore SMEs. I started on the helpdesk of a Singapore-based logistics company, then moved to a Singapore-based law firm's technology unit, running tenant administration and mail systems for its branches. I hold a bachelor's degree in information systems from a Singapore university. Today I take on hands-on Microsoft 365 projects for small and mid-sized businesses here.",
+  "services": [
+   {
+    "service_title": "Microsoft 365 setup and migration for SMEs",
+    "service_detail": "For small and mid-sized Singapore businesses adopting or cleaning up Microsoft 365. Services include tenant provisioning and domain setup, Exchange Online mail migration, Teams and OneDrive rollout, multifactor authentication and conditional access configuration, and administrator handover training. I handle staff and customer data in line with PDPA."
+   }
+  ],
+  "achievements": [
+   "Migrated 60 mailboxes to Exchange Online for a logistics firm over a weekend.",
+   "Configured multifactor authentication for 200 staff accounts across a law firm's three offices.",
+   "Enrolled 80 laptops into Intune for a retail chain's outlet managers.",
+   "Set up Teams and OneDrive for a 40-person tuition centre in five working days."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Microsoft 365",
+    "skills": [
+     "Exchange Online",
+     "Teams",
+     "OneDrive",
+     "SharePoint Online",
+     "Entra ID"
+    ]
+   },
+   {
+    "category": "Identity and security",
+    "skills": [
+     "conditional access policies",
+     "multifactor authentication",
+     "Entra Connect",
+     "Microsoft Purview sensitivity labels"
+    ]
+   },
+   {
+    "category": "Endpoints",
+    "skills": [
+     "Microsoft Intune",
+     "Windows Autopilot",
+     "Windows 11 deployment"
+    ]
+   }
+  ],
+  "how_i_work": "I plan each move in a written runbook, pilot with a small group, then cut over during off-hours and verify results before closing. I document settings as I go and hand over clean admin notes.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_d.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "CRM and Marketing Data Executive",
+  "credentials": [],
+  "years_experience": 7,
+  "about_headline": "Customer data and consented campaign operations for Singapore consumer brands",
+  "about_bio": "I am a Singapore-based CRM and marketing data executive, now independent. I have 7 years in customer campaign work. I began in a Singapore-based telco's retention team, moved to a Singapore-based retail group's loyalty desk, and later ran campaign operations in a Singapore-based e-commerce agency. I hold a business degree from a local university. I help small and mid-sized consumer brands run tidy, PDPA-consented customer campaigns from my home office in Queenstown.",
+  "services": [
+   {
+    "service_title": "Customer Campaigns and Marketing Data Operations",
+    "service_detail": "For small and mid-sized Singapore businesses that market to consumer contact lists. Services include segmenting customer databases, executing email and SMS campaigns, consent and DNC Registry checks under the PDPA and Spam Control Act, campaign reporting, and list hygiene routines. I do not design brand identities or build websites."
+   }
+  ],
+  "achievements": [
+   "I cleaned 180,000 contact records for a fashion retailer, cutting bounce rate to 3%.",
+   "I ran 45 enrolment campaigns a year for an enrichment centre.",
+   "I built a reactivation programme that returned 1,900 lapsed shoppers for an online grocer.",
+   "I screened 30,000 telemarketing records against the DNC Registry for a home services firm."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Campaign platforms",
+    "skills": [
+     "Mailchimp",
+     "Salesforce Marketing Cloud",
+     "Klaviyo",
+     "WhatsApp Business API"
+    ]
+   },
+   {
+    "category": "Data and compliance",
+    "skills": [
+     "SQL",
+     "Excel",
+     "PDPA consent management",
+     "DNC Registry screening"
+    ]
+   }
+  ],
+  "how_i_work": "I start by auditing the client's contact data and consent records, agree a campaign calendar, then build the segments and templates myself. I report results weekly and hand over clean, documented lists.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_e.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Clinic Systems Implementer",
+  "credentials": [],
+  "years_experience": 6,
+  "about_headline": "I implement and support practice management systems for Singapore clinics.",
+  "about_bio": "I have spent 6 years working with clinic software in Singapore. I began as a support analyst on a Singapore-based healthcare software vendor's implementation team, moved to a private dental group's operations department as a systems executive, then joined a primary care group's digital team. I hold an information technology degree from a local university, and now work as an independent clinic systems implementer, configuring and supporting practice management systems for medical and dental clinics across the island.",
+  "services": [
+   {
+    "service_title": "Clinic practice management system setup and support",
+    "service_detail": "For small and mid-sized medical and dental clinics in Singapore adopting digital practice tools. Services include configuring appointment and queue modules, setting up billing and MediSave claim workflows, connecting clinic software to laboratory and imaging providers, training front-desk staff, and handling PDPA-compliant patient consent records. Hardware procurement is excluded."
+   }
+  ],
+  "achievements": [
+   "Configured scheduling and billing modules for a 4-chair dental surgery in 3 weeks.",
+   "Trained 25 front-desk staff across 9 GP clinics on new queue software.",
+   "Built a laboratory interface for a fertility centre, cutting result turnaround 40%.",
+   "Implemented teleconsult and e-payment setup for a traditional Chinese medicine chain in 6 weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Interoperability",
+    "skills": [
+     "HL7 v2",
+     "FHIR",
+     "SNOMED CT"
+    ]
+   },
+   {
+    "category": "Data and reporting",
+    "skills": [
+     "SQL",
+     "Power BI",
+     "Excel automation"
+    ]
+   },
+   {
+    "category": "Compliance",
+    "skills": [
+     "PDPA",
+     "National Telemedicine Guidelines",
+     "MOH licensing conditions"
+    ]
+   }
+  ],
+  "how_i_work": "I run engagements in short on-site sprints: I map current workflows, configure the system, test with real bookings and claims, train front-desk staff, then stay reachable through the early days of live running.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_f.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Records Management and Digitisation Consultant",
+  "credentials": [
+   "Certified Information Professional (AIIM)"
+  ],
+  "years_experience": 8,
+  "about_headline": "Records and digitisation consultant for SME paper archives, cluttered drives and digital repositories.",
+  "about_bio": "I am a records management and digitisation consultant working independently in Singapore. Over 8 years I have prepared, scanned, indexed and access-controlled document collections for SMEs. I began in a Singapore-based logistics company's document control team, then moved to a Singapore-based archive services bureau's digitisation unit, running scanning and classification projects. I hold a diploma in information management from a local polytechnic and a business degree from a Singapore university. I now handle records projects hands-on for small and mid-sized firms.",
+  "services": [
+   {
+    "service_title": "Paper Archive Digitisation and Records Setup",
+    "service_detail": "For small and mid-sized Singapore businesses with paper archives and cluttered drives. Services include preparing files for scanning, classifying and indexing documents, designing folder structures with retention rules, configuring access permissions under the Personal Data Protection Act, and reconciling file counts before closure. Each engagement covers one department or site."
+   }
+  ],
+  "achievements": [
+   "Scanned and indexed 95,000 property drawings for a construction firm in ten weeks.",
+   "Configured access tiers for 450 staff files at an education provider.",
+   "Cut retrieval time 60% for a logistics company's shipment dockets.",
+   "Reconciled 30,000 archived files against source registers for a law practice, with zero losses."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Capture and OCR",
+    "skills": [
+     "ABBYY FineReader",
+     "Adobe Acrobat Pro",
+     "batch scanning workflows"
+    ]
+   },
+   {
+    "category": "Repository platforms",
+    "skills": [
+     "Microsoft 365",
+     "SharePoint Online",
+     "OneDrive",
+     "Dropbox Business"
+    ]
+   },
+   {
+    "category": "Standards and methods",
+    "skills": [
+     "PDPA 2012",
+     "retention scheduling",
+     "classification taxonomies",
+     "quality assurance sampling"
+    ]
+   }
+  ],
+  "how_i_work": "I start with a full file inventory, agree a classification scheme up front, prepare and capture documents in batches, and check counts, access and quality at each stage before closing with a reconciliation report.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_g.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Microsoft 365 Migration Consultant",
+  "credentials": [
+   "Microsoft 365 Certified: Enterprise Administrator Expert",
+   "Microsoft 365 Certified: Teams Administrator Associate"
+  ],
+  "years_experience": 7,
+  "about_headline": "I move Singapore small-business file servers into Microsoft 365 and sort out the permissions.",
+  "about_bio": "I have spent 7 years moving Singapore small-business files into Microsoft 365. I began as an IT support officer for a Singapore-based freight forwarder's operations team, looking after shared drives and backups, then joined a managed IT services provider's Microsoft 365 team, running tenant setups and file migrations for logistics, trading and legal clients. I hold an information systems degree from a local university. I now work as an independent Microsoft 365 consultant in Singapore, doing every migration myself from planning through handover.",
+  "services": [
+   {
+    "service_title": "File Server to Microsoft 365 Migration",
+    "service_detail": "For small and mid-sized Singapore businesses moving documents off old file servers into SharePoint. Services include assessing current drives, mapping a cleaner folder structure, migrating content with version history, configuring staff and department permissions to meet PDPA expectations, and reconciling file counts before the old drive is retired."
+   }
+  ],
+  "achievements": [
+   "Migrated 1.2TB of project documents for a construction firm across two weekends.",
+   "Configured department-level permissions for a 30-person law practice within one week.",
+   "Cut a trading company's storage sprawl by 40 percent before migration.",
+   "Reconciled 260,000 files for a freight forwarder with zero reported losses.",
+   "Trained 60 retail head-office staff on new libraries in three sessions."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Migration",
+    "skills": [
+     "SharePoint Online",
+     "SharePoint Migration Tool",
+     "Microsoft 365 admin centre",
+     "PowerShell"
+    ]
+   },
+   {
+    "category": "Access control",
+    "skills": [
+     "Microsoft Entra ID",
+     "security groups",
+     "sensitivity labels",
+     "PDPA"
+    ]
+   }
+  ],
+  "how_i_work": "I start with a full inventory of the existing drives, agree the new folder map with the people who use the files daily, then migrate in staged batches, checking counts at every step and writing plain handover notes.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__01_h.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Project Coordinator",
+  "credentials": [
+   "PRINCE2 Foundation"
+  ],
+  "years_experience": 6,
+  "about_headline": "Project coordinator for outlet openings, fit-outs and refurbishments across Singapore's retail and F&B sectors.",
+  "about_bio": "I am a project coordinator with 6 years of hands-on delivery across Singapore's retail and F&B sectors. I began as a project administrator with a Singapore-based commercial interior fit-out contractor's projects team, then coordinated outlet openings for a Singapore-based food court operator's development team, and later managed refurbishment schedules for a Singapore-based optical retail chain's operations team. I hold a bachelor's degree in business administration from a local autonomous university, and I now work independently with small and mid-sized businesses.",
+  "services": [
+   {
+    "service_title": "Outlet Opening and Refurbishment Coordination",
+    "service_detail": "For small and mid-sized Singapore F&B and retail businesses opening or renovating premises. Services include drafting fit-out timelines, coordinating contractors, suppliers and landlord requirements, tracking equipment procurement and deliveries, preparing licence submissions to SFA, and completing handover checklists before opening day. I do not supervise construction works."
+   }
+  ],
+  "achievements": [
+   "Coordinated nine outlet openings for a bakery chain across 14 months.",
+   "Tracked 200-plus equipment deliveries for a hotel refurbishment with zero losses.",
+   "Cut a retail store refresh timeline from 10 weeks to 7.",
+   "Ran site logistics for 6 exhibitions, each set up within 48 hours."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Scheduling",
+    "skills": [
+     "Gantt charts",
+     "critical path method",
+     "milestone tracking"
+    ]
+   },
+   {
+    "category": "Reporting",
+    "skills": [
+     "progress dashboards",
+     "snag lists",
+     "variance tracking"
+    ]
+   },
+   {
+    "category": "Compliance",
+    "skills": [
+     "SFA licensing requirements",
+     "WSH site coordination"
+    ]
+   }
+  ],
+  "how_i_work": "I work hands-on: I set the schedule early, keep the master tracker current, walk the premises weekly, chase suppliers and contractors myself, and flag slippage the day it appears rather than at month-end.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Programme Management Consultant",
+  "credentials": [
+   "Project Management Professional (PMP)",
+   "PRINCE2 Practitioner"
+  ],
+  "years_experience": 15,
+  "about_headline": "Programme delivery and governance advice for Singapore organisations running complex change",
+  "about_bio": "I have spent 15 years advising Singapore organisations on how their change programmes are governed and delivered, and I now work independently. Earlier I headed the delivery office at a Singapore-based logistics company's regional headquarters, and before that I worked in a public-sector technology agency's transformation practice. I began as a project engineer on infrastructure schemes. I hold an MBA from Nanyang Technological University and a bachelor's degree in civil engineering.",
+  "services": [
+   {
+    "service_title": "Programme Health Check and Delivery Governance Review",
+    "service_detail": "For small and mid-sized Singapore businesses running complex internal or client-facing projects without a dedicated delivery function. Services include independent programme health checks, governance and stage-gate design, steering committee reporting, project manager mentoring, and recovery planning for stalled initiatives. I advise; I do not take execution roles."
+   }
+  ],
+  "achievements": [
+   "Steered a hospital group's S$40 million system replacement back onto schedule.",
+   "Advised a logistics SME on governance, cutting project overruns from 30 to 8 percent.",
+   "Reviewed 45 stalled projects for a statutory board and recommended stopping six.",
+   "Diagnosed delays across a retailer's 12-store rollout within three weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Delivery methods",
+    "skills": [
+     "PRINCE2",
+     "Agile (Scrum, Kanban)",
+     "stage-gate governance",
+     "benefits realisation",
+     "PMBOK"
+    ]
+   },
+   {
+    "category": "Planning tools",
+    "skills": [
+     "MS Project",
+     "Jira",
+     "Smartsheet",
+     "Power BI",
+     "Confluence"
+    ]
+   }
+  ],
+  "how_i_work": "I start by listening to management's own account of where delivery hurts, then review plans, reports and governance artefacts myself, and close with recommendations ranked by effort and impact that leadership can act on directly.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Environmental Regulatory Consultant",
+  "credentials": [
+   "Chartered Environmentalist (Society for the Environment)",
+   "Member, Institution of Engineers Singapore"
+  ],
+  "years_experience": 14,
+  "about_headline": "Environmental regulatory advisory for industrial and development projects across Singapore.",
+  "about_bio": "I have spent 14 years advising Singapore companies on environmental regulatory matters. I began as an environmental engineer with a Singapore-based consultancy's pollution control team, then led a regional engineering firm's environmental advisory practice, counselling boards on approval strategy and compliance programmes. I hold a Bachelor of Engineering in Environmental Engineering and a Master of Science in Environmental Management, both from local universities. I now practise as an independent environmental regulatory consultant.",
+  "services": [
+   {
+    "service_title": "Industrial Environmental Compliance Advisory",
+    "service_detail": "For small and mid-sized Singapore manufacturers, developers and waste operators. Services include diagnosing compliance gaps against the Environmental Protection and Management Act, reviewing Environmental Impact Assessment submissions, steering NEA pollution control licence renewals, and advising on ISO 14001 programmes. Advice only; no laboratory testing or remediation works."
+   }
+  ],
+  "achievements": [
+   "Steered a wafer fab through a 40-point emission review in nine months.",
+   "Reviewed EIA scoping for a 12-hectare logistics hub, halving authority queries.",
+   "Diagnosed gaps in a chemical trader's ISO 14001 system across four sites.",
+   "Recommended abatement upgrades that cut a food factory's effluent load by 30 per cent.",
+   "Counselled a wastewater utility's board on a 10-year permit renewal programme."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Regulation and standards",
+    "skills": [
+     "Environmental Protection and Management Act",
+     "NEA pollution control licensing",
+     "ISO 14001"
+    ]
+   },
+   {
+    "category": "Assessment methods",
+    "skills": [
+     "Environmental Impact Assessment scoping",
+     "AERMOD air dispersion modelling",
+     "contaminated site assessment"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reading your operations, permits and past submissions myself, then sit with your team to agree what matters. You get a prioritised advice memo, a working session with management, and draft language you can defend.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_c.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Environmental Risk Advisor",
+  "credentials": [],
+  "years_experience": 16,
+  "about_headline": "Senior adviser on environmental risk governance for Singapore asset managers.",
+  "about_bio": "I am a senior environmental risk adviser in Singapore. I have 16 years advising boards and senior management on climate-related risk, portfolio data, and investor reporting. Earlier, I led a risk policy team at a Singapore-based asset manager, then worked in a regional insurer's compliance unit. I hold a master's degree in finance and a bachelor's degree in environmental science. Now independent, I help smaller Singapore financial firms make proportionate decisions where formal systems are still developing.",
+  "services": [
+   {
+    "service_title": "Environmental Risk Control Review for Asset Managers",
+    "service_detail": "Services include reviewing environmental risk controls against MAS guidance for small and mid-sized Singapore asset managers, advising on proportionate disclosure, assessing portfolio data needs, and recommending board-ready action sequencing. Work covers policy, monitoring, and reporting; it excludes full audit or system implementation where relevant."
+   }
+  ],
+  "achievements": [
+   "Advised a 12-fund private equity house on climate stress testing.",
+   "Steered a 3-person family office through 9 environmental disclosure controls.",
+   "Recommended a 20-page environmental risk framework to a Singapore wealth manager."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Risk methods",
+    "skills": [
+     "materiality assessment",
+     "scenario analysis",
+     "portfolio carbon estimation",
+     "disclosure gap mapping"
+    ]
+   },
+   {
+    "category": "Frameworks",
+    "skills": [
+     "TCFD",
+     "SASB",
+     "ISSB"
+    ]
+   }
+  ],
+  "how_i_work": "I start by mapping existing policies, data, and approval routes. I then pressure-test materiality choices, discuss trade-offs with management, and finish with prioritised actions that senior leaders can own. I keep advice proportionate and decision-ready.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_d.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Climate Risk Advisor",
+  "credentials": [
+   "GARP Sustainability and Climate Risk (SCR) Certificate"
+  ],
+  "years_experience": 14,
+  "about_headline": "Climate risk advisory for Singapore lenders: portfolio screening, scenario analysis and board advice.",
+  "about_bio": "I am an independent climate risk advisor in Singapore with 14 years in financial risk. Most recently I led the climate risk function at a Singapore-based bank's corporate banking division, advising credit committees across the region. Earlier I served in a global consultancy's financial services risk practice, and I began in wholesale credit at a Singapore-based lender's risk team. I hold a master's in environmental management and an economics degree from Singapore universities.",
+  "services": [
+   {
+    "service_title": "Climate Risk Advisory for Lending Portfolios",
+    "service_detail": "For smaller Singapore banks, finance companies and corporate lenders needing senior climate judgement without an in-house team. Services include screening loan books for physical and transition risk, climate scenario analysis aligned with MAS expectations, estimating financed emissions, and advising boards on risk appetite. I advise; I do not build models."
+   }
+  ],
+  "achievements": [
+   "Advised a Singapore bank through industry-wide climate stress testing of S$8 billion in loans.",
+   "Diagnosed transition risk across 2,400 borrowers for a foreign bank's regional credit team.",
+   "Recommended sector limits that cut a finance company's coal exposure by 60 per cent.",
+   "Guided a property lender's first financed emissions baseline across 1,800 mortgages."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Climate methods",
+    "skills": [
+     "NGFS scenario analysis",
+     "physical hazard screening",
+     "transition pathway mapping",
+     "climate value-at-risk"
+    ]
+   },
+   {
+    "category": "Standards",
+    "skills": [
+     "PCAF financed emissions",
+     "TCFD recommendations",
+     "ISSB IFRS S2",
+     "MAS environmental risk guidelines"
+    ]
+   }
+  ],
+  "how_i_work": "I start with your loan book and the questions your board is asking, not templates. I interview credit, risk and treasury leads, weigh what is proportionate to your size, and leave you with prioritised recommendations your team can act on.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_e.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Physical Climate Risk Consultant",
+  "credentials": [],
+  "years_experience": 13,
+  "about_headline": "Physical climate risk advisory for property, infrastructure and industrial asset owners in Singapore and Southeast Asia.",
+  "about_bio": "I have spent 13 years helping asset owners in Singapore and Southeast Asia understand how heat, floods and sea-level rise affect what they build and hold. After a BEng in environmental engineering and an MSc in climate science, I led the climate resilience team at a Singapore-based engineering consultancy, and earlier worked in a regional developer's sustainability function and a government water agency's flood planning group. I now practise independently as a climate risk consultant, advising boards and management teams.",
+  "services": [
+   {
+    "service_title": "Physical climate risk assessment and adaptation advisory",
+    "service_detail": "For mid-sized property owners and facility operators in Singapore. Services include portfolio exposure screening against national flood and heat projections, scenario analysis across warming pathways, vulnerability reviews of key sites, and board briefings with prioritised resilience options, referenced to ISO 14090 guidance. Engagements typically run four to six weeks."
+   }
+  ],
+  "achievements": [
+   "Diagnosed flood exposure across 14 warehouses for a Singapore logistics developer.",
+   "Advised a private hospital group on heat resilience across its 3 campuses.",
+   "Recommended stormwater upgrades for a resort operator facing river flooding within 5 years.",
+   "Steered a data centre operator's board towards cooling contingencies for 2050 heat extremes.",
+   "Reviewed 32 coastal industrial sites for a regional chemical manufacturer over 9 months."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Climate analytics",
+    "skills": [
+     "GIS flood exposure mapping",
+     "SSP/RCP scenario analysis",
+     "site vulnerability assessment",
+     "wet-bulb heat stress projection",
+     "depth-damage estimation"
+    ]
+   },
+   {
+    "category": "Standards",
+    "skills": [
+     "ISO 14090",
+     "ISO 14091",
+     "TCFD physical risk disclosures",
+     "IFRS S2"
+    ]
+   }
+  ],
+  "how_i_work": "I start from the decisions a board must take, judge which exposures genuinely matter, review critical sites closely, then recommend a small set of defensible actions. I write the conclusions myself and stay reachable while they decide.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_g.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Financial Crime Compliance Adviser",
+  "credentials": [],
+  "years_experience": 12,
+  "about_headline": "Financial crime advisory for Singapore fund managers and private trust companies.",
+  "about_bio": "I am an independent financial crime compliance adviser to small and mid-sized Singapore fund managers, private trust companies and wealth firms. I spent 12 years in roles at a Singapore asset manager's compliance team, a private trust company's operations team, and a regional wealth firm's risk function. I led a team of four analysts and reported to management on policy, screening and incident response. I hold a law degree and work from Singapore.",
+  "services": [
+   {
+    "service_title": "Financial Crime Controls Review for Singapore Wealth Firms",
+    "service_detail": "For small and mid-sized Singapore fund managers, private trust companies and wealth firms. Services include reviewing sanctions screening, advising on AML policy weaknesses, diagnosing transaction monitoring issues, recommending board reporting, and reviewing incident response practices. Scope excludes legal opinions and full audit work."
+   }
+  ],
+  "achievements": [
+   "Advised a Singapore insurer to cut suspicious activity report backlog by 60%.",
+   "Recommended sanctions screening changes for a private trust company, reducing false alerts by 45%.",
+   "Steered a wealth firm through a transaction monitoring review over 3 months.",
+   "Diagnosed AML policy weaknesses for a fund administrator in 2 weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Financial crime standards",
+    "skills": [
+     "MAS Notice SFA 04-N02",
+     "FATF Recommendations",
+     "UN sanctions screening",
+     "AML risk assessment"
+    ]
+   },
+   {
+    "category": "Advisory methods",
+    "skills": [
+     "Control weakness mapping",
+     "Transaction monitoring review",
+     "Board reporting design",
+     "Incident response review"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reviewing policies, systems and past incidents, then interview the responsible team. I diagnose the main weaknesses, explain consequences in practical terms, and recommend an ordered list of changes for management to discuss.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__02_h.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Technology Risk and Resilience Advisor",
+  "credentials": [
+   "Certified Information Systems Auditor (CISA)"
+  ],
+  "years_experience": 12,
+  "about_headline": "Independent advisor on technology risk, resilience and governance for smaller licensed firms.",
+  "about_bio": "I have spent 12 years in technology and operational risk for financial institutions. Now I work as an independent technology risk and resilience advisor in Singapore. Earlier I did IT audit at a global accounting firm and headed a Singapore-based insurer's technology risk function; most recently I advised a regional payments group's risk committee. I hold a computer science degree from a Singapore university and a master's in information security from a UK one. I offer small licensed firms clear judgement, not long reports.",
+  "services": [
+   {
+    "service_title": "Technology Risk and Resilience Readiness Review",
+    "service_detail": "For small and mid-sized licensed financial institutions and fintechs in Singapore. Services include a read-through of your risk policies against the MAS Technology Risk Management Guidelines, a control and vendor-outsourcing review, board and management reporting assessment, and a sequenced uplift plan your team can own. Advisory only; remediation stays in-house."
+   }
+  ],
+  "achievements": [
+   "Advised a digital bank's board through a 3-month resilience uplift before a MAS inspection.",
+   "Reviewed 40 vendor arrangements for a payments licensee, consolidating oversight into one framework.",
+   "Recommended a lighter-touch control set that saved a broker 200 staff hours yearly.",
+   "Led a 6-person technology risk team at an insurer through MAS self-assessments."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Frameworks",
+    "skills": [
+     "MAS Technology Risk Management Guidelines",
+     "MAS Business Continuity Management Guidelines",
+     "ISO 22301",
+     "NIST Cybersecurity Framework"
+    ]
+   },
+   {
+    "category": "Assessment methods",
+    "skills": [
+     "control maturity assessment",
+     "risk scenario testing",
+     "outsourcing reviews",
+     "board reporting design"
+    ]
+   }
+  ],
+  "how_i_work": "I read the rules against what a firm your size can realistically run, talk to the people doing the work, and give management a short, honest view of what matters first.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Food Regulatory Compliance Consultant",
+  "credentials": [
+   "Certified HACCP Lead Auditor",
+   "Fellow, Singapore Institute of Food Science and Technology (SIFST)"
+  ],
+  "years_experience": 27,
+  "about_headline": "SFA licensing, labelling and export certification for Singapore food companies.",
+  "about_bio": "I have spent 27 years in Singapore food regulatory work. I began as a licensing officer with SFA, then led the quality and compliance team of a Singapore-based food manufacturer's central laboratory, and later served as regulatory director for a regional importer's Singapore office. I hold a food science degree and a master's in food standards from local universities. Now an independent food regulatory consultant, I advise manufacturers and exporters on licensing, labelling and export certification.",
+  "services": [
+   {
+    "service_title": "Food licensing, labelling and export compliance",
+    "service_detail": "For small and mid-sized Singapore food manufacturers, processors and exporters. Services include preparing SFA licence applications, reviewing product labels against the Food Regulations, securing export health certificates, building HACCP plans, and resolving agency queries. Engagements run to a defined submission or approval milestone; I do not run factory operations."
+   }
+  ],
+  "achievements": [
+   "Secured SFA factory licences for 12 manufacturers within 14 months.",
+   "Reduced one frozen-seafood exporter's rejected consignments from 11 to 0 in a year.",
+   "Advised a beverage startup through its first SFA inspection, passed in 6 weeks.",
+   "Audited 240 product labels for a health-supplement importer over 8 weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Standards",
+    "skills": [
+     "HACCP",
+     "GMP",
+     "ISO 22000"
+    ]
+   },
+   {
+    "category": "Regulatory",
+    "skills": [
+     "Sale of Food Act",
+     "Food Regulations",
+     "SFA e-licensing portal"
+    ]
+   },
+   {
+    "category": "Documentation",
+    "skills": [
+     "Label compliance matrices",
+     "Traceability records",
+     "Recall drill plans"
+    ]
+   }
+  ],
+  "how_i_work": "I start with the product list and current licences, map every requirement that applies, prepare submissions or corrective steps myself, review findings with the client's team, and follow through until the agency closes the file.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Food Safety and Compliance Consultant",
+  "credentials": [
+   "IRCA-Certified ISO 22000 Lead Auditor",
+   "Certified HACCP Auditor (ASQ)"
+  ],
+  "years_experience": 23,
+  "about_headline": "Keeping Singapore food businesses licensed, compliant and ready for every audit.",
+  "about_bio": "I have spent 23 years in food safety and regulatory compliance. I began as an inspector with a Singapore-based government food agency's licensing team, then led a regional food manufacturer's quality assurance department and advised a certification body's audit practice. I hold an MSc in Food Science. Now independent in Singapore, I work as a food safety and compliance consultant for food businesses of all sizes, from single kitchens to manufacturing groups.",
+  "services": [
+   {
+    "service_title": "SFA Licensing and Food Safety Compliance Support",
+    "service_detail": "For small and mid-sized Singapore food businesses — manufacturers, caterers, importers and restaurant groups. Services include SFA licence applications and renewals, HACCP and ISO 22000 documentation, hygiene audit preparation, recall procedure testing, and labelling checks under the Sale of Food Act. I do not advise on business structure or finance."
+   }
+  ],
+  "achievements": [
+   "Prepared HACCP plans for a 40-staff juice manufacturer that passed SFA audit first time.",
+   "Advised a 12-outlet bakery chain through an SFA licence renewal in eight weeks.",
+   "Cut a chilled seafood importer's recall response time from 48 hours to six.",
+   "Trained 60 hygiene officers across three catering companies for their WSQ certification.",
+   "Reviewed 300 supplier files for a hotel group ahead of ISO 22000 certification."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Food safety standards",
+    "skills": [
+     "HACCP",
+     "ISO 22000",
+     "FSSC 22000",
+     "GMP"
+    ]
+   },
+   {
+    "category": "Singapore regulation",
+    "skills": [
+     "Sale of Food Act",
+     "Environmental Public Health (Food Hygiene) Regulations",
+     "SFA licensing conditions"
+    ]
+   },
+   {
+    "category": "Audit methods",
+    "skills": [
+     "supplier audits",
+     "recall simulation",
+     "root cause analysis"
+    ]
+   }
+  ],
+  "how_i_work": "I read your existing procedures and walk the floor first, then draft what is missing, sit with your team to close gaps, and stay through the audit.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_c.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Forensic Accountant and Valuation Expert",
+  "credentials": [
+   "Chartered Accountant (ISCA)",
+   "Chartered Valuer and Appraiser (IVAS)"
+  ],
+  "years_experience": 26,
+  "about_headline": "Independent valuation and loss quantification for Singapore commercial disputes, from first assessment to court testimony.",
+  "about_bio": "I have spent 26 years valuing businesses and quantifying financial loss in Singapore disputes. I trained in the forensic practice of a Singapore-based accounting firm's disputes team, later ran deal valuations in a Singapore-based merchant bank's corporate finance team, and served as finance director of a Singapore-based precision engineering group. I hold an accountancy degree and a master's in applied finance from local universities. I now practise as an independent expert witness.",
+  "services": [
+   {
+    "service_title": "Independent Valuation and Loss Quantification for Disputes",
+    "service_detail": "For small and mid-sized Singapore businesses caught in shareholder or contractual disputes. Services include independent valuations of shareholdings and businesses, quantification of lost profits and economic loss, rebuttal reviews of opposing experts' figures, and expert reports under the Rules of Court. I do not act as an advocate."
+   }
+  ],
+  "achievements": [
+   "Quantified $6.2 million in lost profits for a third-generation logistics firm.",
+   "Testified in a High Court oppression suit over an $18 million healthcare group.",
+   "Advised a marine subcontractor through a $4 million claim, settled in three months.",
+   "Reviewed opposing experts' models for a software licensor's arbitration, finding $1.8 million double-counted."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Valuation",
+    "skills": [
+     "Discounted cash flow modelling",
+     "Market comparables",
+     "Sensitivity and scenario analysis",
+     "Control and marketability discounts"
+    ]
+   },
+   {
+    "category": "Data and analysis",
+    "skills": [
+     "CaseWare IDEA",
+     "Microsoft Excel",
+     "Power BI",
+     "MYOB"
+    ]
+   },
+   {
+    "category": "Standards",
+    "skills": [
+     "International Valuation Standards (IVSC)",
+     "Singapore Rules of Court expert evidence",
+     "SFRS(I)"
+    ]
+   }
+  ],
+  "how_i_work": "I start from the primary records, build the numbers myself, and test every assumption against what the documents support. I brief instructing lawyers plainly, flag weaknesses early, and hold my position under cross-examination.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_d.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Restructuring and Turnaround Advisor",
+  "credentials": [
+   "Chartered Accountant (ISCA)",
+   "Registered Insolvency Practitioner (ACRA)"
+  ],
+  "years_experience": 30,
+  "about_headline": "Turnaround and insolvency advice for small and mid-sized Singapore businesses.",
+  "about_bio": "I have spent 30 years in corporate recovery. I trained as an accountant, then ran a Singapore-based commercial bank's distressed-asset team and led the restructuring practice of a global accounting firm's Singapore office. I hold an accountancy degree and a postgraduate insolvency qualification. I now work independently from Singapore as a turnaround advisor to owners and directors of small and mid-sized firms. Most engagements begin with cash: what is really owed, what is really collectable, and what the next quarter can bear.",
+  "services": [
+   {
+    "service_title": "Financial Distress Review and Restructure Roadmap",
+    "service_detail": "For small and mid-sized Singapore businesses under cash or creditor pressure. Services include solvency assessment, 13-week cash flow forecasting, renegotiation plans with landlords and banks, restructuring advice under the Insolvency, Restructuring and Dissolution Act, and managed wind-downs. I do not take liquidator appointments in matters I advise."
+   }
+  ],
+  "achievements": [
+   "Built a 13-week cash model that kept a 90-staff printer trading through 2020.",
+   "Advised a 14-store pharmacy chain's board on closing six weak stores.",
+   "Ran an analysis that cut a logistics firm's monthly cash burn 35%.",
+   "Steered a S$8 million auto-parts supplier through a 2019 scheme of arrangement.",
+   "Diagnosed a S$2.4 million overstatement in a family firm's debtor book."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Modelling and analysis",
+    "skills": [
+     "Xero",
+     "MYOB",
+     "Excel",
+     "Power BI",
+     "13-week cash flow modelling",
+     "ratio and margin analysis"
+    ]
+   },
+   {
+    "category": "Regulatory frameworks",
+    "skills": [
+     "Insolvency, Restructuring and Dissolution Act 2018",
+     "Companies Act 1967",
+     "Singapore Financial Reporting Standards"
+    ]
+   }
+  ],
+  "how_i_work": "I start with the numbers, not the narrative: I read the ledgers, rebuild the cash forecast myself, then test every option with owners and directors before it reaches the page.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_e.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Multi-Site Business Viability and Turnaround Specialist",
+  "credentials": [
+   "Chartered Accountant (ISCA)",
+   "Registered Insolvency Practitioner (Ministry of Law)"
+  ],
+  "years_experience": 25,
+  "about_headline": "Turnaround and viability advice for multi-site retail and consumer businesses in Singapore.",
+  "about_bio": "I have spent 25 years judging whether multi-site retail and consumer businesses can sustainably carry their property and staffing cost base. Now an independent viability and turnaround practitioner, I previously led a Singapore-based advisory firm's restructuring practice and headed a Singapore-based bank's commercial credit review team. I started in audit at an international accounting firm and hold an accountancy degree and an MBA. My work stays anchored in Singapore, where lease and labour economics decide most retail outcomes.",
+  "services": [
+   {
+    "service_title": "Multi-Site Viability and Turnaround Advisory",
+    "service_detail": "For small and mid-sized Singapore retail, franchising and consumer service groups deciding whether to keep, close or reshape sites. Services include per-location margin and break-even analysis, lease commitment and footfall testing, cash-flow scenario modelling, landlord negotiation support, and advice on consolidation or exit. One group per engagement, to preserve independence."
+   }
+  ],
+  "achievements": [
+   "Ran a 12-store review that cut a pharmacy chain's trading losses by 40%.",
+   "Advised a fitness franchise on closing three gyms, recovering S$1.2 million in annual rent.",
+   "Built the break-even model behind a jeweller's S$8 million banking refinancing.",
+   "Steered a 60-year-old optics group through a two-store consolidation completed in nine months.",
+   "Reviewed 30 franchised kiosks for a lender, recommending which 11 to exit."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Financial modelling",
+    "skills": [
+     "break-even and contribution analysis",
+     "scenario and sensitivity modelling",
+     "cash-flow forecasting",
+     "unit economics"
+    ]
+   },
+   {
+    "category": "Systems and tools",
+    "skills": [
+     "Xero",
+     "QuickBooks Online",
+     "Oracle NetSuite",
+     "Microsoft Excel",
+     "Power BI"
+    ]
+   },
+   {
+    "category": "Singapore frameworks",
+    "skills": [
+     "Insolvency, Restructuring and Dissolution Act 2018",
+     "SFRS(I)"
+    ]
+   }
+  ],
+  "how_i_work": "I start from raw transaction data rather than summaries, build the site-level numbers myself, then work through the options with owners and directors, testing assumptions before writing recommendations down.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_f.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Restructuring and Turnaround Advisor",
+  "credentials": [
+   "Chartered Accountant (ISCA)",
+   "Member, Insolvency Practitioners Association of Singapore"
+  ],
+  "years_experience": 26,
+  "about_headline": "Independent turnaround and viability work for Singapore SMEs under cash-flow and creditor pressure.",
+  "about_bio": "I have 26 years in corporate recovery and turnaround advisory in Singapore. I trained in a Singapore-based accounting firm's insolvency team, later led a regional bank's workout unit, and served as a director at a licensed insolvency practice. I hold an accountancy degree from a local university and an MBA. I now work independently as a turnaround advisor for family-owned trading and manufacturing SMEs in distress, preparing the numbers myself and sitting with owners on the choices.",
+  "services": [
+   {
+    "service_title": "Turnaround Review and Creditor Workout Advisory",
+    "service_detail": "For family-owned trading, wholesale and light-manufacturing SMEs in Singapore under cash-flow strain or creditor pressure. Services include 13-week cash-flow modelling, viability assessment by business line, workout negotiations with banks and suppliers under the Insolvency, Restructuring and Dissolution Act 2018, and a written turnaround plan. I do not take insolvency appointments."
+   }
+  ],
+  "achievements": [
+   "Prepared a 13-week cash-flow model that kept a marine wholesaler trading for 11 months.",
+   "Advised a precision engineering firm through a scheme of arrangement completed in 9 months.",
+   "Negotiated standstill terms with 4 lenders for a building-materials distributor facing 38 creditors.",
+   "Ran the analysis behind a creditor committee settlement recovering S$3.8 million in 6 months.",
+   "Recommended merging two depots, cutting a logistics operator's fixed costs by 28%."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Financial analysis",
+    "skills": [
+     "Xero",
+     "QuickBooks",
+     "Microsoft Excel",
+     "Power BI",
+     "13-week cash-flow modelling"
+    ]
+   },
+   {
+    "category": "Restructuring",
+    "skills": [
+     "Insolvency, Restructuring and Dissolution Act 2018",
+     "schemes of arrangement",
+     "creditor workouts",
+     "standstill agreements"
+    ]
+   }
+  ],
+  "how_i_work": "I read the ledgers myself before forming a view, build the cash-flow scenarios in person with the owners, then chair the hard conversations with lenders until a plan holds.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_g.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Construction Project Management Consultant",
+  "credentials": [
+   "Project Management Professional (PMP)",
+   "Fellow of the Chartered Institute of Building (FCIOB)"
+  ],
+  "years_experience": 29,
+  "about_headline": "Construction project management: programme set-up, delayed project recovery and owner-side delivery assurance.",
+  "about_bio": "I have spent 29 years in construction project delivery, most of it in Singapore. I started in a Singapore-based main contractor's projects team, moved to a Singapore-based engineering consultancy's programme office, and later led a Singapore-based infrastructure developer's delivery group as director. I hold a construction management degree and a master's in project management from a local university. I now work independently as a project management consultant, preparing programmes and reports myself while advising owners on delivery decisions.",
+  "services": [
+   {
+    "service_title": "Project Recovery and Delivery Assurance",
+    "service_detail": "For small and mid-sized Singapore businesses commissioning construction or engineering works. Services include independent programme review, recovery planning for delayed projects, tender evaluation, contract administration under SIA or REDAS conditions, and monthly progress reporting to owners. I do not act as main contractor or supervise works on site."
+   }
+  ],
+  "achievements": [
+   "Steered a logistics operator's delayed warehouse to handover 11 weeks early.",
+   "Prepared the master programme for a S$180 million semiconductor plant upgrade.",
+   "Advised a school on terminating a failing S$9 million works contract.",
+   "Reviewed a statutory board's S$60 million redevelopment and recommended a procurement split.",
+   "Ran the delay analysis for a subcontractor's S$14 million adjudication."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Planning software",
+    "skills": [
+     "Primavera P6",
+     "Microsoft Project",
+     "Asta Powerproject"
+    ]
+   },
+   {
+    "category": "Analysis methods",
+    "skills": [
+     "critical path method",
+     "earned value management",
+     "delay analysis",
+     "risk workshops"
+    ]
+   },
+   {
+    "category": "Contracts and standards",
+    "skills": [
+     "SIA conditions of contract",
+     "REDAS conditions of contract",
+     "Building and Construction Industry Security of Payment Act"
+    ]
+   }
+  ],
+  "how_i_work": "I begin by reading the contract and the programme, then walk the site with the team before forming my own view; I document findings myself and keep owners briefed in plain language.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__03_h.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Restructuring and Turnaround Specialist",
+  "credentials": [
+   "Chartered Accountant (ISCA)",
+   "Registered Insolvency Practitioner (Ministry of Law)"
+  ],
+  "years_experience": 27,
+  "about_headline": "Viability assessments and turnaround advice for Singapore multi-site retailers and owner-managed businesses.",
+  "about_bio": "I am an independent restructuring and viability specialist based in Singapore, with 27 years in the field. I trained in corporate recovery at a Singapore-based accounting firm's reconstruction team, spent nearly a decade leading business reviews at a regional advisory firm's retail desk, and was a director at a homegrown turnaround practice before setting up on my own. I hold an accountancy degree and an MBA, and now advise owners of struggling multi-site retail and education businesses.",
+  "services": [
+   {
+    "service_title": "Independent Business Review for Multi-Site Retailers",
+    "service_detail": "For owner-managed retail chains and other small and mid-sized Singapore businesses under margin pressure. Services include per-site profitability and break-even analysis, lease and cost-structure review, scenario modelling of closure, consolidation or repositioning, and a written report with recommendations. I do not take formal insolvency appointments under this engagement."
+   }
+  ],
+  "achievements": [
+   "Led a 42-store lifestyle retailer's review that cut its lease costs 30%.",
+   "Rebuilt per-centre break-even models for a tuition group operating 12 locations.",
+   "Advised a sporting-goods distributor on consolidation that saved S$1.2 million a year.",
+   "Gave expert evidence on franchisee losses in a 9-week High Court trial."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Analytical tools",
+    "skills": [
+     "Excel",
+     "Power BI"
+    ]
+   },
+   {
+    "category": "Accounting systems",
+    "skills": [
+     "Xero",
+     "MYOB",
+     "QuickBooks"
+    ]
+   },
+   {
+    "category": "Methods and standards",
+    "skills": [
+     "Break-even analysis",
+     "Scenario modelling",
+     "Cash-flow forecasting",
+     "SFRS"
+    ]
+   }
+  ],
+  "how_i_work": "I work on site with owners and their finance staff, rebuild the numbers from source data, stress-test each assumption openly, and meet the board to work through the options until a decision is defensible.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Presentation Design Consultant",
+  "credentials": [],
+  "years_experience": 6,
+  "about_headline": "Independent presentation advisory for Singapore businesses: structure, story flow, visual systems.",
+  "about_bio": "I have spent 6 years advising organisations on how their documents read and look. I began in a Singapore-based branding agency's design studio, then joined a regional consultancy's communications practice, and later advised a polytechnic's continuing education team on course materials. I hold a visual communications degree from a local university. Now independent, I work with small and mid-sized Singapore businesses whose proposals, reports and presentations need clearer arguments and calmer layouts.",
+  "services": [
+   {
+    "service_title": "Presentation audit and redesign advisory",
+    "service_detail": "For small and mid-sized Singapore businesses whose client-facing decks have drifted. Services include a structured deck audit, narrative restructuring advice, a slide master and typographic specification, before-and-after layout critiques, and coaching for in-house rework. I advise and specify; production stays with your team."
+   }
+  ],
+  "achievements": [
+   "Diagnosed a 40-slide logistics proposal in 5 days for its management.",
+   "Recommended a 12-rule colour and type system to a law firm.",
+   "Advised a tuition chain to cut 62 slides to 24.",
+   "Steered a fintech startup's investor deck through 3 review rounds in 8 days."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Visual systems",
+    "skills": [
+     "typographic grids",
+     "colour palette development",
+     "slide master architecture",
+     "data visualisation"
+    ]
+   },
+   {
+    "category": "Review methods",
+    "skills": [
+     "message hierarchy mapping",
+     "annotated deck audits",
+     "wireframing",
+     "usability testing"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reading the material as its audience would, then map where the argument loses its way. I give written findings and concrete recommendations first, so any rework follows agreed decisions.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Presentation Strategy Consultant",
+  "credentials": [],
+  "years_experience": 9,
+  "about_headline": "Independent consultant reviewing and restructuring business presentations for Singapore companies.",
+  "about_bio": "I am an independent presentation consultant in Singapore with 9 years turning dense business content into clear slide stories. I began in a Singapore-based brand agency's presentation studio, advised clients through a Singapore-based design consultancy's strategy practice, and later steered communications for a Singapore-based freight forwarding group's commercial team. I hold a visual communication degree from a local university. Since becoming independent, I work mainly with small and mid-sized Singapore companies across logistics, manufacturing and maritime services.",
+  "services": [
+   {
+    "service_title": "Business Presentation Review and Restructuring",
+    "service_detail": "For small and mid-sized Singapore businesses whose sales or investor decks have grown unwieldy. Services include a full narrative diagnosis, slide-by-slide commentary on structure and visuals, a recommended section outline, guidance on typography and colour, and a written recommendations memo. Advisory only; slide production stays with your team."
+   }
+  ],
+  "achievements": [
+   "Recommended a restructure cutting a freight forwarder's 40-slide tender deck to 18 slides.",
+   "Reviewed 24 investor updates for a logistics technology startup over two years.",
+   "Diagnosed a cold-chain operator's failing sales story; win rate rose 15 percent.",
+   "Advised a warehousing group's leadership on a 12-market expansion briefing series."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Software",
+    "skills": [
+     "PowerPoint",
+     "Canva"
+    ]
+   },
+   {
+    "category": "Methods",
+    "skills": [
+     "narrative structuring",
+     "typographic hierarchy",
+     "colour systems",
+     "slide master architecture",
+     "data visualisation"
+    ]
+   }
+  ],
+  "how_i_work": "I read the deck cold before any briefing, interview the people behind it to find the real argument, then deliver written findings and agreed recommendations the team can implement.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_c.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Data Protection Consultant",
+  "credentials": [
+   "Certified Information Privacy Professional/Asia (IAPP)"
+  ],
+  "years_experience": 8,
+  "about_headline": "Data protection consultant advising Singapore SMEs on PDPA duties and practical remediation.",
+  "about_bio": "I am an independent data protection consultant based in Singapore, with 8 years in privacy advisory. I diagnose how small and mid-sized businesses collect, store and share personal data, then recommend fixes that management can approve and fund. Earlier I reviewed customer records handling in a Singapore-based insurer's compliance team and advised regional clients through a Singapore-based consultancy's privacy practice. I hold an accountancy degree and a postgraduate certificate in information privacy.",
+  "services": [
+   {
+    "service_title": "PDPA Compliance Review and Advisory",
+    "service_detail": "For small and mid-sized Singapore businesses holding customer personal data. Services include a gap review against the Personal Data Protection Act, a data flow map with risk ratings, recommended policy and consent wording, a management briefing on remediation priorities, and staff awareness guidance. System changes remain with your IT vendors."
+   }
+  ],
+  "achievements": [
+   "Reviewed patient data practices for a chain of 12 dental clinics.",
+   "Advised a 60-staff freight firm's directors on breach response within 48 hours.",
+   "Recommended consent wording changes that cut a retailer's telemarketing complaints by 70%.",
+   "Diagnosed data-sharing gaps across 9 suppliers for a beverage manufacturer."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Privacy frameworks",
+    "skills": [
+     "Personal Data Protection Act",
+     "PDPC Advisory Guidelines",
+     "Do Not Call Registry checks",
+     "data mapping"
+    ]
+   },
+   {
+    "category": "Working tools",
+    "skills": [
+     "PowerPoint",
+     "Excel",
+     "Word"
+    ]
+   }
+  ],
+  "how_i_work": "Engagements start with a scoping call and document review, then staff interviews on site; I brief management in plain-language PowerPoint decks with prioritised recommendations they can act on in stages.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_d.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Intellectual Property Consultant",
+  "credentials": [
+   "Member, International Trademark Association (INTA)"
+  ],
+  "years_experience": 8,
+  "about_headline": "Independent IP consultant helping Singapore SMEs decide what to protect, file and defend.",
+  "about_bio": "I have worked in intellectual property for 8 years, all of it in Singapore. I am now an independent consultant advising small and mid-sized enterprises on trade marks, patents and related decisions. Before going independent, I spent time in a Singapore-based law firm's trade mark team and in a Singapore-based consumer goods company's brand protection group. I hold an LLB from a Singapore university and a graduate diploma in intellectual property law. I also speak at SME workshops on protecting intangible assets.",
+  "services": [
+   {
+    "service_title": "Trade Mark and IP Advisory for SMEs",
+    "service_detail": "For small and mid-sized Singapore businesses deciding what to protect and how. Services include trade mark clearance advice, filing and renewal strategy, IP portfolio reviews, and advice when IPOS objects to an application. Under Singapore's Trade Marks Act and Patents Act. Advisory only; filings remain with the client's agents."
+   }
+  ],
+  "achievements": [
+   "Advised a fintech startup on an IPOS trade mark objection cleared in 4 months.",
+   "Steered an F&B group through opposition proceedings resolved within 9 months.",
+   "Reviewed a medtech company's patent portfolio of 30 filings and recommended 3 abandonments.",
+   "Recommended a retail chain consolidate 12 country registrations into one regional plan.",
+   "Advised a family-owned manufacturer on protecting a brand name used for 20 years."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Search tools",
+    "skills": [
+     "WIPO Global Brand Database",
+     "TMview",
+     "Madrid Monitor",
+     "PATENTSCOPE"
+    ]
+   },
+   {
+    "category": "Law and standards",
+    "skills": [
+     "Singapore Trade Marks Act",
+     "Patents Act",
+     "Madrid Protocol",
+     "Nice Classification"
+    ]
+   }
+  ],
+  "how_i_work": "I begin with a short discovery session to understand the business's plans, then review existing rights, map risks against budget, and deliver written recommendations the management team can act on directly.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_e.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Business Communications Consultant",
+  "credentials": [],
+  "years_experience": 9,
+  "about_headline": "Advising Singapore businesses on the structure, clarity and design standards of board and client documents.",
+  "about_bio": "I have spent 9 years in business communications and now practise independently as a consultant to Singapore SMEs. I started in the corporate affairs team of a Singapore-based insurer's regional office, then moved to a design agency's editorial studio. I hold a bachelor's degree in communications from a local university and a diploma in visual communication from a polytechnic. My work centres on board papers, annual reports, tender submissions and other documents small firms rely on, advising management on structure, readability and layout standards.",
+  "services": [
+   {
+    "service_title": "Document Review and Design Advisory",
+    "service_detail": "Small and mid-sized Singapore firms hire me when their documents have outgrown their structure. Services include a structured critique of an existing document, a clearer section and message hierarchy, a typography and colour standard, slide template recommendations, and briefing notes for whoever implements the changes. I advise rather than produce."
+   }
+  ],
+  "achievements": [
+   "Advised a logistics firm on board papers that went from 48 to 22 pages.",
+   "Reviewed an accounting practice's tender submissions; its shortlist rate rose to 35 percent.",
+   "Diagnosed layout problems across patient brochures for a 9-clinic healthcare group.",
+   "Steered a trade association's annual report revamp to a 6-week deadline.",
+   "Recommended cutting a fintech startup's investor slides from 34 to 18."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Design tools",
+    "skills": [
+     "PowerPoint",
+     "Adobe InDesign",
+     "Figma"
+    ]
+   },
+   {
+    "category": "Methods",
+    "skills": [
+     "information mapping",
+     "plain English editing",
+     "typographic grids",
+     "accessibility contrast checks"
+    ]
+   }
+  ],
+  "how_i_work": "I begin by reading the existing material cold, noting where readers lose the thread. I then interview a few stakeholders, set out findings in a short memo, and agree recommendations before any redesign is scoped.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_f.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Business Process Consultant",
+  "credentials": [
+   "Lean Six Sigma Green Belt (IASSC)"
+  ],
+  "years_experience": 7,
+  "about_headline": "Independent business process consultant working with small and mid-sized Singapore companies.",
+  "about_bio": "I have spent 7 years in operations and project management work across Singapore, and I now practise independently as a business process consultant. Earlier roles were with a Singapore-based logistics operator's operations team, a management consultancy's SME advisory desk, and a facilities services firm's project office. I hold a business degree from a Singapore university and a graduate diploma in project management. My work is advisory: I review how businesses run and recommend what to change.",
+  "services": [
+   {
+    "service_title": "Business Process and Project Delivery Review",
+    "service_detail": "For small and mid-sized Singapore businesses whose projects run late or processes have grown messy. Services include reviewing workflows and project controls, diagnosing delay and rework causes, recommending governance and reporting cadence, and setting out a prioritised improvement plan aligned to SS ISO 9001. I advise; your team implements."
+   }
+  ],
+  "achievements": [
+   "Advised a precision engineering SME on project controls; late deliveries fell 30%.",
+   "Reviewed a food manufacturer's stocktake process, recommending changes that saved 12 staff hours weekly.",
+   "Diagnosed reporting bottlenecks at a 40-staff logistics firm, halving its weekly project meeting time.",
+   "Steered a retail cooperative's 9-month system rollout back on schedule through revised governance."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Process analysis",
+    "skills": [
+     "value stream mapping",
+     "root cause analysis",
+     "BPMN process mapping",
+     "Microsoft Visio"
+    ]
+   },
+   {
+    "category": "Project controls",
+    "skills": [
+     "PRINCE2",
+     "Microsoft Project",
+     "RACI charts",
+     "earned value tracking"
+    ]
+   },
+   {
+    "category": "Data work",
+    "skills": [
+     "Excel",
+     "Power Query",
+     "PivotTables"
+    ]
+   }
+  ],
+  "how_i_work": "I start by sitting with management to understand what is actually going wrong, then review workflows and interview staff before writing recommendations. I keep advice practical, prioritised and sized to what a small team can absorb.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_g.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Document and Presentation Design Consultant",
+  "credentials": [],
+  "years_experience": 7,
+  "about_headline": "Document design consultant for annual reports, board packs and reporting standards in Singapore.",
+  "about_bio": "I have spent 7 years in corporate document design — annual reports, board packs and the standards behind them. I started in a Singapore-based bank's investor publications team, then moved to a regional studio's corporate reporting practice, and later advised a statutory board on its document guidelines. I hold an English degree from a Singapore university and a visual communication diploma from a polytechnic. I now work as an independent document design consultant, advising Singapore management teams on how their reports read and look.",
+  "services": [
+   {
+    "service_title": "Annual report and board pack advisory",
+    "service_detail": "For mid-sized Singapore companies preparing annual reports or board packs. Services include reviewing the current document's structure and readability, diagnosing where the narrative loses readers, recommending section order and a house design language, setting typography and colour standards, and briefing internal teams before production. I advise; your team produces."
+   }
+  ],
+  "achievements": [
+   "Recommended a 9-section structure for a listed manufacturer's 120-page annual report, replacing 14.",
+   "Advised a 300-staff logistics firm on its board pack overhaul over six weeks.",
+   "Diagnosed layout inconsistencies across a statutory board's 60 document templates in one month.",
+   "Steered a family-owned retailer's move to one reporting template across 12 subsidiaries.",
+   "Reviewed a fund manager's first sustainability report, 80 pages, ahead of its deadline."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Design software",
+    "skills": [
+     "Adobe InDesign",
+     "Adobe Illustrator",
+     "PowerPoint",
+     "Figma"
+    ]
+   },
+   {
+    "category": "Typography and layout",
+    "skills": [
+     "modular grids",
+     "baseline grids",
+     "typographic hierarchy",
+     "colour specification"
+    ]
+   },
+   {
+    "category": "Reporting frameworks",
+    "skills": [
+     "SGX-ST Listing Rules",
+     "Code of Corporate Governance",
+     "Integrated Reporting framework"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reading the whole document as a first-time reader would, mark where attention drops, then agree a structure with management before any visual work. I present recommendations in writing, then walk management through them.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__04_h.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Document Design Consultant",
+  "credentials": [],
+  "years_experience": 8,
+  "about_headline": "Advisory on the structure, story and layout of corporate reports for Singapore organisations.",
+  "about_bio": "I have spent 8 years advising organisations on how long documents read and look. I am now an independent document design consultant in Singapore. Previously I reviewed annual reports within a Singapore-based communications agency's editorial team, and before that worked in a statutory board's corporate publications unit. I hold a degree in visual communications from a local university. My engagements are usually short advisory reviews ending in prioritised recommendations, and I serve small and mid-sized organisations across Singapore.",
+  "services": [
+   {
+    "service_title": "Report structure and design advisory",
+    "service_detail": "For small and mid-sized Singapore businesses whose annual, board or donor reports no longer read cleanly. Services include a diagnosed review of the current document, a recommended section structure and messaging flow, a typography and colour specification, and template guidance for in-house teams. Advisory only; production stays with your designers."
+   }
+  ],
+  "achievements": [
+   "Reviewed a statutory board's 90-page annual report and recommended a 12-section restructure.",
+   "Steered a family-owned logistics group through a reporting overhaul finished in 6 weeks.",
+   "Advised a charity to cut its donor report from 40 pages to 24.",
+   "Recommended a type and colour system rolled out across a clinic group's 9 publications.",
+   "Diagnosed 30 layout faults in a polytechnic research office's grant reports."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Design software",
+    "skills": [
+     "InDesign",
+     "Illustrator",
+     "PowerPoint",
+     "Figma"
+    ]
+   },
+   {
+    "category": "Methods",
+    "skills": [
+     "narrative structure mapping",
+     "typographic hierarchy",
+     "WCAG colour contrast checks",
+     "editorial style guides"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reading the whole document and marking where the argument stumbles, then agree priorities with management before drafting recommendations. I hand over structured, usable advice rather than take over production.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Data Protection Consultant",
+  "credentials": [
+   "Certified Information Privacy Professional/Asia (CIPP/A)",
+   "Certified Information Privacy Manager (CIPM)"
+  ],
+  "years_experience": 16,
+  "about_headline": "Plain-English data protection documents and checklists for Singapore small businesses.",
+  "about_bio": "I have spent 16 years turning Singapore's data protection rules into documents small teams can actually use. Now independent, I work as a data protection consultant. I previously led the privacy team at a Singapore-based hospital group's compliance office and, before that, drafted customer privacy documents in a Singapore-based insurer's legal department. I hold an LLB and a master's degree in information law. I still write every policy, notice and checklist myself rather than handing briefs to juniors.",
+  "services": [
+   {
+    "service_title": "PDPA Compliance Documentation for Small Businesses",
+    "service_detail": "For small and mid-sized Singapore businesses that collect customer data. Services include drafting PDPA-aligned privacy policies and collection notices, preparing retention schedules and access request procedures, mapping data flows across systems, and writing breach response runbooks with staff-facing checklists, all grounded in the PDPA and PDPC advisory guidelines."
+   }
+  ],
+  "achievements": [
+   "Drafted a 30-page privacy handbook adopted across 14 dental clinics.",
+   "Rewrote consent and marketing notices for a 60-outlet fitness chain in six weeks.",
+   "Prepared data flow maps and retention schedules for a 200-staff logistics firm.",
+   "Built a breach response runbook now used by 25 tuition centres.",
+   "Cut a fintech startup's onboarding privacy notice from 12 pages to 3."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Data Protection",
+    "skills": [
+     "PDPA 2012",
+     "PDP Regulations 2021",
+     "PDPC Advisory Guidelines",
+     "breach notification framework"
+    ]
+   },
+   {
+    "category": "Drafting",
+    "skills": [
+     "plain-English policy writing",
+     "checklist design",
+     "document templates",
+     "flowcharts"
+    ]
+   },
+   {
+    "category": "Assessment",
+    "skills": [
+     "data flow mapping",
+     "gap assessments",
+     "enforcement decision analysis"
+    ]
+   }
+  ],
+  "how_i_work": "I read the source rules myself, then write the working documents: policies, checklists and templates a small team can run without a lawyer. I interview staff, map data flows, and hand over editable drafts with a short handover note.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Employment Compliance Consultant",
+  "credentials": [
+   "IHRP Certified Professional"
+  ],
+  "years_experience": 13,
+  "about_headline": "Employment compliance consultant turning Singapore workplace rules into plain-language policies and checklists.",
+  "about_bio": "I have spent 13 years making Singapore employment rules usable for smaller employers. Now an independent employment compliance consultant, I previously led the people-compliance function of a regional logistics group's Singapore arm and began in the HR team of a Singapore-based supermarket chain, drafting handbooks, policies and manager guides myself and advising senior management on disciplinary matters. I hold a law degree from a Singapore university and a master's in human resource management, and work from Singapore.",
+  "services": [
+   {
+    "service_title": "Employment Compliance Handbook and Audit Toolkit",
+    "service_detail": "For small and mid-sized Singapore employers without in-house HR compliance. Services include reviewing the Employment Act, CPF rules and tripartite guidelines, drafting a plain-English staff handbook, building a self-audit checklist across key policies, and preparing manager briefing notes. One regime per engagement; I do not act in disputes."
+   }
+  ],
+  "achievements": [
+   "Drafted a staff handbook covering 900 employees across 40 Singapore stores in eight weeks.",
+   "Built a retrenchment procedure pack adopted by a 600-strong logistics firm within one quarter.",
+   "Prepared employment contract templates now used by 35 dental clinics across Singapore.",
+   "Ran a payroll-practice review that cut a preschool group's wage errors by 70 percent."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Regulatory frameworks",
+    "skills": [
+     "Employment Act 1968",
+     "CPF Act",
+     "Workplace Safety and Health Act",
+     "Tripartite guidelines"
+    ]
+   },
+   {
+    "category": "Drafting and analysis",
+    "skills": [
+     "plain-language drafting",
+     "policy gap analysis",
+     "Microsoft Word",
+     "Adobe Acrobat"
+    ]
+   }
+  ],
+  "how_i_work": "I read the rules myself, then write. An engagement starts with your operations, moves to a gap list against the applicable requirements, and ends with documents your team can use without legal training.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_c.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Project Manager",
+  "credentials": [
+   "Project Management Professional (PMI)"
+  ],
+  "years_experience": 14,
+  "about_headline": "Senior project manager delivering fit-out, relocation and events projects across Singapore.",
+  "about_bio": "I am a senior project manager with 14 years of hands-on delivery across Singapore's built environment and events sectors. I began as a project coordinator with a Singapore-based main contractor's projects team, then led the delivery function at a Singapore-based exhibition organiser's operations division, and later headed facilities programmes for a Singapore-based hospitality group. I hold a project and facilities management degree from the National University of Singapore. I now work independently, running fit-out and event projects directly for SME clients islandwide.",
+  "services": [
+   {
+    "service_title": "Project management for refurbishment, relocation and events",
+    "service_detail": "For small and mid-sized Singapore businesses running refurbishment, relocation or event projects without an in-house delivery lead. Services include preparing master schedules and budgets, procuring and coordinating contractors and vendors, running site and progress meetings, managing handover and defect lists, and issuing weekly cost reports. One project per engagement."
+   }
+  ],
+  "achievements": [
+   "Handed over a 9,000 sq ft boutique hotel refurbishment one week ahead of schedule.",
+   "Relocated a 60-staff precision engineering SME to Tuas with zero production downtime.",
+   "Ran a three-day trade exhibition for 12,000 visitors with 180 exhibitor booths.",
+   "Closed 142 defect items within eight weeks across four shophouse office projects.",
+   "Prepared tender documents for a school's S$2.1 million renovation, drawing nine bids."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Planning",
+    "skills": [
+     "Microsoft Project",
+     "Primavera P6",
+     "Smartsheet",
+     "Excel dashboards"
+    ]
+   },
+   {
+    "category": "Methods and standards",
+    "skills": [
+     "PRINCE2",
+     "BCA CONQUAS",
+     "WSH (Construction) Regulations",
+     "earned value tracking"
+    ]
+   }
+  ],
+  "how_i_work": "I take the brief directly, build the programme myself, walk the site or venue weekly, keep one shared tracker visible to all, flag risks early in writing, and hand over clean records the client can keep using.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_d.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Data Privacy and Protection Specialist",
+  "credentials": [
+   "Certified Information Privacy Professional/Asia (CIPP/A)",
+   "Certified Information Privacy Manager (CIPM)"
+  ],
+  "years_experience": 13,
+  "about_headline": "Data privacy specialist building and running PDPA compliance programmes for Singapore healthcare organisations.",
+  "about_bio": "I am an independent data privacy specialist with 13 years in Singapore healthcare privacy. I led the privacy function of a Singapore-based private hospital group's clinical governance team, before that a data protection executive in a Singapore-based medical laboratory's quality team, and earlier a policy officer in a Singapore-based public healthcare cluster's data office. I hold an LLB and an MSc in Health Informatics. I build privacy programmes hands-on and advise management on data risk.",
+  "services": [
+   {
+    "service_title": "Privacy Programme Setup for Small and Mid-Sized Businesses",
+    "service_detail": "For small and mid-sized Singapore businesses handling customer or employee records without a dedicated privacy function. Services include drafting privacy policies and consent notices, mapping data flows, setting up breach assessment steps, and training staff. Anchored to the PDPA and PDPC advisory guidelines; documents and processes only, not legal opinions."
+   }
+  ],
+  "achievements": [
+   "I drafted the privacy policies and consent forms for a 320-bed private hospital.",
+   "I built a breach response playbook covering 40 clinic sites in 3 months.",
+   "I implemented consent and records processes for a healthtech app serving 90,000 patients.",
+   "I prepared 26 DPIAs for a medical laboratory's new systems over two years."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Privacy frameworks",
+    "skills": [
+     "PDPA",
+     "PDPC advisory guidelines",
+     "Do Not Call provisions",
+     "Spam Control Act"
+    ]
+   },
+   {
+    "category": "Methods and artefacts",
+    "skills": [
+     "DPIA",
+     "data mapping",
+     "records of processing",
+     "consent notices",
+     "retention schedules",
+     "breach playbooks"
+    ]
+   }
+  ],
+  "how_i_work": "I start by sitting with your operations to see how records actually move, then draft the policies, forms and playbooks myself, and hand over working documents your team can maintain without me.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_e.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Data Breach Response Consultant",
+  "credentials": [
+   "Certified Information Privacy Professional/Asia (IAPP)",
+   "Certified Information Privacy Manager (IAPP)"
+  ],
+  "years_experience": 13,
+  "about_headline": "Data protection consultant focused on breach response and outsourced DPO work for Singapore SMEs.",
+  "about_bio": "I have spent 13 years in Singapore data protection, and I still do the drafting myself. I started in a Singapore-based bank's privacy operations team, then ran the data protection function at a regional healthcare group, and later worked as an outsourced DPO for clinics and schools. I now work as an independent data breach response consultant, holding a law degree from a local university, and I read PDPC enforcement decisions each quarter to keep my templates current.",
+  "services": [
+   {
+    "service_title": "Data breach response and remediation support",
+    "service_detail": "For small and mid-sized Singapore businesses that hold customer or patient records and need help when an incident happens. Services include running breach assessments, drafting PDPC notifications, preparing notices to affected individuals, containment and remediation plans, and post-incident review reports. I take on one active incident at a time."
+   }
+  ],
+  "achievements": [
+   "Handled a breach affecting 40,000 patient records, notifying PDPC within 3 days.",
+   "Cut repeat consent complaints by 60% across a 15-outlet retail chain in 6 months.",
+   "Drafted data-sharing agreements covering 3 vendor migrations for a fintech startup in 4 weeks.",
+   "Built a retention schedule spanning 12 record classes for a freight forwarding firm.",
+   "Trained 90 staff across 2 preschool operators on handling parent records."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Privacy practice",
+    "skills": [
+     "PDPA breach assessment",
+     "consent and notification drafting",
+     "data mapping",
+     "retention scheduling"
+    ]
+   },
+   {
+    "category": "Methods and standards",
+    "skills": [
+     "root cause analysis",
+     "incident tabletop exercises",
+     "ISO/IEC 27001 Annex A"
+    ]
+   }
+  ],
+  "how_i_work": "I join your team on-site or remotely: I assess the incident myself, draft every notification and report that leaves your office, and stay until the remediation plan is running and documented.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_f.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Food Safety and HACCP Consultant",
+  "credentials": [
+   "Member, Singapore Institute of Food Science and Technology (SIFST)",
+   "IRCA-certified ISO 22000 Lead Auditor"
+  ],
+  "years_experience": 12,
+  "about_headline": "Food safety specialist building HACCP systems, manuals and licence files for Singapore food businesses.",
+  "about_bio": "I have spent 12 years in food safety across Singapore's manufacturing and foodservice sectors. I am now an independent consultant. Earlier I led the quality assurance team of a Singapore-based frozen food manufacturer's central plant and ran the hygiene unit within a regional hospital group's catering department. I hold an MSc in Food Science and Technology from NUS. I draft the HACCP plans, manuals and audit files myself; hands-on document production is how I deliver.",
+  "services": [
+   {
+    "service_title": "HACCP System Build for Small Food Businesses",
+    "service_detail": "For small and mid-sized Singapore food manufacturers, caterers and central kitchens. Services include drafting HACCP plans and process flow diagrams, writing hygiene SOPs and monitoring records, preparing SFA licence applications, running internal pre-audit checks against the Singapore Food Regulations and SS 590. One premises or production line per engagement."
+   }
+  ],
+  "achievements": [
+   "Built a HACCP plan for a 60-seat restaurant group in 8 weeks.",
+   "Prepared the SFA licence file for a 3-outlet bakery in 5 weeks.",
+   "Cut a central kitchen's audit non-conformities from 14 to 2 in one cycle.",
+   "Drafted 22 SOPs for a 300-staff institutional caterer in 6 weeks.",
+   "Implemented daily monitoring logs for a 9-stall coffee shop operator in 2 weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Food safety methods",
+    "skills": [
+     "HACCP plan development",
+     "hazard and CCP analysis",
+     "monitoring log design",
+     "internal audit checklists",
+     "root cause analysis"
+    ]
+   },
+   {
+    "category": "Regulations and standards",
+    "skills": [
+     "Singapore Food Regulations",
+     "SS 590 HACCP",
+     "ISO 22000",
+     "SFA licensing requirements"
+    ]
+   },
+   {
+    "category": "Tools",
+    "skills": [
+     "Microsoft Word",
+     "Excel",
+     "Visio"
+    ]
+   }
+  ],
+  "how_i_work": "I visit the premises, walk the process with the supervisor, draft the manual and logs myself, then sit through the first internal check and fix the gaps before the regulator finds them.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_g.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Security Systems Engineer",
+  "credentials": [
+   "Physical Security Professional (ASIS International)"
+  ],
+  "years_experience": 16,
+  "about_headline": "Independent security systems engineer covering CCTV, door access and surveillance commissioning across Singapore.",
+  "about_bio": "I am an independent security systems engineer in Singapore with 16 years in the trade. I started in a Singapore-based systems integrator's security engineering team, then led the technical services team of a regional facilities management group based here. I hold a Bachelor of Engineering in electrical and electronic engineering from a local university. My work is hands-on: I design, configure and commission the systems myself, from first site survey to final handover.",
+  "services": [
+   {
+    "service_title": "CCTV and Access Control System Delivery",
+    "service_detail": "For small and mid-sized Singapore businesses such as warehouses, schools and clinics needing surveillance and door access. Services include camera coverage plans, recorder and controller configuration, cabling supervision, commissioning with acceptance testing, and notice signage and retention settings per PDPC advisories. I do not take on cybersecurity engagements."
+   }
+  ],
+  "achievements": [
+   "Commissioned 140 IP cameras across a five-storey warehouse in eight weeks.",
+   "Retrofitted door access for a 60-unit clinic chain without disrupting evening consultations.",
+   "Cut camera downtime 45% at a school campus by rebuilding its recording network.",
+   "Installed 96-camera surveillance at a new community club and trained its estate staff.",
+   "Reduced false alarms 70% for a manufacturing plant by repositioning 24 motion sensors."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Video systems",
+    "skills": [
+     "IP camera commissioning",
+     "NVR and VMS configuration",
+     "ONVIF interoperability",
+     "H.265 streaming"
+    ]
+   },
+   {
+    "category": "Access control",
+    "skills": [
+     "door controller setup",
+     "biometric and card enrolment",
+     "PoE (IEEE 802.3at) power budgeting"
+    ]
+   },
+   {
+    "category": "Methods",
+    "skills": [
+     "coverage mapping",
+     "acceptance testing",
+     "as-built documentation"
+    ]
+   }
+  ],
+  "how_i_work": "I run each job from survey to handover myself: I map coverage on paper first, agree the plan with the owner's management, then configure and test every unit before sign-off.",
+  "availability": null,
+  "rate": null
+ },
+ {
+  "source_file": "glm-provider__05_h.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Financial Services Compliance Writer",
+  "credentials": [
+   "Certified Anti-Money Laundering Specialist (ACAMS)",
+   "ICA Diploma in Governance, Risk and Compliance (International Compliance Association)"
+  ],
+  "years_experience": 12,
+  "about_headline": "Compliance writer turning MAS requirements into plain-language guides for small licensed businesses.",
+  "about_bio": "I have spent 12 years in Singapore financial services compliance. I began as an AML analyst in a Singapore-based retail bank's operations team, then joined a licensed payments firm's compliance function and eventually led it. I hold a law degree from NUS and the ICA compliance diploma. I now work independently as a regulatory writer, advising management teams at small licensees on what regulators expect and personally drafting the policies, procedures, checklists and training they need.",
+  "services": [
+   {
+    "service_title": "MAS Compliance Documentation for Small Licensees",
+    "service_detail": "For small and mid-sized licensed financial businesses in Singapore — money-changers, remittance agents and payment providers. Services include reviewing MAS notices and guidelines, drafting a plain-language compliance manual, building a staff self-assessment checklist, preparing regulator correspondence, and training frontline teams. I do not provide audit or legal sign-off."
+   }
+  ],
+  "achievements": [
+   "Drafted a 40-page AML manual for a licensed payments startup in six weeks.",
+   "Produced 24 monthly regulatory updates for a retail bank's branch network.",
+   "Trained 120 money-changer staff across 30 counters within one month.",
+   "Built a self-assessment checklist adopted by a 60-member precious metals association."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Regulatory frameworks",
+    "skills": [
+     "MAS Notice 626",
+     "Payment Services Act 2019",
+     "FATF Recommendations",
+     "risk-based customer due diligence"
+    ]
+   },
+   {
+    "category": "Documentation",
+    "skills": [
+     "Microsoft Word",
+     "Microsoft Excel",
+     "Adobe Acrobat",
+     "plain-language editing",
+     "process mapping"
+    ]
+   }
+  ],
+  "how_i_work": "I read the source rules myself, map them against what a small operator actually does, then draft the manual, checklist and training in language staff can follow, and walk the team through each requirement.",
+  "availability": null,
+  "rate": null
+ }
+]
