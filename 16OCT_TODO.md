@@ -4,6 +4,13 @@ Notes from the review of the GLM trial (200 gigs, 1,348 of 1,600 providers commi
 Claude base set (100 gigs, 800 providers), and of how `labeller/grade_pairs.py` turns logprobs into grades.
 Numbers are from `data/output/glm_trial/` and `data/manifests/gig_grades.jsonl` on `new-grader-oct03`.
 
+> **Caveat (as of writing).** The Qwen grading of the GLM pairs has not been done: the committed grade log holds
+> only the pilot's 41 GLM pairs. Everything below about GLM is about the text, not its grades. Once the 1,600 pairs
+> are graded we will see the grade distribution (how close Qwen lands to each provider's target grade, and how
+> many pairs are low-confidence), and the grading decisions in section 5 and the order of work should be
+> revisited then. Sections 3 and 4 change the GLM text, so grades made before the mend (section 6) are stale for
+> any record it touches.
+
 ## 1. Linguistic rigidity: what we found
 
 **Both sets are repetitive in their wording, and that is mostly fine.** The client's own 30 gigs mostly open
@@ -107,6 +114,20 @@ clipped into the grade's range. Figures are from the 841 v5 pairs in the log.
   Do not drop the written score entirely; that adds ties.
 - Keep trusting the band over the second decimal, as the README says.
 
+### Open item: a grader variant for the other scoring type
+
+The latest grader (`grade_pairs.py`, rubric v5) produces one fixed pairing: an ordinal grade by argmax and a
+continuous score by the band-weighted expectation with the model's written number mixed in. The other cells of the
+table are not built: an ordinal grade from the expectation, a continuous score from the pure expectation of the
+band probabilities, and a continuous score from the written number alone.
+
+- [ ] Build the missing variants as options of `grade_pairs.py` (a `--scoring` flag recorded in the log next to
+      `prompt_version`, so runs stay separable), changing only how `grade_probs` is turned into the output.
+- [ ] Grade-test them on the client's 30 gold gigs (`gold.json`) and on the GLM pairs once those are graded: ranking
+      quality (NDCG, Spearman within gig), pooled Spearman across gigs, tie counts, and agreement with each
+      provider's target grade.
+- [ ] Choose after seeing the GLM grade distribution; the leaning above is not a decision.
+
 ### Pending analysis (not run yet)
 
 - [ ] **Calibration against `labeller/experiments/gold.json`** (the client's 30 gigs, ordinal 0 to 3): reliability
@@ -118,3 +139,41 @@ clipped into the grade's range. Figures are from the 841 v5 pairs in the log.
       789 of 900) is over-chosen.
 - [ ] Re-grade the GLM pairs with the chosen rule once the run is committed, and report the target-against-Qwen table
       under both rules.
+
+## 6. Temporary mending script for the existing GLM samples
+
+The 200 gigs and the 1,600 providers took days to generate and should not be thrown away. Once the prompt changes in
+section 3 and the dash rules in section 4 are implemented, a throwaway script brings the existing records in line
+with them without regenerating from scratch.
+
+- [ ] **`glm/mend_tmp.py` (temporary; delete it once every record has been mended and verified).** Reads
+      `gigs_by_id.json` and `providers_by_file.json`, applies the fixes, and writes the mended files next to a
+      backup of the originals (`glm_trial/_pre_mend/`). Never edits a file in place without that backup.
+- [ ] **Fixes it applies:**
+      - em dashes and en dashes: the rule-based replacement from section 4;
+      - achievement verbs: for providers whose achievements all sit in one verb class, ask GLM to rewrite only the
+        opening verb phrase of the achievements that need it (same facts, same figures, same length band),
+        through the same try, validate and retry loop as `make._attempt`;
+      - anything else the updated `gig.md` and `provider.md` now require.
+- [ ] **Keep the design parameters.** The mended record must still match its row in `design.csv` /
+      `providers_design.csv`: sector and track (and so the tags), level and the implied seniority, mode, specificity,
+      the weeks in the "Engagement duration:" sentence, the word target (within the 15-word tolerance), the opening
+      style, and for providers the years inside the level's band, the route and the target grade, the schema's
+      field counts, and `availability` and `rate` null. Fixes touch wording only, never the work, the level, the
+      mode of the gig or the figures.
+- [ ] **Built-in validator for the fixes.** After each record is mended the script checks, and rolls back that
+      record to the original if a check fails:
+      - everything `glm/validate.py` already checks (schema, word counts, ordering, no company or person names,
+        no shared six-word run with the gig, no stock phrases);
+      - no em dash or en dash remains;
+      - the design parameters above are unchanged, compared field by field against the original record and its
+        design row;
+      - the verb mix is no longer a single class, and the changed text is otherwise close to the original (a
+        word-level diff under a set threshold), so the fix cannot rewrite the profile;
+      - an end report: records checked, mended, rolled back, and the list of rolled-back keys for a manual look.
+- [ ] **Review sample.** Print before and after for 20 to 30 mended records and read them (coherence at every cut,
+      no fragments).
+- [ ] **Re-grade.** Mended providers (and gigs) get graded after the mend, not before. Grades on the old text are
+      stale for those records.
+- [ ] **Delete `glm/mend_tmp.py`** and the `_pre_mend/` backup once the mended files are committed and the report
+      is clean. The generator keeps the updated prompts and validator, so new batches need no mending.
