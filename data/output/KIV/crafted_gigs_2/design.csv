@@ -1,0 +1,101 @@
+gig,source_file,domain,implied_seniority,mode_of_work,skill_specificity,words,weeks,hirer_notes
+C101,crafted-gig__101_pos-warehouse-sync.md,Infocomm Technology > Software and Applications,mid,execution,specific,65,3-4,yes
+C102,crafted-gig__102_cloud-cost-review.md,Infocomm Technology > Infrastructure,senior,advisory,specific,61,2,yes
+C103,crafted-gig__103_phishing-simulation.md,Infocomm Technology > Cyber Security,mid,mixed,specific,60,3,
+C104,crafted-gig__104_produce-demand-forecast.md,Infocomm Technology > Data and Artificial Intelligence,senior,mixed,specific,65,4-5,
+C105,crafted-gig__105_iso27001-policies.md,Infocomm Technology > Strategy and Governance,expert,mixed,specific,57,4-6,yes
+C106,crafted-gig__106_savings-app-interviews.md,Infocomm Technology > Product Development; Design > Design,mid,execution,specific,58,3,
+C107,crafted-gig__107_it-runbooks.md,Infocomm Technology > Operations and Support,mid,execution,generic,57,3,
+C108,crafted-gig__108_saas-pricing-playbook.md,Infocomm Technology > Sales and Marketing,senior,advisory,specific,62,3-4,yes
+C109,crafted-gig__109_chatbot-evaluation.md,Infocomm Technology > Data and Artificial Intelligence; Financial Services > Digital and Data Analytics,expert,mixed,specific,65,5-6,
+C110,crafted-gig__110_flutter-code-review.md,Infocomm Technology > Software and Applications,senior,advisory,specific,60,1-2,
+C111,crafted-gig__111_m365-hardening.md,Infocomm Technology > Cyber Security,mid,execution,specific,55,1-2,yes
+C112,crafted-gig__112_database-dr-design.md,Infocomm Technology > Infrastructure,expert,advisory,specific,66,3-4,
+C113,crafted-gig__113_bigquery-marketing-data.md,Infocomm Technology > Data and Artificial Intelligence,mid,execution,mixed,58,3-4,yes
+C114,crafted-gig__114_first-year-accounts.md,Accountancy > Financial Accounting,senior,execution,specific,58,3-4,
+C115,crafted-gig__115_print-job-costing.md,Accountancy > Management Accounting,senior,mixed,mixed,62,3,
+C116,crafted-gig__116_form-cs-computation.md,Accountancy > Tax,mid,execution,specific,64,2,yes
+C117,crafted-gig__117_franchise-royalty-aup.md,Accountancy > Assurance,senior,execution,specific,57,3-4,yes
+C118,crafted-gig__118_stock-discrepancy-forensics.md,Accountancy > Financial Forensics,expert,mixed,specific,60,4,
+C119,crafted-gig__119_scope3-screening.md,Accountancy > Sustainability Reporting and Assurance; Carbon Services and Trading > Advisory,senior,advisory,specific,62,3,
+C120,crafted-gig__120_payroll-internal-audit.md,Accountancy > Internal Audit,mid,advisory,specific,67,2-3,
+C121,crafted-gig__121_purchase-price-allocation.md,Accountancy > Business Valuation,expert,execution,specific,69,4-5,yes
+C122,crafted-gig__122_charity-risk-register.md,Accountancy > Enterprise Risk Management,senior,mixed,specific,59,3-4,
+C123,crafted-gig__123_sell-side-readiness.md,Accountancy > Mergers and Acquisitions,expert,mixed,specific,55,3-4,
+C124,crafted-gig__124_statement-of-affairs.md,Accountancy > Restructuring and Insolvency,expert,execution,specific,55,2,yes
+C125,crafted-gig__125_dental-clinic-layout.md,Built Environment > Architectural Consultancy and Design,senior,execution,specific,60,4,
+C126,crafted-gig__126_bim-clash-detection.md,Built Environment > Digital Delivery Management,mid,execution,specific,67,3,
+C127,crafted-gig__127_sprinkler-review.md,Built Environment > Engineering Consultancy and Design,expert,advisory,specific,62,1-2,yes
+C128,crafted-gig__128_pbu-installation-study.md,Built Environment > Construction Management (Production),senior,mixed,specific,57,3,
+C129,crafted-gig__129_ifm-tender-spec.md,Built Environment > Facilities Management,senior,execution,specific,66,3,
+C130,crafted-gig__130_schedule-risk-analysis.md,Built Environment > Project Management,expert,mixed,specific,67,2-3,
+C131,crafted-gig__131_aa-works-boq.md,Built Environment > Quantity Surveying,mid,execution,specific,57,2,
+C132,crafted-gig__132_restructuring-process.md,Human Resource > HR Business Partner,senior,advisory,specific,59,2,
+C133,crafted-gig__133_engagement-survey-analysis.md,Human Resource > Employee Experience and Relations,mid,advisory,generic,55,2,
+C134,crafted-gig__134_graduate-assessment.md,Human Resource > Talent Attraction,senior,mixed,mixed,58,4,yes
+C135,crafted-gig__135_engineer-career-ladder.md,Human Resource > Talent Management,senior,execution,specific,62,5-6,
+C136,crafted-gig__136_hris-data-cleanup.md,Human Resource > Operations and Technology,mid,execution,generic,61,2,
+C137,crafted-gig__137_telesales-commission.md,Human Resource > Performance and Rewards,senior,mixed,mixed,61,3-4,
+C138,crafted-gig__138_invoice-financing-product-paper.md,Financial Services > Product Solutioning and Management,senior,execution,specific,68,4,
+C139,crafted-gig__139_cdd-file-refresh.md,Financial Services > Operations,mid,execution,specific,67,4,
+C140,crafted-gig__140_complaints-handling-review.md,"Financial Services > Risk, Compliance and Legal",senior,advisory,specific,71,2-3,
+C141,crafted-gig__141_sustainability-linked-loan.md,Financial Services > Sustainability; Carbon Services and Trading > Advisory,expert,advisory,specific,64,3-4,yes
+C142,crafted-gig__142_execution-cost-analysis.md,Financial Services > Trading and Execution,senior,mixed,specific,67,3,
+C143,crafted-gig__143_optical-roster.md,Retail > Retail Operations,mid,execution,mixed,61,2,
+C144,crafted-gig__144_loyalty-economics.md,Retail > Marketing,senior,mixed,specific,63,3-4,
+C145,crafted-gig__145_brand-architecture.md,Retail > Brand Management,expert,advisory,specific,55,4-6,
+C146,crafted-gig__146_shopify-migration.md,Retail > E-Commerce (Omni-Channel),mid,execution,mixed,56,3,
+C147,crafted-gig__147_convenience-range-review.md,Retail > Merchandising,senior,mixed,specific,71,4,
+C148,crafted-gig__148_unity-frame-rate.md,Media > Game Technical Development,mid,execution,specific,60,3,yes
+C149,crafted-gig__149_podcast-audio-mix.md,Media > Content Post Production,mid,execution,generic,60,2-3,
+C150,crafted-gig__150_explainer-script.md,Media > Content Production and Management,mid,execution,mixed,74,2,
+C151,crafted-gig__151_distributor-agreement-review.md,Legal Services > Advisory and Advocacy,senior,advisory,specific,55,1-2,
+C152,crafted-gig__152_app-terms-privacy.md,Legal Services > Advisory and Advocacy,mid,execution,mixed,65,1-2,
+C153,crafted-gig__153_mediation-position-paper.md,Legal Services > Advisory and Advocacy,expert,mixed,specific,61,2,yes
+C154,crafted-gig__154_home-falls-checklist.md,Healthcare > Occupational Therapy,senior,mixed,specific,60,3,yes
+C155,crafted-gig__155_dispensary-sop.md,Healthcare > Pharmacy Support,mid,execution,specific,61,2,
+C156,crafted-gig__156_senior-centre-referrals.md,Healthcare > Community Care,mid,advisory,specific,58,3,
+C157,crafted-gig__157_design-sprint.md,Design > Innovation,senior,mixed,specific,55,2,
+C158,crafted-gig__158_figma-design-system.md,Design > Technology; Infocomm Technology > Software and Applications,mid,execution,mixed,60,4,
+C159,crafted-gig__159_sauce-labels.md,Design > Design,mid,execution,specific,56,3,
+C160,crafted-gig__160_van-routing.md,Logistics > Transportation Management and Operations,senior,mixed,specific,62,4,
+C161,crafted-gig__161_returns-process.md,Logistics > Logistics Process Improvement and Information System,senior,mixed,mixed,62,3-4,
+C162,crafted-gig__162_electricity-retail-plans.md,Energy and Power > Energy Retail,senior,advisory,specific,67,2,
+C163,crafted-gig__163_switchboard-thermography.md,Energy and Power > Electricity Transmission and Distribution,mid,execution,specific,57,1,yes
+C164,crafted-gig__164_case-record-review.md,Social Service > Social Work,senior,advisory,specific,59,3,
+C165,crafted-gig__165_caregiver-group.md,Social Service > Counselling,mid,mixed,specific,62,4,
+C166,crafted-gig__166_incentive-trip-itinerary.md,Tourism > Travel Management and Operations,mid,execution,mixed,58,2,
+C167,crafted-gig__167_festival-sponsorship.md,"Tourism > Business Development, Sales, Sponsorships and Marketing",senior,execution,mixed,60,3,
+C168,crafted-gig__168_risk-assessment-review.md,Workplace Safety and Health > Corporate,expert,advisory,specific,56,2-3,
+C169,crafted-gig__169_confined-space-procedure.md,Workplace Safety and Health > Operational Control; Food Manufacturing > Quality Assurance and Control,mid,execution,specific,64,3,yes
+C170,crafted-gig__170_seafood-market-sizing.md,"Wholesale Trade > Marketing, Business Development and Analysis",senior,mixed,mixed,57,4,
+C171,crafted-gig__171_distributor-rebates.md,Wholesale Trade > Trading and Sales,senior,advisory,mixed,59,3,
+C172,crafted-gig__172_manpower-survey.md,Trade Associations and Chambers > Research,mid,execution,generic,62,6,
+C173,crafted-gig__173_membership-tiers.md,Trade Associations and Chambers > Membership,senior,advisory,mixed,56,4,
+C174,crafted-gig__174_parent-coaching.md,Early Childhood > Early Intervention,mid,execution,specific,60,4,
+C175,crafted-gig__175_preschool-inclusion-review.md,Early Childhood > Learning Support,senior,advisory,specific,56,3,
+C176,crafted-gig__176_specialty-tea-menu.md,Food Services > Beverage Service,mid,mixed,specific,63,3,yes
+C177,crafted-gig__177_foh-service-standards.md,Food Services > Food and Beverage Service,mid,execution,generic,63,3,
+C178,crafted-gig__178_bus-roster-review.md,Public Transport > Bus Operations; Logistics > Transportation Management and Operations,senior,advisory,specific,66,3,
+C179,crafted-gig__179_energy-savings-model.md,Engineering Services > Project Financing,expert,execution,specific,60,3-4,yes
+C180,crafted-gig__180_yard-crane-utilisation.md,Sea Transport > Port,senior,mixed,specific,57,3,
+C181,crafted-gig__181_post-orders.md,Security > Private Security,mid,execution,specific,64,3,
+C182,crafted-gig__182_mall-security-review.md,Security > Security Consultancy,expert,advisory,specific,56,2-3,
+C183,crafted-gig__183_delay-service-recovery.md,Air Transport > Passenger Services,senior,mixed,specific,69,3,
+C184,crafted-gig__184_vertical-farm-nutrients.md,Agrifood > Agriculture,senior,advisory,specific,56,3,
+C185,crafted-gig__185_low-sugar-kaya.md,Food Manufacturing > Research and Development,senior,execution,specific,60,6,
+C186,crafted-gig__186_first-article-inspection.md,Aerospace > Manufacturing,mid,execution,specific,62,2,yes
+C187,crafted-gig__187_wps-review.md,Marine and Offshore > Production Engineering,expert,advisory,specific,66,2,
+C188,crafted-gig__188_machining-quote-model.md,Precision Engineering > Management,senior,mixed,specific,59,4,
+C189,crafted-gig__189_rooftop-edible-garden.md,Landscape > Landscape Design,mid,execution,specific,56,3,
+C190,crafted-gig__190_deviation-capa.md,BioPharmaceuticals Manufacturing > Production,expert,execution,specific,56,5,yes
+C191,crafted-gig__191_gc-method-validation.md,Energy and Chemicals > Quality Assurance and Quality Control (QA&QC),senior,execution,specific,63,4,yes
+C192,crafted-gig__192_housekeeping-productivity.md,Hotel and Accommodation Services > Housekeeping,senior,mixed,specific,63,3,
+C193,crafted-gig__193_food-waste-carbon-credits.md,Carbon Services and Trading > Carbon Project Development; Environmental Services > Waste Collection,expert,advisory,specific,63,4,
+C194,crafted-gig__194_npi-handover.md,Electronics > Management,senior,mixed,specific,60,5,
+C195,crafted-gig__195_waste-collection-routes.md,Environmental Services > Waste Collection,mid,advisory,specific,60,3,
+C196,crafted-gig__196_patent-landscape.md,Intellectual Property > IP Strategy,expert,mixed,specific,63,4,
+C197,crafted-gig__197_musical-sound-design.md,Arts > Technical Theatre & Production,mid,execution,specific,58,5,yes
+C198,crafted-gig__198_elearning-conversion.md,Training and Adult Education > Learning Management,mid,execution,mixed,68,5-6,
+C199,crafted-gig__199_interview-transcripts.md,(none),mid,execution,generic,68,2,yes
+C200,crafted-gig__200_competitor-price-list.md,(none),mid,execution,generic,55,1,
