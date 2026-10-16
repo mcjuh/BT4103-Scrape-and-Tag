@@ -121,9 +121,9 @@ def write_outputs(gig_rows, prov_rows, gigs, provs) -> None:
         if g["gig"] not in gigs:
             continue
         for p in prov_rows[g["gig"]]:
-            rec = provs.get(p["provider"])
+            rec = provs.get(p["provider"]) or next((v for v in provs.values() if v.get("replaces") == p["provider"]), None)
             if rec:
-                providers.append(rec)
+                providers.append({k: v for k, v in rec.items() if k != "replaces"})
                 pairs.setdefault(gigs[g["gig"]]["source_file"], []).append(rec["source_file"])
     save_json(OUT / "hirers.json", hirers)
     save_json(OUT / "providers.json", providers)

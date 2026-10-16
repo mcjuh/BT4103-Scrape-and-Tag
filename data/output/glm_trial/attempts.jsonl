@@ -1820,3 +1820,298 @@
 {"time": "2026-10-15T21:45:07", "kind": "provider", "key": "glm-provider__184_c.md", "tries": 2, "ok": true, "errors": []}
 {"time": "2026-10-15T21:47:19", "kind": "provider", "key": "glm-provider__184_b.md", "tries": 2, "ok": true, "errors": []}
 {"time": "2026-10-15T21:47:23", "kind": "provider", "key": "glm-provider__184_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T21:50:29", "kind": "provider", "key": "glm-provider__184_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T21:51:15", "kind": "provider", "key": "glm-provider__185_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T21:52:48", "kind": "provider", "key": "glm-provider__184_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T21:54:14", "kind": "provider", "key": "glm-provider__185_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T21:54:36", "kind": "provider", "key": "glm-provider__185_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T21:56:29", "kind": "provider", "key": "glm-provider__185_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T21:57:37", "kind": "provider", "key": "glm-provider__185_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T21:59:05", "kind": "provider", "key": "glm-provider__185_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T21:59:39", "kind": "provider", "key": "glm-provider__184_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:00:46", "kind": "provider", "key": "glm-provider__186_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:07:31", "kind": "provider", "key": "glm-provider__186_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:07:37", "kind": "provider", "key": "glm-provider__185_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:09:01", "kind": "provider", "key": "glm-provider__185_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:09:52", "kind": "provider", "key": "glm-provider__186_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:11:11", "kind": "provider", "key": "glm-provider__187_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:14:09", "kind": "provider", "key": "glm-provider__186_a.md", "tries": 3, "ok": false, "errors": ["RuntimeError: GLM call failed after 4 tries: APIConnectionError: Connection error."]}
+{"time": "2026-10-15T22:14:23", "kind": "provider", "key": "glm-provider__186_c.md", "tries": 3, "ok": false, "errors": ["RuntimeError: GLM call failed after 4 tries: APIConnectionError: Connection error."]}
+{"time": "2026-10-15T22:17:43", "kind": "provider", "key": "glm-provider__187_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:20:28", "kind": "provider", "key": "glm-provider__186_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:23:18", "kind": "provider", "key": "glm-provider__187_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:27:44", "kind": "provider", "key": "glm-provider__187_f.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:27:45", "kind": "provider", "key": "glm-provider__186_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:28:25", "kind": "provider", "key": "glm-provider__186_f.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a contract laboratory's paper-to-digital records mig\""]}
+{"time": "2026-10-15T22:29:46", "kind": "provider", "key": "glm-provider__187_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:29:57", "kind": "provider", "key": "glm-provider__188_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:30:26", "kind": "provider", "key": "glm-provider__187_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T22:32:23", "kind": "provider", "key": "glm-provider__188_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:35:46", "kind": "provider", "key": "glm-provider__188_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:36:29", "kind": "provider", "key": "glm-provider__188_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:36:57", "kind": "provider", "key": "glm-provider__187_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:38:50", "kind": "provider", "key": "glm-provider__188_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:38:54", "kind": "provider", "key": "glm-provider__187_c.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Prepared the workscope that returned a grounded business jet\"", "achievement without a figure: \"Reviewed life-limited part records for a six-helicopter flee\""]}
+{"time": "2026-10-15T22:43:25", "kind": "provider", "key": "glm-provider__188_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:43:40", "kind": "provider", "key": "glm-provider__189_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:45:32", "kind": "provider", "key": "glm-provider__188_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:48:54", "kind": "provider", "key": "glm-provider__188_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:49:11", "kind": "provider", "key": "glm-provider__189_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:49:47", "kind": "provider", "key": "glm-provider__189_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:51:01", "kind": "provider", "key": "glm-provider__189_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T22:53:10", "kind": "provider", "key": "glm-provider__190_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:53:54", "kind": "provider", "key": "glm-provider__190_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:54:57", "kind": "provider", "key": "glm-provider__189_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Diagnosed floor overloading at a bakery and sequenced remedi\""]}
+{"time": "2026-10-15T22:55:23", "kind": "provider", "key": "glm-provider__189_c.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Won SCDF approval for a mall events deck in four weeks.\""]}
+{"time": "2026-10-15T22:56:15", "kind": "provider", "key": "glm-provider__190_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:57:38", "kind": "provider", "key": "glm-provider__190_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:57:45", "kind": "provider", "key": "glm-provider__190_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:59:04", "kind": "provider", "key": "glm-provider__190_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T22:59:31", "kind": "provider", "key": "glm-provider__190_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:03:00", "kind": "provider", "key": "glm-provider__189_g.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Delivered go-live testing for a government portal within an \""]}
+{"time": "2026-10-15T23:04:02", "kind": "provider", "key": "glm-provider__191_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:04:11", "kind": "provider", "key": "glm-provider__191_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:04:31", "kind": "provider", "key": "glm-provider__189_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:06:32", "kind": "provider", "key": "glm-provider__191_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:09:13", "kind": "provider", "key": "glm-provider__191_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:11:24", "kind": "provider", "key": "glm-provider__191_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:14:19", "kind": "provider", "key": "glm-provider__191_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:14:21", "kind": "provider", "key": "glm-provider__190_h.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T23:14:54", "kind": "provider", "key": "glm-provider__191_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:16:02", "kind": "provider", "key": "glm-provider__192_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:16:24", "kind": "provider", "key": "glm-provider__192_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:18:11", "kind": "provider", "key": "glm-provider__192_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:19:18", "kind": "provider", "key": "glm-provider__192_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:21:07", "kind": "provider", "key": "glm-provider__192_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:22:05", "kind": "provider", "key": "glm-provider__192_a.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Built a standard costing model for a medical device workshop\""]}
+{"time": "2026-10-15T23:25:08", "kind": "provider", "key": "glm-provider__193_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:26:16", "kind": "provider", "key": "glm-provider__193_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:26:54", "kind": "provider", "key": "glm-provider__192_f.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-15T23:27:45", "kind": "provider", "key": "glm-provider__192_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:28:49", "kind": "provider", "key": "glm-provider__193_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:30:29", "kind": "provider", "key": "glm-provider__193_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:32:22", "kind": "provider", "key": "glm-provider__194_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:32:58", "kind": "provider", "key": "glm-provider__193_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:34:42", "kind": "provider", "key": "glm-provider__191_g.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a medtech startup's cleanroom qualification to compl\""]}
+{"time": "2026-10-15T23:35:57", "kind": "provider", "key": "glm-provider__193_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:37:19", "kind": "provider", "key": "glm-provider__194_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:38:20", "kind": "provider", "key": "glm-provider__193_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:40:17", "kind": "provider", "key": "glm-provider__194_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:42:20", "kind": "provider", "key": "glm-provider__194_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:42:52", "kind": "provider", "key": "glm-provider__194_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:45:08", "kind": "provider", "key": "glm-provider__195_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:45:16", "kind": "provider", "key": "glm-provider__194_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:47:31", "kind": "provider", "key": "glm-provider__194_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-15T23:47:41", "kind": "provider", "key": "glm-provider__193_h.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Cut infection-surveillance reporting prep from five days to \""]}
+{"time": "2026-10-15T23:47:47", "kind": "provider", "key": "glm-provider__195_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:52:08", "kind": "provider", "key": "glm-provider__195_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:53:36", "kind": "provider", "key": "glm-provider__195_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-15T23:53:47", "kind": "provider", "key": "glm-provider__195_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:27:47", "kind": "provider", "key": "glm-provider__68_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:29:43", "kind": "provider", "key": "glm-provider__50_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:32:30", "kind": "provider", "key": "glm-provider__85_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:32:41", "kind": "provider", "key": "glm-provider__85_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T02:33:31", "kind": "provider", "key": "glm-provider__50_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T02:34:06", "kind": "provider", "key": "glm-provider__74_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a beverage startup on claims, keeping regulator reje\"", "achievement without a figure: \"Steered an importer through SFA review of eight consignment \""]}
+{"time": "2026-10-16T02:34:11", "kind": "provider", "key": "glm-provider__47_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:35:40", "kind": "provider", "key": "glm-provider__61_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T02:38:08", "kind": "provider", "key": "glm-provider__86_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:41:03", "kind": "provider", "key": "glm-provider__91_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:42:38", "kind": "provider", "key": "glm-provider__74_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a listed generic medicines maker on a licence variat\""]}
+{"time": "2026-10-16T02:42:46", "kind": "provider", "key": "glm-provider__88_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:44:48", "kind": "provider", "key": "glm-provider__80_g.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a remittance startup to Major Payment Institution st\"", "achievement without a figure: \"Guided a licensed money-changer through a MAS on-site review\"", "achievement without a figure: \"Advised a payment gateway on clearing a two-year compliance \""]}
+{"time": "2026-10-16T02:46:24", "kind": "provider", "key": "glm-provider__91_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T02:47:39", "kind": "provider", "key": "glm-provider__89_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T02:50:48", "kind": "provider", "key": "glm-provider__85_g.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a clinical-stage biotech on its first licence, grant\""]}
+{"time": "2026-10-16T02:53:50", "kind": "provider", "key": "glm-provider__93_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T02:54:04", "kind": "provider", "key": "glm-provider__94_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T02:58:06", "kind": "provider", "key": "glm-provider__90_h.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T02:58:08", "kind": "provider", "key": "glm-provider__91_d.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Recommended traceability fixes that cut a seafood exporter's\""]}
+{"time": "2026-10-16T02:59:48", "kind": "provider", "key": "glm-provider__93_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:01:49", "kind": "provider", "key": "glm-provider__96_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a new private school through full CPE registration w\"", "achievement without a figure: \"Steered a single-centre training provider to its first EduTr\""]}
+{"time": "2026-10-16T03:01:57", "kind": "provider", "key": "glm-provider__99_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:03:40", "kind": "provider", "key": "glm-provider__98_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:04:08", "kind": "provider", "key": "glm-provider__90_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T03:04:29", "kind": "provider", "key": "glm-provider__102_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:05:14", "kind": "provider", "key": "glm-provider__103_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:09:22", "kind": "provider", "key": "glm-provider__110_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:11:38", "kind": "provider", "key": "glm-provider__103_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:12:58", "kind": "provider", "key": "glm-provider__110_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:14:37", "kind": "provider", "key": "glm-provider__110_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:16:18", "kind": "provider", "key": "glm-provider__93_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Built a battery-hybrid ferry retrofit safety case that clear\"", "achievement without a figure: \"Prepared a crew transfer vessel conversion study that passed\""]}
+{"time": "2026-10-16T03:16:44", "kind": "provider", "key": "glm-provider__105_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T03:20:11", "kind": "provider", "key": "glm-provider__111_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:21:06", "kind": "provider", "key": "glm-provider__111_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:21:23", "kind": "provider", "key": "glm-provider__108_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T03:22:54", "kind": "provider", "key": "glm-provider__110_h.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a private school's board on enrolment trends across \"", "achievement without a figure: \"Ran the analysis behind a dental group's decision to consoli\""]}
+{"time": "2026-10-16T03:24:07", "kind": "provider", "key": "glm-provider__115_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:26:21", "kind": "provider", "key": "glm-provider__113_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:28:07", "kind": "provider", "key": "glm-provider__113_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:29:37", "kind": "provider", "key": "glm-provider__114_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:30:00", "kind": "provider", "key": "glm-provider__121_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:30:46", "kind": "provider", "key": "glm-provider__111_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:32:12", "kind": "provider", "key": "glm-provider__113_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:34:05", "kind": "provider", "key": "glm-provider__130_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:34:44", "kind": "provider", "key": "glm-provider__118_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:35:35", "kind": "provider", "key": "glm-provider__130_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:36:31", "kind": "provider", "key": "glm-provider__121_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Obtained HSA clearance for a local startup's Class B device \""]}
+{"time": "2026-10-16T03:38:23", "kind": "provider", "key": "glm-provider__133_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:39:56", "kind": "provider", "key": "glm-provider__132_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:40:43", "kind": "provider", "key": "glm-provider__123_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:44:29", "kind": "provider", "key": "glm-provider__134_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:45:47", "kind": "provider", "key": "glm-provider__128_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T03:45:59", "kind": "provider", "key": "glm-provider__131_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:46:31", "kind": "provider", "key": "glm-provider__119_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:47:55", "kind": "provider", "key": "glm-provider__133_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:48:56", "kind": "provider", "key": "glm-provider__134_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:50:41", "kind": "provider", "key": "glm-provider__133_h.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Drafted a sensory garden plan for a childcare centre within \""]}
+{"time": "2026-10-16T03:52:00", "kind": "provider", "key": "glm-provider__134_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:52:58", "kind": "provider", "key": "glm-provider__134_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:52:59", "kind": "provider", "key": "glm-provider__134_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:53:14", "kind": "provider", "key": "glm-provider__139_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:54:29", "kind": "provider", "key": "glm-provider__141_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T03:57:26", "kind": "provider", "key": "glm-provider__139_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:58:24", "kind": "provider", "key": "glm-provider__142_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T03:59:57", "kind": "provider", "key": "glm-provider__134_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Reduced audit evidence preparation from six weeks to ten day\""]}
+{"time": "2026-10-16T04:02:00", "kind": "provider", "key": "glm-provider__143_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:02:28", "kind": "provider", "key": "glm-provider__148_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:03:40", "kind": "provider", "key": "glm-provider__138_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:09:02", "kind": "provider", "key": "glm-provider__145_f.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T04:09:18", "kind": "provider", "key": "glm-provider__148_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Prepared a major payment institution licence application app\""]}
+{"time": "2026-10-16T04:12:48", "kind": "provider", "key": "glm-provider__144_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a beverage startup's SFA licence application to appr\"", "achievement without a figure: \"Recommended HACCP controls for a restaurant group's four cen\""]}
+{"time": "2026-10-16T04:13:02", "kind": "provider", "key": "glm-provider__149_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T04:13:28", "kind": "provider", "key": "glm-provider__141_d.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Filed a lapsed renewal that restored a single-centre owner's\""]}
+{"time": "2026-10-16T04:15:11", "kind": "provider", "key": "glm-provider__151_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:16:00", "kind": "provider", "key": "glm-provider__149_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T04:17:48", "kind": "provider", "key": "glm-provider__151_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:17:54", "kind": "provider", "key": "glm-provider__151_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:19:13", "kind": "provider", "key": "glm-provider__152_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:19:13", "kind": "provider", "key": "glm-provider__151_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Implemented a monthly close for a hospice, cutting reporting\"", "achievement without a figure: \"Advised a sports association's council through a regulator q\"", "achievement without a figure: \"Prepared Charities Accounting Standard statements for an art\""]}
+{"time": "2026-10-16T04:20:55", "kind": "provider", "key": "glm-provider__136_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T04:21:51", "kind": "provider", "key": "glm-provider__159_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:22:06", "kind": "provider", "key": "glm-provider__154_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:24:25", "kind": "provider", "key": "glm-provider__160_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:25:38", "kind": "provider", "key": "glm-provider__153_a.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Coached a five-member medical supplies sales team across fou\""]}
+{"time": "2026-10-16T04:31:00", "kind": "provider", "key": "glm-provider__160_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:31:11", "kind": "provider", "key": "glm-provider__152_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T04:32:04", "kind": "provider", "key": "glm-provider__167_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:33:00", "kind": "provider", "key": "glm-provider__160_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:34:18", "kind": "provider", "key": "glm-provider__161_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:35:33", "kind": "provider", "key": "glm-provider__154_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T04:36:24", "kind": "provider", "key": "glm-provider__168_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:37:50", "kind": "provider", "key": "glm-provider__169_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:38:37", "kind": "provider", "key": "glm-provider__169_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:40:02", "kind": "provider", "key": "glm-provider__168_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:41:03", "kind": "provider", "key": "glm-provider__169_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:44:48", "kind": "provider", "key": "glm-provider__171_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:46:28", "kind": "provider", "key": "glm-provider__169_f.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Built HACCP plans for a bakery's four production lines befor\"", "achievement without a figure: \"Advised a seafood processor's management on recall readiness\""]}
+{"time": "2026-10-16T04:46:29", "kind": "provider", "key": "glm-provider__165_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:49:42", "kind": "provider", "key": "glm-provider__177_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:51:04", "kind": "provider", "key": "glm-provider__172_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:52:09", "kind": "provider", "key": "glm-provider__172_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:52:37", "kind": "provider", "key": "glm-provider__176_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T04:54:47", "kind": "provider", "key": "glm-provider__158_e.md", "tries": 3, "ok": false, "errors": ["shares a run of six words with the gig; reword"]}
+{"time": "2026-10-16T04:56:17", "kind": "provider", "key": "glm-provider__168_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T04:59:09", "kind": "provider", "key": "glm-provider__183_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:03:14", "kind": "provider", "key": "glm-provider__173_g.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a licensed payment firm through remediation of MAS i\""]}
+{"time": "2026-10-16T05:03:56", "kind": "provider", "key": "glm-provider__183_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:04:24", "kind": "provider", "key": "glm-provider__178_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:05:19", "kind": "provider", "key": "glm-provider__173_c.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a hotel group's nine-person finance function through\""]}
+{"time": "2026-10-16T05:06:40", "kind": "provider", "key": "glm-provider__182_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:11:14", "kind": "provider", "key": "glm-provider__186_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:11:46", "kind": "provider", "key": "glm-provider__178_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Drafted the quality manual that won a start-up wholesaler it\"", "achievement without a figure: \"Advised a hospital pharmacy group through nine Health Scienc\""]}
+{"time": "2026-10-16T05:17:12", "kind": "provider", "key": "glm-provider__191_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:17:54", "kind": "provider", "key": "glm-provider__189_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:18:26", "kind": "provider", "key": "glm-provider__189_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T05:19:11", "kind": "provider", "key": "glm-provider__186_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:20:03", "kind": "provider", "key": "glm-provider__182_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Led a fatal incident inquiry for a marine shipyard, findings\"", "achievement without a figure: \"Steered a logistics operator through a Ministry of Manpower \""]}
+{"time": "2026-10-16T05:20:19", "kind": "provider", "key": "glm-provider__186_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:21:13", "kind": "provider", "key": "glm-provider__194_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:21:22", "kind": "provider", "key": "glm-provider__189_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Guided a bakery chain's SFA licence applications for three o\""]}
+{"time": "2026-10-16T05:22:18", "kind": "provider", "key": "glm-provider__187_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:23:56", "kind": "provider", "key": "glm-provider__195_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:26:36", "kind": "provider", "key": "glm-provider__193_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:26:44", "kind": "provider", "key": "glm-provider__195_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:28:15", "kind": "provider", "key": "glm-provider__195_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:30:09", "kind": "provider", "key": "glm-provider__195_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:30:53", "kind": "provider", "key": "glm-provider__196_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:30:59", "kind": "provider", "key": "glm-provider__195_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:31:12", "kind": "provider", "key": "glm-provider__192_a.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Recommended overhead rates that lifted a packaging plant's g\"", "achievement without a figure: \"Prepared quarterly cost variance reviews for an electronics \""]}
+{"time": "2026-10-16T05:32:24", "kind": "provider", "key": "glm-provider__196_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:33:16", "kind": "provider", "key": "glm-provider__196_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:33:51", "kind": "provider", "key": "glm-provider__195_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:35:15", "kind": "provider", "key": "glm-provider__196_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:36:34", "kind": "provider", "key": "glm-provider__196_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:37:53", "kind": "provider", "key": "glm-provider__197_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:39:08", "kind": "provider", "key": "glm-provider__197_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:40:35", "kind": "provider", "key": "glm-provider__195_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:41:35", "kind": "provider", "key": "glm-provider__197_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:41:37", "kind": "provider", "key": "glm-provider__197_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:41:48", "kind": "provider", "key": "glm-provider__196_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:43:09", "kind": "provider", "key": "glm-provider__196_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:43:50", "kind": "provider", "key": "glm-provider__197_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:44:30", "kind": "provider", "key": "glm-provider__196_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:51:19", "kind": "provider", "key": "glm-provider__197_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:51:31", "kind": "provider", "key": "glm-provider__198_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:52:18", "kind": "provider", "key": "glm-provider__194_f.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T05:53:52", "kind": "provider", "key": "glm-provider__197_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:57:35", "kind": "provider", "key": "glm-provider__198_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T05:59:05", "kind": "provider", "key": "glm-provider__198_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T05:59:53", "kind": "provider", "key": "glm-provider__198_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:01:28", "kind": "provider", "key": "glm-provider__198_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T06:01:36", "kind": "provider", "key": "glm-provider__197_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T06:02:06", "kind": "provider", "key": "glm-provider__198_a.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a telco's privacy-notice overhaul to full PDPA align\""]}
+{"time": "2026-10-16T06:02:42", "kind": "provider", "key": "glm-provider__198_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T06:02:47", "kind": "provider", "key": "glm-provider__198_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:03:43", "kind": "provider", "key": "glm-provider__199_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T06:06:19", "kind": "provider", "key": "glm-provider__199_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T06:06:43", "kind": "provider", "key": "glm-provider__199_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T06:08:05", "kind": "provider", "key": "glm-provider__199_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:09:20", "kind": "provider", "key": "glm-provider__199_f.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T06:10:15", "kind": "provider", "key": "glm-provider__199_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:10:37", "kind": "provider", "key": "glm-provider__199_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:13:36", "kind": "provider", "key": "glm-provider__199_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T06:16:08", "kind": "provider", "key": "glm-provider__200_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T06:17:47", "kind": "provider", "key": "glm-provider__200_f.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T06:18:33", "kind": "provider", "key": "glm-provider__200_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:19:24", "kind": "provider", "key": "glm-provider__200_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:20:12", "kind": "provider", "key": "glm-provider__200_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T06:20:21", "kind": "provider", "key": "glm-provider__200_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T06:20:33", "kind": "provider", "key": "glm-provider__200_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a welfare charity's conversion to company status, ap\"", "achievement without a figure: \"Steered an alumni society's amalgamation of three branches t\""]}
+{"time": "2026-10-16T06:26:47", "kind": "provider", "key": "glm-provider__200_g.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a five-doctor medical group on converting their part\"", "achievement without a figure: \"Recommended a pre-amalgamation governance review across a si\""]}
+{"time": "2026-10-16T15:53:06", "kind": "provider", "key": "glm-provider__110_h.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T15:55:52", "kind": "provider", "key": "glm-provider__80_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T15:57:25", "kind": "provider", "key": "glm-provider__85_g.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T15:58:43", "kind": "provider", "key": "glm-provider__74_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:00:53", "kind": "provider", "key": "glm-provider__91_d.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Reviewed traceability at a beverage bottler; mock-recall ret\""]}
+{"time": "2026-10-16T16:04:05", "kind": "provider", "key": "glm-provider__134_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:05:18", "kind": "provider", "key": "glm-provider__133_h.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:05:19", "kind": "provider", "key": "glm-provider__93_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:06:18", "kind": "provider", "key": "glm-provider__74_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised a generics manufacturer on an HSA licence variation \""]}
+{"time": "2026-10-16T16:09:08", "kind": "provider", "key": "glm-provider__96_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:10:01", "kind": "provider", "key": "glm-provider__121_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:10:23", "kind": "provider", "key": "glm-provider__151_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:11:05", "kind": "provider", "key": "glm-provider__144_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Steered a beverage manufacturer's SFA licence renewal to app\"", "achievement without a figure: \"Reviewed health claims for an online supplement seller, flag\"", "achievement without a figure: \"Guided a frozen food importer's suspension response, resumin\""]}
+{"time": "2026-10-16T16:14:58", "kind": "provider", "key": "glm-provider__141_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:15:21", "kind": "provider", "key": "glm-provider__173_g.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:16:04", "kind": "provider", "key": "glm-provider__169_f.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Guided a bakery group through SFA licence renewal across six\"", "achievement without a figure: \"Advised a cloud-kitchen operator on HACCP plans, clearing ce\""]}
+{"time": "2026-10-16T16:17:36", "kind": "provider", "key": "glm-provider__153_a.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Cut an office furniture dealer's proposal preparation time f\""]}
+{"time": "2026-10-16T16:18:54", "kind": "provider", "key": "glm-provider__148_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:21:09", "kind": "provider", "key": "glm-provider__173_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:22:34", "kind": "provider", "key": "glm-provider__192_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T16:25:59", "kind": "provider", "key": "glm-provider__198_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:27:18", "kind": "provider", "key": "glm-provider__158_e.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Drafted EUPG-aligned specification updates for a remittance \""]}
+{"time": "2026-10-16T16:30:11", "kind": "provider", "key": "glm-provider__189_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Prepared feasibility documentation for a cloud kitchen opera\""]}
+{"time": "2026-10-16T16:30:24", "kind": "provider", "key": "glm-provider__178_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Built the licence documentation for a pharmaceutical wholesa\"", "achievement without a figure: \"Advised a hospital group's pharmacies through inspection, cl\"", "achievement without a figure: \"Ran mock inspections for a medical device distributor, reduc\""]}
+{"time": "2026-10-16T16:31:03", "kind": "provider", "key": "glm-provider__200_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T16:36:53", "kind": "provider", "key": "glm-provider__200_g.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T16:36:56", "kind": "provider", "key": "glm-provider__182_e.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:51:02", "kind": "provider", "key": "glm-provider__189_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:52:00", "kind": "provider", "key": "glm-provider__91_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:55:11", "kind": "provider", "key": "glm-provider__144_e.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-16T16:56:18", "kind": "provider", "key": "glm-provider__153_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-16T16:56:28", "kind": "provider", "key": "glm-provider__169_f.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T16:56:42", "kind": "provider", "key": "glm-provider__178_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T17:10:49", "kind": "provider", "key": "glm-provider__74_b.md", "tries": 3, "ok": false, "errors": ["achievement without a figure: \"Advised an e-wallet operator on adding domestic money transf\"", "achievement without a figure: \"Recommended a merchant acquirer postpone its lending launch \"", "achievement without a figure: \"Steered a remittance company's upgrade to a major payment in\""]}
+{"time": "2026-10-16T17:11:16", "kind": "provider", "key": "glm-provider__158_e.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-16T17:30:54", "kind": "provider", "key": "glm-provider__74_b.md", "tries": 3, "ok": true, "errors": []}
