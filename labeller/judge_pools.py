@@ -24,7 +24,7 @@ mean the same thing across gigs.
 
 --prompt v2 (prompts/rubric_0_3_v2.md) also grades the practical terms -- budget vs
 rate, seniority, start date and days per week -- from the structured fields of the
-enriched import (hirers_enriched.csv / providers_enriched.csv). Those fields are
+enriched import (the enricher's fields in hirers.csv / providers.csv). Those fields are
 appended to the gig and profile text shown to the model.
 
 For a deadline: --order random grades gigs in a seeded random order, so a run

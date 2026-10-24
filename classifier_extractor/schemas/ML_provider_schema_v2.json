@@ -115,12 +115,41 @@
     "availability": {
       "type": ["string", "null"],
       "x-filled-by": "enricher",
-      "description": "Free text, e.g. \"Available from November 2026, 2 days a week.\""
+      "description": "Synthetic. Display text, e.g. \"Available from 14 Nov 2026, 2 days a week\"."
     },
     "rate": {
       "type": ["string", "null"],
       "x-filled-by": "enricher",
-      "description": "Free text, in S$, e.g. \"From S$3,000 per day.\""
+      "description": "Synthetic. Display text, e.g. \"S$150 per hour\"."
+    },
+    "rate_per_hour": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "x-filled-by": "enricher",
+      "description": "Synthetic. S$/hour, from the same rate_card.json band as gig budgets for the judged (seniority, price tier)."
+    },
+    "available_from": {
+      "type": ["string", "null"],
+      "pattern": "^(now|\\d{4}-\\d{2}-\\d{2})$",
+      "x-filled-by": "enricher",
+      "description": "Synthetic. \"now\" or an ISO date."
+    },
+    "capacity": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5,
+      "x-filled-by": "enricher",
+      "description": "Synthetic. Days per week."
+    },
+    "sector": {
+      "type": ["string", "null"],
+      "x-filled-by": "enricher",
+      "description": "SkillsFuture sector of the service (data/reference/skillsfuture/sector.csv)."
+    },
+    "track": {
+      "type": ["string", "null"],
+      "x-filled-by": "enricher",
+      "description": "SkillsFuture track listed under that sector (track.csv)."
     },
     "tags": { "$ref": "#/definitions/tags" }
   },
