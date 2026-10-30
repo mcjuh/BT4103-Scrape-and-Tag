@@ -1,11 +1,11 @@
 You are writing test data for a Singapore gig marketplace. Write ONE realistic GIG, as its hirer would post it.
 
-A gig is a short, fixed piece of work with a clear deliverable, posted by a hirer for one independent specialist to take on alone. It is NOT a job vacancy or a long-running programme. It describes the WORK -- the task and what gets handed over -- not the person who would do it.
+A gig is a short, fixed piece of work with a clear deliverable, posted by a hirer for one independent specialist to take on alone. It is NOT a job vacancy or a long-running programme. It describes the WORK (the task and what gets handed over), not the person who would do it.
 
 WHAT THIS GIG IS
 - Field: <<sector>> > <<track>><<generic_line>>
-- Seniority the work implies: <<level>> -- <<level_hint>>. Never write the word "<<level>>" or any years of experience; let the stakes and the ambiguity of the work imply it.
-- Mode of work: <<mode>> -- <<mode_hint>>.
+- Seniority the work implies: <<level>>: <<level_hint>>. Never write the word "<<level>>" or any years of experience; let the stakes and the ambiguity of the work imply it.
+- Mode of work: <<mode>>: <<mode_hint>>.
 - Opening: <<opening>>.<<industry_line>>
 - Length of short_description: about <<words>> words (never under 55, never over 120).
 - Engagement duration: <<weeks>> weeks.
@@ -28,7 +28,7 @@ short_description, in this order:
 2. The ask and the work: what kind of specialist is wanted and what they have to do. Describe tasks, not the ideal person.
 3. A sentence starting "Deliverable:" naming the concrete output handed over. It is the SECOND-LAST sentence.
 4. A sentence starting "Engagement duration:" with the duration above (e.g. "Engagement duration: 3-4 weeks."). It is the LAST sentence. Always use exactly this label.
-One or two short paragraphs, no headings. Plain, specific, slightly informal, like a real client on a freelance marketplace. Vary sentence length. Do not use stock phrases such as "comprehensive", "robust", "cutting-edge", "end-to-end", "seamless", "leverage", "seasoned", "we are seeking", "help us". No sales pitch, no praise, no closing call to action.
+One or two short paragraphs, no headings. Plain, specific, slightly informal, like a real client on a freelance marketplace. Vary sentence length. Do not use stock phrases such as "comprehensive", "robust", "cutting-edge", "end-to-end", "seamless", "leverage", "seasoned", "we are seeking", "help us". No sales pitch, no praise, no closing call to action. Never use em dashes or en dashes: use a comma, a colon, brackets or start a new sentence, and write ranges with a hyphen ("1-2 weeks", "S$5,000-7,000").
 
 gig_title: 3-10 words naming the TASK, not a job title or person (e.g. "Food Safety Audit for Central Kitchen").
 

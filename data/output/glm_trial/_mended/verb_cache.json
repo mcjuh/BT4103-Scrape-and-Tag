@@ -1,0 +1,370 @@
+{
+ "glm-provider__02_a.md": {
+  "source_file": "glm-provider__02_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Programme Management Consultant",
+  "credentials": [
+   "Project Management Professional (PMP)",
+   "PRINCE2 Practitioner"
+  ],
+  "years_experience": 15,
+  "about_headline": "Programme delivery and governance advice for Singapore organisations running complex change",
+  "about_bio": "I have spent 15 years advising Singapore organisations on how their change programmes are governed and delivered, and I now work independently. Earlier I headed the delivery office at a Singapore-based logistics company's regional headquarters, and before that I worked in a public-sector technology agency's transformation practice. I began as a project engineer on infrastructure schemes. I hold an MBA from Nanyang Technological University and a bachelor's degree in civil engineering.",
+  "services": [
+   {
+    "service_title": "Programme Health Check and Delivery Governance Review",
+    "service_detail": "For small and mid-sized Singapore businesses running complex internal or client-facing projects without a dedicated delivery function. Services include independent programme health checks, governance and stage-gate design, steering committee reporting, project manager mentoring, and recovery planning for stalled initiatives. I advise; I do not take execution roles."
+   }
+  ],
+  "achievements": [
+   "Ran a hospital group's S$40 million system replacement back onto schedule.",
+   "Implemented governance for a logistics SME, cutting project overruns from 30 to 8 percent.",
+   "Reviewed 45 stalled projects for a statutory board and recommended stopping six.",
+   "Diagnosed delays across a retailer's 12-store rollout within three weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Delivery methods",
+    "skills": [
+     "PRINCE2",
+     "Agile (Scrum, Kanban)",
+     "stage-gate governance",
+     "benefits realisation",
+     "PMBOK"
+    ]
+   },
+   {
+    "category": "Planning tools",
+    "skills": [
+     "MS Project",
+     "Jira",
+     "Smartsheet",
+     "Power BI",
+     "Confluence"
+    ]
+   }
+  ],
+  "how_i_work": "I start by listening to management's own account of where delivery hurts, then review plans, reports and governance artefacts myself, and close with recommendations ranked by effort and impact that leadership can act on directly.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__02_b.md": {
+  "source_file": "glm-provider__02_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Environmental Regulatory Consultant",
+  "credentials": [
+   "Chartered Environmentalist (Society for the Environment)",
+   "Member, Institution of Engineers Singapore"
+  ],
+  "years_experience": 14,
+  "about_headline": "Environmental regulatory advisory for industrial and development projects across Singapore.",
+  "about_bio": "I have spent 14 years advising Singapore companies on environmental regulatory matters. I began as an environmental engineer with a Singapore-based consultancy's pollution control team, then led a regional engineering firm's environmental advisory practice, counselling boards on approval strategy and compliance programmes. I hold a Bachelor of Engineering in Environmental Engineering and a Master of Science in Environmental Management, both from local universities. I now practise as an independent environmental regulatory consultant.",
+  "services": [
+   {
+    "service_title": "Industrial Environmental Compliance Advisory",
+    "service_detail": "For small and mid-sized Singapore manufacturers, developers and waste operators. Services include diagnosing compliance gaps against the Environmental Protection and Management Act, reviewing Environmental Impact Assessment submissions, steering NEA pollution control licence renewals, and advising on ISO 14001 programmes. Advice only; no laboratory testing or remediation works."
+   }
+  ],
+  "achievements": [
+   "Steered a wafer fab through a 40-point emission review in nine months.",
+   "Drafted EIA scoping for a 12-hectare logistics hub, halving authority queries.",
+   "Diagnosed gaps in a chemical trader's ISO 14001 system across four sites.",
+   "Implemented abatement upgrades that cut a food factory's effluent load by 30 per cent.",
+   "Counselled a wastewater utility's board on a 10-year permit renewal programme."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Regulation and standards",
+    "skills": [
+     "Environmental Protection and Management Act",
+     "NEA pollution control licensing",
+     "ISO 14001"
+    ]
+   },
+   {
+    "category": "Assessment methods",
+    "skills": [
+     "Environmental Impact Assessment scoping",
+     "AERMOD air dispersion modelling",
+     "contaminated site assessment"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reading your operations, permits and past submissions myself, then sit with your team to agree what matters. You get a prioritised advice memo, a working session with management, and draft language you can defend.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__02_c.md": {
+  "source_file": "glm-provider__02_c.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Senior Environmental Risk Advisor",
+  "credentials": [],
+  "years_experience": 16,
+  "about_headline": "Senior adviser on environmental risk governance for Singapore asset managers.",
+  "about_bio": "I am a senior environmental risk adviser in Singapore. I have 16 years advising boards and senior management on climate-related risk, portfolio data, and investor reporting. Earlier, I led a risk policy team at a Singapore-based asset manager, then worked in a regional insurer's compliance unit. I hold a master's degree in finance and a bachelor's degree in environmental science. Now independent, I help smaller Singapore financial firms make proportionate decisions where formal systems are still developing.",
+  "services": [
+   {
+    "service_title": "Environmental Risk Control Review for Asset Managers",
+    "service_detail": "Services include reviewing environmental risk controls against MAS guidance for small and mid-sized Singapore asset managers, advising on proportionate disclosure, assessing portfolio data needs, and recommending board-ready action sequencing. Work covers policy, monitoring, and reporting; it excludes full audit or system implementation where relevant."
+   }
+  ],
+  "achievements": [
+   "Advised a 12-fund private equity house on climate stress testing.",
+   "Ran a 3-person family office through 9 environmental disclosure controls.",
+   "Drafted a 20-page environmental risk framework for a Singapore wealth manager."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Risk methods",
+    "skills": [
+     "materiality assessment",
+     "scenario analysis",
+     "portfolio carbon estimation",
+     "disclosure gap mapping"
+    ]
+   },
+   {
+    "category": "Frameworks",
+    "skills": [
+     "TCFD",
+     "SASB",
+     "ISSB"
+    ]
+   }
+  ],
+  "how_i_work": "I start by mapping existing policies, data, and approval routes. I then pressure-test materiality choices, discuss trade-offs with management, and finish with prioritised actions that senior leaders can own. I keep advice proportionate and decision-ready.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__02_d.md": {
+  "source_file": "glm-provider__02_d.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Climate Risk Advisor",
+  "credentials": [
+   "GARP Sustainability and Climate Risk (SCR) Certificate"
+  ],
+  "years_experience": 14,
+  "about_headline": "Climate risk advisory for Singapore lenders: portfolio screening, scenario analysis and board advice.",
+  "about_bio": "I am an independent climate risk advisor in Singapore with 14 years in financial risk. Most recently I led the climate risk function at a Singapore-based bank's corporate banking division, advising credit committees across the region. Earlier I served in a global consultancy's financial services risk practice, and I began in wholesale credit at a Singapore-based lender's risk team. I hold a master's in environmental management and an economics degree from Singapore universities.",
+  "services": [
+   {
+    "service_title": "Climate Risk Advisory for Lending Portfolios",
+    "service_detail": "For smaller Singapore banks, finance companies and corporate lenders needing senior climate judgement without an in-house team. Services include screening loan books for physical and transition risk, climate scenario analysis aligned with MAS expectations, estimating financed emissions, and advising boards on risk appetite. I advise; I do not build models."
+   }
+  ],
+  "achievements": [
+   "Advised a Singapore bank through industry-wide climate stress testing of S$8 billion in loans.",
+   "Diagnosed transition risk across 2,400 borrowers for a foreign bank's regional credit team.",
+   "Drafted sector limits that cut a finance company's coal exposure by 60 per cent.",
+   "Built a property lender's first financed emissions baseline across 1,800 mortgages."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Climate methods",
+    "skills": [
+     "NGFS scenario analysis",
+     "physical hazard screening",
+     "transition pathway mapping",
+     "climate value-at-risk"
+    ]
+   },
+   {
+    "category": "Standards",
+    "skills": [
+     "PCAF financed emissions",
+     "TCFD recommendations",
+     "ISSB IFRS S2",
+     "MAS environmental risk guidelines"
+    ]
+   }
+  ],
+  "how_i_work": "I start with your loan book and the questions your board is asking, not templates. I interview credit, risk and treasury leads, weigh what is proportionate to your size, and leave you with prioritised recommendations your team can act on.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__02_e.md": {
+  "source_file": "glm-provider__02_e.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Physical Climate Risk Consultant",
+  "credentials": [],
+  "years_experience": 13,
+  "about_headline": "Physical climate risk advisory for property, infrastructure and industrial asset owners in Singapore and Southeast Asia.",
+  "about_bio": "I have spent 13 years helping asset owners in Singapore and Southeast Asia understand how heat, floods and sea-level rise affect what they build and hold. After a BEng in environmental engineering and an MSc in climate science, I led the climate resilience team at a Singapore-based engineering consultancy, and earlier worked in a regional developer's sustainability function and a government water agency's flood planning group. I now practise independently as a climate risk consultant, advising boards and management teams.",
+  "services": [
+   {
+    "service_title": "Physical climate risk assessment and adaptation advisory",
+    "service_detail": "For mid-sized property owners and facility operators in Singapore. Services include portfolio exposure screening against national flood and heat projections, scenario analysis across warming pathways, vulnerability reviews of key sites, and board briefings with prioritised resilience options, referenced to ISO 14090 guidance. Engagements typically run four to six weeks."
+   }
+  ],
+  "achievements": [
+   "Diagnosed flood exposure across 14 warehouses for a Singapore logistics developer.",
+   "Advised a private hospital group on heat resilience across its 3 campuses.",
+   "Prepared stormwater upgrades for a resort operator facing river flooding within 5 years.",
+   "Steered a data centre operator's board towards cooling contingencies for 2050 heat extremes.",
+   "Reviewed 32 coastal industrial sites for a regional chemical manufacturer over 9 months."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Climate analytics",
+    "skills": [
+     "GIS flood exposure mapping",
+     "SSP/RCP scenario analysis",
+     "site vulnerability assessment",
+     "wet-bulb heat stress projection",
+     "depth-damage estimation"
+    ]
+   },
+   {
+    "category": "Standards",
+    "skills": [
+     "ISO 14090",
+     "ISO 14091",
+     "TCFD physical risk disclosures",
+     "IFRS S2"
+    ]
+   }
+  ],
+  "how_i_work": "I start from the decisions a board must take, judge which exposures genuinely matter, review critical sites closely, then recommend a small set of defensible actions. I write the conclusions myself and stay reachable while they decide.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__02_g.md": {
+  "source_file": "glm-provider__02_g.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Financial Crime Compliance Adviser",
+  "credentials": [],
+  "years_experience": 12,
+  "about_headline": "Financial crime advisory for Singapore fund managers and private trust companies.",
+  "about_bio": "I am an independent financial crime compliance adviser to small and mid-sized Singapore fund managers, private trust companies and wealth firms. I spent 12 years in roles at a Singapore asset manager's compliance team, a private trust company's operations team, and a regional wealth firm's risk function. I led a team of four analysts and reported to management on policy, screening and incident response. I hold a law degree and work from Singapore.",
+  "services": [
+   {
+    "service_title": "Financial Crime Controls Review for Singapore Wealth Firms",
+    "service_detail": "For small and mid-sized Singapore fund managers, private trust companies and wealth firms. Services include reviewing sanctions screening, advising on AML policy weaknesses, diagnosing transaction monitoring issues, recommending board reporting, and reviewing incident response practices. Scope excludes legal opinions and full audit work."
+   }
+  ],
+  "achievements": [
+   "Advised a Singapore insurer to cut suspicious activity report backlog by 60%.",
+   "Implemented sanctions screening changes for a private trust company, reducing false alerts by 45%.",
+   "Steered a wealth firm through a transaction monitoring review over 3 months.",
+   "Prepared a diagnosis of AML policy weaknesses for a fund administrator in 2 weeks."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Financial crime standards",
+    "skills": [
+     "MAS Notice SFA 04-N02",
+     "FATF Recommendations",
+     "UN sanctions screening",
+     "AML risk assessment"
+    ]
+   },
+   {
+    "category": "Advisory methods",
+    "skills": [
+     "Control weakness mapping",
+     "Transaction monitoring review",
+     "Board reporting design",
+     "Incident response review"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reviewing policies, systems and past incidents, then interview the responsible team. I diagnose the main weaknesses, explain consequences in practical terms, and recommend an ordered list of changes for management to discuss.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__04_a.md": {
+  "source_file": "glm-provider__04_a.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Presentation Design Consultant",
+  "credentials": [],
+  "years_experience": 6,
+  "about_headline": "Independent presentation advisory for Singapore businesses: structure, story flow, visual systems.",
+  "about_bio": "I have spent 6 years advising organisations on how their documents read and look. I began in a Singapore-based branding agency's design studio, then joined a regional consultancy's communications practice, and later advised a polytechnic's continuing education team on course materials. I hold a visual communications degree from a local university. Now independent, I work with small and mid-sized Singapore businesses whose proposals, reports and presentations need clearer arguments and calmer layouts.",
+  "services": [
+   {
+    "service_title": "Presentation audit and redesign advisory",
+    "service_detail": "For small and mid-sized Singapore businesses whose client-facing decks have drifted. Services include a structured deck audit, narrative restructuring advice, a slide master and typographic specification, before-and-after layout critiques, and coaching for in-house rework. I advise and specify; production stays with your team."
+   }
+  ],
+  "achievements": [
+   "Diagnosed a 40-slide logistics proposal in 5 days for its management.",
+   "Built a 12-rule colour and type system for a law firm.",
+   "Advised a tuition chain to cut 62 slides to 24.",
+   "Ran a fintech startup's investor deck through 3 review rounds in 8 days."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Visual systems",
+    "skills": [
+     "typographic grids",
+     "colour palette development",
+     "slide master architecture",
+     "data visualisation"
+    ]
+   },
+   {
+    "category": "Review methods",
+    "skills": [
+     "message hierarchy mapping",
+     "annotated deck audits",
+     "wireframing",
+     "usability testing"
+    ]
+   }
+  ],
+  "how_i_work": "I start by reading the material as its audience would, then map where the argument loses its way. I give written findings and concrete recommendations first, so any rework follows agreed decisions.",
+  "availability": null,
+  "rate": null
+ },
+ "glm-provider__04_b.md": {
+  "source_file": "glm-provider__04_b.md",
+  "extracted_by_model": "x-test-1",
+  "name": null,
+  "title": "Presentation Strategy Consultant",
+  "credentials": [],
+  "years_experience": 9,
+  "about_headline": "Independent consultant reviewing and restructuring business presentations for Singapore companies.",
+  "about_bio": "I am an independent presentation consultant in Singapore with 9 years turning dense business content into clear slide stories. I began in a Singapore-based brand agency's presentation studio, advised clients through a Singapore-based design consultancy's strategy practice, and later steered communications for a Singapore-based freight forwarding group's commercial team. I hold a visual communication degree from a local university. Since becoming independent, I work mainly with small and mid-sized Singapore companies across logistics, manufacturing and maritime services.",
+  "services": [
+   {
+    "service_title": "Business Presentation Review and Restructuring",
+    "service_detail": "For small and mid-sized Singapore businesses whose sales or investor decks have grown unwieldy. Services include a full narrative diagnosis, slide-by-slide commentary on structure and visuals, a recommended section outline, guidance on typography and colour, and a written recommendations memo. Advisory only; slide production stays with your team."
+   }
+  ],
+  "achievements": [
+   "Recommended a restructure cutting a freight forwarder's 40-slide tender deck to 18 slides.",
+   "Wrote 24 investor updates for a logistics technology startup over two years.",
+   "Diagnosed a cold-chain operator's failing sales story; win rate rose 15 percent.",
+   "Ran a warehousing group's leadership through a 12-market expansion briefing series."
+  ],
+  "technical_proficiency": [
+   {
+    "category": "Software",
+    "skills": [
+     "PowerPoint",
+     "Canva"
+    ]
+   },
+   {
+    "category": "Methods",
+    "skills": [
+     "narrative structuring",
+     "typographic hierarchy",
+     "colour systems",
+     "slide master architecture",
+     "data visualisation"
+    ]
+   }
+  ],
+  "how_i_work": "I read the deck cold before any briefing, interview the people behind it to find the real argument, then deliver written findings and agreed recommendations the team can implement.",
+  "availability": null,
+  "rate": null
+ }
+}

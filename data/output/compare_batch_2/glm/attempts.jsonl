@@ -1,0 +1,625 @@
+{"time": "2026-10-27T23:32:44", "kind": "gig", "key": "G03", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:45", "kind": "gig", "key": "G01", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:45", "kind": "gig", "key": "G02", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:46", "kind": "gig", "key": "G05", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:47", "kind": "gig", "key": "G08", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:48", "kind": "gig", "key": "G07", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:50", "kind": "gig", "key": "G10", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:50", "kind": "gig", "key": "G12", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:51", "kind": "gig", "key": "G13", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:51", "kind": "gig", "key": "G06", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:51", "kind": "gig", "key": "G09", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:52", "kind": "gig", "key": "G11", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:53", "kind": "gig", "key": "G04", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:53", "kind": "gig", "key": "G15", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:54", "kind": "gig", "key": "G14", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:55", "kind": "gig", "key": "G19", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:56", "kind": "gig", "key": "G18", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:57", "kind": "gig", "key": "G23", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:58", "kind": "gig", "key": "G20", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:32:59", "kind": "gig", "key": "G17", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:00", "kind": "gig", "key": "G24", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:01", "kind": "gig", "key": "G26", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:01", "kind": "gig", "key": "G27", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:01", "kind": "gig", "key": "G22", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:02", "kind": "gig", "key": "G29", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:03", "kind": "gig", "key": "G21", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:04", "kind": "gig", "key": "G30", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:05", "kind": "gig", "key": "G33", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:07", "kind": "gig", "key": "G16", "tries": 5, "ok": false, "errors": ["short_description is 92 words; it must be within 15 of 64 (and 55-120)"]}
+{"time": "2026-10-27T23:33:07", "kind": "gig", "key": "G35", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:08", "kind": "gig", "key": "G28", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:08", "kind": "gig", "key": "G32", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:09", "kind": "gig", "key": "G31", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:10", "kind": "gig", "key": "G38", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:11", "kind": "gig", "key": "G40", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:12", "kind": "gig", "key": "G36", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:13", "kind": "gig", "key": "G34", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:13", "kind": "gig", "key": "G42", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:14", "kind": "gig", "key": "G39", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:14", "kind": "gig", "key": "G43", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:15", "kind": "gig", "key": "G41", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:15", "kind": "gig", "key": "G37", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:17", "kind": "gig", "key": "G47", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:18", "kind": "gig", "key": "G45", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:19", "kind": "gig", "key": "G49", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:19", "kind": "gig", "key": "G46", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:19", "kind": "gig", "key": "G50", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:22", "kind": "gig", "key": "G52", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:22", "kind": "gig", "key": "G53", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:22", "kind": "gig", "key": "G51", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:23", "kind": "gig", "key": "G55", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:25", "kind": "gig", "key": "G44", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:25", "kind": "gig", "key": "G57", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:26", "kind": "gig", "key": "G59", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:26", "kind": "gig", "key": "G48", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:28", "kind": "gig", "key": "G58", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:29", "kind": "gig", "key": "G56", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:30", "kind": "gig", "key": "G61", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:31", "kind": "gig", "key": "G64", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:31", "kind": "gig", "key": "G54", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:32", "kind": "gig", "key": "G62", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:32", "kind": "gig", "key": "G60", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:33", "kind": "gig", "key": "G63", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:34", "kind": "gig", "key": "G66", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:36", "kind": "gig", "key": "G25", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:37", "kind": "gig", "key": "G65", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:38", "kind": "gig", "key": "G73", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:39", "kind": "gig", "key": "G69", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:40", "kind": "gig", "key": "G67", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:41", "kind": "gig", "key": "G70", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:41", "kind": "gig", "key": "G68", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:41", "kind": "gig", "key": "G75", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:45", "kind": "gig", "key": "G76", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:45", "kind": "gig", "key": "G78", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:45", "kind": "gig", "key": "G80", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:46", "kind": "gig", "key": "G77", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:47", "kind": "gig", "key": "G74", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:48", "kind": "gig", "key": "G83", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:50", "kind": "gig", "key": "G71", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:51", "kind": "gig", "key": "G82", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:52", "kind": "gig", "key": "G84", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:53", "kind": "gig", "key": "G72", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:53", "kind": "gig", "key": "G85", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:53", "kind": "gig", "key": "G79", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:54", "kind": "gig", "key": "G87", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:54", "kind": "gig", "key": "G81", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:55", "kind": "gig", "key": "G86", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:56", "kind": "gig", "key": "G92", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:57", "kind": "gig", "key": "G90", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:57", "kind": "gig", "key": "G89", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:58", "kind": "gig", "key": "G93", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:59", "kind": "gig", "key": "G88", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:33:59", "kind": "gig", "key": "G95", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:00", "kind": "gig", "key": "G97", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:00", "kind": "gig", "key": "G91", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:02", "kind": "gig", "key": "G98", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:02", "kind": "gig", "key": "G94", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:03", "kind": "gig", "key": "G96", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:03", "kind": "gig", "key": "G99", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:07", "kind": "gig", "key": "G100", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:16", "kind": "provider", "key": "glm-provider__01_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:21", "kind": "provider", "key": "glm-provider__01_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:25", "kind": "provider", "key": "glm-provider__02_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:38", "kind": "provider", "key": "glm-provider__01_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:46", "kind": "provider", "key": "glm-provider__02_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:47", "kind": "provider", "key": "glm-provider__01_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:34:51", "kind": "provider", "key": "glm-provider__02_b.md", "tries": 5, "ok": false, "errors": ["service_detail \"Quality management system readiness review\" is 73 words; it must be 40-65", "achievement without a figure: \"Prepared a health product importer's management briefing tha\""]}
+{"time": "2026-10-27T23:35:00", "kind": "provider", "key": "glm-provider__03_a.md", "tries": 5, "ok": false, "errors": ["schema: services/0/service_detail: None is not of type 'string'", "service_detail \"Brand Naming and Identity Review\" is 0 words; it must be 40-65"]}
+{"time": "2026-10-27T23:35:04", "kind": "provider", "key": "glm-provider__03_c.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Reduced opposition risk for a hotel group by refiling in two\""]}
+{"time": "2026-10-27T23:35:05", "kind": "provider", "key": "glm-provider__02_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:08", "kind": "provider", "key": "glm-provider__03_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:11", "kind": "provider", "key": "glm-provider__04_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:14", "kind": "provider", "key": "glm-provider__05_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:17", "kind": "provider", "key": "glm-provider__05_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:21", "kind": "provider", "key": "glm-provider__03_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:30", "kind": "provider", "key": "glm-provider__04_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:35", "kind": "provider", "key": "glm-provider__06_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:36", "kind": "provider", "key": "glm-provider__06_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:37", "kind": "provider", "key": "glm-provider__04_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:39", "kind": "provider", "key": "glm-provider__06_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:41", "kind": "provider", "key": "glm-provider__06_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:35:50", "kind": "provider", "key": "glm-provider__05_a.md", "tries": 5, "ok": false, "errors": ["service_detail \"Care Operations Policy and Protocol Package\" is 67 words; it must be 40-65", "achievement without a figure: \"Cleared a licensing audit with zero findings for a mid-sized\""]}
+{"time": "2026-10-27T23:35:53", "kind": "provider", "key": "glm-provider__07_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:09", "kind": "provider", "key": "glm-provider__05_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 65 words; it must be 70-100"]}
+{"time": "2026-10-27T23:36:09", "kind": "provider", "key": "glm-provider__08_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:13", "kind": "provider", "key": "glm-provider__04_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:14", "kind": "provider", "key": "glm-provider__07_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:15", "kind": "provider", "key": "glm-provider__07_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100"]}
+{"time": "2026-10-27T23:36:26", "kind": "provider", "key": "glm-provider__09_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:29", "kind": "provider", "key": "glm-provider__09_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:32", "kind": "provider", "key": "glm-provider__08_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:33", "kind": "provider", "key": "glm-provider__09_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:35", "kind": "provider", "key": "glm-provider__07_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 63 words; it must be 70-100"]}
+{"time": "2026-10-27T23:36:35", "kind": "provider", "key": "glm-provider__09_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:49", "kind": "provider", "key": "glm-provider__08_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:54", "kind": "provider", "key": "glm-provider__08_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:36:58", "kind": "provider", "key": "glm-provider__11_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:05", "kind": "provider", "key": "glm-provider__10_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:09", "kind": "provider", "key": "glm-provider__10_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:14", "kind": "provider", "key": "glm-provider__10_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:19", "kind": "provider", "key": "glm-provider__11_a.md", "tries": 5, "ok": false, "errors": ["ValueError: no JSON object in reply"]}
+{"time": "2026-10-27T23:37:22", "kind": "provider", "key": "glm-provider__11_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 56 words; it must be 70-100"]}
+{"time": "2026-10-27T23:37:24", "kind": "provider", "key": "glm-provider__10_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a regional ferry operator on safety changes that hal\"", "achievement without a figure: \"Cleared a two-year backlog of incident files for a port auth\""]}
+{"time": "2026-10-27T23:37:31", "kind": "provider", "key": "glm-provider__12_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:36", "kind": "provider", "key": "glm-provider__11_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:45", "kind": "provider", "key": "glm-provider__12_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}
+{"time": "2026-10-27T23:37:48", "kind": "provider", "key": "glm-provider__12_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:54", "kind": "provider", "key": "glm-provider__14_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:37:55", "kind": "provider", "key": "glm-provider__12_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Ran a two-week valuation for a school foundation holding cre\"", "names a company or firm (\"holdings\"); describe the kind of organisation instead"]}
+{"time": "2026-10-27T23:37:59", "kind": "provider", "key": "glm-provider__13_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:38:13", "kind": "provider", "key": "glm-provider__13_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 62 words; it must be 70-100"]}
+{"time": "2026-10-27T23:38:15", "kind": "provider", "key": "glm-provider__13_c.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 460 (char 1223)"]}
+{"time": "2026-10-27T23:38:19", "kind": "provider", "key": "glm-provider__13_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:38:25", "kind": "provider", "key": "glm-provider__15_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:38:32", "kind": "provider", "key": "glm-provider__14_c.md", "tries": 5, "ok": false, "errors": ["schema: achievements: ['Wrote listings for a 12-room Jalan Besar guesthouse, lifting occupancy 18% in one quarter.', 'Ran rate calendar setup across 3 platforms for an East Coast backpacker hostel within 2 weeks.', 'Reduced overbooking incidents by 90% for a Katong shophouse hotel through clearer room mapping.', 'Advised a 6-unit Serviced studios owner on rate tiers, adding 5 new repeat corporate accounts.', 'Raised photo and description scores to 85% across 4 properties for a boutique operator.', None] is too long", "schema: achievements/5: None is not of type 'string'", "achievements has 6 items; it must have 3-5", "achievement without a figure: \"None\""]}
+{"time": "2026-10-27T23:38:32", "kind": "provider", "key": "glm-provider__15_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:38:35", "kind": "provider", "key": "glm-provider__14_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 62 words; it must be 70-100", "achievement without a figure: \"Advised a bookstore owner on marketplace fee structures and \"", "names a company or firm (\"Lazada\"); describe the kind of organisation instead"]}
+{"time": "2026-10-27T23:38:36", "kind": "provider", "key": "glm-provider__14_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "achievement without a figure: \"Trained two reservation staff at a hostel to manage inventor\""]}
+{"time": "2026-10-27T23:38:39", "kind": "provider", "key": "glm-provider__15_b.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 447 (char 1233)"]}
+{"time": "2026-10-27T23:38:43", "kind": "provider", "key": "glm-provider__17_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:38:58", "kind": "provider", "key": "glm-provider__18_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:38:59", "kind": "provider", "key": "glm-provider__18_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:02", "kind": "provider", "key": "glm-provider__15_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "service_detail \"Safety and Operations Document Translation\" is 66 words; it must be 40-65"]}
+{"time": "2026-10-27T23:39:04", "kind": "provider", "key": "glm-provider__18_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:12", "kind": "provider", "key": "glm-provider__17_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Prepared a vendor comparison paper for a boutique gym, leadi\""]}
+{"time": "2026-10-27T23:39:14", "kind": "provider", "key": "glm-provider__17_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100"]}
+{"time": "2026-10-27T23:39:18", "kind": "provider", "key": "glm-provider__19_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:19", "kind": "provider", "key": "glm-provider__19_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:21", "kind": "provider", "key": "glm-provider__19_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:25", "kind": "provider", "key": "glm-provider__18_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:29", "kind": "provider", "key": "glm-provider__19_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:31", "kind": "provider", "key": "glm-provider__20_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:32", "kind": "provider", "key": "glm-provider__17_d.md", "tries": 5, "ok": false, "errors": ["service_detail \"Food Cost and Kitchen Operations Review\" is 68 words; it must be 40-65", "achievement without a figure: \"Prepared costed option papers for two hawker-style operators\""]}
+{"time": "2026-10-27T23:39:36", "kind": "provider", "key": "glm-provider__21_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:37", "kind": "provider", "key": "glm-provider__20_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:40", "kind": "provider", "key": "glm-provider__22_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:47", "kind": "provider", "key": "glm-provider__22_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:51", "kind": "provider", "key": "glm-provider__20_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 65 words; it must be 70-100"]}
+{"time": "2026-10-27T23:39:55", "kind": "provider", "key": "glm-provider__21_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:39:57", "kind": "provider", "key": "glm-provider__20_c.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 480 (char 1357)"]}
+{"time": "2026-10-27T23:40:10", "kind": "provider", "key": "glm-provider__23_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:12", "kind": "provider", "key": "glm-provider__23_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:13", "kind": "provider", "key": "glm-provider__22_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:14", "kind": "provider", "key": "glm-provider__21_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}
+{"time": "2026-10-27T23:40:18", "kind": "provider", "key": "glm-provider__23_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:19", "kind": "provider", "key": "glm-provider__22_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:20", "kind": "provider", "key": "glm-provider__24_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:21", "kind": "provider", "key": "glm-provider__21_d.md", "tries": 5, "ok": false, "errors": ["schema: record: 'about_headline' is a required property"]}
+{"time": "2026-10-27T23:40:23", "kind": "provider", "key": "glm-provider__24_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:27", "kind": "provider", "key": "glm-provider__24_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:32", "kind": "provider", "key": "glm-provider__23_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:32", "kind": "provider", "key": "glm-provider__24_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:33", "kind": "provider", "key": "glm-provider__26_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:37", "kind": "provider", "key": "glm-provider__25_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:45", "kind": "provider", "key": "glm-provider__27_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:47", "kind": "provider", "key": "glm-provider__25_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:47", "kind": "provider", "key": "glm-provider__25_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:49", "kind": "provider", "key": "glm-provider__26_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:50", "kind": "provider", "key": "glm-provider__26_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:55", "kind": "provider", "key": "glm-provider__27_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:56", "kind": "provider", "key": "glm-provider__28_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:40:58", "kind": "provider", "key": "glm-provider__28_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:04", "kind": "provider", "key": "glm-provider__27_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:07", "kind": "provider", "key": "glm-provider__25_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Reviewed risk assessments across a fabrication company's fou\""]}
+{"time": "2026-10-27T23:41:09", "kind": "provider", "key": "glm-provider__27_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:16", "kind": "provider", "key": "glm-provider__29_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:18", "kind": "provider", "key": "glm-provider__29_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:22", "kind": "provider", "key": "glm-provider__29_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:23", "kind": "provider", "key": "glm-provider__28_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:25", "kind": "provider", "key": "glm-provider__29_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:26", "kind": "provider", "key": "glm-provider__30_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:30", "kind": "provider", "key": "glm-provider__30_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:33", "kind": "provider", "key": "glm-provider__31_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:33", "kind": "provider", "key": "glm-provider__26_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100"]}
+{"time": "2026-10-27T23:41:35", "kind": "provider", "key": "glm-provider__30_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:35", "kind": "provider", "key": "glm-provider__31_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:42", "kind": "provider", "key": "glm-provider__31_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:45", "kind": "provider", "key": "glm-provider__28_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:47", "kind": "provider", "key": "glm-provider__32_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:53", "kind": "provider", "key": "glm-provider__32_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:41:56", "kind": "provider", "key": "glm-provider__32_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:01", "kind": "provider", "key": "glm-provider__33_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:07", "kind": "provider", "key": "glm-provider__30_c.md", "tries": 5, "ok": false, "errors": ["service_detail \"Temperature-Controlled Distribution Compliance Review\" is 70 words; it must be 40-65", "achievement without a figure: \"Cleared an SFA licence inspection with zero major findings f\""]}
+{"time": "2026-10-27T23:42:11", "kind": "provider", "key": "glm-provider__33_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:13", "kind": "provider", "key": "glm-provider__32_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:16", "kind": "provider", "key": "glm-provider__31_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:19", "kind": "provider", "key": "glm-provider__33_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:23", "kind": "provider", "key": "glm-provider__35_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:27", "kind": "provider", "key": "glm-provider__34_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:29", "kind": "provider", "key": "glm-provider__33_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 64 words; it must be 70-100"]}
+{"time": "2026-10-27T23:42:30", "kind": "provider", "key": "glm-provider__35_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:30", "kind": "provider", "key": "glm-provider__35_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:39", "kind": "provider", "key": "glm-provider__36_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:40", "kind": "provider", "key": "glm-provider__34_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Built a movement log template now used by a cold chain opera\""]}
+{"time": "2026-10-27T23:42:50", "kind": "provider", "key": "glm-provider__37_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:51", "kind": "provider", "key": "glm-provider__34_c.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a medical device importer's directors on batch recor\"", "achievement without a figure: \"Wrote a gap report for a clinic group that passed its HSA in\"", "achievement without a figure: \"Led a five-person inventory team through a full GDP re-certi\"", "names a company or firm (\"holdings\"); describe the kind of organisation instead"]}
+{"time": "2026-10-27T23:42:56", "kind": "provider", "key": "glm-provider__34_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:58", "kind": "provider", "key": "glm-provider__36_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:42:59", "kind": "provider", "key": "glm-provider__36_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:12", "kind": "provider", "key": "glm-provider__37_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:19", "kind": "provider", "key": "glm-provider__38_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:22", "kind": "provider", "key": "glm-provider__38_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:22", "kind": "provider", "key": "glm-provider__35_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:24", "kind": "provider", "key": "glm-provider__38_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:25", "kind": "provider", "key": "glm-provider__37_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:26", "kind": "provider", "key": "glm-provider__36_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 63 words; it must be 70-100"]}
+{"time": "2026-10-27T23:43:34", "kind": "provider", "key": "glm-provider__37_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:38", "kind": "provider", "key": "glm-provider__39_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:44", "kind": "provider", "key": "glm-provider__38_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:43:53", "kind": "provider", "key": "glm-provider__40_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:02", "kind": "provider", "key": "glm-provider__39_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 53 words; it must be 70-100"]}
+{"time": "2026-10-27T23:44:02", "kind": "provider", "key": "glm-provider__40_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:06", "kind": "provider", "key": "glm-provider__39_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:07", "kind": "provider", "key": "glm-provider__39_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:12", "kind": "provider", "key": "glm-provider__41_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:15", "kind": "provider", "key": "glm-provider__40_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 64 words; it must be 70-100"]}
+{"time": "2026-10-27T23:44:16", "kind": "provider", "key": "glm-provider__41_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:18", "kind": "provider", "key": "glm-provider__42_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:22", "kind": "provider", "key": "glm-provider__42_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:23", "kind": "provider", "key": "glm-provider__41_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:24", "kind": "provider", "key": "glm-provider__40_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:29", "kind": "provider", "key": "glm-provider__41_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:34", "kind": "provider", "key": "glm-provider__42_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:36", "kind": "provider", "key": "glm-provider__43_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:38", "kind": "provider", "key": "glm-provider__44_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:52", "kind": "provider", "key": "glm-provider__44_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:54", "kind": "provider", "key": "glm-provider__42_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:55", "kind": "provider", "key": "glm-provider__45_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:58", "kind": "provider", "key": "glm-provider__44_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:44:59", "kind": "provider", "key": "glm-provider__43_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:02", "kind": "provider", "key": "glm-provider__43_a.md", "tries": 5, "ok": false, "errors": ["service_detail \"Reinstatement Cost Assessment for Damaged Buildings\" is 68 words; it must be 40-65", "achievement without a figure: \"Quantified smoke and water damage repairs across a five-stor\"", "achievement without a figure: \"Wrote reinstatement cost assessments for a heritage shophous\""]}
+{"time": "2026-10-27T23:45:07", "kind": "provider", "key": "glm-provider__46_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:09", "kind": "provider", "key": "glm-provider__45_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:13", "kind": "provider", "key": "glm-provider__45_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:17", "kind": "provider", "key": "glm-provider__46_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:17", "kind": "provider", "key": "glm-provider__43_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:18", "kind": "provider", "key": "glm-provider__47_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:28", "kind": "provider", "key": "glm-provider__46_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:30", "kind": "provider", "key": "glm-provider__45_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:30", "kind": "provider", "key": "glm-provider__47_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:38", "kind": "provider", "key": "glm-provider__48_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:38", "kind": "provider", "key": "glm-provider__44_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:39", "kind": "provider", "key": "glm-provider__48_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:45:47", "kind": "provider", "key": "glm-provider__46_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 64 words; it must be 70-100"]}
+{"time": "2026-10-27T23:45:55", "kind": "provider", "key": "glm-provider__47_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 66 words; it must be 70-100"]}
+{"time": "2026-10-27T23:45:58", "kind": "provider", "key": "glm-provider__49_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:01", "kind": "provider", "key": "glm-provider__48_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:04", "kind": "provider", "key": "glm-provider__49_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:05", "kind": "provider", "key": "glm-provider__48_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:10", "kind": "provider", "key": "glm-provider__50_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:13", "kind": "provider", "key": "glm-provider__49_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:20", "kind": "provider", "key": "glm-provider__49_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:28", "kind": "provider", "key": "glm-provider__50_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:32", "kind": "provider", "key": "glm-provider__47_c.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 451 (char 1312)"]}
+{"time": "2026-10-27T23:46:34", "kind": "provider", "key": "glm-provider__51_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:36", "kind": "provider", "key": "glm-provider__51_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:41", "kind": "provider", "key": "glm-provider__51_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:44", "kind": "provider", "key": "glm-provider__52_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:44", "kind": "provider", "key": "glm-provider__50_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 64 words; it must be 70-100", "service_detail \"Payment Process and Fraud Control Reviews\" is 68 words; it must be 40-65", "names a company or firm (\"DBS\"); describe the kind of organisation instead"]}
+{"time": "2026-10-27T23:46:45", "kind": "provider", "key": "glm-provider__51_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:49", "kind": "provider", "key": "glm-provider__53_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:51", "kind": "provider", "key": "glm-provider__52_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:46:54", "kind": "provider", "key": "glm-provider__50_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "achievement without a figure: \"Advised four dental clinic owners on CPF and SDL compliance \""]}
+{"time": "2026-10-27T23:46:59", "kind": "provider", "key": "glm-provider__54_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:00", "kind": "provider", "key": "glm-provider__53_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:10", "kind": "provider", "key": "glm-provider__54_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:10", "kind": "provider", "key": "glm-provider__53_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:10", "kind": "provider", "key": "glm-provider__53_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:15", "kind": "provider", "key": "glm-provider__52_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:18", "kind": "provider", "key": "glm-provider__52_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a bakery on SFA licensing, securing approval within \"", "achievement without a figure: \"Ran mock SFA audits for three central kitchens, raising firs\""]}
+{"time": "2026-10-27T23:47:20", "kind": "provider", "key": "glm-provider__55_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:33", "kind": "provider", "key": "glm-provider__55_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:36", "kind": "provider", "key": "glm-provider__55_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:37", "kind": "provider", "key": "glm-provider__54_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:47", "kind": "provider", "key": "glm-provider__57_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:47:56", "kind": "provider", "key": "glm-provider__54_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "achievement without a figure: \"Wrote maintenance procedures adopted across a seafood proces\""]}
+{"time": "2026-10-27T23:48:00", "kind": "provider", "key": "glm-provider__55_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:05", "kind": "provider", "key": "glm-provider__57_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:06", "kind": "provider", "key": "glm-provider__56_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 63 words; it must be 70-100"]}
+{"time": "2026-10-27T23:48:09", "kind": "provider", "key": "glm-provider__56_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100", "achievement without a figure: \"Led a team of nine cooks through a chilled-meals launch for \""]}
+{"time": "2026-10-27T23:48:12", "kind": "provider", "key": "glm-provider__56_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:12", "kind": "provider", "key": "glm-provider__56_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:22", "kind": "provider", "key": "glm-provider__57_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:24", "kind": "provider", "key": "glm-provider__59_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:35", "kind": "provider", "key": "glm-provider__58_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:39", "kind": "provider", "key": "glm-provider__57_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:45", "kind": "provider", "key": "glm-provider__59_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:52", "kind": "provider", "key": "glm-provider__60_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:52", "kind": "provider", "key": "glm-provider__58_a.md", "tries": 5, "ok": false, "errors": ["schema: services/0/service_detail: None is not of type 'string'", "service_detail \"Workplace Training Programme Design and Trainer Coaching\" is 0 words; it must be 40-65", "achievement without a figure: \"Advised a manufacturing firm's management on restructuring i\""]}
+{"time": "2026-10-27T23:48:55", "kind": "provider", "key": "glm-provider__59_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:48:58", "kind": "provider", "key": "glm-provider__58_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:01", "kind": "provider", "key": "glm-provider__61_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:02", "kind": "provider", "key": "glm-provider__58_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 63 words; it must be 70-100", "service_detail \"Yard Operations and Workflow Review\" is 68 words; it must be 40-65"]}
+{"time": "2026-10-27T23:49:11", "kind": "provider", "key": "glm-provider__60_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:16", "kind": "provider", "key": "glm-provider__61_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:16", "kind": "provider", "key": "glm-provider__60_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:17", "kind": "provider", "key": "glm-provider__59_c.md", "tries": 5, "ok": false, "errors": ["service_detail \"Independent process safety management assessment\" is 71 words; it must be 40-65"]}
+{"time": "2026-10-27T23:49:27", "kind": "provider", "key": "glm-provider__62_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:29", "kind": "provider", "key": "glm-provider__62_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:34", "kind": "provider", "key": "glm-provider__61_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:36", "kind": "provider", "key": "glm-provider__63_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:37", "kind": "provider", "key": "glm-provider__61_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:49:46", "kind": "provider", "key": "glm-provider__60_d.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Built a new activity rotation plan adopted across three prog\""]}
+{"time": "2026-10-27T23:50:02", "kind": "provider", "key": "glm-provider__62_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:02", "kind": "provider", "key": "glm-provider__62_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:07", "kind": "provider", "key": "glm-provider__63_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:12", "kind": "provider", "key": "glm-provider__65_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:15", "kind": "provider", "key": "glm-provider__65_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:17", "kind": "provider", "key": "glm-provider__63_d.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a healthcare clinic group on escalation paths adopte\""]}
+{"time": "2026-10-27T23:50:17", "kind": "provider", "key": "glm-provider__63_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:20", "kind": "provider", "key": "glm-provider__64_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:28", "kind": "provider", "key": "glm-provider__64_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100", "service_detail \"Safety and Health Advisory Review\" is 69 words; it must be 40-65", "achievement without a figure: \"Prepared a board briefing on contractor risk controls for a \"", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-27T23:50:35", "kind": "provider", "key": "glm-provider__65_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:39", "kind": "provider", "key": "glm-provider__65_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:41", "kind": "provider", "key": "glm-provider__64_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Ran board advisory sessions for a captive insurer ahead of a\""]}
+{"time": "2026-10-27T23:50:42", "kind": "provider", "key": "glm-provider__66_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:50", "kind": "provider", "key": "glm-provider__64_d.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Raised board-level risk reporting uptake from two to eleven \"", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-27T23:50:57", "kind": "provider", "key": "glm-provider__66_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:50:59", "kind": "provider", "key": "glm-provider__66_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:01", "kind": "provider", "key": "glm-provider__67_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:04", "kind": "provider", "key": "glm-provider__66_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:16", "kind": "provider", "key": "glm-provider__68_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:21", "kind": "provider", "key": "glm-provider__68_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:22", "kind": "provider", "key": "glm-provider__69_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:22", "kind": "provider", "key": "glm-provider__67_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:26", "kind": "provider", "key": "glm-provider__69_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:27", "kind": "provider", "key": "glm-provider__67_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 59 words; it must be 70-100"]}
+{"time": "2026-10-27T23:51:29", "kind": "provider", "key": "glm-provider__69_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:32", "kind": "provider", "key": "glm-provider__68_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:39", "kind": "provider", "key": "glm-provider__70_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:41", "kind": "provider", "key": "glm-provider__67_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:43", "kind": "provider", "key": "glm-provider__70_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:43", "kind": "provider", "key": "glm-provider__69_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:48", "kind": "provider", "key": "glm-provider__71_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:49", "kind": "provider", "key": "glm-provider__68_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:52", "kind": "provider", "key": "glm-provider__72_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:51:53", "kind": "provider", "key": "glm-provider__70_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:05", "kind": "provider", "key": "glm-provider__71_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:10", "kind": "provider", "key": "glm-provider__71_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:14", "kind": "provider", "key": "glm-provider__73_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:20", "kind": "provider", "key": "glm-provider__71_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 65 words; it must be 70-100"]}
+{"time": "2026-10-27T23:52:21", "kind": "provider", "key": "glm-provider__70_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:23", "kind": "provider", "key": "glm-provider__73_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:23", "kind": "provider", "key": "glm-provider__72_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:28", "kind": "provider", "key": "glm-provider__73_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:32", "kind": "provider", "key": "glm-provider__72_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100", "service_detail \"Independent Regulatory Compliance Opinion and Advisory\" is 70 words; it must be 40-65"]}
+{"time": "2026-10-27T23:52:32", "kind": "provider", "key": "glm-provider__74_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:40", "kind": "provider", "key": "glm-provider__75_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:41", "kind": "provider", "key": "glm-provider__72_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:43", "kind": "provider", "key": "glm-provider__73_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a regional cargo operator through a CAAS approval pr\"", "achievement without a figure: \"Prepared three safety management system frameworks for airpo\"", "achievement without a figure: \"Reduced regulatory reporting delays for a helicopter operato\""]}
+{"time": "2026-10-27T23:52:48", "kind": "provider", "key": "glm-provider__74_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:52:59", "kind": "provider", "key": "glm-provider__74_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100", "achievement without a figure: \"Wrote a data dictionary adopted by a tuition centre across t\""]}
+{"time": "2026-10-27T23:52:59", "kind": "provider", "key": "glm-provider__75_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:03", "kind": "provider", "key": "glm-provider__74_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 61 words; it must be 70-100"]}
+{"time": "2026-10-27T23:53:03", "kind": "provider", "key": "glm-provider__76_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:11", "kind": "provider", "key": "glm-provider__76_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:12", "kind": "provider", "key": "glm-provider__77_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:21", "kind": "provider", "key": "glm-provider__75_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100"]}
+{"time": "2026-10-27T23:53:25", "kind": "provider", "key": "glm-provider__75_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 59 words; it must be 70-100"]}
+{"time": "2026-10-27T23:53:32", "kind": "provider", "key": "glm-provider__78_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:35", "kind": "provider", "key": "glm-provider__78_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:36", "kind": "provider", "key": "glm-provider__76_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 66 words; it must be 70-100"]}
+{"time": "2026-10-27T23:53:38", "kind": "provider", "key": "glm-provider__77_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:45", "kind": "provider", "key": "glm-provider__76_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100"]}
+{"time": "2026-10-27T23:53:55", "kind": "provider", "key": "glm-provider__77_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 64 words; it must be 70-100"]}
+{"time": "2026-10-27T23:53:55", "kind": "provider", "key": "glm-provider__79_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:56", "kind": "provider", "key": "glm-provider__79_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:53:59", "kind": "provider", "key": "glm-provider__78_a.md", "tries": 5, "ok": false, "errors": ["service_detail \"Multi-site security arrangements review and compliance assessment\" is 66 words; it must be 40-65"]}
+{"time": "2026-10-27T23:54:00", "kind": "provider", "key": "glm-provider__79_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:07", "kind": "provider", "key": "glm-provider__80_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:12", "kind": "provider", "key": "glm-provider__78_d.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Led a six-store retail fit-out programme delivered two weeks\"", "achievement without a figure: \"Wrote recovery plans that brought a delayed warehouse build \""]}
+{"time": "2026-10-27T23:54:20", "kind": "provider", "key": "glm-provider__81_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:21", "kind": "provider", "key": "glm-provider__79_b.md", "tries": 5, "ok": false, "errors": ["service_detail \"Purchase Spend Review and Supplier Consolidation\" is 66 words; it must be 40-65"]}
+{"time": "2026-10-27T23:54:29", "kind": "provider", "key": "glm-provider__77_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:38", "kind": "provider", "key": "glm-provider__81_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:39", "kind": "provider", "key": "glm-provider__82_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:43", "kind": "provider", "key": "glm-provider__80_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100"]}
+{"time": "2026-10-27T23:54:48", "kind": "provider", "key": "glm-provider__80_a.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 477 (char 1387)"]}
+{"time": "2026-10-27T23:54:48", "kind": "provider", "key": "glm-provider__81_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "achievement without a figure: \"Advised a marine services firm on a local-first filing route\"", "achievement without a figure: \"Raised grant prospects for a precision engineering client th\"", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-27T23:54:51", "kind": "provider", "key": "glm-provider__80_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:53", "kind": "provider", "key": "glm-provider__83_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:55", "kind": "provider", "key": "glm-provider__82_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:54:57", "kind": "provider", "key": "glm-provider__81_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:03", "kind": "provider", "key": "glm-provider__84_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:09", "kind": "provider", "key": "glm-provider__84_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:11", "kind": "provider", "key": "glm-provider__83_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:13", "kind": "provider", "key": "glm-provider__84_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:18", "kind": "provider", "key": "glm-provider__84_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:20", "kind": "provider", "key": "glm-provider__83_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:21", "kind": "provider", "key": "glm-provider__83_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:25", "kind": "provider", "key": "glm-provider__82_c.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Wrote a new subcontractor vetting checklist adopted across t\"", "achievement without a figure: \"Advised an M&E services firm on documentation gaps ahead of \"", "achievement without a figure: \"Prepared benchmarking reports for six firms, each delivered \"", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-27T23:55:27", "kind": "provider", "key": "glm-provider__85_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:28", "kind": "provider", "key": "glm-provider__85_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:29", "kind": "provider", "key": "glm-provider__85_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:38", "kind": "provider", "key": "glm-provider__87_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:45", "kind": "provider", "key": "glm-provider__82_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:46", "kind": "provider", "key": "glm-provider__86_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:49", "kind": "provider", "key": "glm-provider__86_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:55:51", "kind": "provider", "key": "glm-provider__86_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:56:00", "kind": "provider", "key": "glm-provider__87_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:56:03", "kind": "provider", "key": "glm-provider__85_c.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Wrote a findings memo for a hotel operator's board covering \""]}
+{"time": "2026-10-27T23:56:05", "kind": "provider", "key": "glm-provider__87_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:56:05", "kind": "provider", "key": "glm-provider__86_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100", "achievement without a figure: \"Prepared a written opinion for a modular builder on concurre\"", "achievement without a figure: \"Ran contract workshops for a facilities management firm, cut\""]}
+{"time": "2026-10-27T23:56:13", "kind": "provider", "key": "glm-provider__87_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:56:28", "kind": "provider", "key": "glm-provider__88_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:56:33", "kind": "provider", "key": "glm-provider__89_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:56:39", "kind": "provider", "key": "glm-provider__88_b.md", "tries": 5, "ok": false, "errors": ["schema: achievements/0: {'text': 'Advised a warehouse developer on pile remediation, saving 12 weeks of delay.'} is not of type 'string'", "schema: achievements/1: {'text': 'Ran ground movement assessments for a 3-level basement beside shophouses.'} is not of type 'string'", "schema: achievements/2: {'text': 'Reviewed 40 retaining wall submissions as an independent checker over two years.'} is not of type 'string'", "schema: achievements/3: {'text': 'Cut steel costs 15 percent by redesigning a bored pile foundation scheme.'} is not of type 'string'", "schema: achievements/4: {'text': 'Prepared settlement monitoring frameworks for a 6-month excavation programme.'} is not of type 'string'", "service_detail \"Independent geotechnical design review and advice\" is 66 words; it must be 40-65"]}
+{"time": "2026-10-27T23:56:41", "kind": "provider", "key": "glm-provider__88_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}
+{"time": "2026-10-27T23:56:53", "kind": "provider", "key": "glm-provider__89_c.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a marine services company on fuel data workflows, ha\""]}
+{"time": "2026-10-27T23:56:57", "kind": "provider", "key": "glm-provider__88_d.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a warehouse developer on load capacity, avoiding a r\"", "achievement without a figure: \"Led an independent audit of a rooftop steel canopy for a sch\""]}
+{"time": "2026-10-27T23:56:58", "kind": "provider", "key": "glm-provider__89_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "achievement without a figure: \"Built a documented environmental management system across fo\"", "achievement without a figure: \"Ran internal audits for a warehousing operator covering twel\"", "achievement without a figure: \"Advised a food processing SME on a two-year compliance upgra\""]}
+{"time": "2026-10-27T23:57:01", "kind": "provider", "key": "glm-provider__90_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:01", "kind": "provider", "key": "glm-provider__89_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:09", "kind": "provider", "key": "glm-provider__90_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:09", "kind": "provider", "key": "glm-provider__91_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:10", "kind": "provider", "key": "glm-provider__92_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:12", "kind": "provider", "key": "glm-provider__91_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:20", "kind": "provider", "key": "glm-provider__90_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:30", "kind": "provider", "key": "glm-provider__90_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 56 words; it must be 70-100"]}
+{"time": "2026-10-27T23:57:30", "kind": "provider", "key": "glm-provider__92_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:38", "kind": "provider", "key": "glm-provider__93_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:45", "kind": "provider", "key": "glm-provider__93_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:47", "kind": "provider", "key": "glm-provider__92_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:49", "kind": "provider", "key": "glm-provider__91_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 65 words; it must be 70-100"]}
+{"time": "2026-10-27T23:57:55", "kind": "provider", "key": "glm-provider__93_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:57:58", "kind": "provider", "key": "glm-provider__91_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}
+{"time": "2026-10-27T23:58:01", "kind": "provider", "key": "glm-provider__92_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}
+{"time": "2026-10-27T23:58:11", "kind": "provider", "key": "glm-provider__93_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:15", "kind": "provider", "key": "glm-provider__94_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:25", "kind": "provider", "key": "glm-provider__94_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:30", "kind": "provider", "key": "glm-provider__95_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:31", "kind": "provider", "key": "glm-provider__94_d.md", "tries": 5, "ok": false, "errors": ["service_detail \"Project planning and delivery support\" is 69 words; it must be 40-65", "achievement without a figure: \"Advised two owners of family businesses on structuring their\""]}
+{"time": "2026-10-27T23:58:35", "kind": "provider", "key": "glm-provider__94_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:37", "kind": "provider", "key": "glm-provider__95_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:40", "kind": "provider", "key": "glm-provider__96_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:40", "kind": "provider", "key": "glm-provider__96_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:42", "kind": "provider", "key": "glm-provider__95_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:49", "kind": "provider", "key": "glm-provider__95_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-27T23:58:57", "kind": "provider", "key": "glm-provider__96_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:00", "kind": "provider", "key": "glm-provider__98_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:06", "kind": "provider", "key": "glm-provider__96_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:06", "kind": "provider", "key": "glm-provider__98_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:09", "kind": "provider", "key": "glm-provider__97_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:15", "kind": "provider", "key": "glm-provider__97_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:17", "kind": "provider", "key": "glm-provider__97_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:22", "kind": "provider", "key": "glm-provider__99_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:25", "kind": "provider", "key": "glm-provider__99_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:28", "kind": "provider", "key": "glm-provider__99_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:33", "kind": "provider", "key": "glm-provider__98_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Advised a hotel group on restructuring onboarding materials \"", "achievement without a figure: \"Reviewed safety briefings for a food factory and raised read\""]}
+{"time": "2026-10-27T23:59:36", "kind": "provider", "key": "glm-provider__99_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:36", "kind": "provider", "key": "glm-provider__98_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:37", "kind": "provider", "key": "glm-provider__100_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-27T23:59:47", "kind": "provider", "key": "glm-provider__97_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:00:09", "kind": "provider", "key": "glm-provider__100_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 65 words; it must be 70-100", "achievement without a figure: \"Built a multi-camera livestream studio setup in nine weeks f\"", "achievement without a figure: \"Advised a hospitality group's media unit on console upgrades\"", "achievement without a figure: \"Wrote cue and patch documentation for a three-set studio tha\""]}
+{"time": "2026-10-28T00:00:11", "kind": "provider", "key": "glm-provider__100_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:00:30", "kind": "provider", "key": "glm-provider__100_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 58 words; it must be 70-100", "achievement without a figure: \"Advised a heritage theatre management on rigging upgrades th\""]}
+{"time": "2026-10-28T00:11:14", "kind": "gig", "key": "G16", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:22", "kind": "provider", "key": "glm-provider__02_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:26", "kind": "provider", "key": "glm-provider__05_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:29", "kind": "provider", "key": "glm-provider__07_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:30", "kind": "provider", "key": "glm-provider__07_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:49", "kind": "provider", "key": "glm-provider__11_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:51", "kind": "provider", "key": "glm-provider__03_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:55", "kind": "provider", "key": "glm-provider__03_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:11:59", "kind": "provider", "key": "glm-provider__05_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:00", "kind": "provider", "key": "glm-provider__11_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 62 words; it must be 70-100"]}
+{"time": "2026-10-28T00:12:08", "kind": "provider", "key": "glm-provider__14_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:10", "kind": "provider", "key": "glm-provider__14_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:14", "kind": "provider", "key": "glm-provider__10_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Reduced off-hire disputes for a regional feeder line through\""]}
+{"time": "2026-10-28T00:12:16", "kind": "provider", "key": "glm-provider__14_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:17", "kind": "provider", "key": "glm-provider__12_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100"]}
+{"time": "2026-10-28T00:12:18", "kind": "provider", "key": "glm-provider__12_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 66 words; it must be 70-100", "service_detail \"Commodity Pricing Review and Valuation Memorandum\" is 66 words; it must be 40-65", "achievement without a figure: \"Ran quarterly benchmarking for a food importer's palm oil bo\"", "names a company or firm (\"holdings\"); describe the kind of organisation instead"]}
+{"time": "2026-10-28T00:12:30", "kind": "provider", "key": "glm-provider__13_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:32", "kind": "provider", "key": "glm-provider__13_d.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 345 (char 1123)"]}
+{"time": "2026-10-28T00:12:32", "kind": "provider", "key": "glm-provider__16_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:40", "kind": "provider", "key": "glm-provider__16_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:45", "kind": "provider", "key": "glm-provider__17_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:46", "kind": "provider", "key": "glm-provider__17_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:49", "kind": "provider", "key": "glm-provider__20_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:12:50", "kind": "provider", "key": "glm-provider__15_b.md", "tries": 5, "ok": false, "errors": ["service_detail \"End to end project delivery support\" is 68 words; it must be 40-65"]}
+{"time": "2026-10-28T00:12:59", "kind": "provider", "key": "glm-provider__15_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 63 words; it must be 70-100"]}
+{"time": "2026-10-28T00:13:00", "kind": "provider", "key": "glm-provider__16_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 61 words; it must be 70-100", "achievement without a figure: \"Advised a two-outlet cafe group on a metric framework now re\"", "achievement without a figure: \"Cut monthly reporting effort from five days to one at an onl\""]}
+{"time": "2026-10-28T00:13:08", "kind": "provider", "key": "glm-provider__20_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:16", "kind": "provider", "key": "glm-provider__33_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:17", "kind": "provider", "key": "glm-provider__17_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:21", "kind": "provider", "key": "glm-provider__16_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 60 words; it must be 70-100"]}
+{"time": "2026-10-28T00:13:22", "kind": "provider", "key": "glm-provider__21_d.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:34", "kind": "provider", "key": "glm-provider__21_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:35", "kind": "provider", "key": "glm-provider__26_b.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:38", "kind": "provider", "key": "glm-provider__25_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Reduced audit findings by half at a furniture manufacturer t\""]}
+{"time": "2026-10-28T00:13:41", "kind": "provider", "key": "glm-provider__39_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:13:49", "kind": "provider", "key": "glm-provider__30_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 60 words; it must be 70-100"]}
+{"time": "2026-10-28T00:13:53", "kind": "provider", "key": "glm-provider__34_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:02", "kind": "provider", "key": "glm-provider__34_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 65 words; it must be 70-100", "achievement without a figure: \"Led a licensed warehouse through two consecutive HSA inspect\""]}
+{"time": "2026-10-28T00:14:06", "kind": "provider", "key": "glm-provider__47_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:10", "kind": "provider", "key": "glm-provider__36_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:16", "kind": "provider", "key": "glm-provider__52_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:17", "kind": "provider", "key": "glm-provider__50_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:24", "kind": "provider", "key": "glm-provider__46_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100", "achievement without a figure: \"Rebuilt signage and wayfinding artwork for a six-outlet TCM \""]}
+{"time": "2026-10-28T00:14:24", "kind": "provider", "key": "glm-provider__43_a.md", "tries": 5, "ok": false, "errors": ["service_detail \"Fit-out and upgrading cost management service\" is 68 words; it must be 40-65"]}
+{"time": "2026-10-28T00:14:30", "kind": "provider", "key": "glm-provider__47_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:39", "kind": "provider", "key": "glm-provider__58_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:41", "kind": "provider", "key": "glm-provider__40_b.md", "tries": 5, "ok": false, "errors": ["service_detail \"Trade Finance Review and Structuring Advice\" is 71 words; it must be 40-65"]}
+{"time": "2026-10-28T00:14:45", "kind": "provider", "key": "glm-provider__50_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:51", "kind": "provider", "key": "glm-provider__63_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:14:55", "kind": "provider", "key": "glm-provider__54_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:01", "kind": "provider", "key": "glm-provider__60_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:01", "kind": "provider", "key": "glm-provider__59_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:04", "kind": "provider", "key": "glm-provider__56_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100", "service_detail \"High-Volume Pastry Production Programme\" is 69 words; it must be 40-65", "achievement without a figure: \"Advised two cafe owners on pastry line layout before their k\""]}
+{"time": "2026-10-28T00:15:05", "kind": "provider", "key": "glm-provider__56_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 60 words; it must be 70-100"]}
+{"time": "2026-10-28T00:15:06", "kind": "provider", "key": "glm-provider__64_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:10", "kind": "provider", "key": "glm-provider__58_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 57 words; it must be 70-100"]}
+{"time": "2026-10-28T00:15:10", "kind": "provider", "key": "glm-provider__71_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:14", "kind": "provider", "key": "glm-provider__72_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:20", "kind": "provider", "key": "glm-provider__67_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:24", "kind": "provider", "key": "glm-provider__74_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:37", "kind": "provider", "key": "glm-provider__75_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:39", "kind": "provider", "key": "glm-provider__64_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 68 words; it must be 70-100", "service_detail \"Safety Governance Review for Manufacturers\" is 72 words; it must be 40-65", "achievement without a figure: \"Ran evacuation and emergency preparedness drills for a food \"", "achievement without a figure: \"Prepared advisory briefings for a logistics workshop's board\"", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-28T00:15:41", "kind": "provider", "key": "glm-provider__64_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:46", "kind": "provider", "key": "glm-provider__74_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:15:56", "kind": "provider", "key": "glm-provider__75_a.md", "tries": 5, "ok": false, "errors": ["service_detail \"Safety documentation and briefing pack for factories\" is 71 words; it must be 40-65"]}
+{"time": "2026-10-28T00:15:59", "kind": "provider", "key": "glm-provider__77_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:00", "kind": "provider", "key": "glm-provider__73_a.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}
+{"time": "2026-10-28T00:16:07", "kind": "provider", "key": "glm-provider__79_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:11", "kind": "provider", "key": "glm-provider__76_c.md", "tries": 5, "ok": false, "errors": ["about_bio is 66 words; it must be 70-100"]}
+{"time": "2026-10-28T00:16:14", "kind": "provider", "key": "glm-provider__76_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 67 words; it must be 70-100"]}
+{"time": "2026-10-28T00:16:15", "kind": "provider", "key": "glm-provider__78_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:17", "kind": "provider", "key": "glm-provider__78_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:19", "kind": "provider", "key": "glm-provider__80_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:36", "kind": "provider", "key": "glm-provider__88_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:37", "kind": "provider", "key": "glm-provider__80_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:37", "kind": "provider", "key": "glm-provider__88_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:40", "kind": "provider", "key": "glm-provider__85_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:49", "kind": "provider", "key": "glm-provider__81_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Raised a foodtech startup's grant success after reviewing it\""]}
+{"time": "2026-10-28T00:16:50", "kind": "provider", "key": "glm-provider__91_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:16:51", "kind": "provider", "key": "glm-provider__82_c.md", "tries": 5, "ok": false, "errors": ["JSONDecodeError: Illegal trailing comma before end of object: line 10 column 438 (char 1245)"]}
+{"time": "2026-10-28T00:17:00", "kind": "provider", "key": "glm-provider__92_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:11", "kind": "provider", "key": "glm-provider__88_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:15", "kind": "provider", "key": "glm-provider__86_a.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:18", "kind": "provider", "key": "glm-provider__98_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:24", "kind": "provider", "key": "glm-provider__89_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:24", "kind": "provider", "key": "glm-provider__90_c.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Led a three-lawyer review of a trader's fuel procurement ter\""]}
+{"time": "2026-10-28T00:17:28", "kind": "provider", "key": "glm-provider__89_b.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Prepared metering data procedures that cleared a utility aud\""]}
+{"time": "2026-10-28T00:17:29", "kind": "provider", "key": "glm-provider__94_d.md", "tries": 5, "ok": false, "errors": ["about_bio is 62 words; it must be 70-100", "achievement without a figure: \"Advised a family-owned manufacturer on delivery governance a\""]}
+{"time": "2026-10-28T00:17:36", "kind": "provider", "key": "glm-provider__91_d.md", "tries": 5, "ok": false, "errors": ["service_detail \"Maintenance and Qualification Compliance Advisory\" is 67 words; it must be 40-65"]}
+{"time": "2026-10-28T00:17:41", "kind": "provider", "key": "glm-provider__100_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:47", "kind": "provider", "key": "glm-provider__100_c.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:17:59", "kind": "provider", "key": "glm-provider__15_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:02", "kind": "provider", "key": "glm-provider__12_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:07", "kind": "provider", "key": "glm-provider__11_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:08", "kind": "provider", "key": "glm-provider__13_d.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:09", "kind": "provider", "key": "glm-provider__16_b.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:11", "kind": "provider", "key": "glm-provider__25_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:14", "kind": "provider", "key": "glm-provider__10_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:20", "kind": "provider", "key": "glm-provider__12_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:21", "kind": "provider", "key": "glm-provider__43_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:26", "kind": "provider", "key": "glm-provider__15_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:29", "kind": "provider", "key": "glm-provider__56_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:35", "kind": "provider", "key": "glm-provider__58_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:43", "kind": "provider", "key": "glm-provider__16_c.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:47", "kind": "provider", "key": "glm-provider__46_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:52", "kind": "provider", "key": "glm-provider__75_a.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:53", "kind": "provider", "key": "glm-provider__30_c.md", "tries": 5, "ok": false, "errors": ["schema: achievements: ['Wrote 14 temperature-control SOPs for a vaccine wholesaler in 6 weeks.', 'Ran lane qualification for a biologics shipper across 9 regional routes.', 'Cut temperature excursions at a biotech distributor by 38 percent in one year.', 'Led a 40-warehouse readiness programme for a regional medical device firm.', 'Raised audit closure rate at a compounding pharmacy from 61 to 94 percent.', 'Prepared 5 logistics staff at a specialty importer for regulator interviews.'] is too long", "achievements has 6 items; it must have 3-5"]}
+{"time": "2026-10-28T00:18:54", "kind": "provider", "key": "glm-provider__56_a.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:18:57", "kind": "provider", "key": "glm-provider__40_b.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:01", "kind": "provider", "key": "glm-provider__81_b.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:03", "kind": "provider", "key": "glm-provider__76_d.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:06", "kind": "provider", "key": "glm-provider__34_a.md", "tries": 5, "ok": false, "errors": ["service_detail \"Stock Record Review and Remediation Advisory\" is 71 words; it must be 40-65", "achievement without a figure: \"Led a five-person inventory control team at a logistics grou\""]}
+{"time": "2026-10-28T00:19:09", "kind": "provider", "key": "glm-provider__73_a.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:10", "kind": "provider", "key": "glm-provider__64_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 63 words; it must be 70-100", "achievement without a figure: \"Wrote advisory reports for a furniture maker that cut lost-t\"", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-28T00:19:16", "kind": "provider", "key": "glm-provider__82_c.md", "tries": 2, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:34", "kind": "provider", "key": "glm-provider__90_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:34", "kind": "provider", "key": "glm-provider__76_c.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:37", "kind": "provider", "key": "glm-provider__91_d.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:19:40", "kind": "provider", "key": "glm-provider__94_d.md", "tries": 5, "ok": false, "errors": ["service_detail \"Project delivery planning and oversight engagement\" is 72 words; it must be 40-65"]}
+{"time": "2026-10-28T00:19:46", "kind": "provider", "key": "glm-provider__89_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 54 words; it must be 70-100"]}
+{"time": "2026-10-28T00:19:59", "kind": "provider", "key": "glm-provider__30_c.md", "tries": 1, "ok": true, "errors": []}
+{"time": "2026-10-28T00:20:25", "kind": "provider", "key": "glm-provider__94_d.md", "tries": 5, "ok": true, "errors": []}
+{"time": "2026-10-28T00:20:27", "kind": "provider", "key": "glm-provider__89_b.md", "tries": 4, "ok": true, "errors": []}
+{"time": "2026-10-28T00:20:30", "kind": "provider", "key": "glm-provider__64_b.md", "tries": 5, "ok": false, "errors": ["service_detail \"Management advisory on workplace safety compliance\" is 67 words; it must be 40-65", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-28T00:20:30", "kind": "provider", "key": "glm-provider__34_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Led a four-person team rebuilding traceability files for a d\""]}
+{"time": "2026-10-28T00:21:15", "kind": "provider", "key": "glm-provider__64_b.md", "tries": 5, "ok": false, "errors": ["service_detail \"Workplace Safety Compliance Advisory for SMEs\" is 67 words; it must be 40-65", "shares a run of six words with the gig; reword"]}
+{"time": "2026-10-28T00:21:23", "kind": "provider", "key": "glm-provider__34_a.md", "tries": 5, "ok": false, "errors": ["achievement without a figure: \"Led a three-person team clearing a nine-month stores documen\"", "achievement without a figure: \"Prepared a remediation plan that management adopted within o\""]}
+{"time": "2026-10-28T00:21:52", "kind": "provider", "key": "glm-provider__34_a.md", "tries": 3, "ok": true, "errors": []}
+{"time": "2026-10-28T00:22:07", "kind": "provider", "key": "glm-provider__64_b.md", "tries": 5, "ok": false, "errors": ["about_bio is 69 words; it must be 70-100"]}

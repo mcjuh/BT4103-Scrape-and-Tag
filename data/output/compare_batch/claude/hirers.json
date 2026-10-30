@@ -1,0 +1,2574 @@
+[
+ {
+  "source_file": "crafted-gig__01_internal-wsh-management.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-0ba0ab31",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Internal WSH Management System Audit for Fuel Depot",
+  "short_description": "Looking for a WSH auditor to carry out an internal audit of the workplace safety and health management system at our fuel storage and distribution depot. We are an energy logistics company with two tank farms and about 90 staff. The auditor would review our risk assessments, permit-to-work records, contractor controls and emergency drills against bizSAFE Level 3 and MOM requirements, interview supervisors on site, and log each finding with evidence. Deliverable: a completed audit report with a findings register and a corrective action tracker. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "Auditor must be registered with MOM as a WSH auditor.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Workplace Safety and Health",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "System Audit",
+       "search_tag": "System Audit (Workplace Safety and Health)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__02_operating-model-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-46c2d3d3",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Operating Model Review for Electronics Training Workshop",
+  "short_description": "A private technical training institute runs an electronics assembly workshop for about 200 students a year and wants it run more leanly. An independent adviser is needed to review how component stock, equipment maintenance and supplier ordering are managed today, and to recommend a simpler operating model with clear owners. Deliverable: a written operations review with a prioritised set of recommendations for the institute's management. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Electronics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Management",
+       "search_tag": "Management (Electronics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__03_hardware-distributor-sourcing.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c3cbbf4e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Hardware Distributor Sourcing and Reorder Rule Redesign",
+  "short_description": "Looking for a procurement and sourcing specialist to restructure how we buy hardware for resale. We distribute networking and server equipment to software and managed-service firms, work with about 40 active suppliers, and write off roughly S$1.2 million of slow stock a year. The specialist would review our supplier base and purchasing terms, rebuild our reorder rules, prepare a sourcing playbook, and brief our directors on the trade-offs. Deliverable: a supplier consolidation plan, a reorder-rule workbook and a sourcing policy document. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Wholesale Trade",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operations, Procurement and Sourcing",
+       "search_tag": "Operations, Procurement and Sourcing (Wholesale Trade)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__04_mystery-shopping-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-d9b386e7",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Mystery Shopping Review of Law Practice Intake Counters",
+  "short_description": "Looking for someone to run mystery shopping visits across the four walk-in intake counters of our law practice, which advises freight forwarders and warehouse operators on contract and cargo disputes. The shopper would pose as a prospective client with a short scripted query, then score the greeting, clarity of advice, fee explanation and follow-up against our checklist, and note anything that could mislead a client. Deliverable: a scored visit report for each counter with short recommendations for the managing partner. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__05_demurrage-and-detention.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-0fe015f7",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Demurrage and Detention Claims for Reefer Imports",
+  "short_description": "I run a frozen seafood import business that brings reefer containers in from Indonesia and Vietnam. Over the last year about 60 containers sat at port beyond their free days, and we think some charges were wrongly billed. I need a shipping claims specialist to rebuild the day counts from the bills of lading and gate records, prepare each claim file, and draft the dispute letters to the shipping lines. Deliverable: a set of completed claim packs with calculations and supporting documents. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Sea Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Shipping and Maritime Services",
+       "search_tag": "Shipping and Maritime Services (Sea Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__06_process-operations-staff.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-1022772b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Process Operations Staff Handbook Section for Chemical Plant",
+  "short_description": "We make hospital-grade disinfectants and cleaning chemicals for clinics and hospitals from a small plant in Tuas. We need an experienced process person to write the operations section of our staff handbook: shift handover, batch records, line clearance and how deviations are escalated. Turn our existing procedures and rough notes into plain rules for operators, and flag any procedure that looks unsafe or inconsistent. Deliverable: a finished handbook section of about 12 pages in our template. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__07_residents-shuttle-bus.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-9f85a88a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Residents' Shuttle Bus Operating Plan and Licence Application",
+  "short_description": "A property developer with a large housing estate under construction in the west is setting up a free shuttle for residents moving into its first completed blocks. The first phase will hand over roughly 1,800 homes, so the service has to be sized carefully. It wants a bus operations expert to design the route and timetable, size the fleet and driver roster, build the cost model, and complete the application documents for the Land Transport Authority. Deliverable: a finished bus operating plan with timetable, roster and cost model, and the completed licence application set. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Public Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Bus Operations",
+       "search_tag": "Bus Operations (Public Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__08_genetic-counselling-materials.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-9dacc68b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Genetic Counselling Materials for Employer Screening Package",
+  "short_description": "We are a corporate health consultancy serving mid-sized employers, and we are adding a hereditary cancer screening option to our packages. We need a genetic counsellor to write the pre-test counselling script and consent information sheet, and to advise how results should be disclosed and when to refer people on. Deliverable: a counselling script, a participant information sheet and a one-page disclosure and referral guide. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "Counsellor should hold a recognised genetic counselling qualification.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Healthcare",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Genetic Counselling",
+       "search_tag": "Genetic Counselling (Healthcare)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__09_registered-design-infringement.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-a4ef44fc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Registered Design Infringement Opinion for Storage Products",
+  "short_description": "We need an IP lawyer to advise whether a competitor's new range of stackable storage bins infringes our registered designs, and what we can do about it. We are a plastics moulding manufacturer and the bins are one of our best sellers, so the position matters. Deliverable: a written infringement opinion with recommended next steps. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "Counsel must be admitted to practise in Singapore.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Intellectual Property",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "IP Legal",
+       "search_tag": "IP Legal (Intellectual Property)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__10_technical-production-for.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-ec1abf03",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Technical Production for Shipyard Anniversary Dinner",
+  "short_description": "A shipyard group is hosting its anniversary dinner for about 600 guests in a convention hall and needs a technical production specialist to build the show. The specialist would design the lighting and audio-visual setup, plan the rigging, write the cue sheet, and run the technical rehearsal the day before. Deliverable: a finished lighting plan, AV rig drawing and show cue sheet. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Arts",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical Theatre & Production",
+       "search_tag": "Technical Theatre & Production (Arts)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__11_mystery-shopping-across.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-8713849f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Mystery Shopping Across Garden Centre Outlets",
+  "short_description": "A garden centre and landscaping retailer with five outlets in Singapore wants mystery shopping visits to check how staff advise customers on plants, planting services and installation quotes. The shopper would visit each outlet twice with a short scripted enquiry, score product advice, quote clarity and follow-up, and compare the outlets against one another. Deliverable: a scored comparison report for all five outlets with recommendations for management. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__12_succession-and-leadership.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-947f0d7f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Succession and Leadership Framework for Social Service Agency",
+  "short_description": "A social service agency with about 300 staff and volunteers needs a talent management specialist to build its succession and leadership development framework. The specialist would define the critical roles, design the competency model, and prepare talent review templates and a development plan for the 20 identified successors. Deliverable: a finished succession framework with competency model, review templates and individual development plans. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "Budget is S$15,000-20,000.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Human Resource",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Talent Management",
+       "search_tag": "Talent Management (Human Resource)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__13_quality-assurance-capability.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-49c26410",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Quality Assurance Capability Deck Redesign",
+  "short_description": "We need our quality assurance capability deck redesigned into clear, consistent slides. We are an engineering services company that installs and commissions equipment for food factories, and clients often ask how we control quality and hygiene during installation. The current 38 slides are crowded, inconsistent and hard to follow. The designer would restructure the story, redraw the process diagrams and apply our brand colours and fonts. Brand guidelines and the original deck will be shared on day one. Deliverable: a finished redesigned deck of about 25 slides with an editable master template. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__14_customer-enquiry-mailbox.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-5ee8650f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Customer Enquiry Mailbox Backlog Clearance",
+  "short_description": "We are the logistics section of a public agency with six depots, and our shared customer enquiries mailbox has about 900 unanswered emails. We need someone to sort and categorise them, draft replies for our officers to send, and advise which enquiries keep recurring. Deliverable: a cleared mailbox with a categorised log and 10 template replies. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__15_build-or-buy.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-af057691",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Build or Buy Assessment for Client Portal",
+  "short_description": "I run a Singapore wealth management firm and we are deciding whether to build or buy a client portal. I need an experienced product development adviser to assess our requirements, compare the build and buy options on cost and risk, and recommend an approach. We have 3,000 clients and a small in-house technology team. Deliverable: a build-or-buy assessment report with a recommended product roadmap. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Product Development",
+       "search_tag": "Product Development (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__16_housekeeping-standards-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-ffb9a2d1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Housekeeping Standards and Staffing Model for Crew Lodge",
+  "short_description": "We operate a crew lodge with 280 rooms used by offshore and energy sector workers on rotation, and housekeeping complaints are rising. We need a housekeeping specialist to audit current practice, redesign the room standards and cleaning schedules, set staffing levels for the busy changeover days, and advise our facilities manager on contractor management and supply costs. Cleaning is done by a contractor with about 35 staff on two shifts. Deliverable: a housekeeping standards manual with cleaning schedules, a staffing model and a short advisory note on contractor terms. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Hotel and Accommodation Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Housekeeping",
+       "search_tag": "Housekeeping (Hotel and Accommodation Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__17_quality-manual-copy.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-4742f34e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Quality Manual Copy-Edit Before Regulatory Inspection",
+  "short_description": "A contract biopharmaceutical manufacturer has rewritten its 90-page quality manual ahead of an inspection and wants it proofread and copy-edited. The editor should fix grammar and consistency, check that SOP references and terms match throughout, and flag any statements that look unclear or unsupported. Deliverable: a clean edited manual with a tracked-changes copy and a short list of flagged issues. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__18_customer-list-clean.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-58a7eb2d",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Customer List Clean-up for Harbour Cruise Operator",
+  "short_description": "I run a harbour cruise and marine attraction business with a customer list of about 6,000 entries spread over three spreadsheets, with duplicates and missing details. I need someone to merge and de-duplicate the records, standardise names and contact fields, fill obvious gaps, and advise how to keep the list clean in future. Deliverable: a single cleaned customer workbook with a short data-quality guide. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__19_course-slide-deck.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-7c02191f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Course Slide Deck Redesign for Healthcare Training Centre",
+  "short_description": "A healthcare training centre that runs continuing education courses for nurses and allied health staff wants its flagship 60-slide course deck redesigned. The specialist would restructure the learning flow, rewrite slides in plain language, redraw the diagrams and add short knowledge checks, and advise the trainers on pacing. Deliverable: a redesigned slide deck with trainer notes and an editable master template. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": "Start date should be within the next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__20_review-of-auxiliary.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-573db8d5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review of Auxiliary Police Unit Deployment and Orders",
+  "short_description": "A financial services group that runs its own auxiliary police unit across 12 premises wants an independent expert to review how the unit is deployed and what its standing orders say. The expert would compare them with the legal requirements for auxiliary police forces and recommend changes. Deliverable: a written review of deployment, training and powers with a prioritised recommendation list for management. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Security",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Auxiliary Police",
+       "search_tag": "Auxiliary Police (Security)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__21_production-scheduling-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-710e8e42",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Production Scheduling and Capacity Plan for Machining Workshop",
+  "short_description": "We need someone to rebuild the production scheduling and capacity plan for the prototype machining workshop that sits inside our engineering consultancy. The shop has 14 CNC machines and about 30 active jobs, and late deliveries are common. The specialist would map the current flow, set up a realistic weekly schedule and load plan, and train the workshop supervisor to run it. Deliverable: a working scheduling workbook, a capacity plan and a one-page procedure for the supervisor. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Precision Engineering",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Management",
+       "search_tag": "Management (Precision Engineering)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__22_copy-edit-of.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-55b90cdc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Copy-Edit of Carbon Credit Due Diligence Guide",
+  "short_description": "We are a carbon credit brokerage serving logistics and shipping companies that want to offset their emissions. We need an experienced editor to proofread and copy-edit our 70-page due diligence guide for clients, check that terms and numbers are consistent, and flag any claims that could be read as misleading. Deliverable: a clean edited guide, a tracked-changes copy and a list of flagged claims. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__23_dementia-day-care.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c56e3de6",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Dementia Day Care Programme Operating Manual",
+  "short_description": "A public agency that funds 15 community care centres wants a specialist to write the operating manual for a new dementia day care programme. The specialist would set admission criteria, a weekly activity programme, staffing ratios, and incident and safeguarding procedures. Deliverable: a complete programme operating manual with templates for assessment, care plans and incident reports. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Social Service",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Care and Programme",
+       "search_tag": "Care and Programme (Social Service)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__24_rooftop-urban-farm.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-95a652dc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Rooftop Urban Farm Feasibility Study for Restaurant Group",
+  "short_description": "A restaurant group with eight outlets wants to grow some of its own leafy greens and herbs on a rooftop of about 400 square metres that gets sun for most of the day. It needs an urban agriculture adviser to assess the site, compare growing systems, estimate costs and yields, and recommend what to try first. Deliverable: a feasibility report with a recommended system, crop plan and cost estimate. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": "A site visit is needed in the first two weeks.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Agrifood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Agriculture",
+       "search_tag": "Agriculture (Agrifood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__25_aircraft-maintenance-tracking.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-eecb34d0",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Aircraft Maintenance Tracking Schedule for Medical Flight Charity",
+  "short_description": "We are a non-profit that supports medical evacuation flights and leases three light aircraft from operators. We need a fleet management specialist to build a maintenance and airworthiness tracking schedule covering inspections, component life limits and lease return conditions. Deliverable: a working tracking workbook filled with our current records, and a one-page guide for our operations officer. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Aerospace",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Fleet Management",
+       "search_tag": "Fleet Management (Aerospace)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__26_menu-development-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-0af698f3",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Menu Development and Training for Clubhouse Bakery Cafe",
+  "short_description": "A property developer is fitting out a bakery cafe inside a new residential clubhouse and has not yet hired a baker. It wants a pastry and baking specialist to develop 12 core products, test and write the recipes, cost each item, advise the fit-out contractor on ovens and equipment, and train the two staff who will run the counter. The cafe will seat about 30 residents and sell takeaway boxes on weekends. Deliverable: a recipe book with costings, an equipment list with layout notes and a training checklist. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget is S$8,000-10,000.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Pastry and Baking",
+       "search_tag": "Pastry and Baking (Food Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__27_retention-focused-design.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-449dd977",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Retention-Focused Design Review of Puzzle Game",
+  "short_description": "We are a Singapore mobile games studio with a puzzle game that has 80,000 monthly players but weak retention after day three. We need a game design adviser to review the first seven days of play, the difficulty curve and the reward and monetisation loops, and recommend specific changes to test. We can share a current build and anonymised player data. Deliverable: a written design review with a ranked list of recommended changes and test ideas. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Media",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Game Design",
+       "search_tag": "Game Design (Media)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__28_mandate-pipeline-dashboard.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-cdce6798",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Mandate Pipeline Dashboard for Project Financing Advisers",
+  "short_description": "An engineering consultancy that advises developers on financing infrastructure projects wants a simple Power BI or Excel dashboard to track its 40 live mandates by stage, expected fee and time to financial close. The specialist would advise which measures the partners should watch, connect the existing tracking spreadsheets and build the dashboard. The partners currently rely on a monthly email summary that is often late. Deliverable: a working dashboard, a metric definitions sheet and a short guide to refreshing it. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__29_family-office-investment.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-3692f499",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Family Office Investment Policy and Reporting Template",
+  "short_description": "I own a Singapore retail and consumer brands group and I am setting up a small family office for the proceeds of a recent share sale. I need a specialist to prepare the family office's investment policy statement, asset allocation schedule and a consolidated reporting template. I have about S$30 million to place. Deliverable: a finished investment policy statement, an allocation schedule and a reporting template. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Financial Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Family Office",
+       "search_tag": "Family Office (Financial Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__30_retail-operations-set.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-f1bda2a1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Retail Operations Set-up for School Campus Shop",
+  "short_description": "A private school runs a uniform and stationery shop and two snack kiosks on campus, staffed by part-timers and parent volunteers, with annual turnover of about S$600,000. It wants a retail operations specialist to set up stock counts, opening and closing routines and a simple daily sales report, and to advise on pricing and reordering. Deliverable: written store procedures, a stock count workbook and a daily sales report template. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Retail",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Retail Operations",
+       "search_tag": "Retail Operations (Retail)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__31_share-valuation-report.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-67bf8f10",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Share Valuation Report for Freight Forwarder Buyout",
+  "short_description": "I run a freight forwarding and warehousing company and I am buying out a minority shareholder. The company has annual revenue of about S$18 million and 70 staff. I need a valuation analyst to prepare a valuation using discounted cash flow and market multiples, based on three years of accounts. Deliverable: a completed valuation workbook and a short valuation report listing the assumptions. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Accountancy",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Business Valuation",
+       "search_tag": "Business Valuation (Accountancy)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__32_english-to-chinese.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-dd7247f6",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "English to Chinese Translation of Hazardous Waste Guide",
+  "short_description": "We are a statutory board that oversees treatment and disposal facilities for industrial and hazardous waste. We need an experienced translator who understands environmental engineering to translate our 40-page guide on hazardous waste handling from English into Chinese for contractors and site workers. The translator should build a glossary of technical terms, flag passages where the English is ambiguous, and advise on wording that workers will understand. Deliverable: the full Chinese translation, a bilingual glossary and a short list of flagged passages. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__33_independent-review-of.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-e4cc482a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Review of Delayed Hospital Extension Project",
+  "short_description": "We need an independent construction manager to review the delay and cost position of our hospital wing extension and advise on recovery options. We are a private hospital group, and the 6-storey extension is 4 months behind with a dispute building over variation claims. The reviewer would read the programme, progress reports and claims, interview the project team, and advise on recovery measures and our negotiating position. Deliverable: a written review with a recovery options paper and a recommended negotiating position. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "Reviewer must have no prior involvement with the main contractor.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Built Environment",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Construction Management",
+       "search_tag": "Construction Management (Built Environment)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__34_management-structure-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-cd5ff105",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Management Structure Review for Marine Services Fleet",
+  "short_description": "We need a marine general manager to review how our small tug and barge fleet is organised and run. We are a property developer, and the fleet of 9 vessels supports our reclamation works, with about 60 crew and shore staff. The reviewer would check costs and responsibilities, propose a clearer management structure, and design the monthly report our board should see. Deliverable: a review memo, a revised organisation chart with role descriptions and a monthly management report template. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Marine and Offshore",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "General Management",
+       "search_tag": "General Management (Marine and Offshore)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__35_member-communications-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-1416510a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Member Communications Review for Education Trade Association",
+  "short_description": "We are a trade association for private schools and training providers in Singapore, with about 120 members. Our newsletter and social media channels get little engagement, and members tell us they do not see the value of what we do. We want a communications adviser to review our channels, member feedback and past content, and recommend a simple plan for what to publish, how often and to whom. Deliverable: a written communications review with a recommended 6-month content plan. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Trade Associations and Chambers",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Branding, Marketing and Communications",
+       "search_tag": "Branding, Marketing and Communications (Trade Associations and Chambers)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__36_rooftop-solar-design.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-b4688624",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Rooftop Solar Design and Grid Connection for Food Factory",
+  "short_description": "A food manufacturer with a 6,000 square metre factory roof wants to install solar panels. The factory runs two shifts and pays commercial tariffs. The specialist would size the system from 12 months of electricity data, prepare the electrical single-line diagram and panel layout, and complete the grid connection application. Deliverable: a design package with sizing report, layout drawings and a completed connection application. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Power",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Distributed Generation",
+       "search_tag": "Distributed Generation (Energy and Power)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__37_workflow-review-for.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-68718ff7",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Workflow Review for In-House Design Team",
+  "short_description": "Our energy services company has a four-person in-house design team that handles reports, presentation material and signage for the whole business. Requests arrive by email and chat with no priority and no tracking. We want a design business adviser to review how the team takes in and prioritises work, and recommend a simple intake process and service levels. Deliverable: a short review with a recommended workflow and request form. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Design",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Business",
+       "search_tag": "Business (Design)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__38_helicopter-pilot-duty.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-15f1431e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Helicopter Pilot Duty Roster and Flight Time Rules",
+  "short_description": "We are an offshore support company that charters helicopters to carry crews to rigs and vessels. Flights run seven days a week. We need a pilot operations specialist to prepare a duty and rest plan for our contractor's six pilots, including standby and rest rules that meet the regulator's flight time limitations. Deliverable: a 3-month pilot roster, a duty time rules document and a rostering workbook for our operations controller. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Air Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Pilot Operations",
+       "search_tag": "Pilot Operations (Air Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__39_parent-workshop-slide.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-7bc39c41",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Parent Workshop Slide Deck Redesign for Preschool App",
+  "short_description": "An education technology company that makes a learning app for preschoolers runs a monthly 45-minute online workshop for parents, with a 35-slide deck that parents find dense. It wants the deck redesigned with a clearer story and simple visuals, plus advice on how to present it to parents. Deliverable: a redesigned deck with speaker notes and an editable template. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__40_corporate-wsh-policy.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-33bc1672",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Corporate WSH Policy Suite for Engineering Consultancy",
+  "short_description": "Looking for a workplace safety and health specialist to prepare the corporate WSH policy suite for our engineering consultancy, whose staff now inspect client sites. We need a policy statement, a hazard reporting procedure, a site visit risk assessment template and an incident reporting form that meet MOM requirements, written for about 80 staff. Deliverable: the finished policy suite with templates in editable form. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Workplace Safety and Health",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Corporate",
+       "search_tag": "Corporate (Workplace Safety and Health)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__41_device-repair-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-b86eb8ba",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Device Repair and Testing Process for Charity Refurbishment Workshop",
+  "short_description": "Our charity runs a workshop that refurbishes donated laptops and other electronics for low-income families, and the repairs are done by volunteers with little structure. About 400 devices come through each month. We need an electronics engineer to design the repair and testing process, write the test procedures, and advise on tools, safety and the skills volunteers need. Deliverable: a documented repair and testing process with test checklists, a tools and safety list and a volunteer skills guide. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Electronics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical and Engineering",
+       "search_tag": "Technical and Engineering (Electronics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__42_sales-diagnostic-for.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-3de33138",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Sales Diagnostic for Frozen Food Distributor",
+  "short_description": "A frozen food importer and distributor with about 300 restaurant and retail customers wants to understand why its sales growth has stalled. Revenue is about S$40 million with a sales team of 12. It needs a sales adviser to analyse sales by customer, product and salesperson, interview the team and key customers, and recommend changes to account coverage, pricing and incentives. Deliverable: a written sales diagnostic with a recommended account coverage model and incentive scheme. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "Findings are to be presented to the board in person.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Wholesale Trade",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Trading and Sales",
+       "search_tag": "Trading and Sales (Wholesale Trade)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__43_contract-filing-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-632481f5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Contract Filing and Register Backlog Clearance",
+  "short_description": "We need someone to clear the administrative backlog in our retail group's in-house legal team. About 350 signed contracts are unfiled, the contract register is a year out of date, and 60 renewal reminders have lapsed. The person would sort and file the contracts, update the register, chase missing signatures and flag expiring agreements for the lawyers. Deliverable: an up-to-date contract register, a filed contract set and a list of agreements expiring within 90 days. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": "Candidate must sign a confidentiality agreement before starting.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__44_second-hand-bulk.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-952b507d",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Second-Hand Bulk Carrier Investment Assessment",
+  "short_description": "I run a family office that is considering buying a second-hand bulk carrier as an investment. I need an expert shipping adviser to assess the vessel's market value, expected earnings and risks, and to advise whether to buy at the asking price. Deliverable: a written vessel investment assessment with a valuation range and a buy or no-buy recommendation. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": "A vessel inspection report will be shared once an NDA is signed.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Sea Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Shipping",
+       "search_tag": "Shipping (Sea Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__45_cooling-water-treatment.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-07397e11",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Cooling Water Treatment Programme Recommendation",
+  "short_description": "Our engineering services firm supports chemical plants with maintenance and inspection. A client has asked us to recommend a replacement cooling water treatment programme, and we have no chemistry expertise in house. We need an expert technical service chemist to review the plant's water data and current programme, recommend a treatment chemistry and dosing approach, and explain the risks to our engineers and the client. The plant has two cooling towers and has had repeated scaling in the heat exchangers. Deliverable: a written technical recommendation comparing options, expected performance and risks. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Chemicals",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical Services, Application and Product Development",
+       "search_tag": "Technical Services, Application and Product Development (Energy and Chemicals)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__46_shunting-procedures-rewrite.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c51dffd9",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Shunting Procedures Rewrite for Plant Rail Siding",
+  "short_description": "We need a rail operations specialist to review and rewrite the shunting procedures for the private rail siding at our manufacturing plant, and to advise on staffing and training. About 20 wagons move on site each day. Two shunters work each shift. Deliverable: a rewritten shunting procedures manual and a short staffing and training recommendation. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Public Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Rail Operations",
+       "search_tag": "Rail Operations (Public Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__47_speech-and-swallowing.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-fd26bff5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Speech and Swallowing Advice for Retirement Community Care Wing",
+  "short_description": "We are a property developer planning a retirement community with a care wing for about 150 residents, many with speech or swallowing difficulties. We need an expert speech therapist to advise our design team on dining areas, communal spaces and call systems, and to outline the staff training and screening the wing will need. Deliverable: an advisory report with design recommendations, a staff training outline and a screening protocol. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Healthcare",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Speech Therapy",
+       "search_tag": "Speech Therapy (Healthcare)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__48_brand-and-recipe.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-9dba7d31",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Brand and Recipe IP Protection Plan for Sauce Maker",
+  "short_description": "I run a sauce and condiments brand and need help planning how to protect it. I need an IP strategy specialist to review our assets (name, logo, packaging and recipes), recommend what to register and where, and prepare the trade mark filing list. Deliverable: an IP audit summary, a registration plan with costs and a trade mark filing list. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Intellectual Property",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "IP Strategy",
+       "search_tag": "IP Strategy (Intellectual Property)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__49_independent-technical-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-e2bd6773",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Technical Review of Investor Event Production",
+  "short_description": "We need an experienced technical production adviser to review our plans for a 900-guest annual investor event at a convention centre, with a stage, LED wall, live streaming and a short musical performance. We have a production vendor but want an independent view on whether the lighting, rigging, sound and streaming plans are realistic and safe. The adviser would read the vendor's plans, visit the venue and advise on gaps. Deliverable: a written review of the vendor's plans with a risk list and recommended changes. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Arts",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical Theatre & Production",
+       "search_tag": "Technical Theatre & Production (Arts)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__50_tree-survey-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-57f15e66",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Tree Survey and Protection Advice for Housing Estate Roads",
+  "short_description": "A civil engineering consultancy designing the access roads for a new housing estate has 120 existing trees on the site, including mature rain trees along the proposed road corridor, and needs an arborist's advice before it finalises the layout. The arborist would survey the trees, assess their health and structure, advise which to retain, transplant or remove, and recommend protection measures during construction in line with National Parks Board requirements. Deliverable: a tree survey schedule with condition ratings, retention recommendations and a tree protection plan. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Landscape",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Arboriculture",
+       "search_tag": "Arboriculture (Landscape)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__51_job-grades-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c107e8c1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Job Grades and Pay Bands for Consulting Firm",
+  "short_description": "Our consulting firm has 90 consultants and no formal grading or pay bands, so each offer has been negotiated one at a time. We need a rewards specialist to build the job grade structure, set pay bands for each grade and benchmark them against the market. Deliverable: a grade structure, pay bands by grade and a benchmark summary workbook. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Human Resource",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Performance and Rewards",
+       "search_tag": "Performance and Rewards (Human Resource)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__52_shelf-stable-meal.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-50d59462",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Shelf-Stable Meal Pack Development for Emergency Reserve",
+  "short_description": "Looking for a food technologist to develop a ready-to-eat, shelf-stable meal pack for a public agency's emergency food reserve. The pack must keep for 24 months without refrigeration, meet nutrition guidelines and suit local tastes. The specialist would run bench trials, plan shelf life testing, and advise on packaging and the production specification. Deliverable: three tested prototype recipes, a shelf life test plan and a draft product specification. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Research and Development",
+       "search_tag": "Research and Development (Food Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__53_school-bus-network.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-33a10ef2",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "School Bus Network Design and Tender Pack",
+  "short_description": "Looking for a transport operations specialist to design the bus network for an international school with 1,800 students living across 40 estates. The school runs one bell schedule and wants rides capped at 50 minutes. The specialist would cluster pick-up points, build routes and timetables, size the fleet and driver roster, and prepare a tender pack for bus operators. Deliverable: a route and timetable plan, a fleet and roster model, and a tender pack ready to issue. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Logistics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Transportation Management and Operations",
+       "search_tag": "Transportation Management and Operations (Logistics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__54_customer-churn-prediction.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-51cd5be6",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Customer Churn Prediction Model for Subscription Software",
+  "short_description": "We need a data specialist to build a customer churn prediction model for our subscription software product. We have 18 months of usage and billing data for about 3,000 customers in a data warehouse. The specialist would prepare the features, train and test a model, check it against a simple baseline, and package the scoring as a weekly job that writes a risk list to our customer success team's sheet. Deliverable: a documented churn model, a weekly scoring script and a short model performance note. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Data and Artificial Intelligence",
+       "search_tag": "Data and Artificial Intelligence (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__55_booking-listings-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-5250d8a5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Booking Listings and Agent Rates for Medical Traveller Residence",
+  "short_description": "We operate a serviced residence near a hospital cluster for medical travellers and their families. Our bookings come from agents and walk-ins, and our online presence is weak. We need a hotel marketing specialist to set up our listings on booking platforms, write the room and package descriptions, and build a simple agent rate sheet. Deliverable: live listings on three platforms, a finished set of descriptions and an agent rate sheet. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Hotel and Accommodation Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Sales and Marketing",
+       "search_tag": "Sales and Marketing (Hotel and Accommodation Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__56_pre-acquisition-management.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-48fdc2d4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Pre-Acquisition Management Review of Contract Manufacturing Plant",
+  "short_description": "I run a consumer health retail brand and am considering buying a small contract manufacturing plant. I need an experienced biopharma general manager to assess the plant's management team, operations and compliance state, and to advise me on the main risks and a 100-day plan. Deliverable: a management and operations risk memo with a 100-day plan outline. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "BioPharmaceuticals Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "General Management",
+       "search_tag": "General Management (BioPharmaceuticals Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__57_trip-planning-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-5c696a69",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Trip Planning and Risk Review for Respite Travel Charity",
+  "short_description": "I run a charity that organises overseas respite trips for seniors and people with disabilities. We run about 12 trips a year with 15 to 30 travellers each, using volunteers as escorts. I need a travel operations adviser to review how we plan trips, choose suppliers, handle medical needs and deal with emergencies, and to recommend a simple planning process and risk checklist. Deliverable: a written review with a recommended trip planning process and an emergency checklist. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Tourism",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Travel Management and Operations",
+       "search_tag": "Travel Management and Operations (Tourism)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__58_learning-management-system.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c8ccd099",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Learning Management System Set-up for Logistics Staff",
+  "short_description": "Our logistics company has 600 warehouse and driver staff and no way to track training. We need a specialist to configure the learning platform we have licensed, load 30 existing courses, set up learning paths by role, and build the completion reports our supervisors need. Deliverable: a working system with courses, learning paths and reports, and an admin guide. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Training and Adult Education",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Learning Management",
+       "search_tag": "Learning Management (Training and Adult Education)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__59_security-guarding-tender.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c6c36422",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Security Guarding Tender Specification for Energy Terminals",
+  "short_description": "An energy terminal operator is retendering its security guarding contract for two sites with 40 guard posts. It needs a private security specialist to review current post orders and deployment, write the technical specification for the tender, and advise on how bids should be scored. Deliverable: a guard deployment review, a tender technical specification and a bid scoring sheet. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Security",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Private Security",
+       "search_tag": "Private Security (Security)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__60_root-cause-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-135c32e4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Root Cause Review of Subsea Valve Seat Failures",
+  "short_description": "Our company supplies subsea valves for offshore projects, and a precision-machined seat component has failed leak tests on 6 of the last 40 units. We need an expert precision engineer to review the drawings, machining process and inspection data and advise on the likely root causes and what to change first. Deliverable: a written root cause assessment with ranked corrective actions. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Precision Engineering",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical and Engineering",
+       "search_tag": "Technical and Engineering (Precision Engineering)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__61_carbon-offset-policy.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-95eb6446",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Carbon Offset Policy and Credit Vetting Framework for Foundation",
+  "short_description": "I run a foundation that emits about 1,200 tonnes of carbon a year across its offices and programmes, and I want to buy credits with proper controls. I need a carbon market specialist to prepare an offset policy, a project vetting checklist and a register template for retired credits. Deliverable: a carbon offset policy, a credit vetting checklist and a retirement register template ready for board approval. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "A draft is needed within the first four weeks because the board meets in two months.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Carbon Services and Trading",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Governance and Infrastructure",
+       "search_tag": "Governance and Infrastructure (Carbon Services and Trading)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__62_workplace-stress-assessment.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-4a0a0896",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Workplace Stress Assessment for Engineering Project Teams",
+  "short_description": "Our engineering services firm has seen stress-related sick leave double over two years in its project teams of 120 engineers, and most of the pressure comes from tight bid deadlines. We need an organisational psychologist to assess workload, team practices and manager behaviour through a short survey and interviews, and to recommend practical measures for leaders to adopt. Deliverable: a written assessment with survey findings and a prioritised set of recommendations for leadership. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Social Service",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Psychology",
+       "search_tag": "Psychology (Social Service)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__63_operating-plan-for.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-b66cc775",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Operating Plan for Community Farm in Residential Estate",
+  "short_description": "Looking for an agrifood general manager to prepare the operating plan for a community farm that our property development company is funding inside a new residential estate. The farm will have a team of six, a growing area of about 800 square metres and a weekly produce box for residents. The manager would build the staffing plan, annual budget, weekly operating routines and supplier list, and advise the project team on first-year targets. Deliverable: an operating plan, a first-year budget with staffing structure and a weekly routines checklist. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Agrifood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "General Management",
+       "search_tag": "General Management (Agrifood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__64_air-ambulance-maintenance.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-2d5f787e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Air Ambulance Maintenance Performance and Contract Review",
+  "short_description": "Looking for an aircraft maintenance adviser to help a healthcare group that contracts an air ambulance helicopter for patient transfers. Availability has averaged 82% against a 95% target. The adviser would review the maintenance provider's performance, downtime records and the contract's maintenance terms, and recommend changes to service levels. Deliverable: a written review of provider performance and availability with recommended contract service levels. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Aerospace",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Aircraft Maintenance",
+       "search_tag": "Aircraft Maintenance (Aerospace)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__65_advanced-southeast-asian.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-8a037547",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Advanced Southeast Asian Cooking Module for Culinary School",
+  "short_description": "We are a private culinary school preparing a new advanced module on modern Southeast Asian cooking. Classes have 16 students and run in a teaching kitchen with eight stations. We need an expert chef to design the 12-week practical curriculum, write the recipes and lesson plans, prepare ingredient and equipment lists, and set the assessment tasks. Deliverable: a complete module pack with 12 lesson plans, recipe cards, ingredient lists and assessment rubrics. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Culinary Arts",
+       "search_tag": "Culinary Arts (Food Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__66_safety-culture-induction.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c457f003",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Safety Culture Induction Video Concept and Shoot Plan",
+  "short_description": "A marine and offshore services group wants a 6-minute safety culture video to open its induction sessions for new crew and contractors. It needs a content production expert to develop the concept and script, plan the shoot at a yard and on a vessel, advise on permits and safety on site, and agree the edit with the safety team. The video will be shown to about 800 new starters a year. Deliverable: a signed-off script, a shoot plan with permit list, and a rough-cut review with edit notes. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget is S$12,000-15,000 including crew.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Media",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Content Production and Management",
+       "search_tag": "Content Production and Management (Media)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__67_waterproof-sensor-enclosure.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-7f6fe6fd",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Waterproof Sensor Enclosure Design for First Production Run",
+  "short_description": "I run a software and hardware start-up that makes small sensor units for cold storage monitoring. I need a mechanical design engineer to design a waterproof, impact-resistant enclosure for the sensor, prepare 3D models and manufacturing drawings, and advise on materials and manufacturing methods for a first run of 500 units. We have the electronics board dimensions and a target unit cost. The units will be mounted on freezer walls and must survive daily cleaning. Deliverable: 3D models, manufacturing drawings, a materials and process recommendation and a cost estimate for 500 units. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Engineering Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Engineering Design",
+       "search_tag": "Engineering Design (Engineering Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__68_sme-working-capital.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-06dce671",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "SME Working Capital Product Design for Bank",
+  "short_description": "Looking for a financial product specialist to design a working capital product for small business customers of our bank. Our SME segment has about 4,000 customers and no short-term financing product. The specialist would define target customers, structure and pricing, draft the product paper and risk controls, and advise the product committee on launch options. Deliverable: a product paper with pricing model, risk controls and a launch plan. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "The product committee meets in week 6.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Financial Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Product Solutioning and Management",
+       "search_tag": "Product Solutioning and Management (Financial Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__69_online-shop-sales.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-75324fe4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Online Shop Sales Dashboard for Accounting Practice",
+  "short_description": "Our accounting practice sells compliance templates and checklists through an online shop with about 60 products, across our own website and one marketplace. We cannot see sales by product, month or channel without combining several spreadsheets by hand. We need someone to build a simple Excel or Power BI dashboard from our order exports showing sales, refunds and best sellers. Deliverable: a working dashboard connected to the export files, with a short guide on refreshing it. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__70_sustainability-reporting-readiness.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-940de4aa",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Sustainability Reporting Readiness Review for Statutory Board",
+  "short_description": "I run the finance unit of a statutory board that must publish its first sustainability report next year. I need a sustainability reporting adviser to map what the reporting framework requires, review what data we already collect, identify the gaps and who owns them, and recommend a reporting calendar. The board has about 900 staff, and the report will be read by ministry officials. Deliverable: a gap assessment against the framework, a data owner list and a reporting calendar. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Accountancy",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Sustainability Reporting and Assurance",
+       "search_tag": "Sustainability Reporting and Assurance (Accountancy)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__71_cleaning-and-sanitation.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-a74b1ba5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Cleaning and Sanitation Section for Kitchen Staff Handbook",
+  "short_description": "Our central kitchen has 80 staff and no written cleaning rules beyond a wall chart. We need a writer with cleaning operations experience to produce the cleaning and sanitation section of our staff handbook, covering daily routines, chemical handling, waste and pest sightings. Deliverable: a finished handbook section of about 8 pages in our template. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__72_independent-concept-design.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-9e5d7ace",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Concept Design Review for Operations Building",
+  "short_description": "A power and utilities company is planning a new 6-storey control and operations building and holds a concept design from its appointed architect. It wants an independent expert architect to review the concept for operational fit, resilience and cost, and to advise on what to change before the design is developed further. Deliverable: a written design review with prioritised recommendations and an indicative cost impact for each. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Built Environment",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Architectural Consultancy and Design",
+       "search_tag": "Architectural Consultancy and Design (Built Environment)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__73_confined-space-entry.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c2c728ca",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Confined Space Entry Procedures for Block Fabrication Yard",
+  "short_description": "I run a manufacturing yard that fabricates ship tanks and structural blocks, and our crews regularly enter tanks and enclosed compartments. I need a marine safety specialist to prepare a confined space entry procedure, gas test records, a rescue plan and permit forms suited to our yard. We have 150 workers, with a mix of our own staff and subcontractors. Deliverable: a confined space procedure, permit and gas test forms and a rescue plan, ready for use. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Marine and Offshore",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Workplace Safety and Health",
+       "search_tag": "Workplace Safety and Health (Marine and Offshore)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__74_vietnam-trade-mission.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-9a7a9777",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Vietnam Trade Mission Preparation for Retail Brands Association",
+  "short_description": "A retail and consumer brands association with 150 members is organising a trade mission to Vietnam and wants an experienced internationalisation specialist to prepare it. The specialist would write the market entry guide for consumer brands, shortlist and approach 30 local distributors and retailers, build the business matching programme, and draft the mission itinerary and briefing pack for members. Members sell packaged foods, beauty products and household goods. Deliverable: a market entry guide, a distributor shortlist with contact plan, a matching programme and a mission briefing pack. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Trade Associations and Chambers",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Internationalisation",
+       "search_tag": "Internationalisation (Trade Associations and Chambers)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__75_gas-network-maintenance.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-eef0001d",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Gas Network Maintenance Review for Industrial Park Operator",
+  "short_description": "I run a logistics and industrial park company that owns a small gas pipe network supplying town gas to about 40 tenants. The network is 18 kilometres long and about half of it is older than a quarter century. I need an expert in gas production and network maintenance to review our maintenance programme, leak survey records and incident history, and advise on integrity risks. Deliverable: a written review of the maintenance programme, a risk ranking of network sections and a five-year maintenance plan outline. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Power",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Town Gas Production and Maintenance",
+       "search_tag": "Town Gas Production and Maintenance (Energy and Power)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__76_innovation-programme-design.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-a4e09c0b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Innovation Programme Design for Offshore Services Company",
+  "short_description": "Our offshore services company wants to set up a small innovation programme so that crews and engineers can propose improvements. We have 700 staff and no process for collecting or judging ideas. We need an innovation adviser to design the programme, the selection criteria and a simple pipeline from idea to pilot. Deliverable: a programme design paper with selection criteria, a pipeline process and a first-year plan. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Design",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Innovation",
+       "search_tag": "Innovation (Design)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__77_aerodrome-emergency-plan.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-2187c100",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Aerodrome Emergency Plan Review and Exercise Design",
+  "short_description": "We are a public sector body that operates a regional airport with about 40,000 flights a year. The emergency plan was last revised five years ago, and a new terminal opens next year. We need an airport emergency services expert to review our plan, rescue and firefighting arrangements and mutual aid agreements against current standards, redraft the sections that fall short, and design a full-scale exercise. Deliverable: a gap review, a redrafted emergency plan and a full-scale exercise design with evaluation checklist. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Air Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Airport Emergency Services",
+       "search_tag": "Airport Emergency Services (Air Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__78_support-plan-templates.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-bf61b351",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Support Plan Templates and Activity Cards for Early Intervention",
+  "short_description": "I run a private kindergarten that has begun taking children with mild developmental delays. I need an early intervention specialist to prepare an individual support plan template, a classroom screening checklist and a set of 20 short activity cards for teachers. We have six classes of about 20 children each. Deliverable: a support plan template, a screening checklist and 20 activity cards ready to print. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Specialist should hold a recognised early intervention qualification.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Early Childhood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Early Intervention",
+       "search_tag": "Early Intervention (Early Childhood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__79_lockout-and-permit.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-43d65418",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Lockout and Permit Controls for Metal Parts Plant",
+  "short_description": "We are a metal parts manufacturer with 120 staff and two machining halls. We need a WSH operational control specialist to set up lockout and tagout procedures, a machine guarding check routine and a simple permit system for non-routine work, and to brief our supervisors on how to run them. Deliverable: written lockout procedures for key machines, check routines, permit forms and supervisor briefing notes. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Workplace Safety and Health",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operational Control",
+       "search_tag": "Operational Control (Workplace Safety and Health)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__80_decision-deck-redesign.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-03881cbf",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Decision Deck Redesign for ATM Replacement Options",
+  "short_description": "A financial services firm's branch technology team is presenting options for replacing 60 ATMs and self-service kiosks to its management committee next month. The current deck of 28 slides is full of technical specifications and hard to follow. It wants an adviser with electronics knowledge to redesign the deck so that the options, costs and risks are clear, simplify the technical content, and suggest what the committee needs to decide. The committee meets for one hour and expects a clear recommendation. Deliverable: a redesigned deck of about 15 slides with a one-page decision summary. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__81_gst-and-customs.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-cd9af99f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "GST and Customs Treatment Review for Energy Products Wholesaler",
+  "short_description": "Our energy products wholesaler trades lubricants and fuel additives and handles about 300 shipments a year, some of them in bonded storage. We are unsure of our GST and customs treatment. We need a trade finance and regulatory specialist to review our transactions and advise on the correct treatment, and to prepare a procedures note for finance staff. Deliverable: a written review with recommended treatment for each transaction type and a procedures note for finance staff. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Wholesale Trade",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Finance and Regulations",
+       "search_tag": "Finance and Regulations (Wholesale Trade)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__82_buyer-dispute-readiness.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-8bd392ba",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Buyer Dispute Readiness Pack for Residential Launch",
+  "short_description": "We are a property developer launching a 180-unit residential project, and the sales gallery opens next month. We need a lawyer to prepare us for buyer disputes. The lawyer would review our standard sale and purchase terms, draft standard replies to common buyer complaints about delays and defects, and advise our sales and legal team on when to escalate. Handover is planned in about two years. Deliverable: a marked-up set of standard terms, a pack of 10 standard reply letters and an escalation guide. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Legal Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Advisory and Advocacy",
+       "search_tag": "Advisory and Advocacy (Legal Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__83_port-handling-advice.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c110624a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Port Handling Advice and Checklist for Donation Shipments",
+  "short_description": "We are a charity that ships donated goods in containers to partner organisations across the region. We need a port operations expert to review how our cargo moves through the loading port and a regional discharge port, advise on delays and charges, and prepare a handling checklist for our volunteers. Deliverable: a short advisory note and a one-page port handling checklist. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Sea Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Port",
+       "search_tag": "Port (Sea Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__84_chemical-register-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-de3462dc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Chemical Register and Ammonia Emergency Procedures for Food Plant",
+  "short_description": "Our food manufacturing company uses an ammonia refrigeration system and stores cleaning chemicals across three sites, each with 40 to 120 staff. We need an HSE specialist to prepare our chemical register, a safety data sheet file, risk assessments for ammonia and the main cleaning chemicals, and an ammonia leak emergency procedure with a drill plan. The system was installed more than ten years ago and our staff have never rehearsed a leak. Deliverable: a chemical register, SDS file, risk assessments and an ammonia leak emergency procedure with drill plan, all in editable form. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Specialist must be familiar with ammonia refrigeration.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Chemicals",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Health, Safety and Environment (HSE)",
+       "search_tag": "Health, Safety and Environment (HSE) (Energy and Chemicals)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__85_electric-bus-transition.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-b84dcafc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Electric Bus Transition Advice for Operator Fleet",
+  "short_description": "We need a bus fleet engineering expert to advise our client, a bus operator with 90 diesel buses, on moving part of the fleet to electric. The expert would assess route suitability, battery and charging options, depot power needs and lifecycle costs, and recommend a phased approach. Deliverable: a written advisory report with route suitability results, charging options, a lifecycle cost comparison and a phased plan. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Public Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Bus Fleet Engineering",
+       "search_tag": "Bus Fleet Engineering (Public Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__86_manual-handling-task.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-f5ff7a97",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Manual Handling Task Assessment for Retail Group Staff",
+  "short_description": "We need an occupational therapist to reduce back and shoulder injuries among our warehouse and store staff. We are a retail group with six stores and a distribution centre, and manual handling claims have increased. Staff lift cartons of up to 15 kilograms many times a shift. The therapist would assess 10 typical tasks on site, recommend changes to layout and equipment, and prepare a short training session for supervisors. Deliverable: a task assessment report, a list of recommended changes and a supervisor training pack. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Therapist must be registered with the relevant professional body.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Healthcare",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Occupational Therapy",
+       "search_tag": "Occupational Therapy (Healthcare)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__87_advice-on-responding.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-98b6621d",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Advice on Responding to Patent Examiner's Objections",
+  "short_description": "I run a medical device company and have received an examiner's report objecting to novelty and inventive step in our pending patent application for a wound monitoring sensor. We have three months left to respond. I need a patent prosecution specialist to read the report and the cited documents, advise how strong the objections are, and recommend how to amend the claims and respond. Deliverable: a written advice note with a proposed claim amendment strategy and an outline of the response. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "Counsel must be registered as a patent agent in Singapore.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Intellectual Property",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Patents Prosecution",
+       "search_tag": "Patents Prosecution (Intellectual Property)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__88_equipment-hire-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c7cc4643",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Equipment Hire and Truck Load Dashboard for Production Company",
+  "short_description": "Our theatre and event production company hires out lighting, sound and staging equipment and moves it by truck between venues. About 400 items go out in a typical week, and clashes are caught by hand. We need a simple Excel or Power BI dashboard showing equipment out on hire, upcoming bookings and truck loads per week. Data sits in two spreadsheets and a booking export. Deliverable: a working dashboard connected to the files, with a short refresh guide. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "We can share sample files on day one.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__89_rooftop-staff-garden.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c0f6c7b8",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Rooftop Staff Garden Design and Tender Drawings",
+  "short_description": "A software company is converting a 500 square metre rooftop terrace on its office building into a staff garden with seating, shade and planting. The terrace carries limited structural load, so soil depth is restricted and irrigation must be water efficient. It needs a landscape designer to prepare the concept plan, planting palette, hardscape layout and drawings suitable for tender, and to estimate quantities. Deliverable: a concept plan, planting palette, tender drawings and a bill of quantities for landscape works. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": "Designer should be able to attend two site meetings.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Landscape",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Landscape Design",
+       "search_tag": "Landscape Design (Landscape)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__90_hr-operations-review.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-760e5e68",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "HR Operations Review and System Requirements for Consulting Firm",
+  "short_description": "I run HR at a professional services firm of 200 staff, where leave, claims and onboarding are still handled through email and spreadsheets. I need an HR operations adviser to map how these processes work today, list the pain points, and recommend whether a system would help and what it must do. Deliverable: process maps, a requirements list and a short recommendation on system options. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Human Resource",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operations and Technology",
+       "search_tag": "Operations and Technology (Human Resource)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__91_production-trial-plan.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c1deca02",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Production Trial Plan for New Cracker at Contract Factory",
+  "short_description": "I run a retail brand of baked snacks made at a contract factory, and we are launching a new cracker with a fixed weight and a 9-month shelf life. The factory runs one shift and the trial window is two days. I need a food production expert to plan the first trial, prepare the line set-up sheet, the process control points and the weight and seal checks, and run the trial with the factory team. Deliverable: a trial plan, a line set-up and control sheet, and a trial report with findings. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Production",
+       "search_tag": "Production (Food Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__92_spare-parts-warehouse.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c21d97b2",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Spare Parts Warehouse Layout and Slotting Redesign",
+  "short_description": "We need a warehouse management expert to redesign the layout and slotting of our spare parts warehouse, which holds 4,000 items for our field engineering teams. Picking is slow and stock locations are often wrong. The expert would map flows, propose a new layout and location scheme, and advise our storekeepers on a cycle count routine. Deliverable: a layout and slotting plan, a location coding scheme and a cycle count procedure. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Warehouse visits are possible only on weekday mornings.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Logistics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Warehouse Management and Operations",
+       "search_tag": "Warehouse Management and Operations (Logistics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__93_architecture-review-of.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-a96e00e0",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Architecture Review of Custom Client Portal",
+  "short_description": "I run a professional services firm with a custom-built client portal that has grown over six years and is slow and hard to change. The portal serves about 1,200 clients and 90 staff. I need an experienced software architect to review the architecture, code quality and hosting set-up, and to recommend whether we should refactor, rebuild or replace it. The team is two developers plus a contractor, and releases take a full day. Deliverable: a written architecture review with options, costs and a recommended path. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "A short NDA will be signed before code access.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Software and Applications",
+       "search_tag": "Software and Applications (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__94_mystery-shopping-of.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c36ae478",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Mystery Shopping of Clinic and Patient Hotel Front Desks",
+  "short_description": "Looking for someone to run mystery shopping visits across the front desks of our four private clinics and our patient hotel. We are a healthcare group, and we want to know how welcoming and clear our front office staff are to new patients and guests. The shopper would make scripted enquiries and check-ins, score greeting, clarity of information, waiting and follow-up, and compare the five sites. Deliverable: a scored report for each site and a comparison summary. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__95_fermentation-pilot-plant.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-1d2d4b16",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Fermentation Pilot Plant Process and Staffing Review",
+  "short_description": "Our energy and resources company is building a pilot fermentation plant that will make enzymes for biofuel processing, and our team has no bioprocess production background. We need a biopharmaceutical production adviser to review the proposed process flow, equipment list and staffing plan, and to advise on scale-up risks and clean operation practices. Deliverable: a written review with scale-up risks, a recommended equipment and staffing list and a practices checklist. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "BioPharmaceuticals Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Production",
+       "search_tag": "Production (BioPharmaceuticals Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__96_visitor-centre-operating.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-d8f95966",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Visitor Centre Operating Plan for Food Manufacturer",
+  "short_description": "I run a food manufacturing company that wants to open a small visitor centre with factory tours, and we expect up to 80 visitors a day on weekends. I need a tourism general manager to plan operations, set the tour routes and pricing, draft the staffing plan and opening budget, and run a trial month. Deliverable: an operating plan, a first-year budget and a trial month report. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "A trial opening is planned in week 5.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Tourism",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "General Management",
+       "search_tag": "General Management (Tourism)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__97_transcripts-and-summaries.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-c8504937",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Transcripts and Summaries for Workshop Recordings",
+  "short_description": "We are an adult education provider that teaches software and data skills, and we have 20 recorded workshop sessions of about 90 minutes each. We need someone to transcribe the recordings, clean the transcripts and write one-page summaries of the key teaching points, and to advise which sessions are suitable to turn into short online lessons. Deliverable: 20 cleaned transcripts, 20 one-page summaries and a short note on lesson candidates. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Recordings will be shared through a secure link and must not be copied.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "crafted-gig__98_security-plan-and.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-74e6615a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Security Plan and Procedures for F&B Group",
+  "short_description": "We need a security consultant to prepare a security plan and procedures for our food and beverage group, which has a central kitchen and 12 outlets. The consultant would survey the sites, assess risks such as cash handling, stock theft and after-hours access, write the security procedures, and design an incident reporting form and a short training session for managers. Deliverable: a security risk assessment, written procedures for all sites, an incident form and manager training notes. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Security",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Security Consultancy",
+       "search_tag": "Security Consultancy (Security)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__99_technical-review-of.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-9788525e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Technical Review of Cash Machine Refurbishment Proposal",
+  "short_description": "Looking for a precision engineering adviser to help our bank assess a vendor's proposal to refurbish 40 cash sorting machines. The adviser would review the technical proposal, inspection results and tolerances, judge whether the refurbishment is sound and fairly priced, and recommend what to ask the vendor to change. Deliverable: a written technical assessment with questions for the vendor and a recommendation on whether to proceed. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Precision Engineering",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical and Engineering",
+       "search_tag": "Technical and Engineering (Precision Engineering)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "crafted-gig__100_carbon-credit-feasibility.md",
+  "extracted_by_model": "crafted",
+  "hirer_ref": "H-37c26bac",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Carbon Credit Feasibility for Clean Cookstove Programme",
+  "short_description": "Our charity works with rural communities in the region and wants to find out whether a clean cookstove programme could earn carbon credits. We would reach about 5,000 households over three years. We need a carbon project development adviser to assess eligibility, estimate the credits and costs, outline the validation steps, and recommend whether to proceed. Deliverable: a feasibility assessment with credit estimates, a cost and timeline outline, and a go or no-go recommendation. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Carbon Services and Trading",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Carbon Project Development",
+       "search_tag": "Carbon Project Development (Carbon Services and Trading)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

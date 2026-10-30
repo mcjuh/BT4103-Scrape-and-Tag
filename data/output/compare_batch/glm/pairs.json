@@ -1,0 +1,599 @@
+{
+ "glm-gig__01_wsh-internal-system.md": [
+  "glm-provider__01_a.md",
+  "glm-provider__01_b.md",
+  "glm-provider__01_c.md",
+  "glm-provider__01_d.md"
+ ],
+ "glm-gig__02_e-waste-and.md": [
+  "glm-provider__02_a.md",
+  "glm-provider__02_b.md",
+  "glm-provider__02_c.md",
+  "glm-provider__02_d.md"
+ ],
+ "glm-gig__03_supplier-sourcing-review.md": [
+  "glm-provider__03_a.md",
+  "glm-provider__03_b.md",
+  "glm-provider__03_c.md",
+  "glm-provider__03_d.md"
+ ],
+ "glm-gig__04_mystery-shopping-assessment.md": [
+  "glm-provider__04_a.md",
+  "glm-provider__04_b.md",
+  "glm-provider__04_c.md",
+  "glm-provider__04_d.md"
+ ],
+ "glm-gig__05_import-shipping-compliance.md": [
+  "glm-provider__05_a.md",
+  "glm-provider__05_b.md",
+  "glm-provider__05_c.md",
+  "glm-provider__05_d.md"
+ ],
+ "glm-gig__06_process-safety-handbook.md": [
+  "glm-provider__06_a.md",
+  "glm-provider__06_b.md",
+  "glm-provider__06_c.md",
+  "glm-provider__06_d.md"
+ ],
+ "glm-gig__07_lta-bus-operator.md": [
+  "glm-provider__07_a.md",
+  "glm-provider__07_b.md",
+  "glm-provider__07_c.md",
+  "glm-provider__07_d.md"
+ ],
+ "glm-gig__08_genetic-testing-consent.md": [
+  "glm-provider__08_a.md",
+  "glm-provider__08_b.md",
+  "glm-provider__08_c.md",
+  "glm-provider__08_d.md"
+ ],
+ "glm-gig__09_patent-portfolio-review.md": [
+  "glm-provider__09_a.md",
+  "glm-provider__09_b.md",
+  "glm-provider__09_c.md",
+  "glm-provider__09_d.md"
+ ],
+ "glm-gig__10_lighting-design-for.md": [
+  "glm-provider__10_a.md",
+  "glm-provider__10_b.md",
+  "glm-provider__10_c.md",
+  "glm-provider__10_d.md"
+ ],
+ "glm-gig__11_mystery-shopper-assessment.md": [
+  "glm-provider__11_a.md",
+  "glm-provider__11_b.md",
+  "glm-provider__11_c.md",
+  "glm-provider__11_d.md"
+ ],
+ "glm-gig__12_succession-and-talent.md": [
+  "glm-provider__12_a.md",
+  "glm-provider__12_b.md",
+  "glm-provider__12_c.md",
+  "glm-provider__12_d.md"
+ ],
+ "glm-gig__13_redesign-haccp-qa.md": [
+  "glm-provider__13_a.md",
+  "glm-provider__13_b.md",
+  "glm-provider__13_c.md",
+  "glm-provider__13_d.md"
+ ],
+ "glm-gig__14_assess-and-clear.md": [
+  "glm-provider__14_a.md",
+  "glm-provider__14_b.md",
+  "glm-provider__14_c.md",
+  "glm-provider__14_d.md"
+ ],
+ "glm-gig__15_independent-review-of.md": [
+  "glm-provider__15_a.md",
+  "glm-provider__15_b.md",
+  "glm-provider__15_c.md",
+  "glm-provider__15_d.md"
+ ],
+ "glm-gig__16_housekeeping-standards-audit.md": [
+  "glm-provider__16_a.md",
+  "glm-provider__16_b.md",
+  "glm-provider__16_c.md",
+  "glm-provider__16_d.md"
+ ],
+ "glm-gig__17_proofread-and-edit.md": [
+  "glm-provider__17_a.md",
+  "glm-provider__17_b.md",
+  "glm-provider__17_c.md",
+  "glm-provider__17_d.md"
+ ],
+ "glm-gig__18_customer-contact-list.md": [
+  "glm-provider__18_a.md",
+  "glm-provider__18_b.md",
+  "glm-provider__18_c.md",
+  "glm-provider__18_d.md"
+ ],
+ "glm-gig__19_redesign-of-clinical.md": [
+  "glm-provider__19_a.md",
+  "glm-provider__19_b.md",
+  "glm-provider__19_c.md",
+  "glm-provider__19_d.md"
+ ],
+ "glm-gig__20_auxiliary-police-deployment.md": [
+  "glm-provider__20_a.md",
+  "glm-provider__20_b.md",
+  "glm-provider__20_c.md",
+  "glm-provider__20_d.md"
+ ],
+ "glm-gig__21_iso-9001-gap.md": [
+  "glm-provider__21_a.md",
+  "glm-provider__21_b.md",
+  "glm-provider__21_c.md",
+  "glm-provider__21_d.md"
+ ],
+ "glm-gig__22_copy-edit-carbon.md": [
+  "glm-provider__22_a.md",
+  "glm-provider__22_b.md",
+  "glm-provider__22_d.md"
+ ],
+ "glm-gig__23_review-of-day.md": [
+  "glm-provider__23_a.md",
+  "glm-provider__23_b.md",
+  "glm-provider__23_c.md",
+  "glm-provider__23_d.md"
+ ],
+ "glm-gig__24_farm-sourcing-review.md": [
+  "glm-provider__24_a.md",
+  "glm-provider__24_b.md",
+  "glm-provider__24_c.md",
+  "glm-provider__24_d.md"
+ ],
+ "glm-gig__25_maintenance-schedule-setup.md": [
+  "glm-provider__25_a.md",
+  "glm-provider__25_b.md",
+  "glm-provider__25_c.md",
+  "glm-provider__25_d.md"
+ ],
+ "glm-gig__26_halal-certified-pastry.md": [
+  "glm-provider__26_a.md",
+  "glm-provider__26_b.md",
+  "glm-provider__26_c.md",
+  "glm-provider__26_d.md"
+ ],
+ "glm-gig__27_game-economy-balance.md": [
+  "glm-provider__27_a.md",
+  "glm-provider__27_b.md",
+  "glm-provider__27_c.md",
+  "glm-provider__27_d.md"
+ ],
+ "glm-gig__28_project-financing-dashboard.md": [
+  "glm-provider__28_a.md",
+  "glm-provider__28_b.md",
+  "glm-provider__28_c.md",
+  "glm-provider__28_d.md"
+ ],
+ "glm-gig__29_investment-policy-statement.md": [
+  "glm-provider__29_a.md",
+  "glm-provider__29_b.md",
+  "glm-provider__29_c.md",
+  "glm-provider__29_d.md"
+ ],
+ "glm-gig__30_retail-store-inventory.md": [
+  "glm-provider__30_a.md",
+  "glm-provider__30_b.md",
+  "glm-provider__30_c.md",
+  "glm-provider__30_d.md"
+ ],
+ "glm-gig__31_valuation-of-freight.md": [
+  "glm-provider__31_a.md",
+  "glm-provider__31_b.md",
+  "glm-provider__31_c.md",
+  "glm-provider__31_d.md"
+ ],
+ "glm-gig__32_chinese-translation-of.md": [
+  "glm-provider__32_a.md",
+  "glm-provider__32_b.md",
+  "glm-provider__32_c.md",
+  "glm-provider__32_d.md"
+ ],
+ "glm-gig__33_bca-compliance-review.md": [
+  "glm-provider__33_a.md",
+  "glm-provider__33_b.md",
+  "glm-provider__33_c.md",
+  "glm-provider__33_d.md"
+ ],
+ "glm-gig__34_marine-insurance-compliance.md": [
+  "glm-provider__34_a.md",
+  "glm-provider__34_b.md",
+  "glm-provider__34_c.md"
+ ],
+ "glm-gig__35_review-of-student.md": [
+  "glm-provider__35_a.md",
+  "glm-provider__35_b.md",
+  "glm-provider__35_c.md",
+  "glm-provider__35_d.md"
+ ],
+ "glm-gig__36_rooftop-solar-feasibility.md": [
+  "glm-provider__36_a.md",
+  "glm-provider__36_b.md",
+  "glm-provider__36_c.md",
+  "glm-provider__36_d.md"
+ ],
+ "glm-gig__37_assessment-of-solar.md": [
+  "glm-provider__37_a.md",
+  "glm-provider__37_b.md",
+  "glm-provider__37_c.md",
+  "glm-provider__37_d.md"
+ ],
+ "glm-gig__38_crew-rota-and.md": [
+  "glm-provider__38_a.md",
+  "glm-provider__38_b.md",
+  "glm-provider__38_c.md",
+  "glm-provider__38_d.md"
+ ],
+ "glm-gig__39_redesign-of-parent.md": [
+  "glm-provider__39_a.md",
+  "glm-provider__39_b.md",
+  "glm-provider__39_c.md",
+  "glm-provider__39_d.md"
+ ],
+ "glm-gig__40_wsh-incident-investigation.md": [
+  "glm-provider__40_a.md",
+  "glm-provider__40_b.md",
+  "glm-provider__40_c.md",
+  "glm-provider__40_d.md"
+ ],
+ "glm-gig__41_medical-equipment-maintenance.md": [
+  "glm-provider__41_a.md",
+  "glm-provider__41_b.md",
+  "glm-provider__41_c.md",
+  "glm-provider__41_d.md"
+ ],
+ "glm-gig__42_import-pricing-and.md": [
+  "glm-provider__42_a.md",
+  "glm-provider__42_b.md",
+  "glm-provider__42_c.md",
+  "glm-provider__42_d.md"
+ ],
+ "glm-gig__43_clear-backlog-of.md": [
+  "glm-provider__43_a.md",
+  "glm-provider__43_b.md",
+  "glm-provider__43_c.md",
+  "glm-provider__43_d.md"
+ ],
+ "glm-gig__44_marine-casualty-opinion.md": [
+  "glm-provider__44_a.md",
+  "glm-provider__44_b.md",
+  "glm-provider__44_c.md",
+  "glm-provider__44_d.md"
+ ],
+ "glm-gig__45_independent-review-of.md": [
+  "glm-provider__45_a.md",
+  "glm-provider__45_b.md",
+  "glm-provider__45_c.md",
+  "glm-provider__45_d.md"
+ ],
+ "glm-gig__46_compliance-review-of.md": [
+  "glm-provider__46_a.md",
+  "glm-provider__46_b.md",
+  "glm-provider__46_c.md",
+  "glm-provider__46_d.md"
+ ],
+ "glm-gig__47_dysphagia-protocol-review.md": [
+  "glm-provider__47_a.md",
+  "glm-provider__47_b.md",
+  "glm-provider__47_c.md",
+  "glm-provider__47_d.md"
+ ],
+ "glm-gig__48_trademark-review-for.md": [
+  "glm-provider__48_a.md",
+  "glm-provider__48_b.md",
+  "glm-provider__48_c.md",
+  "glm-provider__48_d.md"
+ ],
+ "glm-gig__49_safety-review-of.md": [
+  "glm-provider__49_a.md",
+  "glm-provider__49_b.md",
+  "glm-provider__49_c.md",
+  "glm-provider__49_d.md"
+ ],
+ "glm-gig__50_tree-risk-assessment.md": [
+  "glm-provider__50_a.md",
+  "glm-provider__50_b.md",
+  "glm-provider__50_c.md",
+  "glm-provider__50_d.md"
+ ],
+ "glm-gig__51_salary-benchmarking-review.md": [
+  "glm-provider__51_a.md",
+  "glm-provider__51_b.md",
+  "glm-provider__51_c.md",
+  "glm-provider__51_d.md"
+ ],
+ "glm-gig__52_sfa-compliance-review.md": [
+  "glm-provider__52_a.md",
+  "glm-provider__52_b.md",
+  "glm-provider__52_c.md",
+  "glm-provider__52_d.md"
+ ],
+ "glm-gig__53_school-bus-route.md": [
+  "glm-provider__53_a.md",
+  "glm-provider__53_b.md",
+  "glm-provider__53_c.md",
+  "glm-provider__53_d.md"
+ ],
+ "glm-gig__54_power-bi-dashboard.md": [
+  "glm-provider__54_a.md",
+  "glm-provider__54_b.md",
+  "glm-provider__54_c.md",
+  "glm-provider__54_d.md"
+ ],
+ "glm-gig__55_set-up-ota.md": [
+  "glm-provider__55_a.md",
+  "glm-provider__55_b.md",
+  "glm-provider__55_c.md",
+  "glm-provider__55_d.md"
+ ],
+ "glm-gig__56_gmp-readiness-assessment.md": [
+  "glm-provider__56_a.md",
+  "glm-provider__56_b.md",
+  "glm-provider__56_c.md",
+  "glm-provider__56_d.md"
+ ],
+ "glm-gig__57_review-of-staff.md": [
+  "glm-provider__57_a.md",
+  "glm-provider__57_b.md",
+  "glm-provider__57_c.md",
+  "glm-provider__57_d.md"
+ ],
+ "glm-gig__58_lms-migration-and.md": [
+  "glm-provider__58_a.md",
+  "glm-provider__58_b.md",
+  "glm-provider__58_c.md",
+  "glm-provider__58_d.md"
+ ],
+ "glm-gig__59_physical-security-gap.md": [
+  "glm-provider__59_a.md",
+  "glm-provider__59_b.md",
+  "glm-provider__59_c.md",
+  "glm-provider__59_d.md"
+ ],
+ "glm-gig__60_independent-weld-procedure.md": [
+  "glm-provider__60_a.md",
+  "glm-provider__60_b.md",
+  "glm-provider__60_c.md",
+  "glm-provider__60_d.md"
+ ],
+ "glm-gig__61_carbon-disclosure-readiness.md": [
+  "glm-provider__61_a.md",
+  "glm-provider__61_b.md",
+  "glm-provider__61_c.md",
+  "glm-provider__61_d.md"
+ ],
+ "glm-gig__62_psychosocial-risk-assessment.md": [
+  "glm-provider__62_a.md",
+  "glm-provider__62_b.md",
+  "glm-provider__62_c.md",
+  "glm-provider__62_d.md"
+ ],
+ "glm-gig__63_food-procurement-sop.md": [
+  "glm-provider__63_a.md",
+  "glm-provider__63_b.md",
+  "glm-provider__63_c.md",
+  "glm-provider__63_d.md"
+ ],
+ "glm-gig__64_aircraft-maintenance-compliance.md": [
+  "glm-provider__64_a.md",
+  "glm-provider__64_b.md",
+  "glm-provider__64_c.md",
+  "glm-provider__64_d.md"
+ ],
+ "glm-gig__65_halal-menu-development.md": [
+  "glm-provider__65_a.md",
+  "glm-provider__65_b.md",
+  "glm-provider__65_c.md",
+  "glm-provider__65_d.md"
+ ],
+ "glm-gig__66_safety-video-script.md": [
+  "glm-provider__66_a.md",
+  "glm-provider__66_b.md",
+  "glm-provider__66_c.md",
+  "glm-provider__66_d.md"
+ ],
+ "glm-gig__67_server-rack-layout.md": [
+  "glm-provider__67_a.md",
+  "glm-provider__67_b.md",
+  "glm-provider__67_c.md",
+  "glm-provider__67_d.md"
+ ],
+ "glm-gig__68_digital-payment-product.md": [
+  "glm-provider__68_a.md",
+  "glm-provider__68_b.md",
+  "glm-provider__68_c.md",
+  "glm-provider__68_d.md"
+ ],
+ "glm-gig__69_sales-dashboard-in.md": [
+  "glm-provider__69_a.md",
+  "glm-provider__69_b.md",
+  "glm-provider__69_c.md",
+  "glm-provider__69_d.md"
+ ],
+ "glm-gig__70_review-of-sustainability.md": [
+  "glm-provider__70_a.md",
+  "glm-provider__70_b.md",
+  "glm-provider__70_c.md",
+  "glm-provider__70_d.md"
+ ],
+ "glm-gig__71_cleaning-operations-staff.md": [
+  "glm-provider__71_a.md",
+  "glm-provider__71_b.md",
+  "glm-provider__71_c.md",
+  "glm-provider__71_d.md"
+ ],
+ "glm-gig__72_independent-design-review.md": [
+  "glm-provider__72_a.md",
+  "glm-provider__72_b.md",
+  "glm-provider__72_c.md",
+  "glm-provider__72_d.md"
+ ],
+ "glm-gig__73_shipyard-wsh-compliance.md": [
+  "glm-provider__73_a.md",
+  "glm-provider__73_b.md",
+  "glm-provider__73_c.md",
+  "glm-provider__73_d.md"
+ ],
+ "glm-gig__74_indonesia-market-entry.md": [
+  "glm-provider__74_a.md",
+  "glm-provider__74_b.md",
+  "glm-provider__74_c.md",
+  "glm-provider__74_d.md"
+ ],
+ "glm-gig__75_town-gas-pipeline.md": [
+  "glm-provider__75_a.md",
+  "glm-provider__75_b.md",
+  "glm-provider__75_c.md",
+  "glm-provider__75_d.md"
+ ],
+ "glm-gig__76_innovation-review-for.md": [
+  "glm-provider__76_a.md",
+  "glm-provider__76_b.md",
+  "glm-provider__76_c.md",
+  "glm-provider__76_d.md"
+ ],
+ "glm-gig__77_aerodrome-emergency-plan.md": [
+  "glm-provider__77_a.md",
+  "glm-provider__77_b.md",
+  "glm-provider__77_c.md",
+  "glm-provider__77_d.md"
+ ],
+ "glm-gig__78_early-intervention-referral.md": [
+  "glm-provider__78_a.md",
+  "glm-provider__78_b.md",
+  "glm-provider__78_c.md",
+  "glm-provider__78_d.md"
+ ],
+ "glm-gig__79_machineworks-permit-to.md": [
+  "glm-provider__79_a.md",
+  "glm-provider__79_b.md",
+  "glm-provider__79_c.md",
+  "glm-provider__79_d.md"
+ ],
+ "glm-gig__80_review-and-restructure.md": [
+  "glm-provider__80_a.md",
+  "glm-provider__80_b.md",
+  "glm-provider__80_c.md",
+  "glm-provider__80_d.md"
+ ],
+ "glm-gig__81_wholesale-fuel-trading.md": [
+  "glm-provider__81_a.md",
+  "glm-provider__81_b.md",
+  "glm-provider__81_c.md",
+  "glm-provider__81_d.md"
+ ],
+ "glm-gig__82_review-of-subcontract.md": [
+  "glm-provider__82_a.md",
+  "glm-provider__82_b.md",
+  "glm-provider__82_c.md",
+  "glm-provider__82_d.md"
+ ],
+ "glm-gig__83_port-handling-safety.md": [
+  "glm-provider__83_a.md",
+  "glm-provider__83_b.md",
+  "glm-provider__83_c.md",
+  "glm-provider__83_d.md"
+ ],
+ "glm-gig__84_fire-safety-and.md": [
+  "glm-provider__84_b.md",
+  "glm-provider__84_c.md",
+  "glm-provider__84_d.md"
+ ],
+ "glm-gig__85_independent-review-of.md": [
+  "glm-provider__85_a.md",
+  "glm-provider__85_b.md",
+  "glm-provider__85_c.md",
+  "glm-provider__85_d.md"
+ ],
+ "glm-gig__86_ergonomic-workplace-assessment.md": [
+  "glm-provider__86_a.md",
+  "glm-provider__86_b.md",
+  "glm-provider__86_c.md",
+  "glm-provider__86_d.md"
+ ],
+ "glm-gig__87_patent-prosecution-review.md": [
+  "glm-provider__87_a.md",
+  "glm-provider__87_b.md",
+  "glm-provider__87_c.md",
+  "glm-provider__87_d.md"
+ ],
+ "glm-gig__88_production-dashboard-for.md": [
+  "glm-provider__88_a.md",
+  "glm-provider__88_b.md",
+  "glm-provider__88_c.md",
+  "glm-provider__88_d.md"
+ ],
+ "glm-gig__89_courtyard-landscape-redesign.md": [
+  "glm-provider__89_a.md",
+  "glm-provider__89_b.md",
+  "glm-provider__89_c.md",
+  "glm-provider__89_d.md"
+ ],
+ "glm-gig__90_review-of-leave.md": [
+  "glm-provider__90_a.md",
+  "glm-provider__90_b.md",
+  "glm-provider__90_c.md",
+  "glm-provider__90_d.md"
+ ],
+ "glm-gig__91_haccp-plan-rebuild.md": [
+  "glm-provider__91_a.md",
+  "glm-provider__91_b.md",
+  "glm-provider__91_c.md",
+  "glm-provider__91_d.md"
+ ],
+ "glm-gig__92_warehouse-racking-safety.md": [
+  "glm-provider__92_a.md",
+  "glm-provider__92_b.md",
+  "glm-provider__92_c.md",
+  "glm-provider__92_d.md"
+ ],
+ "glm-gig__93_source-code-review.md": [
+  "glm-provider__93_a.md",
+  "glm-provider__93_b.md",
+  "glm-provider__93_c.md",
+  "glm-provider__93_d.md"
+ ],
+ "glm-gig__94_mystery-shopping-for.md": [
+  "glm-provider__94_a.md",
+  "glm-provider__94_b.md",
+  "glm-provider__94_c.md",
+  "glm-provider__94_d.md"
+ ],
+ "glm-gig__95_production-compliance-review.md": [
+  "glm-provider__95_a.md",
+  "glm-provider__95_b.md",
+  "glm-provider__95_c.md",
+  "glm-provider__95_d.md"
+ ],
+ "glm-gig__96_revamp-factory-tour.md": [
+  "glm-provider__96_a.md",
+  "glm-provider__96_b.md",
+  "glm-provider__96_c.md",
+  "glm-provider__96_d.md"
+ ],
+ "glm-gig__97_transcribe-and-summarise.md": [
+  "glm-provider__97_a.md",
+  "glm-provider__97_b.md",
+  "glm-provider__97_c.md",
+  "glm-provider__97_d.md"
+ ],
+ "glm-gig__98_cybersecurity-gap-review.md": [
+  "glm-provider__98_a.md",
+  "glm-provider__98_b.md",
+  "glm-provider__98_c.md",
+  "glm-provider__98_d.md"
+ ],
+ "glm-gig__99_review-of-atm.md": [
+  "glm-provider__99_a.md",
+  "glm-provider__99_b.md",
+  "glm-provider__99_c.md",
+  "glm-provider__99_d.md"
+ ],
+ "glm-gig__100_carbon-footprint-baseline.md": [
+  "glm-provider__100_a.md",
+  "glm-provider__100_b.md",
+  "glm-provider__100_c.md",
+  "glm-provider__100_d.md"
+ ]
+}

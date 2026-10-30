@@ -1,0 +1,101 @@
+gig,n,sector,track,level,mode,specificity,generic_task,words,weeks,opening,notes,industry
+G01,1,Workplace Safety and Health,System Audit,mid,execution,specific,,101,6-8,"the kind of specialist wanted: ""Looking for ...""",True,Energy & Resources
+G02,2,Electronics,Management,senior,advisory,specific,,79,2-3,"a third-person description of the organisation, then the ask",False,Education
+G03,3,Wholesale Trade,"Operations, Procurement and Sourcing",expert,mixed,specific,,97,3-4,"the kind of specialist wanted: ""Looking for ...""",False,Technology & Software
+G04,4,Legal Services,Advisory and Advocacy,mid,advisory,generic,mystery shopping across several outlets,96,6-8,"the kind of specialist wanted: ""Looking for ...""",False,Logistics & Distribution
+G05,5,Sea Transport,Shipping and Maritime Services,senior,execution,specific,,100,4,"first person singular: ""I run ..."" or ""I need ...""",False,Food & Beverage
+G06,6,Energy and Chemicals,Production and Process Engineering,expert,mixed,generic,writing a staff handbook section,82,2,the organisation: start with a plain line on what it does,False,Healthcare
+G07,7,Public Transport,Bus Operations,expert,execution,specific,,99,6-8,"a third-person description of the organisation, then the ask",False,Construction & Real Estate
+G08,8,Healthcare,Genetic Counselling,mid,mixed,specific,,82,1-2,the organisation: start with a plain line on what it does,True,Professional Services
+G09,9,Intellectual Property,IP Legal,senior,advisory,specific,,63,1-2,the need: start with a plain statement of what is wanted,True,Manufacturing
+G10,10,Arts,Technical Theatre & Production,senior,execution,specific,,77,1-2,"a third-person description of the organisation, then the ask",False,Marine & Offshore
+G11,11,Landscape,Landscape Implementation,senior,advisory,generic,mystery shopping across several outlets,78,3-4,"a third-person description of the organisation, then the ask",False,Retail & Consumer
+G12,12,Human Resource,Talent Management,expert,execution,specific,,67,6-8,"a third-person description of the organisation, then the ask",True,Social Services & Non-profit
+G13,13,Food Manufacturing,Quality Assurance and Control,mid,execution,generic,redesigning a slide deck,101,3-4,the need: start with a plain statement of what is wanted,False,Engineering Services
+G14,14,Logistics,Sales and Customer Service,mid,advisory,generic,clearing an admin or inbox backlog,63,1-2,"first person plural: ""Our ..."" or ""We ...""",False,Public Sector
+G15,15,Infocomm Technology,Product Development,expert,advisory,specific,,75,3-4,"first person singular: ""I run ..."" or ""I need ...""",False,Financial Services
+G16,16,Hotel and Accommodation Services,Housekeeping,expert,mixed,specific,,103,4-6,"first person plural: ""Our ..."" or ""We ...""",False,Energy & Resources
+G17,17,BioPharmaceuticals Manufacturing,Quality Assurance and Quality Control (QA&QC),senior,mixed,generic,proofreading and copy-editing a long document,69,1-2,"a third-person description of the organisation, then the ask",False,Manufacturing
+G18,18,Tourism,Attractions Management and Operations,mid,mixed,generic,data entry and tidy-up of a customer list,70,4,"first person singular: ""I run ..."" or ""I need ...""",False,Marine & Offshore
+G19,19,Training and Adult Education,Adult Education,senior,mixed,generic,redesigning a slide deck,76,4-6,"a third-person description of the organisation, then the ask",True,Healthcare
+G20,20,Security,Auxiliary Police,expert,advisory,specific,,64,4,"a third-person description of the organisation, then the ask",False,Financial Services
+G21,21,Precision Engineering,Management,senior,execution,specific,,80,4,the need: start with a plain statement of what is wanted,False,Professional Services
+G22,22,Carbon Services and Trading,Financial Intermediation,expert,mixed,generic,proofreading and copy-editing a long document,73,4,the organisation: start with a plain line on what it does,False,Logistics & Distribution
+G23,23,Social Service,Care and Programme,expert,execution,specific,,61,4-6,"a third-person description of the organisation, then the ask",False,Public Sector
+G24,24,Agrifood,Agriculture,mid,advisory,specific,,74,4-6,"a third-person description of the organisation, then the ask",True,Food & Beverage
+G25,25,Aerospace,Fleet Management,mid,execution,specific,,68,2-3,the organisation: start with a plain line on what it does,False,Social Services & Non-profit
+G26,26,Food Services,Pastry and Baking,mid,mixed,specific,,98,4,"a third-person description of the organisation, then the ask",True,Construction & Real Estate
+G27,27,Media,Game Design,senior,advisory,specific,,89,1-2,the organisation: start with a plain line on what it does,False,Technology & Software
+G28,28,Engineering Services,Project Financing,expert,advisory,generic,building a simple Power BI or Excel dashboard,90,4-6,"a third-person description of the organisation, then the ask",False,Engineering Services
+G29,29,Financial Services,Family Office,expert,execution,specific,,67,1-2,"first person singular: ""I run ..."" or ""I need ...""",False,Retail & Consumer
+G30,30,Retail,Retail Operations,mid,mixed,specific,,76,4,"a third-person description of the organisation, then the ask",False,Education
+G31,31,Accountancy,Business Valuation,mid,execution,specific,,78,2-3,"first person singular: ""I run ..."" or ""I need ...""",False,Logistics & Distribution
+G32,32,Environmental Services,Treatment and Disposal,expert,mixed,generic,translating a document between English and Chinese,98,3-4,the organisation: start with a plain line on what it does,False,Public Sector
+G33,33,Built Environment,Construction Management,senior,advisory,specific,,98,1-2,the need: start with a plain statement of what is wanted,True,Healthcare
+G34,34,Marine and Offshore,General Management,senior,mixed,specific,,73,2,the need: start with a plain statement of what is wanted,False,Construction & Real Estate
+G35,35,Trade Associations and Chambers,"Branding, Marketing and Communications",mid,advisory,specific,,94,2,"first person plural: ""Our ..."" or ""We ...""",False,Education
+G36,36,Energy and Power,Distributed Generation,senior,execution,specific,,61,3-4,"a third-person description of the organisation, then the ask",False,Manufacturing
+G37,37,Design,Business,mid,advisory,specific,,72,1-2,"first person plural: ""Our ..."" or ""We ...""",False,Energy & Resources
+G38,38,Air Transport,Pilot Operations,senior,execution,specific,,87,2-3,the organisation: start with a plain line on what it does,False,Marine & Offshore
+G39,39,Early Childhood,Early Childhood Education,mid,mixed,generic,redesigning a slide deck,78,1-2,"a third-person description of the organisation, then the ask",False,Technology & Software
+G40,40,Workplace Safety and Health,Corporate,expert,execution,specific,,70,2-3,"the kind of specialist wanted: ""Looking for ...""",False,Professional Services
+G41,41,Electronics,Technical and Engineering,senior,mixed,specific,,95,4,"first person plural: ""Our ..."" or ""We ...""",False,Social Services & Non-profit
+G42,42,Wholesale Trade,Trading and Sales,senior,advisory,specific,,94,6-8,"a third-person description of the organisation, then the ask",True,Food & Beverage
+G43,43,Legal Services,Advisory and Advocacy,mid,execution,generic,clearing an admin or inbox backlog,94,4-6,the need: start with a plain statement of what is wanted,True,Retail & Consumer
+G44,44,Sea Transport,Shipping,expert,mixed,specific,,70,4-6,"first person singular: ""I run ..."" or ""I need ...""",True,Financial Services
+G45,45,Energy and Chemicals,"Technical Services, Application and Product Development",expert,advisory,specific,,98,2-3,"first person plural: ""Our ..."" or ""We ...""",False,Engineering Services
+G46,46,Public Transport,Rail Operations,senior,mixed,specific,,61,3-4,the need: start with a plain statement of what is wanted,False,Manufacturing
+G47,47,Healthcare,Speech Therapy,expert,advisory,specific,,77,6-8,the organisation: start with a plain line on what it does,False,Construction & Real Estate
+G48,48,Intellectual Property,IP Strategy,mid,mixed,specific,,70,3-4,"first person singular: ""I run ..."" or ""I need ...""",False,Food & Beverage
+G49,49,Arts,Technical Theatre & Production,senior,advisory,specific,,96,2,the need: start with a plain statement of what is wanted,False,Financial Services
+G50,50,Landscape,Arboriculture,mid,advisory,specific,,101,4-6,"a third-person description of the organisation, then the ask",False,Engineering Services
+G51,51,Human Resource,Performance and Rewards,senior,execution,specific,,72,2-3,"first person plural: ""Our ..."" or ""We ...""",False,Professional Services
+G52,52,Food Manufacturing,Research and Development,expert,mixed,specific,,87,3-4,"the kind of specialist wanted: ""Looking for ...""",False,Public Sector
+G53,53,Logistics,Transportation Management and Operations,expert,execution,specific,,92,4-6,"the kind of specialist wanted: ""Looking for ...""",False,Education
+G54,54,Infocomm Technology,Data and Artificial Intelligence,mid,execution,specific,,102,4,the need: start with a plain statement of what is wanted,False,Technology & Software
+G55,55,Hotel and Accommodation Services,Sales and Marketing,mid,execution,specific,,65,4,"first person plural: ""Our ..."" or ""We ...""",False,Healthcare
+G56,56,BioPharmaceuticals Manufacturing,General Management,expert,mixed,specific,,65,1-2,"first person singular: ""I run ..."" or ""I need ...""",False,Retail & Consumer
+G57,57,Tourism,Travel Management and Operations,mid,advisory,specific,,92,6-8,"first person singular: ""I run ..."" or ""I need ...""",False,Social Services & Non-profit
+G58,58,Training and Adult Education,Learning Management,senior,execution,specific,,60,4-6,"first person plural: ""Our ..."" or ""We ...""",False,Logistics & Distribution
+G59,59,Security,Private Security,senior,mixed,specific,,73,2,"a third-person description of the organisation, then the ask",False,Energy & Resources
+G60,60,Precision Engineering,Technical and Engineering,expert,advisory,specific,,64,2,"first person plural: ""Our ..."" or ""We ...""",False,Marine & Offshore
+G61,61,Carbon Services and Trading,Governance and Infrastructure,expert,execution,specific,,83,6-8,"first person singular: ""I run ..."" or ""I need ...""",True,Social Services & Non-profit
+G62,62,Social Service,Psychology,senior,advisory,specific,,90,4-6,"first person plural: ""Our ..."" or ""We ...""",False,Engineering Services
+G63,63,Agrifood,General Management,mid,mixed,specific,,105,4,"the kind of specialist wanted: ""Looking for ...""",False,Construction & Real Estate
+G64,64,Aerospace,Aircraft Maintenance,senior,advisory,specific,,81,4-6,"the kind of specialist wanted: ""Looking for ...""",False,Healthcare
+G65,65,Food Services,Culinary Arts,expert,execution,specific,,81,4,the organisation: start with a plain line on what it does,False,Education
+G66,66,Media,Content Production and Management,expert,mixed,specific,,103,2,"a third-person description of the organisation, then the ask",True,Marine & Offshore
+G67,67,Engineering Services,Engineering Design,mid,mixed,specific,,105,4,"first person singular: ""I run ..."" or ""I need ...""",False,Technology & Software
+G68,68,Financial Services,Product Solutioning and Management,senior,mixed,specific,,73,6-8,"the kind of specialist wanted: ""Looking for ...""",True,Financial Services
+G69,69,Retail,E-Commerce (Omni-Channel),mid,execution,generic,building a simple Power BI or Excel dashboard,92,1-2,"first person plural: ""Our ..."" or ""We ...""",False,Professional Services
+G70,70,Accountancy,Sustainability Reporting and Assurance,mid,advisory,specific,,87,6-8,"first person singular: ""I run ..."" or ""I need ...""",False,Public Sector
+G71,71,Environmental Services,Cleaning Operations,senior,execution,generic,writing a staff handbook section,60,2,"first person plural: ""Our ..."" or ""We ...""",False,Food & Beverage
+G72,72,Built Environment,Architectural Consultancy and Design,expert,advisory,specific,,80,4,"a third-person description of the organisation, then the ask",False,Energy & Resources
+G73,73,Marine and Offshore,Workplace Safety and Health,senior,execution,specific,,92,2-3,"first person singular: ""I run ..."" or ""I need ...""",False,Manufacturing
+G74,74,Trade Associations and Chambers,Internationalisation,expert,execution,specific,,100,6-8,"a third-person description of the organisation, then the ask",False,Retail & Consumer
+G75,75,Energy and Power,Town Gas Production and Maintenance,expert,advisory,specific,,103,3-4,"first person singular: ""I run ..."" or ""I need ...""",False,Logistics & Distribution
+G76,76,Design,Innovation,senior,advisory,specific,,72,3-4,"first person plural: ""Our ..."" or ""We ...""",False,Marine & Offshore
+G77,77,Air Transport,Airport Emergency Services,expert,mixed,specific,,100,6-8,the organisation: start with a plain line on what it does,False,Public Sector
+G78,78,Early Childhood,Early Intervention,mid,execution,specific,,75,4,"first person singular: ""I run ..."" or ""I need ...""",True,Education
+G79,79,Workplace Safety and Health,Operational Control,mid,mixed,specific,,65,4-6,the organisation: start with a plain line on what it does,False,Manufacturing
+G80,80,Electronics,Technical and Engineering,mid,advisory,generic,redesigning a slide deck,103,1-2,"a third-person description of the organisation, then the ask",False,Financial Services
+G81,81,Wholesale Trade,Finance and Regulations,senior,mixed,specific,,77,2,"first person plural: ""Our ..."" or ""We ...""",False,Energy & Resources
+G82,82,Legal Services,Advisory and Advocacy,senior,mixed,specific,,95,2-3,the organisation: start with a plain line on what it does,False,Construction & Real Estate
+G83,83,Sea Transport,Port,expert,mixed,specific,,60,1-2,the organisation: start with a plain line on what it does,False,Social Services & Non-profit
+G84,84,Energy and Chemicals,"Health, Safety and Environment (HSE)",senior,execution,specific,,101,2-3,"first person plural: ""Our ..."" or ""We ...""",True,Food & Beverage
+G85,85,Public Transport,Bus Fleet Engineering,expert,advisory,specific,,67,4,the need: start with a plain statement of what is wanted,False,Engineering Services
+G86,86,Healthcare,Occupational Therapy,mid,mixed,specific,,92,2,the need: start with a plain statement of what is wanted,True,Retail & Consumer
+G87,87,Intellectual Property,Patents Prosecution,senior,advisory,specific,,97,1-2,"first person singular: ""I run ..."" or ""I need ...""",True,Healthcare
+G88,88,Arts,Technical Theatre & Production,expert,execution,generic,building a simple Power BI or Excel dashboard,92,1-2,"first person plural: ""Our ..."" or ""We ...""",True,Logistics & Distribution
+G89,89,Landscape,Landscape Design,mid,execution,specific,,99,4-6,"a third-person description of the organisation, then the ask",True,Technology & Software
+G90,90,Human Resource,Operations and Technology,mid,advisory,specific,,78,3-4,"first person singular: ""I run ..."" or ""I need ...""",False,Professional Services
+G91,91,Food Manufacturing,Production,expert,execution,specific,,100,2,"first person singular: ""I run ..."" or ""I need ...""",False,Retail & Consumer
+G92,92,Logistics,Warehouse Management and Operations,expert,mixed,specific,,66,4,the need: start with a plain statement of what is wanted,True,Engineering Services
+G93,93,Infocomm Technology,Software and Applications,expert,advisory,specific,,91,3-4,"first person singular: ""I run ..."" or ""I need ...""",True,Professional Services
+G94,94,Hotel and Accommodation Services,Front Office,mid,execution,generic,mystery shopping across several outlets,90,3-4,"the kind of specialist wanted: ""Looking for ...""",False,Healthcare
+G95,95,BioPharmaceuticals Manufacturing,Production,senior,advisory,specific,,85,4-6,"first person plural: ""Our ..."" or ""We ...""",False,Energy & Resources
+G96,96,Tourism,General Management,mid,mixed,specific,,62,6-8,"first person singular: ""I run ..."" or ""I need ...""",True,Manufacturing
+G97,97,Training and Adult Education,Adult Education,senior,mixed,generic,transcribing and summarising recordings,86,3-4,the organisation: start with a plain line on what it does,True,Technology & Software
+G98,98,Security,Security Consultancy,senior,execution,specific,,85,6-8,the need: start with a plain statement of what is wanted,False,Food & Beverage
+G99,99,Precision Engineering,Technical and Engineering,mid,advisory,specific,,82,4,"the kind of specialist wanted: ""Looking for ...""",False,Financial Services
+G100,100,Carbon Services and Trading,Carbon Project Development,senior,advisory,specific,,83,3-4,"first person plural: ""Our ..."" or ""We ...""",False,Social Services & Non-profit

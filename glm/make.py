@@ -6,6 +6,7 @@ import re
 import sys
 from pathlib import Path
 
+import dashes
 import llm
 import validate
 from design import INDUSTRIES, LEVEL_HINT, MODE_HINT
@@ -31,6 +32,15 @@ MODE_RULE = {
 }
 
 
+# Low reasoning effort does not count or re-read, so the checks the model normally makes while thinking go in the prompt.
+LOW_EFFORT_CHECKLIST = (
+    "\n\nBefore you reply, check your draft against these and fix it if it fails: each length given above is met "
+    "(count the words of each part; a bio under its minimum is the most common slip, so aim for about 80 words in about_bio (under 70 is rejected); a gig "
+    "description must not run past its word target); the duration is copied exactly, digit for digit; every achievement "
+    "contains a digit; \"services\" is a JSON ARRAY holding one object, not a bare object; there are no em or en dashes. "
+    "Add no keys beyond those listed (no counts, no notes). Return only the JSON.")
+
+
 def _fill(template: str, **kw) -> str:
     for k, v in kw.items():
         template = template.replace(f"<<{k}>>", str(v))
@@ -43,8 +53,8 @@ def _attempt(prompt: str, build, check):
     errors, note, record = [], "", None
     for t in range(1, TRIES + 1):
         try:
-            reply = llm.chat_json(prompt + note)
-            record = build(reply)
+            reply = llm.chat_json(prompt + (LOW_EFFORT_CHECKLIST if llm.REASONING_EFFORT == "low" else "") + note)
+            record = dashes.apply_to_record(build(reply))
             errors = check(record)
         except Exception as e:  # noqa: BLE001
             errors = [f"{type(e).__name__}: {e}"]
@@ -100,6 +110,15 @@ def _build_provider(rec: dict, prow: dict) -> dict:
             "technical_proficiency", "how_i_work")
     out = {"source_file": prow["provider"], "extracted_by_model": llm.MODEL, "name": None}
     out.update({k: rec[k] for k in keep if k in rec})
+    if isinstance(out.get("services"), dict):  # a bare object where the schema wants a one-item array
+        out["services"] = [out["services"]]
+    # low reasoning effort sometimes adds helper keys (word counts, notes) inside the nested objects; the schema forbids them
+    for field, allowed in (("services", ("service_title", "service_detail")), ("technical_proficiency", ("category", "skills"))):
+        if isinstance(out.get(field), list):
+            out[field] = [{k: v for k, v in x.items() if k in allowed} if isinstance(x, dict) else x for x in out[field]]
+    if isinstance(out.get("achievements"), list):  # low reasoning effort often drops the closing full stop
+        out["achievements"] = [a.rstrip() + "." if isinstance(a, str) and a.strip() and a.rstrip()[-1] not in ".!?" else a
+                               for a in out["achievements"]]
     out.update({"availability": None, "rate": None})
     return out
 

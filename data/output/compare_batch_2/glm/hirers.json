@@ -1,0 +1,2586 @@
+[
+ {
+  "source_file": "glm-gig__01_draft-supplier-trading.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-aeaccd8b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Draft Supplier Trading Terms and PO Templates",
+  "short_description": "I run a small home and lifestyle e-commerce shop in Singapore with two physical kiosks. I need someone to sort out our buying paperwork with our overseas and local suppliers. The task is to review how we currently place orders and draft a standard set of trading terms, a purchase order template and a simple goods-receiving checklist we can reuse with each supplier. Deliverable: a clean pack of trading terms, PO template and receiving checklist in editable format. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget around S$2,500-3,500, with work starting by early next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Wholesale Trade",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Trading and Sales",
+       "search_tag": "Trading and Sales (Wholesale Trade)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__02_iso-13485-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-eb6c8f5f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "ISO 13485 Compliance Gap Review for Medical Device Maker",
+  "short_description": "We make Class A and B medical devices at a small Singapore facility, about 35 staff, and hold an HSA-registered dealer's licence. We need someone to review our ISO 13485 quality management system against the current standard and HSA requirements, assess our documentation, internal audit records and CAPA processes, and flag where we fall short before our next surveillance audit. You would work with our QA executive but own the assessment yourself, with some judgement calls on risk where our records are patchy. Deliverable: a written gap assessment with prioritised remediation recommendations and an indicative roadmap to close each gap, presented to management in a short walkthrough session. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Precision Engineering",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Management",
+       "search_tag": "Management (Precision Engineering)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__03_trade-mark-strategy.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-6f856993",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Trade Mark Strategy Review for EdTech Course Names",
+  "short_description": "I run a small training provider in Singapore with three branded course lines and about 40 students per intake. We want a proper view of where our course names, logos and materials stand before we expand into Malaysia. I need someone to assess registrability, flag conflicts against existing marks, and advise what to file, in what classes, and in what order. Deliverable: a written strategy memo with a risk assessment per brand, recommended classes, and a filing roadmap, plus a 1-hour walkthrough call. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Intellectual Property",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "IP Strategy",
+       "search_tag": "IP Strategy (Intellectual Property)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__04_proofreading-and-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-0eff594e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Proofreading and Review of Building Design Report",
+  "short_description": "We are a small licensed fund manager in Singapore, a 12-person team managing private wealth mandates. Our consultants have handed us a 90-page building services design report for our new office fit-out, and we need a fresh pair of eyes to copy-edit it and review it for clarity, consistency and any obvious technical gaps worth querying. Deliverable: an edited document plus a short memo recommending which sections to raise with the engineers. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__05_safeguarding-policy-and.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-628a71b5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Safeguarding Policy and Toolkit for Youth Volunteer Programme",
+  "short_description": "I run the community arm of a mid-sized Singapore law firm and we partner with a youth drop-in centre that sees about 120 young people a month. I need a specialist to draft our safeguarding and youth engagement framework so our 30 volunteer lawyers and staff can run mentoring and tuition sessions safely. This means reviewing how we currently screen and brief volunteers, aligning the framework with MSF and SG Enable guidance and the Children and Young Persons Act, and building practical session protocols. Deliverable: a safeguarding policy, volunteer code of conduct, incident reporting flowchart and a facilitator toolkit, delivered as editable documents. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Social Service",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Youth Work",
+       "search_tag": "Youth Work (Social Service)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__06_passenger-service-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-5bdba2c4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Passenger Service Review for Airport Lounge F&B",
+  "short_description": "We run two airport lounge dining outlets in Singapore, serving roughly 1,800 passengers a day. We want a specialist in passenger services to review our guest flow, service recovery steps and staff briefing routines, and advise management on practical fixes. The work mixes observation at the outlets with working sessions with our ops team. Deliverable: a written service review with prioritised recommendations and updated service scripts. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$6,000-8,000, must start by early next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Air Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Passenger Services",
+       "search_tag": "Passenger Services (Air Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__07_review-of-retail.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-53d8bebc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review of Retail Concession Operations at Visitor Centre",
+  "short_description": "We are a statutory board operating a visitor centre with three small retail counters selling souvenirs and snacks. We want an independent review of how these counters run day to day: opening hours, stock replenishment, cash handling and vendor coordination. Advise on practical changes to reduce stockouts and shorten queue times during peak periods. Deliverable: a short written assessment with recommendations and a suggested implementation sequence. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$6,000-8,000; work should start in the first week of next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Retail",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Retail Operations",
+       "search_tag": "Retail Operations (Retail)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__08_wsh-compliance-gap.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-bcf08aea",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "WSH Compliance Gap Review for Shipyard",
+  "short_description": "We run a mid-sized ship repair yard in Jurong and need a legal review of our workplace safety and health compliance against the WSH Act and MOM subsidiary regulations. Review our permits, safety arrangements and contractor controls, identify gaps after a recent MOM inspection advisory, and advise management on fixes. Deliverable: a written gap assessment with prioritised recommendations. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Legal Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Advisory and Advocacy",
+       "search_tag": "Advisory and Advocacy (Legal Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__09_annual-salary-benchmarking.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-e11d949f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Annual Salary Benchmarking and Increment Framework",
+  "short_description": "We are a 45-strong engineering consultancy in Singapore. We need a rewards specialist to benchmark salaries for all roles against the local market and design a simple annual increment and bonus framework. Work covers job matching to market data, pay band proposals, and a one-page manager guide. Deliverable: benchmarking report plus increment and bonus framework documents in editable format. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Budget S$6,000-8,000, aiming for a start in early March.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Human Resource",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Performance and Rewards",
+       "search_tag": "Performance and Rewards (Human Resource)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__10_copy-edit-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-cadd318c",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Copy-Edit of Technical Due Diligence Report",
+  "short_description": "We need a sharp set of eyes on a long technical report before it goes to investors and our lawyer. We are a mid-sized property development and facilities management company, about 40 staff. The document is roughly 60 pages: building condition findings, M&E observations, cost tables and a valuation summary. We want a full copy-edit for grammar, consistency, terminology and tone, plus your judgement on anything that reads ambiguously or could be challenged, flagged back to us in comments. Deliverable: an edited Word document with tracked changes, a clean final version and a short editorial memo listing open queries. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__11_staff-handbook-section.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-bb121aa5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Staff Handbook Section on Working Hours and OT",
+  "short_description": "Looking for a specialist to review and write the working hours, overtime and rest day section of our staff handbook. We are a precision engineering manufacturer with about 120 employees across two shifts. The section must align with the Employment Act and MOM requirements on shift work and overtime claims, and flag any gaps in our current wording. Deliverable: a reviewed handbook section with written recommendations on compliance gaps and amended clauses. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__12_carbon-credit-portfolio.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-659ef990",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Carbon Credit Portfolio Valuation Opinion",
+  "short_description": "We are a Singapore-based social enterprise running community recycling and reforestation programmes, with a small portfolio of carbon credits (about 4,500 tCO2e across two vintages) registered under Verra. We need a carbon markets specialist to assess the current fair value of these credits, review applicable market pricing, and set out the realistic options for selling them, including retired versus unretired positions and any registry transfer steps. Deliverable: a written valuation opinion (8-12 pages) with pricing benchmarks, sale options and recommended next steps, suitable for our board to act on. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Carbon Services and Trading",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Financial Intermediation",
+       "search_tag": "Financial Intermediation (Carbon Services and Trading)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__13_clear-qa-deviation.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-5c19e2ae",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Clear QA Deviation and Complaint Backlog",
+  "short_description": "Looking for a QA-literate specialist to clear a backlog of quality records at our freight and distribution company, an HSA-licensed goods importer. Around 180 deviation forms, customer complaint files and CAPA entries have piled up in a shared inbox and spreadsheet. You would sort, date-check, close out completed items, flag open ones, and tidy the tracking spreadsheet, advising us on a simple numbering and follow-up convention as you go. Deliverable: a cleaned-up tracker plus an inbox cleared and filed by record type. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__14_set-up-ota.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-33bd0223",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Set Up OTA Channel Manager for Serviced Apartments",
+  "short_description": "We run a 40-unit serviced apartment business serving oil and gas project crews in Singapore. We want someone to set up a channel manager connecting our booking system to Agoda, Booking.com and Traveloka, with rate parity checked and room types mapped correctly. Deliverable: a working channel manager build with all channels live and a short handover document. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Hotel and Accommodation Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Revenue and Distribution",
+       "search_tag": "Revenue and Distribution (Hotel and Accommodation Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__15_english-to-chinese.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-53f5f3de",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "English to Chinese Translation of Process Safety Manual",
+  "short_description": "I run a Singapore-based SaaS company expanding into industrial energy applications, and I need one bilingual specialist to translate our process safety and chemical handling documentation. The work covers about 60 pages of technical material: a safety manual, standard operating procedures and warning labels aligned to our local regulatory context. You would translate from English into simplified Chinese, keep technical terminology consistent across documents, and flag any phrases where the compliance meaning could shift in translation. You own the terminology decisions and quality of the finished text. Deliverable: fully translated and proofread simplified Chinese versions of all documents, in editable Word format, with a bilingual glossary of key terms. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__16_power-bi-dashboard.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-13c173da",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Power BI Dashboard for Project Cost Tracking",
+  "short_description": "We need a Power BI dashboard to track costs across our fit-out projects. We are a mid-sized M&E contracting firm in Singapore with about 60 staff. The work: pull data from our Excel job-cost sheets and Xero, build a dashboard showing budget versus actual spend per project, and walk our management team through how to use and maintain it. Deliverable: a working Power BI dashboard plus a short handover session. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$3,000-5,000; able to start within two weeks of acceptance.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__17_review-of-office.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-ca3e6d44",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review of Office Coffee and Beverage Programme",
+  "short_description": "We are a 35-person law firm in the CBD with a staff pantry and a client refreshment counter. We want someone to review our current beverage service: coffee machine and capsule costs, tea and soft drink suppliers, wastage, and how the counter is stocked for meetings. Compare options including a vending operator, a coffee cart vendor and keeping the present setup. Deliverable: a short written recommendation with costed options and suggested supplier choices. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Beverage Service",
+       "search_tag": "Beverage Service (Food Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__18_regulator-correspondence-and.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-55266686",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Regulator Correspondence and Admin Backlog Review",
+  "short_description": "I run a small MAS-licensed payments startup in Singapore with 18 staff. We have fallen behind on a pile of administrative and correspondence items, including MAS notification deadlines, PDPA-related queries and internal record updates across roughly 300 open items. I need someone to work independently: triage the backlog, judge what is urgent or compliance-critical, draft the responses and filings, and flag anything that needs my sign-off. You own the outcome and advise me directly on what to prioritise and where our processes are leaking. Deliverable: a fully cleared or actioned backlog plus a short written memo with recommendations and a 90-day fix-it roadmap. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__19_review-and-rewrite.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-ca74bcb1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review and Rewrite Job Descriptions for Training Roles",
+  "short_description": "We run a small M&E engineering firm in Singapore with about 45 staff, and our job descriptions have not been touched in years. We want someone to review our current set of around 18 descriptions, check them against our actual duties and MOM requirements, and advise on fixes. Deliverable: a recommended rewrite of each job description, with notes explaining the changes. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__20_mystery-shopper-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-a1a6ed8e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Mystery Shopper Review Across Service Counters",
+  "short_description": "We make precision engineering components for the marine and offshore sector from our factory in Tuas, and we also run three customer service counters where clients collect parts and place orders. We want a mystery shopper to visit each counter several times over 2-3 weeks, score the experience against a simple framework we agree on, and tell us plainly where service falls short of the customer service standards expected under our ISO 9001 quality system. You would also brief management on the findings and suggest practical fixes. Deliverable: a written mystery shopping report with scores, observations per counter, and a short set of recommendations, plus a one-hour readout session with management. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__21_ecda-licence-readiness.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c27d3499",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "ECDA Licence Readiness Review for Staff Childcare Centre",
+  "short_description": "We want an independent review of our staff childcare centre before we apply for an ECDA licence under the Early Childhood Development Centres Act. We run a mid-sized shipyard with about 180 staff, and the centre will serve around 40 children. Assess our curriculum plans, safety and hygiene arrangements, staffing structure and documentation against ECDA licensing requirements. Advise on gaps and practical fixes. Deliverable: a written readiness assessment with prioritised recommendations for management. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Early Childhood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Early Childhood Education",
+       "search_tag": "Early Childhood Education (Early Childhood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__22_rigging-load-calculations.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d11cf442",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Rigging Load Calculations for Theatre Production",
+  "short_description": "Looking for a rigging and structural specialist to review the flying system for a staged theatre production at a rented auditorium. The production team needs independent load calculations and a written statement for SCDF approval of the temporary rigging over the stage. You will attend one site visit, review the proposed rigging plot and venue paperwork, run the calculations in StageCalc or equivalent, and liaise with the venue engineer on any fixes. Deliverable: a signed set of load calculations and a compliance statement ready for SCDF submission. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$6,000-8,000; must be able to start by early next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Arts",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical Theatre & Production",
+       "search_tag": "Technical Theatre & Production (Arts)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__23_hawker-stall-sop.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-96f98568",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Hawker Stall SOP Manual and Staff Checklist",
+  "short_description": "I run a small hawker-style stall group with three outlets in Singapore and need someone to draft a clear set of standard operating procedures for daily operations. The work covers opening and closing routines, food handling and SFA licence requirements, cash handling, and cleaning schedules, then turning these into simple checklists our stall assistants can follow. Deliverable: a printed-ready SOP manual of 10-15 pages plus one-page checklists for each outlet. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Trade Associations and Chambers",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Industry Development",
+       "search_tag": "Industry Development (Trade Associations and Chambers)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__24_pdpa-compliance-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c26b800b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "PDPA Compliance Review for SaaS Platform",
+  "short_description": "Looking for a cyber security specialist to review our Singapore-based SaaS platform's data protection practices. We handle customer support tickets and usage analytics for about 40,000 regional users. The work: assess our data collection, retention and access controls against PDPA obligations, identify gaps, and advise our small engineering team on remediation priorities. Deliverable: a written gap assessment with prioritised, practical recommendations. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Cyber Security",
+       "search_tag": "Cyber Security (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__25_mystery-shopper-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-8e5c8a6b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Mystery Shopper Review of Safety Briefings Across 5 Sites",
+  "short_description": "We are a statutory board operating several public-facing worksite safety demonstration centres in Singapore. We need one independent specialist to carry out mystery shopping visits across five of our outlets over four weeks, assessing how WSH (Workplace Safety and Health Act) duties are explained to visitors, how consistently staff follow the briefing script, and where gaps sit against MOM guidance. You advise management directly on what to fix. Deliverable: a written assessment with scored findings per site and prioritised recommendations. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$6,000-8,000; must be able to start by the first week of next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__26_tree-risk-assessment.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-0eaff422",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Tree Risk Assessment for Warehouse Yard",
+  "short_description": "We run a freight and warehousing business in Singapore, with a yard and loading area lined with mature trees over the staff car park and one boundary fence. We need an arborist to do a basic tree risk assessment on about 12 trees, checking for deadwood, cracks, root heave near pavement and anything that could drop onto vehicles or walkers. Advice should follow NParks' guidelines on tree conservation and management. Some of it is inspection on site, some is sitting with us to advise what needs pruning, monitoring or removal. Deliverable: a written report with one page per tree, photos, risk rating and recommended actions. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Landscape",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Arboriculture",
+       "search_tag": "Arboriculture (Landscape)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__27_erm-compliance-gap.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-f0ae05ee",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "ERM Compliance Gap Review for Private Education Provider",
+  "short_description": "Looking for a risk management specialist to run a targeted gap review of our enterprise risk framework. We are a private education provider with about 120 staff and 900 students, registered with the Committee for Private Education under the Private Education Act. The task: map our current risk controls against CPE regulatory requirements and our internal risk register, interview department heads, and identify gaps in areas like fee protection, student contract handling and business continuity. You will advise management on which gaps to close first. Deliverable: a completed gap assessment report with a prioritised remediation plan, handed over as final documents. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$6,000-8,000, must start by the first week of next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Accountancy",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Enterprise Risk Management",
+       "search_tag": "Enterprise Risk Management (Accountancy)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__28_sea-freight-import.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-b9a3c0d5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Sea Freight Import Process Review",
+  "short_description": "We run three home and living stores in Singapore and bring in most stock by sea. We want a maritime logistics specialist to review how our inbound shipments are booked, documented and cleared, sit with our store ops team, and advise where the process can be simplified under MPA and Singapore Customs requirements. Deliverable: a written process map with step-by-step recommendations. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Sea Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Maritime Services",
+       "search_tag": "Maritime Services (Sea Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__29_sfa-compliance-gap.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-8efa74cc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "SFA Compliance Gap Review for Community Kitchen",
+  "short_description": "We run a social enterprise kitchen in Singapore that prepares subsidised meals for elders and low-income families, around 900 meals a day. We need a specialist in food manufacturing business development to review our licensing and regulatory position before we expand into contract catering. The work: map our current SFA licence scope against the new activities, identify gaps in HACCP documentation, labelling and traceability records, and set out what changes are needed. Deliverable: a written gap review with a prioritised remediation list and draft document templates we can implement. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Business Development",
+       "search_tag": "Business Development (Food Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__30_cold-chain-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-356e58b3",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Cold Chain Review for Pharmaceutical Distribution",
+  "short_description": "We need our pharmaceutical cold chain reviewed and documented before a HSA audit. We are a mid-sized pharmaceutical distributor in Singapore moving temperature-sensitive medicines to hospitals and clinics island-wide, roughly 1,200 consignments a month. We want a hands-on specialist to map our current storage and transport flows, run a gap assessment against HSA GDP requirements, and draft the corrected SOPs with us. Deliverable: a validated gap assessment report plus rewritten cold chain SOPs, handed over in editable form. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Logistics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Logistics Solutioning and Programme Management",
+       "search_tag": "Logistics Solutioning and Programme Management (Logistics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__31_post-reno-deep.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-ad69c7b6",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Post-Reno Deep Cleaning Assessment for Secondary School",
+  "short_description": "We need an independent assessment of the post-renovation deep cleaning across our school buildings before MOE clearance and student return. We are a single-campus secondary school with about 80 staff. The work: walk through classrooms, labs and the canteen with our operations team, test surfaces and air against NEA and WSQ environmental cleaning standards, and advise on what needs re-cleaning before sign-off. Mixed site work and advisory, not the cleaning itself. Deliverable: a written condition report with findings, re-clean instructions and a clearance recommendation we can show MOE. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$6,000-8,000; must hold a NEA environmental cleaning licence or equivalent qualification.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Environmental Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Cleaning Operations",
+       "search_tag": "Cleaning Operations (Environmental Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__32_esd-control-assessment.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-33271b83",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "ESD Control Assessment for SMT Production Line",
+  "short_description": "We run a small precision electronics plant in Jurong with two SMT lines. We need a specialist to review our electrostatic discharge controls against the ANSI/ESD S20.20 programme: walk the floor, test our grounding and ionisation setup, check handling procedures, and identify gaps before our next customer audit. Deliverable: a written assessment with prioritised recommendations and a corrective action roadmap we can hand to management. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": "Budget around S$12,000-15,000, work must start by mid next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Electronics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical and Engineering",
+       "search_tag": "Technical and Engineering (Electronics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__33_review-of-coastal.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-4c2a9445",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review of Coastal Fish Farm Biosecurity Procedures",
+  "short_description": "Our statutory board supports aquaculture operators under SFA licensing, and we need an independent review of one coastal fish farm's day-to-day biosecurity practices. Assess current routines for stocking, feed handling, net cleaning and mortality disposal against standard land-based and offshore good practice, and note where records fall short. We would like a short walk-through on site plus interviews with the farm's three full-time staff. Advise on practical, low-cost fixes suited to a small operator, referencing SFA licence conditions where relevant. Deliverable: a written assessment with prioritised recommendations, around 10 to 15 pages. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "Budget S$8,000-12,000; work should start by early next quarter.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Agrifood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Aquaculture",
+       "search_tag": "Aquaculture (Agrifood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__34_aircraft-parts-inventory.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-8881c9a2",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Aircraft Parts Inventory Compliance Review",
+  "short_description": "We are an engineering services consultancy in Singapore supporting regional aircraft operators with maintenance and technical services. We need a fleet management specialist to review our rotables and consumables inventory records against CAAS and Airworthiness Notice requirements, flag traceability gaps, and advise management on practical fixes. About 1,200 line items across two stores. Deliverable: a written gap report with prioritised remediation recommendations and a briefing session. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Aerospace",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Fleet Management",
+       "search_tag": "Fleet Management (Aerospace)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__35_return-to-work.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-68323d65",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Return-to-Work Physiotherapy Protocols for Retail Staff",
+  "short_description": "Looking for a physiotherapist to put together standard return-to-work protocols for our retail staff. We run 6 outlets with about 45 floor staff, and we want clear step-by-step protocols for the common issues we see: lower back strain from lifting stock, shoulder and neck pain from shelf work, and knee problems from long standing shifts. The work is drafting the documents: assessment checkpoints, graded activity plans, and when to refer out, in line with MOM workplace safety guidance. Deliverable: a written set of 3 return-to-work protocols plus a one-page summary sheet our supervisors can use, handed over as editable files. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Healthcare",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Physiotherapy",
+       "search_tag": "Physiotherapy (Healthcare)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__36_corporate-travel-policy.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d6e48e1c",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Corporate Travel Policy and Cost Review",
+  "short_description": "We need our staff travel spend reviewed and a practical policy written. We are a mid-sized wealth management firm, about 120 staff, with regular regional trips and yearly travel spend of roughly S$1.8 million. We want someone to review our current booking practices, benchmark airfare and hotel rates, and check we meet MAS guidelines on conduct and expenses. Advise management on where savings are realistic and where controls are weak. Deliverable: a short report with recommendations, a revised travel policy and a savings estimate by category. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "Budget S$18,000-25,000; work must start by early next quarter.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Tourism",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Travel Management and Operations",
+       "search_tag": "Travel Management and Operations (Tourism)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__37_safety-case-for.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-4b9afd3c",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Safety Case for Private Rail Spur",
+  "short_description": "We operate a gas-fired power station on Jurong Island with a private rail siding used for delivered equipment. We need a rail engineering specialist to prepare and finalise a safety case for the siding's operations for submission to the regulator. You will review current operating procedures, run through hazard identification with our site team, draft the safety case document, and address regulator comments after submission. Deliverable: a completed safety case document ready for regulatory submission, plus a hazard log in Excel. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Public Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Rail Engineering",
+       "search_tag": "Rail Engineering (Public Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__38_independent-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d60c5af0",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Review of Smart Grid Tender Documents",
+  "short_description": "We are a mid-sized Singapore law firm advising a client on a utility-scale smart grid procurement. Our energy knowledge stops short of the technical detail, so we need a smart grid specialist to review the technical schedules of a tender package covering advanced metering infrastructure and distribution automation. You would assess whether the specifications are coherent, testable and consistent with EMA requirements, flag gaps or ambiguities, and walk our team through your findings in two working sessions. Deliverable: a written technical review memo, around 10-15 pages, with clause-by-clause comments suitable for inclusion in our client advice. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Power",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Smart Grid",
+       "search_tag": "Smart Grid (Energy and Power)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__39_pdpa-compliance-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-956485d5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "PDPA Compliance Review for F&B Loyalty Database",
+  "short_description": "Looking for a data protection specialist to review our customer data practices. We run a growing F&B group with 6 outlets and a central kitchen, and our loyalty programme, e-invoicing portal and CCTV setup all touch personal data. We need a gap assessment against the PDPA, covering consent, retention, access control and vendor handling, plus practical fixes ranked by priority. Deliverable: a written assessment with a prioritised remediation roadmap we can hand to management. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Security",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Security Consultancy",
+       "search_tag": "Security Consultancy (Security)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__40_independent-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-099b486c",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Review of Customs Valuation Practices",
+  "short_description": "Looking for a customs and trade finance specialist to review how our trading arm values imported goods for Singapore Customs purposes. We are a mid-sized freight forwarding and distribution business, about 60 staff, moving roughly 400 containers a year across related-party suppliers. We need someone to examine our transfer pricing and declared valuation methods, flag exposure areas, and advise on corrections before our next customs audit. Familiarity with the Customs Act and Singapore Customs requirements is essential. Deliverable: a written assessment with findings, risk ratings and recommended valuation approach, presented to management in a closing session. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Wholesale Trade",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Finance and Regulations",
+       "search_tag": "Finance and Regulations (Wholesale Trade)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__41_calibration-process-mapping.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-fb331640",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Calibration Process Mapping for Dental Clinic Equipment",
+  "short_description": "We need our dental clinic's equipment calibration process mapped and tidied up. We run two chairs and hold about 30 instruments and devices that need routine calibration checks under SFA and MOH expectations. You would come in, walk through our current steps, talk us through where the gaps are, and set up a simple schedule and checklist our nurses can follow. Deliverable: a written calibration procedure, schedule and checklist in one document. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Precision Engineering",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical and Engineering",
+       "search_tag": "Technical and Engineering (Precision Engineering)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__42_trade-mark-clearance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-b1e1cbc7",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Trade Mark Clearance for New Condo Brand",
+  "short_description": "We need a Singapore trade mark check done before we launch the brand name for a new residential development. We're a small property developer, around 25 staff, and want someone to run a clearance search on one proposed name and tagline across classes 36 and 37 using the IPOS register, flag any close marks, and give a short written view on registration risk. If the name looks clear, prepare a draft application ready for filing under the Trade Marks Act. Deliverable: a clearance search report plus a draft trade mark application. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$2,500-3,500; work to start by 1 March.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Intellectual Property",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "IP Legal",
+       "search_tag": "IP Legal (Intellectual Property)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__43_shipyard-renovation-cost.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-b8bd2c23",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Shipyard Renovation Cost Reinstatement Assessment",
+  "short_description": "Looking for a quantity surveyor to prepare a cost assessment for reinstating our dry dock workshop area after fire damage. You will measure from site drawings and a walkthrough, price up reinstatement works (structural, cladding, M&E, fit-out) against current Singapore market rates, and flag where BCA requirements will add cost. We are a mid-sized ship repair yard with about 120 staff and no in-house QS. You will also review the adjuster's preliminary figures and advise management where they look off. Deliverable: a marked-up BOQ and a cost report with recommended settlement figures, issued in editable Excel and PDF. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Built Environment",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Quantity Surveying",
+       "search_tag": "Quantity Surveying (Built Environment)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__44_review-of-staff.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-44837182",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review of Staff Welfare Referral Process",
+  "short_description": "I run a 40-person software company in Singapore and we need an independent social worker to review how our HR team handles staff welfare cases, like family crises, financial hardship and mental health referrals. Look at our current intake steps, check handling meets PDPA consent and confidentiality expectations, and advise where our process falls short of good practice. Deliverable: a short written assessment with recommendations and a revised referral workflow. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Social Service",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Social Work",
+       "search_tag": "Social Work (Social Service)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__45_clean-up-weight.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-bf0b6dce",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Clean Up Weight and Balance Excel Workbook",
+  "short_description": "We run a small non-profit air ambulance and patient transfer service with two aircraft and about 40 flights a month. Our load control workbook, built over years in Excel, has grown messy: duplicated weight sheets, inconsistent formulas and manual lookups we no longer trust. We want one specialist to audit the workbook, fix the calculation errors, restructure it into clean linked sheets, and advise our ops team on any compliance gaps against CAAS weight and balance requirements. Deliverable: a restructured, tested Excel workbook with a short advice note for management on remaining risks. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$4,000-6,000; work must start by early next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__46_brand-refresh-for.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-071095ff",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Brand Refresh for Dental Clinic Group",
+  "short_description": "We are a group of three dental clinics in Singapore with about 25 staff. We need a brand specialist to review our current clinic branding, signage, patient collateral and online presence, then draft updated brand guidelines and prepare refreshed templates for our reception materials and social media. Deliverable: a brand guidelines document plus a set of ready-to-use templates. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Retail",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Brand Management",
+       "search_tag": "Brand Management (Retail)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__47_pdpa-compliance-opinion.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-9f663a87",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "PDPA Compliance Opinion for SaaS Customer Data",
+  "short_description": "I run a small SaaS company in Singapore, around 25 staff, and we hold usage data and billing details for a few thousand business customers. I need a legal opinion on whether our current data handling, marketing consent flows and third-party processor arrangements meet our obligations under the PDPA. Review our privacy notices, consent capture and a sample of data-sharing clauses, then advise where we fall short and what to prioritise. Deliverable: a written advisory opinion with findings, risk ratings and a prioritised remediation roadmap. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Budget around S$8,000-12,000, with work starting in the first week of next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Legal Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Advisory and Advocacy",
+       "search_tag": "Advisory and Advocacy (Legal Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__48_onboarding-checklist-mapping.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-52593140",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Onboarding Checklist Mapping for Accounting Firm",
+  "short_description": "I run a 12-person accounting practice in Singapore and I need someone to map out a proper staff onboarding process for us. The work covers drafting the step-by-step checklist for new hires, from MOM right-to-work checks and CPF registration to system accounts and PDPA acknowledgements. Deliverable: a completed onboarding checklist and process map in Word and PDF. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Human Resource",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operations and Technology",
+       "search_tag": "Operations and Technology (Human Resource)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__49_copy-edit-and.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-1a78ce39",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Copy-edit and fact-check compliance tender document",
+  "short_description": "We need a 180-page technical and compliance document gone through properly before it goes to BCA. We are a 40-person engineering consultancy, and this is a submission with regulatory context, so accuracy matters more than style. The job is to proofread and copy-edit the full document: fix grammar and consistency, check that terminology matches the drawings and annexes, flag any statement that conflicts with the referenced clauses or standards, and confirm headings, numbering and cross-references all line up. No rewriting of technical content, no new writing. Deliverable: one marked-up document with tracked changes, plus a short memo listing every flagged discrepancy and the affected page. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__50_payment-fraud-controls.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-20362abf",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Payment Fraud Controls Review for Freight Forwarder",
+  "short_description": "We run a mid-sized freight forwarding and trucking operation in Singapore, about 60 staff, moving several hundred shipments a week. We want an independent specialist to review our payment and invoice-handling controls against MAS-relevant practices, covering supplier payment approvals, bank mandate settings, email compromise risks and our current Xero and internet banking workflows. You would sit with our finance and dispatch staff, map how payments actually flow, flag gaps and prioritise fixes, and brief management on what needs to change and what can wait. Deliverable: a written findings report with a prioritised remediation plan, plus a walkthrough briefing for management. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Financial Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operations",
+       "search_tag": "Operations (Financial Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__51_carbon-roles-job.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-242f780b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Carbon Roles Job Descriptions for Contractor",
+  "short_description": "We need a set of job descriptions written for new carbon-related roles at a mid-sized construction and fit-out company (about 120 staff). We are building capability to handle carbon reporting under the Carbon Pricing Act and BCA requirements, and we have nothing in-house to draft these properly. The work covers roles across carbon accounting, emissions data management and decarbonisation advisory for our projects. You will work from our role outlines, interview the relevant managers, then draft each description with duties, deliverables and reporting lines. Deliverable: a polished set of 4 job descriptions in editable format, ready for posting. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Budget around S$3,500-4,500; must be able to start within two weeks.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__52_review-bottling-line.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-1b61a8d1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review Bottling Line Batch Process and Layout",
+  "short_description": "I run a small craft beverage bottling operation with one central kitchen in Singapore, producing around 6,000 bottles a week across three products. I need a production specialist to review our batching and filling process, map each step from ingredient intake to packed cases, and identify where we lose time or yield. The work is advisory: observe the line, talk through our current method, and give an opinion on practical fixes we can make without new machinery. Familiarity with SFA licensing requirements for a bottling setup would be useful context. Deliverable: a written assessment with a current-state process map and three to five prioritised recommendations. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$4,000-6,000; must be able to do site visits on two weekday mornings.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "BioPharmaceuticals Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Production",
+       "search_tag": "Production (BioPharmaceuticals Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__53_housekeeping-sop-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-59cb7a3a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Housekeeping SOP Review for Boutique Hotel",
+  "short_description": "We run a 48-room boutique hotel near Orchard with a housekeeping team of 12. We need a housekeeping specialist to review our current cleaning and room-turnaround routines, check them against NEA hygiene and MOM workplace safety requirements, and advise where they can be tightened. You will observe a few full shifts, map the process step by step, and recommend changes our supervisor can run with. Deliverable: a written housekeeping SOP playbook with process maps and a one-page checklist per room type. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": "Budget S$4,000-6,000; work must start by early next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Hotel and Accommodation Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Housekeeping",
+       "search_tag": "Housekeeping (Hotel and Accommodation Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__54_independent-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c4039318",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Review of Data Centre Cooling and Power Resilience",
+  "short_description": "We are a mid-sized asset management firm in Singapore with around 120 staff, regulated by MAS. Our server room cooling and backup power setup needs an independent engineering review before we finalise our business continuity documentation. We want a specialist to inspect the chiller, UPS and generator arrangements, advise whether they meet our operational needs, and flag single points of failure. Deliverable: a written technical assessment with findings, photographs and prioritised recommendations. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Chemicals",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Engineering and Maintenance",
+       "search_tag": "Engineering and Maintenance (Energy and Chemicals)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__55_pre-shipment-qa.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-e7d51469",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Pre-Shipment QA Review of PCB Assembly Line",
+  "short_description": "I run a precision engineering SME in Jurong with about 40 staff, machining and assembling control boards for industrial clients. Our SFA-adjacent QA checks are fine for mechanical parts, but I need a quality assurance specialist to independently review one high-stakes PCB assembly batch before shipment: inspect test records, verify IPC-A-610 workmanship criteria, trace component lot documentation and stress-test our AOI escape rate data. Deliverable: a signed QA assessment report with findings, batch disposition recommendation and corrective actions, suitable for showing our customer and auditor. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Media",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Quality Assurance",
+       "search_tag": "Quality Assurance (Media)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__56_costed-baking-recipe.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-7ab565a3",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Costed Baking Recipe Standardisation for Bakery",
+  "short_description": "We run a community bakery and cafe as part of a social enterprise, employing 12 staff and producing around 600 pastries weekly for our outlet and programme partners. We want a pastry specialist to rationalise our current range of about 25 baked items: review each recipe, standardise measurements and method into tested formula cards, and re-cost every recipe at current ingredient prices from our suppliers. The work is hands-on in our kitchen, including trial bakes to verify yields and food cost percentages. Deliverable: a full set of standardised, costed recipe cards with yield targets and updated selling price recommendations. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Pastry and Baking",
+       "search_tag": "Pastry and Baking (Food Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__57_pdpa-compliance-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-b91ac587",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "PDPA Compliance Review for Student Data",
+  "short_description": "I run a private tuition centre in Singapore with about 40 staff and 1,800 active students. I need an innovation and data governance specialist to review how we collect, store and use student and parent data across our enrolment forms, class management system and marketing lists, and to identify gaps against the PDPA. Advise management on practical fixes, priorities and what we can handle ourselves versus what needs outside help. Deliverable: a written gap assessment with a prioritised remediation roadmap for management sign-off. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Design",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Innovation",
+       "search_tag": "Innovation (Design)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__58_wsq-training-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-ae359b93",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "WSQ Training Compliance Gap Review",
+  "short_description": "We run a mid-sized ship repair yard in Jurong with about 180 workers. We need an adult education specialist to review our in-house WSQ safety and skills training against MOM and WDA requirements, spot gaps in course content, records and trainer credentials, and advise management on fixes. Deliverable: a gap report with prioritised recommendations and a corrective action checklist. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget around S$4,000-6,000, work to start in early March.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Training and Adult Education",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Adult Education",
+       "search_tag": "Adult Education (Training and Adult Education)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__59_independent-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-854e39c4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Review of Offshore Production Safety Case",
+  "short_description": "Looking for a production engineering specialist to review and advise on our jack-up rig production safety case ahead of submission to MOM. We are a mid-sized offshore services operator with about 120 staff based in Singapore. The work: assess the current safety case document, check the hazard analysis and barrier assumptions against operational reality, flag gaps in the production system sections, and advise on what to strengthen before we resubmit. Deliverable: a written assessment with prioritised recommendations and a summary opinion for management. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Marine and Offshore",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Production Engineering",
+       "search_tag": "Production Engineering (Marine and Offshore)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__60_early-intervention-referral.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-8fb70851",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Early Intervention Referral Pathway Mapping",
+  "short_description": "We run an early intervention programme for children with developmental needs at a government agency, and we need our referral pathway mapped and reviewed. A specialist in early childhood intervention should sit with our team, document each step from referral to intake, and flag where families drop off or wait times stretch. You will also advise on practical fixes. Deliverable: a current-state process map with annotated pain points and short recommendations. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget is S$4,000-5,000, and we would like the work to start in early April.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Early Childhood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Early Intervention",
+       "search_tag": "Early Intervention (Early Childhood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__61_job-descriptions-for.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-92237275",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Job Descriptions for Student Production Crew Roles",
+  "short_description": "I run the technical theatre programme at a small arts school in Singapore. I need a writer to draft a set of job descriptions for our student production crew roles, covering stage, lighting, sound and front-of-house. You would interview me briefly, map the duties for each role and draft the documents in plain English. Deliverable: a set of 8-10 finished job descriptions in editable Word format. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__62_position-paper-for.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-3ece72f1",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Position Paper for F&B Association Consultation Submission",
+  "short_description": "We run four cafes and a small central kitchen, and we sit in a local F&B trade association. The association has asked members for input on an SFA consultation affecting central kitchen licensing, and we want a short research-based position paper to submit under our name. The work: pull together evidence on how the proposed licensing changes would hit small operators like ours, benchmark against a few comparable markets, and draft the paper. We would also want a call or two to stress-test the arguments before we finalise. Deliverable: a 6-8 page position paper with cited sources, plus a one-page summary. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Trade Associations and Chambers",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Research",
+       "search_tag": "Research (Trade Associations and Chambers)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__63_it-support-process.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-8e4d3a27",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "IT Support Process Review for Charity",
+  "short_description": "We are a community care charity running three senior activity centres, with a small team of about 25 staff and no dedicated IT person. We need someone to review how our day-to-day IT support actually works: how staff report issues, how devices and accounts are managed, and how we handle things like MS Teams, shared drives and volunteer laptops. Using what you find, advise us on a simple support process we can run ourselves, including triage steps, escalation options and a basic asset register. Deliverable: a written assessment with a recommended support workflow and prioritised quick wins we can adopt within a month. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Infocomm Technology",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operations and Support",
+       "search_tag": "Operations and Support (Infocomm Technology)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__64_wsh-compliance-gap.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-2d7a457b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "WSH Compliance Gap Review for Insurance Firm",
+  "short_description": "We are a mid-sized general insurance firm in Singapore with around 60 staff across two office floors, and we answer to MAS as well as MOM on workplace safety matters. We need a WSH specialist to review our office operations against the Workplace Safety and Health Act and our internal protocols, identify compliance gaps in areas like incident reporting, evacuation preparedness and contractor management, and advise management on priorities. Deliverable: a written gap assessment with a prioritised remediation roadmap for management sign-off. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$4,000-6,000; must be able to start within two weeks of confirmation.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Workplace Safety and Health",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Corporate",
+       "search_tag": "Corporate (Workplace Safety and Health)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__65_turf-and-plant.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-2ff79a65",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Turf and Plant Health Assessment for Clinic Garden",
+  "short_description": "We are a group dental practice in Singapore with six clinics, each with a small landscaped garden and turf entrance strip. We need a horticulture and turf specialist to inspect all six sites, diagnose yellowing grass and struggling shrubs, and advise our maintenance contractor on a simple monthly care routine. Deliverable: a written site-by-site assessment with treatment steps and a one-page maintenance schedule. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$2,500-3,500; must be able to start site visits within two weeks.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Landscape",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Horticulture and Turf Maintenance",
+       "search_tag": "Horticulture and Turf Maintenance (Landscape)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__66_forensic-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-106b1f05",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Forensic Review of Supplier Payments",
+  "short_description": "I run a small home and beauty retail chain with three outlets and an online store. I need a financial forensics specialist to trace a year of supplier and staff-card payments across our Xero records, flag duplicate, round-sum or off-ledger transactions, and assess whether any IRAS reporting obligations were affected. You would also brief me on the findings and what controls to tighten. Deliverable: a written findings report with transaction schedules and a short controls memo. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Accountancy",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Financial Forensics",
+       "search_tag": "Financial Forensics (Accountancy)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__67_vessel-charter-documentation.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-e4b01ac0",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Vessel Charter Documentation for Construction Barge",
+  "short_description": "We are a Singapore construction contractor running marine works, with one flat-top barge used for material transport to our southern island site. We need someone to prepare the charter and voyage documentation set: charterparty paperwork, statement of facts templates, voyage logs and daily hire invoices format. Most voyages are short trips between Jurong and the island, around 20 per month. Deliverable: a complete, ready-to-use documentation pack with templates and one worked example voyage. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Sea Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Shipping and Maritime Services",
+       "search_tag": "Shipping and Maritime Services (Sea Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__68_shelf-life-study.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-90e21293",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Shelf-Life Study for New Sauce Range",
+  "short_description": "I run a small engineering services consultancy in Singapore and we are launching a bottled chilli sauce line through our food testing arm. I need a food R&D specialist to design and run a challenge and ambient shelf-life study for three sauce recipes, covering pH, water activity, sensory checks and packaging integrity, aligned to SFA labelling requirements. The work is hands-on: prepare samples, run the protocol, interpret results and recommend a validated best-before date per recipe. Deliverable: a written shelf-life validation report with test data and per-recipe date recommendations. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$6,000-8,000, must be able to start within two weeks.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Research and Development",
+       "search_tag": "Research and Development (Food Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__69_dg-freight-incident.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-cb0971cc",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "DG Freight Incident Report for Statutory Board",
+  "short_description": "Looking for a dangerous goods freight specialist to prepare a formal incident report for submission to SCDF. You will review shipping documents, transport manifests and site handling records for one chemical consignment, assess compliance with Singapore's dangerous goods rules, and draft the technical findings. Deliverable: a signed-off incident assessment report with root cause findings and corrective actions, within 2 weeks. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Logistics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Freight Forwarding and Operations",
+       "search_tag": "Freight Forwarding and Operations (Logistics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__70_pest-control-programme.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c7bdfab3",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Pest Control Programme Review for Shipyard",
+  "short_description": "I run a mid-sized ship repair yard in Jurong with about 120 workers on site. I need a pest management specialist to review our current pest control arrangements across the yard, workshops and vessel berths, check they meet NEA requirements, and identify gaps in baiting, monitoring and vendor checks. Advise what to fix first and roughly what it should cost. Deliverable: a written assessment with recommendations and an implementation roadmap. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Environmental Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Pest Management",
+       "search_tag": "Pest Management (Environmental Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__71_independent-assessment-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-7d3a01fb",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Assessment of Fleet Telematics Compliance",
+  "short_description": "I run a mid-sized freight forwarding company in Singapore. I need an electronics specialist to give an independent assessment of a batch of telematics units fitted across our 40-truck fleet, where IMDA type-approval questions have come up. The work is reviewing the supplier's test data, inspecting sample units, and advising on compliance and next steps. Deliverable: a written assessment with recommendations for management and any IMDA queries to raise. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Electronics",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Management",
+       "search_tag": "Management (Electronics)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__72_independent-agrifood-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-197065a5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Agrifood Compliance Opinion for Dispute",
+  "short_description": "Looking for an independent agrifood specialist to provide a formal opinion in a client dispute. Our law firm acts for a mid-sized food manufacturer whose SFA licence conditions are in question. You would review the licence terms, inspection records and site practices, form a defensible view on compliance, and discuss findings with our team. Deliverable: a signed written opinion suitable for use in mediation, plus a short briefing session. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Agrifood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Agriculture",
+       "search_tag": "Agriculture (Agrifood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__73_review-of-drone.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c649d2f4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Review of Drone Maintenance Programme",
+  "short_description": "We are a Singapore-based drone services and software company with a small fleet of around 20 unmanned aircraft used for inspection work, operating under CAAS requirements. We need a specialist to review our aircraft maintenance programme: assess our current inspection schedules, component life limits and defect logging practices, and advise whether they meet the required airworthiness standards for our operating permit. Deliverable: a written assessment with prioritised recommendations and a corrected maintenance schedule we can hand to our CAAS-appointed auditor. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Aerospace",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Aircraft Maintenance",
+       "search_tag": "Aircraft Maintenance (Aerospace)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__74_data-clean-up.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-edf7391e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Data Clean-up for Site Emergency Contact Records",
+  "short_description": "We need our emergency response contact records tidied up. We run an industrial site with an on-site ambulance and first aid team, and our crew and contractor contact list (about 2,500 records) has accumulated duplicates, outdated numbers and inconsistent formats. You would deduplicate entries, standardise phone and ID formats, flag records missing consent details under PDPA, and update job titles from supplied rosters. Work is in Excel, with a simple data dictionary to follow. Deliverable: a cleaned master contact list in Excel, plus a short log of changes and flagged records. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__75_design-factory-visitor.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d4d87fc5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Design Factory Visitor Tour Programme",
+  "short_description": "We need a proper visitor tour programme set up for our precision engineering factory in Tuas. We are a manufacturing SME with about 80 staff, and we host regular client visits, supplier audits and student groups, but the tours are currently improvised each time. We want someone to map out a standard tour route, prepare talking points for each production area, draft a visitor briefing covering safety and house rules, and advise on what can and cannot be shown. Deliverable: a tour programme pack with route map, briefing document and speaker notes, ready for our team to run. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Tourism",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "General Management",
+       "search_tag": "General Management (Tourism)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__76_depot-fuel-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-22895343",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Depot Fuel Compliance Review for Bus Fleet",
+  "short_description": "Looking for a bus fleet engineering specialist to review our fleet fuel handling and storage compliance. We run a private bus depot of about 60 buses serving our power generation sites, and we need someone to assess our fuel storage, dispensing and spill controls against LTA and NEA requirements, flag gaps, and advise management on practical fixes and indicative costs. The work mixes site inspection, document review and a briefing session with our operations lead. Deliverable: a written gap assessment with prioritised recommendations and cost estimates. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Public Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Bus Fleet Engineering",
+       "search_tag": "Bus Fleet Engineering (Public Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__77_rooftop-solar-feasibility.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-74d8505b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Rooftop Solar Feasibility Review for Community Centre",
+  "short_description": "Looking for a distributed generation specialist to review a planned rooftop solar installation at one of our community centres. Assess roof suitability, estimated generation against our consumption data, grid connection requirements under EMA rules, and whether the current sizing makes sense. Flag any compliance gaps and recommend whether to proceed, resize, or redesign. Deliverable: a short written assessment with findings, generation estimates, and a clear recommendation for management. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Energy and Power",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Distributed Generation",
+       "search_tag": "Distributed Generation (Energy and Power)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__78_security-deployment-and.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-8bf9bfa9",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Security Deployment and Compliance Review for Retail Chain",
+  "short_description": "We run a chain of eight consumer electronics stores in Singapore, about 120 staff in total. We want a review of our store security arrangements: guard deployment across sites, incident response procedures, and whether our current contractor arrangements meet PLRD requirements under the Auxiliary Police and Private Security industry licensing regime. You would visit a few stores, observe shift handovers, talk to our ops team, and flag gaps. Deliverable: a written review report with findings, a compliance gap list, and practical recommendations we can act on. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Security",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Auxiliary Police",
+       "search_tag": "Auxiliary Police (Security)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__79_supplier-cost-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-b37c0431",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Supplier Cost Review for Tender Materials",
+  "short_description": "We need to bring down our procurement costs for building materials and want an independent review. We are a 40-person engineering services firm doing M&E works for construction clients across Singapore. We buy cable trays, conduits, fittings and similar items from a mix of regular suppliers and ad hoc purchases, about S$2 million a year. You would review our purchase records, benchmark unit prices against the market, map where we are overpaying or buying off-contract, and advise management on consolidation options. Deliverable: a written cost-reduction study with price benchmarks, a supplier consolidation plan and estimated savings, presented to management. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": "Budget S$6,000-9,000, must be able to start by early next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Wholesale Trade",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Operations, Procurement and Sourcing",
+       "search_tag": "Operations, Procurement and Sourcing (Wholesale Trade)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__80_independent-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-58474b70",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Review of CMM Measurement Capability Report",
+  "short_description": "I run a small precision machining firm in Singapore making Class II medical device components under HSA's GDPMDS requirements. I need an independent metrology and quality management specialist to review our CMM measurement capability study for one family of orthopaedic implant parts, check the uncertainty budgets and gauge R&R results, and give a formal written opinion on whether the data supports our process capability claims to an auditor. Deliverable: a signed review report with findings, corrected uncertainty figures and recommended actions, ready to show our notified assessor. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Precision Engineering",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Management",
+       "search_tag": "Management (Precision Engineering)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__81_patent-filing-roadmap.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-a81a99bd",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Patent Filing Roadmap for Ship Repair Invention",
+  "short_description": "We are a family-owned ship repair yard in Jurong with about 60 staff, serving vessels calling at Singapore ports. We have developed an improved hull-cleaning method and want independent advice on protecting it. We need a patent specialist to review our invention disclosure, assess whether it is patentable under Singapore's Patents Act, and recommend a filing strategy, including whether to file locally first or via PCT. Deliverable: a written opinion with a recommended filing roadmap and estimated official fees in S$. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Intellectual Property",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Patents Prosecution",
+       "search_tag": "Patents Prosecution (Intellectual Property)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__82_procurement-process-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-0c4e25c2",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Procurement Process Review for Fit-Out Contractor",
+  "short_description": "I run a small M&E fit-out contracting company in Singapore with about 35 staff across three active sites. I need someone to review how we handle subcontractor and material procurement, from requisition to approval, and advise where the process breaks down or exposes us under our BCA registration requirements. The work involves walking through our current steps, talking to two site supervisors, and benchmarking against standard practice for contractors our size. Deliverable: a written assessment with a recommended process map and three to five prioritised fixes. Engagement duration: 2-3 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 3,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Built Environment",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "General Management",
+       "search_tag": "General Management (Built Environment)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__83_early-intervention-curriculum.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-2032a4bb",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Early Intervention Curriculum Review for Staff Nursery",
+  "short_description": "We run a staff childcare centre for about 40 children and need an outside review of our early intervention teaching practice. We want a specialist to observe our current sessions, check our learning plans against ECDA requirements and the Early Years Development Framework, and flag where children needing extra support are not being picked up early enough. You would also sit down with our management to walk through the findings and agree practical fixes. Deliverable: a written review with gap findings, recommended teaching adjustments, and a prioritised action list for the next two terms. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$4,000-5,500; must be available to start by mid-next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Social Service",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Early Intervention Teaching",
+       "search_tag": "Early Intervention Teaching (Social Service)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__84_airport-cargo-handling.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-d3f442f4",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Airport Cargo Handling SOP Mapping for Shipment Flows",
+  "short_description": "We are a precision engineering manufacturer in Singapore with about 60 staff, shipping components via air freight from Changi. We need a ground services specialist to map our cargo handover process from factory dock to airline acceptance, covering packing, documentation and CAAS-compliant dangerous goods handling for lithium batteries. You will observe current flows, interview our logistics coordinator and flag gaps, then advise on fixes. Deliverable: a written process map with gap findings and recommended SOP updates. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": "Budget S$4,000-6,000, with work starting in the first week of next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Air Transport",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Ground Services",
+       "search_tag": "Ground Services (Air Transport)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__85_pdpa-compliance-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-0a8a8bfb",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "PDPA Compliance Review for Marketing Database",
+  "short_description": "We run a SaaS platform serving about 40 SME clients and hold contact data for roughly 15,000 subscribers. We need a marketing specialist to review how we collect, use and store subscriber data for our campaigns against PDPA requirements, flag gaps in consent and unsubscribe practices, and implement fixes directly in our CRM and Mailchimp setup. Deliverable: an updated consent flow, corrected data fields, and a short findings memo for management. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Retail",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Marketing",
+       "search_tag": "Marketing (Retail)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__86_independent-legal-opinion.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-71d8596e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent Legal Opinion on Warehouse Lease Clause",
+  "short_description": "We need a formal legal opinion on an exclusion-of-liability clause in our warehouse lease. We are a mid-sized freight forwarding company, around 60 staff, operating from one warehouse facility in Singapore. We want a specialist to review the clause against the Contracts (Rights of Third Parties) Act and applicable Singapore law, assess whether it is enforceable as drafted, and advise on our risk exposure. Deliverable: a written legal opinion setting out the enforceability assessment, key risks, and recommended amendments for negotiation. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$12,000-18,000; must be a qualified Singapore-registered lawyer to issue the opinion.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Legal Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Advisory and Advocacy",
+       "search_tag": "Advisory and Advocacy (Legal Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__87_clean-up-staff.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-77d8dad5",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Clean Up Staff Contact List in HR System",
+  "short_description": "We need our staff and alumni contact list tidied up in our HR system. We are a private enrichment centre with about 40 part-time tutors and admin staff, and our records have drifted over the years. You would de-duplicate entries, standardise job titles and departments, fill in missing NRIC-masked and CPF-relevant fields flagged by our payroll template, and archive leavers correctly under PDPA retention rules. Work is in our existing HRIS, no new build needed. Deliverable: a cleaned, de-duplicated staff list in the HRIS plus a short change log. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__88_independent-pe-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c6f551b0",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Independent PE Review of Building Structural Design",
+  "short_description": "Looking for a licensed professional engineer to give an independent second opinion on the structural design for our new two-storey office fit-out, which is under BCA submission review. You will check the calculations and drawings, advise where the design needs strengthening or clarification, and speak to our contractor if needed. Deliverable: a signed review letter setting out findings and required actions. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Engineering Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Engineering Design",
+       "search_tag": "Engineering Design (Engineering Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__89_sustainability-report-assurance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-48868b04",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Sustainability Report Assurance Readiness Review",
+  "short_description": "Looking for a sustainability reporting specialist to prepare our charity for limited assurance over our FY2025 sustainability disclosures under SGX-aligned ISSB reporting. You will run a readiness review, map our data collection gaps across energy, waste and programme emissions, and draft remediation actions. Deliverable: a readiness report with gap log and remediation plan. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Financial Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Sustainability",
+       "search_tag": "Sustainability (Financial Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__90_legal-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-af3aacce",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Legal Review of Carbon Offset Purchase Agreement",
+  "short_description": "Looking for a carbon markets lawyer to review a draft carbon credit purchase agreement before we sign. We run a catering and central kitchen business with about 120 staff across two sites. We plan to buy roughly 3,000 tonnes of voluntary carbon offsets a year and need the contract checked for delivery risk, double counting, invalidation clauses, and whether the credits meet recognised integrity standards like ICVCM. Advise management on our negotiating position and flag any exposure under Singapore carbon reporting rules administered by NEA and ACRA disclosures. Deliverable: a written review memo with clause-by-clause comments and a shortlist of recommended contract changes. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Carbon Services and Trading",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Legal and Insurance",
+       "search_tag": "Legal and Insurance (Carbon Services and Trading)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__91_gmp-maintenance-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-615e8c1b",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "GMP Maintenance Compliance Gap Review for Bioprocessing Facility",
+  "short_description": "We operate a small government bioprocessing facility that produces clinical trial biologics. We need a specialist to review our engineering and maintenance set-up against PIC/S GMP expectations and HSA licensing requirements: PM schedules, calibration records, change control and deviation handling for our utilities and cleanroom plant. The work is advisory, on site for a few days. Deliverable: a gap assessment with prioritised recommendations, suitable for management sign-off. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "BioPharmaceuticals Manufacturing",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Engineering and Maintenance",
+       "search_tag": "Engineering and Maintenance (BioPharmaceuticals Manufacturing)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__92_corporate-rate-card.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-f45fbf70",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Corporate Rate Card and Sales Collateral Refresh",
+  "short_description": "We run a 40-room boutique hotel near Tanjong Pagar, part of a small family group that also operates a power generation support business. We need a hands-on marketing specialist to refresh our room rate card and build a standard corporate sales kit. You will benchmark our rates against 8-10 comparable hotels, draft the new rate card with weekday and weekend tiers, and prepare a corporate booking one-pager and email template. All copy must comply with the PDPA for guest data references. Deliverable: a finalised rate card, one-pager and email template in editable formats. Engagement duration: 4 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Hotel and Accommodation Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Sales and Marketing",
+       "search_tag": "Sales and Marketing (Hotel and Accommodation Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__93_transcribe-and-summarise.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-aeaf3566",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Transcribe and Summarise Process Incident Interview Recordings",
+  "short_description": "I run a chain of wellness retail stores with a small central production kitchen, and we are working through a MOM incident review. I need a specialist to transcribe around 12 hours of recorded staff and supervisor interviews, then summarise the key points and assess what the transcripts say about our production and handling process. Deliverable: a written assessment with findings and recommendations suitable to share with MOM. Engagement duration: 6-8 weeks.",
+  "duration_weeks_min": 6,
+  "duration_weeks_max": 8,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__94_live-ops-launch.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-634be9b8",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Live Ops Launch Plan for Mobile Game Tie-in",
+  "short_description": "We are a licensed digital payment provider regulated by MAS, with about 60 staff in Singapore. Our app includes a small gamified rewards feature built on Unity, and we want to run a two-week in-app event tied to a national campaign later this year. We need a game production specialist to scope the event, define the live ops calendar, set engagement and conversion targets, and advise our product team on monetisation mechanics that stay within MAS marketing and fair dealing guidelines. Deliverable: a live ops launch plan covering event scope, milestones, KPIs and risk flags, plus one working session with our team. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Media",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Game Production",
+       "search_tag": "Game Production (Media)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__95_halal-kitchen-certification.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-12556545",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Halal Kitchen Certification Preparation for Ship Canteen",
+  "short_description": "We run a mid-sized shipyard on the west coast with about 180 staff, and our main canteen serves around 400 meals a day. We want to get the canteen certified halal and need someone to run the whole preparation on-site: review recipes and suppliers for non-halal ingredients, separate storage and preparation flows, draft the documentation required under Muis halal certification requirements, and take us through a pre-audit walkthrough before submission. Deliverable: a completed Muis application pack with supplier declarations, kitchen process maps, and a corrective action list from the walkthrough. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$8,000-12,000; must be available to start on site by the first week of next month.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Food Services",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Food and Beverage Service",
+       "search_tag": "Food and Beverage Service (Food Services)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__96_security-review-of.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-c5ef6f72",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Security Review of Fleet Telematics Platform",
+  "short_description": "I run a mid-sized freight and warehousing company with about 60 trucks and two depots. I need a technology security specialist to review our fleet telematics and driver mobile app setup, assess access controls and data flows against CSA's Cyber Essentials and PDPA obligations, and advise me directly on which gaps to fix first and how. Deliverable: a prioritised risk assessment report with remediation options and a short advisory walkthrough session. Engagement duration: 4-6 weeks.",
+  "duration_weeks_min": 4,
+  "duration_weeks_max": 6,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Design",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technology",
+       "search_tag": "Technology (Design)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__97_wsq-training-compliance.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-88a3a83a",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "WSQ Training Compliance Gap Review",
+  "short_description": "We are a mid-sized fit-out and M&E contracting firm in Singapore with about 80 site and office staff. We need a specialist in adult education and workplace training to review our internal training programme against SkillsFuture Singapore and WSQ requirements, including our claims processes and records for the last 12 months (roughly 60 staff enrollments across safety and supervisor modules). You will audit our documentation, interview two coordinators, and flag gaps in course mapping, attendance records and funding claim compliance, then advise management on fixes. Deliverable: a written gap report with a prioritised remediation checklist and updated record-keeping templates. Engagement duration: 2 weeks.",
+  "duration_weeks_min": 2,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Training and Adult Education",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Adult Education",
+       "search_tag": "Adult Education (Training and Adult Education)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__98_redesign-workplace-safety.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-1fe2a56f",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Redesign Workplace Safety Slide Deck",
+  "short_description": "I run a small engineering consultancy doing inspection and testing work for shipyards. I need a specialist to redesign our WSH induction slide deck for workers going offshore, so it lines up with our MOM-approved safety programme and is actually readable. Mixed work: tidy up content and advise on structure. Deliverable: a refreshed PowerPoint deck of about 40 slides with speaker notes. Engagement duration: 1-2 weeks.",
+  "duration_weeks_min": 1,
+  "duration_weeks_max": 2,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": []
+  }
+ },
+ {
+  "source_file": "glm-gig__99_learning-support-review.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-fc55302e",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Learning Support Review for Preschool",
+  "short_description": "We are a small private preschool in Singapore with around 80 children across two classes per level. We need someone to review how our learning support is currently run for children who need extra help, including our referral steps, in-class strategies and notes to parents. We want advice on what to change, not a report that sits on a shelf. Deliverable: a short written assessment with prioritised recommendations and a simple roadmap we can start next term. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": "Budget S$3,500-4,500; ideally someone with an ECDA-recognised qualification in early childhood intervention.",
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Early Childhood",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Learning Support",
+       "search_tag": "Learning Support (Early Childhood)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "source_file": "glm-gig__100_gala-night-lighting.md",
+  "extracted_by_model": "x-test-1",
+  "hirer_ref": "H-32c27bfb",
+  "source_company": null,
+  "source_company_team": null,
+  "gig_title": "Gala Night Lighting and Sound Package",
+  "short_description": "We are staging our agency's 40th anniversary gala for 250 guests at a hotel ballroom and need someone to handle the show technicals. Plan and build the lighting and sound design, produce the plots and cue sheets, coordinate rigging with the venue, run the tech rehearsal and operate the desk on the night. Deliverable: a complete lighting and sound package, plots, cue sheets and a working setup on show night. Engagement duration: 3-4 weeks.",
+  "duration_weeks_min": 3,
+  "duration_weeks_max": 4,
+  "additional_notes": null,
+  "tags": {
+   "taxonomy_version": "sf_v1",
+   "categories": [
+    {
+     "name": "Arts",
+     "group": null,
+     "specialisations": [
+      {
+       "name": "Technical Theatre & Production",
+       "search_tag": "Technical Theatre & Production (Arts)",
+       "skills": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

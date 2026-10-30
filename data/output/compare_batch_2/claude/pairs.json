@@ -1,0 +1,602 @@
+{
+ "crafted-gig__01_price-list-and.md": [
+  "crafted-provider__01_a.md",
+  "crafted-provider__01_b.md",
+  "crafted-provider__01_c.md",
+  "crafted-provider__01_d.md"
+ ],
+ "crafted-gig__02_operating-model-review.md": [
+  "crafted-provider__02_a.md",
+  "crafted-provider__02_b.md",
+  "crafted-provider__02_c.md",
+  "crafted-provider__02_d.md"
+ ],
+ "crafted-gig__03_patent-landscape-review.md": [
+  "crafted-provider__03_a.md",
+  "crafted-provider__03_b.md",
+  "crafted-provider__03_c.md",
+  "crafted-provider__03_d.md"
+ ],
+ "crafted-gig__04_proofreading-a-design.md": [
+  "crafted-provider__04_a.md",
+  "crafted-provider__04_b.md",
+  "crafted-provider__04_c.md",
+  "crafted-provider__04_d.md"
+ ],
+ "crafted-gig__05_volunteer-mentoring-programme.md": [
+  "crafted-provider__05_a.md",
+  "crafted-provider__05_b.md",
+  "crafted-provider__05_c.md",
+  "crafted-provider__05_d.md"
+ ],
+ "crafted-gig__06_meal-service-flow.md": [
+  "crafted-provider__06_a.md",
+  "crafted-provider__06_b.md",
+  "crafted-provider__06_c.md",
+  "crafted-provider__06_d.md"
+ ],
+ "crafted-gig__07_retail-operations-review.md": [
+  "crafted-provider__07_a.md",
+  "crafted-provider__07_b.md",
+  "crafted-provider__07_c.md",
+  "crafted-provider__07_d.md"
+ ],
+ "crafted-gig__08_offshore-support-vessel.md": [
+  "crafted-provider__08_a.md",
+  "crafted-provider__08_b.md",
+  "crafted-provider__08_c.md",
+  "crafted-provider__08_d.md"
+ ],
+ "crafted-gig__09_grading-framework-and.md": [
+  "crafted-provider__09_a.md",
+  "crafted-provider__09_b.md",
+  "crafted-provider__09_c.md",
+  "crafted-provider__09_d.md"
+ ],
+ "crafted-gig__10_technical-report-editing.md": [
+  "crafted-provider__10_a.md",
+  "crafted-provider__10_b.md",
+  "crafted-provider__10_c.md",
+  "crafted-provider__10_d.md"
+ ],
+ "crafted-gig__11_staff-handbook-section.md": [
+  "crafted-provider__11_a.md",
+  "crafted-provider__11_b.md",
+  "crafted-provider__11_c.md",
+  "crafted-provider__11_d.md"
+ ],
+ "crafted-gig__12_carbon-credit-purchase.md": [
+  "crafted-provider__12_a.md",
+  "crafted-provider__12_b.md",
+  "crafted-provider__12_c.md",
+  "crafted-provider__12_d.md"
+ ],
+ "crafted-gig__13_quality-inbox-backlog.md": [
+  "crafted-provider__13_a.md",
+  "crafted-provider__13_b.md",
+  "crafted-provider__13_c.md",
+  "crafted-provider__13_d.md"
+ ],
+ "crafted-gig__14_rate-plans-and.md": [
+  "crafted-provider__14_a.md",
+  "crafted-provider__14_b.md",
+  "crafted-provider__14_c.md",
+  "crafted-provider__14_d.md"
+ ],
+ "crafted-gig__15_english-to-chinese.md": [
+  "crafted-provider__15_a.md",
+  "crafted-provider__15_b.md",
+  "crafted-provider__15_c.md",
+  "crafted-provider__15_d.md"
+ ],
+ "crafted-gig__16_project-progress-dashboard.md": [
+  "crafted-provider__16_a.md",
+  "crafted-provider__16_b.md",
+  "crafted-provider__16_c.md",
+  "crafted-provider__16_d.md"
+ ],
+ "crafted-gig__17_staff-cafe-beverage.md": [
+  "crafted-provider__17_a.md",
+  "crafted-provider__17_b.md",
+  "crafted-provider__17_c.md",
+  "crafted-provider__17_d.md"
+ ],
+ "crafted-gig__18_admin-backlog-clearance.md": [
+  "crafted-provider__18_a.md",
+  "crafted-provider__18_b.md",
+  "crafted-provider__18_c.md",
+  "crafted-provider__18_d.md"
+ ],
+ "crafted-gig__19_job-descriptions-for.md": [
+  "crafted-provider__19_a.md",
+  "crafted-provider__19_b.md",
+  "crafted-provider__19_c.md",
+  "crafted-provider__19_d.md"
+ ],
+ "crafted-gig__20_mystery-shopping-at.md": [
+  "crafted-provider__20_a.md",
+  "crafted-provider__20_b.md",
+  "crafted-provider__20_c.md",
+  "crafted-provider__20_d.md"
+ ],
+ "crafted-gig__21_workplace-childcare-centre.md": [
+  "crafted-provider__21_a.md",
+  "crafted-provider__21_b.md",
+  "crafted-provider__21_c.md",
+  "crafted-provider__21_d.md"
+ ],
+ "crafted-gig__22_auditorium-lighting-and.md": [
+  "crafted-provider__22_a.md",
+  "crafted-provider__22_b.md",
+  "crafted-provider__22_c.md",
+  "crafted-provider__22_d.md"
+ ],
+ "crafted-gig__23_member-directory-and.md": [
+  "crafted-provider__23_a.md",
+  "crafted-provider__23_b.md",
+  "crafted-provider__23_c.md",
+  "crafted-provider__23_d.md"
+ ],
+ "crafted-gig__24_cloud-security-review.md": [
+  "crafted-provider__24_a.md",
+  "crafted-provider__24_b.md",
+  "crafted-provider__24_c.md",
+  "crafted-provider__24_d.md"
+ ],
+ "crafted-gig__25_mystery-shopping-of.md": [
+  "crafted-provider__25_a.md",
+  "crafted-provider__25_b.md",
+  "crafted-provider__25_c.md",
+  "crafted-provider__25_d.md"
+ ],
+ "crafted-gig__26_tree-risk-inspection.md": [
+  "crafted-provider__26_a.md",
+  "crafted-provider__26_b.md",
+  "crafted-provider__26_c.md",
+  "crafted-provider__26_d.md"
+ ],
+ "crafted-gig__27_risk-register-for.md": [
+  "crafted-provider__27_a.md",
+  "crafted-provider__27_b.md",
+  "crafted-provider__27_c.md",
+  "crafted-provider__27_d.md"
+ ],
+ "crafted-gig__28_sea-freight-forwarder.md": [
+  "crafted-provider__28_a.md",
+  "crafted-provider__28_b.md",
+  "crafted-provider__28_c.md",
+  "crafted-provider__28_d.md"
+ ],
+ "crafted-gig__29_corporate-buyer-outreach.md": [
+  "crafted-provider__29_a.md",
+  "crafted-provider__29_b.md",
+  "crafted-provider__29_c.md",
+  "crafted-provider__29_d.md"
+ ],
+ "crafted-gig__30_medical-supplies-delivery.md": [
+  "crafted-provider__30_a.md",
+  "crafted-provider__30_b.md",
+  "crafted-provider__30_c.md",
+  "crafted-provider__30_d.md"
+ ],
+ "crafted-gig__31_cleaning-programme-redesign.md": [
+  "crafted-provider__31_a.md",
+  "crafted-provider__31_b.md",
+  "crafted-provider__31_c.md",
+  "crafted-provider__31_d.md"
+ ],
+ "crafted-gig__32_design-and-test.md": [
+  "crafted-provider__32_a.md",
+  "crafted-provider__32_b.md",
+  "crafted-provider__32_c.md",
+  "crafted-provider__32_d.md"
+ ],
+ "crafted-gig__33_fish-farm-productivity.md": [
+  "crafted-provider__33_a.md",
+  "crafted-provider__33_b.md",
+  "crafted-provider__33_c.md",
+  "crafted-provider__33_d.md"
+ ],
+ "crafted-gig__34_fleet-maintenance-tracking.md": [
+  "crafted-provider__34_a.md",
+  "crafted-provider__34_b.md",
+  "crafted-provider__34_c.md",
+  "crafted-provider__34_d.md"
+ ],
+ "crafted-gig__35_back-and-posture.md": [
+  "crafted-provider__35_a.md",
+  "crafted-provider__35_b.md",
+  "crafted-provider__35_c.md",
+  "crafted-provider__35_d.md"
+ ],
+ "crafted-gig__36_corporate-travel-programme.md": [
+  "crafted-provider__36_a.md",
+  "crafted-provider__36_b.md",
+  "crafted-provider__36_c.md",
+  "crafted-provider__36_d.md"
+ ],
+ "crafted-gig__37_private-rail-spur.md": [
+  "crafted-provider__37_a.md",
+  "crafted-provider__37_b.md",
+  "crafted-provider__37_c.md",
+  "crafted-provider__37_d.md"
+ ],
+ "crafted-gig__38_solar-and-battery.md": [
+  "crafted-provider__38_a.md",
+  "crafted-provider__38_b.md",
+  "crafted-provider__38_c.md",
+  "crafted-provider__38_d.md"
+ ],
+ "crafted-gig__39_physical-security-assessment.md": [
+  "crafted-provider__39_a.md",
+  "crafted-provider__39_b.md",
+  "crafted-provider__39_c.md",
+  "crafted-provider__39_d.md"
+ ],
+ "crafted-gig__40_trade-finance-and.md": [
+  "crafted-provider__40_a.md",
+  "crafted-provider__40_b.md",
+  "crafted-provider__40_c.md",
+  "crafted-provider__40_d.md"
+ ],
+ "crafted-gig__41_calibration-and-maintenance.md": [
+  "crafted-provider__41_a.md",
+  "crafted-provider__41_b.md",
+  "crafted-provider__41_c.md",
+  "crafted-provider__41_d.md"
+ ],
+ "crafted-gig__42_trade-mark-filings.md": [
+  "crafted-provider__42_a.md",
+  "crafted-provider__42_b.md",
+  "crafted-provider__42_c.md",
+  "crafted-provider__42_d.md"
+ ],
+ "crafted-gig__43_bill-of-quantities.md": [
+  "crafted-provider__43_a.md",
+  "crafted-provider__43_b.md",
+  "crafted-provider__43_c.md",
+  "crafted-provider__43_d.md"
+ ],
+ "crafted-gig__44_moderation-and-crisis.md": [
+  "crafted-provider__44_a.md",
+  "crafted-provider__44_b.md",
+  "crafted-provider__44_c.md",
+  "crafted-provider__44_d.md"
+ ],
+ "crafted-gig__45_programme-data-workbook.md": [
+  "crafted-provider__45_a.md",
+  "crafted-provider__45_b.md",
+  "crafted-provider__45_c.md",
+  "crafted-provider__45_d.md"
+ ],
+ "crafted-gig__46_brand-refresh-for.md": [
+  "crafted-provider__46_a.md",
+  "crafted-provider__46_b.md",
+  "crafted-provider__46_c.md",
+  "crafted-provider__46_d.md"
+ ],
+ "crafted-gig__47_pdpa-advice-for.md": [
+  "crafted-provider__47_a.md",
+  "crafted-provider__47_b.md",
+  "crafted-provider__47_c.md",
+  "crafted-provider__47_d.md"
+ ],
+ "crafted-gig__48_cloud-hr-system.md": [
+  "crafted-provider__48_a.md",
+  "crafted-provider__48_b.md",
+  "crafted-provider__48_c.md",
+  "crafted-provider__48_d.md"
+ ],
+ "crafted-gig__49_copy-editing-a.md": [
+  "crafted-provider__49_a.md",
+  "crafted-provider__49_b.md",
+  "crafted-provider__49_c.md",
+  "crafted-provider__49_d.md"
+ ],
+ "crafted-gig__50_back-office-process.md": [
+  "crafted-provider__50_a.md",
+  "crafted-provider__50_b.md",
+  "crafted-provider__50_c.md",
+  "crafted-provider__50_d.md"
+ ],
+ "crafted-gig__51_job-descriptions-for.md": [
+  "crafted-provider__51_a.md",
+  "crafted-provider__51_b.md",
+  "crafted-provider__51_c.md",
+  "crafted-provider__51_d.md"
+ ],
+ "crafted-gig__52_gmp-gap-assessment.md": [
+  "crafted-provider__52_a.md",
+  "crafted-provider__52_b.md",
+  "crafted-provider__52_c.md",
+  "crafted-provider__52_d.md"
+ ],
+ "crafted-gig__53_housekeeping-standards-and.md": [
+  "crafted-provider__53_a.md",
+  "crafted-provider__53_b.md",
+  "crafted-provider__53_c.md",
+  "crafted-provider__53_d.md"
+ ],
+ "crafted-gig__54_specialty-chemicals-plant.md": [
+  "crafted-provider__54_a.md",
+  "crafted-provider__54_b.md",
+  "crafted-provider__54_c.md",
+  "crafted-provider__54_d.md"
+ ],
+ "crafted-gig__55_quality-check-of.md": [
+  "crafted-provider__55_a.md",
+  "crafted-provider__55_b.md",
+  "crafted-provider__55_c.md",
+  "crafted-provider__55_d.md"
+ ],
+ "crafted-gig__56_training-bakery-product.md": [
+  "crafted-provider__56_a.md",
+  "crafted-provider__56_b.md",
+  "crafted-provider__56_c.md",
+  "crafted-provider__56_d.md"
+ ],
+ "crafted-gig__57_design-sprint-to.md": [
+  "crafted-provider__57_a.md",
+  "crafted-provider__57_b.md",
+  "crafted-provider__57_c.md",
+  "crafted-provider__57_d.md"
+ ],
+ "crafted-gig__58_workplace-english-and.md": [
+  "crafted-provider__58_a.md",
+  "crafted-provider__58_b.md",
+  "crafted-provider__58_c.md",
+  "crafted-provider__58_d.md"
+ ],
+ "crafted-gig__59_production-performance-review.md": [
+  "crafted-provider__59_a.md",
+  "crafted-provider__59_b.md",
+  "crafted-provider__59_c.md",
+  "crafted-provider__59_d.md"
+ ],
+ "crafted-gig__60_parent-guide-and.md": [
+  "crafted-provider__60_a.md",
+  "crafted-provider__60_b.md",
+  "crafted-provider__60_c.md",
+  "crafted-provider__60_d.md"
+ ],
+ "crafted-gig__61_job-descriptions-for.md": [
+  "crafted-provider__61_a.md",
+  "crafted-provider__61_b.md",
+  "crafted-provider__61_c.md",
+  "crafted-provider__61_d.md"
+ ],
+ "crafted-gig__62_cost-pressure-research.md": [
+  "crafted-provider__62_a.md",
+  "crafted-provider__62_b.md",
+  "crafted-provider__62_c.md",
+  "crafted-provider__62_d.md"
+ ],
+ "crafted-gig__63_it-support-model.md": [
+  "crafted-provider__63_a.md",
+  "crafted-provider__63_b.md",
+  "crafted-provider__63_c.md",
+  "crafted-provider__63_d.md"
+ ],
+ "crafted-gig__64_workplace-safety-and.md": [
+  "crafted-provider__64_a.md",
+  "crafted-provider__64_b.md",
+  "crafted-provider__64_c.md",
+  "crafted-provider__64_d.md"
+ ],
+ "crafted-gig__65_turf-and-planting.md": [
+  "crafted-provider__65_a.md",
+  "crafted-provider__65_b.md",
+  "crafted-provider__65_c.md",
+  "crafted-provider__65_d.md"
+ ],
+ "crafted-gig__66_forensic-review-of.md": [
+  "crafted-provider__66_a.md",
+  "crafted-provider__66_b.md",
+  "crafted-provider__66_c.md",
+  "crafted-provider__66_d.md"
+ ],
+ "crafted-gig__67_shipping-documents-and.md": [
+  "crafted-provider__67_a.md",
+  "crafted-provider__67_b.md",
+  "crafted-provider__67_c.md",
+  "crafted-provider__67_d.md"
+ ],
+ "crafted-gig__68_snack-product-formulation.md": [
+  "crafted-provider__68_a.md",
+  "crafted-provider__68_b.md",
+  "crafted-provider__68_c.md",
+  "crafted-provider__68_d.md"
+ ],
+ "crafted-gig__69_emergency-relief-cargo.md": [
+  "crafted-provider__69_a.md",
+  "crafted-provider__69_b.md",
+  "crafted-provider__69_c.md",
+  "crafted-provider__69_d.md"
+ ],
+ "crafted-gig__70_integrated-pest-management.md": [
+  "crafted-provider__70_a.md",
+  "crafted-provider__70_b.md",
+  "crafted-provider__70_c.md",
+  "crafted-provider__70_d.md"
+ ],
+ "crafted-gig__71_returns-and-repair.md": [
+  "crafted-provider__71_a.md",
+  "crafted-provider__71_b.md",
+  "crafted-provider__71_c.md",
+  "crafted-provider__71_d.md"
+ ],
+ "crafted-gig__72_rooftop-vegetable-farm.md": [
+  "crafted-provider__72_a.md",
+  "crafted-provider__72_b.md",
+  "crafted-provider__72_c.md",
+  "crafted-provider__72_d.md"
+ ],
+ "crafted-gig__73_maintenance-task-library.md": [
+  "crafted-provider__73_a.md",
+  "crafted-provider__73_b.md",
+  "crafted-provider__73_c.md",
+  "crafted-provider__73_d.md"
+ ],
+ "crafted-gig__74_customer-list-data.md": [
+  "crafted-provider__74_a.md",
+  "crafted-provider__74_b.md",
+  "crafted-provider__74_c.md",
+  "crafted-provider__74_d.md"
+ ],
+ "crafted-gig__75_factory-visitor-tour.md": [
+  "crafted-provider__75_a.md",
+  "crafted-provider__75_b.md",
+  "crafted-provider__75_c.md",
+  "crafted-provider__75_d.md"
+ ],
+ "crafted-gig__76_electric-conversion-feasibility.md": [
+  "crafted-provider__76_a.md",
+  "crafted-provider__76_b.md",
+  "crafted-provider__76_c.md",
+  "crafted-provider__76_d.md"
+ ],
+ "crafted-gig__77_solar-and-battery.md": [
+  "crafted-provider__77_a.md",
+  "crafted-provider__77_b.md",
+  "crafted-provider__77_c.md",
+  "crafted-provider__77_d.md"
+ ],
+ "crafted-gig__78_security-deployment-review.md": [
+  "crafted-provider__78_a.md",
+  "crafted-provider__78_b.md",
+  "crafted-provider__78_c.md",
+  "crafted-provider__78_d.md"
+ ],
+ "crafted-gig__79_alternative-supplier-sourcing.md": [
+  "crafted-provider__79_a.md",
+  "crafted-provider__79_b.md",
+  "crafted-provider__79_c.md",
+  "crafted-provider__79_d.md"
+ ],
+ "crafted-gig__80_supplier-performance-review.md": [
+  "crafted-provider__80_a.md",
+  "crafted-provider__80_b.md",
+  "crafted-provider__80_c.md",
+  "crafted-provider__80_d.md"
+ ],
+ "crafted-gig__81_patent-examination-report.md": [
+  "crafted-provider__81_a.md",
+  "crafted-provider__81_b.md",
+  "crafted-provider__81_c.md",
+  "crafted-provider__81_d.md"
+ ],
+ "crafted-gig__82_overheads-and-cashflow.md": [
+  "crafted-provider__82_a.md",
+  "crafted-provider__82_b.md",
+  "crafted-provider__82_c.md",
+  "crafted-provider__82_d.md"
+ ],
+ "crafted-gig__83_coaching-for-a.md": [
+  "crafted-provider__83_a.md",
+  "crafted-provider__83_b.md",
+  "crafted-provider__83_c.md",
+  "crafted-provider__83_d.md"
+ ],
+ "crafted-gig__84_airport-handover-checklist.md": [
+  "crafted-provider__84_a.md",
+  "crafted-provider__84_b.md",
+  "crafted-provider__84_c.md",
+  "crafted-provider__84_d.md"
+ ],
+ "crafted-gig__85_retail-articles-and.md": [
+  "crafted-provider__85_a.md",
+  "crafted-provider__85_b.md",
+  "crafted-provider__85_c.md",
+  "crafted-provider__85_d.md"
+ ],
+ "crafted-gig__86_standard-warehouse-and.md": [
+  "crafted-provider__86_a.md",
+  "crafted-provider__86_b.md",
+  "crafted-provider__86_c.md",
+  "crafted-provider__86_d.md"
+ ],
+ "crafted-gig__87_parent-contact-list.md": [
+  "crafted-provider__87_a.md",
+  "crafted-provider__87_b.md",
+  "crafted-provider__87_c.md",
+  "crafted-provider__87_d.md"
+ ],
+ "crafted-gig__88_structural-design-review.md": [
+  "crafted-provider__88_a.md",
+  "crafted-provider__88_b.md",
+  "crafted-provider__88_c.md",
+  "crafted-provider__88_d.md"
+ ],
+ "crafted-gig__89_first-sustainability-report.md": [
+  "crafted-provider__89_a.md",
+  "crafted-provider__89_b.md",
+  "crafted-provider__89_c.md",
+  "crafted-provider__89_d.md"
+ ],
+ "crafted-gig__90_carbon-credit-contract.md": [
+  "crafted-provider__90_a.md",
+  "crafted-provider__90_b.md",
+  "crafted-provider__90_c.md",
+  "crafted-provider__90_d.md"
+ ],
+ "crafted-gig__91_engineering-and-maintenance.md": [
+  "crafted-provider__91_a.md",
+  "crafted-provider__91_b.md",
+  "crafted-provider__91_c.md",
+  "crafted-provider__91_d.md"
+ ],
+ "crafted-gig__92_corporate-hotel-sales.md": [
+  "crafted-provider__92_a.md",
+  "crafted-provider__92_b.md",
+  "crafted-provider__92_c.md",
+  "crafted-provider__92_d.md"
+ ],
+ "crafted-gig__93_transcripts-and-summaries.md": [
+  "crafted-provider__93_a.md",
+  "crafted-provider__93_b.md",
+  "crafted-provider__93_c.md",
+  "crafted-provider__93_d.md"
+ ],
+ "crafted-gig__94_production-plan-review.md": [
+  "crafted-provider__94_a.md",
+  "crafted-provider__94_b.md",
+  "crafted-provider__94_c.md",
+  "crafted-provider__94_d.md"
+ ],
+ "crafted-gig__95_crew-canteen-and.md": [
+  "crafted-provider__95_a.md",
+  "crafted-provider__95_b.md",
+  "crafted-provider__95_c.md",
+  "crafted-provider__95_d.md"
+ ],
+ "crafted-gig__96_driver-app-and.md": [
+  "crafted-provider__96_a.md",
+  "crafted-provider__96_b.md",
+  "crafted-provider__96_c.md",
+  "crafted-provider__96_d.md"
+ ],
+ "crafted-gig__97_digital-skills-workshops.md": [
+  "crafted-provider__97_a.md",
+  "crafted-provider__97_b.md",
+  "crafted-provider__97_c.md",
+  "crafted-provider__97_d.md"
+ ],
+ "crafted-gig__98_capability-deck-redesign.md": [
+  "crafted-provider__98_a.md",
+  "crafted-provider__98_b.md",
+  "crafted-provider__98_c.md",
+  "crafted-provider__98_d.md"
+ ],
+ "crafted-gig__99_early-grades-learning.md": [
+  "crafted-provider__99_a.md",
+  "crafted-provider__99_b.md",
+  "crafted-provider__99_c.md",
+  "crafted-provider__99_d.md"
+ ],
+ "crafted-gig__100_staging-lighting-and.md": [
+  "crafted-provider__100_a.md",
+  "crafted-provider__100_b.md",
+  "crafted-provider__100_c.md",
+  "crafted-provider__100_d.md"
+ ]
+}

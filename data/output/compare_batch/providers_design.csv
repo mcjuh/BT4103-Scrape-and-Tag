@@ -1,0 +1,401 @@
+provider,gig,target_grade,route,route_meaning,seniority,years_experience,mode_of_work
+01_a.md,G01,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,execution
+01_b.md,G01,3,3b,"the same work, built up in a different industry",mid,9,execution
+01_c.md,G01,2,2a,"same discipline, a neighbouring sub-focus",mid,6,execution
+01_d.md,G01,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,7,execution
+02_a.md,G02,1,1a,an adjacent area or a transferable skill,senior,18,advisory
+02_b.md,G02,3,3b,"the same work, built up in a different industry",senior,16,advisory
+02_c.md,G02,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,15,advisory
+02_d.md,G02,2,2b,"the right skills, mostly applied to a different kind of problem",senior,13,advisory
+03_a.md,G03,2,2a,"same discipline, a neighbouring sub-focus",expert,23,mixed
+03_b.md,G03,3,3a,"the same work on the same kind of problem, in a similar setting",expert,29,mixed
+03_c.md,G03,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,24,mixed
+03_d.md,G03,0,0a,"shares only the gig's industry or setting, and none of its work",expert,22,mixed
+04_a.md,G04,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,9,advisory
+04_b.md,G04,3,3a,"the same work on the same kind of problem, in a similar setting",mid,6,advisory
+04_c.md,G04,2,2a,"same discipline, a neighbouring sub-focus",mid,8,advisory
+04_d.md,G04,0,0a,"shares only the gig's industry or setting, and none of its work",mid,7,advisory
+05_a.md,G05,3,3a,"the same work on the same kind of problem, in a similar setting",senior,18,execution
+05_b.md,G05,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,16,execution
+05_c.md,G05,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,14,execution
+05_d.md,G05,2,2b,"the right skills, mostly applied to a different kind of problem",senior,18,execution
+06_a.md,G06,3,3a,"the same work on the same kind of problem, in a similar setting",expert,28,mixed
+06_b.md,G06,0,0a,"shares only the gig's industry or setting, and none of its work",expert,29,mixed
+06_c.md,G06,2,2b,"the right skills, mostly applied to a different kind of problem",expert,30,mixed
+06_d.md,G06,1,1a,an adjacent area or a transferable skill,expert,22,mixed
+07_a.md,G07,3,3a,"the same work on the same kind of problem, in a similar setting",expert,28,execution
+07_b.md,G07,1,1a,an adjacent area or a transferable skill,expert,29,execution
+07_c.md,G07,2,2a,"same discipline, a neighbouring sub-focus",expert,25,execution
+07_d.md,G07,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,29,execution
+08_a.md,G08,1,1a,an adjacent area or a transferable skill,mid,9,mixed
+08_b.md,G08,0,0a,"shares only the gig's industry or setting, and none of its work",mid,7,mixed
+08_c.md,G08,2,2b,"the right skills, mostly applied to a different kind of problem",mid,9,mixed
+08_d.md,G08,3,3a,"the same work on the same kind of problem, in a similar setting",mid,9,mixed
+09_a.md,G09,2,2b,"the right skills, mostly applied to a different kind of problem",senior,18,advisory
+09_b.md,G09,1,1a,an adjacent area or a transferable skill,senior,13,advisory
+09_c.md,G09,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,13,advisory
+09_d.md,G09,3,3b,"the same work, built up in a different industry",senior,16,advisory
+10_a.md,G10,2,2a,"same discipline, a neighbouring sub-focus",senior,14,execution
+10_b.md,G10,3,3b,"the same work, built up in a different industry",senior,14,execution
+10_c.md,G10,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,12,execution
+10_d.md,G10,0,0a,"shares only the gig's industry or setting, and none of its work",senior,15,execution
+11_a.md,G11,1,1a,an adjacent area or a transferable skill,senior,14,advisory
+11_b.md,G11,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,17,advisory
+11_c.md,G11,3,3b,"the same work, built up in a different industry",senior,18,advisory
+11_d.md,G11,2,2b,"the right skills, mostly applied to a different kind of problem",senior,15,advisory
+12_a.md,G12,2,2a,"same discipline, a neighbouring sub-focus",expert,30,execution
+12_b.md,G12,3,3b,"the same work, built up in a different industry",expert,27,execution
+12_c.md,G12,1,1a,an adjacent area or a transferable skill,expert,25,execution
+12_d.md,G12,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,23,execution
+13_a.md,G13,1,1a,an adjacent area or a transferable skill,mid,7,execution
+13_b.md,G13,3,3b,"the same work, built up in a different industry",mid,8,execution
+13_c.md,G13,2,2a,"same discipline, a neighbouring sub-focus",mid,6,execution
+13_d.md,G13,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,execution
+14_a.md,G14,2,2a,"same discipline, a neighbouring sub-focus",mid,6,advisory
+14_b.md,G14,3,3a,"the same work on the same kind of problem, in a similar setting",mid,7,advisory
+14_c.md,G14,1,1a,an adjacent area or a transferable skill,mid,9,advisory
+14_d.md,G14,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,6,advisory
+15_a.md,G15,2,2b,"the right skills, mostly applied to a different kind of problem",expert,23,advisory
+15_b.md,G15,3,3a,"the same work on the same kind of problem, in a similar setting",expert,22,advisory
+15_c.md,G15,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,22,advisory
+15_d.md,G15,1,1a,an adjacent area or a transferable skill,expert,23,advisory
+16_a.md,G16,2,2b,"the right skills, mostly applied to a different kind of problem",expert,26,mixed
+16_b.md,G16,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,30,mixed
+16_c.md,G16,3,3a,"the same work on the same kind of problem, in a similar setting",expert,24,mixed
+16_d.md,G16,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,28,mixed
+17_a.md,G17,3,3b,"the same work, built up in a different industry",senior,18,mixed
+17_b.md,G17,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,13,mixed
+17_c.md,G17,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,16,mixed
+17_d.md,G17,2,2a,"same discipline, a neighbouring sub-focus",senior,15,mixed
+18_a.md,G18,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,7,mixed
+18_b.md,G18,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,7,mixed
+18_c.md,G18,3,3a,"the same work on the same kind of problem, in a similar setting",mid,7,mixed
+18_d.md,G18,2,2a,"same discipline, a neighbouring sub-focus",mid,6,mixed
+19_a.md,G19,0,0a,"shares only the gig's industry or setting, and none of its work",senior,13,mixed
+19_b.md,G19,2,2b,"the right skills, mostly applied to a different kind of problem",senior,12,mixed
+19_c.md,G19,1,1a,an adjacent area or a transferable skill,senior,18,mixed
+19_d.md,G19,3,3a,"the same work on the same kind of problem, in a similar setting",senior,13,mixed
+20_a.md,G20,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,29,advisory
+20_b.md,G20,3,3b,"the same work, built up in a different industry",expert,23,advisory
+20_c.md,G20,0,0a,"shares only the gig's industry or setting, and none of its work",expert,28,advisory
+20_d.md,G20,2,2a,"same discipline, a neighbouring sub-focus",expert,28,advisory
+21_a.md,G21,2,2a,"same discipline, a neighbouring sub-focus",senior,16,execution
+21_b.md,G21,3,3b,"the same work, built up in a different industry",senior,18,execution
+21_c.md,G21,1,1a,an adjacent area or a transferable skill,senior,15,execution
+21_d.md,G21,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,16,execution
+22_a.md,G22,1,1a,an adjacent area or a transferable skill,expert,28,mixed
+22_b.md,G22,2,2b,"the right skills, mostly applied to a different kind of problem",expert,26,mixed
+22_c.md,G22,3,3b,"the same work, built up in a different industry",expert,22,mixed
+22_d.md,G22,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,30,mixed
+23_a.md,G23,2,2a,"same discipline, a neighbouring sub-focus",expert,26,execution
+23_b.md,G23,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,29,execution
+23_c.md,G23,3,3a,"the same work on the same kind of problem, in a similar setting",expert,26,execution
+23_d.md,G23,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,26,execution
+24_a.md,G24,0,0a,"shares only the gig's industry or setting, and none of its work",mid,8,advisory
+24_b.md,G24,3,3b,"the same work, built up in a different industry",mid,6,advisory
+24_c.md,G24,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,9,advisory
+24_d.md,G24,2,2a,"same discipline, a neighbouring sub-focus",mid,8,advisory
+25_a.md,G25,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,6,execution
+25_b.md,G25,2,2a,"same discipline, a neighbouring sub-focus",mid,7,execution
+25_c.md,G25,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,7,execution
+25_d.md,G25,3,3b,"the same work, built up in a different industry",mid,6,execution
+26_a.md,G26,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,mixed
+26_b.md,G26,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,6,mixed
+26_c.md,G26,2,2a,"same discipline, a neighbouring sub-focus",mid,7,mixed
+26_d.md,G26,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,8,mixed
+27_a.md,G27,3,3b,"the same work, built up in a different industry",senior,16,advisory
+27_b.md,G27,0,0a,"shares only the gig's industry or setting, and none of its work",senior,17,advisory
+27_c.md,G27,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,16,advisory
+27_d.md,G27,2,2b,"the right skills, mostly applied to a different kind of problem",senior,17,advisory
+28_a.md,G28,3,3b,"the same work, built up in a different industry",expert,22,advisory
+28_b.md,G28,2,2a,"same discipline, a neighbouring sub-focus",expert,26,advisory
+28_c.md,G28,1,1a,an adjacent area or a transferable skill,expert,26,advisory
+28_d.md,G28,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,25,advisory
+29_a.md,G29,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,29,execution
+29_b.md,G29,3,3b,"the same work, built up in a different industry",expert,22,execution
+29_c.md,G29,2,2a,"same discipline, a neighbouring sub-focus",expert,25,execution
+29_d.md,G29,0,0a,"shares only the gig's industry or setting, and none of its work",expert,29,execution
+30_a.md,G30,3,3b,"the same work, built up in a different industry",mid,9,mixed
+30_b.md,G30,2,2a,"same discipline, a neighbouring sub-focus",mid,8,mixed
+30_c.md,G30,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,8,mixed
+30_d.md,G30,0,0a,"shares only the gig's industry or setting, and none of its work",mid,7,mixed
+31_a.md,G31,1,1a,an adjacent area or a transferable skill,mid,7,execution
+31_b.md,G31,3,3b,"the same work, built up in a different industry",mid,8,execution
+31_c.md,G31,0,0a,"shares only the gig's industry or setting, and none of its work",mid,8,execution
+31_d.md,G31,2,2b,"the right skills, mostly applied to a different kind of problem",mid,7,execution
+32_a.md,G32,3,3b,"the same work, built up in a different industry",expert,24,mixed
+32_b.md,G32,0,0a,"shares only the gig's industry or setting, and none of its work",expert,25,mixed
+32_c.md,G32,2,2b,"the right skills, mostly applied to a different kind of problem",expert,24,mixed
+32_d.md,G32,1,1a,an adjacent area or a transferable skill,expert,27,mixed
+33_a.md,G33,1,1a,an adjacent area or a transferable skill,senior,18,advisory
+33_b.md,G33,2,2b,"the right skills, mostly applied to a different kind of problem",senior,14,advisory
+33_c.md,G33,3,3a,"the same work on the same kind of problem, in a similar setting",senior,17,advisory
+33_d.md,G33,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,17,advisory
+34_a.md,G34,2,2b,"the right skills, mostly applied to a different kind of problem",senior,13,mixed
+34_b.md,G34,1,1a,an adjacent area or a transferable skill,senior,13,mixed
+34_c.md,G34,0,0a,"shares only the gig's industry or setting, and none of its work",senior,14,mixed
+34_d.md,G34,3,3a,"the same work on the same kind of problem, in a similar setting",senior,18,mixed
+35_a.md,G35,3,3b,"the same work, built up in a different industry",mid,7,advisory
+35_b.md,G35,2,2a,"same discipline, a neighbouring sub-focus",mid,7,advisory
+35_c.md,G35,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,6,advisory
+35_d.md,G35,1,1a,an adjacent area or a transferable skill,mid,7,advisory
+36_a.md,G36,1,1a,an adjacent area or a transferable skill,senior,18,execution
+36_b.md,G36,3,3a,"the same work on the same kind of problem, in a similar setting",senior,15,execution
+36_c.md,G36,0,0a,"shares only the gig's industry or setting, and none of its work",senior,13,execution
+36_d.md,G36,2,2a,"same discipline, a neighbouring sub-focus",senior,13,execution
+37_a.md,G37,1,1a,an adjacent area or a transferable skill,mid,9,advisory
+37_b.md,G37,0,0a,"shares only the gig's industry or setting, and none of its work",mid,6,advisory
+37_c.md,G37,3,3b,"the same work, built up in a different industry",mid,7,advisory
+37_d.md,G37,2,2b,"the right skills, mostly applied to a different kind of problem",mid,8,advisory
+38_a.md,G38,1,1a,an adjacent area or a transferable skill,senior,12,execution
+38_b.md,G38,3,3b,"the same work, built up in a different industry",senior,18,execution
+38_c.md,G38,2,2a,"same discipline, a neighbouring sub-focus",senior,16,execution
+38_d.md,G38,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,12,execution
+39_a.md,G39,2,2a,"same discipline, a neighbouring sub-focus",mid,7,mixed
+39_b.md,G39,3,3b,"the same work, built up in a different industry",mid,7,mixed
+39_c.md,G39,1,1a,an adjacent area or a transferable skill,mid,7,mixed
+39_d.md,G39,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,9,mixed
+40_a.md,G40,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,22,execution
+40_b.md,G40,3,3a,"the same work on the same kind of problem, in a similar setting",expert,29,execution
+40_c.md,G40,2,2b,"the right skills, mostly applied to a different kind of problem",expert,25,execution
+40_d.md,G40,0,0a,"shares only the gig's industry or setting, and none of its work",expert,26,execution
+41_a.md,G41,3,3a,"the same work on the same kind of problem, in a similar setting",senior,16,mixed
+41_b.md,G41,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,18,mixed
+41_c.md,G41,2,2a,"same discipline, a neighbouring sub-focus",senior,18,mixed
+41_d.md,G41,1,1a,an adjacent area or a transferable skill,senior,14,mixed
+42_a.md,G42,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,18,advisory
+42_b.md,G42,2,2a,"same discipline, a neighbouring sub-focus",senior,13,advisory
+42_c.md,G42,0,0a,"shares only the gig's industry or setting, and none of its work",senior,12,advisory
+42_d.md,G42,3,3b,"the same work, built up in a different industry",senior,15,advisory
+43_a.md,G43,0,0a,"shares only the gig's industry or setting, and none of its work",mid,7,execution
+43_b.md,G43,2,2a,"same discipline, a neighbouring sub-focus",mid,8,execution
+43_c.md,G43,3,3b,"the same work, built up in a different industry",mid,9,execution
+43_d.md,G43,1,1a,an adjacent area or a transferable skill,mid,8,execution
+44_a.md,G44,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,28,mixed
+44_b.md,G44,2,2b,"the right skills, mostly applied to a different kind of problem",expert,23,mixed
+44_c.md,G44,3,3b,"the same work, built up in a different industry",expert,22,mixed
+44_d.md,G44,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,25,mixed
+45_a.md,G45,3,3a,"the same work on the same kind of problem, in a similar setting",expert,29,advisory
+45_b.md,G45,1,1a,an adjacent area or a transferable skill,expert,25,advisory
+45_c.md,G45,2,2b,"the right skills, mostly applied to a different kind of problem",expert,26,advisory
+45_d.md,G45,0,0a,"shares only the gig's industry or setting, and none of its work",expert,27,advisory
+46_a.md,G46,3,3b,"the same work, built up in a different industry",senior,18,mixed
+46_b.md,G46,2,2a,"same discipline, a neighbouring sub-focus",senior,12,mixed
+46_c.md,G46,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,12,mixed
+46_d.md,G46,0,0a,"shares only the gig's industry or setting, and none of its work",senior,18,mixed
+47_a.md,G47,2,2b,"the right skills, mostly applied to a different kind of problem",expert,29,advisory
+47_b.md,G47,1,1a,an adjacent area or a transferable skill,expert,26,advisory
+47_c.md,G47,3,3a,"the same work on the same kind of problem, in a similar setting",expert,23,advisory
+47_d.md,G47,0,0a,"shares only the gig's industry or setting, and none of its work",expert,25,advisory
+48_a.md,G48,1,1a,an adjacent area or a transferable skill,mid,8,mixed
+48_b.md,G48,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,7,mixed
+48_c.md,G48,3,3b,"the same work, built up in a different industry",mid,6,mixed
+48_d.md,G48,2,2a,"same discipline, a neighbouring sub-focus",mid,7,mixed
+49_a.md,G49,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,13,advisory
+49_b.md,G49,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,18,advisory
+49_c.md,G49,2,2a,"same discipline, a neighbouring sub-focus",senior,16,advisory
+49_d.md,G49,3,3b,"the same work, built up in a different industry",senior,17,advisory
+50_a.md,G50,2,2b,"the right skills, mostly applied to a different kind of problem",mid,9,advisory
+50_b.md,G50,1,1a,an adjacent area or a transferable skill,mid,6,advisory
+50_c.md,G50,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,8,advisory
+50_d.md,G50,3,3b,"the same work, built up in a different industry",mid,9,advisory
+51_a.md,G51,2,2b,"the right skills, mostly applied to a different kind of problem",senior,18,execution
+51_b.md,G51,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,17,execution
+51_c.md,G51,3,3b,"the same work, built up in a different industry",senior,13,execution
+51_d.md,G51,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,14,execution
+52_a.md,G52,0,0a,"shares only the gig's industry or setting, and none of its work",expert,27,mixed
+52_b.md,G52,3,3a,"the same work on the same kind of problem, in a similar setting",expert,23,mixed
+52_c.md,G52,2,2a,"same discipline, a neighbouring sub-focus",expert,28,mixed
+52_d.md,G52,1,1a,an adjacent area or a transferable skill,expert,22,mixed
+53_a.md,G53,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,23,execution
+53_b.md,G53,2,2a,"same discipline, a neighbouring sub-focus",expert,23,execution
+53_c.md,G53,3,3a,"the same work on the same kind of problem, in a similar setting",expert,25,execution
+53_d.md,G53,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,28,execution
+54_a.md,G54,2,2a,"same discipline, a neighbouring sub-focus",mid,6,execution
+54_b.md,G54,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,8,execution
+54_c.md,G54,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,8,execution
+54_d.md,G54,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,execution
+55_a.md,G55,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,execution
+55_b.md,G55,0,0a,"shares only the gig's industry or setting, and none of its work",mid,6,execution
+55_c.md,G55,1,1a,an adjacent area or a transferable skill,mid,6,execution
+55_d.md,G55,2,2a,"same discipline, a neighbouring sub-focus",mid,9,execution
+56_a.md,G56,1,1a,an adjacent area or a transferable skill,expert,28,mixed
+56_b.md,G56,0,0a,"shares only the gig's industry or setting, and none of its work",expert,25,mixed
+56_c.md,G56,2,2a,"same discipline, a neighbouring sub-focus",expert,30,mixed
+56_d.md,G56,3,3b,"the same work, built up in a different industry",expert,23,mixed
+57_a.md,G57,3,3b,"the same work, built up in a different industry",mid,9,advisory
+57_b.md,G57,2,2a,"same discipline, a neighbouring sub-focus",mid,6,advisory
+57_c.md,G57,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,9,advisory
+57_d.md,G57,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,advisory
+58_a.md,G58,3,3b,"the same work, built up in a different industry",senior,12,execution
+58_b.md,G58,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,12,execution
+58_c.md,G58,2,2b,"the right skills, mostly applied to a different kind of problem",senior,17,execution
+58_d.md,G58,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,14,execution
+59_a.md,G59,2,2a,"same discipline, a neighbouring sub-focus",senior,13,mixed
+59_b.md,G59,0,0a,"shares only the gig's industry or setting, and none of its work",senior,16,mixed
+59_c.md,G59,1,1a,an adjacent area or a transferable skill,senior,14,mixed
+59_d.md,G59,3,3a,"the same work on the same kind of problem, in a similar setting",senior,18,mixed
+60_a.md,G60,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,28,advisory
+60_b.md,G60,3,3a,"the same work on the same kind of problem, in a similar setting",expert,30,advisory
+60_c.md,G60,2,2b,"the right skills, mostly applied to a different kind of problem",expert,23,advisory
+60_d.md,G60,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,25,advisory
+61_a.md,G61,2,2a,"same discipline, a neighbouring sub-focus",expert,27,execution
+61_b.md,G61,0,0a,"shares only the gig's industry or setting, and none of its work",expert,27,execution
+61_c.md,G61,3,3a,"the same work on the same kind of problem, in a similar setting",expert,24,execution
+61_d.md,G61,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,22,execution
+62_a.md,G62,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,15,advisory
+62_b.md,G62,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,13,advisory
+62_c.md,G62,3,3b,"the same work, built up in a different industry",senior,12,advisory
+62_d.md,G62,2,2a,"same discipline, a neighbouring sub-focus",senior,15,advisory
+63_a.md,G63,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,7,mixed
+63_b.md,G63,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,9,mixed
+63_c.md,G63,2,2a,"same discipline, a neighbouring sub-focus",mid,6,mixed
+63_d.md,G63,3,3b,"the same work, built up in a different industry",mid,7,mixed
+64_a.md,G64,3,3b,"the same work, built up in a different industry",senior,18,advisory
+64_b.md,G64,0,0a,"shares only the gig's industry or setting, and none of its work",senior,18,advisory
+64_c.md,G64,2,2b,"the right skills, mostly applied to a different kind of problem",senior,14,advisory
+64_d.md,G64,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,15,advisory
+65_a.md,G65,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,25,execution
+65_b.md,G65,3,3b,"the same work, built up in a different industry",expert,26,execution
+65_c.md,G65,2,2b,"the right skills, mostly applied to a different kind of problem",expert,24,execution
+65_d.md,G65,1,1a,an adjacent area or a transferable skill,expert,27,execution
+66_a.md,G66,0,0a,"shares only the gig's industry or setting, and none of its work",expert,25,mixed
+66_b.md,G66,3,3a,"the same work on the same kind of problem, in a similar setting",expert,23,mixed
+66_c.md,G66,1,1a,an adjacent area or a transferable skill,expert,30,mixed
+66_d.md,G66,2,2b,"the right skills, mostly applied to a different kind of problem",expert,30,mixed
+67_a.md,G67,2,2b,"the right skills, mostly applied to a different kind of problem",mid,8,mixed
+67_b.md,G67,3,3a,"the same work on the same kind of problem, in a similar setting",mid,6,mixed
+67_c.md,G67,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,6,mixed
+67_d.md,G67,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,mixed
+68_a.md,G68,3,3b,"the same work, built up in a different industry",senior,16,mixed
+68_b.md,G68,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,15,mixed
+68_c.md,G68,2,2b,"the right skills, mostly applied to a different kind of problem",senior,15,mixed
+68_d.md,G68,0,0a,"shares only the gig's industry or setting, and none of its work",senior,18,mixed
+69_a.md,G69,2,2a,"same discipline, a neighbouring sub-focus",mid,8,execution
+69_b.md,G69,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,8,execution
+69_c.md,G69,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,execution
+69_d.md,G69,0,0a,"shares only the gig's industry or setting, and none of its work",mid,8,execution
+70_a.md,G70,1,1a,an adjacent area or a transferable skill,mid,9,advisory
+70_b.md,G70,2,2a,"same discipline, a neighbouring sub-focus",mid,9,advisory
+70_c.md,G70,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,7,advisory
+70_d.md,G70,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,advisory
+71_a.md,G71,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,12,execution
+71_b.md,G71,2,2b,"the right skills, mostly applied to a different kind of problem",senior,14,execution
+71_c.md,G71,3,3a,"the same work on the same kind of problem, in a similar setting",senior,13,execution
+71_d.md,G71,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,16,execution
+72_a.md,G72,3,3b,"the same work, built up in a different industry",expert,22,advisory
+72_b.md,G72,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,25,advisory
+72_c.md,G72,1,1a,an adjacent area or a transferable skill,expert,25,advisory
+72_d.md,G72,2,2b,"the right skills, mostly applied to a different kind of problem",expert,23,advisory
+73_a.md,G73,2,2a,"same discipline, a neighbouring sub-focus",senior,12,execution
+73_b.md,G73,3,3a,"the same work on the same kind of problem, in a similar setting",senior,12,execution
+73_c.md,G73,1,1a,an adjacent area or a transferable skill,senior,13,execution
+73_d.md,G73,0,0a,"shares only the gig's industry or setting, and none of its work",senior,13,execution
+74_a.md,G74,3,3b,"the same work, built up in a different industry",expert,27,execution
+74_b.md,G74,2,2a,"same discipline, a neighbouring sub-focus",expert,30,execution
+74_c.md,G74,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,30,execution
+74_d.md,G74,0,0a,"shares only the gig's industry or setting, and none of its work",expert,28,execution
+75_a.md,G75,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,30,advisory
+75_b.md,G75,2,2a,"same discipline, a neighbouring sub-focus",expert,28,advisory
+75_c.md,G75,3,3b,"the same work, built up in a different industry",expert,24,advisory
+75_d.md,G75,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,30,advisory
+76_a.md,G76,2,2b,"the right skills, mostly applied to a different kind of problem",senior,12,advisory
+76_b.md,G76,1,1a,an adjacent area or a transferable skill,senior,17,advisory
+76_c.md,G76,3,3b,"the same work, built up in a different industry",senior,13,advisory
+76_d.md,G76,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,17,advisory
+77_a.md,G77,1,1a,an adjacent area or a transferable skill,expert,26,mixed
+77_b.md,G77,0,0a,"shares only the gig's industry or setting, and none of its work",expert,30,mixed
+77_c.md,G77,2,2a,"same discipline, a neighbouring sub-focus",expert,27,mixed
+77_d.md,G77,3,3a,"the same work on the same kind of problem, in a similar setting",expert,24,mixed
+78_a.md,G78,2,2b,"the right skills, mostly applied to a different kind of problem",mid,9,execution
+78_b.md,G78,3,3b,"the same work, built up in a different industry",mid,7,execution
+78_c.md,G78,1,1a,an adjacent area or a transferable skill,mid,7,execution
+78_d.md,G78,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,execution
+79_a.md,G79,3,3a,"the same work on the same kind of problem, in a similar setting",mid,9,mixed
+79_b.md,G79,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,7,mixed
+79_c.md,G79,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,6,mixed
+79_d.md,G79,2,2a,"same discipline, a neighbouring sub-focus",mid,6,mixed
+80_a.md,G80,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,6,advisory
+80_b.md,G80,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,8,advisory
+80_c.md,G80,2,2a,"same discipline, a neighbouring sub-focus",mid,9,advisory
+80_d.md,G80,3,3b,"the same work, built up in a different industry",mid,6,advisory
+81_a.md,G81,3,3a,"the same work on the same kind of problem, in a similar setting",senior,13,mixed
+81_b.md,G81,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,16,mixed
+81_c.md,G81,0,0a,"shares only the gig's industry or setting, and none of its work",senior,13,mixed
+81_d.md,G81,2,2a,"same discipline, a neighbouring sub-focus",senior,17,mixed
+82_a.md,G82,1,1a,an adjacent area or a transferable skill,senior,14,mixed
+82_b.md,G82,2,2b,"the right skills, mostly applied to a different kind of problem",senior,18,mixed
+82_c.md,G82,0,0a,"shares only the gig's industry or setting, and none of its work",senior,18,mixed
+82_d.md,G82,3,3a,"the same work on the same kind of problem, in a similar setting",senior,14,mixed
+83_a.md,G83,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,22,mixed
+83_b.md,G83,2,2b,"the right skills, mostly applied to a different kind of problem",expert,27,mixed
+83_c.md,G83,3,3a,"the same work on the same kind of problem, in a similar setting",expert,30,mixed
+83_d.md,G83,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,23,mixed
+84_a.md,G84,1,1a,an adjacent area or a transferable skill,senior,17,execution
+84_b.md,G84,3,3a,"the same work on the same kind of problem, in a similar setting",senior,17,execution
+84_c.md,G84,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,13,execution
+84_d.md,G84,2,2a,"same discipline, a neighbouring sub-focus",senior,15,execution
+85_a.md,G85,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,30,advisory
+85_b.md,G85,3,3a,"the same work on the same kind of problem, in a similar setting",expert,22,advisory
+85_c.md,G85,2,2a,"same discipline, a neighbouring sub-focus",expert,27,advisory
+85_d.md,G85,1,1a,an adjacent area or a transferable skill,expert,23,advisory
+86_a.md,G86,3,3b,"the same work, built up in a different industry",mid,6,mixed
+86_b.md,G86,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,8,mixed
+86_c.md,G86,2,2b,"the right skills, mostly applied to a different kind of problem",mid,6,mixed
+86_d.md,G86,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,8,mixed
+87_a.md,G87,1,1a,an adjacent area or a transferable skill,senior,15,advisory
+87_b.md,G87,0,0a,"shares only the gig's industry or setting, and none of its work",senior,16,advisory
+87_c.md,G87,2,2b,"the right skills, mostly applied to a different kind of problem",senior,15,advisory
+87_d.md,G87,3,3b,"the same work, built up in a different industry",senior,16,advisory
+88_a.md,G88,2,2a,"same discipline, a neighbouring sub-focus",expert,28,execution
+88_b.md,G88,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,26,execution
+88_c.md,G88,3,3b,"the same work, built up in a different industry",expert,23,execution
+88_d.md,G88,0,0a,"shares only the gig's industry or setting, and none of its work",expert,28,execution
+89_a.md,G89,2,2b,"the right skills, mostly applied to a different kind of problem",mid,9,execution
+89_b.md,G89,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,6,execution
+89_c.md,G89,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,6,execution
+89_d.md,G89,3,3a,"the same work on the same kind of problem, in a similar setting",mid,9,execution
+90_a.md,G90,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,advisory
+90_b.md,G90,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,advisory
+90_c.md,G90,2,2b,"the right skills, mostly applied to a different kind of problem",mid,6,advisory
+90_d.md,G90,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,6,advisory
+91_a.md,G91,2,2b,"the right skills, mostly applied to a different kind of problem",expert,26,execution
+91_b.md,G91,1,1a,an adjacent area or a transferable skill,expert,25,execution
+91_c.md,G91,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",expert,26,execution
+91_d.md,G91,3,3b,"the same work, built up in a different industry",expert,27,execution
+92_a.md,G92,0,0a,"shares only the gig's industry or setting, and none of its work",expert,25,mixed
+92_b.md,G92,2,2a,"same discipline, a neighbouring sub-focus",expert,27,mixed
+92_c.md,G92,3,3a,"the same work on the same kind of problem, in a similar setting",expert,24,mixed
+92_d.md,G92,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,25,mixed
+93_a.md,G93,2,2a,"same discipline, a neighbouring sub-focus",expert,24,advisory
+93_b.md,G93,0,0a,"shares only the gig's industry or setting, and none of its work",expert,28,advisory
+93_c.md,G93,3,3b,"the same work, built up in a different industry",expert,22,advisory
+93_d.md,G93,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",expert,30,advisory
+94_a.md,G94,2,2b,"the right skills, mostly applied to a different kind of problem",mid,6,execution
+94_b.md,G94,3,3a,"the same work on the same kind of problem, in a similar setting",mid,8,execution
+94_c.md,G94,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,7,execution
+94_d.md,G94,0,0a,"shares only the gig's industry or setting, and none of its work",mid,8,execution
+95_a.md,G95,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,12,advisory
+95_b.md,G95,2,2b,"the right skills, mostly applied to a different kind of problem",senior,17,advisory
+95_c.md,G95,3,3b,"the same work, built up in a different industry",senior,13,advisory
+95_d.md,G95,1,1a,an adjacent area or a transferable skill,senior,18,advisory
+96_a.md,G96,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",mid,9,mixed
+96_b.md,G96,0,0a,"shares only the gig's industry or setting, and none of its work",mid,9,mixed
+96_c.md,G96,2,2a,"same discipline, a neighbouring sub-focus",mid,9,mixed
+96_d.md,G96,3,3b,"the same work, built up in a different industry",mid,6,mixed
+97_a.md,G97,0,0a,"shares only the gig's industry or setting, and none of its work",senior,18,mixed
+97_b.md,G97,1,1a,an adjacent area or a transferable skill,senior,12,mixed
+97_c.md,G97,2,2b,"the right skills, mostly applied to a different kind of problem",senior,16,mixed
+97_d.md,G97,3,3b,"the same work, built up in a different industry",senior,12,mixed
+98_a.md,G98,3,3b,"the same work, built up in a different industry",senior,18,execution
+98_b.md,G98,2,2b,"the right skills, mostly applied to a different kind of problem",senior,18,execution
+98_c.md,G98,1,1b,"a generic skill (project management, data analysis, admin) with no sign of the gig's domain",senior,13,execution
+98_d.md,G98,0,0a,"shares only the gig's industry or setting, and none of its work",senior,17,execution
+99_a.md,G99,3,3b,"the same work, built up in a different industry",mid,7,advisory
+99_b.md,G99,1,1a,an adjacent area or a transferable skill,mid,7,advisory
+99_c.md,G99,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",mid,9,advisory
+99_d.md,G99,2,2a,"same discipline, a neighbouring sub-focus",mid,6,advisory
+100_a.md,G100,1,1a,an adjacent area or a transferable skill,senior,15,advisory
+100_b.md,G100,3,3b,"the same work, built up in a different industry",senior,14,advisory
+100_c.md,G100,2,2b,"the right skills, mostly applied to a different kind of problem",senior,18,advisory
+100_d.md,G100,0,0b,"shares only a tool, regulator or keyword with the gig, in unrelated work (e.g. ""mezzanine"" financing for a mezzanine floor)",senior,16,advisory

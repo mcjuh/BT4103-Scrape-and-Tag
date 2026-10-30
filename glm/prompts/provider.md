@@ -27,7 +27,8 @@ THE PROFILE (a JSON object with exactly these keys)
 - "rate": null
 
 RULES
-- Write what the person did with verbs of their mode: execution = drafted, built, prepared, implemented, configured, ran the analysis; advisory = advised, reviewed, diagnosed, recommended, steered; mixed = both kinds. An execution person must not read as someone who only advises and oversees; an advisory person must not read as someone who only produces to someone else's brief.
+- Mode of work shows in what the person offers (their services and how_i_work), not in the first word of every achievement. Vary how the achievements open: some name the work (Wrote, Built, Prepared, Ran, Advised, Reviewed, Led), some name a result (Cut, Reduced, Cleared, Raised). An advisory person has one or two achievements that open with a production verb; an execution person has one or two that open with an advising or leading verb; a mixed person has both. No profile may have all its achievements open with the same kind of verb. An execution person must not read as someone who only advises and oversees; an advisory person must not read as someone who only produces to someone else's brief.
+- Never use em dashes or en dashes. Use a comma, a colon, brackets or start a new sentence. Write ranges with a hyphen ("1-2 weeks").
 - Singapore regulators and rules where they apply, amounts in S$, Singapore English spelling.
 - Never give a name. Never name a real company, client, firm, product line or person. Never state a fee, day rate, availability or start date.
 - Do not make the profile longer, more detailed or more credentialed because the fit is better; the same length and detail whatever the route.

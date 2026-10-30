@@ -13,6 +13,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "classifier_extractor"))
 from extract import parse_duration_weeks  # noqa: E402
 
+sys.path.insert(0, str(Path(__file__).parent))
+from dashes import has_dash  # noqa: E402
+
 SCHEMAS = ROOT / "classifier_extractor" / "schemas"
 _GIG_SCHEMA = Draft7Validator(json.loads((SCHEMAS / "ML_hirer_schema_v2.json").read_text(encoding="utf-8")))
 _PROV_SCHEMA = Draft7Validator(json.loads((SCHEMAS / "ML_provider_schema_v2.json").read_text(encoding="utf-8")))
@@ -26,6 +29,28 @@ PERSON = re.compile(r"\b(Mr|Ms|Mrs|Mdm|Dr|Prof)\.?\s+[A-Z][a-z]+")
 NUMBER_WORDS = re.compile(r"(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|"
                           r"hundred|thousand|million|half|double|triple|dozen)", re.I)
 MID_BANNED = ("senior", "lead", "principal", "partner", "director", "head")
+DASH_ERROR = "uses an em or en dash; use a comma, a colon, brackets or start a new sentence (write ranges as 1-2)"
+
+# The verb class an achievement opens with. Mode should show in what a person offers, not in the verb of every
+# achievement, so a profile whose achievements all open in one class (advisory or production) is rejected.
+ADVISORY_VERBS = {"Advised", "Recommended", "Steered", "Diagnosed", "Reviewed", "Guided", "Assessed", "Coached", "Counselled",
+                  "Briefed", "Gave", "Benchmarked", "Investigated", "Screened", "Proposed", "Led", "Facilitated", "Audited"}
+PRODUCTION_VERBS = {"Built", "Prepared", "Drafted", "Wrote", "Ran", "Implemented", "Configured", "Produced", "Rebuilt",
+                    "Rewrote", "Designed", "Migrated", "Delivered", "Redesigned", "Mapped", "Commissioned", "Translated",
+                    "Reconciled", "Set", "Standardised"}
+
+
+def verb_class(achievement) -> str:
+    """"advisory", "production" or "other" (Cut, Reduced, Cleared ... name a result, not a kind of work)."""
+    w = str(achievement or "").split()[:1]
+    w = w[0] if w else ""
+    return "advisory" if w in ADVISORY_VERBS else "production" if w in PRODUCTION_VERBS else "other"
+
+
+def single_verb_class(achievements) -> str:
+    """"advisory" or "production" when every achievement opens in that class, else ""."""
+    classes = {verb_class(a) for a in achievements or []}
+    return classes.pop() if len(classes) == 1 and classes != {"other"} else ""
 
 
 def words(s) -> int:
@@ -81,6 +106,8 @@ def gig_errors(rec: dict, row: dict) -> list:
     if not 3 <= words(title) <= 10:
         errs.append(f"gig_title is {words(title)} words; it must be 3-10")
     errs += _names(f"{title} {desc}")
+    if has_dash([title, desc, rec.get("additional_notes")]):
+        errs.append(DASH_ERROR)
     if re.search(r"\b(mid|senior|expert)[- ]level\b|\b\d+\+? years\b", desc, re.I):
         errs.append("do not state the seniority level or years of experience")
     return errs
@@ -124,8 +151,14 @@ def provider_errors(rec: dict, row: dict, gig: dict) -> list:
     errs += [f'achievement without a figure: "{str(a)[:60]}"' for a in ach if not (re.search(r"\d", str(a)) or NUMBER_WORDS.search(str(a)))]
     if rec.get("rate") is not None or rec.get("availability") is not None:
         errs.append("rate and availability must be null")
-    body = json.dumps({k: v for k, v in rec.items() if k not in ("source_file", "extracted_by_model", "tags")})
+    content = {k: v for k, v in rec.items() if k not in ("source_file", "extracted_by_model", "tags")}
+    body = json.dumps(content)
     errs += _names(body)
+    if has_dash(content):
+        errs.append(DASH_ERROR)
+    if len(ach) >= 2 and single_verb_class(ach):
+        errs.append(f"every achievement opens with {single_verb_class(ach)}-type verbs; open with a mix of verbs "
+                    "(some that name a result, some that name the work)")
     gig_text = f"{gig.get('gig_title', '')} {gig.get('short_description', '')}"
     if _runs(body, gig_text):
         errs.append("shares a run of six words with the gig; reword")

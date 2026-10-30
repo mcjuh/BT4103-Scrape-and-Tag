@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
 MODEL = "x-test-1"
+# Thinking cannot be turned off, but the gateway passes `reasoning_effort` through. None sends nothing (the model's default).
+REASONING_EFFORT = os.environ.get("GLM_REASONING_EFFORT") or None
 client = OpenAI(base_url=os.environ["SOCLAAS_BASE_URL"], api_key=os.environ["SOCLAAS_API_KEY"],
                 max_retries=0, timeout=900)
 
@@ -29,7 +31,8 @@ def chat(prompt: str, max_tokens: int = 10000, tries: int = 4, temperature: floa
         try:
             r = client.chat.completions.create(
                 model=MODEL, messages=[{"role": "user", "content": prompt}],
-                max_tokens=max_tokens + 2000 * attempt, temperature=temperature)
+                max_tokens=max_tokens + 2000 * attempt, temperature=temperature,
+                **({"reasoning_effort": REASONING_EFFORT} if REASONING_EFFORT else {}))
             content = (r.choices[0].message.content or "").strip()
             if content and r.choices[0].finish_reason != "length":
                 return content
