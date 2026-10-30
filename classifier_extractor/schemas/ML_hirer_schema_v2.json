@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$comment": "Schema v2, the live schema extract.py validates against. x-filled-by says who writes each field: llm = the extraction prompt, code = extract.py, tagger = the two tagging calls assembled by code, external = populated after extraction outside the LLM. See docs/schema_v2.md.",
+  "$comment": "Schema v2, the live schema extract.py validates against. x-filled-by says who writes each field: llm = the extraction prompt, code = extract.py, tagger = the two tagging calls assembled by code, enricher = enricher/enrich.py, external = populated after extraction outside the LLM. See docs/schema_v2.md.",
   "title": "HireDocument",
   "type": "object",
   "required": [
@@ -63,6 +63,53 @@
       "type": ["string", "null"],
       "x-filled-by": "llm",
       "description": "Budget, timeline or seniority expectations, only when the source states them. Almost always null."
+    },
+    "budget_lo": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "x-filled-by": "enricher",
+      "description": "Synthetic. Low end of the budget in S$/hour, from rate_card.json's band for the judged (seniority, price tier) times the industry multiplier."
+    },
+    "budget_hi": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "x-filled-by": "enricher",
+      "description": "Synthetic. High end of the budget in S$/hour."
+    },
+    "seniority_needed": {
+      "type": ["string", "null"],
+      "enum": ["mid", "senior", "expert", null],
+      "x-filled-by": "enricher",
+      "description": "LLM judgement of the level the work needs."
+    },
+    "start_by": {
+      "type": ["string", "null"],
+      "pattern": "^(asap|\\d{4}-\\d{2}-\\d{2})$",
+      "x-filled-by": "enricher",
+      "description": "Synthetic. \"asap\" or an ISO date, drawn from the judged urgency."
+    },
+    "commitment": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5,
+      "x-filled-by": "enricher",
+      "description": "LLM judgement, days per week."
+    },
+    "duration_weeks": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "x-filled-by": "enricher",
+      "description": "Midpoint of the \"Engagement duration:\" sentence, in weeks."
+    },
+    "sector": {
+      "type": ["string", "null"],
+      "x-filled-by": "enricher",
+      "description": "SkillsFuture sector of the work (data/reference/skillsfuture/sector.csv)."
+    },
+    "track": {
+      "type": ["string", "null"],
+      "x-filled-by": "enricher",
+      "description": "SkillsFuture track listed under that sector (track.csv)."
     },
     "tags": { "$ref": "#/definitions/tags" }
   },

@@ -1,35 +1,25 @@
 # -*- coding: utf-8 -*-
 """
-The "monitor" role: a centralised web dashboard over every other
-role in the pipeline, laid out as the pipeline itself --
+Web dashboard over the whole pipeline, laid out as the pipeline itself:
 
-    Crawl  ->  Classify  ->  Industry  ->  Extract  ->  Label
-  crawl.py   classify.py  industry.py  extract.py   label.py
+    Crawl -> Classify -> Industry -> Extract -> Label
 
-Every stage answers the same three questions, in the same place, in the same
-shape: is it RUNNING, how many documents has it PROCESSED, and how many are
-QUEUED waiting for it. The number between two stage cards is the handoff --
-documents that have cleared the left stage and are waiting on the right one.
-That's the thing you actually want at a glance; per-model chips, token
-counts and the raw tables are secondary and sit below.
+Every stage card shows whether it is RUNNING, how many documents it has
+PROCESSED and how many are QUEUED. The number between two cards is the
+handoff: documents that cleared the left stage and wait on the right one.
 
-It never writes to any role's data -- it reads logs/crawl.log,
-data/pages/unprocessed/*.md, data/manifests/{classify,industry,extract}.jsonl,
-data/manifests/crawl_state.json, data/output/providers.csv,
-data/output/hirers.csv, data/manifests/relevance_labels.jsonl,
-data/output/relevance_scores.csv and logs/<stage>.pid.
+The dashboard only reads: logs/*.log, logs/<stage>.pid, the manifests in
+data/manifests/, the CSVs in data/output/ and the unprocessed pages.
 
-Each stage card also has Start/Stop buttons. They run only the fixed
-commands in LAUNCHABLE (never a command line from the page), append to
-logs/<stage>.log (the same file run.py writes), and need a per-session token
-that only the page itself carries. A started run is its own process: closing the
-dashboard doesn't stop it. Stop removes the stage's PID file, since a hard
-stop skips the script's own cleanup. Crawl refuses to start with less than
-CRAWL_MIN_FREE_GB of RAM free (BACKLOG A2).
+Each card has Start/Stop buttons. They run only the fixed commands in
+LAUNCHABLE, never a command line sent from the page, and need a per-session
+token that only the page carries. A started run is its own process, so
+closing the dashboard does not stop it. Crawl refuses to start with less
+than CRAWL_MIN_FREE_GB of free RAM.
 
     python monitor/dashboard.py [--port 8765]
 
-Then open http://localhost:8765 in a browser. Ctrl+C to stop the server.
+Then open http://localhost:8765. Ctrl+C stops the server.
 """
 
 import argparse
@@ -157,7 +147,7 @@ def _script_alive(pid_path: Path) -> bool:
 
 def _run_state(pid_name: str) -> str:
     # A script launched from here counts as running from the moment it starts,
-    # not only once it has written its PID file -- extract.py loads spaCy and
+    # not only once it has written its PID file; extract.py loads spaCy and
     # crawl.py imports crawl4ai first, and a second click in that gap would
     # otherwise launch it twice.
     proc = LAUNCHED.get(pid_name)
@@ -189,7 +179,7 @@ LAUNCHABLE = {
 LAUNCHED = {}  # stage -> Popen, for scripts started by this dashboard process
 LAUNCH_LOCK = threading.Lock()
 # crawl4ai's memory dispatcher silently throttles to zero pages below this
-# (BACKLOG A2: a run at 0.3 GB free saved nothing from 98 of 121 seeds).
+# (a run at 0.3 GB free saved nothing from 98 of 121 seeds).
 CRAWL_MIN_FREE_GB = 8.0
 # Required on every launch/stop request. It's only ever sent inside the page
 # itself, which another site's script can't read, so a random web page can't
@@ -272,7 +262,7 @@ def launch(stage: str, options: dict) -> tuple:
         free = _free_ram_gb()
         if free is not None and free < CRAWL_MIN_FREE_GB:
             return False, (f"only {free:.1f} GB RAM free -- the crawler saves nothing below "
-                           f"~{CRAWL_MIN_FREE_GB:.0f} GB (BACKLOG A2). Free memory and retry.")
+                           f"~{CRAWL_MIN_FREE_GB:.0f} GB. Free memory and retry.")
     with LAUNCH_LOCK:
         if _run_state(stage) == "running":
             return False, f"{stage} is already running"
@@ -388,7 +378,7 @@ def crawl_stage(state: list) -> dict:
     barren = [e for e in state if len(e) > 4 and e[4] == 0]
     total_seeds = _total_seeds() or len(state)
     # Seeds never attempted at all, plus the ones that came back with nothing
-    # and so will be retried -- both are still owed work.
+    # and so will be retried; both are still owed work.
     queue = max(0, total_seeds - len(productive))
 
     seed_matches = list(SEED_RE.finditer(content))
@@ -421,7 +411,7 @@ def classify_stage(records: list) -> dict:
     usage_out = sum((r.get("usage") or {}).get("completion_tokens") or 0 for r in records)
 
     return _stage(
-        "classify", "Classify", "classify.py --watch",
+        "classify", "Classify", "classify.py",
         _run_state("classify"),
         processed=len(ok), queue=queue, unit="docs", errors=errors,
         chips=[(k, labels.get(k, 0)) for k in ("PROVIDER", "HIRER", "IGNORE", "UNCERTAIN")],
@@ -513,7 +503,7 @@ def extract_stage(downstream_files: set) -> dict:
 
     providers, hirers = _csv_row_count(PROVIDERS_CSV), _csv_row_count(HIRERS_CSV)
     return _stage(
-        "extract", "Extract", "extract.py --watch",
+        "extract", "Extract", "extract.py --balance",
         _run_state("extract"),
         processed=len(done), queue=len(downstream_files - done), unit="docs", errors=errors,
         chips=[("written", written), ("rejected", rejected),
@@ -1090,7 +1080,7 @@ setInterval(refresh, 5000);
 
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
-        pass  # keep stdout quiet -- errors still surface via exceptions
+        pass  # keep stdout quiet; errors still surface via exceptions
 
     def _send(self, code, body: bytes, content_type: str):
         self.send_response(code)

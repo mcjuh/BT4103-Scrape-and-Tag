@@ -1,49 +1,32 @@
 # -*- coding: utf-8 -*-
 """
-The labeller role: zero-shot LLM relevance labels between hirer gigs
-(data/output/hirers.csv) and provider profiles (data/output/providers.csv),
-both produced by classifier_extractor/extract.py.
+Zero-shot LLM relevance scores between hirer gigs (data/output/hirers.csv)
+and provider profiles (data/output/providers.csv).
 
-Method: Zhuang et al., "Beyond Yes and No: Improving Zero-Shot LLM Rankers
-via Scoring Fine-Grained Relevance Labels" (arXiv:2310.14122). Pointwise --
-each (gig, provider) pair is one prompt, with the gig as the paper's
-"query" and the provider profile as its "document". Instead of a binary
-Yes/No, the model chooses among fine-grained relevance labels, and the
-score is the EXPECTED RELEVANCE computed from the log-likelihood the model
-assigns to every label -- not the one label it happens to generate, which
-the paper shows produces ties and ranks worse (kept here only as a
-fallback when logprobs are missing).
+Method: Zhuang et al., "Beyond Yes and No" (arXiv:2310.14122). Each
+(gig, provider) pair is one prompt, with the gig as the "query" and the
+provider as the "document". The model picks among relevance labels, and the
+score is the expected relevance computed from the probability the model
+gives every label, not just the one it generates. Scores are normalised to
+0-1 so the approaches can be compared.
 
-Five approaches:
-  rg_2l        "Not Relevant" / "Relevant"                              paper RG-2L
-  rg_3l        + "Somewhat Relevant" / "Highly Relevant"                paper RG-3L
-  rg_4l        + "Perfectly Relevant"                                   paper RG-4L
-  rg_s04       "From a scale of 0 to 4 ..."                             paper RG-S(0,4)
-  rg_3l_multi  rg_3l scored by EVERY model in MODEL_POOL, averaged      (not in paper)
+Approaches:
+  rg_2l        Not Relevant / Relevant                       paper RG-2L
+  rg_3l        adds Somewhat Relevant, Highly Relevant       paper RG-3L
+  rg_4l        adds Perfectly Relevant                       paper RG-4L
+  rg_s04       "From a scale of 0 to 4 ..."                  paper RG-S(0,4)
+  rg_3l_multi  rg_3l scored by every model in MODEL_POOL, averaged
 
-rg_3l is the base for rg_3l_multi because it tied with rg_s04 as the
-paper's best variant. Approaches 1-4 use the gig's one routed model (a
-hash of the gig, same idea as classifier_extractor/llm_pool.py): every
-provider for a given gig is judged by the same model, so each gig's
-ranking and the four prompts are compared within one model, while the
-corpus as a whole still spreads across the pool. Routing per pair instead
-would let the model assignment drive a gig's ranking -- models differ in
-calibration far more than prompts do (probed: llama3.1:8b scored a clearly
-irrelevant pair ~0.5 where the Qwen models give ~0, which is why it has
-since been dropped from the pool). rg_3l_multi reuses the routed model's
-rg_3l call and adds the other two models -- 6 calls per pair in total,
-not 7.
-
-Every score is normalised to 0-1 (expected relevance / highest label
-value) so the five approaches are directly comparable.
+The first four use one model per gig (a hash of the gig, as in
+classifier_extractor/llm_pool.py), so all providers of a gig are judged by
+the same model. rg_3l_multi reuses that call and adds the other models, so
+a pair costs 6 calls in total.
 
     python run.py label [--max-pairs 50]
 
-Pairs are taken hirer-major (all providers for the first gig, then the
-next gig, ...), so a small --max-pairs yields a complete ranking for the
-first gig(s) rather than a thin slice of every gig. Reruns skip calls
-already recorded in data/manifests/relevance_labels.jsonl, so raising --max-pairs
-only pays for the new pairs.
+Pairs are taken gig by gig, so a small --max-pairs gives a complete ranking
+for the first gigs. Calls already in data/manifests/relevance_labels.jsonl
+are skipped on a rerun.
 """
 
 import argparse
@@ -73,10 +56,8 @@ HIRERS_CSV = OUTPUT_DIR / "hirers.csv"
 LABELS_PATH = DATA_DIR / "manifests" / "relevance_labels.jsonl"  # one line per LLM call
 SCORES_CSV = OUTPUT_DIR / "relevance_scores.csv"  # one row per pair, rebuilt each run
 
-# Same pool as classifier_extractor/llm_pool.py (see its docstring for why
-# these three, and why llama3.1:8b was dropped). Duplicated rather than
-# imported: roles only talk to each other through data/, never through
-# Python imports across role folders.
+# Same pool as classifier_extractor/llm_pool.py. It is copied rather than imported
+# because the role folders only share data through data/, not Python imports.
 MODEL_POOL = ["qwen3.8:27b", "qwen3.6:35b", "qwen3-vl:32b"]
 
 LABEL_TEMPLATE = (PROMPTS_DIR / "rg_labels.md").read_text(encoding="utf-8").strip()
@@ -98,10 +79,8 @@ TOP_LOGPROBS = 20
 MAX_RETRIES = 5  # SOCLAAS rate-limits (429) bursts of short calls; 2s + 4s wasn't enough
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s, 8s, 16s
 MAX_CONSECUTIVE_ERRORS = 5
-# Models that "think" first would otherwise make the first output token --
-# the one whose logprobs get scored -- reasoning text, not the label.
-# Probed: with this flag every pool model emits the label as token 0
-# with a real distribution over the alternatives.
+# Without this, models that "think" first make the scored first token reasoning text
+# instead of the label.
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
 load_dotenv(ENV_PATH)
@@ -340,13 +319,13 @@ def write_scores(hirers: list, providers: list, exclude: tuple = ()) -> int:
             "provider_file": p, "about_title": headlines.get(p, ""), "routed_model": routed,
             "hirer_industry": industries.get(h, ""), "provider_industry": industries.get(p, ""),
         }
-        # blank, not False, when either side is untagged -- unknown isn't a mismatch
+        # blank, not False, when either side is untagged; unknown isn't a mismatch
         if row["hirer_industry"] and row["provider_industry"]:
             row["same_industry"] = row["hirer_industry"] == row["provider_industry"]
         for a in APPROACHES:
             row[a] = scores.get((a, routed), "")
         multi = [scores[(MULTI_BASE, m)] for m in MODEL_POOL if (MULTI_BASE, m) in scores]
-        # only a full set of models counts -- a partial average isn't the same measure
+        # only a full set of models counts; a partial average isn't the same measure
         row["rg_3l_multi"] = round(sum(multi) / len(multi), 4) if len(multi) == len(MODEL_POOL) else ""
         rows.append(row)
 
@@ -369,10 +348,8 @@ def main():
         help="score at most this many (gig, provider) pairs, hirer-major (default: 50). "
              "Each pair costs up to 6 LLM calls; already-recorded calls are skipped.",
     )
-    # The client's test workbook lives in labeller/experiments/client_testset/,
-    # deliberately outside data/, so its synthetic rows can never be mixed into
-    # the real extracted dataset. These overrides are how it gets scored without
-    # copying it in. Column names there match the CSVs', so nothing else changes.
+    # These overrides let the client's test set in labeller/experiments/client_testset/
+    # be scored without copying it into data/.
     parser.add_argument("--hirers", type=Path, default=HIRERS_CSV,
                         help=f"gig CSV to score (default: data/output/{HIRERS_CSV.name})")
     parser.add_argument("--providers", type=Path, default=PROVIDERS_CSV,

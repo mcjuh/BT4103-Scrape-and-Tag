@@ -184,7 +184,7 @@ def run_triage(input_dir: Path, output_dir: Path, prompt: str) -> None:
 
             try:
                 dest = bucket_dirs[parsed["label"]] / html_path.name
-                shutil.copy2(html_path, dest)  # copy, not move — original dump stays untouched
+                shutil.copy2(html_path, dest)  # copy, not move; original dump stays untouched
             except OSError as e:
                 print(f"WARNING: could not copy {html_path.name}: {e}")
 

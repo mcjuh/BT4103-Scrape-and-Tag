@@ -2,14 +2,13 @@
 """
 Ranking metrics shared by evaluate.py and experiments/analyze.py.
 
-For one gig, `scores` is {provider: predicted score} (higher = more relevant)
-and `grades` is {provider: gold grade 0-3}; a provider missing from `grades`
-counts as grade 0.
+For one gig, `scores` is {provider: predicted score} (higher = more
+relevant) and `grades` is {provider: gold grade 0-3}; a provider missing
+from `grades` counts as grade 0.
 
-NDCG uses linear gains (as trec_eval, which the Beyond Yes and No paper
-reports) and is the expectation over random tie-breaking, so tied scores
-aren't rewarded by a lucky input order. Intervals and p-values are taken over
-gigs: a percentile bootstrap, and a paired sign-flip permutation test.
+NDCG uses linear gains and averages over random tie-breaking, so tied
+scores are not rewarded by input order. Intervals and p-values are taken
+over gigs: a percentile bootstrap and a paired sign-flip permutation test.
 """
 
 import math

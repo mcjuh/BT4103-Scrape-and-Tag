@@ -1,6 +1,6 @@
 # Labeller
 
-Third role in the pipeline, after scraper and classifier/extractor: **zero-shot LLM relevance
+Runs after the classifier/extractor and produces **zero-shot LLM relevance
 labels between hirer gigs and provider profiles**, scored with the method from Zhuang et al.,
 ["Beyond Yes and No: Improving Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance
 Labels"](https://arxiv.org/abs/2310.14122) (arXiv:2310.14122).

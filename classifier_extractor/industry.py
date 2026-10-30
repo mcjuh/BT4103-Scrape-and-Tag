@@ -1,47 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Tag every already-classified page with the INDUSTRY the work is done for --
-the third stage, between classify.py and extract.py.
+Industry tagging, the stage between classify.py and extract.py.
 
-The taxonomy comes from the client: the `industry` column of their test
-workbook (data/reference/client_documents/20260917 Senseigigs_NUS_Test_Dataset_Team31.xlsx,
-30 gigs), collapsed into groups, plus a few sectors the crawled corpus needs
-(Energy & Resources, Public Sector, Education) so they don't all land in
-OTHER. It lives in prompts/industry_taxonomy.json, versioned, and the prompt's
-industry list is generated from it (same arrangement as extract.py's
-schema-generated {field_block}), so the taxonomy file stays the one place that
-defines the labels.
+Tags every classified page with the industry the work is done for. The
+labels come from prompts/industry_taxonomy.json (built from the client's
+test workbook, plus a few sectors the crawl needs), and the prompt's
+industry list is generated from that file.
 
-It replaced subject.py (the academic-subject taxonomy, subject_v1): tagged on
-the client's own 30 gigs, that put 21 into Mathematics, Accountancy or Law, so
-it couldn't separate the work the client actually cares about. Industry does.
+This is its own stage, not a field in extract.py, because the industry has
+to be known before an extraction call is paid for, so the dataset can be
+balanced across industries first.
 
-WHY ITS OWN STAGE, rather than a field on either neighbour:
-- Not in extract.py's schemas: by the time an extract call returns, the call
-  is already paid for. Balancing the dataset means knowing a page's industry
-  BEFORE deciding whether to spend an extraction on it, so it has to be known
-  one stage earlier.
-- Not folded into classify_triage.md: classify.py only globs
-  data/pages/unprocessed/, so the 12k already-labelled pages could not be re-run
-  through it without moving them all back, and editing that prompt would
-  perturb a PROVIDER/HIRER/IGNORE boundary that already has 12k rows behind it.
+Reads data/manifests/classify.jsonl and appends one record per page to
+data/manifests/industry.jsonl. Pages are not moved. Only PROVIDER, HIRER
+and UNCERTAIN pages are tagged unless --include-ignore is given. Each file
+goes to one pool model (llm_pool.model_for_file, salt "industry").
 
-So this reads classify.py's data/manifests/classify.jsonl (not its code, per the
-project's one-way data-lake rule), reads each qualifying page out of its
-bucket folder, and appends one record per file to
-data/manifests/industry.jsonl. Nothing is moved: industry is a second,
-orthogonal axis on the same files.
-
-By default only PROVIDER/HIRER/UNCERTAIN are tagged -- the IGNORE pages never
-reach extract.py. --include-ignore overrides that.
-
-Each file is routed to one pool model by model_for_file(fname, "industry"),
-a stage salt of its own, for the reason llm_pool.py documents: these labels
-are synthetic data, and a single generative source narrows the corpus's
-distribution.
-
-    py -3 classifier_extractor/industry.py --workers 4 --rps 1
-    py -3 classifier_extractor/industry.py --report
+    python classifier_extractor/industry.py --workers 4 --rps 1
+    python classifier_extractor/industry.py --report
 """
 
 import argparse
@@ -72,7 +48,7 @@ CLASSIFY_MANIFEST_PATH = MANIFESTS_DIR / "classify.jsonl"
 INDUSTRY_MANIFEST_PATH = MANIFESTS_DIR / "industry.jsonl"
 
 # Where classify.py put each label's files. A page is read from here; it is
-# never moved -- industry is an extra axis on the existing buckets.
+# never moved; industry is an extra axis on the existing buckets.
 BUCKET_DIRS = {
     "PROVIDER": PAGES_DIR / "provider",
     "HIRER": PAGES_DIR / "hirer",
@@ -184,7 +160,7 @@ def parse_industry(raw_output: str) -> dict:
             "reason": reason, "parsed": True}
 
 
-# Thinking off, matching extract.py and labeller/label.py -- see the note in
+# Thinking off, matching extract.py and labeller/label.py; see the note in
 # extract.py for the measurements (qwen3.8:27b was the outlier on every stage).
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 

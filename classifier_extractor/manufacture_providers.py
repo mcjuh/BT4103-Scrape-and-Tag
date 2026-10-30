@@ -1,43 +1,31 @@
 ﻿# -*- coding: utf-8 -*-
 """
-Manufactures provider profiles for gigs the corpus has no good match for, and
-adds them to the extracted dataset, clearly marked as synthetic.
+Writes synthetic provider profiles for gigs that have no good provider
+match, and adds them to the extracted dataset, clearly marked as synthetic.
 
-    python run.py manufacture --counts data/archive/2026-10-06/hirer_relevance_counts.csv
-    python run.py manufacture --counts ... --limit 4        # a trial: the first two gigs
+    python run.py manufacture --counts <counts.csv>
+    python run.py manufacture --counts <counts.csv> --limit 4   # trial: 2 gigs
 
-Why: in the ranker's judging pools on the 29 Sep dataset (rubric_0_3.v2), 474
-of 1,023 gigs had no provider graded 2 or 3, so the ranker has no positive
-example to learn from for them. --counts is the per-gig count file built from
-those judgments (columns source_file and v2_grade_2_or_3); every gig with a
-count of 0 is a target. Each target is written against the gig's CURRENT
-wording (data/output/hirers.jsonl, matched on source_file); a gig whose page
-has no current gig is skipped.
+--counts is a CSV with the columns source_file and v2_grade_2_or_3 (how
+many providers were graded 2 or 3 for that gig). Every gig with a count of
+0 is a target, and is written against its current text in
+data/output/hirers.jsonl.
 
-Two providers per target gig, each in two steps:
-1. A pool model (its own "manufacture" salt) invents a fictional specialist
-   and writes their profile PAGE (prompts/manufacture_provider.md): "direct"
-   is aimed at grade 3 (core expertise is exactly this work), "adjacent" at
-   grade 2 (same field, neighbouring focus).
-2. That page goes through extract.py's own provider extraction (facts pass,
-   style pass, Singapore check, SkillsFuture tags), so the record has the same
-   shape, style rolls and checks as one extracted from a crawled page.
+Each target gets two providers:
+1. A pool model invents a fictional specialist and writes their profile
+   page (prompts/manufacture_provider.md). "direct" is aimed at grade 3
+   (exactly this work) and "adjacent" at grade 2 (neighbouring focus).
+2. The page goes through extract.py's normal provider pipeline, so the
+   record has the same shape and checks as one from a crawled page.
 
-They are written to data/output/providers.jsonl and providers.csv (and
-providers.json is rebuilt), marked so they can always be told apart or
-filtered out:
-- source_file is "synthetic-provider__<target gig's hirer_ref>__<variant>.md"
-  (not "synthetic__": extract.py treats the part before "__" as the
-  publisher's name and masks or rejects that word in the text);
-- extracted_by_model is "synthetic:<generator model>/<extraction model>".
-classify_label stays PROVIDER so the ranker import keeps them; the industry
-columns are copied from the target gig. They have not been graded: whether
-they score 2 or 3 is only known once the judge runs over them.
+Results are added to data/output/providers.jsonl / .csv (and .json is
+rebuilt), marked so they can be filtered out:
+- source_file is "synthetic-provider__<hirer_ref>__<variant>.md"
+- extracted_by_model is "synthetic:<generator>/<extractor>"
 
-Progress is in data/manifests/manufacture.jsonl, one line per attempt with the
-generated page, so a rerun skips providers already written and retries the
-rest. data/output/manufactured_providers.txt lists every written one and is
-rebuilt at the end of each run.
+They are not graded yet. Progress is in data/manifests/manufacture.jsonl,
+so a rerun skips finished providers. data/output/manufactured_providers.txt
+lists every provider written.
 """
 
 import argparse

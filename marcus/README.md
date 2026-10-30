@@ -1,4 +1,4 @@
-# Marcus pipeline (original)
+# Legacy pipeline (original version)
 
 The first version of the pipeline. It turned scraped web pages into two kinds of output: **gigs** (job-style requests) and **provider profiles** (anonymised bios).
 
@@ -25,13 +25,13 @@ triage.py ──► individual_profile/ ──► showcase.py ──► provider
 | 2a | `gig.py` | Turns each case-study page into one made-up gig `{title, description}`, written as if the original client were posting the job. It returns `{}` if the page has no real project. A random roll sets the length (Minimal, Standard or Detailed). |
 | 2b | `showcase.py` | Turns each person's page into an anonymised profile `{about, achievements}`. spaCy masks names and gendered pronouns are made neutral. Pass 1 pulls out the facts; pass 2 rewrites them in a randomly chosen style. |
 | 3 | `collect_gig_retries.py` | Copies source files whose gig output is broken into a retry folder so they can go through `gig.py` again. |
-| 4 | `combine_gig_manifests.py` | Merges all the gig manifests. When a file shows up more than once, the newest record wins. |
+| 4 | `combine_gig_manifests.py` | Merges all the gig manifests. When a file shows up more than once, the record from the last manifest (in filename order) wins. |
 | 5 | `review_gig_content.py` | A second LLM call checks each gig against its source and returns `keep` or `retry`. It only flags clear problems, such as made-up requirements or unrelated skills bundled together. |
 | 6 | `gig_repair.py` | Rewrites the flagged gigs using the source, the old gig and the reviewer's reason. |
 
 ## Where it lives now
 
-| Marcus script | Current pipeline |
+| Legacy script | Current pipeline |
 |---|---|
 | `triage.py` | `classifier_extractor/classify.py` + `prompts/classify_triage.md` |
 | `gig.py` | `extract.py` hirer pass (`prompts/extract_hirer.md`) |

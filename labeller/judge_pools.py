@@ -1,47 +1,34 @@
 # -*- coding: utf-8 -*-
 """
-Grades the ranker's judging pools 0-3, producing the training labels for its
-Stage-2 reranker (cross-encoder + LambdaMART).
+Grades the external ranker's judging pools 0-3, producing training labels
+for its Stage-2 reranker. Needs a sibling checkout of the ranker repo.
 
-Input is the ranker fork's pipeline/data_sat/ folder, built there by
-import_scrape_and_tag.py (gigs + providers from this repo's data/output/ CSVs) and
-build_judging_pools_sat.py (per gig: RRF/BM25/dense top candidates + randoms).
+Input is the ranker's pipeline/data_sat/ folder, built there by
+import_scrape_and_tag.py (gigs and providers from this repo's data/output/
+CSVs) and build_judging_pools_sat.py (per gig: top candidates plus randoms).
 
-The prompt (prompts/rubric_0_3.md) carries the ranker's own 0-3 rubric
-(llm_judgments.py), minus the budget/seniority clauses our data has no fields
-for, so these grades mean what its synthetic grades mean. Scoring is label.py's:
-the log-likelihood of each grade token at the answer position, so every call
-keeps the full grade distribution; the grade is its argmax.
+The prompt (prompts/rubric_0_3.md) is the ranker's own 0-3 rubric, minus the
+budget and seniority clauses our data has no fields for. Scoring follows
+label.py: the log-likelihood of each grade token at the answer position, and
+the grade is the most probable one. One model grades every pair, because the
+pool's models disagree more than prompts do and labels must mean the same
+thing across gigs.
 
-One model grades every pair. The 100x100 run showed the pool's models disagree
-far more than prompts do (llama3.1:8b rated 82% of pairs relevant, the Qwens
-<=6%; llama has since been dropped from the pool), and training labels have to
-mean the same thing across gigs.
+    python run.py judge --model qwen3.6:35b --sample 20     # pilot
+    python run.py judge --model qwen3.6:35b                 # every gig
+    python run.py judge --model qwen3.6:35b --export        # ranker label files
 
-    python run.py judge --model qwen3.6:35b --sample 20        # pilot
-    python run.py judge --model qwen3.6:35b                    # every gig
-    python run.py judge --model qwen3.6:35b --export           # -> ranker label files
+Prompt versions (--prompt):
+- v1  prompts/rubric_0_3.md, content fit only
+- v2  prompts/rubric_0_3_v2.md, also grades budget vs rate, seniority, start
+      date and days per week, from the enricher's fields in hirers.csv / providers.csv
+- v3  prompts/rubric_01_v3.md, same terms but a continuous 0-1 score. The
+      exported grade is round(score * 3), and the label file holds
+      round(score * 100).
 
---prompt v2 (prompts/rubric_0_3_v2.md) also grades the practical terms -- budget vs
-rate, seniority, start date and days per week -- from the structured fields of the
-enriched import (hirers_enriched.csv / providers_enriched.csv). Those fields are
-appended to the gig and profile text shown to the model.
-
-For a deadline: --order random grades gigs in a seeded random order, so a run
-stopped early leaves a random sample of fully graded gigs rather than the first N
-by id, and --export-every N re-exports the label files every N calls.
-
---prompt v3 (prompts/rubric_01_v3.md) grades the same content and terms as v2 but
-asks for a continuous 0-1 score (two decimals) instead of a 0-3 grade. Its anchor
-bands sit on the 0-3 grades' rounding cutoffs, so the exported grade is
-round(score * 3). The score is smoothed like label.py's expected relevance: the
-generated number with its leading digit and tenths digit replaced by their
-expectations under the answer-position logprobs (Qwen tokenises digits one at a
-time), falling back to the parsed number when the output has another shape.
-ground_truth_llm.json then carries round(score * 100) rather than 0/33/67/100,
-which the ranker's grade_from_score() maps back to the same grade.
-
-Reruns skip pairs already graded by that model and prompt, so a stopped run resumes.
+--order random grades gigs in a seeded random order, so a run stopped early
+leaves a random sample of finished gigs. --export-every N re-exports the
+label files every N calls. Reruns skip pairs already graded.
 """
 
 import argparse
@@ -148,7 +135,7 @@ def score_prompt(prompt: str, model: str) -> dict:
 
     # Expected score when the answer is "0" "." d h, one digit per token:
     # P(1) * 1.0 + P(0) * (E[tenths] / 10 + h / 100). The hundredths digit stays
-    # the generated one -- its distribution is only known on the greedy path.
+    # the generated one; its distribution is only known on the greedy path.
     toks = [t for t in (choice.logprobs.content if choice.logprobs and choice.logprobs.content else [])
             if _bare(t.token) or t.token.strip() == "."]
     lead = tenths = None

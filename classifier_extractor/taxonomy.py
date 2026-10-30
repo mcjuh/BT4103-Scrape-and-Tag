@@ -1,37 +1,32 @@
 # -*- coding: utf-8 -*-
 """
-Singapore's SkillsFuture framework as the tag vocabulary for extract.py's tagging
-step. Every gig and every provider profile gets:
+SkillsFuture Singapore as the tag vocabulary for extract.py's tagging step.
+Each gig and provider gets:
 
-    category        a SkillsFuture SECTOR            (data/reference/skillsfuture/sector.csv)
-    specialisation  a TRACK inside that sector       (track.csv)
-    skills          TSCs (technical skills and competencies) linked to the chosen
-                    tracks                           (tsc.csv via job_role.csv + job_role_tsc.csv)
+    category        a SkillsFuture sector            (sector.csv)
+    specialisation  a track inside that sector       (track.csv)
+    skills          skills linked to the chosen tracks (tsc.csv via
+                    job_role.csv and job_role_tsc.csv)
 
-and the three nest: category -> specialisation -> skills, as the platform's
-Category / Specialisation search tags do ("Tax (Accountancy)").
+They nest as category -> specialisation -> skills. The CSVs are in
+data/reference/skillsfuture/.
 
-This module is only the vocabulary and the checking: it loads the CSVs, builds the
-lists the prompts show, and turns a model's reply into valid, nested tags. It makes
-no LLM calls (extract.py does, with the prompts in prompts/tag_*.md), so it can be
-tested on its own.
+This module only loads the CSVs, builds the lists shown to the prompts and
+checks a model's reply into valid, nested tags. It makes no LLM calls
+(extract.py does, using prompts/tag_*.md).
 
-Design choices, from the ranker repo's taxonomy-tower experiments:
-- Skills are picked ONLY from the chosen tracks' own list, never from all 2,088 TSCs.
-  That list is 3-112 titles per track, small enough to show in full. (The first
-  taxonomy tower hopped provider -> job role -> every skill of that role, and 44% of
-  strong matches then shared no skill; here the model reads the record and picks.)
-- Tags are capped (MAX_*), and an empty result is allowed. In that experiment a
-  provider tagged with 80 skills overlapped almost every gig, and wrong rare tags got
-  the biggest weights, so a short accurate list beats a long one and a wrong tag is
-  worse than none.
-- Composite tracks ("A / B / C", 28 of the 247) are left out: each is an aggregate
-  of tracks that are listed on their own, so picking one says nothing extra.
-- Track names such as "Operations" and "Management" repeat across sectors, so a track
-  is always handled as a (sector, track) pair, and a pair that isn't in the framework
-  is rejected.
+Design choices:
+- Skills come only from the chosen tracks' own lists (3 to 112 each), never
+  from all 2,088 skills.
+- Tags are capped (MAX_*) and an empty result is allowed, because a short
+  accurate list beats a long one and a wrong tag is worse than none.
+- Composite tracks ("A / B / C") are left out, since their parts are listed
+  on their own.
+- A track is always a (sector, track) pair, because names such as
+  "Operations" repeat across sectors. A pair not in the framework is
+  rejected.
 
-Bump TAXONOMY_VERSION when this logic or the framework files change what a tag means.
+Bump TAXONOMY_VERSION when a change alters what a tag means.
 """
 
 import csv

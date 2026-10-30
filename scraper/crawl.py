@@ -1,34 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Crawl the seed URLs listed in seeds.md using crawl4ai and save each page
-visited under data/pages/ as pruned, dense Markdown (not raw HTML) -- a
-PruningContentFilter strips nav/footer/cookie-banner/script boilerplate
-before the HTML-to-Markdown conversion, so a ~150-600KB raw page typically
-comes out as a few KB of on-topic text with links preserved. This keeps
-the pages token-cheap for classify.py and any other future agent reading these
-files, without losing the content that actually matters. No LLM extraction
-in the crawl loop -- that happens as a separate later step (classify.py)
-over the downloaded Markdown.
+Crawls the seed URLs listed in seeds.md with crawl4ai and saves each page
+under data/pages/unprocessed/ as pruned Markdown. A PruningContentFilter
+strips navigation, footers and cookie banners before the HTML-to-Markdown
+step, so pages are small enough for classify.py to read cheaply. There is
+no LLM call in the crawl.
 
-seeds.md includes both individual/team-oriented sites (candidate gig
-providers) and gig/case-study hubs (Consultport, Toptal, Catalant,
-Business Talent Group, MBO Partners, GLG, Upwork) whose listing pages can
-themselves represent a gig -- both kinds of pages are saved the same way.
+Per seed:
+- Best-first deep crawl on the seed's own domain, up to MAX_DEPTH and
+  MAX_PAGES_PER_DOMAIN. Links are scored by keyword (LINK_KEYWORDS) so the
+  crawler follows case-study, team and people pages first.
+- A filter chain skips login, privacy, sitemap, newsletter and binary files.
+- One attempt per URL with a timeout, wrapped so one failing site cannot
+  stop the run. Sites with bot protection (McKinsey, BCG, Bain, Big 4) are
+  expected to fail; failures go to the console and
+  data/manifests/crawl_report.md.
 
-Design notes / judgment calls:
-- Best-first deep crawl per seed (not plain BFS): links are scored by
-  keyword relevance (KeywordRelevanceScorer over LINK_KEYWORDS) so the
-  crawler prioritizes following links that look like case-study/team/
-  people/achievement pages instead of wandering into nav boilerplate.
-  max_depth=MAX_DEPTH, max_pages=MAX_PAGES_PER_DOMAIN per domain, same-domain only.
-- A FilterChain excludes obvious junk paths (login/signup, cookie/privacy/
-  terms, sitemap, newsletter/subscribe, and binary assets) so crawl budget
-  isn't wasted on them.
-- One attempt per URL, generous but bounded timeout, wrapped in
-  try/except so a single failing/blocking site does not kill the run.
-- Many big consulting sites (McKinsey, BCG, Bain, Big 4) run bot
-  protection / heavy JS / consent walls -- failures there are expected
-  and are logged to the console and to data/manifests/crawl_report.md.
+seeds.md mixes people and team sites (possible providers) with gig and
+case-study hubs (Toptal, Upwork, Catalant, ...). Both are saved the same
+way.
 """
 
 import argparse
@@ -53,17 +43,17 @@ from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # scraper/ sits one level below the project root
 WEBLINKS_PATH = SCRIPT_DIR / "seeds.md"  # scraper's own input config, not shared with other roles
-DATA_DIR = ROOT_DIR / "data"  # shared data lake -- every role reads/writes here, not its own folder
+DATA_DIR = ROOT_DIR / "data"  # shared data lake; every role reads/writes here, not its own folder
 PAGES_DIR = DATA_DIR / "pages"  # crawled pages, one folder per classify.py bucket
 MANIFESTS_DIR = DATA_DIR / "manifests"
-# Crawled-but-not-yet-classified pages land here -- classify.py drains this
+# Crawled-but-not-yet-classified pages land here; classify.py drains this
 # folder (moving each file into its bucket once classified), so it's obvious
 # at a glance what's still pending.
 UNPROCESSED_DIR = PAGES_DIR / "unprocessed"
 STATE_PATH = MANIFESTS_DIR / "crawl_state.json"
 # Written once at startup with this process's PID and deleted on exit, so
 # monitor/dashboard.py can tell "running" from "crashed/stopped" by checking
-# whether that PID is still alive -- the log alone can't (a seed can sit
+# whether that PID is still alive; the log alone can't (a seed can sit
 # silent for up to SEED_TIMEOUT_S, and a hard kill leaves no trace in it).
 PID_PATH = ROOT_DIR / "logs" / "crawl.pid"
 
@@ -81,11 +71,8 @@ LINK_KEYWORDS = [
     "our-team", "leadership", "team", "who-we-are", "meet-the-team",
     "meet-our", "people", "achievement", "award", "portfolio",
     "engagement", "project", "expert", "consultant", "profile",
-    # Industry/sector hub pages -- not people/case-study pages themselves,
-    # but at MAX_DEPTH=5 they're valuable waypoints (e.g. an industries
-    # landing page links out to per-industry pages, which in turn link to
-    # that industry's case studies and experts) and are relevant gig_listing
-    # / candidate_profile context in their own right.
+    # Industry/sector hub pages: not people or case-study pages themselves, but
+    # waypoints that link to them.
     "industries", "industry", "sector", "sectors", "capabilities",
     "insights", "solutions", "services",
 ]
@@ -106,11 +93,8 @@ BLOCK_SIGNALS = [
 ]
 MIN_TEXT_WORDS = 80  # below this word count, a page is almost certainly a shell/error page
 
-# Junk paths to exclude entirely so crawl budget isn't wasted on them. At
-# MAX_DEPTH=2 these barely mattered (the crawl never got deep enough to
-# reach them); at MAX_DEPTH=5 / MAX_PAGES_PER_DOMAIN=200 the crawler will
-# actually wander into pagination/tag/search/feed URLs, so it's worth
-# excluding them before they eat budget that could go to real content.
+# Junk paths to exclude so the crawl budget is not spent on login, pagination,
+# tag, search or feed URLs.
 EXCLUDE_PATTERNS = [
     "*/login*", "*/signin*", "*/sign-in*", "*/signup*", "*/sign-up*",
     "*/register*", "*cookie*", "*privacy*", "*terms-of*", "*sitemap*",
@@ -145,7 +129,7 @@ def read_seed_urls(path: Path):
             cap = cap_re.search(line)
             seeds.append((label, url, int(cap.group(1)) if cap else None))
             continue
-        # No http(s) URL found -- check for a "Label: bare-domain" line
+        # No http(s) URL found; check for a "Label: bare-domain" line
         # (missing scheme) before giving up on it.
         if ":" in line:
             label, rest = line.split(":", 1)
@@ -156,7 +140,7 @@ def read_seed_urls(path: Path):
                 seeds.append((label.strip(), url, None))
                 continue
         # Section headers and other non-seed lines are expected to have no
-        # URL at all -- only warn when the line looks like it was meant to
+        # URL at all; only warn when the line looks like it was meant to
         # be a seed (contains a colon, i.e. "Label: something").
         if ":" in line:
             skipped.append((lineno, line))
@@ -192,7 +176,7 @@ def safe_filename(domain: str, url: str) -> str:
 
 
 # A run of this many (or more) consecutive bare "[Text](url)" lines gets
-# dropped as a link farm (nav/footer/country-language-picker) -- see
+# dropped as a link farm (nav/footer/country-language-picker); see
 # strip_link_farms. A short list of a few featured links is legitimate
 # content and stays well under this.
 LINK_FARM_MIN_RUN = 10
@@ -296,12 +280,8 @@ async def crawl_seed(crawler: AsyncWebCrawler, label: str, seed_url: str, report
         except Exception:
             title = ""
 
-        # No LLM extraction here -- just the pruned Markdown conversion,
-        # already computed by crawl4ai per run_config.markdown_generator.
-        # Prefer the pruned fit_markdown; fall back to the unpruned
-        # raw_markdown if pruning stripped everything (e.g. a page that's
-        # almost entirely a single content block crawl4ai scored as
-        # boilerplate), and skip the page entirely if neither exists.
+        # Prefer the pruned fit_markdown. Fall back to raw_markdown if pruning stripped
+        # everything, and skip the page if neither exists.
         md_result = getattr(r, "markdown", None)
         fit_md = (getattr(md_result, "fit_markdown", None) or "").strip() if md_result else ""
         raw_md = (getattr(md_result, "raw_markdown", None) or "").strip() if md_result else ""
@@ -407,19 +387,11 @@ async def main():
 
     report = dedupe_report(load_state())  # cumulative across batches
 
-    # A domain can legitimately need more than one seed -- e.g. a firm's
-    # /industries hub and its /people hub are often disconnected content
-    # trees, so one seed alone misses the other. Dedup is therefore keyed
-    # on the exact (label, url) seed, not the domain: skip a seed only if
-    # this specific seed already ran successfully in a prior run, unless
-    # --force is passed. Two different seeds sharing a domain both run.
-    #
-    # A seed that "completed" with saved_count == 0 does NOT count as done,
-    # even though it's not an exception/timeout. crawl4ai's own memory
-    # dispatcher can throttle a seed down to zero real fetches under memory
-    # pressure without ever raising -- that's indistinguishable from a
-    # genuine 0-result seed except it produced nothing useful, so it's
-    # always worth retrying rather than being silently skipped forever.
+    # Dedup is keyed on the exact (label, url) seed, not the domain, because one site
+    # can need several seeds (e.g. separate /industries and /people hubs). A seed is
+    # skipped only if it already ran successfully, unless --force is passed. A seed
+    # that saved 0 pages does not count as done, since crawl4ai can throttle to zero
+    # fetches under memory pressure without raising an error.
     already_done = {(entry[0], entry[1]) for entry in report if entry[4] > 0}
 
     # Resolve skips up front (all synchronous, no concurrency concerns) so
@@ -457,10 +429,7 @@ async def main():
                 print(f"  [FAIL] unexpected error on {url}: {e}", flush=True)
                 traceback.print_exc()
                 report.append((label, url, "FAILED (exception)", str(e)[:200], 0))
-            # Both of these are synchronous (no awaits inside), so this is
-            # safe against other concurrent workers interleaving mid-update
-            # even without an explicit lock -- asyncio only switches tasks
-            # at an await point.
+            # No awaits below, so other workers cannot interleave mid-update.
             report[:] = dedupe_report(report)
             save_state(report)  # persist after every seed so progress survives
 

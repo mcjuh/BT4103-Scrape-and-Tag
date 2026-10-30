@@ -2,21 +2,21 @@
 """
 Scores the prompt experiment (run_grid.py output) against gold.json.
 
-    py -3 labeller/experiments/analyze.py
+    python labeller/experiments/analyze.py
 
-Writes results/report.md (the tables) and results/per_gig.csv (every
-ranker's per-gig metrics). Rankers:
-  single    one (condition, model) with one scoring method:
-              er  = expected relevance over the label probabilities (paper, label.py's score)
-              pr  = peak relevance, log-likelihood of the top label (paper's alternative)
-              gen = the label the model actually generated (the paper's argument against it: ties)
-  routed    label.py's production setup: each gig judged by its hashed model (model_for_gig), er
-  ens_*     one condition's er scores from every MODEL_POOL model combined per gig, by mean score,
-            mean rank, or mean per-model z-score
+Writes results/report.md (the tables) and results/per_gig.csv (per-gig
+metrics for every ranker). The rankers are:
+  single  one (condition, model) with one scoring method:
+            er   expected relevance over the label probabilities
+            pr   peak relevance, the log-likelihood of the top label
+            gen  the label the model generated (ties are common)
+  routed  label.py's production setup: each gig judged by its hashed model
+  ens_*   one condition's er scores from every pool model combined per gig,
+          by mean score, mean rank or mean z-score
 
-Primary metric is NDCG@10 with linear gains (the paper's metric, as in trec_eval), taken as the
-expectation over random tie-breaking so tied scores aren't rewarded by a lucky input order.
-Uncertainty: 95% bootstrap intervals over gigs; p-values are paired sign-flip permutation tests over gigs.
+The main metric is NDCG@10 with linear gains, averaged over random
+tie-breaking. Intervals are 95% bootstrap over gigs, and p-values are
+paired sign-flip permutation tests over gigs.
 """
 
 import csv
@@ -64,7 +64,7 @@ def single_scores(recs, cond, model, gig, scoring):
     for p in CANDS[gig]:
         r = recs.get((cond, model, gig, p))
         if r is None or r.get(field) is None:
-            return None  # incomplete -- this gig is dropped for this ranker
+            return None  # incomplete; this gig is dropped for this ranker
         out[p] = r[field]
     return out
 
@@ -117,7 +117,7 @@ def per_gig(rankers, key, metric="ndcg10") -> list:
 
 
 def model_avg(rankers, cond, scoring, metric="ndcg10") -> list:
-    """Per gig, the mean over the four single-model rankers -- 'how good is this prompt on a typical model'."""
+    """Per gig, the mean over the single-model rankers: 'how good is this prompt on a typical model'."""
     out = []
     for g in GIGS:
         vals = [rankers[("single", cond, m, scoring)].get(g, {}).get(metric, float("nan")) for m in MODELS]
@@ -145,7 +145,7 @@ def main():
     global GIGS
     recs = load_records()
     # Only gigs with every (condition, model, candidate) call present, so every ranker is compared
-    # on the same gigs -- lets the report run on a partial grid while run_grid.py is still going.
+    # on the same gigs; lets the report run on a partial grid while run_grid.py is still going.
     GIGS = [g for g in CANDS if all((c, m, g, p) in recs for c in CONDS for m in MODELS for p in CANDS[g])]
     if len(GIGS) < 2:
         sys.exit(f"Only {len(GIGS)} gig(s) fully scored so far -- need at least 2 for intervals.")

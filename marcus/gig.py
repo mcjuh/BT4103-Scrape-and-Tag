@@ -15,7 +15,7 @@ client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
     timeout=50,
-    max_retries=0,  # our own retry loop below handles this — see extract.py notes
+    max_retries=0,  # the retry loop below handles retries
 )
 MODEL = os.environ["SOCLAAS_MODEL"]
 
@@ -27,12 +27,9 @@ def debug_log(msg: str) -> None:
     print(f"[{elapsed:8.2f}s] {msg}", flush=True)
 
 
-# Different serving harnesses disable Qwen3-style "thinking" mode via different,
-# mutually incompatible parameter shapes, and some silently ignore params they don't
-# recognize rather than erroring — so we can't just guess one and trust it worked.
-# Tried in this order; the soft-switch text suffix is last since it's the one most
-# likely to be silently ignored by a non-Qwen3 template, but it's also the one that
-# can never cause an API-level rejection, so it's the safest final fallback.
+# Ways to switch off Qwen3-style "thinking", tried in order. Backends differ in which
+# parameter they accept and some ignore unknown ones, so each is checked with a probe.
+# The /no_think text suffix is last because it never causes an API error.
 THINKING_DISABLE_STRATEGIES = [
     {"name": "vLLM/SGLang chat_template_kwargs", "extra_body": {"chat_template_kwargs": {"enable_thinking": False}}, "suffix": ""},
     {"name": "DashScope top-level enable_thinking", "extra_body": {"enable_thinking": False}, "suffix": ""},
@@ -52,10 +49,8 @@ def _response_shows_reasoning(response) -> tuple:
 
 
 def detect_thinking_strategy() -> dict:
-    """Probe each known thinking-disable parameter shape once, with a trivial prompt
-    that would obviously show reasoning artifacts if thinking mode were still active.
-    Locks in and reuses whichever one actually works, so this only costs a handful of
-    small requests at startup, not one probe per file."""
+    """Try each thinking-disable shape once with a trivial prompt and keep the first
+    one that shows no reasoning. Runs once at startup."""
     global _active_strategy
     probe_prompt = "What is 12 times 7? Reply with only the number, nothing else."
 
@@ -89,11 +84,8 @@ def detect_thinking_strategy() -> dict:
     return _active_strategy
 
 
-# Real freelance gig posts skew short/medium far more often than "~200 words" (that
-# figure is SEO advice for a *good* post, not a typical one). Weighting reflects that,
-# and — same lesson as the imperfection dice roll — telling the model to "vary length
-# based on the source" in prose alone tends to still converge on a safe medium; rolling
-# the tier here forces the actual variety.
+# Real gig posts are mostly short or medium. The tier is rolled here because asking
+# the model to vary length on its own tends to settle on a medium post.
 DETAIL_TIERS = {
     "Minimal": "Usually 40-80 words. Use a short paragraph or 2-3 bullets.",
     "Standard": "Usually 80-150 words. Use a short opening and concise bullets when they improve scannability.",
@@ -175,19 +167,15 @@ def clean_html(html_content: str) -> str:
     for tag in soup(["script", "style", "nav", "footer", "header", "svg", "noscript", "iframe"]):
         tag.decompose()
 
-    # Case-study pages tend to carry much heavier chrome than a bio page — related-
-    # content carousels, testimonial sliders, newsletter blocks — none of which the
-    # tag-name strip above catches, since those are usually plain <div>s. If the page
-    # has a semantic <main> or <article>, prefer just that; otherwise fall back to the
-    # whole (already-stripped) body so we never silently lose content on pages that
-    # don't use these tags.
+    # Case-study pages carry carousels, sliders and newsletter blocks that the tag strip
+    # above misses (they are plain <div>s). Prefer <main> or <article> when present,
+    # otherwise keep the whole body.
     main_content = soup.find("main") or soup.find("article")
     if main_content is not None:
         debug_log(f"  clean_html: found <{main_content.name}>, using it instead of the full page")
         soup = main_content
 
-    # Strip all attributes too — class/style/id/data-* etc. are pure character bloat
-    # for a text-extraction task (see the showcase pipeline for the full reasoning).
+    # Strip attributes too (class, style, id, data-*); they only add noise to the text.
     for tag in soup.find_all(True):
         if tag.attrs:
             tag.attrs = {}
@@ -195,9 +183,7 @@ def clean_html(html_content: str) -> str:
 
 
 def load_source_text(path: Path) -> str:
-    """HTML gets the full BS4 clean. Markdown (from the updated crawler) is already
-    plain text — running it through an HTML parser would be pointless and could even
-    mangle legitimate markdown syntax (e.g. '<' in a code block)."""
+    """HTML gets the full BS4 clean. Markdown is already plain text, so it is read as is."""
     suffix = path.suffix.lower()
     raw = path.read_text(encoding="utf-8")
     if suffix in {".html", ".htm"}:
@@ -301,7 +287,7 @@ def parse_json_output(raw_output: str):
         if text.lower().startswith("json"):
             text = text[4:]
         text = text.strip()
-    return json.loads(text)  # let this raise — caller decides how to record the failure
+    return json.loads(text)  # raises on bad JSON; the caller records the failure
 
 
 def load_manifest(manifest_path: Path) -> dict:

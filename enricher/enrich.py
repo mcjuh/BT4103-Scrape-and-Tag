@@ -1,49 +1,43 @@
 # -*- coding: utf-8 -*-
 """
-Tops up extract.py's records with the structured fields the ranker's Stage-2
-features need (see docs/ranker_input_spec.md): budget, rate, seniority and
-availability, on both sides.
+Adds the structured fields the ranker needs (see docs/ranker_input_spec.md)
+to extract.py's records: budget, rate, seniority and availability, for both
+gigs and providers.
 
-    python run.py enrich                     # judge new/changed records, then rebuild the outputs
-    python run.py enrich --no-llm            # rebuild the outputs from saved judgements only
+    python run.py enrich            # judge new or changed records, rebuild outputs
+    python run.py enrich --no-llm   # rebuild outputs from saved judgements only
 
-Two steps, kept apart so the numbers can be regenerated for free:
+Two steps, kept apart so the numbers can be regenerated without the LLM:
 
 1. JUDGE (LLM, one call per record, resumable). A pool model reads the
-   record's text and picks categories on one shared rubric: seniority
-   (mid/senior/expert) and price tier (lean/standard/premium) for gigs and
-   providers alike, plus urgency and days per week for gigs. Stored in
-   data/manifests/enrich.jsonl, keyed by source_file and a hash of the text
-   it read, so a re-extracted record is judged again and nothing else is.
+   record and picks seniority (mid/senior/expert) and price tier
+   (lean/standard/premium), plus urgency and days per week for gigs. It
+   also picks the SkillsFuture sector and track of the work (gig) or
+   service (provider), which the code checks against the framework files.
+   Results go to data/manifests/enrich.jsonl, keyed by source_file and a
+   hash of the text, so only re-extracted records are judged again.
 
-2. GENERATE (code, no LLM). rate_card.json turns those categories into
-   numbers. A provider's rate_per_hour and a gig's budget band are drawn from
-   the SAME S$/hour band for the same (seniority, price tier), so budget_fit
-   compares like with like. Availability fields the text can't support
-   (provider start date and capacity) are drawn from rate_card.json's
-   distributions. Every draw is seeded by (file, seed), so reruns are stable
-   and bumping `seed` regenerates everything.
+2. GENERATE (code, no LLM). rate_card.json turns the categories into
+   numbers. A provider's hourly rate and a gig's budget band come from the
+   same S$/hour band for the same (seniority, price tier), so they compare
+   fairly. Start date and capacity are drawn from rate_card.json's
+   distributions. Draws are seeded by (file, seed), so reruns are stable.
 
-All of it is synthetic by design (the source pages are case studies and
-bios, which never state rates or availability). duration_weeks is the one
-field read from the text: the "Engagement duration:" line extract_hirer.md
-asks for, itself an LLM estimate.
+The numbers are synthetic by design, because the source pages never state
+rates or availability. duration_weeks is the one value read from the text.
 
-The judge also places each record in SkillsFuture's framework
-(data/reference/skillsfuture/: 39 sectors, 247 tracks): the sector and track
-of the WORK for a gig, of the SERVICE for a provider. Code checks the pair
-against the files.
-
-Outputs, rebuilt in full each run (original columns first, then the new ones):
-  data/output/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed, start_by,
-                                        commitment, duration_weeks, sector, track, used_in_ml
-  data/output/providers_enriched.csv  + rate_per_hour, available_from, capacity,
-                                        availability, sector, track, used_in_ml
-Provider seniority is judged and drives the rate bands, but is not written out: the
-ranker learns it from the text.
---tag v2 reads/writes the *_v2 files instead (see use_tag).
-Unknown values stay blank (null), never a filler: a record whose judgement
-failed gets blanks until the next run retries it.
+Outputs are written into extract.py's own files each run (new CSV columns after
+the original ones; in the JSON, the v2 schema fields of the same names):
+  data/output/hirers.csv + hirers.json        budget_lo, budget_hi, seniority_needed,
+                                              start_by, commitment, duration_weeks,
+                                              sector, track
+  data/output/providers.csv + providers.json  availability, rate, rate_per_hour,
+                                              available_from, capacity, sector, track
+Provider seniority and used_in_ml are judged but not written out: the ranker learns
+seniority from the text, and used_in_ml stays in the manifest. A re-extraction
+rebuilds these files without the fields, so run enrich after every extraction.
+--tag TAG reads and writes the *_TAG files instead (see use_tag). A value that
+could not be judged stays blank until the next run retries it.
 """
 
 import argparse
@@ -86,20 +80,21 @@ URGENCIES = ["asap", "soon", "flexible"]
 ENTITIES = {
     "HIRER": {
         "csv": OUTPUT_DIR / "hirers.csv",
-        "out": OUTPUT_DIR / "hirers_enriched.csv",
+        "json": OUTPUT_DIR / "hirers.json",
         "prompt": "judge_hirer.md",
         "text_fields": ["hire_title", "hire_description", "hire_description_additional_notes", "industry"],
+        # In ML_hirer_schema_v2.json's order.
         "new_fields": ["budget_lo", "budget_hi", "seniority_needed", "start_by", "commitment", "duration_weeks",
-                       "sector", "track", "used_in_ml"],
+                       "sector", "track"],
     },
     "PROVIDER": {
         "csv": OUTPUT_DIR / "providers.csv",
-        "out": OUTPUT_DIR / "providers_enriched.csv",
+        "json": OUTPUT_DIR / "providers.json",
         "prompt": "judge_provider.md",
         "text_fields": ["about_title", "about_description", "services_offered_title",
                         "services_offered_description", "relevant_experience", "industry"],
-        "new_fields": ["rate_per_hour", "available_from", "capacity", "availability",
-                       "sector", "track", "used_in_ml"],
+        "new_fields": ["availability", "rate", "rate_per_hour", "available_from", "capacity",
+                       "sector", "track"],
     },
 }
 
@@ -135,14 +130,14 @@ for _cfg in ENTITIES.values():
 
 def use_tag(tag: str) -> None:
     """Enrich a tagged extraction (extract.py --out-tag), e.g. "v2": read
-    data/output/hirers_v2.csv, write data/output/hirers_v2_enriched.csv, and keep
-    judgements in data/manifests/enrich_v2.jsonl, so they never leak into the untagged
-    outputs (build_outputs falls back to a judgement of older text)."""
+    and write into data/output/hirers_v2.csv / hirers_v2.json, and keep judgements in
+    data/manifests/enrich_v2.jsonl, so they never leak into the untagged outputs
+    (build_outputs falls back to a judgement of older text)."""
     global MANIFEST_PATH
     MANIFEST_PATH = DATA_DIR / "manifests" / f"enrich_{tag}.jsonl"
     for stem, cfg in (("hirers", ENTITIES["HIRER"]), ("providers", ENTITIES["PROVIDER"])):
         cfg["csv"] = OUTPUT_DIR / f"{stem}_{tag}.csv"
-        cfg["out"] = OUTPUT_DIR / f"{stem}_{tag}_enriched.csv"
+        cfg["json"] = OUTPUT_DIR / f"{stem}_{tag}.json"
 
 MAX_RETRIES = 4
 RETRY_BACKOFF_S = 2  # doubles each retry
@@ -225,13 +220,18 @@ def _pick_bool(data: dict, key: str) -> bool:
 
 def _pick_sector_track(data: dict) -> dict:
     """The model's sector and track, spelled as in the taxonomy. The track must
-    be listed under that sector; anything else raises, so it's retried."""
+    be listed under that sector, unless exactly one sector lists it (the model
+    often swaps e.g. Accountancy and Financial Services): then that sector is
+    used. Anything else raises, so it's retried."""
     sector = SECTOR_KEYS.get(_norm_name(data.get("sector")))
     if sector is None:
         raise ValueError(f"sector not in the taxonomy: {data.get('sector')!r}")
     track = next((t for t in TAXONOMY[sector] if _norm_name(t) == _norm_name(data.get("track"))), None)
     if track is None:
-        raise ValueError(f"track {data.get('track')!r} is not listed under sector {sector!r}")
+        owners = [(s, t) for s, ts in TAXONOMY.items() for t in ts if _norm_name(t) == _norm_name(data.get("track"))]
+        if len(owners) != 1:
+            raise ValueError(f"track {data.get('track')!r} is not listed under sector {sector!r}")
+        sector, track = owners[0]
     return {"sector": sector, "track": track}
 
 
@@ -452,10 +452,11 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
         available_from = _date_after(card, rng.randint(*card["available_later_days"]))
         when = f"from {dt.date.fromisoformat(available_from):%d %b %Y}"
     return {
+        "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
+        "rate": f"S${rate:,} per hour",
         "rate_per_hour": rate,
         "available_from": available_from,
         "capacity": capacity,
-        "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
         "sector": judgement.get("sector"),
         "track": judgement.get("track"),
         "used_in_ml": judgement.get("used_in_ml"),
@@ -477,7 +478,8 @@ def build_outputs() -> None:
                 {r["source_file"]: done[(entity_type, r["source_file"])]["judgement"]
                  for r in rows if (entity_type, r["source_file"]) in done}, card)
         judged = 0
-        tmp = cfg["out"].with_name(cfg["out"].name + ".tmp")
+        extras = {}
+        tmp = cfg["csv"].with_name(cfg["csv"].name + ".tmp")
         with tmp.open("w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
             writer.writeheader()
@@ -489,16 +491,39 @@ def build_outputs() -> None:
                 judged += judgement is not None
                 extra = generate(entity_type, row["source_file"], row, judgement, card,
                                  tiers.get(row["source_file"]))
+                # Every new field, so a value from an earlier run never outlives its judgement.
+                extra = {k: extra.get(k) for k in cfg["new_fields"]}
+                extras[row["source_file"]] = extra
                 writer.writerow({**row, **{k: ("" if v is None else v) for k, v in extra.items()}})
-        tmp.replace(cfg["out"])
-        print(f"{cfg['out'].name}: {len(rows)} rows, {judged} with a judgement "
+        tmp.replace(cfg["csv"])
+        print(f"{cfg['csv'].name}: {len(rows)} rows, {judged} with a judgement "
               f"({len(rows) - judged} left blank)", flush=True)
+        write_json(cfg, extras)
+
+
+def write_json(cfg: dict, extras: dict) -> None:
+    """Set the new fields on each record of extract.py's .json, just before tags as
+    in the v2 schemas. A record with no CSV row gets them as null."""
+    path = cfg["json"]
+    if not path.exists():
+        print(f"{path.name}: not found, skipped", flush=True)
+        return
+    blank = dict.fromkeys(cfg["new_fields"])
+    out = []
+    for rec in json.loads(path.read_text(encoding="utf-8")):
+        base = {k: v for k, v in rec.items() if k != "tags" and k not in blank}
+        out.append({**base, **extras.get(rec["source_file"], blank),
+                    **({"tags": rec["tags"]} if "tags" in rec else {})})
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(path)
+    print(f"{path.name}: {len(out)} records", flush=True)
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-llm", action="store_true",
-                        help="skip judging; rebuild the enriched CSVs from saved judgements and rate_card.json")
+                        help="skip judging; rewrite the enriched fields from saved judgements and rate_card.json")
     parser.add_argument("--entity", choices=["hirer", "provider"], default=None, help="judge only one type")
     parser.add_argument("--limit", type=int, default=None, help="judge at most this many records")
     parser.add_argument("--workers", type=int, default=4, help="records to judge at once (default: 4)")
@@ -506,7 +531,7 @@ def main():
                         help="cap on requests/second across workers (SOCLAAS sustains ~1/s; default 1, 0 = no cap)")
     parser.add_argument("--tag", default=None,
                         help="enrich a tagged extraction (extract.py --out-tag): read data/output/hirers_TAG.csv and "
-                             "providers_TAG.csv, write *_TAG_enriched.csv, judgements in data/manifests/enrich_TAG.jsonl")
+                             "providers_TAG.csv, write into them and *_TAG.json, judgements in data/manifests/enrich_TAG.jsonl")
     args = parser.parse_args()
     global _PACER
     _PACER = Pacer(args.rps) if args.rps else None

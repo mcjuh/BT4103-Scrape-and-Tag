@@ -1,19 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Fetches an explicit list of URLs (no link-following) into data/pages/unprocessed/,
-with the same Markdown pruning, link-farm stripping, block detection and file
-naming as crawl.py.
+Fetches an explicit list of URLs (no link-following) into
+data/pages/unprocessed/, saving them the same way crawl.py does.
 
     python run.py fetch scraper/url_lists/topup_urls_20260929.tsv
 
-Input: one URL per line, optionally "label<TAB>url". Pages already saved in
-any data/pages/ bucket are skipped.
+Input: one URL per line, optionally "label<TAB>url". URLs already saved in
+any data/pages/ folder are skipped.
 
-Why this exists: crawl.py's best-first deep crawl can hang on some sites (it
-saved a handful of pages and then went silent until the 30-minute seed
-timeout on HKA, Secretariat, Brookes Bell, Diales, Chartis and Huron). Their
-sitemaps list every bio page directly, so fetching that list is both faster
-and bounded: exactly the pages chosen, no more.
+Used when the deep crawl hangs on a site (it did on HKA, Secretariat and
+Brookes Bell). Their sitemaps list every bio page, so fetching that list
+is faster and covers exactly the pages chosen.
 """
 
 import asyncio
