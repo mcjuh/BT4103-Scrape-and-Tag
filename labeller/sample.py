@@ -1,29 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Pick a fixed, good-quality sample of gigs and provider profiles for a full
+Picks a fixed, good-quality sample of gigs and provider profiles for a full
 cross-product labelling run (every sampled gig x every sampled provider).
 
     python labeller/sample.py [--n 100] [--seed 4103]
-    python run.py label --hirers data/output/sample/hirers_sample.csv \
-        --providers data/output/sample/providers_sample.csv --max-pairs 10000
+    python run.py label --hirers data/output/sample/hirers_sample.csv --providers data/output/sample/providers_sample.csv --max-pairs 10000
 
-"Good" means:
-  gigs       the first-pass grounding review kept it (no repair needed), it is in
-             the current prompt's format (has a Deliverable: line), it has a
-             real industry tag (not OTHER), no additional notes, a unique title,
-             and a description of 300-1200 chars once the engagement line is gone.
-  providers  classify.py called it PROVIDER (not UNCERTAIN), all five profile
-             fields are filled, no leftover pronouns after anonymisation, a real
-             industry tag, and an About section of at least 200 chars.
+A gig qualifies if the grounding review kept it without repair, it has a
+"Deliverable:" line, a real industry tag, no additional notes, a unique
+title and a description of 300-1200 characters. A provider qualifies if
+classify.py called it PROVIDER, all five profile fields are filled, no
+gendered pronouns remain, it has a real industry tag and its About section
+is at least 200 characters.
 
-The sample is spread evenly: round-robin over industries, and within an
-industry round-robin over source firms, so one firm (bcg.com, kroll.com) or one
-industry (Financial Services) can't fill it. Gigs and providers are drawn over
-the same industries so every gig has in-industry providers to rank.
-
-The "Engagement duration: ..." sentence extract_hirer.md appends to every gig
-description is stripped: it says how long the work runs, not what it needs,
-and every gig has one, so it only adds noise to a relevance judgement.
+The sample is spread evenly by round-robin over industries and, within an
+industry, over source firms, so no firm or industry fills it. Gigs and
+providers are drawn from the same industries, so each gig has providers in
+its own industry to rank. The "Engagement duration" sentence is stripped
+from gig descriptions, since every gig has one and it says nothing about
+fit.
 """
 
 import argparse

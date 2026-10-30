@@ -6,7 +6,6 @@ import re
 import time
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -17,7 +16,7 @@ client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
     timeout=50,
-    max_retries=0,  # our own retry loop below handles this — see extract.py notes
+    max_retries=0,  # the retry loop below handles retries
 )
 MODEL = os.environ["SOCLAAS_MODEL"]
 
@@ -31,12 +30,9 @@ def debug_log(msg: str) -> None:
     print(f"[{elapsed:8.2f}s] {msg}", flush=True)
 
 
-# Different serving harnesses disable Qwen3-style "thinking" mode via different,
-# mutually incompatible parameter shapes, and some silently ignore params they don't
-# recognize rather than erroring — so we can't just guess one and trust it worked.
-# Tried in this order; the soft-switch text suffix is last since it's the one most
-# likely to be silently ignored by a non-Qwen3 template, but it's also the one that
-# can never cause an API-level rejection, so it's the safest final fallback.
+# Ways to switch off Qwen3-style "thinking", tried in order. Backends differ in which
+# parameter they accept and some ignore unknown ones, so each is checked with a probe.
+# The /no_think text suffix is last because it never causes an API error.
 THINKING_DISABLE_STRATEGIES = [
     {"name": "vLLM/SGLang chat_template_kwargs", "extra_body": {"chat_template_kwargs": {"enable_thinking": False}}, "suffix": ""},
     {"name": "DashScope top-level enable_thinking", "extra_body": {"enable_thinking": False}, "suffix": ""},
@@ -56,10 +52,8 @@ def _response_shows_reasoning(response) -> tuple:
 
 
 def detect_thinking_strategy() -> dict:
-    """Probe each known thinking-disable parameter shape once, with a trivial prompt
-    that would obviously show reasoning artifacts if thinking mode were still active.
-    Locks in and reuses whichever one actually works, so this only costs a handful of
-    small requests at startup, not one probe per file."""
+    """Try each thinking-disable shape once with a trivial prompt and keep the first
+    one that shows no reasoning. Runs once at startup."""
     global _active_strategy
     probe_prompt = "What is 12 times 7? Reply with only the number, nothing else."
 
@@ -586,11 +580,8 @@ def ping_model() -> None:
 
 
 def _call_llm(messages, attempt_label: str, max_retries: int = 3):
-    """
-    Generic LLM call used by both passes. Uses the module-level
-    _active_strategy to disable thinking mode; detects one lazily if needed.
-    The strategy's text suffix is appended to the LAST user message's content.
-    """
+    """LLM call used by both passes. Thinking is disabled with _active_strategy (detected
+    on first use); its text suffix is appended to the last user message."""
 
     global _active_strategy
     if _active_strategy is None:
@@ -598,8 +589,8 @@ def _call_llm(messages, attempt_label: str, max_retries: int = 3):
 
     strategy = _active_strategy
 
-    # Append the soft-switch suffix (if any) to the final user message.
-    # Deep-copy the messages list so we don't mutate the caller's object across retries.
+    # Append the soft-switch suffix (if any) to the final user message. The messages are
+    # copied first so the caller's list is not changed across retries.
     suffixed_messages = [dict(m) for m in messages]
     if strategy["suffix"] and suffixed_messages:
         for m in reversed(suffixed_messages):
@@ -699,15 +690,7 @@ def query_soc_llm(
     prompt: str,
     max_retries: int = 3
 ):
-    """
-    Two-pass pipeline:
-
-    Pass 1:
-        cleaned source material -> compact factual JSON
-
-    Pass 2:
-        compact factual JSON -> final styled JSON
-    """
+    """Two passes: cleaned source -> compact factual JSON, then facts -> styled JSON."""
 
     t0 = time.perf_counter()
 

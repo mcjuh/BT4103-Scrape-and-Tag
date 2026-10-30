@@ -1,48 +1,33 @@
 # -*- coding: utf-8 -*-
 """
-Build the labeller's gold set from the client's test workbook.
+Builds the labeller's gold set from the client's test workbook.
 
-    py -3 labeller/experiments/build_gold.py
+    python labeller/experiments/build_gold.py
 
-Reads data/reference/client_documents/*Test_Dataset*.xlsx and writes, next to this script:
-    gold.json                    graded labels in evaluate.py's format
-    client_testset/gigs.csv      the 30 gigs, in hirers.csv's column names
-    client_testset/showcases.csv the 30 showcases, in providers.csv's column names
+Reads data/reference/client_documents/*Test_Dataset*.xlsx and writes, next
+to this script:
+    gold.json                     graded labels in evaluate.py's format
+    client_testset/gigs.csv       the 30 gigs, in hirers.csv's column names
+    client_testset/showcases.csv  the 30 showcases, in providers.csv's columns
 
-WHY A CONVERTER AND NOT THE WORKBOOK ITSELF
-The workbook was written by the client with an LLM; the client is not
-technical. Its `expected_score_range` (0-100) and `match_rationale` are one
-model's opinion, not measured ground truth. Scoring our LLM's relevance
-labels directly against another LLM's numbers would be circular, and is the
-self-preference bias llm_pool.py exists to avoid.
+The client wrote the workbook with an LLM, so its 0-100 scores are one
+model's opinion. Scoring our LLM against those numbers would be circular.
+Only the client's four-band judgement is kept, mapped to the 0-3 rubric:
 
-So the numbers are NOT carried across. What is carried across is the part
-that survives that objection: the client's *ordinal intent* -- their
-four-band judgement of how well each pair fits -- mapped onto the 0-3 rubric
-the labeller's evaluator already uses. An ordinal band ("this is a better
-fit than that one") is a much weaker claim than a score of 87, and it is the
-claim the workbook actually supports.
+    OBVIOUS   (80-100) -> 3
+    SUBTLE    (55-79)  -> 2
+    PARTIAL   (30-54)  -> 1
+    NEAR-MISS (0-29)   -> 0
 
-    OBVIOUS   (they say 80-100) -> 3  shortlist
-    SUBTLE    (they say 55-79)  -> 2  relevant
-    PARTIAL   (they say 30-54)  -> 1  marginal
-    NEAR-MISS (they say 0-29)   -> 0  not relevant
+Rerunning regenerates gold.json from the workbook.
 
-Rerunning this regenerates gold.json from the workbook, so a new version of
-the workbook is a rerun, not a hand-edit.
-
-KNOWN LIMITS, in the file itself so nobody forgets them:
-- The workbook pairs 1:1 -- gig n with provider n only. Every other provider
-  is unlabelled, and evaluate.py treats unlabelled as grade 0. That is an
-  assumption the client never made: they never claimed provider 7 is
-  irrelevant to gig 3, only that provider 3 is the intended match.
-- The 4 NEAR-MISS gigs end up with no provider graded >= 1, so NDCG is
-  undefined for them and evaluate.py reports nan. That is not a bug, but it
-  does mean the NEAR-MISS cases -- the workbook's most interesting content --
-  are invisible to a ranking metric. They need a separate check: does the
-  engine score them LOW in absolute terms? See report_near_miss() below.
-- These are silver labels derived from synthetic data. They are a
-  development target, not a measurement of real-world matching quality.
+Limits:
+- Gig n is paired only with provider n. Every other provider is unlabelled,
+  and evaluate.py counts it as grade 0, which the client never said.
+- The 4 NEAR-MISS gigs have no provider graded 1 or higher, so NDCG is nan
+  for them. They need a separate check that the engine scores them low.
+- The labels are silver labels from synthetic data. They are a development
+  target, not a measure of real matching quality.
 """
 
 import csv
@@ -108,11 +93,9 @@ def build():
 
     TESTSET_DIR.mkdir(parents=True, exist_ok=True)
 
-    # The gigs and showcases go in labeller/experiments/, NOT data/ -- they are
-    # the client's synthetic examples and must never be mixed into the real
-    # extracted dataset. Column names match hirers.csv / providers.csv so
-    # label.py can read them unchanged; fields the workbook has no column for
-    # (about_title, about_description) are left empty rather than invented.
+    # These go here, not in data/, so the client's synthetic examples are never mixed
+    # into the real dataset. Columns match hirers.csv and providers.csv so label.py
+    # reads them unchanged; fields the workbook lacks are left empty.
     with (TESTSET_DIR / "gigs.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["source_file", "hire_title", "hire_description",
                                           "hire_description_additional_notes", "industry",
@@ -173,8 +156,8 @@ def build():
             "1:1 pairing only -- the workbook never claims anything about the other 29 "
             "providers per gig, but evaluate.py scores unlabelled providers as grade 0.",
             "The 4 NEAR-MISS gigs have no provider graded >=1, so NDCG is undefined for them "
-            "(evaluate.py reports nan). Check those with report_near_miss() instead: they are "
-            "passed by scoring LOW, which a ranking metric cannot see.",
+            "(evaluate.py reports nan). They are passed by scoring LOW, which a ranking "
+            "metric cannot see, so check that separately.",
             "The gigs and showcases are synthetic Singapore-SME scenarios; the extracted "
             "corpus is global big-4 consulting. Good scores here do not transfer automatically.",
         ],

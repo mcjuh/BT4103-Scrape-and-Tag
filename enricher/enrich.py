@@ -1,49 +1,40 @@
 # -*- coding: utf-8 -*-
 """
-Tops up extract.py's records with the structured fields the ranker's Stage-2
-features need (see docs/ranker_input_spec.md): budget, rate, seniority and
-availability, on both sides.
+Adds the structured fields the ranker needs (see docs/ranker_input_spec.md)
+to extract.py's records: budget, rate, seniority and availability, for both
+gigs and providers.
 
-    python run.py enrich                     # judge new/changed records, then rebuild the outputs
-    python run.py enrich --no-llm            # rebuild the outputs from saved judgements only
+    python run.py enrich            # judge new or changed records, rebuild outputs
+    python run.py enrich --no-llm   # rebuild outputs from saved judgements only
 
-Two steps, kept apart so the numbers can be regenerated for free:
+Two steps, kept apart so the numbers can be regenerated without the LLM:
 
 1. JUDGE (LLM, one call per record, resumable). A pool model reads the
-   record's text and picks categories on one shared rubric: seniority
-   (mid/senior/expert) and price tier (lean/standard/premium) for gigs and
-   providers alike, plus urgency and days per week for gigs. Stored in
-   data/manifests/enrich.jsonl, keyed by source_file and a hash of the text
-   it read, so a re-extracted record is judged again and nothing else is.
+   record and picks seniority (mid/senior/expert) and price tier
+   (lean/standard/premium), plus urgency and days per week for gigs. It
+   also picks the SkillsFuture sector and track of the work (gig) or
+   service (provider), which the code checks against the framework files.
+   Results go to data/manifests/enrich.jsonl, keyed by source_file and a
+   hash of the text, so only re-extracted records are judged again.
 
-2. GENERATE (code, no LLM). rate_card.json turns those categories into
-   numbers. A provider's rate_per_hour and a gig's budget band are drawn from
-   the SAME S$/hour band for the same (seniority, price tier), so budget_fit
-   compares like with like. Availability fields the text can't support
-   (provider start date and capacity) are drawn from rate_card.json's
-   distributions. Every draw is seeded by (file, seed), so reruns are stable
-   and bumping `seed` regenerates everything.
+2. GENERATE (code, no LLM). rate_card.json turns the categories into
+   numbers. A provider's hourly rate and a gig's budget band come from the
+   same S$/hour band for the same (seniority, price tier), so they compare
+   fairly. Start date and capacity are drawn from rate_card.json's
+   distributions. Draws are seeded by (file, seed), so reruns are stable.
 
-All of it is synthetic by design (the source pages are case studies and
-bios, which never state rates or availability). duration_weeks is the one
-field read from the text: the "Engagement duration:" line extract_hirer.md
-asks for, itself an LLM estimate.
+The numbers are synthetic by design, because the source pages never state
+rates or availability. duration_weeks is the one value read from the text.
 
-The judge also places each record in SkillsFuture's framework
-(data/reference/skillsfuture/: 39 sectors, 247 tracks): the sector and track
-of the WORK for a gig, of the SERVICE for a provider. Code checks the pair
-against the files.
-
-Outputs, rebuilt in full each run (original columns first, then the new ones):
-  data/output/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed, start_by,
-                                        commitment, duration_weeks, sector, track, used_in_ml
+Outputs are rebuilt in full each run, with the original columns first:
+  data/output/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed,
+                                        start_by, commitment, duration_weeks,
+                                        sector, track, used_in_ml
   data/output/providers_enriched.csv  + rate_per_hour, available_from, capacity,
                                         availability, sector, track, used_in_ml
-Provider seniority is judged and drives the rate bands, but is not written out: the
-ranker learns it from the text.
---tag v2 reads/writes the *_v2 files instead (see use_tag).
-Unknown values stay blank (null), never a filler: a record whose judgement
-failed gets blanks until the next run retries it.
+Provider seniority is judged and sets the rate band but is not written out.
+--tag TAG reads and writes the *_TAG files instead (see use_tag). A value that
+could not be judged stays blank until the next run retries it.
 """
 
 import argparse

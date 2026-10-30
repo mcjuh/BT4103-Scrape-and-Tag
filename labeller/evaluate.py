@@ -1,30 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Score relevance predictions against the graded gold labels
-(experiments/gold.json: the client's 30 gigs, one intended showcase each, graded 0-3
-from the client's four bands; every other showcase counts as grade 0).
+Scores relevance predictions against the graded gold labels in
+experiments/gold.json (the client's 30 gigs, one intended showcase each,
+graded 0-3; every other showcase counts as grade 0).
 
-    py -3 labeller/evaluate.py data/output/relevance_scores.csv rg_3l
-    py -3 labeller/evaluate.py predictions.csv rg_2l rg_3l rg_3l_multi --per-gig per_gig.csv
+    python labeller/evaluate.py data/output/relevance_scores.csv rg_3l
+    python labeller/evaluate.py predictions.csv rg_2l rg_3l --per-gig per_gig.csv
 
-predictions.csv has one row per (gig, provider) pair:
-  gig column       hirer_file | gig | hirer      (the source_file in hirers.csv)
-  provider column  provider_file | provider      (the source_file in providers.csv)
-and each labelling method's score (higher = more relevant) in either layout:
-  wide   a column named after the method -- label.py's data/output/relevance_scores.csv
-         (rg_2l, rg_3l, rg_4l, rg_s04, rg_3l_multi) is already in this shape
-  long   a method | approach | cond column naming the method, plus a score column
-Blank scores are skipped (e.g. rg_3l_multi for a pair where a model call failed).
+predictions.csv has one row per (gig, provider) pair, with a gig column
+(hirer_file, gig or hirer), a provider column (provider_file or provider)
+and one score per method (higher = more relevant), either:
+  wide  a column named after the method (label.py's relevance_scores.csv)
+  long  a method / approach / cond column plus a score column
+Blank scores are skipped.
 
 Only gigs in the gold file count. Each is scored over the providers the
-predictions scored for it (the re-ranking setting), with gold providers the
-predictions didn't score ignored and scored providers missing from gold
-counted as grade 0. "relevant scored" reports how many of a gig's gold
-grade>=2 providers the predictions scored at all: NDCG over a candidate set
-that left the right providers out can still look high.
-
-With several methods, p is a paired permutation test against the first one
-over the gigs both scored.
+predictions scored for it. "relevant scored" shows how many of a gig's
+grade 2+ providers were scored at all, because NDCG over a candidate set
+that left them out can still look high. With several methods, p is a paired
+permutation test against the first one.
 """
 
 import argparse

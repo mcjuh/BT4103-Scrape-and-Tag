@@ -1,41 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Classify the pruned Markdown pages saved in data/pages/ (by crawl.py) using the
-SOC LLM. Each page is labeled by one model from llm_pool.MODEL_POOL (see
-llm_pool.py for which and why) -- model_for_file() decides which, deterministically,
-per file.
+Classifies the pages crawl.py saved in data/pages/unprocessed/ with an LLM.
+Each page is labelled by one model from llm_pool.MODEL_POOL.
 
-Based on marcus' triage.py (marcus' files/triage.py) -- same 4-way taxonomy
-and prompt, including its KEY RULE that a page about a deal/case study/team
-achievement is IGNORE even if it names or quotes an individual, unless that
-person's own career is the actual subject of the page. Kept from this
-script's own earlier version: retry-with-backoff on transient failures, a
-circuit breaker that aborts after too many errors in a row instead of
-grinding through a systemic outage, and a MAX_CHARS cap on what's sent to
-the LLM.
+Labels:
+- PROVIDER: the page is about one named person's own career or expertise
+  (a bio, profile or portfolio).
+- HIRER: a request for work with a scope, deliverable, budget or deadline.
+- IGNORE: company or team pages, marketing, case studies, boilerplate.
+  A page about a deal or case study is IGNORE even if it names someone,
+  unless that person's career is the subject.
+- UNCERTAIN: a provider page that also carries hirer signals, or a reply
+  that did not parse cleanly.
 
-- PROVIDER: the page's primary subject is one named person's own
-  career/background/expertise -- a bio, profile, or portfolio. Named to
-  match providers.sql / the ProviderDocument ML schema, since that's
-  exactly what this label feeds.
-- HIRER: a request for work with a defined scope/deliverable/budget/deadline.
-  Named to match hirers.sql / the HireDocument ML schema.
-- IGNORE: company/team pages, marketing, case studies, deal summaries,
-  boilerplate -- anything that isn't one person's own bio or a concrete
-  work request.
-- UNCERTAIN: a genuine PROVIDER that also carries explicit HIRER signals,
-  or the model's response didn't parse cleanly. Not a dumping ground for
-  merely low-value pages -- those are IGNORE.
-
-crawl.py saves new pages into data/pages/unprocessed/ -- this script drains
-that folder, moving (not copying) each file into data/pages/provider/,
-hirer/, ignore/, or uncertain/ once classified, so unprocessed/ is
-always exactly "crawled, not yet classified" and nothing sits duplicated
-in two places. A file only leaves unprocessed/ after its bucket copy
-succeeds -- if that fails, it stays put and is retried next time rather
-than being lost. Progress is tracked in data/manifests/classify.jsonl; reruns skip
-files already successfully classified but retry ones that previously
-hard-errored.
+Each classified file is moved (not copied) into data/pages/provider/,
+hirer/, ignore/ or uncertain/. A file only leaves unprocessed/ after the
+move succeeds, so nothing is lost or duplicated. Progress is in
+data/manifests/classify.jsonl: reruns skip classified files and retry
+the ones that errored. Failed calls are retried with backoff, and the run
+stops after too many errors in a row.
 """
 
 import argparse
@@ -53,7 +36,7 @@ from llm_pool import model_for_file
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent  # classifier_extractor/ sits one level below the project root
-DATA_DIR = ROOT_DIR / "data"  # shared data lake -- every role reads/writes here, not its own folder
+DATA_DIR = ROOT_DIR / "data"  # shared data lake; every role reads/writes here, not its own folder
 PAGES_DIR = DATA_DIR / "pages"
 UNPROCESSED_DIR = PAGES_DIR / "unprocessed"
 LOGS_DIR = ROOT_DIR / "logs"
@@ -75,7 +58,7 @@ MAX_CHARS = 24000  # cap page text sent to the LLM; crawl.py's strip_link_farms
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s, 8s
 # If this many classifications in a row hard-error, stop the run instead of
-# grinding through the rest of the files -- a systemic problem (bad API
+# grinding through the rest of the files; a systemic problem (bad API
 # key, endpoint down, quota exhausted) would otherwise burn through the
 # whole batch one failure at a time before anyone notices.
 MAX_CONSECUTIVE_ERRORS = 5
@@ -87,11 +70,11 @@ client = OpenAI(
     api_key=os.environ["SOCLAAS_API_KEY"],
     timeout=180,  # thinking is left on, which slows some pool models down
 )
-# No single MODEL constant -- which model classifies a given page comes from
+# No single MODEL constant; which model classifies a given page comes from
 # llm_pool.model_for_file(), one of MODEL_POOL. SOCLAAS_MODEL in
 # .env is no longer read here (kept in .env for other tooling/reference).
 
-# Prompt text lives in prompts/classify_triage.md, not inline here -- editing the taxonomy
+# Prompt text lives in prompts/classify_triage.md, not inline here; editing the taxonomy
 # or trying a reworded prompt is then a plain-text diff/swap, not a Python code change, and
 # the prompt's own history is a normal file history instead of being buried inside this
 # script's.

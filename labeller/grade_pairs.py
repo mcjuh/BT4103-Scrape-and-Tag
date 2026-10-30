@@ -2,57 +2,37 @@
 """
 Grades gig/provider pairs for content fit, on the platform sample format
 (data/output/platform_sample/hirers_sample.csv and providers_sample.csv).
+Self-contained: it does not import label.py or judge_pools.py.
 
-This is the grader for the new standard format. It is self-contained: it does
-not import label.py or judge_pools.py, which grade the older hirers.csv /
-providers.csv format and are left as they are.
+The prompt is prompts/rubric_01_v5.md. The model sees the gig's title,
+description, notes and duration estimate, and the provider's title,
+experience, headline, bio, services, achievements, skills, credentials,
+working style, availability and rate. It never sees names, links or source
+fields. The data has no structured budget, seniority or mode of work, so
+the prompt has the model infer them from the text. The SkillsFuture tags
+are left out so the grade rests on the text; --with-tags adds them.
 
-What the model sees (prompts/rubric_01_v5.md)
-  gig       gig_title, short_gig_description, the hirer's additional_notes when there are any,
-            and the extractor's "Engagement duration" estimate (shown on its own line)
-  provider  title, years_experience when the record has it, about_headline, about_bio,
-            services_i_offer, relevant_achievements, technical_proficiency, credentials,
-            how_i_work, then availability and rate
-  Never shown: name, links, localisation_changes, source_*, review_flag. The data has no
-  structured budget, seniority or mode of work, so the prompt has the model work those out from
-  the text (the way enricher/ does with an LLM judge). v5 treats seniority as the main term,
-  grades whether the work is execution or advisory on both sides, and lets budget lower a score
-  only slightly. category / specialisation are the SkillsFuture tags, entered by the user on
-  the platform and taken as they are; they are left out by default so the grade rests on the
-  text alone. --with-tags adds them for an ablation and records the run under a different
-  prompt_version.
+How a pair is scored: the model answers "<grade> <score>", for example
+"2 0.62", a band (0-3) and a score inside that band. The probabilities at
+the answer position give the chance of each band.
+  grade  the most probable band (a tie goes to the lower grade)
+  score  the expectation over bands, clipped into the grade's range, so
+         round(score * 3) == grade always holds
+Ranges: 0 = 0.00-0.16, 1 = 0.17-0.49, 2 = 0.50-0.83, 3 = 0.84-0.99.
+The band is the reliable part; treat the second decimal of the score as noise.
 
-Input files: the platform sample CSVs by default; --gigs-csv / --providers-csv also take a
-schema v2 hirers.json / providers.json (their source_file becomes the id).
+One model grades each run (--model, default qwen3.8:27b). Calls are logged
+per model and prompt version, and this script does not combine runs.
 
-How a pair is scored
-  The model answers "<grade> <score>", e.g. "2 0.62": a band (0-3) and a score inside
-  that band. The answer position's logprobs give the probability of each band, so:
-    grade  = the most probable band. A tie goes to the lower grade.
-    score  = the expectation over bands, where the band the model chose contributes the
-             score it wrote and every other band contributes its midpoint, then clipped
-             into the grade's range. So the score ranks pairs finely, the grade is never
-             a rounded average that falls between bands, and the two always agree:
-             round(score * 3) == grade for every score this script can emit, which is
-             the rule judge_pools.py's export and the ranker's grade_from_score() apply.
-  Ranges: 0 = 0.00-0.16, 1 = 0.17-0.49, 2 = 0.50-0.83, 3 = 0.84-0.99.
-  Treat the score's second decimal as noise; the band is the trustworthy part.
+    python run.py grade --dry-run                  # show a prompt
+    python run.py grade --max-pairs 20             # smoke test
+    python run.py grade --gigs 1-10                # chosen gigs
+    python run.py grade --pairs <pairs.json>       # {"G001": ["P004"], ...}
+    python run.py grade                            # every pair
+    python run.py grade --export                   # log -> CSV
 
-One model grades each run (--model, default qwen3.8:27b: the grader of the ranker's labels,
-see ranker/pipeline/label.md). Calls are logged per model and prompt version, so runs on
-other models can sit in the same log; this script does not combine them.
-
-    python run.py grade --dry-run                                # show a prompt
-    python run.py grade --max-pairs 20                           # smoke test
-    python run.py grade --gigs 1-10                              # chosen gigs
-    python run.py grade --pairs data/output/platform_sample/pilot_pairs.json   # the pilot
-    python run.py grade                                          # every pair
-    python run.py grade --export                                 # log -> CSV
-
-Pairs default to every gig x every provider. --pairs takes a JSON file
-{"G001": ["P004", "P007"], ...} to grade a chosen set (e.g. a judging pool).
-Reruns skip pairs already graded by that model and prompt, so a stopped run resumes.
-Needs SOCLAAS_BASE_URL and SOCLAAS_API_KEY (in .env at the repo root).
+By default every gig is paired with every provider. Reruns skip pairs
+already graded. Needs SOCLAAS_BASE_URL and SOCLAAS_API_KEY in .env.
 """
 
 import argparse

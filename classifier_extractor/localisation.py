@@ -50,11 +50,10 @@ _PATTERNS = [
 ]
 _COMPILED = [(label, re.compile(p)) for label, p in _PATTERNS]
 
-# Personal credentials and memberships are facts about the person, never localised, so they
-# are cut out before the patterns run: "an MBA from the University of Chicago Booth School
-# of Business", "American Society of Appraisers", "CPA Australia", "New York-qualified",
-# "CPA-registered in New York and Texas". In a sample of the v2 providers these were a large
-# share of the hits, and each one cost a pointless repair call and cluttered the log.
+# Personal credentials and memberships are facts about the person and are never
+# localised, so they are cut out before the patterns run (e.g. "an MBA from the
+# University of Chicago Booth School of Business", "CPA Australia", "New York-qualified").
+# Left in, they caused many needless repair calls.
 _ORG_NOUN = (r"(?:University|College|School|Institute|Institution|Society|Societies|Association|"
              r"Academy|Council|Federation|Foundation|Chamber|Board|Bar)")
 _CREDENTIAL = re.compile(
@@ -110,11 +109,11 @@ def foreign_residue(texts) -> list:
 # ---------------------------------------------------------------------------
 # Singapore English spelling
 # ---------------------------------------------------------------------------
-# The prompts ask for "organisation, specialising, programme" and the pool's models
-# often write "organization, specialize, optimization" anyway (seen in a smoke test), so
-# it's fixed here. An explicit list of stems, not "-ize -> -ise" in general, which
-# would turn "size", "prize" and "seize" into nonsense. "program" is left alone: in
-# Singapore English it is a computer program, and "programme" a scheme.
+# The prompts ask for "organisation, specialising, programme" but the models often
+# write "organization, specialize, optimization", so it is fixed here. The stems are
+# listed explicitly, because a general "-ize -> -ise" would turn "size", "prize" and
+# "seize" into nonsense. "program" is left alone: in Singapore English it is a
+# computer program, and "programme" a scheme.
 
 _IZE_STEMS = ("organi|speciali|optimi|prioriti|recogni|utili|standardi|finali|centrali|minimi|maximi|"
               "moderni|customi|harmoni|digiti|digitali|capitali|summari|visuali|categori|authori|"

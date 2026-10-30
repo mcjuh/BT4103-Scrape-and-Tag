@@ -3,7 +3,7 @@
  "annotator": "The client, writing with an LLM. NOT measured ground truth and NOT human annotation: the workbook's 0-100 expected_score_range values are one model's opinion and are deliberately NOT carried over here. Only the ordinal four-band judgement is, mapped onto the 0-3 rubric below. Treat as a development target, not a measurement of matching quality.",
  "caveats": [
   "1:1 pairing only -- the workbook never claims anything about the other 29 providers per gig, but evaluate.py scores unlabelled providers as grade 0.",
-  "The 4 NEAR-MISS gigs have no provider graded >=1, so NDCG is undefined for them (evaluate.py reports nan). Check those with report_near_miss() instead: they are passed by scoring LOW, which a ranking metric cannot see.",
+  "The 4 NEAR-MISS gigs have no provider graded >=1, so NDCG is undefined for them (evaluate.py reports nan). They are passed by scoring LOW, which a ranking metric cannot see, so check that separately.",
   "The gigs and showcases are synthetic Singapore-SME scenarios; the extracted corpus is global big-4 consulting. Good scores here do not transfer automatically."
  ],
  "rubric": {

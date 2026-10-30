@@ -4,18 +4,16 @@ Prompt experiment for the labeller: every prompt variant x every pool model
 over a fixed candidate set per evaluation gig. analyze.py then scores the
 rankings against the graded gold labels in gold.json.
 
-    py -3 labeller/experiments/run_grid.py [--workers 8] [--candidates 40]
+    python labeller/experiments/run_grid.py [--workers 8] [--candidates 40]
 
-Candidates per gig = every gold-graded provider (grade >= 1) plus seeded
-random grade-0 providers up to --candidates in total -- the paper's
-re-ranking setting (it re-ranks BM25's top 100). The set is saved to
-results/candidates.json the first time, so reruns and analyze.py see the
+Candidates per gig are every gold-graded provider (grade 1+) plus seeded
+random grade-0 providers up to --candidates in total. The set is saved to
+results/candidates.json on the first run, so reruns and analyze.py use the
 same one. Calls already recorded ok in results/grid.jsonl are skipped.
 
-Conditions: the paper's four prompts from label.py, its Yes/No baseline,
-plus three ablations -- RG-3L with the labels listed least relevant first
-(the order label.py used before), a 0-2 scale, and RG-3L reworded for the
-domain ("gig" / "provider profile" instead of "query" / "document").
+Conditions: the four prompts from label.py, a Yes/No baseline, and three
+ablations: RG-3L with the labels in reverse order, a 0-2 scale, and RG-3L
+reworded as "gig" and "provider profile".
 """
 
 import argparse

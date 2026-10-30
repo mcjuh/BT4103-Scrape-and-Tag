@@ -1,106 +1,43 @@
 # -*- coding: utf-8 -*-
 """
-Second half of the classifier/extractor role: classify.py sorts pages into
-data/pages/{provider,hirer,ignore,uncertain}/; this script reads
-classify.py's data/manifests/classify.jsonl to find pages worth extracting
-(PROVIDER, HIRER, UNCERTAIN) and turns each into ONE record shaped exactly
-like the v2 schemas in schemas/ (see docs/schema_v2.md):
+Extraction stage. Reads data/manifests/classify.jsonl, picks the PROVIDER,
+HIRER and UNCERTAIN pages, and turns each into one record that matches the
+v2 schemas in schemas/ (see docs/schema_v2.md):
 
-    ML_provider_schema_v2.json  -> ProviderDocument -> data/output/providers.csv + providers.json
-    ML_hirer_schema_v2.json     -> HireDocument     -> data/output/hirers.csv + hirers.json
+    ML_provider_schema_v2.json -> data/output/providers.csv / .jsonl / .json
+    ML_hirer_schema_v2.json    -> data/output/hirers.csv / .jsonl / .json
 
-The schemas are the single source of truth: each prompt's field list and
-JSON skeleton are generated from them, and every LLM response is validated
-against them (jsonschema) before anything is written -- a response that
-doesn't match is retried like any other failure. Each property says who
-writes it (x-filled-by): only "llm" fields are asked of the model; the rest
-(source_file, extracted_by_model, hirer_ref, the duration weeks, the tags)
-are filled in here, the enricher owns availability and rate, and name and
-the tag group stay null.
+The schemas drive everything. Each prompt's field list is generated from
+them and every LLM reply is validated against them; a reply that fails is
+retried. Only fields marked x-filled-by "llm" are asked of the model, and
+the rest are filled in by code.
 
-The record is nested (a provider's services, achievements and technical
-proficiency are lists; the tags nest category -> specialisation -> skills).
-It is written whole to data/output/providers.jsonl / hirers.jsonl as each record
-completes, and export_json() collects those into providers.json /
-hirers.json. The CSV keeps the old flat text columns (about_title,
-hire_description, relevant_experience, ...), derived from the nested record
-by flat_columns(), so the enricher, labeller and ranker import still read
-what they always did; years_experience, hirer_ref and the duration weeks ride
-along as small structured columns.
+Providers and hirers share one code path. They differ in the prompts
+(prompts/) and the per-type settings in ENTITY_CONFIG:
 
-Providers and hirers run through the same code path; what differs is the
-prompts (prompts/, never inline here) and the per-type settings in
-ENTITY_CONFIG:
+  HIRER     one pass: extract_hirer.md rewrites a case study as the gig its
+            client could have posted. A different pool model then reviews
+            it against the source. If flagged, the record is rewritten once
+            and checked again; still flagged means rejected.
+  PROVIDER  two passes: extract_provider_facts.md pulls neutral facts, then
+            extract_provider_style.md restyles the headline, bio and
+            achievements. The source is anonymised first (needs spaCy and
+            en_core_web_sm).
 
-  HIRER     1 pass:   extract_hirer.md reframes a case study as the gig
-                      its original hirer could have posted (from gig.py).
-  PROVIDER  2 passes: extract_provider_facts.md extracts neutral facts,
-                      then extract_provider_style.md restyles the headline,
-                      bio and achievements and writes how_i_work;
-                      the rest of the record is carried over from the facts
-                      pass, so styling can't change the facts
-                      (from showcase.py). The source is anonymised first:
-                      names -> [CANDIDATE_NAME] (needs spaCy +
-                      en_core_web_sm; extract.py won't start without it)
-                      and gendered pronouns -> neutral ones.
+A prompt may return {} when the page does not qualify; the file is then
+recorded as "rejected" and nothing is written.
 
-HIRER records then get a grounding review (from review_gig_content.py and
-gig_repair.py): a DIFFERENT pool model (llm_pool.reviewer_for_file) reads
-the source and the record and answers keep/retry, flagging only clear
-defects (unsupported scope, catch-all roles, invented requirements, named
-organisations). On retry the extracting model redoes its pass once, given
-the reviewer's reason and its previous record (prompts/repair_hirer.md);
-the same reviewer checks the rewrite once more, and a rewrite that's still
-flagged is rejected. The verdict is kept in the manifest. A review that fails outright
-errors the whole file, so it's retried from scratch next run.
+After extraction the code adds the SkillsFuture tags (taxonomy.py), checks
+the text reads as Singapore (localisation.py) and copies the industry
+columns from data/manifests/industry.jsonl.
 
-Either prompt may return {} when the page doesn't qualify (no concrete gig
-/ not one individual); that's recorded as "rejected", never written.
+Options: --entity hirer|provider, --limit, --balance, --workers, --rps,
+--ping, --out-tag TAG (write a separate dataset), --export-json,
+--backfill-industries.
 
-Also carried over from gig.py/showcase.py:
-- Per-file style rolls (prompts/extract_variations.json): hirer detail
-  tier and voice/opening; provider title style, achievement grammar, and a rare deliberate
-  prose imperfection -- so synthetic records don't all converge on one
-  voice. Seeded by file name, so a rerun rolls the same way.
-- A per-record flag (hidden_reasoning) for whether the model reasoned
-  before answering. Thinking mode is switched off (NO_THINKING); the flag
-  is what keeps records from before and after that change comparable.
-- The OpenAI client's own retries are off; the loop here is the only one.
-  --ping checks every pool model responds.
-- --entity hirer|provider extracts only one type (provider = PROVIDER and
-  UNCERTAIN pages); --balance and --limit then apply within that type.
-- --workers N extracts N files at once (default 4; one at a time is
-  latency-bound); --rps caps requests/second across all workers (default
-  1). SOCLAAS sustains only ~1 request/s, shared by every script on the
-  key, and past that returns bare 429s. The tagging stage ran 2,894 pages
-  at 4 workers / 1 rps cleanly. Only the main thread writes the CSVs and the
-  manifest.
-- industry / secondary_industry / taxonomy_version columns are copied in
-  from industry.py's data/manifests/industry.jsonl by code, never asked of
-  the LLM. --backfill-industries rewrites both CSVs with the current tags
-  (joined on source_file), which is also how a CSV written before these
-  columns existed is migrated.
-- Per-record quality metrics in the manifest (field lengths, leftover
-  gendered pronouns).
-- SkillsFuture tags (taxonomy.py, prompts/tag_*.md): once a record is final, tag_record()
-  gives it category (sector), specialisation (track) and skills (TSCs), read from the
-  record's own text. At most 2 sectors, 3 tracks and 8 skills; skills come only from the
-  chosen tracks' lists; a record that fits no track is tagged empty rather than forced.
-  Two extra calls per written record, to a pool model of their own ("tag" salt). They
-  land in the CSV as category / specialisation / skills (" | "-joined), tags_json (the
-  nested form) and tag_taxonomy_version, and in the record's `tags` block.
-- Singapore setting: the prompts move each record to Singapore, then localisation.py
-  checks a provider's finished text for foreign phrases or no Singapore anchor and runs
-  up to two repair passes; Singapore English spelling is applied by code.
-- --out-tag TAG writes a separate dataset (data/output/hirers_TAG.csv,
-  providers_TAG.csv, the .jsonl / .json records, data/manifests/extract_TAG.jsonl)
-  with its own progress, so a re-extraction under new prompts leaves the
-  existing files alone. --export-json rebuilds the .json files on their own.
-
-Each file is extracted by one model from llm_pool.MODEL_POOL.
-Read-only against data/pages/<bucket>/. Progress is tracked in
-data/manifests/extract.jsonl, so reruns skip written/rejected files and
-retry only errors.
+Each file is handled by one model from llm_pool.MODEL_POOL. Pages are only
+read. Progress is kept in data/manifests/extract.jsonl, so a rerun skips
+written and rejected files and retries only errors.
 """
 
 import argparse
@@ -152,7 +89,7 @@ BUCKET_DIRS = {
     "UNCERTAIN": PAGES_DIR / "uncertain",
 }
 # UNCERTAIN is, by classify.py's own definition, "a genuine PROVIDER profile
-# that also carries explicit HIRER signals" -- so it's a provider candidate,
+# that also carries explicit HIRER signals"; so it's a provider candidate,
 # not a hirer one.
 ENTITY_TYPE_FOR_LABEL = {
     "PROVIDER": "PROVIDER",
@@ -160,16 +97,14 @@ ENTITY_TYPE_FOR_LABEL = {
     "HIRER": "HIRER",
 }
 
-# Everything that differs between the two entity types. "prompts" run in
-# order: the first reads the page, each later one reads the previous
-# pass's JSON. "review"/"repair" are optional; a repair reruns the first
-# pass, so only give them to single-pass entity types. "localise" is the
-# provider's own repair: a rewrite of the finished record that fixes the
-# foreign-setting phrases localisation.py found (see localise_provider).
-# "pass_fields" is what each pass returns (None = every LLM field): the provider's
-# style pass returns only the four fields it restyles, and the rest of the record
-# is carried over from the facts pass, so a restyle can't drift the facts and
-# costs fewer tokens.
+# Everything that differs between the two entity types.
+# - "prompts" run in order: the first reads the page, each later one reads the
+#   previous pass's JSON.
+# - "review" and "repair" are optional. A repair reruns the first pass, so only
+#   single-pass types use them.
+# - "localise" is the provider's own repair (see localise_provider).
+# - "pass_fields" is what each pass returns (None = every LLM field). The style
+#   pass returns only the fields it restyles; the rest come from the facts pass.
 ENTITY_CONFIG = {
     "PROVIDER": {
         "schema": SCHEMAS_DIR / "ML_provider_schema_v2.json",
@@ -537,32 +472,23 @@ def anonymise(text: str) -> str:
 # ---------------------------------------------------------------------------
 
 def _shows_reasoning(response) -> bool:
-    """Whether the model reasoned ("thinking") before answering. Thinking is
-    left on, so this is recorded per record rather than suppressed."""
+    """Whether the model reasoned ("thinking") before answering. Thinking is now off
+    (NO_THINKING); the flag is still recorded so older records stay comparable."""
     message = response.choices[0].message
     content = message.content or ""
     extra = message.model_dump() if hasattr(message, "model_dump") else {}
     return "<think" in content.lower() or bool(extra.get("reasoning_content") or extra.get("reasoning"))
 
 
-# Thinking off, as labeller/label.py already does. It was left on here
-# deliberately, but the cost turned out to be carried almost entirely by one
-# model: qwen3.8:27b reasoned on 100% of its extract calls, emitting a median
-# 11,832 completion tokens against ~350 for the other three, at a median
-# 171.2s per record versus 4.0-10.8s -- p90 378s, max 734s. Routed a quarter
-# of all files, it was ~85-90% of total extraction wall clock. Measured A/B on
-# one page: 19.6s/1,389 tokens with thinking on, 2.5s/126 tokens off; the
-# other models are unaffected either way (qwen3.6:35b: 1.4s vs 2.4s).
-# `hidden_reasoning` is still recorded per record, so the ON-era rows remain
-# comparable against the OFF-era ones. Checked 21 Sep on a 200-file OFF-era
-# run: no quality drop (qwen3.8:27b hirer first-review keep 88.6% -> 95.7%,
-# providers written 100% in both eras; small n -- see docs/backlog.md item G).
+# Thinking is turned off. With it on, qwen3.8:27b used a median of about 11,800
+# completion tokens (about 170 s) per record and made up most of the extraction time.
+# `hidden_reasoning` is still recorded so rows from before the change stay comparable.
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
 
 def _call_llm(model: str, content: str, json_mode: bool = True) -> tuple:
-    # JSON mode stops malformed JSON (llama3.1 otherwise drops commas and
-    # quotes); every pool model accepts it. Only --ping asks for plain text.
+    # JSON mode stops malformed JSON; every pool model accepts it. Only --ping asks
+    # for plain text.
     extra = {"response_format": {"type": "json_object"}} if json_mode else {}
     if _PACER is not None:
         _PACER.wait()
@@ -581,10 +507,9 @@ def _call_llm(model: str, content: str, json_mode: bool = True) -> tuple:
 
 
 def _parse_json(raw_output: str) -> dict:
-    """Takes the outermost {...} rather than the whole reply: some models
-    (llama3.1) wrap the JSON in a preamble and a code fence despite being
-    told not to. strict=False accepts raw newlines inside strings, which
-    the same models emit in multi-paragraph descriptions."""
+    """Takes the outermost {...} rather than the whole reply, because some models wrap
+    the JSON in a preamble or code fence. strict=False accepts raw newlines inside
+    strings."""
     # reasoning inlined as <think>...</think> could itself contain braces
     raw_output = re.sub(r"<think>.*?</think>", "", raw_output, flags=re.DOTALL | re.IGNORECASE)
     start, end = raw_output.find("{"), raw_output.rfind("}")
@@ -597,8 +522,7 @@ def _parse_json(raw_output: str) -> dict:
 
 
 # Distinctive details from the prompts' own examples. A record containing one
-# copied an example instead of the source (seen: llama3.1 pasted the example
-# patent numbers and $5M insurance engagement into a real person's profile).
+# copied an example instead of the source.
 PROMPT_EXAMPLE_LEAKS = (
     "9921894", "10203941", "USPTO patents", "S$5M engagement",
     "Computer Weekly", "40 services off mainframe", "from 3 days to 4 hours",
@@ -942,7 +866,7 @@ def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple
         payload = f"INPUT RECORD:\n```json\n{_record_json(entity_type, doc)}\n```"
 
     # A provider's finished text is checked for a foreign setting and, if it has one,
-    # repaired once. A hirer is only measured: its reviewer already judges the setting.
+    # repaired (up to MAX_LOCALISE_PASSES times). A hirer is only measured: its reviewer already judges the setting.
     if doc is not None and cfg["localise_template"] and quality_check(entity_type, doc)[0]:
         doc, local_meta = localise_provider(doc, extract_call, kwargs)
         meta.update(local_meta)
