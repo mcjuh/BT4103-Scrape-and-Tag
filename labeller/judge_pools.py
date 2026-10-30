@@ -21,7 +21,7 @@ thing across gigs.
 Prompt versions (--prompt):
 - v1  prompts/rubric_0_3.md, content fit only
 - v2  prompts/rubric_0_3_v2.md, also grades budget vs rate, seniority, start
-      date and days per week, from the enriched CSVs
+      date and days per week, from the enricher's fields in hirers.csv / providers.csv
 - v3  prompts/rubric_01_v3.md, same terms but a continuous 0-1 score. The
       exported grade is round(score * 3), and the label file holds
       round(score * 100).

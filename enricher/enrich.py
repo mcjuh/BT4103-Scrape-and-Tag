@@ -26,13 +26,16 @@ Two steps, kept apart so the numbers can be regenerated without the LLM:
 The numbers are synthetic by design, because the source pages never state
 rates or availability. duration_weeks is the one value read from the text.
 
-Outputs are rebuilt in full each run, with the original columns first:
-  data/output/hirers_enriched.csv     + budget_lo, budget_hi, seniority_needed,
-                                        start_by, commitment, duration_weeks,
-                                        sector, track, used_in_ml
-  data/output/providers_enriched.csv  + rate_per_hour, available_from, capacity,
-                                        availability, sector, track, used_in_ml
-Provider seniority is judged and sets the rate band but is not written out.
+Outputs are written into extract.py's own files each run (new CSV columns after
+the original ones; in the JSON, the v2 schema fields of the same names):
+  data/output/hirers.csv + hirers.json        budget_lo, budget_hi, seniority_needed,
+                                              start_by, commitment, duration_weeks,
+                                              sector, track
+  data/output/providers.csv + providers.json  availability, rate, rate_per_hour,
+                                              available_from, capacity, sector, track
+Provider seniority and used_in_ml are judged but not written out: the ranker learns
+seniority from the text, and used_in_ml stays in the manifest. A re-extraction
+rebuilds these files without the fields, so run enrich after every extraction.
 --tag TAG reads and writes the *_TAG files instead (see use_tag). A value that
 could not be judged stays blank until the next run retries it.
 """
@@ -77,20 +80,21 @@ URGENCIES = ["asap", "soon", "flexible"]
 ENTITIES = {
     "HIRER": {
         "csv": OUTPUT_DIR / "hirers.csv",
-        "out": OUTPUT_DIR / "hirers_enriched.csv",
+        "json": OUTPUT_DIR / "hirers.json",
         "prompt": "judge_hirer.md",
         "text_fields": ["hire_title", "hire_description", "hire_description_additional_notes", "industry"],
+        # In ML_hirer_schema_v2.json's order.
         "new_fields": ["budget_lo", "budget_hi", "seniority_needed", "start_by", "commitment", "duration_weeks",
-                       "sector", "track", "used_in_ml"],
+                       "sector", "track"],
     },
     "PROVIDER": {
         "csv": OUTPUT_DIR / "providers.csv",
-        "out": OUTPUT_DIR / "providers_enriched.csv",
+        "json": OUTPUT_DIR / "providers.json",
         "prompt": "judge_provider.md",
         "text_fields": ["about_title", "about_description", "services_offered_title",
                         "services_offered_description", "relevant_experience", "industry"],
-        "new_fields": ["rate_per_hour", "available_from", "capacity", "availability",
-                       "sector", "track", "used_in_ml"],
+        "new_fields": ["availability", "rate", "rate_per_hour", "available_from", "capacity",
+                       "sector", "track"],
     },
 }
 
@@ -126,14 +130,14 @@ for _cfg in ENTITIES.values():
 
 def use_tag(tag: str) -> None:
     """Enrich a tagged extraction (extract.py --out-tag), e.g. "v2": read
-    data/output/hirers_v2.csv, write data/output/hirers_v2_enriched.csv, and keep
-    judgements in data/manifests/enrich_v2.jsonl, so they never leak into the untagged
-    outputs (build_outputs falls back to a judgement of older text)."""
+    and write into data/output/hirers_v2.csv / hirers_v2.json, and keep judgements in
+    data/manifests/enrich_v2.jsonl, so they never leak into the untagged outputs
+    (build_outputs falls back to a judgement of older text)."""
     global MANIFEST_PATH
     MANIFEST_PATH = DATA_DIR / "manifests" / f"enrich_{tag}.jsonl"
     for stem, cfg in (("hirers", ENTITIES["HIRER"]), ("providers", ENTITIES["PROVIDER"])):
         cfg["csv"] = OUTPUT_DIR / f"{stem}_{tag}.csv"
-        cfg["out"] = OUTPUT_DIR / f"{stem}_{tag}_enriched.csv"
+        cfg["json"] = OUTPUT_DIR / f"{stem}_{tag}.json"
 
 MAX_RETRIES = 4
 RETRY_BACKOFF_S = 2  # doubles each retry
@@ -216,13 +220,18 @@ def _pick_bool(data: dict, key: str) -> bool:
 
 def _pick_sector_track(data: dict) -> dict:
     """The model's sector and track, spelled as in the taxonomy. The track must
-    be listed under that sector; anything else raises, so it's retried."""
+    be listed under that sector, unless exactly one sector lists it (the model
+    often swaps e.g. Accountancy and Financial Services): then that sector is
+    used. Anything else raises, so it's retried."""
     sector = SECTOR_KEYS.get(_norm_name(data.get("sector")))
     if sector is None:
         raise ValueError(f"sector not in the taxonomy: {data.get('sector')!r}")
     track = next((t for t in TAXONOMY[sector] if _norm_name(t) == _norm_name(data.get("track"))), None)
     if track is None:
-        raise ValueError(f"track {data.get('track')!r} is not listed under sector {sector!r}")
+        owners = [(s, t) for s, ts in TAXONOMY.items() for t in ts if _norm_name(t) == _norm_name(data.get("track"))]
+        if len(owners) != 1:
+            raise ValueError(f"track {data.get('track')!r} is not listed under sector {sector!r}")
+        sector, track = owners[0]
     return {"sector": sector, "track": track}
 
 
@@ -443,10 +452,11 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
         available_from = _date_after(card, rng.randint(*card["available_later_days"]))
         when = f"from {dt.date.fromisoformat(available_from):%d %b %Y}"
     return {
+        "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
+        "rate": f"S${rate:,} per hour",
         "rate_per_hour": rate,
         "available_from": available_from,
         "capacity": capacity,
-        "availability": f"Available {when}, {capacity} day{'s' if capacity > 1 else ''} a week",
         "sector": judgement.get("sector"),
         "track": judgement.get("track"),
         "used_in_ml": judgement.get("used_in_ml"),
@@ -468,7 +478,8 @@ def build_outputs() -> None:
                 {r["source_file"]: done[(entity_type, r["source_file"])]["judgement"]
                  for r in rows if (entity_type, r["source_file"]) in done}, card)
         judged = 0
-        tmp = cfg["out"].with_name(cfg["out"].name + ".tmp")
+        extras = {}
+        tmp = cfg["csv"].with_name(cfg["csv"].name + ".tmp")
         with tmp.open("w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
             writer.writeheader()
@@ -480,16 +491,39 @@ def build_outputs() -> None:
                 judged += judgement is not None
                 extra = generate(entity_type, row["source_file"], row, judgement, card,
                                  tiers.get(row["source_file"]))
+                # Every new field, so a value from an earlier run never outlives its judgement.
+                extra = {k: extra.get(k) for k in cfg["new_fields"]}
+                extras[row["source_file"]] = extra
                 writer.writerow({**row, **{k: ("" if v is None else v) for k, v in extra.items()}})
-        tmp.replace(cfg["out"])
-        print(f"{cfg['out'].name}: {len(rows)} rows, {judged} with a judgement "
+        tmp.replace(cfg["csv"])
+        print(f"{cfg['csv'].name}: {len(rows)} rows, {judged} with a judgement "
               f"({len(rows) - judged} left blank)", flush=True)
+        write_json(cfg, extras)
+
+
+def write_json(cfg: dict, extras: dict) -> None:
+    """Set the new fields on each record of extract.py's .json, just before tags as
+    in the v2 schemas. A record with no CSV row gets them as null."""
+    path = cfg["json"]
+    if not path.exists():
+        print(f"{path.name}: not found, skipped", flush=True)
+        return
+    blank = dict.fromkeys(cfg["new_fields"])
+    out = []
+    for rec in json.loads(path.read_text(encoding="utf-8")):
+        base = {k: v for k, v in rec.items() if k != "tags" and k not in blank}
+        out.append({**base, **extras.get(rec["source_file"], blank),
+                    **({"tags": rec["tags"]} if "tags" in rec else {})})
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(path)
+    print(f"{path.name}: {len(out)} records", flush=True)
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-llm", action="store_true",
-                        help="skip judging; rebuild the enriched CSVs from saved judgements and rate_card.json")
+                        help="skip judging; rewrite the enriched fields from saved judgements and rate_card.json")
     parser.add_argument("--entity", choices=["hirer", "provider"], default=None, help="judge only one type")
     parser.add_argument("--limit", type=int, default=None, help="judge at most this many records")
     parser.add_argument("--workers", type=int, default=4, help="records to judge at once (default: 4)")
@@ -497,7 +531,7 @@ def main():
                         help="cap on requests/second across workers (SOCLAAS sustains ~1/s; default 1, 0 = no cap)")
     parser.add_argument("--tag", default=None,
                         help="enrich a tagged extraction (extract.py --out-tag): read data/output/hirers_TAG.csv and "
-                             "providers_TAG.csv, write *_TAG_enriched.csv, judgements in data/manifests/enrich_TAG.jsonl")
+                             "providers_TAG.csv, write into them and *_TAG.json, judgements in data/manifests/enrich_TAG.jsonl")
     args = parser.parse_args()
     global _PACER
     _PACER = Pacer(args.rps) if args.rps else None

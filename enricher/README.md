@@ -8,21 +8,21 @@ python run.py enrich              # judge new or changed records, then rebuild t
 python run.py enrich --no-llm     # rebuild the outputs from saved judgements (no API calls)
 ```
 
-| Output | New columns |
+| Output (written in place) | New fields |
 |---|---|
-| `data/output/hirers_enriched.csv` | `budget_lo`, `budget_hi` (S$/hour), `seniority_needed`, `start_by` (date or `asap`), `commitment` (days/week), `duration_weeks`, `sector`, `track`, `used_in_ml` (true/false) |
-| `data/output/providers_enriched.csv` | `rate_per_hour` (S$), `available_from` (date or `now`), `capacity` (days/week), `availability` (display text), `sector`, `track`, `used_in_ml` (true/false) |
+| `data/output/hirers.csv` + `hirers.json` | `budget_lo`, `budget_hi` (S$/hour), `seniority_needed`, `start_by` (date or `asap`), `commitment` (days/week), `duration_weeks`, `sector`, `track` |
+| `data/output/providers.csv` + `providers.json` | `availability` (display text), `rate` (display text), `rate_per_hour` (S$), `available_from` (date or `now`), `capacity` (days/week), `sector`, `track` |
+
+The JSON fields are in the v2 schemas (`docs/schema_v2.md`). `used_in_ml` is judged but only kept in
+the manifest. A re-extraction rebuilds these files without the fields, so run enrich after it.
 
 `sector` and `track` come from SkillsFuture's skills framework (`data/reference/skillsfuture/sector.csv`,
 `track.csv`: 39 sectors, 247 tracks, the same files as the ranker's `pipeline/data_taxo/`). They place the
 *work* (gigs) or the *service* (providers), not the client's industry. Track names repeat across sectors,
 so read a track together with its sector.
 
-`--tag v4` enriches a tagged extraction (`extract.py --out-tag v4`): it reads `data/output/hirers_v4.csv` /
-`providers_v4.csv`, writes `*_v4_enriched.csv`, and keeps its judgements in `data/manifests/enrich_v4.jsonl`.
-
-Both files keep every column of `hirers.csv` / `providers.csv`, so the ranker import can read them
-in their place.
+`--tag v4` enriches a tagged extraction (`extract.py --out-tag v4`): it writes into `data/output/hirers_v4.*` /
+`providers_v4.*` and keeps its judgements in `data/manifests/enrich_v4.jsonl`.
 
 ## How the values are made
 
