@@ -298,7 +298,7 @@ Zero-Shot LLM Rankers via Scoring Fine-Grained Relevance Labels"](https://arxiv.
 (arXiv:2310.14122). Five approaches per pair: the paper's four fine-grained prompts (`rg_2l`,
 `rg_3l`, `rg_4l`, `rg_s04`) on the gig's one hash-routed model (per gig, not per pair, so a
 gig's ranking isn't driven by model calibration differences), plus `rg_3l_multi` -- RG-3L on
-all four pool models, averaged. Scores are expected relevance from label logprobs, normalised
+all three pool models, averaged. Scores are expected relevance from label logprobs, normalised
 to 0-1. Calls must disable thinking (`chat_template_kwargs.enable_thinking=False`), or
 models that reason first score their reasoning instead of the answer. Output: `docs/relevance_labels.jsonl`
 (per call) and `docs/relevance_scores.csv` (per pair, with `hirer_industry`, `provider_industry`
@@ -306,7 +306,7 @@ and `same_industry` taken from the CSVs' industry column, so it can be checked w
 tracks relevance or just industry match). Replaces the earlier plan of comparing a
 binary model with a hand-tuned weighted-sum score (the binary model is now the `rg_2l` baseline;
 the fine-grained labels replace the weighted sum), and the older one of matching by
-`speciality_ids` overlap / embeddings. Run-once with `--max-pairs` (7 calls per pair). See
+`speciality_ids` overlap / embeddings. Run-once with `--max-pairs` (6 calls per pair). See
 `labeller/README.md`.
 
 ### `monitor/dashboard.py` -- centralised monitoring
@@ -369,12 +369,14 @@ Launched runs are their own processes, so closing the dashboard doesn't stop the
 still never writes to any role's data files.
 
 ## Current state (as of the last full run)
-- 86 seeds processed, 10,590 pages saved (see `docs/_crawl_report.md` for the per-seed
-  breakdown). McKinsey returns 0 pages on every attempt (bot-blocked); kept in `scrapper/seeds.md` in
+- 13,415 pages saved (see `data/manifests/crawl_report.md` for the per-seed breakdown).
+  McKinsey returns 0 pages on every attempt (bot-blocked); kept in `scraper/seeds.md` in
   case that changes.
-- Classified: **1,856 provider, 1,011 hirer, 9,372 ignore, 27 uncertain** (all of
+- Classified: **2,381 provider, 1,298 hirer, 9,703 ignore, 33 uncertain** (all of
   `unprocessed/` has been drained).
-- Extraction into `providers.csv`/`hirers.csv` just started against this backlog.
+- Extraction has run over the provider, hirer and uncertain pages: 3,335 written and 377
+  rejected in `data/manifests/extract.jsonl`. `providers.jsonl` also holds the synthetic
+  providers from `manufacture_providers.py`.
 
 ## Key gotchas for future readers
 - Every role's paths resolve relative to its own folder plus one `.parent` hop to the project
@@ -401,8 +403,7 @@ still never writes to any role's data files.
   a code bug but isn't one -- check free RAM before assuming the crawler itself is broken.
 
 ## Next steps
-1. Let `extract.py` work through the full `provider`/`hirer`/`uncertain` backlog.
-2. Find real people/leadership hub URLs for BCG, KPMG, Deloitte, Accenture, if pursuing that
+1. Find real people/leadership hub URLs for BCG, KPMG, Deloitte, Accenture, if pursuing that
    gap further.
-3. Run `labeller/label.py` over more pairs once `hirers.csv` has rows (7 LLM calls per pair --
-   see `labeller/README.md` for cost).
+2. Run `labeller/label.py` or `grade_pairs.py` over more pairs (see `labeller/README.md` for
+   cost).

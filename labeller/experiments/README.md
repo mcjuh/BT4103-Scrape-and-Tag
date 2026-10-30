@@ -23,8 +23,7 @@ py -3 labeller/experiments/analyze.py                                # tables ->
   (in the file), so the labels are complete rather than pooled from the systems being compared.
   135 graded pairs: 13 at grade 3, 37 at 2, 85 at 1; the rest 0.
   **They were silver labels:** written by Claude (claude-opus-5), a model outside the pool, from the
-  full gig and profile text before any experiment score was seen, and never spot-checked by hand
-  (`spotcheck/` is that sheet, unfilled).
+  full gig and profile text before any experiment score was seen, and never spot-checked by hand.
 - **Current `gold.json`:** the client's 30 test gigs, each with one intended showcase graded 0-3 from the client's four bands (OBVIOUS 3, SUBTLE 2, PARTIAL 1, NEAR-MISS 0), built by `build_gold.py` from the client workbook. The
   workbook was written by the client with an LLM, so it is an ordinal development check, not ground truth.
   Its other 29 showcases per gig are unlabelled and score as grade 0, and the 4 NEAR-MISS gigs have no

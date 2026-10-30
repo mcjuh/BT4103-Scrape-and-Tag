@@ -15,7 +15,7 @@ python run.py label --max-pairs 50
   `rg_4l`, `rg_s04`, and `rg_3l_multi` (the average of RG-3L over all three models). Every score is 0-1,
   and higher means more relevant.
 - `--max-pairs N` sets how many pairs to score (default 50). Pairs go gig by gig: all providers for the
-  first gig, then the next gig. There are 154 providers, so `--max-pairs 154` gives one complete ranking
+  first gig, then the next gig. There are about 3,000 providers, so `--max-pairs 3000` gives one complete ranking
   for the first gig.
 - Each pair costs 6 LLM calls. SOCLAAS allows about 1 call per second, so 50 pairs take about
   5 minutes. Don't run two LLM scripts at the same time: they share the same rate limit.
@@ -56,9 +56,9 @@ score means more relevant. Blank scores are skipped.
 
 **Reading the output**
 ```
-method             gigs  pairs  NDCG@10 [95% CI]      NDCG@5  tau-b  AUC    relevant scored  pooled Spearman  p vs rg_2l@...
-rg_2l@qwen3.8:27b  1     40     0.844 [0.844, 0.844]  0.923   0.504  1.000  1.000            0.568            -
-rg_3l@qwen3.6:35b  1     40     0.481 [0.481, 0.481]  0.593   0.342  0.829  1.000            0.424            1.000 (1 gigs)
+method             gigs  pairs  NDCG@10 [95% CI]      NDCG@5  tau-b  AUC    relevant scored  pooled Spearman  p vs rg_2l
+rg_2l              1     40     0.844 [0.844, 0.844]  0.923   0.504  1.000  1.000            0.568            -
+rg_3l              1     40     0.481 [0.481, 0.481]  0.593   0.342  0.829  1.000            0.424            1.000 (1 gigs)
 ```
 | Column | Meaning |
 |---|---|
@@ -79,8 +79,7 @@ rg_3l@qwen3.6:35b  1     40     0.481 [0.481, 0.481]  0.593   0.342  0.829  1.00
 - With fewer than about 5 gigs, the interval and p-value mean little.
 - The gold labels are not measured ground truth: the client wrote the workbook with an LLM, and only its
   four ordinal bands are used. Each gig has one intended showcase; the other 29 are scored as grade 0, and
-  the 4 NEAR-MISS gigs have no relevant showcase, so NDCG is undefined for them. `experiments/spotcheck/`
-  is a hand-check sheet for an earlier, different label set (see its README).
+  the 4 NEAR-MISS gigs have no relevant showcase, so NDCG is undefined for them.
 
 ## 3. The prompt experiment (optional)
 To compare every prompt on every model, see [experiments/README.md](experiments/README.md):
