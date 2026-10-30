@@ -10,8 +10,8 @@ finished text with these patterns, and a provider with hits gets one targeted re
 pass (prompts/repair_localise_provider.md) given the exact phrases to fix.
 
 The patterns are deliberately broad: a hit is a CANDIDATE, not a verdict, because some
-foreign mentions are right to keep -- a membership ("INSOL Europe"), a credential
-("CPA"), or a specialism that IS a foreign market ("German contract law") -- and the
+foreign mentions are right to keep; a membership ("INSOL Europe"), a credential
+("CPA"), or a specialism that IS a foreign market ("German contract law"); and the
 repair prompt says so. A false positive therefore costs one extra call; a miss leaves a
 foreign-set profile in a Singapore marketplace.
 
@@ -38,9 +38,9 @@ _PATTERNS = [
                               r"|\bOSHA\b|\bEPA\b|\bGDPR\b|\bCCPA\b|\bHIPAA\b|\bMedicaid\b|\bMedicare\b"
                               r"|\bSarbanes\b|\bSOX\b|\bUS GAAP\b|\bstate (?:and|or) federal\b|\bexaminership\b"
                               r"|\bAICPA\b|\bGAAS\b|\bFCPA\b|\bBribery Act\b|\bDodd-Frank\b|\bPCAOB\b"),
-    # Records are anonymised: an employer or client is described, never named. The prompts say
-    # so and the models still leave one in ("Arthur Andersen LLP" in a smoke test), so a
-    # legal-entity suffix or a well-known firm is flagged and the repair pass describes it.
+    # Records are anonymised: an employer or client is described, never named. The models
+    # still leave one in, so a legal-entity suffix or a well-known firm is flagged and the
+    # repair pass describes it.
     ("company name", r"\b[A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*){0,3}\s+(?:LLP|LLC|Inc|Ltd|PLC|GmbH|Corp|Corporation|Co)\b\.?"
                      r"|\b(?:Arthur Andersen|PricewaterhouseCoopers|PwC|Deloitte|KPMG|Ernst & Young|McKinsey|"
                      r"Boston Consulting Group|Accenture|Booz Allen|Grant Thornton|Alvarez & Marsal|FTI Consulting|"

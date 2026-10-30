@@ -189,7 +189,7 @@ def export(data_dir: Path, done: dict, pools: dict):
     llm_judgments_merged.json  {hire_id: {provider_id: grade}}  incl. zeros (training)
     ground_truth_llm.json      {hire_id: {provider_id: 0/33/67/100}}  grade > 0 only (evaluation)
                                (a 0-1 score instead exports as round(score * 100))
-    Only gigs whose whole pool is graded are exported -- a half-graded pool
+    Only gigs whose whole pool is graded are exported; a half-graded pool
     would make its ungraded candidates look like confirmed negatives."""
     merged, gt = {}, {}
     for hid, pids in pools.items():

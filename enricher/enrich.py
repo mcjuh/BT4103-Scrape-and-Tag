@@ -129,10 +129,9 @@ for _cfg in ENTITIES.values():
 
 
 def use_tag(tag: str) -> None:
-    """Enrich a tagged extraction (extract.py --out-tag), e.g. "v2": read
-    and write into data/output/hirers_v2.csv / hirers_v2.json, and keep judgements in
-    data/manifests/enrich_v2.jsonl, so they never leak into the untagged outputs
-    (build_outputs falls back to a judgement of older text)."""
+    """Enrich a tagged extraction (extract.py --out-tag), e.g. "v2": read and write
+    data/output/hirers_v2.csv / hirers_v2.json, and keep judgements in
+    data/manifests/enrich_v2.jsonl so they never leak into the untagged outputs."""
     global MANIFEST_PATH
     MANIFEST_PATH = DATA_DIR / "manifests" / f"enrich_{tag}.jsonl"
     for stem, cfg in (("hirers", ENTITIES["HIRER"]), ("providers", ENTITIES["PROVIDER"])):
@@ -398,11 +397,10 @@ TIER_SCORE = {"lean": 2, "standard": 5.5, "premium": 9}  # for judgements made b
 
 
 def ranked_provider_tiers(judgements: dict, card: dict) -> dict:
-    """{file: tier}, assigned by rank within each seniority level: the bottom
-    third lean, the middle standard, the top premium. The model's own tier
-    calls ~85% of big-firm bios premium, so on its own it barely separates
-    providers; ranking by price_score keeps the model's ordering while making
-    each level's rates span its whole band. Ties break by a seeded draw."""
+    """{file: tier}, assigned by rank within each seniority level: the bottom third lean, the
+    middle standard, the top premium. The model rates most big-firm bios premium, so on its
+    own it barely separates providers; ranking by price_score keeps its ordering while making
+    each level's rates span the whole band. Ties break by a seeded draw."""
     tiers = {}
     for level in LEVELS:
         files = [f for f, j in judgements.items() if j["seniority"] == level]

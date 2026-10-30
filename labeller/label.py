@@ -170,12 +170,10 @@ def _logsumexp(xs: list) -> float:
 
 
 def label_logprobs(content: list, labels: list):
-    """Log-likelihood of each label at the answer position -- the first
-    output token that isn't whitespace/quotes/markdown. Surface variants of
-    one label in the top-k ("Not", " not", "N") are summed (logsumexp), since
-    each is a way of starting that label. A label missing from the top-k gets
-    a floor just below the lowest logprob seen. Returns None if no label
-    appears in the top-k at all."""
+    """Log-likelihood of each label at the answer position (the first output token that isn't
+    whitespace, quotes or markdown). Surface variants of one label in the top-k ("Not", " not",
+    "N") are summed (logsumexp). A label missing from the top-k gets a floor just below the
+    lowest logprob seen. Returns None if no label appears in the top-k at all."""
     for tok in content:
         if not _bare(tok.token):
             continue
@@ -205,7 +203,7 @@ def judge(approach: str, model: str, query: str, document: str) -> dict:
 
 def complete(prompt: str, model: str):
     """One greedy, no-thinking call with top-k logprobs. `model` is fixed for
-    every retry -- falling back to another model would silently change which
+    every retry; falling back to another model would silently change which
     model the record claims produced it."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:

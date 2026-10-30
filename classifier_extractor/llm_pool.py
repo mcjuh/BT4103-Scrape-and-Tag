@@ -33,19 +33,17 @@ MODEL_POOL = [
 
 
 def model_for_file(filename: str, stage: str) -> str:
-    """Deterministic model assignment for one (stage, filename) pair.
-    `stage` should be a short constant per calling script (e.g. "classify"
-    or "extract") so the two stages diversify independently instead of
-    always pairing the same file with the same model twice."""
+    """Deterministic model assignment for one (stage, filename) pair. `stage` is a short
+    constant per calling script (e.g. "classify" or "extract"), so the stages pick models
+    independently of each other."""
     digest = hashlib.sha256(f"{stage}:{filename}".encode("utf-8")).hexdigest()
     return MODEL_POOL[int(digest, 16) % len(MODEL_POOL)]
 
 
 def reviewer_for_file(filename: str, author_model: str) -> str:
-    """Deterministic reviewer for a record `author_model` produced: always a
-    DIFFERENT pool model, so no model grades its own output (the
-    self-preference bias Schaffelder & Gatt measure). Hashed like
-    model_for_file, so a rerun picks the same reviewer."""
+    """Deterministic reviewer for a record `author_model` produced: always a different pool
+    model, so no model grades its own output. Hashed like model_for_file, so a rerun picks the
+    same reviewer."""
     others = [m for m in MODEL_POOL if m != author_model]
     digest = hashlib.sha256(f"review:{filename}".encode("utf-8")).hexdigest()
     return others[int(digest, 16) % len(others)]

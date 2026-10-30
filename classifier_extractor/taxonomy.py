@@ -149,15 +149,11 @@ def parse_specialisations(data: dict) -> list:
 
 def parse_skills(data: dict, pairs: list) -> tuple:
     """The reply to prompts/tag_skills.md -> ([skill title, ...], [dropped, ...]): up to
-    MAX_SKILLS titles, each one listed under at least one of the chosen tracks. A title
-    that isn't in those lists is dropped and reported rather than failing the record:
-    small models name a plausible skill the framework doesn't have ("DevOps",
-    "Value-Based Care"), and on a smoke test that was 3 of 5 errors and retrying the
-    same prompt didn't change it. An empty result is valid too: the prompt lets the
-    model leave out a skill the text doesn't clearly show, and a weak track's list
-    otherwise gets padded with irrelevant skills (seen: "Clinical Support for Patient
-    Service Associates" on a health-insurance strategist). Only a reply that isn't a
-    list raises ValueError, so the caller retries it."""
+    MAX_SKILLS titles, each listed under at least one of the chosen tracks. A title not in
+    those lists is dropped and reported instead of failing the record, because small models
+    often name a plausible skill the framework doesn't have and retrying doesn't change that.
+    An empty result is valid, so a weak track's list isn't padded with irrelevant skills. Only
+    a reply that isn't a list raises ValueError, so the caller retries it."""
     items = data.get("skills")
     if not isinstance(items, list):
         raise ValueError("'skills' must be a list of skill titles")
@@ -183,10 +179,10 @@ def parse_skills(data: dict, pairs: list) -> tuple:
 
 def nest(pairs: list, skills: list) -> dict:
     """The `tags` block of the v2 record schemas (ML_*_schema_v2.json): category ->
-    specialisation -> skills. A skill listed under several chosen tracks sits under the
-    first of them. `group` (the platform's Industry / Function / Subject / Others heading)
-    is always None here: it is populated afterwards, outside the LLM, from the platform's
-    own category list. No pairs gives an empty `categories` list, the valid "nothing fit"."""
+    specialisation -> skills. A skill listed under several chosen tracks sits under the first.
+    `group` (the platform's Industry / Function / Subject / Others heading) is always None
+    here; it is filled in later from the platform's category list. No pairs gives an empty
+    `categories` list, meaning "nothing fit"."""
     owner = {}
     for pair in pairs:
         for title in load()["skills"][pair]:
