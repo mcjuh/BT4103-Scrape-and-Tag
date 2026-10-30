@@ -46,15 +46,13 @@ WEBLINKS_PATH = SCRIPT_DIR / "seeds.md"  # scraper's own input config, not share
 DATA_DIR = ROOT_DIR / "data"  # shared data lake; every role reads/writes here, not its own folder
 PAGES_DIR = DATA_DIR / "pages"  # crawled pages, one folder per classify.py bucket
 MANIFESTS_DIR = DATA_DIR / "manifests"
-# Crawled-but-not-yet-classified pages land here; classify.py drains this
-# folder (moving each file into its bucket once classified), so it's obvious
-# at a glance what's still pending.
+# Crawled pages land here; classify.py moves each into its bucket once classified, so what
+# is left here is what is still pending.
 UNPROCESSED_DIR = PAGES_DIR / "unprocessed"
 STATE_PATH = MANIFESTS_DIR / "crawl_state.json"
-# Written once at startup with this process's PID and deleted on exit, so
-# monitor/dashboard.py can tell "running" from "crashed/stopped" by checking
-# whether that PID is still alive; the log alone can't (a seed can sit
-# silent for up to SEED_TIMEOUT_S, and a hard kill leaves no trace in it).
+# Written at startup with this process's PID and deleted on exit, so monitor/dashboard.py
+# can tell "running" from "crashed" by checking whether the PID is alive. The log alone
+# can't, since a seed can sit silent for up to SEED_TIMEOUT_S.
 PID_PATH = ROOT_DIR / "logs" / "crawl.pid"
 
 MAX_DEPTH = 5
@@ -77,10 +75,8 @@ LINK_KEYWORDS = [
     "insights", "solutions", "services",
 ]
 
-# Signals that a "successful" fetch actually landed on a bot-check/consent
-# wall rather than real content. Checked against the saved Markdown
-# (lowercased) of every page so blocked pages don't silently pollute data/pages/
-# (and burn classify.py's LLM budget on junk).
+# Signals that a "successful" fetch landed on a bot-check or consent wall. Checked against
+# each page's saved Markdown (lowercased) so blocked pages don't end up in data/pages/.
 BLOCK_SIGNALS = [
     "just a moment...",  # Cloudflare interstitial
     "cf-chl-", "cf_chl_", "checking your browser",
@@ -106,11 +102,9 @@ EXCLUDE_PATTERNS = [
 
 
 def read_seed_urls(path: Path):
-    """Parse seeds.md, pulling out (label, url) for every markdown line
-    containing a URL. Lines are expected as "Label: https://...", but a
-    "Label: www.example.com" (no scheme) is also accepted -- https:// is
-    assumed and a warning is printed, rather than silently dropping the
-    seed (this is how the Upwork entry used to go missing)."""
+    """Parse seeds.md into (label, url) for every markdown line containing a URL. Lines are
+    expected as "Label: https://...". A "Label: www.example.com" with no scheme is also
+    accepted: https:// is assumed and a warning is printed."""
     seeds = []
     url_re = re.compile(r"(https?://\S+)")
     # Optional per-seed page cap, e.g. "HKA: https://www.hka.com/people/ (max 300 pages)",
@@ -139,9 +133,8 @@ def read_seed_urls(path: Path):
                 print(f"  [WARN] seeds.md line {lineno}: '{line}' has no scheme, assuming {url}", flush=True)
                 seeds.append((label.strip(), url, None))
                 continue
-        # Section headers and other non-seed lines are expected to have no
-        # URL at all; only warn when the line looks like it was meant to
-        # be a seed (contains a colon, i.e. "Label: something").
+        # Section headers have no URL; only warn when the line looks like a seed
+        # (contains a colon, i.e. "Label: something").
         if ":" in line:
             skipped.append((lineno, line))
 
@@ -152,11 +145,8 @@ def read_seed_urls(path: Path):
 
 
 def domain_of(url: str) -> str:
-    """Normalize a URL to a domain key for dedup/file-naming purposes.
-    Strips a leading www / www2 / www3 ... label so "www2.deloitte.com" and
-    "www.deloitte.com" collapse to the same "deloitte.com" -- otherwise
-    they're treated as unrelated domains, which broke seed-level dedup
-    (seeds.md had both forms pointing at the same real site)."""
+    """Normalize a URL to a domain key for dedup and file naming. Strips a leading www, www2,
+    www3 ... so "www2.deloitte.com" and "www.deloitte.com" both become "deloitte.com"."""
     netloc = urlparse(url).netloc.lower()
     return re.sub(r"^www\d*\.", "", netloc)
 
@@ -175,24 +165,18 @@ def safe_filename(domain: str, url: str) -> str:
     return f"{domain}__{slugify(url)}.md"
 
 
-# A run of this many (or more) consecutive bare "[Text](url)" lines gets
-# dropped as a link farm (nav/footer/country-language-picker); see
-# strip_link_farms. A short list of a few featured links is legitimate
-# content and stays well under this.
+# A run of this many consecutive bare "[Text](url)" lines is dropped as a link farm (see
+# strip_link_farms). A short list of featured links stays well under this.
 LINK_FARM_MIN_RUN = 10
 _BARE_LINK_LINE_RE = re.compile(r"^(?:[-*]\s*)?\[[^\]]+\]\([^)]+\)\s*$")
 
 
 def strip_link_farms(text: str) -> str:
-    """Drop long runs of consecutive bare-markdown-link lines. This is the
-    signature of a nav/footer/country-language-picker block (e.g. EY's
-    country selector renders as 150+ lines of "[BotswanaEnglish](url)",
-    one link per line, no surrounding prose). PruningContentFilter's
-    general boilerplate heuristic catches this on some sites (it did for
-    Bain's near-identical office list) but not others, so this backstop
-    doesn't depend on the heuristic -- it just looks at the shape of the
-    text. Without it, a big enough link farm at the top of a page can push
-    classify.py's MAX_CHARS truncation past the real content entirely."""
+    """Drop long runs of consecutive bare-markdown-link lines, the signature of a navigation,
+    footer or country-picker block (EY's country selector is 150+ lines of
+    "[BotswanaEnglish](url)"). The pruning filter catches some of these but not all, so this
+    backstop looks at the shape of the text. Left in, a big link farm can push classify.py's
+    MAX_CHARS truncation past the real content."""
     lines = text.split("\n")
     out = []
     run = []
@@ -213,11 +197,8 @@ def strip_link_farms(text: str) -> str:
 
 
 def block_reason(text: str) -> str | None:
-    """Cheap heuristic check for a bot-check/consent wall instead of real
-    content. Returns a short reason string if the page looks blocked, else
-    None. Not perfect, but catches the common cases so junk doesn't eat
-    classify.py's LLM budget. `text` is the already-pruned Markdown, so no
-    HTML-tag stripping is needed here."""
+    """Cheap check for a bot-check or consent wall instead of real content. Returns a short
+    reason if the page looks blocked, else None. `text` is the already-pruned Markdown."""
     lowered = text.lower()
     for signal in BLOCK_SIGNALS:
         if signal in lowered:
@@ -329,10 +310,8 @@ def save_state(report):
 
 
 def dedupe_report(report):
-    """Keep only the most recent result per (label, url). The state file
-    accumulates across separate invocations (batches, reruns, smoke tests)
-    against the same data/ dir, so a seed processed twice would otherwise
-    show up twice in the final report."""
+    """Keep only the most recent result per (label, url), since the state file accumulates
+    across runs and a seed processed twice would otherwise appear twice in the report."""
     by_seed = {}
     for entry in report:
         by_seed[(entry[0], entry[1])] = entry

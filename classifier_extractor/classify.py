@@ -51,16 +51,11 @@ BUCKET_DIRS = {
 }
 VALID_LABELS = set(BUCKET_DIRS)
 
-MAX_CHARS = 24000  # cap page text sent to the LLM; crawl.py's strip_link_farms
-# already removes most boilerplate runs, this is just a defense-in-depth
-# margin in case a page still has an unusually long preamble before the
-# real content starts (truncation is from the front)
+MAX_CHARS = 24000  # cap on page text sent to the LLM (truncated from the front)
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s, 8s
-# If this many classifications in a row hard-error, stop the run instead of
-# grinding through the rest of the files; a systemic problem (bad API
-# key, endpoint down, quota exhausted) would otherwise burn through the
-# whole batch one failure at a time before anyone notices.
+# If this many classifications in a row hard-error, stop the run instead of grinding through
+# the rest; a systemic problem (bad API key, endpoint down) would otherwise fail every file.
 MAX_CONSECUTIVE_ERRORS = 5
 
 load_dotenv(ENV_PATH)
@@ -70,14 +65,9 @@ client = OpenAI(
     api_key=os.environ["SOCLAAS_API_KEY"],
     timeout=180,  # thinking is left on, which slows some pool models down
 )
-# No single MODEL constant; which model classifies a given page comes from
-# llm_pool.model_for_file(), one of MODEL_POOL. SOCLAAS_MODEL in
-# .env is no longer read here (kept in .env for other tooling/reference).
+# No single MODEL constant: llm_pool.model_for_file() picks one of MODEL_POOL per page.
 
-# Prompt text lives in prompts/classify_triage.md, not inline here; editing the taxonomy
-# or trying a reworded prompt is then a plain-text diff/swap, not a Python code change, and
-# the prompt's own history is a normal file history instead of being buried inside this
-# script's.
+# The prompt text lives in prompts/classify_triage.md, so editing it is not a code change.
 TRIAGE_PROMPT = (PROMPTS_DIR / "classify_triage.md").read_text(encoding="utf-8").strip()
 
 
@@ -118,13 +108,10 @@ def _call_llm(text: str, model: str) -> tuple:
 
 
 def classify_page(text: str, model: str) -> tuple:
-    """Classify with retries for transient failures (rate limits, timeouts).
-    Raises only once MAX_RETRIES attempts all fail -- callers treat that as
-    a hard error, not UNCERTAIN, since it means the classifier itself
-    failed, not that the page was ambiguous. `model` is fixed for the
-    whole call (all retries reuse it) -- a transient failure on one model
-    doesn't fall back to a different one, since that would silently break
-    the deterministic file->model assignment llm_pool.py relies on."""
+    """Classify with retries for transient failures (rate limits, timeouts). Raises only once
+    MAX_RETRIES attempts all fail; callers treat that as a hard error, not UNCERTAIN, since the
+    classifier failed rather than the page being ambiguous. `model` is fixed across retries,
+    because switching would break llm_pool's deterministic file->model assignment."""
     last_err = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -140,10 +127,8 @@ def classify_page(text: str, model: str) -> tuple:
 
 
 def load_manifest(manifest_path: Path) -> dict:
-    """Files already successfully classified. Records with status "error"
-    are excluded so a rerun retries them instead of skipping them
-    permanently -- a hard error means the classifier failed, not that the
-    file is done."""
+    """Files already successfully classified. Records with status "error" are excluded so a
+    rerun retries them."""
     done = {}
     if manifest_path.exists():
         with manifest_path.open("r", encoding="utf-8") as f:
@@ -159,27 +144,18 @@ def load_manifest(manifest_path: Path) -> dict:
 
 
 def _pending_files(already_done: dict) -> list:
-    """Files in data/pages/unprocessed/ not yet in the manifest. Re-globbed on
-    every call so --watch mode picks up files crawl.py saves while this
-    keeps running. A file already in the manifest but still physically
-    present here (a prior bucket-move that failed) is treated as done --
-    load_manifest already excludes hard errors, so this only happens for a
-    successful classification whose file-move hiccuped, and forcing a
-    re-classification of it would waste an LLM call for no reason."""
+    """Files in data/pages/unprocessed/ not yet in the manifest. Re-globbed on every call so
+    --watch mode picks up new files. A file in the manifest but still present here (its
+    bucket move failed) counts as done, since re-classifying it would waste an LLM call."""
     md_files = sorted(UNPROCESSED_DIR.glob("*.md"))
     return md_files, [f for f in md_files if f.name not in already_done]
 
 
 def _drain_stuck_moves(already_done: dict) -> None:
-    """A file can be classified successfully (recorded "ok" in the
-    manifest) and then fail the shutil.move into its bucket right
-    afterward -- OS hiccup, the process getting killed mid-move, etc.
-    _pending_files() treats anything in the manifest as done and never
-    looks at it again, so without this such a file is stuck in
-    unprocessed/ forever: correctly labeled, but never relocated and never
-    retried. Run once at startup to relocate any of these before the main
-    loop starts, using the label already on record -- no LLM call needed,
-    the classification itself was never in question."""
+    """A file can be classified (recorded "ok") and then fail the move into its bucket, for
+    example if the process is killed mid-move. _pending_files() treats it as done, so without
+    this it would stay in unprocessed/ forever. Run once at startup to move any such file
+    using the label already on record, with no LLM call."""
     stuck = 0
     for fpath in sorted(UNPROCESSED_DIR.glob("*.md")):
         record = already_done.get(fpath.name)

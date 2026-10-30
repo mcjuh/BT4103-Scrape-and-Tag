@@ -61,10 +61,8 @@ CONDITIONS = {
 
 
 class Pacer:
-    """Spaces requests evenly across all worker threads. SOCLAAS returns a bare
-    429 with no rate-limit headers; measured, it lets a burst of ~60 through and
-    then sustains only ~1 request/s, so unpaced workers retry in lockstep and
-    most of the budget goes to 429s."""
+    """Spaces requests evenly across all worker threads. The API returns a bare 429 and
+    sustains only about 1 request/s, so unpaced workers retry in lockstep and waste calls."""
 
     def __init__(self, rps: float):
         self.gap, self.next_at, self.lock = 1.0 / rps, time.monotonic(), threading.Lock()

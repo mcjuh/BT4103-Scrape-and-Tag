@@ -88,9 +88,8 @@ BUCKET_DIRS = {
     "HIRER": PAGES_DIR / "hirer",
     "UNCERTAIN": PAGES_DIR / "uncertain",
 }
-# UNCERTAIN is, by classify.py's own definition, "a genuine PROVIDER profile
-# that also carries explicit HIRER signals"; so it's a provider candidate,
-# not a hirer one.
+# UNCERTAIN is a provider candidate: classify.py defines it as a provider profile that
+# also carries hirer signals.
 ENTITY_TYPE_FOR_LABEL = {
     "PROVIDER": "PROVIDER",
     "UNCERTAIN": "PROVIDER",
@@ -135,9 +134,8 @@ ENTITY_CONFIG = {
         "localise": None,
     },
 }
-# The CSV keeps the v1 text columns, derived from the v2 record by flat_columns(), so the
-# enricher, labeller and ranker import read the same columns as before; a few small structured
-# fields ride along. The nested record itself goes to the .jsonl / .json files.
+# The CSV keeps the v1 text columns (derived by flat_columns()) so the enricher, labeller and
+# ranker import read the same columns as before. The nested record goes to the .jsonl / .json files.
 CSV_COLUMNS = {
     "HIRER": ["extracted_by_model", "source_company", "source_company_team", "hire_title",
               "hire_description", "hire_description_additional_notes", "hirer_ref",
@@ -148,9 +146,8 @@ CSV_COLUMNS = {
 # Record fields that aren't text a reader sees, so the checks that scan a record's wording skip them.
 NON_TEXT_FIELDS = {"source_file", "extracted_by_model", "hirer_ref", "name", "availability", "rate",
                    "tags", "duration_weeks_min", "duration_weeks_max", "years_experience"}
-# Copied from industry.py's manifest, never asked of the LLM either. A file
-# industry.py hadn't tagged when it was extracted gets blanks until the next
-# --backfill-industries.
+# Copied from industry.py's manifest, not asked of the LLM. Files industry.py hadn't tagged
+# get blanks until --backfill-industries.
 INDUSTRY_FIELDS = ("industry", "secondary_industry", "taxonomy_version")
 # The SkillsFuture tags (taxonomy.py): written by code from tag_record()'s result, never
 # asked of the extraction prompts, so they stay out of the schemas.
@@ -161,10 +158,8 @@ MAX_CHARS = 24000
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
 MAX_CONSECUTIVE_ERRORS = 5
-# Per call, a guard against a model developing qwen3.8:27b's runaway output
-# again (11,832 median completion tokens with thinking on). Thinking off, the
-# largest record seen was 655 tokens across BOTH provider passes, and a
-# review is ~125. A reply cut off here fails loudly rather than as bad JSON.
+# Per-call cap that guards against runaway output. With thinking off, the largest record seen
+# was 655 tokens across both provider passes. A cut-off reply fails loudly, not as bad JSON.
 MAX_COMPLETION_TOKENS = 1500
 
 GENERIC_TITLE_BLOCKLIST = {
@@ -209,9 +204,8 @@ for _cfg in ENTITY_CONFIG.values():
     _cfg["validator"] = Draft7Validator(_schema)
     _cfg["props"] = _schema["properties"]
     _cfg["properties"] = list(_schema["properties"])
-    # What the extraction prompts are asked for: the fields the schema marks x-filled-by "llm".
-    # The others are written by code (source_file, hirer_ref, tags, ...), by the enricher, or
-    # left empty (name), so the LLM is never asked for them.
+    # What the prompts ask for: the fields the schema marks x-filled-by "llm". Code or the
+    # enricher fills the rest, so the LLM is never asked for them.
     _cfg["llm_fields"] = {
         k: v.get("description", "") for k, v in _schema["properties"].items() if v.get("x-filled-by") == "llm"
     }
@@ -224,9 +218,8 @@ for _cfg in ENTITY_CONFIG.values():
 
 VARIATIONS = json.loads((PROMPTS_DIR / "extract_variations.json").read_text(encoding="utf-8"))
 
-# The tagging step (tag_record): one call picks the category/specialisation, a second picks
-# the skills from the chosen tracks' own list. What differs per entity type is the wording
-# and which fields of the finished record the model reads.
+# Tagging (tag_record): one call picks category/specialisation, a second picks skills from the
+# chosen tracks. The wording and the fields read differ per entity type.
 TAG_TEMPLATES = {k: (PROMPTS_DIR / f"tag_{k}.md").read_text(encoding="utf-8").strip()
                   for k in ("specialisation", "skills")}
 TAG_ENTITY = {
@@ -350,11 +343,10 @@ def parse_duration_weeks(text) -> tuple:
 
 
 def _normalise(value, prop: dict):
-    """A model's value for one schema property, tidied so a near-miss isn't a failed record: a
-    list field given as null, one object or a bulleted string becomes a list; blank strings and
-    empty items go; a list is cut to its maxItems; a number given as "20 years" becomes 20; an
-    object missing a required part (a service with no detail) is dropped as an item. What is
-    still wrong afterwards is left for the schema check to reject."""
+    """Tidy a model's value for one schema property so a near-miss isn't a failed record: lists
+    given as null, one object or a bulleted string become lists, blanks are dropped, lists are
+    cut to maxItems, and "20 years" becomes 20. Whatever is still wrong is left for the schema
+    check to reject."""
     types = _types(prop)
     if "array" in types:
         items = prop.get("items", {})
@@ -432,18 +424,10 @@ LEFTOVER_PRONOUN_RE = re.compile(r"\b(he|him|his|she|her|hers|himself|herself)\b
 
 
 def mask_publisher(text: str, fname: str) -> str:
-    """Swap the publishing firm's names (its domain stem plus
-    PUBLISHER_ALIASES) for "the firm" before the model reads the page. A bio
-    names its firm in nearly every sentence, so asking the model to leave it
-    out isn't enough on its own.
-
-    Also swallows up to two capitalised words right after the name (e.g.
-    "PwC Canada", "BCG Institute", "Alvarez & Marsal GmbH"): otherwise only
-    the name is replaced and the qualifier is left dangling ("the firm
-    Canada"), which reads as broken grammar and leaks exactly the kind of
-    detail this masking exists to hide. The extension is case-sensitive
-    (unlike the name match) so it only grabs genuine proper-noun
-    continuations, not ordinary words that happen to follow."""
+    """Swap the publishing firm's names (its domain stem plus PUBLISHER_ALIASES) for "the firm"
+    before the model reads the page. Also swallows up to two capitalised words after the name
+    ("PwC Canada", "Alvarez & Marsal GmbH"), so no qualifier is left dangling. That extension
+    is case-sensitive so ordinary words are not grabbed."""
     stem = fname.split("__")[0].rsplit(".", 1)[0]
     for name in sorted([stem, *PUBLISHER_ALIASES.get(stem, [])], key=len, reverse=True):
         text = re.sub(
@@ -535,9 +519,8 @@ PROMPT_EXAMPLE_LEAKS = (
     # honest description of hka.com's experts, so it blocked real records
 )
 
-# Records are anonymised: the text a gig or profile shows must not name the
-# firm that published the page. A domain's own stem (e.g. "kroll") is always
-# checked; these are the other names a publisher goes by.
+# Records are anonymised: the text must not name the publishing firm. The domain stem
+# (e.g. "kroll") is always checked; these are the other names a publisher goes by.
 PUBLISHER_ALIASES = {
     "alvarezandmarsal": ["Alvarez & Marsal", "Alvarez and Marsal"],
     "bcg": ["Boston Consulting Group"],
@@ -550,10 +533,9 @@ PUBLISHER_ALIASES = {
     "rsmus": ["RSM"],
     "westmonroe": ["West Monroe"],
 }
-# Products that carry the publisher's name are tools, which the prompts say to
-# keep ("IBM Power Systems" is a requirement, not the firm). Masked before the
-# name check, which otherwise rejected every IBM case study built around one.
-# Divisions ("IBM Consulting", "IBM Garage") are deliberately not listed.
+# Products that carry the publisher's name are tools the prompts say to keep ("IBM Power
+# Systems" is a requirement, not the firm), so they are masked before the name check.
+# Divisions ("IBM Consulting") are deliberately not listed.
 PUBLISHER_PRODUCTS = {
     "ibm": ["Cloud", r"Power\w*", r"watsonx(?:\.\w+)?", r"Watson\w*", "FlashSystem", "Spectrum",
             "Instana", "Storage", "Granite", "Turbonomic", "Z", "i", "Quantum", "Apptio", "WebSphere",
@@ -564,12 +546,9 @@ ORG_FIELDS = ("source_company", "source_company_team")  # metadata, allowed to n
 
 
 def _join_items(items: list):
-    """Models often itemise a multi-line field (relevant_experience) as a
-    JSON list or dict; the schema wants one string, so join it as "- "
-    lines. For a dict: filled values become "key: value" lines; with no
-    values, keys are kept only if they read as items (sentences, e.g.
-    {"- Chaired a charity committee.": {}}), not labels (e.g.
-    {"budget": null, "timeline": null} -> None)."""
+    """Models often itemise a multi-line field as a JSON list or dict, but the schema wants one
+    string, so join it as "- " lines. For a dict, filled values become "key: value" lines; with
+    no values, keys are kept only if they read as items (sentences), not labels."""
     if isinstance(items, dict):
         filled = [(k, v) for k, v in items.items() if isinstance(v, str) and v.strip()]
         if filled:
@@ -609,22 +588,19 @@ def _named_org(fname: str, doc: dict):
 
 class ContentRejected(ValueError):
     """A reply the content checks refuse: it copied a prompt example, names the publisher, or
-    leaves a gig without its title or description. Retried like any bad reply, but if it is
-    still refused after the retries the page is REJECTED, not left as a retryable error: the
-    same model, routed by file name, gives the same answer on every rerun."""
+    lacks a gig title or description. Retried like any bad reply; if still refused, the page is
+    REJECTED rather than errored, since the same model gives the same answer on every rerun."""
 
 
 def _entity_doc(data: dict, entity_type: str, fname: str, model: str, source: str = "",
                 base: dict = None, allowed=None):
-    """A parsed extraction response -> schema-valid record, or None for {}.
-    Raises on a schema mismatch, so the caller retries it like any failure.
+    """A parsed extraction response -> schema-valid record, or None for {}. Raises on a schema
+    mismatch so the caller retries.
 
     `allowed` is the fields this pass may return (default: every LLM field), and `base` the
-    record so far, for a pass that returns only some of them (the provider style pass): the
-    reply is merged over it before the schema check. A key the schema has but this pass doesn't
-    own (name, tags, ...) is dropped, never trusted; a key the schema doesn't have is an error.
-    A restyle that returns nothing for a field the record already has keeps the old value, so a
-    pass can't lose content."""
+    record so far, for a pass that returns only some fields: the reply is merged over it before
+    the schema check. Keys the pass doesn't own are dropped, unknown keys are an error, and a
+    blank reply for a field the record already has keeps the old value."""
     if data == {}:
         return None
     cfg = ENTITY_CONFIG[entity_type]
@@ -683,15 +659,12 @@ def _review_verdict(data: dict) -> dict:
 
 
 def _call_with_retries(model: str, content: str, validate, feedback: bool = False) -> tuple:
-    """Returns (validate(parsed JSON), usage, hidden_reasoning). A parse or
-    validation failure is retried just like an API error. `model` stays
-    fixed for every retry -- falling back to another would break the
-    deterministic file->model assignment llm_pool.py relies on.
+    """Returns (validate(parsed JSON), usage, hidden_reasoning). A parse or validation failure
+    is retried like an API error. `model` stays fixed across retries, because switching would
+    break llm_pool's deterministic file->model assignment.
 
-    `feedback`: a retry after a REPLY was rejected (not after an API error) restates
-    the reason, so the model isn't asked the same question again. Used by the tagging
-    calls, where the rejection is specific and fixable ("track X is not listed under
-    sector Y") and the same prompt kept getting the same wrong pair."""
+    `feedback`: after a rejected REPLY (not an API error) the retry restates the reason, so
+    the model isn't asked the same question again. Used by the tagging calls."""
     last_err, prompt = None, content
     for attempt in range(1, MAX_RETRIES + 1):
         replied = False
@@ -726,9 +699,8 @@ def _shown_text(entity_type: str, doc: dict) -> list:
 # A repair that blanks one of these has traded a foreign phrase for lost content.
 _KEEP_FILLED = ("about_bio", "services", "achievements")
 MAX_LOCALISE_PASSES = 2
-# Said to the repair prompt when a profile never mentions Singapore. The client's own
-# providers all name a Singapore body or place ("former SFA inspector", "Singapore Mediation
-# Centre"); a profile with none reads as written for another market.
+# Said to the repair prompt when a profile never mentions Singapore. The client's providers
+# all name a Singapore body or place; one with none reads as written for another market.
 NO_ANCHOR_NOTE = ("The record never mentions Singapore, S$ or any Singapore law, regulator or scheme. In "
                   "services_offered_description make the \"who it is for\" clause name Singapore businesses "
                   "(e.g. \"for Singapore SMEs and family businesses\") and, where one plainly governs the "
@@ -739,20 +711,16 @@ NO_ANCHOR_NOTE = ("The record never mentions Singapore, S$ or any Singapore law,
 
 
 def localise_provider(doc: dict, extract_call, kwargs: dict) -> tuple:
-    """Singapore-set check on a finished provider record (localisation.py), then up to
-    MAX_LOCALISE_PASSES repair passes (prompts/repair_localise_provider.md), each given
-    exactly what is still wrong. A record is flagged for either of two things: foreign
-    phrases, or no Singapore anchor at all (no mention of Singapore, S$ or a Singapore
-    regulator, law or scheme). The prompts already ask for a Singapore setting, but the
-    pool's models follow that unevenly and can't be trusted to grade themselves, so this
-    is the deterministic net.
+    """Singapore check on a finished provider record (localisation.py), then up to
+    MAX_LOCALISE_PASSES repair passes (prompts/repair_localise_provider.md), each told exactly
+    what is still wrong. A record is flagged for foreign phrases or for having no Singapore
+    anchor at all. The prompts already ask for a Singapore setting, but the models follow that
+    unevenly, so this is the deterministic net.
 
-    A pass's rewrite replaces the record only if it has fewer problems and no field that
-    had text went blank; the first pass that doesn't improve things ends the loop, so a
-    phrase the model keeps on purpose isn't re-asked forever. A leftover is not an error,
-    since some are right to keep (a foreign-market specialism): the manifest records what
-    was flagged, what remained and how many passes ran, so the rate can be measured and
-    filtered. Returns (doc, meta)."""
+    A rewrite replaces the record only if it has fewer problems and no field went blank, and
+    the first pass that doesn't improve things ends the loop. A leftover is not an error (some
+    are right to keep); the manifest records what was flagged and what remained. Returns
+    (doc, meta)."""
     shown = lambda d: _shown_text("PROVIDER", d)
     problems = lambda d: (localisation.foreign_residue(shown(d)), not localisation.singapore_anchor(shown(d)))
     cost = lambda p: len(p[0]) + (1 if p[1] else 0)
@@ -783,16 +751,14 @@ def localise_provider(doc: dict, extract_call, kwargs: dict) -> tuple:
 
 
 def tag_record(entity_type: str, doc: dict, fname: str) -> tuple:
-    """SkillsFuture tags for a finished record, read from its own text (not the source
-    page: the ranker compares gig tags with provider tags, so they have to describe the
-    records it sees). Two calls to one model, chosen by file name with its own stage salt
-    so tagging diversifies independently of extraction:
+    """SkillsFuture tags for a finished record, read from its own text (the ranker compares gig
+    tags with provider tags, so they must describe the records it sees). Two calls to one
+    model, chosen by file name with its own stage salt:
       1. category + specialisation (sector + track pairs, at most 3 tracks in 2 sectors),
       2. skills from the chosen tracks' own lists (taxonomy.skills_block), 1-8.
-    Returns (the record's `tags` block, meta). The block has an empty `categories` list when
-    the record fits no track -- a valid result, so no skills are asked for. An invalid reply
-    is retried like any failure and errors the file if it never validates, so it's redone
-    from scratch next run."""
+    Returns (the record's `tags` block, meta). `categories` is empty when the record fits no
+    track, which is valid, so no skills are asked for. An invalid reply is retried and errors
+    the file if it never validates."""
     cfg = TAG_ENTITY[entity_type]
     model = model_for_file(fname, "tag")
     record = "RECORD:\n```json\n" + json.dumps(
@@ -817,20 +783,18 @@ def tag_record(entity_type: str, doc: dict, fname: str) -> tuple:
         (skills, dropped), why = ask("skills", lambda d: (taxonomy.parse_skills(d, pairs), d.get("reason")),
                                      skills_block=taxonomy.skills_block(pairs))
     except ValueError as e:
-        # The model kept giving a sector/track pair the framework doesn't have, even after being
-        # told so. The extraction itself is fine, so the record is written untagged (and the
-        # reason kept) instead of discarded. Only a REPLY failing validation lands here: an API
-        # failure (a 429, a timeout) is not a ValueError and still errors the file for a rerun.
+        # The model kept giving a sector/track pair the framework doesn't have. The extraction
+        # itself is fine, so the record is written untagged (reason kept) instead of discarded.
+        # Only a reply failing validation lands here; an API failure still errors the file.
         return taxonomy.nest([], []), {**meta, "no_fit": True, "tag_error": str(e)[:200]}
     return taxonomy.nest(pairs, skills), {**meta, "reason_skills": why, "dropped_skills": dropped}
 
 
 def extract_entity(text: str, entity_type: str, model: str, fname: str) -> tuple:
-    """Runs the entity type's prompt passes in order, then, if it has a
-    review prompt, the grounding review, at most one repair, and a second
-    review of that repair. Returns
-    (document or None if the page doesn't qualify, the extracting model's
-    usage, meta). The reviewer's own usage is kept in meta["review"]."""
+    """Runs the entity type's prompt passes in order, then, if it has a review prompt, the
+    grounding review, at most one repair, and a second review of that repair. Returns
+    (document or None if the page doesn't qualify, the extracting model's usage, meta). The
+    reviewer's own usage is in meta["review"]."""
     cfg = ENTITY_CONFIG[entity_type]
     rolls, picked = roll_variations(entity_type, fname)
     kwargs = prompt_kwargs(entity_type, fname, rolls)
@@ -946,25 +910,17 @@ def record_metrics(entity_type: str, doc: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 def csv_fields(entity_type: str) -> list:
-    """source_file first, then CSV_COLUMNS (the v1 text columns, derived from the v2
-    record by flat_columns(), plus a few structured fields), then bookkeeping.
-    time_taken_by_model is the seconds spent extracting the row: every model
-    call for it (a hirer's review and repair included) plus any retry waits.
+    """source_file first, then CSV_COLUMNS (the v1 text columns derived by flat_columns(), plus a
+    few structured fields), then bookkeeping. time_taken_by_model is the seconds spent
+    extracting the row, including a hirer's review and repair and any retry waits.
 
-    The roll_* tail is this entity type's style rolls from
-    extract_variations.json -- which wording variant produced this row. They
-    were only in the extract manifest before, which meant anyone reading
-    the CSV on its own couldn't tell a "Minimal"-detail gig from a
-    "Standard" one, or check whether a variant correlates with weaker rows.
-    Column names come from the variations file, so adding a roll there adds
-    its column here (and, as ever, changes the header -- see
-    check_csv_headers).
+    The roll_* tail is this entity type's style rolls from extract_variations.json, so the CSV
+    shows which wording variant produced each row. Adding a roll there adds its column here
+    (and changes the header, see check_csv_headers).
 
-    INDUSTRY_FIELDS come from industry.py's manifest, so the CSVs can be
-    split or balanced by industry without a join (see backfill_industries).
-    TAG_FIELDS are the SkillsFuture category / specialisation / skills tags
-    (taxonomy.py): flat " | "-joined columns plus tags_json, the same tags nested
-    category -> specialisation -> skills."""
+    INDUSTRY_FIELDS come from industry.py's manifest, so the CSVs can be split by industry
+    without a join. TAG_FIELDS are the SkillsFuture tags: flat " | "-joined columns plus
+    tags_json, the nested form."""
     return (["source_file", *CSV_COLUMNS[entity_type]]
             + ["classify_label", *INDUSTRY_FIELDS, *TAG_FIELDS, "extracted_at", "time_taken_by_model"]
             + [f"roll_{k}" for k in VARIATIONS.get(entity_type, {})])
@@ -972,9 +928,8 @@ def csv_fields(entity_type: str) -> list:
 
 def finalize_record(entity_type: str, doc: dict, tags: dict) -> dict:
     """The full v2 record (ML_*_schema_v2.json) for a finished extraction: the LLM-written
-    fields, the ones code fills (name stays null, availability and rate are the enricher's,
-    hirer_ref and the duration weeks), and the tags block, in schema order, validated against
-    the whole schema. Raises if it doesn't validate, which would be a bug here, not a bad reply."""
+    fields, the ones code fills, and the tags block, in schema order and validated against the
+    schema. Raises if it doesn't validate, which would be a bug here, not a bad reply."""
     cfg = ENTITY_CONFIG[entity_type]
     rec = {}
     for k, prop in cfg["props"].items():
@@ -1040,10 +995,9 @@ def append_jsonl(path: Path, rec: dict) -> None:
 
 
 def export_json() -> None:
-    """Collect each entity type's .jsonl of nested v2 records into a .json array next to it
-    (hirers.json, providers.json): one record per source file, the latest winning, so a rerun
-    after a rejection or a schema fix doesn't duplicate. Run at the end of every extraction and
-    on its own with --export-json."""
+    """Collect each entity type's .jsonl of v2 records into a .json array next to it
+    (hirers.json, providers.json), one record per source file with the latest winning. Runs at
+    the end of every extraction and on its own with --export-json."""
     for entity_type, cfg in ENTITY_CONFIG.items():
         src = cfg["jsonl"]
         if not src.exists():
@@ -1059,11 +1013,9 @@ def export_json() -> None:
 
 
 def _csv_safe(v):
-    """Guard against CSV-formula injection if this is ever opened in Excel/
-    Sheets straight off disk -- a page's scraped text is untrusted input.
-    "-" is excluded: a text field a model itemised is joined by _join_items()
-    as "- " lines, so guarding it would prepend a stray apostrophe onto
-    bulleted fields instead of only ones a source could actually weaponise."""
+    """Guards against CSV-formula injection if the file is opened in Excel or Sheets, since
+    scraped text is untrusted. "-" is excluded because itemised fields are joined as "- " lines
+    and would otherwise get a stray apostrophe."""
     s = "" if v is None else str(v)
     return "'" + s if s[:1] in ("=", "+", "@", "\t", "\r") else s
 
@@ -1097,12 +1049,10 @@ def check_csv_headers() -> None:
 
 
 def backfill_industries() -> None:
-    """Rewrites both CSVs with the current industry tags, joined on
-    source_file -- no LLM calls, nothing re-extracted. Also migrates a CSV
-    whose header predates newer code-filled columns (they're added, blank
-    unless filled here). Refuses a CSV with columns the current code doesn't
-    know, since that means a schema change, not a missing column. The first
-    rewrite keeps a copy as <name>.pre_industry.bak."""
+    """Rewrites both CSVs with the current industry tags, joined on source_file, with no LLM
+    calls. Also adds columns that newer code fills (blank unless filled here). Refuses a CSV
+    with columns the code doesn't know, since that means a schema change. The first rewrite
+    keeps a copy as <name>.pre_industry.bak."""
     industries = load_industries()
     for entity_type, cfg in ENTITY_CONFIG.items():
         path, fields = cfg["csv"], csv_fields(entity_type)
@@ -1177,28 +1127,14 @@ def load_industries() -> dict:
 
 
 def balance_pending(pending: list, per_cell: int = None) -> list:
-    """Reorder `pending` so extraction spends its calls evenly across
-    (entity_type, industry) cells instead of working through the manifest in
-    order.
+    """Reorder `pending` so extraction spends its calls evenly across (entity_type, industry)
+    cells instead of following manifest order, which is dominated by the domains that produced
+    the most pages (kroll, bcg and alvarezandmarsal are about 47% of everything extractable).
 
-    Manifest order is crawl order, which is dominated by whichever domains
-    produced the most pages -- kroll, bcg and alvarezandmarsal are ~47% of
-    everything extractable. Extracting in that order reproduces the
-    imbalance in the output CSVs no matter how many rows get written.
-
-    So: group by cell, then round-robin across cells, taking one file from
-    each in turn. A cell that runs out simply drops out of the rotation --
-    that costs nothing, because a rare industry with 3 files should still
-    contribute all 3. `per_cell` additionally caps how many files any one
-    cell may contribute this run; files over the cap stay pending rather
-    than being spent, so raising the cap later picks up exactly where this
-    left off.
-
-    Files industry.py hasn't tagged yet go in their own "(untagged)" cell
-    rather than being dropped -- extraction shouldn't stall just because
-    tagging is still catching up -- but they're one cell among many, so they
-    can't dominate the run either. Order within a cell is left as-is, so a
-    rerun with the same inputs produces the same order."""
+    Files are grouped by cell and taken round-robin, one per cell; a cell that runs out drops
+    out of the rotation. `per_cell` caps how many files one cell contributes this run, and the
+    rest stay pending. Files industry.py hasn't tagged go in an "(untagged)" cell so extraction
+    doesn't stall. Order within a cell is unchanged, so a rerun gives the same order."""
     industries = load_industries()
     cells = {}
     for fname, label in pending:
@@ -1237,10 +1173,9 @@ def load_extract_progress() -> dict:
 # ---------------------------------------------------------------------------
 
 def process_file(fname: str, label: str, industry: dict = None) -> tuple:
-    """Extracts one file and returns (manifest record, CSV row or None, log
-    line). Writes nothing itself, so several can run at once (--workers)
-    while main() stays the only writer. `industry` is the file's record from
-    data/manifests/industry.jsonl, if it has one."""
+    """Extracts one file and returns (manifest record, CSV row or None, log line). Writes
+    nothing itself, so several can run at once (--workers) while main() stays the only writer.
+    `industry` is the file's record from data/manifests/industry.jsonl, if any."""
     entity_type = ENTITY_TYPE_FOR_LABEL[label]
     cfg = ENTITY_CONFIG[entity_type]
     bucket = label.lower()

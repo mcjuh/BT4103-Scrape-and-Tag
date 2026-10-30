@@ -61,9 +61,7 @@ MAX_CHARS = 24000  # same cap as classify.py/extract.py; truncation is from the 
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
 MAX_CONSECUTIVE_ERRORS = 5
-# The answer is one line of JSON (41-75 completion tokens per page under the
-# subject taxonomy, thinking off). The cap is a guard against runaway output,
-# not a limit a normal answer comes near.
+# The answer is one line of JSON. The cap only guards against runaway output.
 MAX_COMPLETION_TOKENS = 300
 PID_PATH = LOGS_DIR / "industry.pid"  # read by monitor/dashboard.py for an exact RUNNING state
 
@@ -84,7 +82,7 @@ VALID_INDUSTRIES = set(INDUSTRIES)
 
 def _industry_block() -> str:
     """The prompt's industry list, generated from industry_taxonomy.json so
-    the taxonomy file is the only place a label is defined -- the same reason
+    the taxonomy file is the only place a label is defined; the same reason
     extract.py generates its {field_block} from the JSON schemas."""
     lines = []
     for i in TAXONOMY["industries"]:
@@ -125,10 +123,9 @@ def _match(name: str):
 
 
 def parse_industry(raw_output: str) -> dict:
-    """Pull the industry fields out of the model's response. Never raises: an
-    unparseable or out-of-taxonomy answer becomes OTHER with the problem in
-    `reason`, so a malformed response is visible in the report as an OTHER
-    rather than silently vanishing or crashing the run."""
+    """Pull the industry fields out of the model's response. Never raises: an unparseable or
+    out-of-taxonomy answer becomes OTHER with the problem in `reason`, so it shows up in the
+    report instead of crashing the run."""
     text = raw_output.strip()
     if text.startswith("```"):
         text = text.strip("`")
@@ -187,11 +184,9 @@ def _call_llm(text: str, model: str) -> tuple:
 
 
 def classify_industry(text: str, model: str) -> tuple:
-    """Tag with retries for transient failures. Raises only once MAX_RETRIES
-    attempts all fail -- that is a hard error (the tagger failed), not an
-    OTHER (the page was ambiguous). `model` is fixed across retries so a
-    transient failure can't silently break the deterministic file->model
-    assignment llm_pool.py relies on."""
+    """Tag with retries for transient failures. Raises only once MAX_RETRIES attempts all fail,
+    which is a hard error (the tagger failed), not an OTHER (the page was ambiguous). `model` is
+    fixed across retries, because switching would break llm_pool's file->model assignment."""
     last_err = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -248,7 +243,7 @@ def load_progress() -> dict:
 
 def process_file(fname: str, label: str) -> tuple:
     """Tags one file and returns (manifest record, log line). Pure apart from
-    the LLM call, so it is safe to run in a thread pool -- only the main
+    the LLM call, so it is safe to run in a thread pool; only the main
     thread writes the manifest."""
     model = model_for_file(fname, "industry")
     path = BUCKET_DIRS[label] / fname
@@ -325,7 +320,7 @@ def _bar(n: int, top: int, width: int = 32) -> str:
 
 def report() -> None:
     """Print the industry distribution from data/manifests/industry.jsonl.
-    Read-only, no LLM calls -- safe to run while a tagging run is going."""
+    Read-only, no LLM calls; safe to run while a tagging run is going."""
     if not INDUSTRY_MANIFEST_PATH.exists():
         print(f"No {INDUSTRY_MANIFEST_PATH.name} yet -- run industry.py first.")
         return

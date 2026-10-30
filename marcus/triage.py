@@ -80,7 +80,7 @@ def clean_html(html_content: str) -> str:
 
 
 def parse_label(raw_output: str) -> dict:
-    """Pull {label, reason} out of the model's response. Never raises — anything
+    """Pull {label, reason} out of the model's response. Never raises; anything
     that doesn't parse cleanly gets routed to UNCERTAIN for manual review."""
     text = raw_output.strip()
     if text.startswith("```"):

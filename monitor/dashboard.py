@@ -75,10 +75,8 @@ def _last_run(text: str) -> str:
 
 
 def _total_seeds() -> int:
-    """Seed count straight from seeds.md, which is the actual input config,
-    rather than a "Loaded N total seed URLs" line in whichever log happens to
-    be newest. Adding seeds to the file should move this number immediately,
-    without waiting for a crawl to start."""
+    """Seed count straight from seeds.md, the actual input config, so adding a seed moves this
+    number immediately, without waiting for a crawl to start."""
     return len(SEED_URL_RE.findall(_read_text(SEEDS_PATH)))
 
 
@@ -90,10 +88,8 @@ def _read_text(path: Path) -> str:
 
 
 def _read_jsonl(path: Path) -> list:
-    """Every parseable record in a .jsonl. A half-written final line (a
-    script flushing mid-append while this reads) is skipped rather than
-    raising -- the dashboard must never fall over because a writer was
-    mid-write."""
+    """Every parseable record in a .jsonl. A half-written final line (a script mid-append) is
+    skipped, so the dashboard never fails because a writer was mid-write."""
     records = []
     if not path.exists():
         return records
@@ -132,12 +128,10 @@ def _pid_alive(pid: int) -> bool:
 
 
 def _script_alive(pid_path: Path) -> bool:
-    """Is the PID a script wrote at startup still alive? Every pipeline
-    script writes logs/<stage>.pid and removes it on exit. It's the only
-    reliable "running" signal: the crawl log can go silent for a whole seed
-    (up to 30 min), an LLM stage can sit on one slow call for minutes, and a
-    crash or Ctrl+C never writes a closing line. A hard kill leaves a stale
-    PID file behind, which the liveness check handles."""
+    """Is the PID a script wrote at startup still alive? Every pipeline script writes
+    logs/<stage>.pid and removes it on exit. This is the only reliable "running" signal, since
+    a log can go silent for minutes and a crash never writes a closing line. A stale PID file
+    left by a hard kill is handled by the liveness check."""
     try:
         pid = int(pid_path.read_text(encoding="utf-8").strip())
     except (OSError, ValueError):
@@ -146,10 +140,8 @@ def _script_alive(pid_path: Path) -> bool:
 
 
 def _run_state(pid_name: str) -> str:
-    # A script launched from here counts as running from the moment it starts,
-    # not only once it has written its PID file; extract.py loads spaCy and
-    # crawl.py imports crawl4ai first, and a second click in that gap would
-    # otherwise launch it twice.
+    # A script launched from here counts as running from the moment it starts, not only once
+    # it has written its PID file, so a second click during slow imports cannot launch it twice.
     proc = LAUNCHED.get(pid_name)
     if proc is not None and proc.poll() is None:
         return "running"
@@ -160,11 +152,9 @@ def _run_state(pid_name: str) -> str:
 # Launching / stopping scripts from the page
 # ---------------------------------------------------------------------------
 
-# The only commands the page can run. It sends a stage key and option values,
-# never a command line: the script and fixed flags come from here, every
-# option is a positive integer parsed server-side before it becomes an
-# argument, and every choice must be one of the values listed here. Nothing
-# goes through a shell.
+# The only commands the page can run. It sends a stage key and option values, never a
+# command line. Options are positive integers parsed server-side, choices must be listed
+# here, and nothing goes through a shell.
 LAUNCHABLE = {
     "crawl": {"script": "scraper/crawl.py", "fixed": ["--concurrency", "1"], "options": {}},
     "classify": {"script": "classifier_extractor/classify.py", "fixed": [], "options": {}},
@@ -181,9 +171,8 @@ LAUNCH_LOCK = threading.Lock()
 # crawl4ai's memory dispatcher silently throttles to zero pages below this
 # (a run at 0.3 GB free saved nothing from 98 of 121 seeds).
 CRAWL_MIN_FREE_GB = 8.0
-# Required on every launch/stop request. It's only ever sent inside the page
-# itself, which another site's script can't read, so a random web page can't
-# POST to localhost and start a run.
+# Required on every launch/stop request. It is only sent inside the page, which another
+# site's script can't read, so a random web page can't POST to localhost and start a run.
 TOKEN = secrets.token_urlsafe(24)
 
 
@@ -344,9 +333,8 @@ def _stage(key, name, script, state, processed, queue, **extra) -> dict:
 # ---------------------------------------------------------------------------
 
 def crawl_state() -> list:
-    """Raw per-seed results from data/manifests/crawl_state.json: crawl.py's own
-    structured record of every seed it has finished (or given up on),
-    independent of what's still in the text log. Each entry is
+    """Raw per-seed results from data/manifests/crawl_state.json, crawl.py's own record of
+    every seed it has finished or given up on. Each entry is
     [label, url, status, note, saved_count]."""
     if not STATE_PATH.exists():
         return []
@@ -357,13 +345,8 @@ def crawl_state() -> list:
 
 
 def crawl_stage(state: list) -> dict:
-    """Seeds, not pages, are the crawler's unit of work.
-
-    A seed counts as PROCESSED only if it actually saved something. That
-    matches crawl.py's own rule -- it retries any seed with saved_count == 0
-    rather than treating it as done -- and it stops the dashboard reporting
-    a green 86/86 while 63 of those seeds have never produced a page, which
-    is exactly what it used to do."""
+    """Seeds, not pages, are the crawler's unit of work. A seed counts as PROCESSED only if it
+    saved something, matching crawl.py's own rule of retrying any seed with saved_count == 0."""
     content = _last_run(_read_text(LOGS_DIR / "crawl.log"))
     if _run_state("crawl") == "running":
         run_state = "running"
@@ -398,10 +381,8 @@ def crawl_stage(state: list) -> dict:
 
 
 def classify_stage(records: list) -> dict:
-    """Queue = whatever is physically sitting in data/pages/unprocessed/. That
-    folder is exactly "crawled, not yet classified" -- classify.py moves each
-    file out as it goes -- so the directory listing is the queue, no
-    bookkeeping needed."""
+    """Queue = whatever is in data/pages/unprocessed/, which is exactly "crawled, not yet
+    classified" since classify.py moves each file out as it goes."""
     ok = [r for r in records if r.get("status") != "error"]
     errors = sum(1 for r in records if r.get("status") == "error")
     queue = len(list(UNPROCESSED_DIR.glob("*.md"))) if UNPROCESSED_DIR.exists() else 0
@@ -425,10 +406,8 @@ def classify_stage(records: list) -> dict:
 
 
 def industry_stage(downstream_files: set) -> dict:
-    """Stage 3: the industry tag. Its queue is every PROVIDER/HIRER/UNCERTAIN
-    file classify.py has produced that it hasn't tagged yet -- the same set
-    extract.py works from, which is why the two stages show the same total
-    and can be read against each other."""
+    """Stage 3: the industry tag. Its queue is every PROVIDER/HIRER/UNCERTAIN file classify.py
+    has produced that it hasn't tagged yet, the same set extract.py works from."""
     records = _read_jsonl(INDUSTRY_MANIFEST_PATH)
     ok = [r for r in records if r.get("status") == "ok"]
     errors = sum(1 for r in records if r.get("status") == "error")
@@ -438,9 +417,8 @@ def industry_stage(downstream_files: set) -> dict:
     top = sorted(industries.items(), key=lambda kv: -kv[1])[:6]
     taxonomy = ok[-1].get("taxonomy_version") if ok else None
 
-    # The full spread for the Industry panel: every industry in the taxonomy,
-    # including ones with no pages yet (those are the seeding targets), split
-    # by which CSV a page would feed. UNCERTAIN extracts as a provider.
+    # The spread for the Industry panel: every industry in the taxonomy, including ones with no
+    # pages yet, split by which CSV a page would feed. UNCERTAIN extracts as a provider.
     names = _taxonomy_industries()
     names += sorted(n for n in industries if n not in names)  # a label the taxonomy no longer has
     side = {"PROVIDER": "provider", "UNCERTAIN": "provider", "HIRER": "hirer"}
@@ -481,11 +459,9 @@ def _taxonomy_industries() -> list:
 
 
 def extract_stage(downstream_files: set) -> dict:
-    """Queue is the same downstream set as the industry stage, minus whatever
-    already has a terminal extract record. "Processed" counts rejected rows
-    too -- a page the model judged non-qualifying is finished work, not
-    backlog, and lumping it into the queue would make the stage look
-    permanently behind."""
+    """Queue is the same downstream set as the industry stage, minus files with a final extract
+    record. "Processed" counts rejected rows too, since a page judged non-qualifying is
+    finished work, not backlog."""
     records = _read_jsonl(EXTRACT_MANIFEST_PATH)
     done = {r["file"] for r in records if r.get("status") in ("written", "rejected")}
     written = sum(1 for r in records if r.get("status") == "written")
@@ -516,7 +492,7 @@ def extract_stage(downstream_files: set) -> dict:
 
 def label_stage(providers: int, hirers: int) -> dict:
     """The labeller's unit is the (gig, provider) pair, and its queue is
-    every pair the two CSVs imply but which hasn't been scored -- which is
+    every pair the two CSVs imply but which hasn't been scored; which is
     why this number jumps every time extract.py writes a row."""
     records = _read_jsonl(LABELS_PATH)
     ok = [r for r in records if r.get("status") == "ok"]

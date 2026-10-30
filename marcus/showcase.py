@@ -424,11 +424,8 @@ def clean_html(html_content: str) -> str:
 
 
 def mask_source_text(plain_text: str) -> str:
-    """Anonymize already-plain source (e.g. markdown): mask person names via
-    spaCy NER, then neutralize gendered pronouns. Mirrors the masking step
-    inside clean_html, minus the HTML parsing/attribute stripping — markdown
-    is already plain text, so pushing it through BeautifulSoup would be
-    pointless and could mangle legitimate markdown syntax."""
+    """Anonymize already-plain source (e.g. markdown): mask person names via spaCy NER, then
+    neutralize gendered pronouns. Same masking as clean_html, without the HTML parsing."""
     t0 = time.perf_counter()
 
     names = detect_person_names(plain_text)
