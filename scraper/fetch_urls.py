@@ -33,6 +33,7 @@ BATCH = 20  # URLs handed to crawl4ai at once; each batch is bounded by its own 
 BATCH_TIMEOUT_S = 300
 
 
+# Read a URL list file of 'label<TAB>url' lines (comments and blanks skipped).
 def read_list(path: Path) -> list:
     items = []
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -72,6 +73,7 @@ def save(r, label: str) -> str:
     return "saved"
 
 
+# Fetch each listed URL that isn't saved yet into pages/unprocessed/ (no link-following).
 async def main(path: Path):
     crawl.UNPROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     done = already_saved()

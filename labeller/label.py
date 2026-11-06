@@ -146,6 +146,7 @@ PROFILE_FIELDS = [
 ]
 
 
+# Normalise a CSV field for a prompt: undo the formula guard, collapse whitespace, truncate.
 def _clean(v) -> str:
     s = (v or "").strip()
     if s[:1] == "'" and s[1:2] in ("=", "+", "-", "@", "\t", "\r"):
@@ -158,6 +159,7 @@ def _describe(row: dict, fields: list) -> str:
     return "\n".join(f"{label}: {_clean(row.get(k))}" for k, label in fields if _clean(row.get(k)))
 
 
+# Build the relevance prompt for one approach (rating scale or label list).
 def build_prompt(approach: str, query: str, document: str) -> str:
     kind, labels = APPROACHES[approach]
     if kind == "scale":
@@ -177,6 +179,7 @@ def _bare(token: str) -> str:
     return token.strip().strip("\"'*`").lower()
 
 
+# Map a generated token to the one label it starts, or None if ambiguous.
 def _label_for_token(token: str, labels: list):
     t = _bare(token)
     if not t:
@@ -212,6 +215,7 @@ def label_logprobs(content: list, labels: list):
     return None
 
 
+# Find which label a free-text reply names (longest label first), or None.
 def parse_generated(text: str, labels: list):
     t = (text or "").lower()
     for i in sorted(range(len(labels)), key=lambda i: -len(labels[i])):
@@ -289,6 +293,7 @@ def judge_prompt(prompt: str, labels: list, model: str) -> dict:
 # Inputs / outputs
 # ---------------------------------------------------------------------------
 
+# Read a CSV into a list of dict rows (empty if the file is missing).
 def load_rows(path: Path) -> list:
     if not path.exists():
         return []
@@ -296,6 +301,7 @@ def load_rows(path: Path) -> list:
         return list(csv.DictReader(f))
 
 
+# Load the successful records from relevance_labels.jsonl.
 def load_ok_records() -> list:
     records = []
     if LABELS_PATH.exists():
@@ -323,6 +329,7 @@ SCORE_FIELDS = [
 ]
 
 
+# Aggregate per-call scores into one row per (gig, provider) in relevance_scores.csv.
 def write_scores(hirers: list, providers: list, exclude: tuple = ()) -> int:
     titles = {h["source_file"]: _clean(h.get("hire_title")) for h in hirers}
     headlines = {p["source_file"]: _clean(p.get("about_title")) for p in providers}
@@ -362,6 +369,7 @@ def write_scores(hirers: list, providers: list, exclude: tuple = ()) -> int:
 # Main
 # ---------------------------------------------------------------------------
 
+# CLI entry: score gig/provider pairs with each approach and model, then write the scores CSV.
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(

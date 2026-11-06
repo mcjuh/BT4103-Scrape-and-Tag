@@ -85,6 +85,7 @@ def load_ok(path: Path, model: str, version: str) -> dict:
     return out
 
 
+# Format an ISO date as e.g. "5 Oct 2026"; leave anything else unchanged.
 def _date(v) -> str:
     try:
         return datetime.strptime(v, "%Y-%m-%d").strftime("%d %b %Y").lstrip("0")
@@ -92,6 +93,7 @@ def _date(v) -> str:
         return v
 
 
+# Gig's budget / seniority / start / time lines for prompts that include terms.
 def gig_terms(h: dict) -> str:
     lines = []
     if h.get("budget_lo") is not None and h.get("budget_hi") is not None:
@@ -107,6 +109,7 @@ def gig_terms(h: dict) -> str:
     return "\n".join(lines)
 
 
+# Provider's rate / seniority / availability lines for prompts that include terms.
 def provider_terms(p: dict) -> str:
     lines = []
     if p.get("rate_per_hour") is not None:
@@ -120,6 +123,7 @@ def provider_terms(p: dict) -> str:
     return "\n".join(lines)
 
 
+# Fill the judging prompt with the gig and provider text (plus terms if the prompt uses them).
 def render(template: str, prompt: str, h: dict, p: dict) -> str:
     query, document = _describe(h, GIG_FIELDS), _describe(p, PROFILE_FIELDS)
     if prompt in WITH_TERMS:
@@ -218,6 +222,7 @@ def export(data_dir: Path, done: dict, pools: dict):
           f"grades {dict(sorted(dist.items()))}")
 
 
+# CLI entry: grade the ranker's judging pools, or --export its label files.
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, choices=MODEL_POOL)

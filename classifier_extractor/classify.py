@@ -120,6 +120,7 @@ def parse_label(raw_output: str) -> dict:
         return {"label": "UNCERTAIN", "reason": f"parse_error: {e}"}
 
 
+# Send one page to the triage prompt; return (raw reply, token usage).
 def _call_llm(text: str, model: str) -> tuple:
     response = client.chat.completions.create(
         model=model,
@@ -214,6 +215,7 @@ def _drain_stuck_moves(already_done: dict) -> None:
         print(f"Relocated {stuck} already-classified file(s) that were stuck in unprocessed/ from a prior run", flush=True)
 
 
+# CLI entry: classify every page in pages/unprocessed/ (optionally keep watching for new ones).
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(

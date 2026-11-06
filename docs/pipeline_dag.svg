@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 930" width="1460" height="930" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .script { fill:#dbeafe; stroke:#2563eb; stroke-width:1.5 }
+      .data   { fill:#f1f5f9; stroke:#64748b; stroke-width:1.2 }
+      .step   { fill:#ffffff; stroke:#2563eb; stroke-width:1.2 }
+      .code   { fill:#ffffff; stroke:#64748b; stroke-width:1.2; stroke-dasharray:4 3 }
+      .final  { fill:#dcfce7; stroke:#16a34a; stroke-width:2 }
+      .reject { fill:#fee2e2; stroke:#dc2626; stroke-width:1.2 }
+      .synth  { fill:#fef3c7; stroke:#d97706; stroke-width:1.5 }
+      .dead   { fill:#f8fafc; stroke:#94a3b8; stroke-width:1.2; stroke-dasharray:5 4 }
+      .box    { fill:#eff6ff; stroke:#93c5fd; stroke-width:1.5; stroke-dasharray:8 5 }
+      .e      { stroke:#475569; stroke-width:1.4; fill:none; marker-end:url(#a) }
+      .t      { text-anchor:middle; dominant-baseline:middle; fill:#0f172a }
+      .b      { font-weight:600 }
+      .s      { font-size:13px; fill:#475569 }
+      .lbl    { font-size:13px; fill:#475569; font-style:italic }
+    </style>
+  </defs>
+  <rect width="1460" height="930" fill="#ffffff"/>
+
+  <!-- ===== Row A: crawl -> classify -> industry ===== -->
+  <rect x="20" y="16" width="170" height="30" rx="5" class="data"/>
+  <text x="105" y="31" class="t">scraper/seeds.md</text>
+  <rect x="20" y="56" width="170" height="30" rx="5" class="data"/>
+  <text x="105" y="71" class="t">url_lists/*.tsv</text>
+
+  <rect x="220" y="16" width="140" height="30" rx="5" class="script"/>
+  <text x="290" y="31" class="t b">crawl.py</text>
+  <rect x="220" y="56" width="140" height="30" rx="5" class="script"/>
+  <text x="290" y="71" class="t b">fetch_urls.py</text>
+  <path d="M190 31 H218" class="e"/>
+  <path d="M190 71 H218" class="e"/>
+
+  <rect x="390" y="31" width="200" height="40" rx="5" class="data"/>
+  <text x="490" y="51" class="t">pages/unprocessed/*.md</text>
+  <path d="M360 31 L388 45" class="e"/>
+  <path d="M360 71 L388 58" class="e"/>
+
+  <rect x="620" y="26" width="220" height="50" rx="5" class="script"/>
+  <text x="730" y="42" class="t b">classify.py</text>
+  <text x="730" y="62" class="t s">LLM · classify_triage.md</text>
+  <path d="M590 51 H618" class="e"/>
+
+  <rect x="870" y="31" width="160" height="40" rx="5" class="data"/>
+  <text x="950" y="51" class="t">classify.jsonl</text>
+  <path d="M840 51 H868" class="e"/>
+
+  <rect x="1060" y="26" width="180" height="50" rx="5" class="script"/>
+  <text x="1150" y="42" class="t b">industry.py</text>
+  <text x="1150" y="62" class="t s">classify_industry.md</text>
+  <path d="M1030 51 H1058" class="e"/>
+
+  <rect x="1270" y="31" width="170" height="40" rx="5" class="data"/>
+  <text x="1355" y="51" class="t">industry.jsonl</text>
+  <path d="M1240 51 H1268" class="e"/>
+
+  <!-- ===== Row B: buckets ===== -->
+  <rect x="20" y="120" width="140" height="36" rx="5" class="data"/>
+  <text x="90" y="138" class="t">provider/</text>
+  <rect x="175" y="120" width="150" height="36" rx="5" class="data"/>
+  <text x="250" y="138" class="t">uncertain/</text>
+  <rect x="340" y="113" width="260" height="50" rx="5" class="synth"/>
+  <text x="470" y="129" class="t b">manufacture_providers.py</text>
+  <text x="470" y="149" class="t s">fake page · manufacture_provider.md</text>
+  <rect x="620" y="120" width="170" height="36" rx="5" class="dead"/>
+  <text x="705" y="138" class="t">ignore/ (dead end)</text>
+  <rect x="830" y="120" width="140" height="36" rx="5" class="data"/>
+  <text x="900" y="138" class="t">hirer/</text>
+
+  <path d="M680 76 L92 118" class="e"/>
+  <path d="M695 76 L252 118" class="e"/>
+  <path d="M720 76 L705 118" class="e"/>
+  <path d="M760 76 L898 118" class="e"/>
+
+  <!-- into extract -->
+  <path d="M90 156 L150 198" class="e"/>
+  <path d="M250 156 L270 198" class="e"/>
+  <path d="M470 163 V198" class="e"/>
+  <path d="M900 156 V198" class="e"/>
+  <path d="M1010 71 V198" class="e"/>
+  <text x="1018" y="140" class="lbl" text-anchor="start">which pages</text>
+  <path d="M1355 71 V198" class="e"/>
+  <text x="1347" y="140" class="lbl" text-anchor="end">industry cols</text>
+
+  <!-- ===== extract.py ===== -->
+  <rect x="10" y="200" width="1440" height="405" rx="12" class="box"/>
+  <text x="26" y="224" class="b" font-size="18" fill="#1e3a8a">extract.py</text>
+  <text x="122" y="224" class="s">per page, ML schema v2</text>
+
+  <text x="365" y="250" class="t b" fill="#1e3a8a">PROVIDER + UNCERTAIN</text>
+  <text x="1095" y="250" class="t b" fill="#1e3a8a">HIRER</text>
+
+  <!-- provider lane -->
+  <rect x="30" y="265" width="670" height="34" rx="5" class="code"/>
+  <text x="365" y="282" class="t">1  Mask publisher + anonymise names / pronouns (spaCy)</text>
+  <rect x="30" y="309" width="670" height="34" rx="5" class="step"/>
+  <text x="365" y="326" class="t">2  Facts pass · extract_provider_facts.md</text>
+  <rect x="30" y="353" width="670" height="34" rx="5" class="step"/>
+  <text x="365" y="370" class="t">3  Style pass · extract_provider_style.md (restyles 4 fields)</text>
+  <rect x="30" y="397" width="670" height="34" rx="5" class="step"/>
+  <text x="365" y="414" class="t">4  Localise check → repair_localise_provider.md (≤ 2 passes)</text>
+  <path d="M365 299 V307" class="e"/>
+  <path d="M365 343 V351" class="e"/>
+  <path d="M365 387 V395" class="e"/>
+
+  <!-- hirer lane -->
+  <rect x="760" y="265" width="670" height="34" rx="5" class="step"/>
+  <text x="1095" y="282" class="t">1  Extract · extract_hirer.md</text>
+  <rect x="760" y="309" width="670" height="34" rx="5" class="step"/>
+  <text x="1095" y="326" class="t">2  Grounding review · review_hirer.md (different model)</text>
+  <rect x="760" y="353" width="670" height="34" rx="5" class="step"/>
+  <text x="1095" y="370" class="t">3  retry → repair_hirer.md (extractor redoes once)</text>
+  <rect x="760" y="397" width="670" height="34" rx="5" class="step"/>
+  <text x="1095" y="414" class="t">4  Review again · review_hirer.md</text>
+  <path d="M1095 299 V307" class="e"/>
+  <path d="M1095 343 V351" class="e"/>
+  <path d="M1095 387 V395" class="e"/>
+  <path d="M760 326 H735 V463" class="e"/>
+  <text x="742" y="445" class="lbl" text-anchor="start">keep</text>
+
+  <!-- merge -->
+  <rect x="380" y="465" width="700" height="34" rx="5" class="code"/>
+  <text x="730" y="482" class="t">Validate vs ML_*_schema_v2.json + quality_check</text>
+  <rect x="380" y="509" width="700" height="34" rx="5" class="step"/>
+  <text x="730" y="526" class="t">Tag · tag_specialisation.md, tag_skills.md (taxonomy.py, SkillsFuture)</text>
+  <rect x="380" y="553" width="700" height="34" rx="5" class="code"/>
+  <text x="730" y="570" class="t">finalize_record + copy industry cols (code)</text>
+  <path d="M365 431 L500 463" class="e"/>
+  <path d="M900 431 V463" class="e"/>
+  <text x="908" y="450" class="lbl" text-anchor="start">keep</text>
+  <path d="M730 499 V507" class="e"/>
+  <path d="M730 543 V551" class="e"/>
+
+  <rect x="1180" y="465" width="250" height="40" rx="5" class="reject"/>
+  <text x="1305" y="485" class="t">rejected (manifest only)</text>
+  <path d="M1305 431 V463" class="e"/>
+  <text x="1313" y="450" class="lbl" text-anchor="start">still flagged</text>
+  <path d="M1080 482 H1178" class="e"/>
+  <text x="1129" y="474" class="lbl" text-anchor="middle">fail</text>
+
+  <!-- ===== outputs + enrich ===== -->
+  <rect x="30" y="640" width="300" height="46" rx="5" class="data"/>
+  <text x="180" y="655" class="t">providers.jsonl / hirers.jsonl</text>
+  <text x="180" y="674" class="t s">nested, appended per page</text>
+  <rect x="410" y="640" width="300" height="46" rx="5" class="data"/>
+  <text x="560" y="655" class="t">providers.csv / hirers.csv</text>
+  <text x="560" y="674" class="t s">flat columns</text>
+  <rect x="1110" y="640" width="320" height="46" rx="5" class="data"/>
+  <text x="1270" y="655" class="t">manifests/extract.jsonl</text>
+  <text x="1270" y="674" class="t s">every attempt, incl. rejects</text>
+  <path d="M680 587 L182 638" class="e"/>
+  <path d="M710 587 L562 638" class="e"/>
+  <path d="M780 587 L1268 638" class="e"/>
+
+  <rect x="750" y="636" width="330" height="54" rx="5" class="data"/>
+  <text x="915" y="650" class="t s">judge_hirer.md, judge_provider.md</text>
+  <text x="915" y="664" class="t s">rate_card.json</text>
+  <text x="915" y="678" class="t s">taxonomy/sector.csv, track.csv</text>
+
+  <rect x="30" y="720" width="300" height="46" rx="5" class="script"/>
+  <text x="180" y="735" class="t b">export_json()</text>
+  <text x="180" y="754" class="t s">end of run or --export-json</text>
+  <path d="M180 686 V718" class="e"/>
+
+  <rect x="370" y="723" width="260" height="40" rx="5" class="data"/>
+  <text x="500" y="743" class="t">providers.json / hirers.json</text>
+  <path d="M330 743 H368" class="e"/>
+
+  <rect x="680" y="718" width="280" height="50" rx="5" class="script"/>
+  <text x="820" y="734" class="t b">enricher/enrich.py</text>
+  <text x="820" y="754" class="t s">LLM judge → code fills fields</text>
+  <path d="M630 743 H678" class="e"/>
+  <path d="M560 686 L720 716" class="e"/>
+  <path d="M915 690 L900 716" class="e"/>
+
+  <rect x="1020" y="715" width="410" height="56" rx="8" class="final"/>
+  <text x="1225" y="734" class="t b" font-size="16">FINAL: providers.json/.csv, hirers.json/.csv</text>
+  <text x="1225" y="756" class="t s">enricher fields added in place</text>
+  <path d="M960 743 H1018" class="e"/>
+
+  <rect x="680" y="805" width="280" height="34" rx="5" class="data"/>
+  <text x="820" y="822" class="t">manifests/enrich.jsonl</text>
+  <path d="M820 768 V803" class="e"/>
+
+  <text x="1225" y="790" class="t s">Re-running extract.py drops enricher fields</text>
+  <text x="1225" y="808" class="t s">until enrich.py runs again.</text>
+
+  <!-- legend -->
+  <g transform="translate(30 880)" font-size="14">
+    <rect x="0" y="0" width="22" height="16" rx="3" class="script"/><text x="30" y="13">script / stage</text>
+    <rect x="160" y="0" width="22" height="16" rx="3" class="data"/><text x="190" y="13">file</text>
+    <rect x="260" y="0" width="22" height="16" rx="3" class="step"/><text x="290" y="13">LLM call (prompt)</text>
+    <rect x="450" y="0" width="22" height="16" rx="3" class="code"/><text x="480" y="13">code step</text>
+    <rect x="600" y="0" width="22" height="16" rx="3" class="synth"/><text x="630" y="13">synthetic providers</text>
+    <rect x="800" y="0" width="22" height="16" rx="3" class="reject"/><text x="830" y="13">rejected</text>
+    <rect x="940" y="0" width="22" height="16" rx="3" class="final"/><text x="970" y="13">final output</text>
+  </g>
+</svg>

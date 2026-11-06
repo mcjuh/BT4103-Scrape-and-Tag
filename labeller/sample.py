@@ -48,6 +48,7 @@ ENGAGEMENT_RE = re.compile(r"\s*Engagement duration:[^\n]*$", re.IGNORECASE)
 csv.field_size_limit(10**9)
 
 
+# Read a CSV; return (header, rows).
 def load_rows(path: Path) -> tuple:
     with path.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -71,6 +72,7 @@ def strip_engagement(desc: str) -> str:
     return ENGAGEMENT_RE.sub("", desc.strip()).strip()
 
 
+# Keep gigs that passed review unrepaired, have a Deliverable: line, an industry, and a unique title of sane length.
 def good_hirers(rows: list) -> list:
     manifest = latest_written("HIRER")
     seen_titles, keep = set(), []
@@ -91,6 +93,7 @@ def good_hirers(rows: list) -> list:
     return keep
 
 
+# Keep confident PROVIDER profiles with all fields filled, no leftover pronouns and an industry.
 def good_providers(rows: list) -> list:
     manifest = latest_written("PROVIDER")
     return [
@@ -133,6 +136,7 @@ def spread(rows: list, n: int, industries: list, rng: random.Random) -> list:
     return picked
 
 
+# CLI entry: draw an industry-balanced sample of gigs and providers and write the sample CSVs.
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--n", type=int, default=100, help="gigs and providers each (default: 100)")

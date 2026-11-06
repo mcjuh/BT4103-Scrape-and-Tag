@@ -157,6 +157,7 @@ def describe(row: dict, fields: list) -> str:
     return "\n".join(out)
 
 
+# Fill the grading prompt with the gig (query) and provider (document) text.
 def render(template: str, gig: dict, provider: dict, with_tags: bool = False) -> str:
     tags = TAG_FIELDS if with_tags else []
     query = describe(gig, GIG_FIELDS + tags)
@@ -243,6 +244,7 @@ def build_pairs(gigs: dict, providers: dict, pairs_path: Path = None, only: list
 # Model call and scoring
 # ---------------------------------------------------------------------------
 
+# OpenAI client pointed at SOCLAAS, using .env credentials.
 @lru_cache(maxsize=1)
 def get_client():
     from dotenv import load_dotenv
@@ -326,6 +328,7 @@ def score_reply(text: str, content: list) -> dict:
     }
 
 
+# Grade one pair: call the model and score its reply from the logprobs.
 def grade_pair(prompt: str, model: str) -> dict:
     response = complete(prompt, model)
     choice = response.choices[0]
@@ -362,6 +365,7 @@ EXPORT_FIELDS = ["gig_id", "hirer_id", "provider_id", "model", "prompt_version",
                  "p0", "p1", "p2", "p3", "scoring", "flags", "timestamp"]
 
 
+# Write gig_grades.csv from the successful records in the log.
 def export(log_path: Path, out_path: Path) -> int:
     done = load_ok(log_path)
     with out_path.open("w", newline="", encoding="utf-8") as f:
@@ -382,6 +386,7 @@ def export(log_path: Path, out_path: Path) -> int:
 # Main
 # ---------------------------------------------------------------------------
 
+# CLI entry: grade gig/provider pairs from the platform sample (or --export the CSV).
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--model", choices=MODEL_POOL, default=DEFAULT_MODEL, help="the model that grades this run (default: %(default)s)")

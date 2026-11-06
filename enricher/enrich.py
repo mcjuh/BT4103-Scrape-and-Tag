@@ -172,6 +172,7 @@ class Pacer:
     def __init__(self, rps: float):
         self.gap, self.next_at, self.lock = 1.0 / rps, time.monotonic(), threading.Lock()
 
+    # Block until this caller's request slot, keeping all threads under the requests/second cap.
     def wait(self):
         with self.lock:
             now = time.monotonic()
@@ -202,6 +203,7 @@ def text_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
 
+# Pull the JSON object out of a model reply (dropping any <think> block).
 def _parse_json(raw: str) -> dict:
     raw = re.sub(r"<think>.*?</think>", "", raw, flags=re.DOTALL | re.IGNORECASE)
     start, end = raw.find("{"), raw.rfind("}")
@@ -210,6 +212,7 @@ def _parse_json(raw: str) -> dict:
     return json.loads(raw[start:end + 1], strict=False)
 
 
+# Read a field that must be one of the allowed values, else raise.
 def _pick(data: dict, key: str, allowed: list) -> str:
     value = str(data.get(key, "")).strip().lower()
     if value not in allowed:
@@ -217,6 +220,7 @@ def _pick(data: dict, key: str, allowed: list) -> str:
     return value
 
 
+# Read a field that must be a boolean (accepts "true"/"false" strings), else raise.
 def _pick_bool(data: dict, key: str) -> bool:
     value = data.get(key)
     if isinstance(value, str):
@@ -311,6 +315,7 @@ def load_manifest() -> dict:
     return done
 
 
+# Read a CSV; return (header, rows), or empty lists if it doesn't exist.
 def load_rows(path: Path) -> tuple:
     if not path.exists():
         return [], []
@@ -324,6 +329,7 @@ def is_current(rec: dict, entity_type: str, text: str) -> bool:
             and rec["text_hash"] == text_hash(text))
 
 
+# LLM step: judge every record whose text changed or was never judged; append to enrich.jsonl.
 def run_judging(args) -> None:
     done = load_manifest()
     jobs = []
@@ -392,6 +398,7 @@ def _round(x: float, step: int) -> int:
     return int(step * round(x / step))
 
 
+# Draw an hourly rate from the rate card band for this seniority level and tier.
 def _rate_point(card: dict, rng: random.Random, level: str, tier: str) -> float:
     lo, hi = card["rate_bands"][level]
     a, b = card["tier_slice"][tier]
@@ -471,6 +478,7 @@ def generate(entity_type: str, fname: str, row: dict, judgement: dict, card: dic
     }
 
 
+# Code step: turn saved judgements into the enriched fields and write them into the CSVs and JSONs.
 def build_outputs() -> None:
     card = json.loads(RATE_CARD_PATH.read_text(encoding="utf-8"))
     done = load_manifest()
@@ -528,6 +536,7 @@ def write_json(cfg: dict, extras: dict) -> None:
     print(f"{path.name}: {len(out)} records", flush=True)
 
 
+# CLI entry: judge records (unless --no-llm), then rebuild the enriched outputs.
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-llm", action="store_true",

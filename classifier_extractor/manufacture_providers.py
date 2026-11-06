@@ -93,6 +93,7 @@ def provider_file(gig: dict, variant: str) -> str:
     return f"{PREFIX}{gig['hirer_ref']}__{variant}.md"
 
 
+# Flatten a gig into the plain text shown to the model that writes the fake provider page.
 def gig_text(gig: dict) -> str:
     parts = [f"Title: {gig['gig_title']}", gig["short_description"]]
     if gig.get("additional_notes"):
@@ -201,6 +202,7 @@ def write_list(n_zero: int, n_targets: int) -> None:
     print(f"{LIST_PATH.name}: {len(written)} providers for {len(per_gig)} gigs", flush=True)
 
 
+# CLI entry: write synthetic providers for gigs with no grade-2/3 match and extract them.
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--counts", type=Path, required=True,

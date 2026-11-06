@@ -177,6 +177,7 @@ def domain_of(url: str) -> str:
     return re.sub(r"^www\d*\.", "", netloc)
 
 
+# Turn a URL's path into a safe file-name slug.
 def slugify(url: str) -> str:
     parsed = urlparse(url)
     slug = (parsed.path.strip("/") or "home").replace("/", "_")
@@ -244,6 +245,7 @@ def block_reason(text: str) -> str | None:
     return None
 
 
+# Deep-crawl one seed site (best-first) and save each page as pruned Markdown.
 async def crawl_seed(crawler: AsyncWebCrawler, label: str, seed_url: str, report: list, max_pages: int = None):
     domain = domain_of(seed_url)
     max_pages = max_pages or MAX_PAGES_PER_DOMAIN
@@ -334,6 +336,7 @@ async def crawl_seed(crawler: AsyncWebCrawler, label: str, seed_url: str, report
     report.append((label, seed_url, status, note, saved_count))
 
 
+# Load crawl_state.json (the list of seeds done), or [] if missing or unreadable.
 def load_state():
     if STATE_PATH.exists():
         try:
@@ -359,6 +362,7 @@ def dedupe_report(report):
     return list(by_seed.values())
 
 
+# Write crawl_report.md summarising each seed's result.
 def write_report_md(report):
     report_path = MANIFESTS_DIR / "crawl_report.md"
     lines = ["# Crawl Report\n"]
@@ -372,6 +376,7 @@ def write_report_md(report):
     return total_saved, report_path
 
 
+# CLI entry: crawl the chosen range of seeds, skipping domains already crawled unless --force.
 async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--start", type=int, default=0, help="start index (inclusive) into seed list")

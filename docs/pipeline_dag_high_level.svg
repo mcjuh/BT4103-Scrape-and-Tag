@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1430 340" width="1430" height="340" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .stage  { fill:#dbeafe; stroke:#2563eb; stroke-width:1.6 }
+      .final  { fill:#dcfce7; stroke:#16a34a; stroke-width:2 }
+      .synth  { fill:#fef3c7; stroke:#d97706; stroke-width:1.5 }
+      .dead   { fill:#f8fafc; stroke:#94a3b8; stroke-width:1.2; stroke-dasharray:5 4 }
+      .e      { stroke:#475569; stroke-width:1.6; fill:none; marker-end:url(#a) }
+      .t      { text-anchor:middle; dominant-baseline:middle; fill:#0f172a }
+      .h      { font-weight:700; font-size:18px }
+      .f      { font-size:13px; fill:#1d4ed8; font-family:Consolas, Menlo, monospace }
+      .s      { font-size:13.5px; fill:#475569 }
+      .lbl    { font-size:13px; fill:#475569; font-style:italic; text-anchor:middle }
+    </style>
+  </defs>
+  <rect width="1430" height="340" fill="#ffffff"/>
+
+  <text x="715" y="28" class="t b" font-size="20" font-weight="600">Pipeline: source sites → final dataset</text>
+
+  <!-- stages -->
+  <rect x="20" y="120" width="180" height="110" rx="8" class="stage"/>
+  <text x="110" y="144" class="t h">1 Scrape</text>
+  <text x="110" y="168" class="t f">crawl.py, fetch_urls.py</text>
+  <text x="110" y="192" class="t s">seed sites / URL lists</text>
+  <text x="110" y="210" class="t s">→ Markdown pages</text>
+
+  <rect x="262" y="120" width="180" height="110" rx="8" class="stage"/>
+  <text x="352" y="144" class="t h">2 Classify</text>
+  <text x="352" y="168" class="t f">classify.py</text>
+  <text x="352" y="192" class="t s">provider / hirer /</text>
+  <text x="352" y="210" class="t s">uncertain / ignore</text>
+
+  <rect x="504" y="120" width="180" height="110" rx="8" class="stage"/>
+  <text x="594" y="144" class="t h">3 Industry</text>
+  <text x="594" y="168" class="t f">industry.py</text>
+  <text x="594" y="192" class="t s">industry tag</text>
+  <text x="594" y="210" class="t s">per page</text>
+
+  <rect x="746" y="120" width="180" height="110" rx="8" class="stage"/>
+  <text x="836" y="144" class="t h">4 Extract</text>
+  <text x="836" y="168" class="t f">extract.py</text>
+  <text x="836" y="192" class="t s">LLM → schema v2 records</text>
+  <text x="836" y="210" class="t s">review, localise, tags</text>
+
+  <rect x="988" y="120" width="180" height="110" rx="8" class="stage"/>
+  <text x="1078" y="144" class="t h">5 Enrich</text>
+  <text x="1078" y="168" class="t f">enrich.py</text>
+  <text x="1078" y="192" class="t s">rate, seniority,</text>
+  <text x="1078" y="210" class="t s">availability, sector/track</text>
+
+  <rect x="1230" y="120" width="180" height="110" rx="8" class="final"/>
+  <text x="1320" y="144" class="t h">Final dataset</text>
+  <text x="1320" y="176" class="t f">providers.json/.csv</text>
+  <text x="1320" y="198" class="t f">hirers.json/.csv</text>
+
+  <!-- main arrows -->
+  <path d="M200 175 H260" class="e"/>
+  <text x="231" y="165" class="lbl">pages</text>
+  <path d="M442 175 H502" class="e"/>
+  <text x="473" y="165" class="lbl">labels</text>
+  <path d="M684 175 H744" class="e"/>
+  <text x="715" y="165" class="lbl">tags</text>
+  <path d="M926 175 H986" class="e"/>
+  <text x="957" y="165" class="lbl">.json/.csv</text>
+  <path d="M1168 175 H1228" class="e"/>
+  <text x="1199" y="165" class="lbl">in place</text>
+
+  <!-- classify -> extract directly -->
+  <path d="M352 120 C352 70 836 70 836 118" class="e"/>
+  <text x="594" y="76" class="lbl">provider / hirer / uncertain pages</text>
+
+  <!-- side nodes -->
+  <rect x="272" y="280" width="160" height="36" rx="6" class="dead"/>
+  <text x="352" y="298" class="t s">ignore (dropped)</text>
+  <path d="M352 230 V278" class="e"/>
+
+  <rect x="726" y="270" width="220" height="54" rx="6" class="synth"/>
+  <text x="836" y="288" class="t" font-weight="600">Synthetic providers</text>
+  <text x="836" y="308" class="t f">manufacture_providers.py</text>
+  <path d="M836 270 V232" class="e"/>
+</svg>
