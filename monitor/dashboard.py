@@ -80,6 +80,7 @@ def _total_seeds() -> int:
     return len(SEED_URL_RE.findall(_read_text(SEEDS_PATH)))
 
 
+# Read a text file, or "" if it doesn't exist.
 def _read_text(path: Path) -> str:
     try:
         return path.read_text(encoding="utf-8", errors="ignore")
@@ -105,6 +106,7 @@ def _read_jsonl(path: Path) -> list:
     return records
 
 
+# Whether a process with this PID is still running (Windows-safe).
 def _pid_alive(pid: int) -> bool:
     if os.name == "nt":
         # os.kill(pid, 0) on Windows sends CTRL_C_EVENT rather than probing,
@@ -139,6 +141,7 @@ def _script_alive(pid_path: Path) -> bool:
     return _pid_alive(pid)
 
 
+# "running" or "idle" for a stage, from the process launched here or its PID file.
 def _run_state(pid_name: str) -> str:
     # A script launched from here counts as running from the moment it starts, not only once
     # it has written its PID file, so a second click during slow imports cannot launch it twice.
@@ -299,6 +302,7 @@ def stop(stage: str) -> tuple:
     return True, f"stopped {stage} (PID {', '.join(map(str, sorted(pids)))})"
 
 
+# Count the data rows in a CSV (header excluded).
 def _csv_row_count(path: Path) -> int:
     if not path.exists():
         return 0
@@ -306,6 +310,7 @@ def _csv_row_count(path: Path) -> int:
         return max(0, sum(1 for _ in csv.reader(f)) - 1)  # minus header row
 
 
+# Count records by the value of one key.
 def _counted(records: list, key: str) -> dict:
     counts = {}
     for r in records:
@@ -511,6 +516,7 @@ def label_stage(providers: int, hirers: int) -> dict:
     )
 
 
+# Collect every stage's status into the JSON the dashboard page shows.
 def pipeline() -> dict:
     classify_records = _read_jsonl(MANIFEST_PATH)
     downstream_files = {
@@ -1058,6 +1064,7 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         pass  # keep stdout quiet; errors still surface via exceptions
 
+    # Send an HTTP response with the given status, body and content type.
     def _send(self, code, body: bytes, content_type: str):
         self.send_response(code)
         self.send_header("Content-Type", content_type)
@@ -1073,6 +1080,7 @@ class Handler(BaseHTTPRequestHandler):
         host = (self.headers.get("Host") or "").rsplit(":", 1)[0].strip("[]").lower()
         return host in ("localhost", "127.0.0.1")
 
+    # Serve the dashboard page and the /api/status JSON.
     def do_GET(self):
         if not self._host_ok():
             self._send(403, b"forbidden", "text/plain")
@@ -1083,6 +1091,7 @@ class Handler(BaseHTTPRequestHandler):
         else:
             self._send(404, b"not found", "text/plain")
 
+    # Handle the dashboard's Start/Stop buttons (token-checked).
     def do_POST(self):
         if not self._host_ok() or not secrets.compare_digest(self.headers.get("X-Token") or "", TOKEN):
             self._send(403, b"forbidden", "text/plain")
@@ -1108,6 +1117,7 @@ class Handler(BaseHTTPRequestHandler):
                    "application/json")
 
 
+# CLI entry: serve the dashboard on localhost until Ctrl+C.
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=8765)

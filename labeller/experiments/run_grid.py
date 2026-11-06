@@ -67,6 +67,7 @@ class Pacer:
     def __init__(self, rps: float):
         self.gap, self.next_at, self.lock = 1.0 / rps, time.monotonic(), threading.Lock()
 
+    # Block until this caller's request slot, keeping all threads under the requests/second cap.
     def wait(self):
         with self.lock:
             now = time.monotonic()
@@ -90,6 +91,7 @@ def pace_client(rps: float):
     L.client.chat.completions.create = paced_create
 
 
+# Per gig: its gold positives plus seeded random negatives, shuffled.
 def build_candidates(gold: dict, provider_ids: list, n_total: int) -> dict:
     cands = {}
     for gig, info in gold["gigs"].items():
@@ -102,6 +104,7 @@ def build_candidates(gold: dict, provider_ids: list, n_total: int) -> dict:
     return cands
 
 
+# Set of (gig, provider, condition, model) calls already done ok, for resuming.
 def load_done() -> set:
     done = set()
     if GRID_PATH.exists():
@@ -116,6 +119,7 @@ def load_done() -> set:
     return done
 
 
+# CLI entry: run every prompt condition x model x candidate call that isn't done yet.
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--workers", type=int, default=8, help="parallel calls in flight")

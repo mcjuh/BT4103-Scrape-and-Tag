@@ -41,6 +41,7 @@ METHOD_COLS = ("method", "approach", "cond")
 SCORE_COL = "score"
 
 
+# Return the first of the candidate column names present, else exit with an error.
 def _pick(fields: list, options: tuple, what: str, path: Path) -> str:
     for c in options:
         if c in fields:
@@ -86,6 +87,7 @@ def load_predictions(path: Path, methods: list):
     return preds, blank, dupes
 
 
+# Score one method's predictions against gold: per-gig metrics plus pooled correlation.
 def evaluate(by_gig: dict, gold: dict) -> dict:
     per_gig, xs, ys = {}, [], []
     for gig, scores in by_gig.items():
@@ -108,6 +110,7 @@ def _mean(vals: list) -> float:
     return st.mean(vals) if vals else float("nan")
 
 
+# CLI entry: load predictions and gold labels, print metrics per method.
 def main():
     parser = argparse.ArgumentParser(description="Score relevance predictions against gold labels.")
     parser.add_argument("predictions", type=Path, help="predictions CSV (see module docstring for the layout)")

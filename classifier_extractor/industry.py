@@ -105,6 +105,7 @@ class Pacer:
     def __init__(self, rps: float):
         self.gap, self.next_at, self.lock = 1.0 / rps, time.monotonic(), threading.Lock()
 
+    # Block until this caller's request slot, keeping all threads under the requests/second cap.
     def wait(self):
         with self.lock:
             now = time.monotonic()
@@ -162,6 +163,7 @@ def parse_industry(raw_output: str) -> dict:
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
 
+# Send one page to the industry prompt; return (raw reply, token usage).
 def _call_llm(text: str, model: str) -> tuple:
     if _PACER:
         _PACER.wait()
@@ -379,6 +381,7 @@ def report() -> None:
     print()
 
 
+# CLI entry: parse flags, then tag pages with an industry (or print --report).
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--report", action="store_true",
@@ -412,6 +415,7 @@ def main():
             PID_PATH.unlink()  # leave another instance's PID file alone
 
 
+# Main loop: tag every pending classified page and append results to industry.jsonl.
 def run(args) -> None:
     labels = tuple(BUCKET_DIRS) if args.include_ignore else DEFAULT_LABELS
     already_done = load_progress()

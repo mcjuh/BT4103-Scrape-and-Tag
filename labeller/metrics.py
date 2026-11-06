@@ -22,6 +22,7 @@ def _dcg(grades: list, k: int) -> float:
     return sum(g / math.log2(i + 2) for i, g in enumerate(grades[:k]))
 
 
+# nDCG@k of scores vs gold grades, averaging over random orders when scores tie.
 def ndcg(scores: dict, grades: dict, k: int, seed: int = 0) -> float:
     items = sorted(scores)
     idcg = _dcg(sorted((grades.get(p, 0) for p in items), reverse=True), k)
@@ -36,6 +37,7 @@ def ndcg(scores: dict, grades: dict, k: int, seed: int = 0) -> float:
     return total / n / idcg
 
 
+# Kendall's tau-b rank correlation (handles ties).
 def tau_b(x: list, y: list) -> float:
     conc = disc = tx = ty = 0
     for i in range(len(x)):
@@ -55,6 +57,7 @@ def tau_b(x: list, y: list) -> float:
     return (conc - disc) / denom if denom else float("nan")
 
 
+# AUC: chance a relevant (grade >= min_grade) provider outscores an irrelevant one.
 def auc(scores: dict, grades: dict, min_grade: int = 2) -> float:
     pos = [s for p, s in scores.items() if grades.get(p, 0) >= min_grade]
     neg = [s for p, s in scores.items() if grades.get(p, 0) < min_grade]
@@ -64,6 +67,7 @@ def auc(scores: dict, grades: dict, min_grade: int = 2) -> float:
     return wins / (len(pos) * len(neg))
 
 
+# Ranks of the values, starting at 1, with ties given their average rank.
 def avg_ranks(values: list) -> list:
     order = sorted(range(len(values)), key=lambda i: values[i])
     ranks = [0.0] * len(values)
@@ -78,6 +82,7 @@ def avg_ranks(values: list) -> list:
     return ranks
 
 
+# Spearman rank correlation.
 def spearman(x: list, y: list) -> float:
     if len(x) < 2:
         return float("nan")
@@ -88,6 +93,7 @@ def spearman(x: list, y: list) -> float:
     return num / den if den else float("nan")
 
 
+# All ranking metrics for one gig.
 def gig_metrics(scores: dict, grades: dict) -> dict:
     items = sorted(scores)
     return {
@@ -99,6 +105,7 @@ def gig_metrics(scores: dict, grades: dict) -> dict:
     }
 
 
+# Mean with a bootstrap 95% confidence interval.
 def mean_ci(vals: list, boot: int = 5000, seed: int = 1):
     vals = [v for v in vals if not math.isnan(v)]
     if not vals:
@@ -108,6 +115,7 @@ def mean_ci(vals: list, boot: int = 5000, seed: int = 1):
     return st.mean(vals), boots[int(0.025 * boot)], boots[int(0.975 * boot) - 1]
 
 
+# Paired sign-flip permutation test p-value for a vs b.
 def paired_p(a: list, b: list, perm: int = 20000, seed: int = 2) -> float:
     d = [x - y for x, y in zip(a, b) if not (math.isnan(x) or math.isnan(y))]
     if not d:

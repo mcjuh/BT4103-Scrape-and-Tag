@@ -183,6 +183,7 @@ class Pacer:
     def __init__(self, rps: float):
         self.gap, self.next_at, self.lock = 1.0 / rps, time.monotonic(), threading.Lock()
 
+    # Block until this caller's request slot, keeping all threads under the requests/second cap.
     def wait(self):
         with self.lock:
             now = time.monotonic()
@@ -439,6 +440,7 @@ def mask_publisher(text: str, fname: str) -> str:
 _NLP_LOCK = threading.Lock()  # spaCy pipelines aren't documented as thread-safe; --workers shares one
 
 
+# Replace person names (spaCy PERSON entities) and gendered pronouns with neutral placeholders.
 def anonymise(text: str) -> str:
     if _NLP is not None:
         with _NLP_LOCK:
@@ -470,6 +472,7 @@ def _shows_reasoning(response) -> bool:
 NO_THINKING = {"chat_template_kwargs": {"enable_thinking": False}}
 
 
+# One chat call to a pool model; return (reply text, token usage, whether it reasoned first).
 def _call_llm(model: str, content: str, json_mode: bool = True) -> tuple:
     # JSON mode stops malformed JSON; every pool model accepts it. Only --ping asks
     # for plain text.
@@ -875,6 +878,7 @@ def _norm(s) -> str:
     return re.sub(r"\s+", " ", s.strip()) if isinstance(s, str) else ""
 
 
+# Code-side check that a record is worth writing; return (ok, reason).
 def quality_check(entity_type: str, doc: dict) -> tuple:
     if entity_type == "HIRER":
         title = _norm(doc.get("gig_title"))
@@ -895,6 +899,7 @@ def quality_check(entity_type: str, doc: dict) -> tuple:
     return True, ""
 
 
+# Per-record quality numbers for the manifest: field lengths and leftover gendered pronouns.
 def record_metrics(entity_type: str, doc: dict) -> dict:
     fields = ENTITY_CONFIG[entity_type]["llm_fields"]
     texts = {k: " ".join(flatten_text(doc.get(k))) for k in fields}
@@ -1020,6 +1025,7 @@ def _csv_safe(v):
     return "'" + s if s[:1] in ("=", "+", "@", "\t", "\r") else s
 
 
+# Append one row to a CSV, writing the header first if the file is new.
 def append_csv_row(path: Path, fieldnames: list, row: dict) -> None:
     is_new = not path.exists()
     with path.open("a", newline="", encoding="utf-8") as f:
@@ -1153,6 +1159,7 @@ def balance_pending(pending: list, per_cell: int = None) -> list:
     return ordered
 
 
+# Load extract.jsonl as {file: last record}; errored files are left out so they get retried.
 def load_extract_progress() -> dict:
     done = {}
     if EXTRACT_MANIFEST_PATH.exists():
@@ -1277,6 +1284,7 @@ def use_out_tag(tag: str) -> None:
     ENTITY_CONFIG["HIRER"]["jsonl"] = HIRERS_JSONL
 
 
+# --ping: check every pool model answers a trivial prompt.
 def ping() -> None:
     for model in MODEL_POOL:
         start = time.perf_counter()
@@ -1288,6 +1296,7 @@ def ping() -> None:
             print(f"{model}: FAILED after {time.perf_counter() - start:.1f}s -- {type(e).__name__}: {e}", flush=True)
 
 
+# CLI entry: parse flags, then extract (or run a maintenance mode like --ping / --export-json).
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -1374,6 +1383,7 @@ def main():
             PID_PATH.unlink()  # leave another instance's PID file alone
 
 
+# Main loop: extract pending classified pages, write CSV/.jsonl/manifest, export JSON at the end.
 def run(args) -> None:
     already_done = load_extract_progress()
     consecutive_errors = 0

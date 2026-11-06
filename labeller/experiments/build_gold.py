@@ -59,6 +59,7 @@ GIG_ID = "client_gig_{:02d}"
 PROV_ID = "client_showcase_{:02d}"
 
 
+# Find the newest client test workbook in data/reference/client_documents/.
 def _find_workbook() -> Path:
     matches = sorted(CLIENT_DIR.glob("*Test_Dataset*.xlsx"))
     if not matches:
@@ -83,6 +84,7 @@ def _clean(v) -> str:
                   .replace(" ", " ").replace("’", "'")).strip()
 
 
+# Turn the client workbook into gold.json plus the test-set gig/showcase CSVs.
 def build():
     wb_path = _find_workbook()
     wb = openpyxl.load_workbook(wb_path, data_only=True)

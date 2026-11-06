@@ -37,6 +37,7 @@ STAGES = {
 }
 
 
+# Run a stage's script, appending its output to logs/<stage>.log.
 def main() -> int:
     if len(sys.argv) < 2 or sys.argv[1] not in STAGES:
         print("usage: python run.py <stage> [script arguments]\n\nstages:")

@@ -48,6 +48,7 @@ SCORINGS = ["er", "pr", "gen"]
 # Rankers
 # ---------------------------------------------------------------------------
 
+# Load the latest ok grid record per (condition, model, gig, provider).
 def load_records() -> dict:
     recs = {}  # (cond, model, gig, provider) -> latest ok record
     with R.GRID_PATH.open(encoding="utf-8") as f:
@@ -58,6 +59,7 @@ def load_records() -> dict:
     return recs
 
 
+# One model's scores for a gig's candidates, or None if any call is missing.
 def single_scores(recs, cond, model, gig, scoring):
     field = {"er": "score", "pr": "peak_relevance", "gen": "gen_value"}[scoring]
     out = {}
@@ -69,6 +71,7 @@ def single_scores(recs, cond, model, gig, scoring):
     return out
 
 
+# Combine all models' scores for a gig (mean, rank average or z-score).
 def ensemble_scores(recs, cond, gig, how):
     per_model = [single_scores(recs, cond, m, gig, "er") for m in MODELS]
     if any(s is None for s in per_model):
@@ -135,12 +138,14 @@ def fmt_ci(vals):
     return f"{m:.3f} [{lo:.3f}, {hi:.3f}]"
 
 
+# Render rows as a Markdown table.
 def table(header, rows):
     lines = ["| " + " | ".join(header) + " |", "|" + "|".join("---" for _ in header) + "|"]
     lines += ["| " + " | ".join(str(x) for x in r) + " |" for r in rows]
     return "\n".join(lines)
 
 
+# Build the experiment report (results/report.md) from the grid results.
 def main():
     global GIGS
     recs = load_records()
