@@ -51,9 +51,9 @@ BUCKET_DIRS = {
 }
 VALID_LABELS = set(BUCKET_DIRS)
 
-MAX_CHARS = 24000  # cap on page text sent to the LLM (truncated from the front)
+MAX_CHARS = 24000  # cap on page text sent to the LLM (the first MAX_CHARS characters are kept)
 MAX_RETRIES = 3
-RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s, 8s
+RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
 # If this many classifications in a row hard-error, stop the run instead of grinding through
 # the rest; a systemic problem (bad API key, endpoint down) would otherwise fail every file.
 MAX_CONSECUTIVE_ERRORS = 5
@@ -64,6 +64,7 @@ client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
     timeout=180,  # thinking is left on, which slows some pool models down
+    max_retries=0,  # classify_page() is the only retry loop
 )
 # No single MODEL constant: llm_pool.model_for_file() picks one of MODEL_POOL per page.
 
@@ -74,7 +75,7 @@ TRIAGE_PROMPT = (PROMPTS_DIR / "classify_triage.md").read_text(encoding="utf-8")
 def parse_label(raw_output: str) -> dict:
     """Pull {label, reason} out of the model's response. Never raises --
     anything that doesn't parse cleanly gets routed to UNCERTAIN for manual
-    review, same as triage.py."""
+    review, same as archive/triage.py."""
     text = raw_output.strip()
     if text.startswith("```"):
         text = text.strip("`")

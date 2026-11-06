@@ -36,7 +36,7 @@ waiting, skips what's already done, and exits.
 | `enricher/` | `enrich.py`: tops up extracted records with synthetic rate/budget, seniority and availability, and a SkillsFuture sector/track, for the ranker; see `enricher/README.md` |
 | `labeller/` | `label.py`: zero-shot relevance scoring of gig/provider pairs ([Zhuang et al., 2023](https://arxiv.org/abs/2310.14122)); `judge_pools.py`: grades the ranker's judging pools into training labels; `grade_pairs.py`: grades gig/provider pairs of the platform sample format on a 0-3 content-fit rubric; `evaluate.py`; `experiments/`; see `labeller/README.md` |
 | `monitor/` | `dashboard.py`: local dashboard at http://localhost:8765 |
-| `marcus/` | The original (legacy) pipeline, kept for reference; `marcus/README.md` maps each script to its replacement |
+| `archive/` | The original (legacy) pipeline, kept for reference; `archive/README.md` maps each script to its replacement |
 | `data/pages/` | Crawled pages: `unprocessed/` until classified, then one folder per label |
 | `data/manifests/` | One progress record per page or call, per stage: `classify.jsonl`, `industry.jsonl`, `extract.jsonl`, `enrich.jsonl`, `relevance_labels.jsonl`, `gig_grades.jsonl`, plus the crawl's `crawl_state.json` and `crawl_report.md` |
 | `data/output/` | The datasets: `providers.*`, `hirers.*`, `relevance_scores.csv`, `gig_grades.csv`, `platform_sample/`, `crafted_gigs/` (30 hand-written gigs) |

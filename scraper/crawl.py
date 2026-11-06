@@ -337,9 +337,9 @@ async def main():
     parser.add_argument("--end", type=int, default=None, help="end index (exclusive) into seed list")
     parser.add_argument(
         "--force", action="store_true",
-        help="crawl a seed even if its domain already has saved pages from a prior run "
-             "(default: skip it -- a single deep crawl now covers a domain broadly, so "
-             "reruns are incremental by default rather than re-fetching everything)",
+        help="crawl a seed even if that seed already saved pages in a prior run "
+             "(default: skip it, so reruns are incremental rather than re-fetching everything). "
+             "Seeds are matched by (label, url), so one domain can have several seeds",
     )
     parser.add_argument(
         "--concurrency", type=int, default=1,

@@ -89,6 +89,7 @@ client = OpenAI(
     base_url=os.environ["SOCLAAS_BASE_URL"],
     api_key=os.environ["SOCLAAS_API_KEY"],
     timeout=50,
+    max_retries=0,  # complete() is the only retry loop
 )
 
 

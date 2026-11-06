@@ -63,31 +63,30 @@ demonstrate that a narrow/single generative source compounds its own idiosyncras
 distributional coverage over repeated generation. Schaffelder & Gatt, ["Synthetic Eggs in Many
 Baskets: The Impact of Synthetic Data Diversity on LLM
 Fine-Tuning"](https://arxiv.org/abs/2511.01490) (Findings of ACL 2026, arXiv:2511.01490) show
-the direct mitigation implemented here: synthetic data drawn from **multiple source models**
+the mitigation the model pool follows: synthetic data drawn from **multiple source models**
 measurably mitigates distribution collapse and reduces self-preference bias versus single-source
 synthetic data.
 
-**`MODEL_POOL`** is every usable distinct chat model SOCLAAS serves (`client.models.list()`),
-widened from the original three so each model's performance can be compared on the same corpus:
-`llama3.1:8b`, `qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`.
+**`MODEL_POOL`** is three of the chat models SOCLAAS serves (`client.models.list()`):
+`qwen3.8:27b`, `qwen3.6:35b`, `qwen3-vl:32b`. `llama3.1:8b` was in the pool for a time and was
+dropped: it ignored the anonymisation rules and copied prompt examples.
 Left out: `ornith1.5:35b` (the original model, dropped at the team's request), `bge-m3` (embeddings), `whisper-large-v3` (audio), `qwen3-coder-next`
 (code-specialised), `gemma4:26b` (can't switch thinking off; ~30-45s per extraction), aliases that would
 count a model twice (`default`, `coding`, `advanced-vision`, `test`, `ornith1.0:35b`, and
 `qwen3.6:27b` -- now an alias of `qwen3.8:27b`, so older records labelled `qwen3.6:27b` came
 from that model), and `qwen3.5:9b`, which can't have "thinking" switched off and so takes ~75s
 per extraction -- right at SOCLAAS's gateway cutoff, so its calls 502 whatever the client
-timeout. The earlier three-model pool deliberately picked three distinct families; the wider
-pool spans only two families (Meta and Qwen; 3 of 4 are Qwen), trading much of that diversity away.
+timeout.
 **`extract.py` and `industry.py` now switch thinking OFF** (`chat_template_kwargs.enable_thinking=False`),
 as `labeller/label.py` always has; `classify.py` still leaves it on. The 180s timeout is unchanged.
-The labeller keeps its own copy of the same four models (see below).
+The enricher and the labeller (`label.py`, `grade_pairs.py`) keep their own copies of the same three models.
 
 Thinking was left on deliberately at first, but the cost turned out to sit almost entirely on one
 model. `qwen3.8:27b` reasoned on **100%** of its extract calls, emitting a median **11,832**
-completion tokens against ~350 for the other three, at a median **171.2s** per record versus
+completion tokens against ~350 for the other pool models, at a median **171.2s** per record versus
 4.0-10.8s (p90 378s, max 734s -- one observed call ran **611.7s** for a single record). Routed a
 quarter of all files, it was ~85-90% of total extraction wall clock. With thinking off it runs a
-median **6.0s / 406 tokens** -- and the other three models are unaffected either way
+median **6.0s / 406 tokens** -- and the other pool models are unaffected either way
 (`qwen3.6:35b`: 1.4s on, 2.4s off).
 
 The quality check has now been run on 21 Sep, comparing the ON era (records before 20 Sep 19:00)
@@ -155,7 +154,7 @@ the source of truth: prompt field lists are generated from them and every LLM re
 validated against them (`jsonschema`); a mismatch is retried, never written. `source_file` and
 `extracted_by_model` are filled in by code. Providers and hirers share one code path; the
 difference is the prompts and `ENTITY_CONFIG`:
-- **Hirer** (one pass, from a teammate's `gig.py`): reframes a case study as the gig its original
+- **Hirer** (one pass, from the legacy `archive/gig.py`): reframes a case study as the gig its original
   hirer could have posted, grounded in the source, never naming the real company in the gig text.
   The shape follows the client's own 30 test gigs (`labeller/experiments/gold.json` /
   `client_testset/gigs.csv`):
@@ -172,7 +171,7 @@ difference is the prompts and `ENTITY_CONFIG`:
     and under 12 months, and flags a gig that is too big.
   - On a 10-page dry run: every gig had both lines, durations from 4 weeks to 8 months, 59-110
     words, and all were kept by review.
-- **Provider** (two passes, from a teammate's `showcase.py`): neutral fact extraction, then a
+- **Provider** (two passes, from the legacy `archive/showcase.py`): neutral fact extraction, then a
   first-person restyle, so styling can't add facts. The page is anonymised first (spaCy name
   masking, required, plus gendered-pronoun neutralisation).
 - **Anonymisation** (both types): the prompts replace company, client, division and team names with
@@ -180,14 +179,14 @@ difference is the prompts and `ENTITY_CONFIG`:
   the model reads them; and a record whose shown text names the page's publisher (its domain or a
   known alias, `PUBLISHER_ALIASES`) is rejected and retried. `source_company`/`source_company_team`
   are metadata and may name it.
-- **Hirer review + repair** (from the teammate's `review_gig_content.py` + `gig_repair.py`): before
+- **Hirer review + repair** (from the legacy `archive/review_gig_content.py` + `gig_repair.py`): before
   a hirer row is written, a *different* pool model (`llm_pool.reviewer_for_file`, never the
   extractor, to avoid self-preference) checks it against the source and answers keep/retry,
   flagging only clear defects (unsupported scope, catch-all roles, invented requirements). On
   retry the extractor redoes its pass once with the reviewer's reason and its previous record
   (`prompts/review_hirer.md`, `prompts/repair_hirer.md`); the same reviewer checks the rewrite
   once more, and one that's still flagged is rejected. The verdict is
-  stored in `extract_manifest.jsonl`. The teammate's `collect_gig_retries.py` and
+  stored in `extract_manifest.jsonl`. The legacy `collect_gig_retries.py` and
   `combine_gig_manifests.py` aren't ported: schema validation + retries already keep malformed
   records out, and there's a single append-only manifest.
 Either prompt returns `{}` for a non-qualifying page (recorded as rejected). Per-file style rolls

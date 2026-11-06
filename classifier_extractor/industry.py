@@ -57,7 +57,7 @@ BUCKET_DIRS = {
 }
 DEFAULT_LABELS = ("PROVIDER", "HIRER", "UNCERTAIN")
 
-MAX_CHARS = 24000  # same cap as classify.py/extract.py; truncation is from the front
+MAX_CHARS = 24000  # same cap as classify.py/extract.py; the first MAX_CHARS characters are kept
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 2  # doubles each retry: 2s, 4s
 MAX_CONSECUTIVE_ERRORS = 5
