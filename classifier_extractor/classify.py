@@ -68,14 +68,13 @@ client = OpenAI(
 )
 # No single MODEL constant: llm_pool.model_for_file() picks one of MODEL_POOL per page.
 
-# The prompt text lives in prompts/classify_triage.md, so editing it is not a code change.
+# The prompt text lives in prompts/classify_triage.md
 TRIAGE_PROMPT = (PROMPTS_DIR / "classify_triage.md").read_text(encoding="utf-8").strip()
 
 
 def parse_label(raw_output: str) -> dict:
-    """Pull {label, reason} out of the model's response. Never raises --
-    anything that doesn't parse cleanly gets routed to UNCERTAIN for manual
-    review, same as archive/triage.py."""
+    """Pull {label, reason} out of the model's response. Items that
+    do not parse cleanly are routed to UNCERTAIN for manual review."""
     text = raw_output.strip()
     if text.startswith("```"):
         text = text.strip("`")
@@ -110,10 +109,9 @@ def _call_llm(text: str, model: str) -> tuple:
 
 
 def classify_page(text: str, model: str) -> tuple:
-    """Classify with retries for transient failures (rate limits, timeouts). Raises only once
-    MAX_RETRIES attempts all fail; callers treat that as a hard error, not UNCERTAIN, since the
-    classifier failed rather than the page being ambiguous. `model` is fixed across retries,
-    because switching would break llm_pool's deterministic file->model assignment."""
+    """Classify with retries for transient failures (rate limits, timeouts). Raises only when
+    MAX_RETRIES attempts all fail; callers treat that as a hard error where the classifier failed.
+    `model` is fixed across retries so the same page always goes to the same model."""
     last_err = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -181,7 +179,7 @@ def main():
     parser.add_argument(
         "--watch", action="store_true",
         help="keep running after the initial backlog is classified, checking for and "
-             "classifying new files as they appear -- for running alongside a still-active "
+             "classifying new files as they appear; for running alongside a still-active "
              "crawl.py instead of waiting for it to finish first",
     )
     parser.add_argument(

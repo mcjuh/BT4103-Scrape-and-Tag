@@ -756,7 +756,7 @@ def localise_provider(doc: dict, extract_call, kwargs: dict) -> tuple:
 def tag_record(entity_type: str, doc: dict, fname: str) -> tuple:
     """SkillsFuture tags for a finished record, read from its own text (the ranker compares gig
     tags with provider tags, so they must describe the records it sees). Two calls to one
-    model, chosen by file name with its own stage salt:
+    model, chosen deterministically for that file in the tagging stage:
       1. category + specialisation (sector + track pairs, at most 3 tracks in 2 sectors),
       2. skills from the chosen tracks' own lists (taxonomy.skills_block), 1-8.
     Returns (the record's `tags` block, meta). `categories` is empty when the record fits no

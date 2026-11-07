@@ -13,8 +13,8 @@ balanced across industries first.
 
 Reads data/manifests/classify.jsonl and appends one record per page to
 data/manifests/industry.jsonl. Pages are not moved. Only PROVIDER, HIRER
-and UNCERTAIN pages are tagged unless --include-ignore is given. Each file
-goes to one pool model (llm_pool.model_for_file, salt "industry").
+and UNCERTAIN pages are tagged unless --include-ignore arg is given. Each file
+goes to one pool model, chosen deterministically for that file.
 
     python classifier_extractor/industry.py --workers 4 --rps 1
     python classifier_extractor/industry.py --report
